@@ -1,0 +1,2477 @@
+{
+  "heroId": "npc_dota_hero_morphling",
+  "sourceHeroId": "npc_dota_hero_morphling",
+  "variantId": "default",
+  "heroName": "Morphling",
+  "heroSlug": "morphling",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/morphling.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_morphling/2eff729ab6e7/models/heroes/morphling/morphling.glb"
+  ],
+  "defaultSlots": [],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_morphling:item-model:5442:ancient-armor-arms",
+      "itemId": 5442,
+      "name": "Ancient Armor Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1851224d40bb/models/items/morphling/ancient_armor_arms/ancient_armor_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/1851224d40bb/models/items/morphling/ancient_armor_arms/ancient_armor_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/ancient_armor_arms/ancient_armor_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_armor_arms-53b4f51d75c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1851224d40bb/models/items/morphling/ancient_armor_arms/ancient_armor_arms_color_tga_cc063435.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4574:arms-fallingtails",
+      "itemId": 4574,
+      "name": "Armlets of the Falling Comet",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/fea3a8186a90/models/items/morphling/arms_fallingtails/arms_fallingtails.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/fea3a8186a90/models/items/morphling/arms_fallingtails/arms_fallingtails.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/arms_fallingtails/arms_fallingtails.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_fallingtails-c38d916e8944.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/fea3a8186a90/models/items/morphling/arms_fallingtails/arms_fallingtails_color_tga_ba0ff130.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4481:birots-bracers-of-dignity",
+      "itemId": 4481,
+      "name": "Birots Bracers of Dignity",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b5a2b3bc7dcb/models/items/morphling/birots_bracers_of_dignity/birots_bracers_of_dignity.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/b5a2b3bc7dcb/models/items/morphling/birots_bracers_of_dignity/birots_bracers_of_dignity.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/birots_bracers_of_dignity/birots_bracers_of_dignity.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/birots_bracers_of_dignity-1eb467c8a4a8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b5a2b3bc7dcb/models/items/morphling/birots_bracers_of_dignity/birots_bracers_of_dignity_color_tga_544e55b9.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:6833:ethereal-blade",
+      "itemId": 6833,
+      "name": "Blade of Tears",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/a03630936c8c/models/items/morphling/ethereal_blade/ethereal_blade.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/a03630936c8c/models/items/morphling/ethereal_blade/ethereal_blade.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/ethereal_blade/ethereal_blade.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ethereal_blade-344a55ac1f03.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/a03630936c8c/models/items/morphling/ethereal_blade/morphling_ethereal_blade_skull_color_psd_8a0151df.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/morphling/ethereal_blade/ethereal_blade.vmdl",
+        "modelPaths": [
+          "models/items/morphling/ethereal_blade/ethereal_blade.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/morphling/morphling_ethereal/morphling_adaptive_strike_ethereal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/morphling/morphling_ethereal/morphling_ethereal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_morphling/morphling_adaptive_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4422:bracer-general",
+      "itemId": 4422,
+      "name": "Bracers of Polymorphia",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1d8bdc3dd71c/models/items/morphling/bracer_general/bracer_general.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/1d8bdc3dd71c/models/items/morphling/bracer_general/bracer_general.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/bracer_general/bracer_general.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer_general-6d2214b417bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1d8bdc3dd71c/models/items/morphling/bracer_general/bracer_general_color_tga_2c36ce99.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7562:skadi-rising-arms",
+      "itemId": 7562,
+      "name": "Bracers of the Lost Star",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/2558cf4bcc3a/models/items/morphling/skadi_rising_arms/skadi_rising_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/2558cf4bcc3a/models/items/morphling/skadi_rising_arms/skadi_rising_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/skadi_rising_arms/skadi_rising_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skadi_rising_arms-4f4d79482b38.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/2558cf4bcc3a/models/items/morphling/skadi_rising_arms/skadi_rising_arms_color_tga_27c6e48a.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:8809:emperor-of-the-sea-arms",
+      "itemId": 8809,
+      "name": "Bracers of the Protean Emperor",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/431ab6a3214d/models/items/morphling/emperor_of_the_sea_arms/emperor_of_the_sea_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/431ab6a3214d/models/items/morphling/emperor_of_the_sea_arms/emperor_of_the_sea_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/emperor_of_the_sea_arms/emperor_of_the_sea_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperor_of_the_sea_arms-29bfc12fc3f5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/431ab6a3214d/models/items/morphling/emperor_of_the_sea_arms/emperor_of_the_sea_arms_color_tga_63a6f7ed.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:19166:abyss-overlord-arms",
+      "itemId": 19166,
+      "name": "Darktrench Stalker  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/78dc88c6c729/models/items/morphling/abyss_overlord_arms/abyss_overlord_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/78dc88c6c729/models/items/morphling/abyss_overlord_arms/abyss_overlord_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/abyss_overlord_arms/abyss_overlord_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abyss_overlord_arms-528cdf16b827.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/78dc88c6c729/models/items/morphling/abyss_overlord_arms/abyss_overlord_arms_color_tga_60841a6e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/morphling/abyss_overlord_arms/abyss_overlord_arms.vmdl",
+        "modelPaths": [
+          "models/items/morphling/abyss_overlord_arms/abyss_overlord_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/morphling/morph_abyss_overlord/morph_abyss_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4373:direstone-arms",
+      "itemId": 4373,
+      "name": "Direstone Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/24341139f38b/models/items/morphling/direstone_arms/direstone_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/24341139f38b/models/items/morphling/direstone_arms/direstone_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/direstone_arms/direstone_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/direstone_arms-3b6903946066.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/24341139f38b/models/items/morphling/direstone_arms/direstone_arms_color_tga_24f0ce1.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7691:armor-of-pure-absorption-arms",
+      "itemId": 7691,
+      "name": "Drift of the Roiling Surge",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/67617fb12e29/models/items/morphling/armor_of_pure_absorption_arms/armor_of_pure_absorption_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/67617fb12e29/models/items/morphling/armor_of_pure_absorption_arms/armor_of_pure_absorption_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/armor_of_pure_absorption_arms/armor_of_pure_absorption_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_pure_absorption_arms-ea8e65fafb2f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/67617fb12e29/models/items/morphling/armor_of_pure_absorption_arms/armor_of_pure_absorption_arms_color_tga_4ddbd1a9.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:33036:tritons-revenge-arms",
+      "itemId": 33036,
+      "name": "Fluid Frenzy  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c399a14117ce/models/items/morphling/tritons_revenge_arms/tritons_revenge_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/c399a14117ce/models/items/morphling/tritons_revenge_arms/tritons_revenge_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/tritons_revenge_arms/tritons_revenge_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tritons_revenge_arms-60bd54570177.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c399a14117ce/models/items/morphling/tritons_revenge_arms/tritons_revenge_arms_color_tga_62756cb.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4433:frost-shard-armlets",
+      "itemId": 4433,
+      "name": "Frost Shard Armlets",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/9d174dc1a9fb/models/items/morphling/frost_shard_armlets/frost_shard_armlets.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/9d174dc1a9fb/models/items/morphling/frost_shard_armlets/frost_shard_armlets.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/frost_shard_armlets/frost_shard_armlets.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frost_shard_armlets-a704bc35a157.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/9d174dc1a9fb/models/items/morphling/frost_shard_armlets/frost_shard_armlets_color_tga_bef8e301.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5343:gift-of-the-sea-arms",
+      "itemId": 5343,
+      "name": "Gift of the Sea Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/116d44fa8e39/models/items/morphling/gift_of_the_sea_arms/gift_of_the_sea_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/116d44fa8e39/models/items/morphling/gift_of_the_sea_arms/gift_of_the_sea_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/gift_of_the_sea_arms/gift_of_the_sea_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gift_of_the_sea_arms-44bc2617e7df.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/116d44fa8e39/models/items/morphling/gift_of_the_sea_arms/gift_of_the_sea_arms_color_tga_592f971.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4260:bracer-radiant",
+      "itemId": 4260,
+      "name": "Radiant Crystal Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/6d056f247fdc/models/items/morphling/bracer_radiant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/6d056f247fdc/models/items/morphling/bracer_radiant.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/bracer_radiant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer_radiant-9ec254209467.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/6d056f247fdc/models/items/morphling/bracer_radiant_crystal_color_tga_a4a37e2a.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:25006:morphling-water-dragon-arms",
+      "itemId": 25006,
+      "name": "Reflection of the Surging Stream  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0e43bebaefba/models/items/morphling/morphling_water_dragon_arms/morphling_water_dragon_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/0e43bebaefba/models/items/morphling/morphling_water_dragon_arms/morphling_water_dragon_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/morphling_water_dragon_arms/morphling_water_dragon_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/morphling_water_dragon_arms-836278fb3bcf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0e43bebaefba/models/items/morphling/morphling_water_dragon_arms/morphling_water_dragon_arms_color_psd_4358becd.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7722:renewed-jade-comet-arms",
+      "itemId": 7722,
+      "name": "Stellar Jade Beads",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/23d17c001d11/models/items/morphling/renewed_jade_comet_arms/renewed_jade_comet_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/23d17c001d11/models/items/morphling/renewed_jade_comet_arms/renewed_jade_comet_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/renewed_jade_comet_arms/renewed_jade_comet_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/renewed_jade_comet_arms-7a3f7b032ba6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/23d17c001d11/models/items/morphling/renewed_jade_comet_arms/renewed_jade_comet_arms_color_tga_4e3b018c.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5128:dreadful-abyss-arms",
+      "itemId": 5128,
+      "name": "Thrashers of the Dreadful Abyss",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/48be33c1bac0/models/items/morphling/dreadful_abyss_arms/dreadful_abyss_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/48be33c1bac0/models/items/morphling/dreadful_abyss_arms/dreadful_abyss_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/dreadful_abyss_arms/dreadful_abyss_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dreadful_abyss_arms-424aa6ac102b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/48be33c1bac0/models/items/morphling/dreadful_abyss_arms/dreadful_abyss_arms_color_tga_b1b1c2c.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5443:ancient-armor-back",
+      "itemId": 5443,
+      "name": "Ancient Armor Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c4728380a33b/models/items/morphling/ancient_armor_back/ancient_armor_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/c4728380a33b/models/items/morphling/ancient_armor_back/ancient_armor_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/ancient_armor_back/ancient_armor_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_armor_back-71afd6ff3ade.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c4728380a33b/models/items/morphling/ancient_armor_back/ancient_armor_back_color_tga_dca26632.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4403:guard-general",
+      "itemId": 4403,
+      "name": "Crests of Polymorphia",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/58dd16aa1a00/models/items/morphling/guard_general/guard_general.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/58dd16aa1a00/models/items/morphling/guard_general/guard_general.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/guard_general/guard_general.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guard_general-9ff903a5161a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/58dd16aa1a00/models/items/morphling/guard_general/guard_general_color_tga_88970771.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:19163:abyss-overlord-back",
+      "itemId": 19163,
+      "name": "Darktrench Stalker  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f13c773499f8/models/items/morphling/abyss_overlord_back/abyss_overlord_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/f13c773499f8/models/items/morphling/abyss_overlord_back/abyss_overlord_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/abyss_overlord_back/abyss_overlord_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abyss_overlord_back-d5ddafd8b591.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f13c773499f8/models/items/morphling/abyss_overlord_back/abyss_overlord_back_color_tga_877610f2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/morphling/abyss_overlord_back/abyss_overlord_back.vmdl",
+        "modelPaths": [
+          "models/items/morphling/abyss_overlord_back/abyss_overlord_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/morphling/morph_abyss_overlord/morph_abyss_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4369:direstone-back",
+      "itemId": 4369,
+      "name": "Direstone Crests",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b5940128e7f4/models/items/morphling/direstone_back/direstone_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/b5940128e7f4/models/items/morphling/direstone_back/direstone_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/direstone_back/direstone_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/direstone_back-e79b1238ab08.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b5940128e7f4/models/items/morphling/direstone_back/direstone_back_color_tga_e64e9d95.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7559:skadi-rising-back",
+      "itemId": 7559,
+      "name": "Eye of the Lost Star",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/55c80bbbd793/models/items/morphling/skadi_rising_back/skadi_rising_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/55c80bbbd793/models/items/morphling/skadi_rising_back/skadi_rising_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/skadi_rising_back/skadi_rising_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skadi_rising_back-99c2e5d4c736.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/55c80bbbd793/models/items/morphling/skadi_rising_back/skadi_rising_back_color_tga_99355221.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:33038:tritons-revenge-back",
+      "itemId": 33038,
+      "name": "Fluid Frenzy  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/830cf33d4ca3/models/items/morphling/tritons_revenge_back/tritons_revenge_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/830cf33d4ca3/models/items/morphling/tritons_revenge_back/tritons_revenge_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/tritons_revenge_back/tritons_revenge_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tritons_revenge_back-2610e66fe4eb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/830cf33d4ca3/models/items/morphling/tritons_revenge_back/tritons_revenge_back_color_tga_29ce9a7a.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5363:gift-of-the-sea-top-fin",
+      "itemId": 5363,
+      "name": "Gift of the Sea Dorsal Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/cfceca159c30/models/items/morphling/gift_of_the_sea_top_fin/gift_of_the_sea_top_fin.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/cfceca159c30/models/items/morphling/gift_of_the_sea_top_fin/gift_of_the_sea_top_fin.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/gift_of_the_sea_top_fin/gift_of_the_sea_top_fin.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gift_of_the_sea_top_fin-4a7e8c093720.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/cfceca159c30/models/items/morphling/gift_of_the_sea_top_fin/gift_of_the_sea_top_fin_color_tga_e569b17a.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4263:back-radiant",
+      "itemId": 4263,
+      "name": "Radiant Crystal Crests",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/be382a87a6d3/models/items/morphling/back_radiant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/be382a87a6d3/models/items/morphling/back_radiant.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/back_radiant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/back_radiant-79bef688bfc8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/be382a87a6d3/models/items/morphling/back_radiant_crystal_color_tga_34710b1b.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:25007:morphling-water-dragon-back",
+      "itemId": 25007,
+      "name": "Reflection of the Surging Stream  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/265fd28b9e82/models/items/morphling/morphling_water_dragon_back/morphling_water_dragon_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/265fd28b9e82/models/items/morphling/morphling_water_dragon_back/morphling_water_dragon_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/morphling_water_dragon_back/morphling_water_dragon_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/morphling_water_dragon_back-f6112fff0084.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/265fd28b9e82/models/items/morphling/morphling_water_dragon_back/morphling_water_dragon_back_color_psd_ffb61edb.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:8810:emperor-of-the-sea-back",
+      "itemId": 8810,
+      "name": "Spikes of the Protean Emperor",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/041d6b89801c/models/items/morphling/emperor_of_the_sea_back/emperor_of_the_sea_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/041d6b89801c/models/items/morphling/emperor_of_the_sea_back/emperor_of_the_sea_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/emperor_of_the_sea_back/emperor_of_the_sea_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperor_of_the_sea_back-4808856a9ef9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/041d6b89801c/models/items/morphling/emperor_of_the_sea_back/emperor_of_the_sea_back_color_tga_f11027a3.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5150:dreadful-abyss-back",
+      "itemId": 5150,
+      "name": "Spines of the Dreadful Abyss",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/dc28f283a581/models/items/morphling/dreadful_abyss_back/dreadful_abyss_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/dc28f283a581/models/items/morphling/dreadful_abyss_back/dreadful_abyss_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/dreadful_abyss_back/dreadful_abyss_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dreadful_abyss_back-bcf1ca6b1f94.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/dc28f283a581/models/items/morphling/dreadful_abyss_back/dreadful_abyss_back_color_tga_9148e7b5.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7723:renewed-jade-comet-back",
+      "itemId": 7723,
+      "name": "Stellar Jade Crest",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/60cb640fcf76/models/items/morphling/renewed_jade_comet_back/renewed_jade_comet_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/60cb640fcf76/models/items/morphling/renewed_jade_comet_back/renewed_jade_comet_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/renewed_jade_comet_back/renewed_jade_comet_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/renewed_jade_comet_back-cfe40e2edee2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/60cb640fcf76/models/items/morphling/renewed_jade_comet_back/renewed_jade_comet_back_color_tga_3df399ce.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7690:armor-of-pure-absorption-back",
+      "itemId": 7690,
+      "name": "Swell of the Roiling Surge",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/07e0bd27393a/models/items/morphling/armor_of_pure_absorption_back/armor_of_pure_absorption_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/07e0bd27393a/models/items/morphling/armor_of_pure_absorption_back/armor_of_pure_absorption_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/armor_of_pure_absorption_back/armor_of_pure_absorption_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_pure_absorption_back-2f5ba8df1d64.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/07e0bd27393a/models/items/morphling/armor_of_pure_absorption_back/armor_of_pure_absorption_back_color_tga_bf1901e.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5445:ancient-armor-head",
+      "itemId": 5445,
+      "name": "Ancient Armor Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/bfd5a2f521b0/models/items/morphling/ancient_armor_head/ancient_armor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/bfd5a2f521b0/models/items/morphling/ancient_armor_head/ancient_armor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/ancient_armor_head/ancient_armor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_armor_head-35f127135b6b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/bfd5a2f521b0/models/items/morphling/ancient_armor_head/ancient_armor_head_color_tga_803c402a.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4536:birots-helm",
+      "itemId": 4536,
+      "name": "Birots Helm of Dignity",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/2972935704ff/models/items/morphling/birots_helm/birots_helm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/2972935704ff/models/items/morphling/birots_helm/birots_helm.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/birots_helm/birots_helm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/birots_helm-ebeaa973f32c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/2972935704ff/models/items/morphling/birots_helm/birots_helm_color_tga_dc163c72.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7689:armor-of-pure-absorption-head",
+      "itemId": 7689,
+      "name": "Crest of the Roiling Surge",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b39aa21be9bc/models/items/morphling/armor_of_pure_absorption_head/armor_of_pure_absorption_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/b39aa21be9bc/models/items/morphling/armor_of_pure_absorption_head/armor_of_pure_absorption_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/armor_of_pure_absorption_head/armor_of_pure_absorption_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_pure_absorption_head-1d92c6745d59.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b39aa21be9bc/models/items/morphling/armor_of_pure_absorption_head/armor_of_pure_absorption_head_color_tga_c87a933.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4404:crown-general",
+      "itemId": 4404,
+      "name": "Crown of Polymorphia",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/4e775ea02c3f/models/items/morphling/crown_general/crown_general.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/4e775ea02c3f/models/items/morphling/crown_general/crown_general.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/crown_general/crown_general.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crown_general-b41fefeec09b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/4e775ea02c3f/models/items/morphling/crown_general/crown_general_color_tga_440bbc3e.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7603:crown-of-tears-model",
+      "itemId": 7603,
+      "name": "Crown of Tears",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1138298d9541/models/items/morphling/crown_of_tears/mesh/crown_of_tears_model.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/1138298d9541/models/items/morphling/crown_of_tears/mesh/crown_of_tears_model.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/crown_of_tears/mesh/crown_of_tears_model.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crown_of_tears_model-80d9205b123c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1138298d9541/models/items/morphling/crown_of_tears/mesh/crown_of_tears_additive_color_psd_bcf30807.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/morphling/crown_of_tears/mesh/crown_of_tears_model.vmdl",
+        "modelPaths": [
+          "models/items/morphling/crown_of_tears/mesh/crown_of_tears_model.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/morphling/morphling_crown_of_tears/morphling_crown_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/morphling/morphling_crown_of_tears/morphling_crown_waveform.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/morphling/morphling_crown_of_tears/morphling_crown_waveform_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_morphling/morphling_waveform.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_morphling/morphling_waveform_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4348:crown-comets-tail",
+      "itemId": 4348,
+      "name": "Crown of the Comets Tail",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/56d567cf518f/models/items/morphling/crown_comets_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/56d567cf518f/models/items/morphling/crown_comets_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/crown_comets_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crown_comets_tail-24670aa351ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/56d567cf518f/models/items/morphling/crownoftrail_color_tga_4a202a0d.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4537:head-fallingtails",
+      "itemId": 4537,
+      "name": "Crown of the Falling Comet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f5318dfb457f/models/items/morphling/head_fallingtails/head_fallingtails.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/f5318dfb457f/models/items/morphling/head_fallingtails/head_fallingtails.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/head_fallingtails/head_fallingtails.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_fallingtails-47ad9c799a98.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f5318dfb457f/models/items/morphling/head_fallingtails/head_fallingtails_color_tga_eb5e2acb.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:8806:emperor-of-the-sea-head",
+      "itemId": 8806,
+      "name": "Crown of the Protean Emperor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/fb551b862b0b/models/items/morphling/emperor_of_the_sea_head/emperor_of_the_sea_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/fb551b862b0b/models/items/morphling/emperor_of_the_sea_head/emperor_of_the_sea_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/emperor_of_the_sea_head/emperor_of_the_sea_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperor_of_the_sea_head-307893b89be9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/fb551b862b0b/models/items/morphling/emperor_of_the_sea_head/emperor_of_the_sea_head_color_tga_eb622284.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:19164:abyss-overlord-head",
+      "itemId": 19164,
+      "name": "Darktrench Stalker  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5de5dec5eebd/models/items/morphling/abyss_overlord_head/abyss_overlord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/5de5dec5eebd/models/items/morphling/abyss_overlord_head/abyss_overlord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/abyss_overlord_head/abyss_overlord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abyss_overlord_head-2ee9c2275978.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5de5dec5eebd/models/items/morphling/abyss_overlord_head/abyss_overlord_head_color_tga_7673f79.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/morphling/abyss_overlord_head/abyss_overlord_head.vmdl",
+        "modelPaths": [
+          "models/items/morphling/abyss_overlord_head/abyss_overlord_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/morphling/morph_abyss_overlord/morph_abyss_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4390:direstone-crown",
+      "itemId": 4390,
+      "name": "Direstone Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/34446362a26c/models/items/morphling/direstone_crown/direstone_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/34446362a26c/models/items/morphling/direstone_crown/direstone_crown.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/direstone_crown/direstone_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/direstone_crown-022600ef702d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/34446362a26c/models/items/morphling/direstone_crown/direstone_crown_color_tga_d8008e71.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:33035:tritons-revenge-head",
+      "itemId": 33035,
+      "name": "Fluid Frenzy  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/6c9f874c032e/models/items/morphling/tritons_revenge_head/tritons_revenge_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/6c9f874c032e/models/items/morphling/tritons_revenge_head/tritons_revenge_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/tritons_revenge_head/tritons_revenge_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tritons_revenge_head-7c0e98397557.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/6c9f874c032e/models/items/morphling/tritons_revenge_head/tritons_revenge_head_color_tga_82021067.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4428:frostshardcrown",
+      "itemId": 4428,
+      "name": "Frost Shard Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1a2cc3a6446e/models/items/morphling/frostshardcrown/frostshardcrown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/1a2cc3a6446e/models/items/morphling/frostshardcrown/frostshardcrown.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/frostshardcrown/frostshardcrown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostshardcrown-c08091da053c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/1a2cc3a6446e/models/items/morphling/frostshardcrown/frostshardcrown_color_tga_e19f8f18.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5358:gift-of-the-sea-head",
+      "itemId": 5358,
+      "name": "Gift of the Sea Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/88c4d82a53cc/models/items/morphling/gift_of_the_sea_head/gift_of_the_sea_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/88c4d82a53cc/models/items/morphling/gift_of_the_sea_head/gift_of_the_sea_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/gift_of_the_sea_head/gift_of_the_sea_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gift_of_the_sea_head-793dfae7e360.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/88c4d82a53cc/models/items/morphling/gift_of_the_sea_head/gift_of_the_sea_head_color_tga_7442b5a4.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4261:helmet-radiant",
+      "itemId": 4261,
+      "name": "Radiant Crystal Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/ab2a85a6b26e/models/items/morphling/helmet_radiant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/ab2a85a6b26e/models/items/morphling/helmet_radiant.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/helmet_radiant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helmet_radiant-5b5ebf2d3994.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/ab2a85a6b26e/models/items/morphling/head_radiant_crystal_color_tga_e1737c74.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:25275:morphling-water-dragon-head",
+      "itemId": 25275,
+      "name": "Reflection of the Surging Stream  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b5ede8cb5093/models/items/morphling/morphling_water_dragon_head/morphling_water_dragon_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/b5ede8cb5093/models/items/morphling/morphling_water_dragon_head/morphling_water_dragon_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/morphling_water_dragon_head/morphling_water_dragon_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/morphling_water_dragon_head-278fc2ae47e6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/b5ede8cb5093/models/items/morphling/morphling_water_dragon_head/morphling_water_dragon_head_color_png_d416f617.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7560:skadi-rising-head",
+      "itemId": 7560,
+      "name": "Scowl of the Lost Star",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/aea9eb905bc7/models/items/morphling/skadi_rising_head/skadi_rising_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/aea9eb905bc7/models/items/morphling/skadi_rising_head/skadi_rising_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/skadi_rising_head/skadi_rising_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skadi_rising_head-be0c3cb41e05.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/aea9eb905bc7/models/items/morphling/skadi_rising_head/skadi_rising_head_color_tga_3208c13b.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7724:renewed-jade-comet-head",
+      "itemId": 7724,
+      "name": "Stellar Jade Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0da610e16ccd/models/items/morphling/renewed_jade_comet_head/renewed_jade_comet_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/0da610e16ccd/models/items/morphling/renewed_jade_comet_head/renewed_jade_comet_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/renewed_jade_comet_head/renewed_jade_comet_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/renewed_jade_comet_head-727460fc26ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0da610e16ccd/models/items/morphling/renewed_jade_comet_head/renewed_jade_comet_head_color_tga_aa144245.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5129:dreadful-abyss-head",
+      "itemId": 5129,
+      "name": "Tendrils of the Dreadful Abyss",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/e4cc515840ca/models/items/morphling/dreadful_abyss_head/dreadful_abyss_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/e4cc515840ca/models/items/morphling/dreadful_abyss_head/dreadful_abyss_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/dreadful_abyss_head/dreadful_abyss_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dreadful_abyss_head-a9b57e83eddf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/e4cc515840ca/models/items/morphling/dreadful_abyss_head/dreadful_abyss_head_color_tga_33371073.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5444:ancient-armor-breastplates",
+      "itemId": 5444,
+      "name": "Ancient Armor Breastplates",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0b1c9c16f5e8/models/items/morphling/ancient_armor_breastplates/ancient_armor_breastplates.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/0b1c9c16f5e8/models/items/morphling/ancient_armor_breastplates/ancient_armor_breastplates.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/ancient_armor_breastplates/ancient_armor_breastplates.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_armor_breastplates-364ae0772039.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0b1c9c16f5e8/models/items/morphling/ancient_armor_breastplates/ancient_armor_breastplates_color_tga_e9eb8c26.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7688:armor-of-pure-absorption-misc",
+      "itemId": 7688,
+      "name": "Curl of the Roiling Surge",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/090fb3217012/models/items/morphling/armor_of_pure_absorption_misc/armor_of_pure_absorption_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/090fb3217012/models/items/morphling/armor_of_pure_absorption_misc/armor_of_pure_absorption_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/armor_of_pure_absorption_misc/armor_of_pure_absorption_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_pure_absorption_misc-11a0a69c86a8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/090fb3217012/models/items/morphling/armor_of_pure_absorption_misc/armor_of_pure_absorption_misc_color_tga_de2172a6.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:19167:abyss-overlord-misc",
+      "itemId": 19167,
+      "name": "Darktrench Stalker  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5f6f927547c3/models/items/morphling/abyss_overlord_misc/abyss_overlord_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/5f6f927547c3/models/items/morphling/abyss_overlord_misc/abyss_overlord_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/abyss_overlord_misc/abyss_overlord_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abyss_overlord_misc-c0e32bb47b27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5f6f927547c3/models/items/morphling/abyss_overlord_misc/abyss_overlord_misc_color_tga_126d2e8c.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:33037:tritons-revenge-misc",
+      "itemId": 33037,
+      "name": "Fluid Frenzy  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/9a25ae744d5b/models/items/morphling/tritons_revenge_misc/tritons_revenge_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/9a25ae744d5b/models/items/morphling/tritons_revenge_misc/tritons_revenge_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/tritons_revenge_misc/tritons_revenge_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tritons_revenge_misc-92b8794a5134.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/9a25ae744d5b/models/items/morphling/tritons_revenge_misc/tritons_revenge_misc_color_tga_4a8ca36f.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5356:gift-of-the-sea-fin",
+      "itemId": 5356,
+      "name": "Gift of the Sea Fin",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f3b0df86ba40/models/items/morphling/gift_of_the_sea_fin/gift_of_the_sea_fin.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/f3b0df86ba40/models/items/morphling/gift_of_the_sea_fin/gift_of_the_sea_fin.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/gift_of_the_sea_fin/gift_of_the_sea_fin.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gift_of_the_sea_fin-a9a2513f34c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f3b0df86ba40/models/items/morphling/gift_of_the_sea_fin/gift_of_the_sea_fin_color_tga_e29d91fd.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7558:skadi-rising-misc",
+      "itemId": 7558,
+      "name": "Grip of the Lost Star",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/95166f6812ad/models/items/morphling/skadi_rising_misc/skadi_rising_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/95166f6812ad/models/items/morphling/skadi_rising_misc/skadi_rising_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/skadi_rising_misc/skadi_rising_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skadi_rising_misc-f9be8ed84859.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/95166f6812ad/models/items/morphling/skadi_rising_misc/skadi_rising_misc_color_tga_55431fb9.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:8807:emperor-of-the-sea-misc",
+      "itemId": 8807,
+      "name": "Ornaments of the Protean Emperor",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/927172a7bb23/models/items/morphling/emperor_of_the_sea_misc/emperor_of_the_sea_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/927172a7bb23/models/items/morphling/emperor_of_the_sea_misc/emperor_of_the_sea_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/emperor_of_the_sea_misc/emperor_of_the_sea_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperor_of_the_sea_misc-7274735ac873.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/927172a7bb23/models/items/morphling/emperor_of_the_sea_misc/emperor_of_the_sea_misc_color_tga_b1b59191.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:25276:morphling-water-dragon-misc",
+      "itemId": 25276,
+      "name": "Reflection of the Surging Stream  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/17ce168d7a8d/models/items/morphling/morphling_water_dragon_misc/morphling_water_dragon_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/17ce168d7a8d/models/items/morphling/morphling_water_dragon_misc/morphling_water_dragon_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/morphling_water_dragon_misc/morphling_water_dragon_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/morphling_water_dragon_misc-cb8a0b1a053e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/17ce168d7a8d/models/items/morphling/morphling_water_dragon_misc/morphling_water_dragon_misc_color_png_21c355cc.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5446:ancient-armor-shoulders",
+      "itemId": 5446,
+      "name": "Ancient Armor Shoulder Shields",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/6e976b2bd42c/models/items/morphling/ancient_armor_shoulders/ancient_armor_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/6e976b2bd42c/models/items/morphling/ancient_armor_shoulders/ancient_armor_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/ancient_armor_shoulders/ancient_armor_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_armor_shoulders-b629ad09e6f8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/6e976b2bd42c/models/items/morphling/ancient_armor_shoulders/ancient_armor_shoulders_color_tga_34bbd43e.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4534:birots-shoulder-of-dignity",
+      "itemId": 4534,
+      "name": "Birots Crests of Dignity",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f50667a05441/models/items/morphling/birots_shoulder_of_dignity/birots_shoulder_of_dignity.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/f50667a05441/models/items/morphling/birots_shoulder_of_dignity/birots_shoulder_of_dignity.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/birots_shoulder_of_dignity/birots_shoulder_of_dignity.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/birots_shoulder_of_dignity-d2ce42bc8546.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f50667a05441/models/items/morphling/birots_shoulder_of_dignity/birots_shoulder_of_dignity_color_tga_953cae84.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4539:shoulder-tails",
+      "itemId": 4539,
+      "name": "Crests of the Falling Comet",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c8bb619aaf58/models/items/morphling/shoulder_tails/shoulder_tails.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/c8bb619aaf58/models/items/morphling/shoulder_tails/shoulder_tails.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/shoulder_tails/shoulder_tails.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_tails-b71b70aa8686.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c8bb619aaf58/models/items/morphling/shoulder_tails/shoulder_tails_color_tga_b87966e5.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:19168:abyss-overlord-shoulder",
+      "itemId": 19168,
+      "name": "Darktrench Stalker  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/d9bb02b5308b/models/items/morphling/abyss_overlord_shoulder/abyss_overlord_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/d9bb02b5308b/models/items/morphling/abyss_overlord_shoulder/abyss_overlord_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/abyss_overlord_shoulder/abyss_overlord_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abyss_overlord_shoulder-73dce150b974.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/d9bb02b5308b/models/items/morphling/abyss_overlord_shoulder/abyss_overlord_shoulder_color_tga_f063f663.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/morphling/abyss_overlord_shoulder/abyss_overlord_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/morphling/abyss_overlord_shoulder/abyss_overlord_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/morphling/morph_abyss_overlord/morph_abyss_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4394:direstone-shoulder",
+      "itemId": 4394,
+      "name": "Direstone Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/8a7d7eed5c05/models/items/morphling/direstone_shoulder/direstone_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/8a7d7eed5c05/models/items/morphling/direstone_shoulder/direstone_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/direstone_shoulder/direstone_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/direstone_shoulder-938e8b71f19e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/8a7d7eed5c05/models/items/morphling/direstone_shoulder/direstone_shoulder_color_tga_1904e2d2.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:33039:tritons-revenge-shoulders",
+      "itemId": 33039,
+      "name": "Fluid Frenzy  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5b8662bf21e6/models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/5b8662bf21e6/models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tritons_revenge_shoulders-738bca1fdfb4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5b8662bf21e6/models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders_color_tga_ec4a33c8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders_water.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_morphling/02ee9c5c729f/models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders_water.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/morphling/tritons_revenge_shoulders/tritons_revenge_shoulders_water.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/morphling/tritons_revenge/tritons_revenge_shoulders_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_morphling/morphling_ambient_new.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4429:frostshardpauldrons",
+      "itemId": 4429,
+      "name": "Frost Shard Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f757034567fc/models/items/morphling/frostshardpauldrons/frostshardpauldrons.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/f757034567fc/models/items/morphling/frostshardpauldrons/frostshardpauldrons.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/frostshardpauldrons/frostshardpauldrons.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostshardpauldrons-6ed448434027.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/f757034567fc/models/items/morphling/frostshardpauldrons/frostshardpauldrons_color_tga_e1d05998.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:5360:gift-of-the-sea-shoulders",
+      "itemId": 5360,
+      "name": "Gift of the Sea Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/a7af0d2922fe/models/items/morphling/gift_of_the_sea_shoulders/gift_of_the_sea_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/a7af0d2922fe/models/items/morphling/gift_of_the_sea_shoulders/gift_of_the_sea_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/gift_of_the_sea_shoulders/gift_of_the_sea_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gift_of_the_sea_shoulders-3d238f14e18d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/a7af0d2922fe/models/items/morphling/gift_of_the_sea_shoulders/gift_of_the_sea_shoulders_color_tga_ff5900ae.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4410:shoulder-general",
+      "itemId": 4410,
+      "name": "Pauldrons of Polymorphia",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5ba928398f32/models/items/morphling/shoulder_general/shoulder_general.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/5ba928398f32/models/items/morphling/shoulder_general/shoulder_general.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/shoulder_general/shoulder_general.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_general-c6dd22b6bc56.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/5ba928398f32/models/items/morphling/shoulder_general/shoulder_general_color_tga_46caebd7.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:8808:emperor-of-the-sea-shoulder",
+      "itemId": 8808,
+      "name": "Pauldrons of the Protean Emperor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/81802d874739/models/items/morphling/emperor_of_the_sea_shoulder/emperor_of_the_sea_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/81802d874739/models/items/morphling/emperor_of_the_sea_shoulder/emperor_of_the_sea_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/emperor_of_the_sea_shoulder/emperor_of_the_sea_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperor_of_the_sea_shoulder-6d47f14b387e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/81802d874739/models/items/morphling/emperor_of_the_sea_shoulder/emperor_of_the_sea_shoulder_color_psd_f04d04f5.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4262:shoulder-radiant",
+      "itemId": 4262,
+      "name": "Radiant Crystal Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/7045ef9acf61/models/items/morphling/shoulder_radiant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/7045ef9acf61/models/items/morphling/shoulder_radiant.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/shoulder_radiant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_radiant-ca0c1dd1f1c5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/7045ef9acf61/models/items/morphling/shoulder_radiant_crystal_color_tga_3a7be80f.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:25277:morphling-water-dragon-shoulder",
+      "itemId": 25277,
+      "name": "Reflection of the Surging Stream  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c6a8e6da0b4c/models/items/morphling/morphling_water_dragon_shoulder/morphling_water_dragon_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/c6a8e6da0b4c/models/items/morphling/morphling_water_dragon_shoulder/morphling_water_dragon_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/morphling_water_dragon_shoulder/morphling_water_dragon_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/morphling_water_dragon_shoulder-c083dac4ef05.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/c6a8e6da0b4c/models/items/morphling/morphling_water_dragon_shoulder/morphling_water_dragon_shoulder_color_psd_27dc0180.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:4296:shoulder-comets-tail",
+      "itemId": 4296,
+      "name": "Shoulders of the Comets Tail",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/e07f5b082c82/models/items/morphling/shoulder_comets_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/e07f5b082c82/models/items/morphling/shoulder_comets_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/shoulder_comets_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_comets_tail-11f8231a1203.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/e07f5b082c82/models/items/morphling/shoulder_comets_tail_color_tga_d37fbeda.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7561:skadi-rising-shoulders",
+      "itemId": 7561,
+      "name": "Spines of the Lost Star",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/fb461f56f492/models/items/morphling/skadi_rising_shoulders/skadi_rising_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/fb461f56f492/models/items/morphling/skadi_rising_shoulders/skadi_rising_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/skadi_rising_shoulders/skadi_rising_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skadi_rising_shoulders-17e21a100208.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/fb461f56f492/models/items/morphling/skadi_rising_shoulders/skadi_rising_shoulders_color_tga_e0fa9bfd.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7687:armor-of-pure-absorption-shoulder",
+      "itemId": 7687,
+      "name": "Spray of the Roiling Surge",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/af7a34d9b4b8/models/items/morphling/armor_of_pure_absorption_shoulder/armor_of_pure_absorption_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/af7a34d9b4b8/models/items/morphling/armor_of_pure_absorption_shoulder/armor_of_pure_absorption_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/armor_of_pure_absorption_shoulder/armor_of_pure_absorption_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_pure_absorption_shoulder-c093be1d1bab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/af7a34d9b4b8/models/items/morphling/armor_of_pure_absorption_shoulder/armor_of_pure_absorption_shoulder_color_tga_2d3f9bd5.png"
+    },
+    {
+      "id": "npc_dota_hero_morphling:item-model:7721:renewed-jade-comet-shoulder",
+      "itemId": 7721,
+      "name": "Stellar Jade Trails",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0508766ed5f3/models/items/morphling/renewed_jade_comet_shoulder/renewed_jade_comet_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_morphling/0508766ed5f3/models/items/morphling/renewed_jade_comet_shoulder/renewed_jade_comet_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/morphling/renewed_jade_comet_shoulder/renewed_jade_comet_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/renewed_jade_comet_shoulder-779f9c8ce0b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_morphling/0508766ed5f3/models/items/morphling/renewed_jade_comet_shoulder/renewed_jade_comet_shoulder_color_tga_d44d0b73.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_morphling:core-set:20260:ancient-armor-set",
+      "name": "Ancient Armor Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        5442,
+        5443,
+        5444,
+        5445,
+        5446
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ancient_armor_arms-53b4f51d75c4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20057:bindings-of-frost-set",
+      "name": "Bindings of Frost Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        576
+      ],
+      "sourceItemIds": [
+        4428,
+        4429,
+        4433
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/frostshardcrown-c08091da053c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20058:birots-bindings-set",
+      "name": "Birots Bindings Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        576
+      ],
+      "sourceItemIds": [
+        4481,
+        4534,
+        4536
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/birots_bracers_of_dignity-1eb467c8a4a8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:21843:darktrench-stalker",
+      "name": "Darktrench Stalker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        19163,
+        19164,
+        19166,
+        19167,
+        19168
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/abyss_overlord_ls-e0ea903390d0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20020:direstone-bindings-set",
+      "name": "Direstone Bindings Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576
+      ],
+      "sourceItemIds": [
+        4369,
+        4373,
+        4390,
+        4394
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/direstone_back-e79b1238ab08.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:33040:fluid-frenzy",
+      "name": "Fluid Frenzy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        33035,
+        33036,
+        33037,
+        33038,
+        33039
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/tritons_revenge_head-7c0e98397557.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20241:gift-of-the-sea-set",
+      "name": "Gift of the Sea Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        5343,
+        5356,
+        5358,
+        5360,
+        5363
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/gift_of_the_sea_arms-44bc2617e7df.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20199:luminary-of-the-dreadful-abyss-set",
+      "name": "Luminary of the Dreadful Abyss Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        575,
+        576
+      ],
+      "sourceItemIds": [
+        5128,
+        5129,
+        5150
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dreadful_abyss_arms-424aa6ac102b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20039:radiant-crystal-bindings-set",
+      "name": "Radiant Crystal Bindings Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576
+      ],
+      "sourceItemIds": [
+        4260,
+        4261,
+        4262,
+        4263
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/bracer_radiant-9ec254209467.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:25005:reflection-of-the-surging-stream",
+      "name": "Reflection of the Surging Stream",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        25006,
+        25007,
+        25275,
+        25276,
+        25277
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/morphling_water_dragon_arms-836278fb3bcf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20749:shard-of-the-lost-star",
+      "name": "Shard of the Lost Star",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        7558,
+        7559,
+        7560,
+        7561,
+        7562
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/skadi_rising_loading_screen-0d85276f237c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20056:shards-of-polymorphia-set",
+      "name": "Shards of Polymorphia Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576
+      ],
+      "sourceItemIds": [
+        4403,
+        4404,
+        4410,
+        4422
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/guard_general-9ff903a5161a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20059:shards-of-the-falling-comet-set",
+      "name": "Shards of the Falling Comet Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        576
+      ],
+      "sourceItemIds": [
+        4537,
+        4539,
+        4574
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/head_fallingtails-47ad9c799a98.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20978:splendor-of-the-protean-emperor",
+      "name": "Splendor of the Protean Emperor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        8806,
+        8807,
+        8808,
+        8809,
+        8810
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/emperor_of_the_sea_loading_screen-0d47efdfe754.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20762:stellar-jade",
+      "name": "Stellar Jade",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576
+      ],
+      "sourceItemIds": [
+        7721,
+        7722,
+        7723,
+        7724
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/renewed_jade_comet_loading_screen-afaf7f089b96.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_morphling:core-set:20896:the-roiling-surge",
+      "name": "The Roiling Surge",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "sourceItemIds": [
+        7687,
+        7688,
+        7689,
+        7690,
+        7691
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/armor_of_pure_absorption_loading_screen-a9aa68d41951.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 35397512,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 76
+  }
+}
