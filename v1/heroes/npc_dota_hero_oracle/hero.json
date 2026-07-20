@@ -1,0 +1,2179 @@
+{
+  "heroId": "npc_dota_hero_oracle",
+  "sourceHeroId": "npc_dota_hero_oracle",
+  "variantId": "default",
+  "heroName": "Oracle",
+  "heroSlug": "oracle",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/oracle.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_oracle/f10a01519ef3/models/heroes/oracle/oracle.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 546,
+      "name": "Oracles Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/f43e96b28898/models/heroes/oracle/armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/f43e96b28898/models/heroes/oracle/armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/f43e96b28898/models/heroes/oracle/armor_color_psd_f73dbcb4.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 547,
+      "name": "Oracles Back Item",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/69e45aaf33c7/models/heroes/oracle/back_item.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/69e45aaf33c7/models/heroes/oracle/back_item.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/back_item.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/69e45aaf33c7/models/heroes/oracle/back_item_color_psd_808e5d1a.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 548,
+      "name": "Oracles Head Item",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b159642cb8f7/models/heroes/oracle/head_item.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/b159642cb8f7/models/heroes/oracle/head_item.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/head_item.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b159642cb8f7/models/heroes/oracle/head_item_color_psd_70ed19c2.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 549,
+      "name": "Oracles Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/1b81a22ad450/models/heroes/oracle/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/1b81a22ad450/models/heroes/oracle/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/1b81a22ad450/models/heroes/oracle/weapon_color_psd_f9635ae4.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_oracle:item-model:12602:the-labyrinth-overseer-armor",
+      "itemId": 12602,
+      "name": "Armor of the Crystal Path",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/064a606d67f5/models/items/oracle/the_labyrinth_overseer_armor/the_labyrinth_overseer_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/064a606d67f5/models/items/oracle/the_labyrinth_overseer_armor/the_labyrinth_overseer_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/the_labyrinth_overseer_armor/the_labyrinth_overseer_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_labyrinth_overseer_armor-4cb6af68ee2d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/064a606d67f5/models/items/oracle/the_labyrinth_overseer_armor/the_labyrinth_overseer_armor_color_tga_d3c6d189.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/the_labyrinth_overseer_armor/the_labyrinth_overseer_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/the_labyrinth_overseer_armor/the_labyrinth_overseer_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:24156:armor-prophet-of-the-lost-constellation-v2",
+      "itemId": 24156,
+      "name": "Celestial Sight  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/67b8ce022f31/models/items/oracle/armor_prophet_of_the_lost_constellation_v2/armor_prophet_of_the_lost_constellation_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/67b8ce022f31/models/items/oracle/armor_prophet_of_the_lost_constellation_v2/armor_prophet_of_the_lost_constellation_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/armor_prophet_of_the_lost_constellation_v2/armor_prophet_of_the_lost_constellation_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_prophet_of_the_lost_constellation_v2-65775a634e61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/67b8ce022f31/models/items/oracle/armor_prophet_of_the_lost_constellation_v2/armor_prophet_of_the_lost_constellation_v2_color_tga_80945939.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/armor_prophet_of_the_lost_constellation_v2/armor_prophet_of_the_lost_constellation_v2.vmdl",
+        "modelPaths": [
+          "models/items/oracle/armor_prophet_of_the_lost_constellation_v2/armor_prophet_of_the_lost_constellation_v2.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13423:ti9-cache-oracle-grand-hierophant-armor",
+      "itemId": 13423,
+      "name": "Dress of the Hierophant",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/e69d06905418/models/items/oracle/ti9_cache_oracle_grand_hierophant_armor/ti9_cache_oracle_grand_hierophant_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/e69d06905418/models/items/oracle/ti9_cache_oracle_grand_hierophant_armor/ti9_cache_oracle_grand_hierophant_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_grand_hierophant_armor/ti9_cache_oracle_grand_hierophant_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_grand_hierophant_armor-74189c992615.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/e69d06905418/models/items/oracle/ti9_cache_oracle_grand_hierophant_armor/ti9_cache_oracle_grand_hierophant_armor_color_tga_a72bf3ac.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti9_cache_oracle_grand_hierophant_armor/ti9_cache_oracle_grand_hierophant_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti9_cache_oracle_grand_hierophant_armor/ti9_cache_oracle_grand_hierophant_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:14747:oracle-the-fate-fiddler-armor",
+      "itemId": 14747,
+      "name": "Eye of the Fateweaver Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/4a4b0fae48c0/models/items/oracle/oracle_the_fate_fiddler_armor/oracle_the_fate_fiddler_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/4a4b0fae48c0/models/items/oracle/oracle_the_fate_fiddler_armor/oracle_the_fate_fiddler_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_the_fate_fiddler_armor/oracle_the_fate_fiddler_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_the_fate_fiddler_armor-ca82351e211f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/4a4b0fae48c0/models/items/oracle/oracle_the_fate_fiddler_armor/oracle_the_fate_fiddler_armor_color_tga_4199a746.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/oracle_the_fate_fiddler_armor/oracle_the_fate_fiddler_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/oracle_the_fate_fiddler_armor/oracle_the_fate_fiddler_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:28290:celestial-navigator-armor",
+      "itemId": 28290,
+      "name": "Foreseen Horizons  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/5a897500a59a/models/items/oracle/celestial_navigator_armor/celestial_navigator_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/5a897500a59a/models/items/oracle/celestial_navigator_armor/celestial_navigator_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/celestial_navigator_armor/celestial_navigator_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/celestial_navigator_armor-58b9d2b7cfe5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/5a897500a59a/models/items/oracle/celestial_navigator_armor/celestial_navigator_armor_color_tga_775775b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/celestial_navigator_armor/celestial_navigator_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/celestial_navigator_armor/celestial_navigator_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:546:armor",
+      "itemId": 546,
+      "name": "Oracles Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/f43e96b28898/models/heroes/oracle/armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/f43e96b28898/models/heroes/oracle/armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor-6a6f391390f9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/f43e96b28898/models/heroes/oracle/armor_color_psd_f73dbcb4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/oracle/armor.vmdl",
+        "modelPaths": [
+          "models/heroes/oracle/armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:27111:oracle-screeauk-armor",
+      "itemId": 27111,
+      "name": "Prophecies of Pavo  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:base",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/75c19a0f9590/models/items/oracle/oracle_screeauk/oracle_screeauk_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/75c19a0f9590/models/items/oracle/oracle_screeauk/oracle_screeauk_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_screeauk/oracle_screeauk_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_screeauk_armor-433f75eedfaa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/75c19a0f9590/models/items/oracle/oracle_screeauk/oracle_screeauk_armor_color_psd_bf13f4df.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/oracle_screeauk/oracle_screeauk_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/oracle_screeauk/oracle_screeauk_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_screeauk/oracle_screeauk_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13418:ti9-cache-oracle-augury-prophet-armor",
+      "itemId": 13418,
+      "name": "Refinement of the Sleepless Augur",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/232526478495/models/items/oracle/ti9_cache_oracle_augury_prophet_armor/ti9_cache_oracle_augury_prophet_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/232526478495/models/items/oracle/ti9_cache_oracle_augury_prophet_armor/ti9_cache_oracle_augury_prophet_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_augury_prophet_armor/ti9_cache_oracle_augury_prophet_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_augury_prophet_armor-837c7c67adc3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/232526478495/models/items/oracle/ti9_cache_oracle_augury_prophet_armor/ti9_cache_oracle_augury_prophet_armor_color_tga_33448f51.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti9_cache_oracle_augury_prophet_armor/ti9_cache_oracle_augury_prophet_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti9_cache_oracle_augury_prophet_armor/ti9_cache_oracle_augury_prophet_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13914:stargazer-final-prophecy-armor",
+      "itemId": 13914,
+      "name": "Silence of the Starweaver  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/36af1e53b25a/models/items/oracle/stargazer_final_prophecy_armor/stargazer_final_prophecy_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/36af1e53b25a/models/items/oracle/stargazer_final_prophecy_armor/stargazer_final_prophecy_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/stargazer_final_prophecy_armor/stargazer_final_prophecy_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stargazer_final_prophecy_armor-8f6daae64b75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/36af1e53b25a/models/items/oracle/stargazer_final_prophecy_armor/stargazer_final_prophecy_armor_color_tga_326108cf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/stargazer_final_prophecy_armor/stargazer_final_prophecy_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/stargazer_final_prophecy_armor/stargazer_final_prophecy_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_final_prophecy/oracle_final_prophecy_arm.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:26913:three-eyes-raven-set-armor",
+      "itemId": 26913,
+      "name": "Spoils of the Shattered Fates  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/a2f42f43bdc0/models/items/oracle/three_eyes_raven_set_armor/three_eyes_raven_set_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/a2f42f43bdc0/models/items/oracle/three_eyes_raven_set_armor/three_eyes_raven_set_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/three_eyes_raven_set_armor/three_eyes_raven_set_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/three_eyes_raven_set_armor-561bb92bd087.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/a2f42f43bdc0/models/items/oracle/three_eyes_raven_set_armor/three_eyes_raven_set_armor_color_tga_2ade110b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/three_eyes_raven_set_armor/three_eyes_raven_set_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/three_eyes_raven_set_armor/three_eyes_raven_set_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:19216:saint-bodhisattva-armor",
+      "itemId": 19216,
+      "name": "Transcendent Path  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/d84840cbb94d/models/items/oracle/saint_bodhisattva_armor/saint_bodhisattva_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/d84840cbb94d/models/items/oracle/saint_bodhisattva_armor/saint_bodhisattva_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/saint_bodhisattva_armor/saint_bodhisattva_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/saint_bodhisattva_armor-f187e0f5121d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/d84840cbb94d/models/items/oracle/saint_bodhisattva_armor/saint_bodhisattva_armor_color_tga_f3e8066b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/saint_bodhisattva_armor/saint_bodhisattva_armor.vmdl",
+        "modelPaths": [
+          "models/items/oracle/saint_bodhisattva_armor/saint_bodhisattva_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:12603:the-labyrinth-overseer-back",
+      "itemId": 12603,
+      "name": "Adornments of the Crystal Path",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/58a097bad0f2/models/items/oracle/the_labyrinth_overseer_back/the_labyrinth_overseer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/58a097bad0f2/models/items/oracle/the_labyrinth_overseer_back/the_labyrinth_overseer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/the_labyrinth_overseer_back/the_labyrinth_overseer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_labyrinth_overseer_back-c2913578d50e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/58a097bad0f2/models/items/oracle/the_labyrinth_overseer_back/the_labyrinth_overseer_back_color_tga_31ef4e78.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13425:ti9-cache-oracle-grand-hierophant-back",
+      "itemId": 13425,
+      "name": "Back of the Hierophant",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/8e9a79343a56/models/items/oracle/ti9_cache_oracle_grand_hierophant_back/ti9_cache_oracle_grand_hierophant_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/8e9a79343a56/models/items/oracle/ti9_cache_oracle_grand_hierophant_back/ti9_cache_oracle_grand_hierophant_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_grand_hierophant_back/ti9_cache_oracle_grand_hierophant_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_grand_hierophant_back-0e6005b3b720.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/8e9a79343a56/models/items/oracle/ti9_cache_oracle_grand_hierophant_back/ti9_cache_oracle_grand_hierophant_back_color_tga_2c64cb40.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti9_cache_oracle_grand_hierophant_back/ti9_cache_oracle_grand_hierophant_back.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti9_cache_oracle_grand_hierophant_back/ti9_cache_oracle_grand_hierophant_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/ti9_cache_oracle_grand_hierophant/oracle_hierophant_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:24157:back-prophet-of-the-lost-constellation-v2",
+      "itemId": 24157,
+      "name": "Celestial Sight  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b78f198ad687/models/items/oracle/back_prophet_of_the_lost_constellation_v2/back_prophet_of_the_lost_constellation_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/b78f198ad687/models/items/oracle/back_prophet_of_the_lost_constellation_v2/back_prophet_of_the_lost_constellation_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/back_prophet_of_the_lost_constellation_v2/back_prophet_of_the_lost_constellation_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/back_prophet_of_the_lost_constellation_v2-57d96a50a715.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b78f198ad687/models/items/oracle/back_prophet_of_the_lost_constellation_v2/back_prophet_of_the_lost_constellation_v2_color_tga_2b0b7169.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13417:ti9-cache-oracle-augury-prophet-back",
+      "itemId": 13417,
+      "name": "Domain of the Sleepless Augur",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/70a676c0f9bb/models/items/oracle/ti9_cache_oracle_augury_prophet_back/ti9_cache_oracle_augury_prophet_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/70a676c0f9bb/models/items/oracle/ti9_cache_oracle_augury_prophet_back/ti9_cache_oracle_augury_prophet_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_augury_prophet_back/ti9_cache_oracle_augury_prophet_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_augury_prophet_back-8a5f1e99c20e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/70a676c0f9bb/models/items/oracle/ti9_cache_oracle_augury_prophet_back/ti9_cache_oracle_augury_prophet_back_color_tga_3c8c0692.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:14746:oracle-the-fate-fiddler-back",
+      "itemId": 14746,
+      "name": "Eye of the Fateweaver Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/69802c24c908/models/items/oracle/oracle_the_fate_fiddler_back/oracle_the_fate_fiddler_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/69802c24c908/models/items/oracle/oracle_the_fate_fiddler_back/oracle_the_fate_fiddler_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_the_fate_fiddler_back/oracle_the_fate_fiddler_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_the_fate_fiddler_back-7cf8f7873056.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/69802c24c908/models/items/oracle/oracle_the_fate_fiddler_back/oracle_the_fate_fiddler_back_color_tga_c045e59a.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:28291:celestial-navigator-back",
+      "itemId": 28291,
+      "name": "Foreseen Horizons  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/54e161fd2638/models/items/oracle/celestial_navigator_back/celestial_navigator_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/54e161fd2638/models/items/oracle/celestial_navigator_back/celestial_navigator_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/celestial_navigator_back/celestial_navigator_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/celestial_navigator_back-a63f520423c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/54e161fd2638/models/items/oracle/celestial_navigator_back/celestial_navigator_back_color_tga_6abab48b.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:547:back-item",
+      "itemId": 547,
+      "name": "Oracles Back Item",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/69e45aaf33c7/models/heroes/oracle/back_item.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/69e45aaf33c7/models/heroes/oracle/back_item.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/back_item.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/back_item-760cbf26dcc8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/69e45aaf33c7/models/heroes/oracle/back_item_color_psd_808e5d1a.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:27110:oracle-screeauk-back",
+      "itemId": 27110,
+      "name": "Prophecies of Pavo  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:base",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/dcb276d0f86d/models/items/oracle/oracle_screeauk/oracle_screeauk_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/dcb276d0f86d/models/items/oracle/oracle_screeauk/oracle_screeauk_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_screeauk/oracle_screeauk_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_screeauk_back-e5feeeb4723b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/dcb276d0f86d/models/items/oracle/oracle_screeauk/oracle_screeauk_back_color_psd_7872609f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/oracle_screeauk/oracle_screeauk_back.vmdl",
+        "modelPaths": [
+          "models/items/oracle/oracle_screeauk/oracle_screeauk_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_screeauk/oracle_screeauk_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13911:stargazer-final-prophecy-back",
+      "itemId": 13911,
+      "name": "Silence of the Starweaver  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/2809a979ad50/models/items/oracle/stargazer_final_prophecy_back/stargazer_final_prophecy_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/2809a979ad50/models/items/oracle/stargazer_final_prophecy_back/stargazer_final_prophecy_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/stargazer_final_prophecy_back/stargazer_final_prophecy_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stargazer_final_prophecy_back-6417db90153a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/2809a979ad50/models/items/oracle/stargazer_final_prophecy_back/stargazer_final_prophecy_back_color_tga_29671d08.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/stargazer_final_prophecy_back/stargazer_final_prophecy_back.vmdl",
+        "modelPaths": [
+          "models/items/oracle/stargazer_final_prophecy_back/stargazer_final_prophecy_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_final_prophecy/oracle_final_prophecy_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:26914:three-eyes-raven-set-back",
+      "itemId": 26914,
+      "name": "Spoils of the Shattered Fates  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/ac0560473003/models/items/oracle/three_eyes_raven_set_back/three_eyes_raven_set_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/ac0560473003/models/items/oracle/three_eyes_raven_set_back/three_eyes_raven_set_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/three_eyes_raven_set_back/three_eyes_raven_set_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/three_eyes_raven_set_back-1ea608d2c38b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/ac0560473003/models/items/oracle/three_eyes_raven_set_back/three_eyes_raven_set_back_color_tga_2dd1335b.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:19217:saint-bodhisattva-back",
+      "itemId": 19217,
+      "name": "Transcendent Path  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/93e015960958/models/items/oracle/saint_bodhisattva_back/saint_bodhisattva_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/93e015960958/models/items/oracle/saint_bodhisattva_back/saint_bodhisattva_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/saint_bodhisattva_back/saint_bodhisattva_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/saint_bodhisattva_back-0ff22aba32c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/93e015960958/models/items/oracle/saint_bodhisattva_back/saint_bodhisattva_back_color_tga_64f4457.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:24154:head-prophet-of-the-lost-constellation-v2",
+      "itemId": 24154,
+      "name": "Celestial Sight  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/2b388cd743ab/models/items/oracle/head_prophet_of_the_lost_constellation_v2/head_prophet_of_the_lost_constellation_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/2b388cd743ab/models/items/oracle/head_prophet_of_the_lost_constellation_v2/head_prophet_of_the_lost_constellation_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/head_prophet_of_the_lost_constellation_v2/head_prophet_of_the_lost_constellation_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_prophet_of_the_lost_constellation_v2-21d054ea437b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/2b388cd743ab/models/items/oracle/head_prophet_of_the_lost_constellation_v2/head_prophet_of_the_lost_constellation_v2_color_tga_ccc20e5c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/head_prophet_of_the_lost_constellation_v2/head_prophet_of_the_lost_constellation_v2.vmdl",
+        "modelPaths": [
+          "models/items/oracle/head_prophet_of_the_lost_constellation_v2/head_prophet_of_the_lost_constellation_v2.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:14745:oracle-the-fate-fiddler-head",
+      "itemId": 14745,
+      "name": "Eye of the Fateweaver Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b2cdc45529ec/models/items/oracle/oracle_the_fate_fiddler_head/oracle_the_fate_fiddler_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/b2cdc45529ec/models/items/oracle/oracle_the_fate_fiddler_head/oracle_the_fate_fiddler_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_the_fate_fiddler_head/oracle_the_fate_fiddler_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_the_fate_fiddler_head-736506856253.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b2cdc45529ec/models/items/oracle/oracle_the_fate_fiddler_head/oracle_the_fate_fiddler_head_color_tga_88e9ad44.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/oracle_the_fate_fiddler_head/oracle_the_fate_fiddler_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/oracle_the_fate_fiddler_head/oracle_the_fate_fiddler_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:28288:celestial-navigator-head",
+      "itemId": 28288,
+      "name": "Foreseen Horizons  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/c58248bca15d/models/items/oracle/celestial_navigator_head/celestial_navigator_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/c58248bca15d/models/items/oracle/celestial_navigator_head/celestial_navigator_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/celestial_navigator_head/celestial_navigator_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/celestial_navigator_head-31cadd1d21c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/c58248bca15d/models/items/oracle/celestial_navigator_head/celestial_navigator_head_color_tga_89cfe44c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/celestial_navigator_head/celestial_navigator_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/celestial_navigator_head/celestial_navigator_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:12601:the-labyrinth-overseer-head",
+      "itemId": 12601,
+      "name": "Helm of the Crystal Path",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/72ad83f3fe85/models/items/oracle/the_labyrinth_overseer_head/the_labyrinth_overseer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/72ad83f3fe85/models/items/oracle/the_labyrinth_overseer_head/the_labyrinth_overseer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/the_labyrinth_overseer_head/the_labyrinth_overseer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_labyrinth_overseer_head-07815b1f15dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/72ad83f3fe85/models/items/oracle/the_labyrinth_overseer_head/the_labyrinth_overseer_head_color_tga_b9a012ce.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/the_labyrinth_overseer_head/the_labyrinth_overseer_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/the_labyrinth_overseer_head/the_labyrinth_overseer_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13424:ti9-cache-oracle-grand-hierophant-head",
+      "itemId": 13424,
+      "name": "Mask of the Hierophant",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/9624a482ccab/models/items/oracle/ti9_cache_oracle_grand_hierophant_head/ti9_cache_oracle_grand_hierophant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/9624a482ccab/models/items/oracle/ti9_cache_oracle_grand_hierophant_head/ti9_cache_oracle_grand_hierophant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_grand_hierophant_head/ti9_cache_oracle_grand_hierophant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_grand_hierophant_head-4dc4139ee301.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/9624a482ccab/models/items/oracle/ti9_cache_oracle_grand_hierophant_head/ti9_cache_oracle_grand_hierophant_head_color_tga_fcbedbaf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti9_cache_oracle_grand_hierophant_head/ti9_cache_oracle_grand_hierophant_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti9_cache_oracle_grand_hierophant_head/ti9_cache_oracle_grand_hierophant_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/ti9_cache_oracle_grand_hierophant/ti9_cache_oracle_grand_hierophant_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:548:head-item",
+      "itemId": 548,
+      "name": "Oracles Head Item",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b159642cb8f7/models/heroes/oracle/head_item.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/b159642cb8f7/models/heroes/oracle/head_item.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/head_item.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_item-441bff54b2ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b159642cb8f7/models/heroes/oracle/head_item_color_psd_70ed19c2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/oracle/head_item.vmdl",
+        "modelPaths": [
+          "models/heroes/oracle/head_item.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:27109:oracle-screeauk-head",
+      "itemId": 27109,
+      "name": "Prophecies of Pavo  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:base",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/04623138c135/models/items/oracle/oracle_screeauk/oracle_screeauk_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/04623138c135/models/items/oracle/oracle_screeauk/oracle_screeauk_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_screeauk/oracle_screeauk_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_screeauk_head-91bd84825f96.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/04623138c135/models/items/oracle/oracle_screeauk/oracle_screeauk_head_color_psd_884ab1e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/oracle_screeauk/oracle_screeauk_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/oracle_screeauk/oracle_screeauk_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_screeauk/oracle_screeauk_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:14954:oracle-ti10-immortal-head",
+      "itemId": 14954,
+      "name": "Sagas of the Cymurrin Sage",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/74e2a893b5a9/models/items/oracle/oracle_ti10_immortal_head/oracle_ti10_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/74e2a893b5a9/models/items/oracle/oracle_ti10_immortal_head/oracle_ti10_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_ti10_immortal_head/oracle_ti10_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_ti10_immortal_head-7f068f60bc6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/74e2a893b5a9/models/items/oracle/oracle_ti10_immortal_head/oracle_ti10_immortal_head_color_tga_cadd13e1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/oracle_ti10_immortal_head/oracle_ti10_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/oracle_ti10_immortal_head/oracle_ti10_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_ti10_immortal/oracle_ti10_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_ti10_immortal/oracle_ti10_immortal_purifyingflames.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_ti10_immortal/oracle_ti10_immortal_purifyingflames_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_ti10_immortal/oracle_ti10_immortal_purifyingflames_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_purifyingflames.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_purifyingflames_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_purifyingflames_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13913:stargazer-final-prophecy-head",
+      "itemId": 13913,
+      "name": "Silence of the Starweaver  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b48c97cfd65e/models/items/oracle/stargazer_final_prophecy_head/stargazer_final_prophecy_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/b48c97cfd65e/models/items/oracle/stargazer_final_prophecy_head/stargazer_final_prophecy_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/stargazer_final_prophecy_head/stargazer_final_prophecy_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stargazer_final_prophecy_head-db718a6e7293.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b48c97cfd65e/models/items/oracle/stargazer_final_prophecy_head/stargazer_final_prophecy_head_color_tga_1d2c55e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/stargazer_final_prophecy_head/stargazer_final_prophecy_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/stargazer_final_prophecy_head/stargazer_final_prophecy_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:26915:three-eyes-raven-set-head",
+      "itemId": 26915,
+      "name": "Spoils of the Shattered Fates  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b0aa1a356473/models/items/oracle/three_eyes_raven_set_head/three_eyes_raven_set_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/b0aa1a356473/models/items/oracle/three_eyes_raven_set_head/three_eyes_raven_set_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/three_eyes_raven_set_head/three_eyes_raven_set_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/three_eyes_raven_set_head-ce2e35b09032.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b0aa1a356473/models/items/oracle/three_eyes_raven_set_head/three_eyes_raven_set_head_color_tga_7337eec2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/three_eyes_raven_set_head/three_eyes_raven_set_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/three_eyes_raven_set_head/three_eyes_raven_set_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:19218:saint-bodhisattva-head",
+      "itemId": 19218,
+      "name": "Transcendent Path  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/3a5fe0be821a/models/items/oracle/saint_bodhisattva_head/saint_bodhisattva_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/3a5fe0be821a/models/items/oracle/saint_bodhisattva_head/saint_bodhisattva_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/saint_bodhisattva_head/saint_bodhisattva_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/saint_bodhisattva_head-55be0cfd7789.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/3a5fe0be821a/models/items/oracle/saint_bodhisattva_head/saint_bodhisattva_head_color_tga_9d3da3b8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/saint_bodhisattva_head/saint_bodhisattva_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/saint_bodhisattva_head/saint_bodhisattva_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/saint_bodhisattva_head/saint_bodhisattva_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13419:ti9-cache-oracle-augury-prophet-head",
+      "itemId": 13419,
+      "name": "Visage of the Sleepless Augur",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/86968d4da944/models/items/oracle/ti9_cache_oracle_augury_prophet_head/ti9_cache_oracle_augury_prophet_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/86968d4da944/models/items/oracle/ti9_cache_oracle_augury_prophet_head/ti9_cache_oracle_augury_prophet_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_augury_prophet_head/ti9_cache_oracle_augury_prophet_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_augury_prophet_head-a924a223e353.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/86968d4da944/models/items/oracle/ti9_cache_oracle_augury_prophet_head/ti9_cache_oracle_augury_prophet_head_color_tga_99bac5c9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti9_cache_oracle_augury_prophet_head/ti9_cache_oracle_augury_prophet_head.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti9_cache_oracle_augury_prophet_head/ti9_cache_oracle_augury_prophet_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:9232:oracle-ti7-immortal-weapon",
+      "itemId": 9232,
+      "name": "Alluvion Prophecy",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/bc4d80f1bfdd/models/items/oracle/ti7_immortal_weapon/oracle_ti7_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/bc4d80f1bfdd/models/items/oracle/ti7_immortal_weapon/oracle_ti7_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti7_immortal_weapon/oracle_ti7_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_ti7_immortal_weapon-08fabd9ec85e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/bc4d80f1bfdd/models/items/oracle/ti7_immortal_weapon/ti7_immortal_weapon_color_psd_7adb63d5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti7_immortal_weapon/oracle_ti7_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti7_immortal_weapon/oracle_ti7_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_fortune_ti7/oracle_fortune_ti7_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_fortune_ti7/oracle_fortune_ti7_aoe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_fortune_ti7/oracle_fortune_ti7_cast_tgt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_fortune_ti7/oracle_fortune_ti7_channel.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_fortune_ti7/oracle_fortune_ti7_proj.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/oracle/oracle_fortune_ti7/oracle_fortune_ti7_purge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_fortune_aoe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_fortune_cast_tgt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_fortune_channel.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_fortune_prj.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_fortune_purge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:24155:weapon-prophet-of-the-lost-constellation-v2",
+      "itemId": 24155,
+      "name": "Celestial Sight  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/cff80930b79e/models/items/oracle/weapon_prophet_of_the_lost_constellation_v2/weapon_prophet_of_the_lost_constellation_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/cff80930b79e/models/items/oracle/weapon_prophet_of_the_lost_constellation_v2/weapon_prophet_of_the_lost_constellation_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/weapon_prophet_of_the_lost_constellation_v2/weapon_prophet_of_the_lost_constellation_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_prophet_of_the_lost_constellation_v2-2027142d38b1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/cff80930b79e/models/items/oracle/weapon_prophet_of_the_lost_constellation_v2/weapon_prophet_of_the_lost_constellation_v2_color_tga_eb7db1ff.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/weapon_prophet_of_the_lost_constellation_v2/weapon_prophet_of_the_lost_constellation_v2.vmdl",
+        "modelPaths": [
+          "models/items/oracle/weapon_prophet_of_the_lost_constellation_v2/weapon_prophet_of_the_lost_constellation_v2.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:14744:oracle-the-fate-fiddler-weapon",
+      "itemId": 14744,
+      "name": "Eye of the Fateweaver Orb",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b7d1764cc757/models/items/oracle/oracle_the_fate_fiddler_weapon/oracle_the_fate_fiddler_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/b7d1764cc757/models/items/oracle/oracle_the_fate_fiddler_weapon/oracle_the_fate_fiddler_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_the_fate_fiddler_weapon/oracle_the_fate_fiddler_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_the_fate_fiddler_weapon-7b2de763815a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/b7d1764cc757/models/items/oracle/oracle_the_fate_fiddler_weapon/oracle_the_fate_fiddler_weapon_color_tga_9fa1b34a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/oracle_the_fate_fiddler_weapon/oracle_the_fate_fiddler_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/oracle_the_fate_fiddler_weapon/oracle_the_fate_fiddler_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:28289:celestial-navigator-weapon",
+      "itemId": 28289,
+      "name": "Foreseen Horizons  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/4bfa82f02452/models/items/oracle/celestial_navigator_weapon/celestial_navigator_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/4bfa82f02452/models/items/oracle/celestial_navigator_weapon/celestial_navigator_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/celestial_navigator_weapon/celestial_navigator_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/celestial_navigator_weapon-bb55303b6770.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/4bfa82f02452/models/items/oracle/celestial_navigator_weapon/celestial_navigator_weapon_color_tga_8b1f7c67.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/celestial_navigator_weapon/celestial_navigator_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/celestial_navigator_weapon/celestial_navigator_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:549:weapon",
+      "itemId": 549,
+      "name": "Oracles Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/1b81a22ad450/models/heroes/oracle/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/1b81a22ad450/models/heroes/oracle/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/oracle/weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon-e445508d9a5f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/1b81a22ad450/models/heroes/oracle/weapon_color_psd_f9635ae4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/oracle/weapon.vmdl",
+        "modelPaths": [
+          "models/heroes/oracle/weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13422:ti9-cache-oracle-grand-hierophant-weapon",
+      "itemId": 13422,
+      "name": "Orb of the Hierophant",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/c81e1a2522f8/models/items/oracle/ti9_cache_oracle_grand_hierophant_weapon/ti9_cache_oracle_grand_hierophant_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/c81e1a2522f8/models/items/oracle/ti9_cache_oracle_grand_hierophant_weapon/ti9_cache_oracle_grand_hierophant_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_grand_hierophant_weapon/ti9_cache_oracle_grand_hierophant_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_grand_hierophant_weapon-26ea04f8d707.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/c81e1a2522f8/models/items/oracle/ti9_cache_oracle_grand_hierophant_weapon/ti9_cache_oracle_grand_hierophant_weapon_color_tga_7ae406ac.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti9_cache_oracle_grand_hierophant_weapon/ti9_cache_oracle_grand_hierophant_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti9_cache_oracle_grand_hierophant_weapon/ti9_cache_oracle_grand_hierophant_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/ti9_cache_oracle_grand_hierophant/ti9_cache_oracle_ambient_weapon_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:27112:oracle-screeauk-weapon",
+      "itemId": 27112,
+      "name": "Prophecies of Pavo  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:base",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/ef22d564580b/models/items/oracle/oracle_screeauk/oracle_screeauk_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/ef22d564580b/models/items/oracle/oracle_screeauk/oracle_screeauk_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/oracle_screeauk/oracle_screeauk_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oracle_screeauk_weapon-9229ba80adef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/ef22d564580b/models/items/oracle/oracle_screeauk/oracle_screeauk_weapon_color_psd_fb3d5f38.png"
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13420:ti9-cache-oracle-augury-prophet-weapon",
+      "itemId": 13420,
+      "name": "Quill of the Sleepless Augur",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/a09897a22efe/models/items/oracle/ti9_cache_oracle_augury_prophet_weapon/ti9_cache_oracle_augury_prophet_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/a09897a22efe/models/items/oracle/ti9_cache_oracle_augury_prophet_weapon/ti9_cache_oracle_augury_prophet_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/ti9_cache_oracle_augury_prophet_weapon/ti9_cache_oracle_augury_prophet_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_oracle_augury_prophet_weapon-27467d26d13d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/a09897a22efe/models/items/oracle/ti9_cache_oracle_augury_prophet_weapon/ti9_cache_oracle_augury_prophet_weapon_color_tga_fc1d192.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/ti9_cache_oracle_augury_prophet_weapon/ti9_cache_oracle_augury_prophet_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/ti9_cache_oracle_augury_prophet_weapon/ti9_cache_oracle_augury_prophet_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:13912:stargazer-final-prophecy-weapon",
+      "itemId": 13912,
+      "name": "Silence of the Starweaver  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/ca445e87b9e8/models/items/oracle/stargazer_final_prophecy_weapon/stargazer_final_prophecy_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/ca445e87b9e8/models/items/oracle/stargazer_final_prophecy_weapon/stargazer_final_prophecy_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/stargazer_final_prophecy_weapon/stargazer_final_prophecy_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stargazer_final_prophecy_weapon-8b6d8e137077.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/ca445e87b9e8/models/items/oracle/stargazer_final_prophecy_weapon/stargazer_final_prophecy_weapon_color_tga_7a12aae4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/stargazer_final_prophecy_weapon/stargazer_final_prophecy_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/stargazer_final_prophecy_weapon/stargazer_final_prophecy_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/oracle_final_prophecy/oracle_final_prophecy_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:26916:three-eyes-raven-set-weapon",
+      "itemId": 26916,
+      "name": "Spoils of the Shattered Fates  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/f7055c43a82f/models/items/oracle/three_eyes_raven_set_weapon/three_eyes_raven_set_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/f7055c43a82f/models/items/oracle/three_eyes_raven_set_weapon/three_eyes_raven_set_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/three_eyes_raven_set_weapon/three_eyes_raven_set_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/three_eyes_raven_set_weapon-c039baa39944.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/f7055c43a82f/models/items/oracle/three_eyes_raven_set_weapon/three_eyes_raven_set_weapon_color_tga_42342562.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/three_eyes_raven_set_weapon/three_eyes_raven_set_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/three_eyes_raven_set_weapon/three_eyes_raven_set_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:19219:saint-bodhisattva-weapon",
+      "itemId": 19219,
+      "name": "Transcendent Path  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/8997e19f4f46/models/items/oracle/saint_bodhisattva_weapon/saint_bodhisattva_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/8997e19f4f46/models/items/oracle/saint_bodhisattva_weapon/saint_bodhisattva_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/saint_bodhisattva_weapon/saint_bodhisattva_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/saint_bodhisattva_weapon-8cb89a01965e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/8997e19f4f46/models/items/oracle/saint_bodhisattva_weapon/saint_bodhisattva_weapon_color_tga_7e7c438.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/saint_bodhisattva_weapon/saint_bodhisattva_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/saint_bodhisattva_weapon/saint_bodhisattva_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/oracle/saint_bodhisattva_weapon/saint_bodhisattva_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_oracle:item-model:12600:the-labyrinth-overseer-weapon",
+      "itemId": 12600,
+      "name": "Weapon of the Crystal Path",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/82a0391b135b/models/items/oracle/the_labyrinth_overseer_weapon/the_labyrinth_overseer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_oracle/82a0391b135b/models/items/oracle/the_labyrinth_overseer_weapon/the_labyrinth_overseer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/oracle/the_labyrinth_overseer_weapon/the_labyrinth_overseer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_labyrinth_overseer_weapon-24ff36c95190.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_oracle/82a0391b135b/models/items/oracle/the_labyrinth_overseer_weapon/the_labyrinth_overseer_weapon_color_tga_948e6cec.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/oracle/the_labyrinth_overseer_weapon/the_labyrinth_overseer_weapon.vmdl",
+        "modelPaths": [
+          "models/items/oracle/the_labyrinth_overseer_weapon/the_labyrinth_overseer_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_oracle/oracle_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_oracle:core-set:24153:celestial-sight",
+      "name": "Celestial Sight",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        24154,
+        24155,
+        24156,
+        24157
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/head_prophet_of_the_lost_constellation_v2-21d054ea437b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:21266:clarity-of-the-crystal-path",
+      "name": "Clarity of the Crystal Path",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        12600,
+        12601,
+        12602,
+        12603
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/the_labyrinth_overseer_weapon-24ff36c95190.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:21583:eye-of-the-fateweaver",
+      "name": "Eye of the Fateweaver",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        14744,
+        14745,
+        14746,
+        14747
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/oracle_the_fate_fiddler_weapon-7b2de763815a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:28331:foreseen-horizons",
+      "name": "Foreseen Horizons",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        28288,
+        28289,
+        28290,
+        28291
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/celestial_navigator_head-31cadd1d21c7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:27113:prophecies-of-pavo",
+      "name": "Prophecies of Pavo",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        27109,
+        27110,
+        27111,
+        27112
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:base",
+        "rarity:mythical",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/oracle_screeauk_head-91bd84825f96.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:21406:riddle-of-the-hierophant",
+      "name": "Riddle of the Hierophant",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        13422,
+        13423,
+        13424,
+        13425
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_oracle_grand_hierophant_ls-039bf46d1c4f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:21463:silence-of-the-starweaver",
+      "name": "Silence of the Starweaver",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        13911,
+        13912,
+        13913,
+        13914
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/stargazer_final_prophecy_back-6417db90153a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:26917:spoils-of-the-shattered-fates",
+      "name": "Spoils of the Shattered Fates",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        26913,
+        26914,
+        26915,
+        26916
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/three_eyes_raven_set_armor-561bb92bd087.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:22023:transcendent-path",
+      "name": "Transcendent Path",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        19216,
+        19217,
+        19218,
+        19219
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/saint_bodhisattva_ls-c60f02ff32c6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_oracle:core-set:21405:whispers-of-the-sleepless-augur",
+      "name": "Whispers of the Sleepless Augur",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        546,
+        547,
+        548,
+        549
+      ],
+      "sourceItemIds": [
+        13417,
+        13418,
+        13419,
+        13420
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_oracle_augury_prophet_ls-ac0fa0503e2d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 45516119,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 265
+  }
+}

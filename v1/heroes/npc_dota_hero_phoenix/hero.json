@@ -1,0 +1,1371 @@
+{
+  "heroId": "npc_dota_hero_phoenix",
+  "sourceHeroId": "npc_dota_hero_phoenix",
+  "variantId": "default",
+  "heroName": "Phoenix",
+  "heroSlug": "phoenix",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phoenix.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_phoenix/e2d8990f2063/models/heroes/phoenix/phoenix_bird.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "itemId": 626,
+      "name": "Phoenix Wings",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/30032dc46fb9/models/heroes/phoenix/phoenix_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/30032dc46fb9/models/heroes/phoenix/phoenix_wings.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phoenix/phoenix_wings.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/30032dc46fb9/models/heroes/phoenix/phoenix_wing_color_psd_72b24bd.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 592,
+      "name": "Phoenixs Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/5eb8603433ba/models/heroes/phoenix/phoenix_bird_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/5eb8603433ba/models/heroes/phoenix/phoenix_bird_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phoenix/phoenix_bird_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/5eb8603433ba/models/heroes/phoenix/phoenix_head_color_psd_7c99c58b.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_phoenix:item-model:28494:phoenix-lunar-new-year-back",
+      "itemId": 28494,
+      "name": "Attunements of the Ornate  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/644f7585e7ad/models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/644f7585e7ad/models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phoenix_lunar_new_year_back-82ec76501b77.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/644f7585e7ad/models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back_color_png_ad02ad45.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/b7dcd2e4193e/models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/phoenix_lunar_new_year_back/phoenix_lunar_new_year_back_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:13413:nirvana-spiritual-back",
+      "itemId": 13413,
+      "name": "Blaze of Oblivion Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/4faf8e315168/models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/4faf8e315168/models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nirvana_spiritual_back-b93ffc51412a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/4faf8e315168/models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back_color_tga_b32da4d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/208e7770ff41/models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/nirvana_spiritual_back/nirvana_spiritual_back_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_cache/phoenix_ti10_cache_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:25963:phoenix-crimson-dawn-back",
+      "itemId": 25963,
+      "name": "Crimson Dawn  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "crimson",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/8635ab410882/models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/8635ab410882/models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phoenix_crimson_dawn_back-d80204bf4811.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/8635ab410882/models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back_color_psd_f6f706a7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/1434d313ce5a/models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/phoenix_crimson_dawn_back/phoenix_crimson_dawn_back_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/phoenix_2022_crimson_dawn_back/phoenix_2022_ambient_base.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_2022_crimson_dawn_back/phoenix_2022_crimson_dawn_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:7837:blazing-wing-fire-wings",
+      "itemId": 7837,
+      "name": "Feathers of the Vermillion Crucible",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/aea9b2a97b4a/models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/aea9b2a97b4a/models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blazing_wing_fire_wings-cfee3d3c14bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/aea9b2a97b4a/models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings_color_psd_5a125780.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/66c64cbd3c49/models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/blazing_wing_fire_wings/blazing_wing_fire_wings_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:14271:aristocratic-rebirth-wings",
+      "itemId": 14271,
+      "name": "Kitestar Splendor Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/a5ec9fb822a7/models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/a5ec9fb822a7/models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aristocratic_rebirth_wings-9a0040173e55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/a5ec9fb822a7/models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings_color_tga_5ab17a72.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/05cc94060098/models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/aristocratic_rebirth_wings/aristocratic_rebirth_wings_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:626:phoenix-wings",
+      "itemId": 626,
+      "name": "Phoenix Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/30032dc46fb9/models/heroes/phoenix/phoenix_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/30032dc46fb9/models/heroes/phoenix/phoenix_wings.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phoenix/phoenix_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phoenix_wings-80786e212a0a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/30032dc46fb9/models/heroes/phoenix/phoenix_wing_color_psd_72b24bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/phoenix/phoenix_wings.vmdl",
+        "modelPaths": [
+          "models/heroes/phoenix/phoenix_wings.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/heroes/phoenix/phoenix_wings_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/6566eb3d5dd9/models/heroes/phoenix/phoenix_wings_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/heroes/phoenix/phoenix_wings_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:14993:phoenix-ti10-immortal-back",
+      "itemId": 14993,
+      "name": "Solar Gyre",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/332d28af6466/models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/332d28af6466/models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phoenix_ti10_immortal_back-a57e60cbf214.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/332d28af6466/models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back_color_tga_d9d39277.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/2abf957e952b/models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/phoenix_ti10_immortal_back/phoenix_ti10_immortal_back_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_immortal/phoenix_ti10_fire_spirit_burn.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_immortal/phoenix_ti10_fire_spirit_ground.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_immortal/phoenix_ti10_fire_spirit_launch.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_immortal/phoenix_ti10_fire_spirits.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_immortal/phoenix_ti10_icarus_dive.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_immortal/phoenix_ti10_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_immortal/phoenix_ti10_immortal_parent_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_fire_spirit_burn.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_fire_spirit_ground.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_fire_spirit_launch.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_fire_spirits.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_icarus_dive.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:13712:eye-of-the-sun-eye-of-the-sun",
+      "itemId": 13712,
+      "name": "Span of the Temple of the Fallen Sun",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/c3747f29e1e8/models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/c3747f29e1e8/models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eye_of_the_sun_eye_of_the_sun-a429e631f000.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/c3747f29e1e8/models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun_color_psd_be224385.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/55c0f64f0a5f/models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/eye_of_the_sun_eye_of_the_sun/eye_of_the_sun_eye_of_the_sun_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/eye_of_the_sun_back/phoenix_eye_of_sun_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:32923:dark-owl-back",
+      "itemId": 32923,
+      "name": "Star Sage  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/9e3829590bcf/models/items/phoenix/dark_owl_back/dark_owl_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/9e3829590bcf/models/items/phoenix/dark_owl_back/dark_owl_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/dark_owl_back/dark_owl_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_owl_back-4b0debf484d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/9e3829590bcf/models/items/phoenix/dark_owl_back/dark_owl_back_color_png_1b9b820b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/dark_owl_back/dark_owl_back.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/dark_owl_back/dark_owl_back.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/dark_owl_back/dark_owl_back_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/a32c41b2f3d3/models/items/phoenix/dark_owl_back/dark_owl_back_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/dark_owl_back/dark_owl_back_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:32926:dark-owl-wings",
+      "itemId": 32926,
+      "name": "Star Sage  Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/00612f7c767d/models/items/phoenix/dark_owl_wings/dark_owl_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/00612f7c767d/models/items/phoenix/dark_owl_wings/dark_owl_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/dark_owl_wings/dark_owl_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_owl_wings-f9e72a7609bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/00612f7c767d/models/items/phoenix/dark_owl_wings/dark_owl_wings_color_png_4d30bffc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/dark_owl_wings/dark_owl_wings.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/dark_owl_wings/dark_owl_wings.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/dark_owl_wings/dark_owl_wings_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/72f6972cc760/models/items/phoenix/dark_owl_wings/dark_owl_wings_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/dark_owl_wings/dark_owl_wings_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:9524:golden-nirvana-golden-nirvana-wings-tail-armor",
+      "itemId": 9524,
+      "name": "Trappings of Golden Nirvana",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/22782d76674b/models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/22782d76674b/models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/golden_nirvana_golden_nirvana_wings_tail_armor-e1aa70d96a12.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/22782d76674b/models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor_color_psd_20397b72.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/65c2e7bd378a/models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/golden_nirvana_golden_nirvana_wings_tail_armor/golden_nirvana_golden_nirvana_wings_tail_armor_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:12248:ti8-phoenix-heart-of-volcano-wings",
+      "itemId": 12248,
+      "name": "Wings of Molten Rebirth",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/0e0a15e38283/models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/0e0a15e38283/models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_phoenix_heart_of_volcano_wings-78335ec5b1fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/0e0a15e38283/models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings_color_png_81cf2a78.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings_fx.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_phoenix/ae7eb9b414b2/models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings_fx.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/phoenix/ti8_phoenix_heart_of_volcano_wings/ti8_phoenix_heart_of_volcano_wings_fx.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:28493:phoenix-lunar-new-year-head",
+      "itemId": 28493,
+      "name": "Attunements of the Ornate  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/62a93d77b65f/models/items/phoenix/phoenix_lunar_new_year_head/phoenix_lunar_new_year_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/62a93d77b65f/models/items/phoenix/phoenix_lunar_new_year_head/phoenix_lunar_new_year_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/phoenix_lunar_new_year_head/phoenix_lunar_new_year_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phoenix_lunar_new_year_head-a100836a7e41.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/62a93d77b65f/models/items/phoenix/phoenix_lunar_new_year_head/phoenix_lunar_new_year_head_color_png_26382f12.png"
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:12247:ti8-phoenix-heart-of-volcano-head",
+      "itemId": 12247,
+      "name": "Beak of Molten Rebirth",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/98c81952d371/models/items/phoenix/ti8_phoenix_heart_of_volcano_head/ti8_phoenix_heart_of_volcano_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/98c81952d371/models/items/phoenix/ti8_phoenix_heart_of_volcano_head/ti8_phoenix_heart_of_volcano_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/ti8_phoenix_heart_of_volcano_head/ti8_phoenix_heart_of_volcano_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_phoenix_heart_of_volcano_head-e64541ba5386.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/98c81952d371/models/items/phoenix/ti8_phoenix_heart_of_volcano_head/ti8_phoenix_heart_of_volcano_head_color_png_8dcf2c01.png"
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:13408:nirvana-spiritual-head",
+      "itemId": 13408,
+      "name": "Blaze of Oblivion Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/bd3db74bc231/models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/bd3db74bc231/models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nirvana_spiritual_head-5c776a48eba1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/bd3db74bc231/models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head_color_tga_bd17fc23.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/nirvana_spiritual_head/nirvana_spiritual_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/phoenix_ti10_cache/phoenix_ti10_cache_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:7835:blazing-wing-head",
+      "itemId": 7835,
+      "name": "Crest of the Vermillion Crucible",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/de5b0dffc7d4/models/items/phoenix/blazing_wing_head/blazing_wing_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/de5b0dffc7d4/models/items/phoenix/blazing_wing_head/blazing_wing_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/blazing_wing_head/blazing_wing_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blazing_wing_head-406ecd98069f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/de5b0dffc7d4/models/items/phoenix/blazing_wing_head/blazing_wing_head_color_psd_2023fd5c.png"
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:25964:phoenix-crimson-dawn-head",
+      "itemId": 25964,
+      "name": "Crimson Dawn  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "crimson",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/54cdda57d10a/models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/54cdda57d10a/models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phoenix_crimson_dawn_head-033510517ab3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/54cdda57d10a/models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head_color_psd_d51b89e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/phoenix_crimson_dawn_head/phoenix_crimson_dawn_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/phoenix_2022_crimson_dawn_head/phoenix_2022_crimson_dawn_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:9523:golden-nirvana-head",
+      "itemId": 9523,
+      "name": "Crown of Golden Nirvana",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/ae98626030ca/models/items/phoenix/golden_nirvana_head/golden_nirvana_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/ae98626030ca/models/items/phoenix/golden_nirvana_head/golden_nirvana_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/golden_nirvana_head/golden_nirvana_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/golden_nirvana_head-c1dec1673bae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/ae98626030ca/models/items/phoenix/golden_nirvana_head/golden_nirvana_head_color_psd_35df3241.png"
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:13713:eye-of-the-sun-head",
+      "itemId": 13713,
+      "name": "Crown of the Temple of the Fallen Sun",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/c36ff211ba9e/models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/c36ff211ba9e/models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eye_of_the_sun_head-3a3619b157e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/c36ff211ba9e/models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head_color_psd_b165f521.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/eye_of_the_sun_head/eye_of_the_sun_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/eye_of_the_sun_head/phoenix_eye_of_sun_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:14273:aristocratic-rebirth-head",
+      "itemId": 14273,
+      "name": "Kitestar Splendor Beak",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/480e57cd3952/models/items/phoenix/aristocratic_rebirth_head/aristocratic_rebirth_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/480e57cd3952/models/items/phoenix/aristocratic_rebirth_head/aristocratic_rebirth_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/aristocratic_rebirth_head/aristocratic_rebirth_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aristocratic_rebirth_head-29976d9ba050.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/480e57cd3952/models/items/phoenix/aristocratic_rebirth_head/aristocratic_rebirth_head_color_tga_f170c703.png"
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:592:phoenix-bird-head",
+      "itemId": 592,
+      "name": "Phoenixs Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/5eb8603433ba/models/heroes/phoenix/phoenix_bird_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/5eb8603433ba/models/heroes/phoenix/phoenix_bird_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phoenix/phoenix_bird_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phoenix_bird_head-b8d302ad0fbd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/5eb8603433ba/models/heroes/phoenix/phoenix_head_color_psd_7c99c58b.png"
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:7458:solar-forge-model",
+      "itemId": 7458,
+      "name": "Solar Forge",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/52643f421d0b/models/items/phoenix/solar_forge/mesh/solar_forge_model.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/52643f421d0b/models/items/phoenix/solar_forge/mesh/solar_forge_model.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/solar_forge/mesh/solar_forge_model.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/solar_forge_model-fbeae80e8ea6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/52643f421d0b/models/items/phoenix/solar_forge/mesh/solar_forge_color_psd_12895b27.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phoenix/solar_forge/mesh/solar_forge_model.vmdl",
+        "modelPaths": [
+          "models/items/phoenix/solar_forge/mesh/solar_forge_model.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phoenix/phoenix_solar_forge/phoenix_solar_forge_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_solar_forge/phoenix_solar_forge_sunray_beam_enemy.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_solar_forge/phoenix_sunray_beam_friend_solar_forge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phoenix/phoenix_solar_forge/phoenix_sunray_solar_forge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_sunray.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_sunray_beam_enemy.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phoenix/phoenix_sunray_beam_friend.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phoenix:item-model:32924:dark-owl-head",
+      "itemId": 32924,
+      "name": "Star Sage  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/b12b17919c40/models/items/phoenix/dark_owl_head/dark_owl_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phoenix/b12b17919c40/models/items/phoenix/dark_owl_head/dark_owl_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phoenix/dark_owl_head/dark_owl_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_owl_head-4712d77c9645.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phoenix/b12b17919c40/models/items/phoenix/dark_owl_head/dark_owl_head_color_png_a1b5972b.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_phoenix:core-set:28154:attunements-of-the-ornate",
+      "name": "Attunements of the Ornate",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        28493,
+        28494,
+        28495
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/phoenix_lunar_new_year_head-a100836a7e41.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:21374:blaze-of-oblivion",
+      "name": "Blaze of Oblivion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        13408,
+        13413,
+        13414
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/nirvana_spiritual_loadingscreen-96398c0b22bb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:25973:crimson-dawn",
+      "name": "Crimson Dawn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        25962,
+        25963,
+        25964
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "crimson",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/phoenix_crimson_dawn_back-d80204bf4811.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:21147:golden-nirvana",
+      "name": "Golden Nirvana",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        9523,
+        9524,
+        9525
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/golden_nirvana_golden_nirvana_loadingscreen-6f1ca7d524e0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:21224:ire-of-molten-rebirth",
+      "name": "Ire of Molten Rebirth",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        12247,
+        12248,
+        12249
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ti8_phoenix_heart_of_volcano_head-e64541ba5386.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:21527:kitestar-splendor",
+      "name": "Kitestar Splendor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        14270,
+        14271,
+        14273
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/aristocratic_rebirth_wings-9a0040173e55.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:32927:star-sage",
+      "name": "Star Sage",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        32923,
+        32924,
+        32925,
+        32926
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/dark_owl_back-4b0debf484d0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:21431:temple-of-the-fallen-sun",
+      "name": "Temple of the Fallen Sun",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        13712,
+        13713,
+        13714
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/eye_of_the_sun_eye_of_the_sun-a429e631f000.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phoenix:core-set:20938:vermillion-crucible",
+      "name": "Vermillion Crucible",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        592,
+        626,
+        627
+      ],
+      "sourceItemIds": [
+        7835,
+        7836,
+        7837
+      ],
+      "slots": [
+        "ability_ultimate",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/blazing_wing_loading_screen-dc9b75ceabd0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 31693822,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 200
+  }
+}

@@ -1,0 +1,2187 @@
+{
+  "heroId": "npc_dota_hero_earth_spirit",
+  "sourceHeroId": "npc_dota_hero_earth_spirit",
+  "variantId": "default",
+  "heroName": "Earth Spirit",
+  "heroSlug": "earth_spirit",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0e135d3e260f/models/heroes/earth_spirit/earth_spirit.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "itemId": 481,
+      "name": "Earth Spirits Arms",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/e63fef76533d/models/heroes/earth_spirit/earth_spirit_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/e63fef76533d/models/heroes/earth_spirit/earth_spirit_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_arms.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/e63fef76533d/models/heroes/earth_spirit/earth_spirit_arm_color_psd_f0fd7124.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "itemId": 479,
+      "name": "Earth Spirits Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a3382be13ddc/models/heroes/earth_spirit/earth_spirit_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a3382be13ddc/models/heroes/earth_spirit/earth_spirit_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a3382be13ddc/models/heroes/earth_spirit/earth_spirit_belt_color_psd_694bb280.png"
+    },
+    {
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 482,
+      "name": "Earth Spirits Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0cd7b2c25d05/models/heroes/earth_spirit/earth_spirit_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0cd7b2c25d05/models/heroes/earth_spirit/earth_spirit_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0cd7b2c25d05/models/heroes/earth_spirit/earth_spirit_head_color_psd_dfd38ce7.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 477,
+      "name": "Earth Spirits Head Accessory",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f8e9856c69d/models/heroes/earth_spirit/earth_spirit_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f8e9856c69d/models/heroes/earth_spirit/earth_spirit_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_hair.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f8e9856c69d/models/heroes/earth_spirit/earth_spirit_head_color_psd_dfd38ce7.png"
+    },
+    {
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "itemId": 480,
+      "name": "Earth Spirits Neck",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7478446b7eeb/models/heroes/earth_spirit/earth_spirit_torso.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7478446b7eeb/models/heroes/earth_spirit/earth_spirit_torso.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_torso.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7478446b7eeb/models/heroes/earth_spirit/earth_spirit_neck_color_psd_76cbccaa.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 475,
+      "name": "Earth Spirits Staff",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2a6d48ad5aa9/models/heroes/earth_spirit/earth_spirit_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2a6d48ad5aa9/models/heroes/earth_spirit/earth_spirit_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_staff.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2a6d48ad5aa9/models/heroes/earth_spirit/earth_spirit_staff_color_psd_dbd799e.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:17854:bowling-champion-ability",
+      "itemId": 17854,
+      "name": "Vote Only Bowling Champion Ability",
+      "slot": "ability4",
+      "slotDisplayName": "LoadoutSlot EarthSpirit StoneRemnant",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f873c18ff9d/models/items/earth_spirit/bowling_champion_ability/bowling_champion_ability.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f873c18ff9d/models/items/earth_spirit/bowling_champion_ability/bowling_champion_ability.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/bowling_champion_ability/bowling_champion_ability.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bowling_champion_ability-3d06ff86b412.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f873c18ff9d/models/items/earth_spirit/bowling_champion_ability/bowling_champion_ability_color_tga_5506d4f3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/bowling_champion_ability/bowling_champion_ability.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/bowling_champion_ability/bowling_champion_ability.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/earth_spirit/earth_spirit_2021_summons/earth_spirit_2021_summons_ability.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_stoneremnant.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:13392:ti9-cache-earthspirit-turquoise-giant-arms",
+      "itemId": 13392,
+      "name": "Arms of the Jade Emissary",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/c0aba15709fc/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_arms/ti9_cache_earthspirit_turquoise_giant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/c0aba15709fc/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_arms/ti9_cache_earthspirit_turquoise_giant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_arms/ti9_cache_earthspirit_turquoise_giant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_earthspirit_turquoise_giant_arms-dd932b5e43d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/c0aba15709fc/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_arms/ti9_cache_earthspirit_turquoise_giant_arms_color_tga_1ab19574.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:8712:the-jade-general-arms",
+      "itemId": 8712,
+      "name": "Arms of the Jade General",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9d0b8aadab57/models/items/earth_spirit/the_jade_general_arms/the_jade_general_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9d0b8aadab57/models/items/earth_spirit/the_jade_general_arms/the_jade_general_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/the_jade_general_arms/the_jade_general_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_jade_general_arms-cdf2530e5d76.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9d0b8aadab57/models/items/earth_spirit/the_jade_general_arms/the_jade_general_arms_color_tga_9dec2cdd.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:27453:earth-spirit-gauntlet-of-the-xuanwu-warriror",
+      "itemId": 27453,
+      "name": "Black Tortoise  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/58cd94dd9ddd/models/items/earth_spirit/earth_spirit_gauntlet_of_the_xuanwu_warriror/earth_spirit_gauntlet_of_the_xuanwu_warriror.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/58cd94dd9ddd/models/items/earth_spirit/earth_spirit_gauntlet_of_the_xuanwu_warriror/earth_spirit_gauntlet_of_the_xuanwu_warriror.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/earth_spirit_gauntlet_of_the_xuanwu_warriror/earth_spirit_gauntlet_of_the_xuanwu_warriror.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_gauntlet_of_the_xuanwu_warriror-2d198ad013ac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/58cd94dd9ddd/models/items/earth_spirit/earth_spirit_gauntlet_of_the_xuanwu_warriror/earth_spirit_gauntlet_of_the_xuanwu_warriror_color_tga_ca8edb46.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:481:earth-spirit-arms",
+      "itemId": 481,
+      "name": "Earth Spirits Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/e63fef76533d/models/heroes/earth_spirit/earth_spirit_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/e63fef76533d/models/heroes/earth_spirit/earth_spirit_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_arms-720b02774deb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/e63fef76533d/models/heroes/earth_spirit/earth_spirit_arm_color_psd_f0fd7124.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:18425:dplus-loyalism-of-the-roaring-stone-arms",
+      "itemId": 18425,
+      "name": "Emanations of the Worldcore Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/816b36c07ba0/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_arms/dplus_loyalism_of_the_roaring_stone_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/816b36c07ba0/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_arms/dplus_loyalism_of_the_roaring_stone_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_arms/dplus_loyalism_of_the_roaring_stone_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_loyalism_of_the_roaring_stone_arms-2a13c1296582.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/816b36c07ba0/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_arms/dplus_loyalism_of_the_roaring_stone_arms_color_tga_edcac6f3.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6002:demon-stone-bracers",
+      "itemId": 6002,
+      "name": "Plated Bracers of the Demon Stone",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/31d32a518a8b/models/items/earth_spirit/demon_stone_bracers/demon_stone_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/31d32a518a8b/models/items/earth_spirit/demon_stone_bracers/demon_stone_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/demon_stone_bracers/demon_stone_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_stone_bracers-2483a33cba48.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/31d32a518a8b/models/items/earth_spirit/demon_stone_bracers/demon_stone_bracers_color_tga_a29f1573.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:32698:legend-of-the-jade-serpent-arms",
+      "itemId": 32698,
+      "name": "Slithering Stone  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/6f63c34bd49e/models/items/earth_spirit/legend_of_the_jade_serpent_arms/legend_of_the_jade_serpent_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/6f63c34bd49e/models/items/earth_spirit/legend_of_the_jade_serpent_arms/legend_of_the_jade_serpent_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/legend_of_the_jade_serpent_arms/legend_of_the_jade_serpent_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legend_of_the_jade_serpent_arms-9c27a27f3fa5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/6f63c34bd49e/models/items/earth_spirit/legend_of_the_jade_serpent_arms/legend_of_the_jade_serpent_arms_color_png_7f3572b3.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6432:vanquishing-demons-arms",
+      "itemId": 6432,
+      "name": "Vanquishing Demons Geomagnetic Arm Guard",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/41fb22aeff25/models/items/earth_spirit/vanquishing_demons_arms/vanquishing_demons_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/41fb22aeff25/models/items/earth_spirit/vanquishing_demons_arms/vanquishing_demons_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/vanquishing_demons_arms/vanquishing_demons_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vanquishing_demons_arms-35c79486502d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/41fb22aeff25/models/items/earth_spirit/vanquishing_demons_arms/vanquishing_demons_arms_color_tga_cf98b542.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:17850:bowling-champion-arms",
+      "itemId": 17850,
+      "name": "Vote Only Bowling Champion Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/acafa668a19a/models/items/earth_spirit/bowling_champion_arms/bowling_champion_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/acafa668a19a/models/items/earth_spirit/bowling_champion_arms/bowling_champion_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/bowling_champion_arms/bowling_champion_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bowling_champion_arms-7e1b93407939.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/acafa668a19a/models/items/earth_spirit/bowling_champion_arms/bowling_champion_arms_color_tga_4e7a804a.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:13391:ti9-cache-earthspirit-turquoise-giant-belt",
+      "itemId": 13391,
+      "name": "Belt of the Jade Emissary",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/54919d42bda2/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_belt/ti9_cache_earthspirit_turquoise_giant_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/54919d42bda2/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_belt/ti9_cache_earthspirit_turquoise_giant_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_belt/ti9_cache_earthspirit_turquoise_giant_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_earthspirit_turquoise_giant_belt-d79ca3e7e8af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/54919d42bda2/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_belt/ti9_cache_earthspirit_turquoise_giant_belt_color_tga_2e5f2c3a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_belt/ti9_cache_earthspirit_turquoise_giant_belt.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_belt/ti9_cache_earthspirit_turquoise_giant_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/earth_spirit/earth_spirit_ti9_turquoise_giant/earth_spirit_ti9_belt_glow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:8903:the-jade-general-belt",
+      "itemId": 8903,
+      "name": "Belt of the Jade General",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5fa9276c7b9f/models/items/earth_spirit/the_jade_general_belt/the_jade_general_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5fa9276c7b9f/models/items/earth_spirit/the_jade_general_belt/the_jade_general_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/the_jade_general_belt/the_jade_general_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_jade_general_belt-c82b652b4334.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5fa9276c7b9f/models/items/earth_spirit/the_jade_general_belt/the_jade_general_belt_color_tga_3009a718.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:27459:earth-spirit-belt-of-the-xuanwu-warriror",
+      "itemId": 27459,
+      "name": "Black Tortoise  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/968f9cc5bdf3/models/items/earth_spirit/earth_spirit_belt_of_the_xuanwu_warriror/earth_spirit_belt_of_the_xuanwu_warriror.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/968f9cc5bdf3/models/items/earth_spirit/earth_spirit_belt_of_the_xuanwu_warriror/earth_spirit_belt_of_the_xuanwu_warriror.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/earth_spirit_belt_of_the_xuanwu_warriror/earth_spirit_belt_of_the_xuanwu_warriror.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_belt_of_the_xuanwu_warriror-be16732a592c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/968f9cc5bdf3/models/items/earth_spirit/earth_spirit_belt_of_the_xuanwu_warriror/earth_spirit_belt_of_the_xuanwu_warriror_color_tga_2fdbb43a.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:479:earth-spirit-belt",
+      "itemId": 479,
+      "name": "Earth Spirits Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a3382be13ddc/models/heroes/earth_spirit/earth_spirit_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a3382be13ddc/models/heroes/earth_spirit/earth_spirit_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_belt-e600a6130a00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a3382be13ddc/models/heroes/earth_spirit/earth_spirit_belt_color_psd_694bb280.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:18424:dplus-loyalism-of-the-roaring-stone-belt",
+      "itemId": 18424,
+      "name": "Emanations of the Worldcore Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9553562bafad/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_belt/dplus_loyalism_of_the_roaring_stone_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9553562bafad/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_belt/dplus_loyalism_of_the_roaring_stone_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_belt/dplus_loyalism_of_the_roaring_stone_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_loyalism_of_the_roaring_stone_belt-9ed66cd7dba3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9553562bafad/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_belt/dplus_loyalism_of_the_roaring_stone_belt_color_tga_8a9adf88.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:7183:stone-tranquility-belt",
+      "itemId": 7183,
+      "name": "Haidate of Bedrock Serenity",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2ac5437b3a0b/models/items/earth_spirit/stone_tranquility_belt/stone_tranquility_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2ac5437b3a0b/models/items/earth_spirit/stone_tranquility_belt/stone_tranquility_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/stone_tranquility_belt/stone_tranquility_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stone_tranquility_belt-3616a56b70e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2ac5437b3a0b/models/items/earth_spirit/stone_tranquility_belt/stone_tranquility_belt_color_tga_855af363.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6003:demon-stone-belt",
+      "itemId": 6003,
+      "name": "Plackart of the Demon Stone",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fc58caf709cc/models/items/earth_spirit/demon_stone_belt/demon_stone_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fc58caf709cc/models/items/earth_spirit/demon_stone_belt/demon_stone_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/demon_stone_belt/demon_stone_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_stone_belt-ef35dd1d43c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fc58caf709cc/models/items/earth_spirit/demon_stone_belt/demon_stone_belt_color_tga_43e44862.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:32697:legend-of-the-jade-serpent-belt",
+      "itemId": 32697,
+      "name": "Slithering Stone  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/3b040856a20a/models/items/earth_spirit/legend_of_the_jade_serpent_belt/legend_of_the_jade_serpent_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/3b040856a20a/models/items/earth_spirit/legend_of_the_jade_serpent_belt/legend_of_the_jade_serpent_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/legend_of_the_jade_serpent_belt/legend_of_the_jade_serpent_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legend_of_the_jade_serpent_belt-05a73a52674f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/3b040856a20a/models/items/earth_spirit/legend_of_the_jade_serpent_belt/legend_of_the_jade_serpent_belt_color_png_2dbb3055.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6433:vanquishing-demons-belt",
+      "itemId": 6433,
+      "name": "Vanquishing Demons Earthcore Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9a6a6c1572fb/models/items/earth_spirit/vanquishing_demons_belt/vanquishing_demons_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9a6a6c1572fb/models/items/earth_spirit/vanquishing_demons_belt/vanquishing_demons_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/vanquishing_demons_belt/vanquishing_demons_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vanquishing_demons_belt-ee2b35994c4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/9a6a6c1572fb/models/items/earth_spirit/vanquishing_demons_belt/vanquishing_demons_belt_color_tga_d7d175e9.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:17851:bowling-champion-belt",
+      "itemId": 17851,
+      "name": "Vote Only Bowling Champion Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fc8df505c66d/models/items/earth_spirit/bowling_champion_belt/bowling_champion_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fc8df505c66d/models/items/earth_spirit/bowling_champion_belt/bowling_champion_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/bowling_champion_belt/bowling_champion_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bowling_champion_belt-cabfe2a47f04.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fc8df505c66d/models/items/earth_spirit/bowling_champion_belt/bowling_champion_belt_color_tga_b29d7b74.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:482:earth-spirit-head",
+      "itemId": 482,
+      "name": "Earth Spirits Head",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0cd7b2c25d05/models/heroes/earth_spirit/earth_spirit_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0cd7b2c25d05/models/heroes/earth_spirit/earth_spirit_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_head-7c68c4dc8091.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0cd7b2c25d05/models/heroes/earth_spirit/earth_spirit_head_color_psd_dfd38ce7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/earth_spirit/earth_spirit_head.vmdl",
+        "modelPaths": [
+          "models/heroes/earth_spirit/earth_spirit_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/earth_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:27460:earth-spirit-helmet-of-the-xuanwu-warriror",
+      "itemId": 27460,
+      "name": "Black Tortoise  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/87b656dc4575/models/items/earth_spirit/earth_spirit_helmet_of_the_xuanwu_warriror/earth_spirit_helmet_of_the_xuanwu_warriror.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/87b656dc4575/models/items/earth_spirit/earth_spirit_helmet_of_the_xuanwu_warriror/earth_spirit_helmet_of_the_xuanwu_warriror.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/earth_spirit_helmet_of_the_xuanwu_warriror/earth_spirit_helmet_of_the_xuanwu_warriror.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_helmet_of_the_xuanwu_warriror-9ae13f91e2e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/87b656dc4575/models/items/earth_spirit/earth_spirit_helmet_of_the_xuanwu_warriror/earth_spirit_helmet_of_the_xuanwu_warriror_color_tga_9c0dfb0c.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:477:earth-spirit-hair",
+      "itemId": 477,
+      "name": "Earth Spirits Head Accessory",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f8e9856c69d/models/heroes/earth_spirit/earth_spirit_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f8e9856c69d/models/heroes/earth_spirit/earth_spirit_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_hair-28bc9db2a88c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5f8e9856c69d/models/heroes/earth_spirit/earth_spirit_head_color_psd_dfd38ce7.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:18423:dplus-loyalism-of-the-roaring-stone-head",
+      "itemId": 18423,
+      "name": "Emanations of the Worldcore Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/ac00d68fa148/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_head/dplus_loyalism_of_the_roaring_stone_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/ac00d68fa148/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_head/dplus_loyalism_of_the_roaring_stone_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_head/dplus_loyalism_of_the_roaring_stone_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_loyalism_of_the_roaring_stone_head-55b6d793c6ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/ac00d68fa148/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_head/dplus_loyalism_of_the_roaring_stone_head_color_tga_16b5d22.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:13389:ti9-cache-earthspirit-turquoise-giant-head",
+      "itemId": 13389,
+      "name": "Helm of the Jade Emissary",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/1c6a4033dbef/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_head/ti9_cache_earthspirit_turquoise_giant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/1c6a4033dbef/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_head/ti9_cache_earthspirit_turquoise_giant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_head/ti9_cache_earthspirit_turquoise_giant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_earthspirit_turquoise_giant_head-6309364c5c02.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/1c6a4033dbef/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_head/ti9_cache_earthspirit_turquoise_giant_head_color_tga_67afc526.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_head/ti9_cache_earthspirit_turquoise_giant_head.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_head/ti9_cache_earthspirit_turquoise_giant_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/earth_spirit/earth_spirit_ti9_turquoise_giant/earth_spirit_ti9_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:7185:stone-tranquility-helm",
+      "itemId": 7185,
+      "name": "Kabuto of Bedrock Serenity",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/d11b3fe78f99/models/items/earth_spirit/stone_tranquility_helm/stone_tranquility_helm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/d11b3fe78f99/models/items/earth_spirit/stone_tranquility_helm/stone_tranquility_helm.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/stone_tranquility_helm/stone_tranquility_helm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stone_tranquility_helm-f96e994fec44.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/d11b3fe78f99/models/items/earth_spirit/stone_tranquility_helm/stone_tranquility_helm_color_tga_2bd84ae4.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6004:demon-stone-hair",
+      "itemId": 6004,
+      "name": "Mane of the Demon Stone",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a5f37a770de6/models/items/earth_spirit/demon_stone_hair/demon_stone_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a5f37a770de6/models/items/earth_spirit/demon_stone_hair/demon_stone_hair.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_stone_hair-38e44639d4f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a5f37a770de6/models/items/earth_spirit/demon_stone_hair/demon_stone_hair_color_tga_9acde7e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Mane of the Demon Stone Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/earth_spirit/demon_stone_hair/demon_stone_hair",
+            "modelPaths": [
+              "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Mane of the Demon Stone Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/earth_spirit/demon_stone_hat/demon_stone_hat",
+            "modelPaths": [
+              "models/items/earth_spirit/demon_stone_hat/demon_stone_hat.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6004:demon-stone-hair:style-1",
+      "itemId": 6004,
+      "name": "Mane of the Demon Stone - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a5f37a770de6/models/items/earth_spirit/demon_stone_hair/demon_stone_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a5f37a770de6/models/items/earth_spirit/demon_stone_hair/demon_stone_hair.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_stone_hat-2d26407b26bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a5f37a770de6/models/items/earth_spirit/demon_stone_hair/demon_stone_hair_color_tga_9acde7e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Mane of the Demon Stone Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/earth_spirit/demon_stone_hair/demon_stone_hair",
+            "modelPaths": [
+              "models/items/earth_spirit/demon_stone_hair/demon_stone_hair.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Mane of the Demon Stone Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/earth_spirit/demon_stone_hat/demon_stone_hat",
+            "modelPaths": [
+              "models/items/earth_spirit/demon_stone_hat/demon_stone_hat.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:32696:legend-of-the-jade-serpent-head",
+      "itemId": 32696,
+      "name": "Slithering Stone  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0dd6106ad1b2/models/items/earth_spirit/legend_of_the_jade_serpent_head/legend_of_the_jade_serpent_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0dd6106ad1b2/models/items/earth_spirit/legend_of_the_jade_serpent_head/legend_of_the_jade_serpent_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/legend_of_the_jade_serpent_head/legend_of_the_jade_serpent_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legend_of_the_jade_serpent_head-1979e0724823.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0dd6106ad1b2/models/items/earth_spirit/legend_of_the_jade_serpent_head/legend_of_the_jade_serpent_head_color_png_e7ea1eb.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:8904:the-jade-general-head",
+      "itemId": 8904,
+      "name": "Style of the Jade General",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/f9b98482b11f/models/items/earth_spirit/the_jade_general_head/the_jade_general_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/f9b98482b11f/models/items/earth_spirit/the_jade_general_head/the_jade_general_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/the_jade_general_head/the_jade_general_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_jade_general_head-3770e334d9d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/f9b98482b11f/models/items/earth_spirit/the_jade_general_head/the_jade_general_head_color_tga_fd89d0e7.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6434:vanquishing-demons-helmet",
+      "itemId": 6434,
+      "name": "Vanquishing Demons Ritual Headgear",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7d659812654d/models/items/earth_spirit/vanquishing_demons_helmet/vanquishing_demons_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7d659812654d/models/items/earth_spirit/vanquishing_demons_helmet/vanquishing_demons_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/vanquishing_demons_helmet/vanquishing_demons_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vanquishing_demons_helmet-8ef4cadcebb1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7d659812654d/models/items/earth_spirit/vanquishing_demons_helmet/vanquishing_demons_helmet_color_tga_d07f8610.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:17852:bowling-champion-head",
+      "itemId": 17852,
+      "name": "Vote Only Bowling Champion Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/79189bb7a416/models/items/earth_spirit/bowling_champion_head/bowling_champion_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/79189bb7a416/models/items/earth_spirit/bowling_champion_head/bowling_champion_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/bowling_champion_head/bowling_champion_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bowling_champion_head-5d524a6f068a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/79189bb7a416/models/items/earth_spirit/bowling_champion_head/bowling_champion_head_color_tga_4a2ea318.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:8905:the-jade-general-neck",
+      "itemId": 8905,
+      "name": "Armor of the Jade General",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/30b661b4a59d/models/items/earth_spirit/the_jade_general_neck/the_jade_general_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/30b661b4a59d/models/items/earth_spirit/the_jade_general_neck/the_jade_general_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/the_jade_general_neck/the_jade_general_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_jade_general_neck-5b1540ba02bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/30b661b4a59d/models/items/earth_spirit/the_jade_general_neck/the_jade_general_neck_color_tga_e62eeedf.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:27456:earth-spirit-pauldron-of-the-xuanwu-warriror",
+      "itemId": 27456,
+      "name": "Black Tortoise  Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a694fecbbb94/models/items/earth_spirit/earth_spirit_pauldron_of_the_xuanwu_warriror/earth_spirit_pauldron_of_the_xuanwu_warriror.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a694fecbbb94/models/items/earth_spirit/earth_spirit_pauldron_of_the_xuanwu_warriror/earth_spirit_pauldron_of_the_xuanwu_warriror.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/earth_spirit_pauldron_of_the_xuanwu_warriror/earth_spirit_pauldron_of_the_xuanwu_warriror.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_pauldron_of_the_xuanwu_warriror-6d5c7c28f897.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/a694fecbbb94/models/items/earth_spirit/earth_spirit_pauldron_of_the_xuanwu_warriror/earth_spirit_pauldron_of_the_xuanwu_warriror_color_tga_1ce0b840.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:480:earth-spirit-torso",
+      "itemId": 480,
+      "name": "Earth Spirits Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7478446b7eeb/models/heroes/earth_spirit/earth_spirit_torso.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7478446b7eeb/models/heroes/earth_spirit/earth_spirit_torso.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_torso.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_torso-d10c2c851909.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/7478446b7eeb/models/heroes/earth_spirit/earth_spirit_neck_color_psd_76cbccaa.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:18421:dplus-loyalism-of-the-roaring-stone-neck",
+      "itemId": 18421,
+      "name": "Emanations of the Worldcore Garbs",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/c8c8c46a6f5c/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_neck/dplus_loyalism_of_the_roaring_stone_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/c8c8c46a6f5c/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_neck/dplus_loyalism_of_the_roaring_stone_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_neck/dplus_loyalism_of_the_roaring_stone_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_loyalism_of_the_roaring_stone_neck-932dcf0ac7c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/c8c8c46a6f5c/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_neck/dplus_loyalism_of_the_roaring_stone_neck_color_tga_5b0c1f5d.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:7186:stone-tranquility-neck",
+      "itemId": 7186,
+      "name": "Kataginu of Bedrock Serenity",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5c9dad224e23/models/items/earth_spirit/stone_tranquility_neck/stone_tranquility_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5c9dad224e23/models/items/earth_spirit/stone_tranquility_neck/stone_tranquility_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/stone_tranquility_neck/stone_tranquility_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stone_tranquility_neck-b9bee94787d7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5c9dad224e23/models/items/earth_spirit/stone_tranquility_neck/stone_tranquility_neck_color_tga_f7a9ca4a.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6005:demon-stone-necklace",
+      "itemId": 6005,
+      "name": "Necklace of the Demon Stone",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/12cb52a08174/models/items/earth_spirit/demon_stone_necklace/demon_stone_necklace.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/12cb52a08174/models/items/earth_spirit/demon_stone_necklace/demon_stone_necklace.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/demon_stone_necklace/demon_stone_necklace.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_stone_necklace-e44a3c5ff0d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/12cb52a08174/models/items/earth_spirit/demon_stone_necklace/demon_stone_necklace_color_tga_15a70ee.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:13390:ti9-cache-earthspirit-turquoise-giant-neck",
+      "itemId": 13390,
+      "name": "Serpent of the Jade Emissary",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/600eed7e3c84/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_neck/ti9_cache_earthspirit_turquoise_giant_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/600eed7e3c84/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_neck/ti9_cache_earthspirit_turquoise_giant_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_neck/ti9_cache_earthspirit_turquoise_giant_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_earthspirit_turquoise_giant_neck-29d6ca695484.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/600eed7e3c84/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_neck/ti9_cache_earthspirit_turquoise_giant_neck_color_tga_3873f28f.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:32695:legend-of-the-jade-serpent-neck",
+      "itemId": 32695,
+      "name": "Slithering Stone  Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/f386ace9e8fd/models/items/earth_spirit/legend_of_the_jade_serpent_neck/legend_of_the_jade_serpent_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/f386ace9e8fd/models/items/earth_spirit/legend_of_the_jade_serpent_neck/legend_of_the_jade_serpent_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/legend_of_the_jade_serpent_neck/legend_of_the_jade_serpent_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legend_of_the_jade_serpent_neck-8f4e9af2e4f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/f386ace9e8fd/models/items/earth_spirit/legend_of_the_jade_serpent_neck/legend_of_the_jade_serpent_neck_color_png_df92ca9f.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6435:vanquishing-demons-neck",
+      "itemId": 6435,
+      "name": "Vanquishing Demons Ornaments of Annihilation",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/3d6ec8ad3971/models/items/earth_spirit/vanquishing_demons_neck/vanquishing_demons_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/3d6ec8ad3971/models/items/earth_spirit/vanquishing_demons_neck/vanquishing_demons_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/vanquishing_demons_neck/vanquishing_demons_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vanquishing_demons_neck-31cb3e0b3cb3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/3d6ec8ad3971/models/items/earth_spirit/vanquishing_demons_neck/vanquishing_demons_neck_color_tga_45fe786c.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:17853:bowling-champion-neck",
+      "itemId": 17853,
+      "name": "Vote Only Bowling Champion Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/294015b264bc/models/items/earth_spirit/bowling_champion_neck/bowling_champion_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/294015b264bc/models/items/earth_spirit/bowling_champion_neck/bowling_champion_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/bowling_champion_neck/bowling_champion_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bowling_champion_neck-f9e117519599.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/294015b264bc/models/items/earth_spirit/bowling_champion_neck/bowling_champion_neck_color_tga_c1b21b0e.png"
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:27455:earth-spirit-mace-of-the-xuanwu-warriror",
+      "itemId": 27455,
+      "name": "Black Tortoise  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5df2e2b501e4/models/items/earth_spirit/earth_spirit_mace_of_the_xuanwu_warriror/earth_spirit_mace_of_the_xuanwu_warriror.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5df2e2b501e4/models/items/earth_spirit/earth_spirit_mace_of_the_xuanwu_warriror/earth_spirit_mace_of_the_xuanwu_warriror.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/earth_spirit_mace_of_the_xuanwu_warriror/earth_spirit_mace_of_the_xuanwu_warriror.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_mace_of_the_xuanwu_warriror-415c36701ca9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5df2e2b501e4/models/items/earth_spirit/earth_spirit_mace_of_the_xuanwu_warriror/earth_spirit_mace_of_the_xuanwu_warriror_color_tga_1fa5a0fd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/earth_spirit_mace_of_the_xuanwu_warriror/earth_spirit_mace_of_the_xuanwu_warriror.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/earth_spirit_mace_of_the_xuanwu_warriror/earth_spirit_mace_of_the_xuanwu_warriror.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:7184:stone-tranquility-weapon",
+      "itemId": 7184,
+      "name": "Bo of Bedrock Serenity",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/50732100c921/models/items/earth_spirit/stone_tranquility_weapon/stone_tranquility_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/50732100c921/models/items/earth_spirit/stone_tranquility_weapon/stone_tranquility_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/stone_tranquility_weapon/stone_tranquility_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stone_tranquility_weapon-2379d6fccb56.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/50732100c921/models/items/earth_spirit/stone_tranquility_weapon/stone_tranquility_weapon_color_tga_30876165.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/stone_tranquility_weapon/stone_tranquility_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/stone_tranquility_weapon/stone_tranquility_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6580:demonvanquisher-weapon",
+      "itemId": 6580,
+      "name": "Demon Vanquisher",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/abba6bed4102/models/items/earth_spirit/demonvanquisher_weapon/demonvanquisher_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/abba6bed4102/models/items/earth_spirit/demonvanquisher_weapon/demonvanquisher_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/demonvanquisher_weapon/demonvanquisher_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demonvanquisher_weapon-943ea605f1a2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/abba6bed4102/models/items/earth_spirit/demonvanquisher_weapon/demonvanquisher_weapon_color_tga_7050563b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/demonvanquisher_weapon/demonvanquisher_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/demonvanquisher_weapon/demonvanquisher_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:475:earth-spirit-staff",
+      "itemId": 475,
+      "name": "Earth Spirits Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2a6d48ad5aa9/models/heroes/earth_spirit/earth_spirit_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2a6d48ad5aa9/models/heroes/earth_spirit/earth_spirit_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/earth_spirit/earth_spirit_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/earth_spirit_staff-97f76e77b0e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/2a6d48ad5aa9/models/heroes/earth_spirit/earth_spirit_staff_color_psd_dbd799e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/earth_spirit/earth_spirit_staff.vmdl",
+        "modelPaths": [
+          "models/heroes/earth_spirit/earth_spirit_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:18420:dplus-loyalism-of-the-roaring-stone-weapon",
+      "itemId": 18420,
+      "name": "Emanations of the Worldcore Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/b43e44b67682/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_weapon/dplus_loyalism_of_the_roaring_stone_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/b43e44b67682/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_weapon/dplus_loyalism_of_the_roaring_stone_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_weapon/dplus_loyalism_of_the_roaring_stone_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_loyalism_of_the_roaring_stone_weapon-3fe3f0e992f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/b43e44b67682/models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_weapon/dplus_loyalism_of_the_roaring_stone_weapon_color_tga_e896a5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_weapon/dplus_loyalism_of_the_roaring_stone_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/dplus_loyalism_of_the_roaring_stone_weapon/dplus_loyalism_of_the_roaring_stone_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:7935:jade-reckoning-v2",
+      "itemId": 7935,
+      "name": "Jade Reckoning",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5d1389363bde/models/items/earth_spirit/jade_reckoning_v2/mesh/jade_reckoning_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5d1389363bde/models/items/earth_spirit/jade_reckoning_v2/mesh/jade_reckoning_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/jade_reckoning_v2/mesh/jade_reckoning_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jade_reckoning_v2-95192a2cccd2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/5d1389363bde/models/items/earth_spirit/jade_reckoning_v2/mesh/jade_reckoning_color_psd_3cb583b3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/jade_reckoning_v2/mesh/jade_reckoning_v2.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/jade_reckoning_v2/mesh/jade_reckoning_v2.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/earth_spirit/earth_spirit_ti6_boulder/espirit_ti6_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/earth_spirit/earth_spirit_ti6_boulder/espirit_ti6_rollingboulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/earth_spirit/earth_spirit_ti6_boulder/espirit_ti6_rollingboulder_stone.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_rollingboulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_rollingboulder_stone.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:32694:legend-of-the-jade-serpent-weapon",
+      "itemId": 32694,
+      "name": "Slithering Stone  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fab7959ad42e/models/items/earth_spirit/legend_of_the_jade_serpent_weapon/legend_of_the_jade_serpent_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fab7959ad42e/models/items/earth_spirit/legend_of_the_jade_serpent_weapon/legend_of_the_jade_serpent_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/legend_of_the_jade_serpent_weapon/legend_of_the_jade_serpent_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legend_of_the_jade_serpent_weapon-3c2de1d9d6b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/fab7959ad42e/models/items/earth_spirit/legend_of_the_jade_serpent_weapon/legend_of_the_jade_serpent_weapon_color_png_38931cfe.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/legend_of_the_jade_serpent_weapon/legend_of_the_jade_serpent_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/legend_of_the_jade_serpent_weapon/legend_of_the_jade_serpent_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6006:demon-stone-weapon",
+      "itemId": 6006,
+      "name": "Staff of the Demon Stone",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0df803528c16/models/items/earth_spirit/demon_stone_weapon/demon_stone_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0df803528c16/models/items/earth_spirit/demon_stone_weapon/demon_stone_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/demon_stone_weapon/demon_stone_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_stone_weapon-77230c026cc7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/0df803528c16/models/items/earth_spirit/demon_stone_weapon/demon_stone_weapon_color_tga_662c9c09.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/demon_stone_weapon/demon_stone_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/demon_stone_weapon/demon_stone_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:13393:ti9-cache-earthspirit-turquoise-giant-weapon",
+      "itemId": 13393,
+      "name": "Staff of the Jade Emissary",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/60cdc7eace72/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_weapon/ti9_cache_earthspirit_turquoise_giant_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/60cdc7eace72/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_weapon/ti9_cache_earthspirit_turquoise_giant_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_weapon/ti9_cache_earthspirit_turquoise_giant_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_earthspirit_turquoise_giant_weapon-194052eee0fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/60cdc7eace72/models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_weapon/ti9_cache_earthspirit_turquoise_giant_weapon_color_tga_f4f9f75.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_weapon/ti9_cache_earthspirit_turquoise_giant_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/ti9_cache_earthspirit_turquoise_giant_weapon/ti9_cache_earthspirit_turquoise_giant_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/earth_spirit/earth_spirit_ti9_turquoise_giant/earth_spirit_ti9_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:8906:the-jade-general-weapon",
+      "itemId": 8906,
+      "name": "Staff of the Jade General",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/91ded27b10b7/models/items/earth_spirit/the_jade_general_weapon/the_jade_general_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/91ded27b10b7/models/items/earth_spirit/the_jade_general_weapon/the_jade_general_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/the_jade_general_weapon/the_jade_general_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_jade_general_weapon-47b65479c9f9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/91ded27b10b7/models/items/earth_spirit/the_jade_general_weapon/the_jade_general_weapon_color_tga_fa6ac590.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/the_jade_general_weapon/the_jade_general_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/the_jade_general_weapon/the_jade_general_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:6436:vanquishing-demons-weapon",
+      "itemId": 6436,
+      "name": "Vanquishing Demons Earthforce",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/808183369123/models/items/earth_spirit/vanquishing_demons_weapon/vanquishing_demons_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/808183369123/models/items/earth_spirit/vanquishing_demons_weapon/vanquishing_demons_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/vanquishing_demons_weapon/vanquishing_demons_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vanquishing_demons_weapon-0da648310784.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/808183369123/models/items/earth_spirit/vanquishing_demons_weapon/vanquishing_demons_weapon_color_tga_20372e6c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/vanquishing_demons_weapon/vanquishing_demons_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/vanquishing_demons_weapon/vanquishing_demons_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:item-model:17855:bowling-champion-weapon",
+      "itemId": 17855,
+      "name": "Vote Only Bowling Champion Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/8365ce168883/models/items/earth_spirit/bowling_champion_weapon/bowling_champion_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_earth_spirit/8365ce168883/models/items/earth_spirit/bowling_champion_weapon/bowling_champion_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/earth_spirit/bowling_champion_weapon/bowling_champion_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bowling_champion_weapon-cbd5904ade55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_earth_spirit/8365ce168883/models/items/earth_spirit/bowling_champion_weapon/bowling_champion_weapon_color_tga_52f3ce1d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/earth_spirit/bowling_champion_weapon/bowling_champion_weapon.vmdl",
+        "modelPaths": [
+          "models/items/earth_spirit/bowling_champion_weapon/bowling_champion_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_earth_spirit/espirit_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:21399:adornments-of-the-jade-emissary",
+      "name": "Adornments of the Jade Emissary",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481
+      ],
+      "sourceItemIds": [
+        13389,
+        13390,
+        13391,
+        13392,
+        13393
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_earthspirit_turquoise_giant_head-6309364c5c02.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:20969:bedrock-serenity",
+      "name": "Bedrock Serenity",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480
+      ],
+      "sourceItemIds": [
+        7183,
+        7184,
+        7185,
+        7186
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/bedrock_serenity-66459bd070fe.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:27461:black-tortoise",
+      "name": "Black Tortoise",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481,
+        8654
+      ],
+      "sourceItemIds": [
+        27453,
+        27455,
+        27456,
+        27457,
+        27459,
+        27460
+      ],
+      "slots": [
+        "ability4",
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/earth_spirit_loadingscreen_of_the_xuanwu_warriror-6b72261318c5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:21804:emanations-of-the-worldcore",
+      "name": "Emanations of the Worldcore",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481
+      ],
+      "sourceItemIds": [
+        18420,
+        18421,
+        18423,
+        18424,
+        18425
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dplus_loyalism_of_the_roaring_stone_ls-d741ea1cc1e4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:20673:gg-league-season-2",
+      "name": "GG League Season 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480
+      ],
+      "sourceItemIds": [
+        7183,
+        7184,
+        7185,
+        7186
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/stone_tranquility_belt-3616a56b70e4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:32693:slithering-stone",
+      "name": "Slithering Stone",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481
+      ],
+      "sourceItemIds": [
+        32694,
+        32695,
+        32696,
+        32697,
+        32698
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/legend_of_the_jade_serpent_weapon-3c2de1d9d6b5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:20368:strength-of-the-demon-stone-set",
+      "name": "Strength of the Demon Stone Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481,
+        8654
+      ],
+      "sourceItemIds": [
+        6002,
+        6003,
+        6004,
+        6005,
+        6006,
+        6008
+      ],
+      "styleSelections": {
+        "6004": "0"
+      },
+      "slots": [
+        "ability4",
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/demon_stone_bracers-2483a33cba48.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:20368:strength-of-the-demon-stone-set:style-1",
+      "name": "Strength of the Demon Stone Set - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481,
+        8654
+      ],
+      "sourceItemIds": [
+        6002,
+        6003,
+        6004,
+        6005,
+        6006,
+        6008
+      ],
+      "styleSelections": {
+        "6004": "1"
+      },
+      "slots": [
+        "ability4",
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/demon_stone_hat-2d26407b26bf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:21059:the-jade-general",
+      "name": "The Jade General",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481
+      ],
+      "sourceItemIds": [
+        8712,
+        8903,
+        8904,
+        8905,
+        8906
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/the_jade_general_the_jade_general-3b62847ff52b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:20495:vanquishing-demons-general",
+      "name": "Vanquishing Demons General",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481,
+        8654
+      ],
+      "sourceItemIds": [
+        6432,
+        6433,
+        6434,
+        6435,
+        6436,
+        6526
+      ],
+      "slots": [
+        "ability4",
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/vanquishing_demons-0300ce9a6ac0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_earth_spirit:core-set:21608:vote-only-bowling-champion",
+      "name": "Vote Only Bowling Champion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        475,
+        477,
+        479,
+        480,
+        481,
+        8654
+      ],
+      "sourceItemIds": [
+        17850,
+        17851,
+        17852,
+        17853,
+        17855,
+        29600
+      ],
+      "slots": [
+        "ability4",
+        "arms",
+        "belt",
+        "head",
+        "neck",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 22835489,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 295
+  }
+}

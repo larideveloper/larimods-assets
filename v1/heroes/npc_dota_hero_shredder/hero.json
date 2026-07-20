@@ -1,0 +1,3869 @@
+{
+  "heroId": "npc_dota_hero_shredder",
+  "sourceHeroId": "npc_dota_hero_shredder",
+  "variantId": "default",
+  "heroName": "Shredder",
+  "heroSlug": "shredder",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shredder.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_shredder/60767cc42b71/models/heroes/shredder/shredder.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 401,
+      "name": "Timbersaws Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/074742ece49b/models/heroes/shredder/shredder_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/074742ece49b/models/heroes/shredder/shredder_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/074742ece49b/models/heroes/shredder/timbersaw_armor_color_psd_521bacff.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 390,
+      "name": "Timbersaws Torso",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/08c2b977bd2d/models/heroes/shredder/shredder_body.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/08c2b977bd2d/models/heroes/shredder/shredder_body.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_body.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/08c2b977bd2d/models/heroes/shredder/timbersaw_body_color_psd_28a8a74f.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "itemId": 400,
+      "name": "Timbersaws Waist Saw",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/20d66c02901c/models/heroes/shredder/shredder_blade.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/20d66c02901c/models/heroes/shredder/shredder_blade.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_blade.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/20d66c02901c/models/heroes/shredder/timbersaw_blade_color_psd_8d9e0558.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 386,
+      "name": "Timbersaws Hat",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ba24e0a63a9b/models/heroes/shredder/shredder_driver_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/ba24e0a63a9b/models/heroes/shredder/shredder_driver_hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_driver_hat.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ba24e0a63a9b/models/heroes/shredder/timbersaw_hat_color_psd_680b937f.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "itemId": 388,
+      "name": "Timbersaws Left Arm",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bd7a1ad998de/models/heroes/shredder/shredder_chainsaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/bd7a1ad998de/models/heroes/shredder/shredder_chainsaw.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_chainsaw.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bd7a1ad998de/models/heroes/shredder/timbersaw_chainsaw_color_psd_7cf8eb86.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 389,
+      "name": "Timbersaws Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f81a7e53d362/models/heroes/shredder/shredder_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/f81a7e53d362/models/heroes/shredder/shredder_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f81a7e53d362/models/heroes/shredder/timbersaw_shoulders_color_psd_39d42f2e.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 402,
+      "name": "Timbersaws Right Arm",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/aa4de2a06e5a/models/heroes/shredder/shredder_hook.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/aa4de2a06e5a/models/heroes/shredder/shredder_hook.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_hook.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/aa4de2a06e5a/models/heroes/shredder/timbersaw_claw_color_psd_f88b2d80.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_shredder:item-model:7259:siege-golem-armor",
+      "itemId": 7259,
+      "name": "Armor of Utter Eradication",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/81f16e7aa2b3/models/items/shredder/siege_golem_armor/siege_golem_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/81f16e7aa2b3/models/items/shredder/siege_golem_armor/siege_golem_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/siege_golem_armor/siege_golem_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/siege_golem_armor-b1ae05195177.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/81f16e7aa2b3/models/items/shredder/siege_golem_armor/siege_golem_armor_color_tga_15fcd0fb.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7027:firefly-armor",
+      "itemId": 7027,
+      "name": "Armor of the Maniacal Machinist",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/0d2b92816f2b/models/items/shredder/firefly_armor/firefly_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/0d2b92816f2b/models/items/shredder/firefly_armor/firefly_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/firefly_armor/firefly_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firefly_armor-e462c38c4b52.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/0d2b92816f2b/models/items/shredder/firefly_armor/firefly_armor_color_tga_37712266.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9692:chopper-knight-armor",
+      "itemId": 9692,
+      "name": "Armor of the Siege Engine",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/6564c787d6bd/models/items/shredder/chopper_knight_armor/chopper_knight_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/6564c787d6bd/models/items/shredder/chopper_knight_armor/chopper_knight_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/chopper_knight_armor/chopper_knight_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chopper_knight_armor-0e9600004a16.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/6564c787d6bd/models/items/shredder/chopper_knight_armor/chopper_knight_armor_color_tga_3ba3b344.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8430:the-stumpgrinder-reactive-armor",
+      "itemId": 8430,
+      "name": "Armor of the Stumpgrinder",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/a0b6b42a8529/models/items/shredder/the_stumpgrinder__reactive_armor/the_stumpgrinder__reactive_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/a0b6b42a8529/models/items/shredder/the_stumpgrinder__reactive_armor/the_stumpgrinder__reactive_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/the_stumpgrinder__reactive_armor/the_stumpgrinder__reactive_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_stumpgrinder__reactive_armor-0e20062fa575.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/a0b6b42a8529/models/items/shredder/the_stumpgrinder__reactive_armor/the_stumpgrinder__reactive_armor_color_tga_5d9e7fa.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:12854:frostivus2018-timber-timberzil-armor",
+      "itemId": 12854,
+      "name": "Armor of the Trailblazer",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f154f3908f92/models/items/shredder/frostivus2018_timber_timberzil_armor/frostivus2018_timber_timberzil_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/f154f3908f92/models/items/shredder/frostivus2018_timber_timberzil_armor/frostivus2018_timber_timberzil_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/frostivus2018_timber_timberzil_armor/frostivus2018_timber_timberzil_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_timber_timberzil_armor-73c5df14f68f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f154f3908f92/models/items/shredder/frostivus2018_timber_timberzil_armor/frostivus2018_timber_timberzil_armor_color_png_f04add0c.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9542:treepunisher-armor",
+      "itemId": 9542,
+      "name": "Armor of the Tree Punisher",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/8492f650523a/models/items/shredder/treepunisher_armor/treepunisher_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/8492f650523a/models/items/shredder/treepunisher_armor/treepunisher_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/treepunisher_armor/treepunisher_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treepunisher_armor-530446dc8572.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/8492f650523a/models/items/shredder/treepunisher_armor/treepunisher_armor_color_tga_dc5cda73.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:14724:timbersaw-sir-cutsalot-armor",
+      "itemId": 14724,
+      "name": "Clearcut Cavalier Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e7c4602caadc/models/items/shredder/timbersaw_sir_cutsalot_armor/timbersaw_sir_cutsalot_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/e7c4602caadc/models/items/shredder/timbersaw_sir_cutsalot_armor/timbersaw_sir_cutsalot_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_sir_cutsalot_armor/timbersaw_sir_cutsalot_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_sir_cutsalot_armor-5315ed892970.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e7c4602caadc/models/items/shredder/timbersaw_sir_cutsalot_armor/timbersaw_sir_cutsalot_armor_color_tga_85d3ce99.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7674:steam-woodcutter-armor",
+      "itemId": 7674,
+      "name": "Furnace of the Steamcutter",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/28bdd3294516/models/items/shredder/steam_woodcutter_armor/steam_woodcutter_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/28bdd3294516/models/items/shredder/steam_woodcutter_armor/steam_woodcutter_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/steam_woodcutter_armor/steam_woodcutter_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/steam_woodcutter_armor-34bac640e0b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/28bdd3294516/models/items/shredder/steam_woodcutter_armor/steam_woodcutter_armor_color_tga_d8596fb5.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8665:lumberclaw-armor",
+      "itemId": 8665,
+      "name": "Lumberclaw Reactive Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/327dc960369e/models/items/shredder/lumberclaw_armor/lumberclaw_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/327dc960369e/models/items/shredder/lumberclaw_armor/lumberclaw_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/lumberclaw_armor/lumberclaw_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lumberclaw_armor-045dd2f99958.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/327dc960369e/models/items/shredder/lumberclaw_armor/lumberclaw_armor_color_tga_a41d8f87.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:17627:halloween-vandal-armor",
+      "itemId": 17627,
+      "name": "Pumpkin Splitter Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5a89c620905f/models/items/shredder/halloween_vandal_armor/halloween_vandal_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/5a89c620905f/models/items/shredder/halloween_vandal_armor/halloween_vandal_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/halloween_vandal_armor/halloween_vandal_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloween_vandal_armor-7012c8ba64a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5a89c620905f/models/items/shredder/halloween_vandal_armor/halloween_vandal_armor_color_tga_e3754ee2.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7263:sctimberarmor",
+      "itemId": 7263,
+      "name": "Reactive Armor of the Steam Chopper",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/524a29241b3d/models/items/shredder/sctimberarmor/sctimberarmor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/524a29241b3d/models/items/shredder/sctimberarmor/sctimberarmor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/sctimberarmor/sctimberarmor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sctimberarmor-dd8303cf8884.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/524a29241b3d/models/items/shredder/sctimberarmor/sctimberarmor_color_tga_2667c4bf.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9528:noise-maker-armor",
+      "itemId": 9528,
+      "name": "Shell of the Raucous Gatecrasher",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/df5f4ba2b168/models/items/shredder/noise_maker_armor/noise_maker_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/df5f4ba2b168/models/items/shredder/noise_maker_armor/noise_maker_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/noise_maker_armor/noise_maker_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noise_maker_armor-dde1c9fd24c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/df5f4ba2b168/models/items/shredder/noise_maker_armor/noise_maker_armor_color_tga_86865378.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8020:mad-destructor-armor",
+      "itemId": 8020,
+      "name": "Suit of the Molten Destructor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e3d683810763/models/items/shredder/mad_destructor_armor/mad_destructor_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/e3d683810763/models/items/shredder/mad_destructor_armor/mad_destructor_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/mad_destructor_armor/mad_destructor_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mad_destructor_armor-6f3e785ebe7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e3d683810763/models/items/shredder/mad_destructor_armor/mad_destructor_armor_color_tga_95ad4956.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:401:shredder-armor",
+      "itemId": 401,
+      "name": "Timbersaws Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/074742ece49b/models/heroes/shredder/shredder_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/074742ece49b/models/heroes/shredder/shredder_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shredder_armor-b621ba8ec966.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/074742ece49b/models/heroes/shredder/timbersaw_armor_color_psd_521bacff.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:6519:shredder-timberthaw-armor-lod0",
+      "itemId": 6519,
+      "name": "Timberthaw Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4c02de23fa7c/models/items/shredder/timberthaw_armor/mesh/shredder_timberthaw_armor_lod0.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/4c02de23fa7c/models/items/shredder/timberthaw_armor/mesh/shredder_timberthaw_armor_lod0.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timberthaw_armor/mesh/shredder_timberthaw_armor_lod0.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timberthaw_armor-2e8f626a9b37.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4c02de23fa7c/models/items/shredder/timberthaw_armor/mesh/timberthaw_armor_color_tga_97f37d9.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:13352:ti-9-cache-timber-renewal-of-spring-armor",
+      "itemId": 13352,
+      "name": "Vote Only TI 9 Cache Timber Renewal of Spring Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/1318702047d0/models/items/shredder/ti_9_cache_timber_renewal_of_spring_armor/ti_9_cache_timber_renewal_of_spring_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/1318702047d0/models/items/shredder/ti_9_cache_timber_renewal_of_spring_armor/ti_9_cache_timber_renewal_of_spring_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/ti_9_cache_timber_renewal_of_spring_armor/ti_9_cache_timber_renewal_of_spring_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_timber_renewal_of_spring_armor-1ae6476a4140.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/1318702047d0/models/items/shredder/ti_9_cache_timber_renewal_of_spring_armor/ti_9_cache_timber_renewal_of_spring_armor_color_tga_c4c8f156.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:19683:train-armor-armor",
+      "itemId": 19683,
+      "name": "Vote Only Train Armor Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/03422aa54c92/models/items/shredder/train_armor_armor/train_armor_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/03422aa54c92/models/items/shredder/train_armor_armor/train_armor_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/train_armor_armor/train_armor_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/train_armor_armor-25eb17f974c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/03422aa54c92/models/items/shredder/train_armor_armor/train_armor_armor_color_tga_db30eac0.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:14725:timbersaw-sir-cutsalot-back",
+      "itemId": 14725,
+      "name": "Clearcut Cavalier Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e45c8658167f/models/items/shredder/timbersaw_sir_cutsalot_back/timbersaw_sir_cutsalot_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/e45c8658167f/models/items/shredder/timbersaw_sir_cutsalot_back/timbersaw_sir_cutsalot_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_sir_cutsalot_back/timbersaw_sir_cutsalot_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_sir_cutsalot_back-a7c96080fc2b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e45c8658167f/models/items/shredder/timbersaw_sir_cutsalot_back/timbersaw_sir_cutsalot_back_color_tga_8939e347.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timbersaw_sir_cutsalot_back/timbersaw_sir_cutsalot_back.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timbersaw_sir_cutsalot_back/timbersaw_sir_cutsalot_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti10_cache/timbersaw_ti10_cache_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7391:siege-golem-back",
+      "itemId": 7391,
+      "name": "Cockpit of Utter Eradication",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4c61c8fe91f0/models/items/shredder/siege_golem_back/siege_golem_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/4c61c8fe91f0/models/items/shredder/siege_golem_back/siege_golem_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/siege_golem_back/siege_golem_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/siege_golem_back-e00d58249d48.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4c61c8fe91f0/models/items/shredder/siege_golem_back/siege_golem_back_color_tga_919f0b65.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7020:firefly-back",
+      "itemId": 7020,
+      "name": "Cockpit of the Maniacal Machinist",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/79062288ea23/models/items/shredder/firefly_back/firefly_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/79062288ea23/models/items/shredder/firefly_back/firefly_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/firefly_back/firefly_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firefly_back-9d100eaaae90.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/79062288ea23/models/items/shredder/firefly_back/firefly_back_color_tga_98fec4e.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7262:sctimberback",
+      "itemId": 7262,
+      "name": "Cockpit of the Steam Chopper",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ad0a0de8734b/models/items/shredder/sctimberback/sctimberback.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/ad0a0de8734b/models/items/shredder/sctimberback/sctimberback.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/sctimberback/sctimberback.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sctimberback-01773ad14b49.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ad0a0de8734b/models/items/shredder/sctimberback/sctimberback_color_tga_a3f9edab.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9529:noise-maker-back",
+      "itemId": 9529,
+      "name": "Core of the Raucous Gatecrasher",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/51454c76adf6/models/items/shredder/noise_maker_back/noise_maker_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/51454c76adf6/models/items/shredder/noise_maker_back/noise_maker_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/noise_maker_back/noise_maker_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noise_maker_back-135c1f4fa68f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/51454c76adf6/models/items/shredder/noise_maker_back/noise_maker_back_color_tga_8634d98d.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8019:mad-destructor-back",
+      "itemId": 8019,
+      "name": "Exhaust of the Molten Destructor",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4119e451cfe6/models/items/shredder/mad_destructor_back/mad_destructor_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/4119e451cfe6/models/items/shredder/mad_destructor_back/mad_destructor_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/mad_destructor_back/mad_destructor_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mad_destructor_back-f7d9965cc780.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4119e451cfe6/models/items/shredder/mad_destructor_back/mad_destructor_back_color_tga_66d9169.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9693:chopper-knight-back",
+      "itemId": 9693,
+      "name": "Hull of the Siege Engine",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/48a3bb76dda6/models/items/shredder/chopper_knight_back/chopper_knight_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/48a3bb76dda6/models/items/shredder/chopper_knight_back/chopper_knight_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/chopper_knight_back/chopper_knight_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chopper_knight_back-feffedf15c3f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/48a3bb76dda6/models/items/shredder/chopper_knight_back/chopper_knight_back_color_psd_1de2ba9a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/chopper_knight_back/chopper_knight_back.vmdl",
+        "modelPaths": [
+          "models/items/shredder/chopper_knight_back/chopper_knight_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/chopper_knight/chopper_knight_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8663:lumberclaw-back",
+      "itemId": 8663,
+      "name": "Lumberclaw Cockpit",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f21b9329d28a/models/items/shredder/lumberclaw_back/lumberclaw_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/f21b9329d28a/models/items/shredder/lumberclaw_back/lumberclaw_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/lumberclaw_back/lumberclaw_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lumberclaw_back-fd00df6cc8fc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f21b9329d28a/models/items/shredder/lumberclaw_back/lumberclaw_back_color_tga_bbe56e6e.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:17628:halloween-vandal-back",
+      "itemId": 17628,
+      "name": "Pumpkin Splitter Seat",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/0b1787785e0a/models/items/shredder/halloween_vandal_back/halloween_vandal_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/0b1787785e0a/models/items/shredder/halloween_vandal_back/halloween_vandal_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/halloween_vandal_back/halloween_vandal_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloween_vandal_back-4e504f2c02c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/0b1787785e0a/models/items/shredder/halloween_vandal_back/halloween_vandal_back_color_tga_bcf0dbcb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/halloween_vandal_back/halloween_vandal_back.vmdl",
+        "modelPaths": [
+          "models/items/shredder/halloween_vandal_back/halloween_vandal_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timber_fall20_halloween/timber_fall20_halloween_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7681:steam-woodcutter-back",
+      "itemId": 7681,
+      "name": "Seat of the Steamcutter",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/00d19fdff4c5/models/items/shredder/steam_woodcutter_back/steam_woodcutter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/00d19fdff4c5/models/items/shredder/steam_woodcutter_back/steam_woodcutter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/steam_woodcutter_back/steam_woodcutter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/steam_woodcutter_back-d5d4df5b0734.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/00d19fdff4c5/models/items/shredder/steam_woodcutter_back/steam_woodcutter_back_color_tga_e0f67488.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8436:the-stumpgrinder-body",
+      "itemId": 8436,
+      "name": "Seat of the Stumpgrinder",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/547e2bacc0db/models/items/shredder/the_stumpgrinder__body/the_stumpgrinder__body.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/547e2bacc0db/models/items/shredder/the_stumpgrinder__body/the_stumpgrinder__body.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/the_stumpgrinder__body/the_stumpgrinder__body.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_stumpgrinder__body-59340e8a5122.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/547e2bacc0db/models/items/shredder/the_stumpgrinder__body/the_stumpgrinder__body_color_tga_5299a0ce.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:12853:frostivus2018-timber-timberzil-back",
+      "itemId": 12853,
+      "name": "Seat of the Trailblazer",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c1637fe1444f/models/items/shredder/frostivus2018_timber_timberzil_back/frostivus2018_timber_timberzil_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/c1637fe1444f/models/items/shredder/frostivus2018_timber_timberzil_back/frostivus2018_timber_timberzil_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/frostivus2018_timber_timberzil_back/frostivus2018_timber_timberzil_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_timber_timberzil_back-276a4a063798.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c1637fe1444f/models/items/shredder/frostivus2018_timber_timberzil_back/frostivus2018_timber_timberzil_back_color_png_4a04461a.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9545:treepunisher-back",
+      "itemId": 9545,
+      "name": "Seat of the Tree Punisher",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5cbf8ed6ab3d/models/items/shredder/treepunisher_back/treepunisher_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/5cbf8ed6ab3d/models/items/shredder/treepunisher_back/treepunisher_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/treepunisher_back/treepunisher_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treepunisher_back-2f3da56496e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5cbf8ed6ab3d/models/items/shredder/treepunisher_back/treepunisher_back_color_tga_9f19542f.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:390:shredder-body",
+      "itemId": 390,
+      "name": "Timbersaws Torso",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/08c2b977bd2d/models/heroes/shredder/shredder_body.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/08c2b977bd2d/models/heroes/shredder/shredder_body.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_body.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shredder_body-a1ef22476d5b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/08c2b977bd2d/models/heroes/shredder/timbersaw_body_color_psd_28a8a74f.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:6524:timberthaw-back",
+      "itemId": 6524,
+      "name": "Timberthaw Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/63818fc86c51/models/items/shredder/timberthaw_back/timberthaw_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/63818fc86c51/models/items/shredder/timberthaw_back/timberthaw_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timberthaw_back/timberthaw_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timberthaw_back-5c6d69adb8ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/63818fc86c51/models/items/shredder/timberthaw_back/timberthaw_back_color_tga_f4ac90a.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:13349:ti-9-cache-timber-renewal-of-spring-back",
+      "itemId": 13349,
+      "name": "Vote Only TI 9 Cache Timber Renewal of Spring Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f4b2fdfdc167/models/items/shredder/ti_9_cache_timber_renewal_of_spring_back/ti_9_cache_timber_renewal_of_spring_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/f4b2fdfdc167/models/items/shredder/ti_9_cache_timber_renewal_of_spring_back/ti_9_cache_timber_renewal_of_spring_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/ti_9_cache_timber_renewal_of_spring_back/ti_9_cache_timber_renewal_of_spring_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_timber_renewal_of_spring_back-f92f09134ecb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f4b2fdfdc167/models/items/shredder/ti_9_cache_timber_renewal_of_spring_back/ti_9_cache_timber_renewal_of_spring_back_color_tga_6d3415db.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:19684:train-armor-back",
+      "itemId": 19684,
+      "name": "Vote Only Train Armor Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/45cdf6190805/models/items/shredder/train_armor_back/train_armor_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/45cdf6190805/models/items/shredder/train_armor_back/train_armor_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/train_armor_back/train_armor_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/train_armor_back-dbf0354b7df3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/45cdf6190805/models/items/shredder/train_armor_back/train_armor_back_color_tga_708ee7da.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:400:shredder-blade",
+      "itemId": 400,
+      "name": "Timbersaws Waist Saw",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/20d66c02901c/models/heroes/shredder/shredder_blade.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/20d66c02901c/models/heroes/shredder/shredder_blade.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_blade.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shredder_blade-da2f007b7719.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/20d66c02901c/models/heroes/shredder/timbersaw_blade_color_psd_8d9e0558.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shredder/shredder_blade.vmdl",
+        "modelPaths": [
+          "models/heroes/shredder/shredder_blade.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/portrait_shredder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7672:steam-woodcutter-head",
+      "itemId": 7672,
+      "name": "Cap of the Steamcutter",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f5e2fb809e61/models/items/shredder/steam_woodcutter_head/steam_woodcutter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/f5e2fb809e61/models/items/shredder/steam_woodcutter_head/steam_woodcutter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/steam_woodcutter_head/steam_woodcutter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/steam_woodcutter_head-687aa33fb2d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f5e2fb809e61/models/items/shredder/steam_woodcutter_head/steam_woodcutter_head_color_tga_85b397bb.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:14720:timbersaw-sir-cutsalot-head",
+      "itemId": 14720,
+      "name": "Clearcut Cavalier Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d6ee572018fb/models/items/shredder/timbersaw_sir_cutsalot_head/timbersaw_sir_cutsalot_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/d6ee572018fb/models/items/shredder/timbersaw_sir_cutsalot_head/timbersaw_sir_cutsalot_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_sir_cutsalot_head/timbersaw_sir_cutsalot_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_sir_cutsalot_head-dd294c297651.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d6ee572018fb/models/items/shredder/timbersaw_sir_cutsalot_head/timbersaw_sir_cutsalot_head_color_tga_48753032.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timbersaw_sir_cutsalot_head/timbersaw_sir_cutsalot_head.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timbersaw_sir_cutsalot_head/timbersaw_sir_cutsalot_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti10_cache/timbersaw_ti10_cache_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8576:siege-golem-head",
+      "itemId": 8576,
+      "name": "Goggles of Utter Eradication",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ac5c9aae9745/models/items/shredder/siege_golem_head/siege_golem_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/ac5c9aae9745/models/items/shredder/siege_golem_head/siege_golem_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/siege_golem_head/siege_golem_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/siege_golem_head-a7725d57b2eb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ac5c9aae9745/models/items/shredder/siege_golem_head/siege_golem_head_color_tga_c43ae609.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7022:firefly-head",
+      "itemId": 7022,
+      "name": "Goggles of the Maniacal Machinist",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ceea244b88ec/models/items/shredder/firefly_head/firefly_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/ceea244b88ec/models/items/shredder/firefly_head/firefly_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/firefly_head/firefly_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firefly_head-91d290e53d2c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ceea244b88ec/models/items/shredder/firefly_head/firefly_head_color_tga_3cf8af3b.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9543:treepunisher-head",
+      "itemId": 9543,
+      "name": "Goggles of the Tree Punisher",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/0ae40fec43ed/models/items/shredder/treepunisher_head/treepunisher_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/0ae40fec43ed/models/items/shredder/treepunisher_head/treepunisher_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/treepunisher_head/treepunisher_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treepunisher_head-54716f644a77.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/0ae40fec43ed/models/items/shredder/treepunisher_head/treepunisher_head_color_tga_9484c7d.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:12848:frostivus2018-timber-timberzil-head",
+      "itemId": 12848,
+      "name": "Hat of the Trailblazer",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e1e017e7186c/models/items/shredder/frostivus2018_timber_timberzil_head/frostivus2018_timber_timberzil_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/e1e017e7186c/models/items/shredder/frostivus2018_timber_timberzil_head/frostivus2018_timber_timberzil_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/frostivus2018_timber_timberzil_head/frostivus2018_timber_timberzil_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_timber_timberzil_head-efe0ed0e8c8b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e1e017e7186c/models/items/shredder/frostivus2018_timber_timberzil_head/frostivus2018_timber_timberzil_head_color_png_6e4f8ebc.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9695:chopper-knight-head",
+      "itemId": 9695,
+      "name": "Helm of the Siege Engine",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/9762e56e9216/models/items/shredder/chopper_knight_head/chopper_knight_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/9762e56e9216/models/items/shredder/chopper_knight_head/chopper_knight_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/chopper_knight_head/chopper_knight_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chopper_knight_head-f5881bd4c7c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/9762e56e9216/models/items/shredder/chopper_knight_head/chopper_knight_head_color_tga_36a2a869.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8431:the-stumpgrinder-head",
+      "itemId": 8431,
+      "name": "Helm of the Stumpgrinder",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4639caac5908/models/items/shredder/the_stumpgrinder__head/the_stumpgrinder__head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/4639caac5908/models/items/shredder/the_stumpgrinder__head/the_stumpgrinder__head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/the_stumpgrinder__head/the_stumpgrinder__head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_stumpgrinder__head-68bce3fdb297.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/4639caac5908/models/items/shredder/the_stumpgrinder__head/the_stumpgrinder__head_color_tga_a2b789a.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8668:lumberclaw-hat",
+      "itemId": 8668,
+      "name": "Lumberclaw Cap",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/62cdb9bc9d52/models/items/shredder/lumberclaw_hat/lumberclaw_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/62cdb9bc9d52/models/items/shredder/lumberclaw_hat/lumberclaw_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/lumberclaw_hat/lumberclaw_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lumberclaw_hat-55126fe6faa6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/62cdb9bc9d52/models/items/shredder/lumberclaw_hat/lumberclaw_hat_color_tga_a3231530.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:17629:halloween-vandal-head",
+      "itemId": 17629,
+      "name": "Pumpkin Splitter Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/9d6fbcf11c0f/models/items/shredder/halloween_vandal_head/halloween_vandal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/9d6fbcf11c0f/models/items/shredder/halloween_vandal_head/halloween_vandal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/halloween_vandal_head/halloween_vandal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloween_vandal_head-aa476493eba1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/9d6fbcf11c0f/models/items/shredder/halloween_vandal_head/halloween_vandal_head_color_tga_4d3ce964.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9530:noise-maker-head",
+      "itemId": 9530,
+      "name": "Style of the Raucous Gatecrasher",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bc7aef84d370/models/items/shredder/noise_maker_head/noise_maker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/bc7aef84d370/models/items/shredder/noise_maker_head/noise_maker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/noise_maker_head/noise_maker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noise_maker_head-09604c49652a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bc7aef84d370/models/items/shredder/noise_maker_head/noise_maker_head_color_tga_cfc70387.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:386:shredder-driver-hat",
+      "itemId": 386,
+      "name": "Timbersaws Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ba24e0a63a9b/models/heroes/shredder/shredder_driver_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/ba24e0a63a9b/models/heroes/shredder/shredder_driver_hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_driver_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shredder_driver_hat-3f54958ffa2e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/ba24e0a63a9b/models/heroes/shredder/timbersaw_hat_color_psd_680b937f.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:6521:timberthaw-head",
+      "itemId": 6521,
+      "name": "Timberthaw Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/636d24438781/models/items/shredder/timberthaw_head/timberthaw_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/636d24438781/models/items/shredder/timberthaw_head/timberthaw_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timberthaw_head/timberthaw_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timberthaw_head-52a021b8cfaa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/636d24438781/models/items/shredder/timberthaw_head/timberthaw_head_color_tga_3628ac1e.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7136:top-hat-of-the-steam-chopper",
+      "itemId": 7136,
+      "name": "Top Hat of the Steam Chopper",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/a7b8964fe46f/models/items/shredder/top_hat_of_the_steam_chopper/top_hat_of_the_steam_chopper.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/a7b8964fe46f/models/items/shredder/top_hat_of_the_steam_chopper/top_hat_of_the_steam_chopper.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/top_hat_of_the_steam_chopper/top_hat_of_the_steam_chopper.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/top_hat_of_the_steam_chopper-3ef3d6b04023.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/a7b8964fe46f/models/items/shredder/top_hat_of_the_steam_chopper/top_hat_of_the_steam_chopper_color_tga_b6f8dceb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/top_hat_of_the_steam_chopper/top_hat_of_the_steam_chopper.vmdl",
+        "modelPaths": [
+          "models/items/shredder/top_hat_of_the_steam_chopper/top_hat_of_the_steam_chopper.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/portrait_shredder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:13351:ti-9-cache-timber-renewal-of-spring-head",
+      "itemId": 13351,
+      "name": "Vote Only TI 9 Cache Timber Renewal of Spring Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f9859be3e002/models/items/shredder/ti_9_cache_timber_renewal_of_spring_head/ti_9_cache_timber_renewal_of_spring_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/f9859be3e002/models/items/shredder/ti_9_cache_timber_renewal_of_spring_head/ti_9_cache_timber_renewal_of_spring_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/ti_9_cache_timber_renewal_of_spring_head/ti_9_cache_timber_renewal_of_spring_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_timber_renewal_of_spring_head-24ec1a061135.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f9859be3e002/models/items/shredder/ti_9_cache_timber_renewal_of_spring_head/ti_9_cache_timber_renewal_of_spring_head_color_tga_80f2b250.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:19813:train-armor-head",
+      "itemId": 19813,
+      "name": "Vote Only Train Armor Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7fb5967db16a/models/items/shredder/train_armor_head/train_armor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/7fb5967db16a/models/items/shredder/train_armor_head/train_armor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/train_armor_head/train_armor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/train_armor_head-20d2ee4b86ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7fb5967db16a/models/items/shredder/train_armor_head/train_armor_head_color_tga_54fa8a0a.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7744:mad-destructor-head",
+      "itemId": 7744,
+      "name": "Wild Hair of the Molten Destructor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/6fc6e4252075/models/items/shredder/mad_destructor_head/mad_destructor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/6fc6e4252075/models/items/shredder/mad_destructor_head/mad_destructor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/mad_destructor_head/mad_destructor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mad_destructor_head-e2cd0ba020d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/6fc6e4252075/models/items/shredder/mad_destructor_head/mad_destructor_head_color_tga_3934f32c.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7257:siege-golem-offhand",
+      "itemId": 7257,
+      "name": "Barbed Saw of Utter Eradication",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/96a9756d3035/models/items/shredder/siege_golem_offhand/siege_golem_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/96a9756d3035/models/items/shredder/siege_golem_offhand/siege_golem_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/siege_golem_offhand/siege_golem_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/siege_golem_offhand-1fb24843a320.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/96a9756d3035/models/items/shredder/siege_golem_offhand/siege_golem_offhand_color_tga_78caf258.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/siege_golem_offhand/siege_golem_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/siege_golem_offhand/siege_golem_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7024:firefly-offhand",
+      "itemId": 7024,
+      "name": "Chainsaw of the Maniacal Machinist",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7e3cb5c2dfa1/models/items/shredder/firefly_offhand/firefly_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/7e3cb5c2dfa1/models/items/shredder/firefly_offhand/firefly_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/firefly_offhand/firefly_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firefly_offhand-06d4abc6a7a8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7e3cb5c2dfa1/models/items/shredder/firefly_offhand/firefly_offhand_color_tga_fa6dad55.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/firefly_offhand/firefly_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/firefly_offhand/firefly_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/hero_timbersaw_fullmetal/shredder_ambient_fullmetal_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8018:mad-destructor-offhand",
+      "itemId": 8018,
+      "name": "Chainsaw of the Molten Destructor",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bf111837f4bb/models/items/shredder/mad_destructor_offhand/mad_destructor_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/bf111837f4bb/models/items/shredder/mad_destructor_offhand/mad_destructor_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/mad_destructor_offhand/mad_destructor_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mad_destructor_offhand-5b06966545fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bf111837f4bb/models/items/shredder/mad_destructor_offhand/mad_destructor_offhand_color_tga_deecfe24.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/mad_destructor_offhand/mad_destructor_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/mad_destructor_offhand/mad_destructor_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_molten_destructor/timbersaw_molten_destructor_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8435:the-stumpgrinder-offhand",
+      "itemId": 8435,
+      "name": "Circular Saw of the Stumpgrinder",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/b9cfa9464e7f/models/items/shredder/the_stumpgrinder_offhand/the_stumpgrinder_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/b9cfa9464e7f/models/items/shredder/the_stumpgrinder_offhand/the_stumpgrinder_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/the_stumpgrinder_offhand/the_stumpgrinder_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_stumpgrinder_offhand-db9653e0bdf6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/b9cfa9464e7f/models/items/shredder/the_stumpgrinder_offhand/the_stumpgrinder_offhand_color_tga_7fcdc0c8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/the_stumpgrinder_offhand/the_stumpgrinder_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/the_stumpgrinder_offhand/the_stumpgrinder_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shredder/hero_shredder_stump_grinder/shredder_ambient_saw_stump_grinder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:14722:timbersaw-sir-cutsalot-off-hand",
+      "itemId": 14722,
+      "name": "Clearcut Cavalier OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d61dc666514a/models/items/shredder/timbersaw_sir_cutsalot_off_hand/timbersaw_sir_cutsalot_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/d61dc666514a/models/items/shredder/timbersaw_sir_cutsalot_off_hand/timbersaw_sir_cutsalot_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_sir_cutsalot_off_hand/timbersaw_sir_cutsalot_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_sir_cutsalot_off_hand-b2f4e4c5b92d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d61dc666514a/models/items/shredder/timbersaw_sir_cutsalot_off_hand/timbersaw_sir_cutsalot_off_hand_color_tga_3792d0a2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timbersaw_sir_cutsalot_off_hand/timbersaw_sir_cutsalot_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timbersaw_sir_cutsalot_off_hand/timbersaw_sir_cutsalot_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti10_cache/timbersaw_ti10_cache_offhand.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:13523:timbersaw-ti9-immortal-offhand",
+      "itemId": 13523,
+      "name": "Golden Rectifier",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/a5cb1dd770f5/models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/a5cb1dd770f5/models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_ti9_immortal_offhand1-ffc632d1c39b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/a5cb1dd770f5/models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand_color_psd_c1d7ab6c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9_gold/timbersaw_ti9_ambient_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9_gold/timbersaw_ti9_chakram_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9_gold/timbersaw_ti9_chakram_gold_aghs.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9_gold/timbersaw_ti9_chakram_gold_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9_gold/timbersaw_ti9_chakram_gold_return.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9_gold/timbersaw_ti9_chakram_gold_stay.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_aghs.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_return.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_stay.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8666:lumberclaw-chainsaw",
+      "itemId": 8666,
+      "name": "Lumberclaw Chainsaw",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d200f9639024/models/items/shredder/lumberclaw_chainsaw/lumberclaw_chainsaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/d200f9639024/models/items/shredder/lumberclaw_chainsaw/lumberclaw_chainsaw.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/lumberclaw_chainsaw/lumberclaw_chainsaw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lumberclaw_chainsaw-cfdddf06981a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d200f9639024/models/items/shredder/lumberclaw_chainsaw/lumberclaw_chainsaw_color_tga_a65d2efa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/lumberclaw_chainsaw/lumberclaw_chainsaw.vmdl",
+        "modelPaths": [
+          "models/items/shredder/lumberclaw_chainsaw/lumberclaw_chainsaw.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shredder/timber_lumberclaw_defaultmaterial/shredder_lumber_claw_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:17625:halloween-vandal-saw",
+      "itemId": 17625,
+      "name": "Pumpkin Splitter Saw",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/751b9e31f04b/models/items/shredder/halloween_vandal_saw/halloween_vandal_saw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/751b9e31f04b/models/items/shredder/halloween_vandal_saw/halloween_vandal_saw.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/halloween_vandal_saw/halloween_vandal_saw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloween_vandal_saw-ca5e34f5e820.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/751b9e31f04b/models/items/shredder/halloween_vandal_saw/halloween_vandal_saw_color_tga_8d4a873f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/halloween_vandal_saw/halloween_vandal_saw.vmdl",
+        "modelPaths": [
+          "models/items/shredder/halloween_vandal_saw/halloween_vandal_saw.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timber_pumpkin_saw/timber_pumpkin_saw_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:12927:timbersaw-ti9-immortal-offhand",
+      "itemId": 12927,
+      "name": "Rectifier",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/56b0ffa34eae/models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/56b0ffa34eae/models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_ti9_immortal_offhand-fd75799a4a6d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/56b0ffa34eae/models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand_color_psd_c1d7ab6c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timbersaw_ti9_immortal_offhand/timbersaw_ti9_immortal_offhand.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9/timbersaw_ti9_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9/timbersaw_ti9_chakram.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9/timbersaw_ti9_chakram_aghs.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9/timbersaw_ti9_chakram_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9/timbersaw_ti9_chakram_return.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti9/timbersaw_ti9_chakram_stay.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_aghs.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_return.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_chakram_stay.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9531:noise-maker-off-hand",
+      "itemId": 9531,
+      "name": "Saw of the Raucous Gatecrasher",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/53ab835853e0/models/items/shredder/noise_maker_off_hand/noise_maker_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/53ab835853e0/models/items/shredder/noise_maker_off_hand/noise_maker_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/noise_maker_off_hand/noise_maker_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noise_maker_off_hand-94a7cb983282.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/53ab835853e0/models/items/shredder/noise_maker_off_hand/noise_maker_off_hand_color_tga_87cbe295.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/noise_maker_off_hand/noise_maker_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/noise_maker_off_hand/noise_maker_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7261:sctimberoffhand",
+      "itemId": 7261,
+      "name": "Saw of the Steam Chopper",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7ba16b30f3cd/models/items/shredder/sctimberoffhand/sctimberoffhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/7ba16b30f3cd/models/items/shredder/sctimberoffhand/sctimberoffhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/sctimberoffhand/sctimberoffhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sctimberoffhand-ef8912928edd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7ba16b30f3cd/models/items/shredder/sctimberoffhand/sctimberoffhand_color_tga_743a3aad.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/sctimberoffhand/sctimberoffhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/sctimberoffhand/sctimberoffhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7682:steam-woodcutter-offhand",
+      "itemId": 7682,
+      "name": "Saw of the Steamcutter",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/aab08184ef98/models/items/shredder/steam_woodcutter_offhand/steam_woodcutter_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/aab08184ef98/models/items/shredder/steam_woodcutter_offhand/steam_woodcutter_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/steam_woodcutter_offhand/steam_woodcutter_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/steam_woodcutter_offhand-7a6afc3edc8b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/aab08184ef98/models/items/shredder/steam_woodcutter_offhand/steam_woodcutter_offhand_color_tga_b642a6ca.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/steam_woodcutter_offhand/steam_woodcutter_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/steam_woodcutter_offhand/steam_woodcutter_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_steamcutter/timbersaw_steamcutter_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:12851:frostivus2018-timber-timberzil-off-hand",
+      "itemId": 12851,
+      "name": "Saw of the Trailblazer",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/67067441f985/models/items/shredder/frostivus2018_timber_timberzil_off_hand/frostivus2018_timber_timberzil_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/67067441f985/models/items/shredder/frostivus2018_timber_timberzil_off_hand/frostivus2018_timber_timberzil_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/frostivus2018_timber_timberzil_off_hand/frostivus2018_timber_timberzil_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_timber_timberzil_off_hand-4c00aeaebbd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/67067441f985/models/items/shredder/frostivus2018_timber_timberzil_off_hand/frostivus2018_timber_timberzil_off_hand_color_png_2a403f06.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/frostivus2018_timber_timberzil_off_hand/frostivus2018_timber_timberzil_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/frostivus2018_timber_timberzil_off_hand/frostivus2018_timber_timberzil_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9547:treepunisher-offhand",
+      "itemId": 9547,
+      "name": "Saw of the Tree Punisher",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/b7abf770ee37/models/items/shredder/treepunisher_offhand/treepunisher_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/b7abf770ee37/models/items/shredder/treepunisher_offhand/treepunisher_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/treepunisher_offhand/treepunisher_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treepunisher_offhand-0700140b1f9b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/b7abf770ee37/models/items/shredder/treepunisher_offhand/treepunisher_offhand_color_tga_77ad64c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/treepunisher_offhand/treepunisher_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/treepunisher_offhand/treepunisher_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/hero_timbersaw_tree_punisher/shredder_ambient_tree_punisher.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9697:chopper-knight-off-hand",
+      "itemId": 9697,
+      "name": "Sawsword of the Siege Engine",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/583c1d8a392d/models/items/shredder/chopper_knight_off_hand/chopper_knight_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/583c1d8a392d/models/items/shredder/chopper_knight_off_hand/chopper_knight_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/chopper_knight_off_hand/chopper_knight_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chopper_knight_off_hand-10af8be544b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/583c1d8a392d/models/items/shredder/chopper_knight_off_hand/chopper_knight_off_hand_color_psd_e353d24.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/chopper_knight_off_hand/chopper_knight_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/chopper_knight_off_hand/chopper_knight_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/chopper_knight/chopper_knight_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:388:shredder-chainsaw",
+      "itemId": 388,
+      "name": "Timbersaws Left Arm",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bd7a1ad998de/models/heroes/shredder/shredder_chainsaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/bd7a1ad998de/models/heroes/shredder/shredder_chainsaw.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_chainsaw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shredder_chainsaw-020e80c3ffb4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/bd7a1ad998de/models/heroes/shredder/timbersaw_chainsaw_color_psd_7cf8eb86.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shredder/shredder_chainsaw.vmdl",
+        "modelPaths": [
+          "models/heroes/shredder/shredder_chainsaw.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:6522:timberthaw-offhand",
+      "itemId": 6522,
+      "name": "Timberthaw Ripsaw",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/29a6fa8dcf6f/models/items/shredder/timberthaw_offhand/timberthaw_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/29a6fa8dcf6f/models/items/shredder/timberthaw_offhand/timberthaw_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timberthaw_offhand/timberthaw_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timberthaw_offhand-94fe46054ed7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/29a6fa8dcf6f/models/items/shredder/timberthaw_offhand/timberthaw_offhand_color_tga_83dcbfed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timberthaw_offhand/timberthaw_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timberthaw_offhand/timberthaw_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_timberthaw/shredder_timberthaw_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:13353:ti-9-cache-timber-renewal-of-spring-off-hand",
+      "itemId": 13353,
+      "name": "Vote Only TI 9 Cache Timber Renewal of Spring OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/00f9a8ee8523/models/items/shredder/ti_9_cache_timber_renewal_of_spring_off_hand/ti_9_cache_timber_renewal_of_spring_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/00f9a8ee8523/models/items/shredder/ti_9_cache_timber_renewal_of_spring_off_hand/ti_9_cache_timber_renewal_of_spring_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/ti_9_cache_timber_renewal_of_spring_off_hand/ti_9_cache_timber_renewal_of_spring_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_timber_renewal_of_spring_off_hand-cc09038068c2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/00f9a8ee8523/models/items/shredder/ti_9_cache_timber_renewal_of_spring_off_hand/ti_9_cache_timber_renewal_of_spring_off_hand_color_tga_4c6d8397.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/ti_9_cache_timber_renewal_of_spring_off_hand/ti_9_cache_timber_renewal_of_spring_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/ti_9_cache_timber_renewal_of_spring_off_hand/ti_9_cache_timber_renewal_of_spring_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:19814:train-armor-off-hand",
+      "itemId": 19814,
+      "name": "Vote Only Train Armor OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/3a9001254e8a/models/items/shredder/train_armor_off_hand/train_armor_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/3a9001254e8a/models/items/shredder/train_armor_off_hand/train_armor_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/train_armor_off_hand/train_armor_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/train_armor_off_hand-4e339aeff280.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/3a9001254e8a/models/items/shredder/train_armor_off_hand/train_armor_off_hand_color_tga_70f76fa1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/train_armor_off_hand/train_armor_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shredder/train_armor_off_hand/train_armor_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient_saw.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7680:steam-woodcutter-shoulder",
+      "itemId": 7680,
+      "name": "Actuator of the Steamcutter",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e48b1cbea22e/models/items/shredder/steam_woodcutter_shoulder/steam_woodcutter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/e48b1cbea22e/models/items/shredder/steam_woodcutter_shoulder/steam_woodcutter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/steam_woodcutter_shoulder/steam_woodcutter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/steam_woodcutter_shoulder-953df3da5a71.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e48b1cbea22e/models/items/shredder/steam_woodcutter_shoulder/steam_woodcutter_shoulder_color_tga_f0d9a00c.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:14723:timbersaw-sir-cutsalot-shoulder",
+      "itemId": 14723,
+      "name": "Clearcut Cavalier Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c03fcefca9a2/models/items/shredder/timbersaw_sir_cutsalot_shoulder/timbersaw_sir_cutsalot_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/c03fcefca9a2/models/items/shredder/timbersaw_sir_cutsalot_shoulder/timbersaw_sir_cutsalot_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_sir_cutsalot_shoulder/timbersaw_sir_cutsalot_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_sir_cutsalot_shoulder-134a636a41ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c03fcefca9a2/models/items/shredder/timbersaw_sir_cutsalot_shoulder/timbersaw_sir_cutsalot_shoulder_color_tga_cd5f482e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timbersaw_sir_cutsalot_shoulder/timbersaw_sir_cutsalot_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timbersaw_sir_cutsalot_shoulder/timbersaw_sir_cutsalot_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti10_cache/timbersaw_ti10_cache_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7430:mad-destructor-shoulder",
+      "itemId": 7430,
+      "name": "Fins of the Molten Destructor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/495fe1dc0efb/models/items/shredder/mad_destructor_shoulder/mad_destructor_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/495fe1dc0efb/models/items/shredder/mad_destructor_shoulder/mad_destructor_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/mad_destructor_shoulder/mad_destructor_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mad_destructor_shoulder-0c2508704e9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/495fe1dc0efb/models/items/shredder/mad_destructor_shoulder/mad_destructor_shoulder_color_tga_9ff268e3.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7264:siege-golem-shoulder",
+      "itemId": 7264,
+      "name": "Guards of Utter Eradication",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/be248f697bbb/models/items/shredder/siege_golem_shoulder/siege_golem_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/be248f697bbb/models/items/shredder/siege_golem_shoulder/siege_golem_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/siege_golem_shoulder/siege_golem_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/siege_golem_shoulder-f07a0cd0a0ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/be248f697bbb/models/items/shredder/siege_golem_shoulder/siege_golem_shoulder_color_tga_bc398a0c.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9527:noise-maker-shoulder",
+      "itemId": 9527,
+      "name": "Joints of the Raucous Gatecrasher",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/2a62d2706f7e/models/items/shredder/noise_maker_shoulder/noise_maker_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/2a62d2706f7e/models/items/shredder/noise_maker_shoulder/noise_maker_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/noise_maker_shoulder/noise_maker_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noise_maker_shoulder-4b253bff6767.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/2a62d2706f7e/models/items/shredder/noise_maker_shoulder/noise_maker_shoulder_color_tga_2a54d7a5.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:12850:frostivus2018-timber-timberzil-shoulder",
+      "itemId": 12850,
+      "name": "Lights of the Trailblazer",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7b1fa314a244/models/items/shredder/frostivus2018_timber_timberzil_shoulder/frostivus2018_timber_timberzil_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/7b1fa314a244/models/items/shredder/frostivus2018_timber_timberzil_shoulder/frostivus2018_timber_timberzil_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/frostivus2018_timber_timberzil_shoulder/frostivus2018_timber_timberzil_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_timber_timberzil_shoulder-a21dbd6fad9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/7b1fa314a244/models/items/shredder/frostivus2018_timber_timberzil_shoulder/frostivus2018_timber_timberzil_shoulder_color_png_7279fa3f.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8664:lumberclaw-shoulders",
+      "itemId": 8664,
+      "name": "Lumberclaw Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/8f74bbf538c5/models/items/shredder/lumberclaw_shoulders/lumberclaw_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/8f74bbf538c5/models/items/shredder/lumberclaw_shoulders/lumberclaw_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/lumberclaw_shoulders/lumberclaw_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lumberclaw_shoulders-6632c34c650e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/8f74bbf538c5/models/items/shredder/lumberclaw_shoulders/lumberclaw_shoulders_color_tga_ab1c6c86.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8438:the-stumpgrinder-shoulders",
+      "itemId": 8438,
+      "name": "Mecharm of the Stumpgrinder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e87aa890e4d5/models/items/shredder/the_stumpgrinder__shoulders/the_stumpgrinder__shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/e87aa890e4d5/models/items/shredder/the_stumpgrinder__shoulders/the_stumpgrinder__shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/the_stumpgrinder__shoulders/the_stumpgrinder__shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_stumpgrinder__shoulders-52620cf7bfdd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e87aa890e4d5/models/items/shredder/the_stumpgrinder__shoulders/the_stumpgrinder__shoulders_color_tga_f63a01f9.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9694:chopper-knight-shoulder",
+      "itemId": 9694,
+      "name": "Pauldrons of the Siege Engine",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5e0750a6cfae/models/items/shredder/chopper_knight_shoulder/chopper_knight_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/5e0750a6cfae/models/items/shredder/chopper_knight_shoulder/chopper_knight_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/chopper_knight_shoulder/chopper_knight_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chopper_knight_shoulder-06d2ea1cc527.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5e0750a6cfae/models/items/shredder/chopper_knight_shoulder/chopper_knight_shoulder_color_psd_e4d40a00.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/chopper_knight_shoulder/chopper_knight_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/shredder/chopper_knight_shoulder/chopper_knight_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/chopper_knight/chopper_knight_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7260:sctimbershoulders",
+      "itemId": 7260,
+      "name": "Pauldrons of the Steam Chopper",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/51836abc027a/models/items/shredder/sctimbershoulders/sctimbershoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/51836abc027a/models/items/shredder/sctimbershoulders/sctimbershoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/sctimbershoulders/sctimbershoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sctimbershoulders-b542f7c6d606.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/51836abc027a/models/items/shredder/sctimbershoulders/sctimbershoulders_color_tga_48f0a1f5.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9552:treepunisher-shoulder",
+      "itemId": 9552,
+      "name": "Plates of the Tree Punisher",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d4446cf129e9/models/items/shredder/treepunisher_shoulder/treepunisher_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/d4446cf129e9/models/items/shredder/treepunisher_shoulder/treepunisher_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/treepunisher_shoulder/treepunisher_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treepunisher_shoulder-5fb2b90b88d9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d4446cf129e9/models/items/shredder/treepunisher_shoulder/treepunisher_shoulder_color_tga_d40ca9b2.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:17624:halloween-vandal-shoulder",
+      "itemId": 17624,
+      "name": "Pumpkin Splitter Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/18685652ff4a/models/items/shredder/halloween_vandal_shoulder/halloween_vandal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/18685652ff4a/models/items/shredder/halloween_vandal_shoulder/halloween_vandal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/halloween_vandal_shoulder/halloween_vandal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloween_vandal_shoulder-b5c8d00e11c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/18685652ff4a/models/items/shredder/halloween_vandal_shoulder/halloween_vandal_shoulder_color_tga_5349281c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/halloween_vandal_shoulder/halloween_vandal_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/shredder/halloween_vandal_shoulder/halloween_vandal_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shredder/shredder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7023:firefly-shoulder",
+      "itemId": 7023,
+      "name": "Shoulders of the Maniacal Machinist",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5a288d887797/models/items/shredder/firefly_shoulder/firefly_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/5a288d887797/models/items/shredder/firefly_shoulder/firefly_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/firefly_shoulder/firefly_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firefly_shoulder-4bda7e09113a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/5a288d887797/models/items/shredder/firefly_shoulder/firefly_shoulder_color_tga_a42d1d20.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:389:shredder-shoulders",
+      "itemId": 389,
+      "name": "Timbersaws Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f81a7e53d362/models/heroes/shredder/shredder_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/f81a7e53d362/models/heroes/shredder/shredder_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shredder_shoulders-3c3b2c473ca3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/f81a7e53d362/models/heroes/shredder/timbersaw_shoulders_color_psd_39d42f2e.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:6523:timberthaw-shoulder",
+      "itemId": 6523,
+      "name": "Timberthaw Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c0b4de166baa/models/items/shredder/timberthaw_shoulder/timberthaw_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/c0b4de166baa/models/items/shredder/timberthaw_shoulder/timberthaw_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timberthaw_shoulder/timberthaw_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timberthaw_shoulder-e08840217af8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c0b4de166baa/models/items/shredder/timberthaw_shoulder/timberthaw_shoulder_color_tga_b10708cf.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:13348:ti-9-cache-timber-renewal-of-spring-shoulder",
+      "itemId": 13348,
+      "name": "Vote Only TI 9 Cache Timber Renewal of Spring Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/03cdcd52c1fa/models/items/shredder/ti_9_cache_timber_renewal_of_spring_shoulder/ti_9_cache_timber_renewal_of_spring_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/03cdcd52c1fa/models/items/shredder/ti_9_cache_timber_renewal_of_spring_shoulder/ti_9_cache_timber_renewal_of_spring_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/ti_9_cache_timber_renewal_of_spring_shoulder/ti_9_cache_timber_renewal_of_spring_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_timber_renewal_of_spring_shoulder-ba931223c23f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/03cdcd52c1fa/models/items/shredder/ti_9_cache_timber_renewal_of_spring_shoulder/ti_9_cache_timber_renewal_of_spring_shoulder_color_tga_d6159c1c.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:19815:train-armor-shoulder",
+      "itemId": 19815,
+      "name": "Vote Only Train Armor Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/1544ecaf433b/models/items/shredder/train_armor_shoulder/train_armor_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/1544ecaf433b/models/items/shredder/train_armor_shoulder/train_armor_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/train_armor_shoulder/train_armor_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/train_armor_shoulder-88015b12f122.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/1544ecaf433b/models/items/shredder/train_armor_shoulder/train_armor_shoulder_color_tga_cf268e4d.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7265:siege-golem-weapon",
+      "itemId": 7265,
+      "name": "Claw of Utter Eradication",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/65fcf483a01e/models/items/shredder/siege_golem_weapon/siege_golem_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/65fcf483a01e/models/items/shredder/siege_golem_weapon/siege_golem_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/siege_golem_weapon/siege_golem_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/siege_golem_weapon-3f540b7c71d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/65fcf483a01e/models/items/shredder/siege_golem_weapon/siege_golem_weapon_color_tga_84bb2c5b.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7021:firefly-weapon",
+      "itemId": 7021,
+      "name": "Claw of the Maniacal Machinist",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/037a6872d0c7/models/items/shredder/firefly_weapon/firefly_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/037a6872d0c7/models/items/shredder/firefly_weapon/firefly_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/firefly_weapon/firefly_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firefly_weapon-304c3ddcb211.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/037a6872d0c7/models/items/shredder/firefly_weapon/firefly_weapon_color_tga_b79c1812.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9526:noise-maker-weapon",
+      "itemId": 9526,
+      "name": "Claw of the Raucous Gatecrasher",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/68769edf5da5/models/items/shredder/noise_maker_weapon/noise_maker_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/68769edf5da5/models/items/shredder/noise_maker_weapon/noise_maker_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/noise_maker_weapon/noise_maker_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noise_maker_weapon-5319541e1f39.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/68769edf5da5/models/items/shredder/noise_maker_weapon/noise_maker_weapon_color_tga_a9a7dd47.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7258:sctimberweapon",
+      "itemId": 7258,
+      "name": "Claw of the Steam Chopper",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/102729c31114/models/items/shredder/sctimberweapon/sctimberweapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/102729c31114/models/items/shredder/sctimberweapon/sctimberweapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/sctimberweapon/sctimberweapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sctimberweapon-fce31840a33a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/102729c31114/models/items/shredder/sctimberweapon/sctimberweapon_color_tga_61fb889.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7673:steam-woodcutter-weapon",
+      "itemId": 7673,
+      "name": "Claw of the Steamcutter",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d21588b25945/models/items/shredder/steam_woodcutter_weapon/steam_woodcutter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/d21588b25945/models/items/shredder/steam_woodcutter_weapon/steam_woodcutter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/steam_woodcutter_weapon/steam_woodcutter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/steam_woodcutter_weapon-47b785d1c36a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d21588b25945/models/items/shredder/steam_woodcutter_weapon/steam_woodcutter_weapon_color_tga_5ce10526.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:8440:the-stumpgrinder-weapon",
+      "itemId": 8440,
+      "name": "Claw of the Stumpgrinder",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/76b367bbb156/models/items/shredder/the_stumpgrinder__weapon/the_stumpgrinder__weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/76b367bbb156/models/items/shredder/the_stumpgrinder__weapon/the_stumpgrinder__weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/the_stumpgrinder__weapon/the_stumpgrinder__weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_stumpgrinder__weapon-63a371145b0f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/76b367bbb156/models/items/shredder/the_stumpgrinder__weapon/the_stumpgrinder__weapon_color_tga_ad377117.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:12849:frostivus2018-timber-timberzil-weapon",
+      "itemId": 12849,
+      "name": "Claw of the Trailblazer",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/fd9aef4cc73f/models/items/shredder/frostivus2018_timber_timberzil_weapon/frostivus2018_timber_timberzil_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/fd9aef4cc73f/models/items/shredder/frostivus2018_timber_timberzil_weapon/frostivus2018_timber_timberzil_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/frostivus2018_timber_timberzil_weapon/frostivus2018_timber_timberzil_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_timber_timberzil_weapon-1c70a4a42c38.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/fd9aef4cc73f/models/items/shredder/frostivus2018_timber_timberzil_weapon/frostivus2018_timber_timberzil_weapon_color_png_5db97186.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:14721:timbersaw-sir-cutsalot-weapon",
+      "itemId": 14721,
+      "name": "Clearcut Cavalier Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/06a3c1faba6a/models/items/shredder/timbersaw_sir_cutsalot_weapon/timbersaw_sir_cutsalot_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/06a3c1faba6a/models/items/shredder/timbersaw_sir_cutsalot_weapon/timbersaw_sir_cutsalot_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timbersaw_sir_cutsalot_weapon/timbersaw_sir_cutsalot_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timbersaw_sir_cutsalot_weapon-e1a0c08b2c02.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/06a3c1faba6a/models/items/shredder/timbersaw_sir_cutsalot_weapon/timbersaw_sir_cutsalot_weapon_color_tga_1976da87.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/timbersaw_sir_cutsalot_weapon/timbersaw_sir_cutsalot_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shredder/timbersaw_sir_cutsalot_weapon/timbersaw_sir_cutsalot_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/timbersaw_ti10_cache/timbersaw_ti10_cache_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9696:chopper-knight-weapon",
+      "itemId": 9696,
+      "name": "Grappler of the Siege Engine",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/773f23e41058/models/items/shredder/chopper_knight_weapon/chopper_knight_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/773f23e41058/models/items/shredder/chopper_knight_weapon/chopper_knight_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/chopper_knight_weapon/chopper_knight_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chopper_knight_weapon-8718fc295b22.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/773f23e41058/models/items/shredder/chopper_knight_weapon/chopper_knight_weapon_color_psd_eeb5cd61.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shredder/chopper_knight_weapon/chopper_knight_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shredder/chopper_knight_weapon/chopper_knight_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/timbersaw/chopper_knight/chopper_knight_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:9550:treepunisher-weapon",
+      "itemId": 9550,
+      "name": "Grip of the Tree Punisher",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d22b77370ca3/models/items/shredder/treepunisher_weapon/treepunisher_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/d22b77370ca3/models/items/shredder/treepunisher_weapon/treepunisher_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/treepunisher_weapon/treepunisher_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treepunisher_weapon-e520aaa5befc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/d22b77370ca3/models/items/shredder/treepunisher_weapon/treepunisher_weapon_color_tga_fc06cca9.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:7431:mad-destructor-weapon",
+      "itemId": 7431,
+      "name": "Pull Drill of the Molten Destructor",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/6426173d1801/models/items/shredder/mad_destructor_weapon/mad_destructor_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/6426173d1801/models/items/shredder/mad_destructor_weapon/mad_destructor_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/mad_destructor_weapon/mad_destructor_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mad_destructor_weapon-0f618329af09.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/6426173d1801/models/items/shredder/mad_destructor_weapon/mad_destructor_weapon_color_tga_6c3049da.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:17623:halloween-vandal-claw",
+      "itemId": 17623,
+      "name": "Pumpkin Splitter Claw",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/276ca96afcf9/models/items/shredder/halloween_vandal_claw/halloween_vandal_claw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/276ca96afcf9/models/items/shredder/halloween_vandal_claw/halloween_vandal_claw.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/halloween_vandal_claw/halloween_vandal_claw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloween_vandal_claw-9b23aa59ad78.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/276ca96afcf9/models/items/shredder/halloween_vandal_claw/halloween_vandal_claw_color_tga_2bec1381.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:402:shredder-hook",
+      "itemId": 402,
+      "name": "Timbersaws Right Arm",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/aa4de2a06e5a/models/heroes/shredder/shredder_hook.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/aa4de2a06e5a/models/heroes/shredder/shredder_hook.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shredder/shredder_hook.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shredder_hook-5172d5e96c82.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/aa4de2a06e5a/models/heroes/shredder/timbersaw_claw_color_psd_f88b2d80.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:6520:timberthaw-weapon",
+      "itemId": 6520,
+      "name": "Timberthaw Claw",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c63d2c98050a/models/items/shredder/timberthaw_weapon/timberthaw_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/c63d2c98050a/models/items/shredder/timberthaw_weapon/timberthaw_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/timberthaw_weapon/timberthaw_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/timberthaw_weapon-98eaf0800e7f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/c63d2c98050a/models/items/shredder/timberthaw_weapon/timberthaw_weapon_color_tga_3482f6cc.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:13350:ti-9-cache-timber-renewal-of-spring-weapon",
+      "itemId": 13350,
+      "name": "Vote Only TI 9 Cache Timber Renewal of Spring Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e5cd241b15c1/models/items/shredder/ti_9_cache_timber_renewal_of_spring_weapon/ti_9_cache_timber_renewal_of_spring_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/e5cd241b15c1/models/items/shredder/ti_9_cache_timber_renewal_of_spring_weapon/ti_9_cache_timber_renewal_of_spring_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/ti_9_cache_timber_renewal_of_spring_weapon/ti_9_cache_timber_renewal_of_spring_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_timber_renewal_of_spring_weapon-aed6ca7d9c11.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/e5cd241b15c1/models/items/shredder/ti_9_cache_timber_renewal_of_spring_weapon/ti_9_cache_timber_renewal_of_spring_weapon_color_tga_c3152981.png"
+    },
+    {
+      "id": "npc_dota_hero_shredder:item-model:19944:train-armor-weapon",
+      "itemId": 19944,
+      "name": "Vote Only Train Armor Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/443fe7d8a18a/models/items/shredder/train_armor_weapon/train_armor_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shredder/443fe7d8a18a/models/items/shredder/train_armor_weapon/train_armor_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shredder/train_armor_weapon/train_armor_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/train_armor_weapon-b09e93d5df8c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shredder/443fe7d8a18a/models/items/shredder/train_armor_weapon/train_armor_weapon_color_tga_e660e994.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_shredder:core-set:21579:clearcut-cavalier",
+      "name": "Clearcut Cavalier",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        14720,
+        14721,
+        14722,
+        14723,
+        14724,
+        14725
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/timbersaw_sir_cutsalot_head-dd294c297651.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20841:lumberclaw",
+      "name": "Lumberclaw",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401
+      ],
+      "sourceItemIds": [
+        8663,
+        8664,
+        8665,
+        8666,
+        8668
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/lumberclaw_loadingscreen-5ab5c6d1519a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20875:molten-destructor",
+      "name": "Molten Destructor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        7430,
+        7431,
+        7744,
+        8018,
+        8019,
+        8020
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/mad_destructor_loading_screen-ff8ed3ce2d7e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20570:promo-timberthaw",
+      "name": "Promo Timberthaw",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        6519,
+        6520,
+        6521,
+        6522,
+        6523,
+        6524
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/timberthaw-b3195502d5d4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:21669:pumpkin-splitter",
+      "name": "Pumpkin Splitter",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        17623,
+        17624,
+        17625,
+        17627,
+        17628,
+        17629
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/halloween_vandal_claw-9b23aa59ad78.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:21148:raucous-gatecrasher",
+      "name": "Raucous Gatecrasher",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        9526,
+        9527,
+        9528,
+        9529,
+        9530,
+        9531
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/noise_maker_loadingscreen_of_the_noise_maker-673a1d01e2b3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:21180:siege-engine",
+      "name": "Siege Engine",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        9692,
+        9693,
+        9694,
+        9695,
+        9696,
+        9697
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/chopper_knight_loadingscreen-2dad9a063735.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20671:steam-chopper",
+      "name": "Steam Chopper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        7136,
+        7258,
+        7260,
+        7261,
+        7262,
+        7263
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/steam_chopper_loading_screen-7115418fc318.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20876:steamcutter",
+      "name": "Steamcutter",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        7672,
+        7673,
+        7674,
+        7680,
+        7681,
+        7682
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/steam_woodcutter_loading_screen-5d5edb4c35a0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20651:the-maniacal-machinist",
+      "name": "The Maniacal Machinist",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        7020,
+        7021,
+        7022,
+        7023,
+        7024,
+        7027
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/firefly-a27f9b3f0b27.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20802:the-stumpgrinder",
+      "name": "The Stumpgrinder",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        8430,
+        8431,
+        8435,
+        8436,
+        8438,
+        8440
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/stumpgrinder_loadingscreen-edb79bf332c5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20531:timberthaw",
+      "name": "Timberthaw",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        6519,
+        6520,
+        6521,
+        6522,
+        6523,
+        6524
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/timberthaw-b3195502d5d4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20867:tree-punisher",
+      "name": "Tree Punisher",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        9542,
+        9543,
+        9545,
+        9547,
+        9550,
+        9552
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/treepunisher_loadingscreen-cd4340fdfa8a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:21308:trek-of-the-trailblazer",
+      "name": "Trek of the Trailblazer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        12848,
+        12849,
+        12850,
+        12851,
+        12853,
+        12854
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_timber_timberzil_ls-3cd7407785d5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:20941:utter-eradication",
+      "name": "Utter Eradication",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        7257,
+        7259,
+        7264,
+        7265,
+        7391,
+        8576
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/sieage_golem_loading_screen-f4c26ae77233.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:21392:vote-only-ti9-cache-timber-renewal-of-spring",
+      "name": "Vote Only TI9 Cache Timber Renewal of Spring",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        13348,
+        13349,
+        13350,
+        13351,
+        13352,
+        13353
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ti_9_cache_timber_renewal_of_spring_ls-67317e7bf9cb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shredder:core-set:22025:vote-only-train-armor",
+      "name": "Vote Only Train Armor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        386,
+        388,
+        389,
+        390,
+        401,
+        402
+      ],
+      "sourceItemIds": [
+        19683,
+        19684,
+        19813,
+        19814,
+        19815,
+        19944
+      ],
+      "slots": [
+        "armor",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 36480825,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 604
+  }
+}

@@ -1,0 +1,4447 @@
+{
+  "heroId": "npc_dota_hero_templar_assassin",
+  "sourceHeroId": "npc_dota_hero_templar_assassin",
+  "variantId": "default",
+  "heroName": "Templar Assassin",
+  "heroSlug": "templar_assassin",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/templar_assassin.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_templar_assassin/40538e9a182e/models/heroes/lanaya/lanaya.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 175,
+      "name": "Templar Assassins Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/852a23724225/models/heroes/lanaya/lanaya_bracers_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/852a23724225/models/heroes/lanaya/lanaya_bracers_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lanaya/lanaya_bracers_skirt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/852a23724225/models/heroes/lanaya/lanaya_bracers_skirt_color_psd_a765c3c3.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 173,
+      "name": "Templar Assassins Hair",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9a8b5db48837/models/heroes/lanaya/lanaya_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9a8b5db48837/models/heroes/lanaya/lanaya_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lanaya/lanaya_hair.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9a8b5db48837/models/heroes/lanaya/templar_assassin_head_color_psd_5e27c2ff.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 174,
+      "name": "Templar Assassins Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/cb098c7fb2bd/models/heroes/lanaya/lanaya_cowl_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/cb098c7fb2bd/models/heroes/lanaya/lanaya_cowl_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lanaya/lanaya_cowl_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/cb098c7fb2bd/models/heroes/lanaya/templar_assassin_shoulder_color_psd_d64a74f.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:13720:princess-loulan-armor",
+      "itemId": 13720,
+      "name": "Armor of the Loyal Fold",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ab76c3454682/models/items/lanaya/princess_loulan_armor/princess_loulan_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ab76c3454682/models/items/lanaya/princess_loulan_armor/princess_loulan_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/princess_loulan_armor/princess_loulan_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/princess_loulan_armor-882dba978c7a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ab76c3454682/models/items/lanaya/princess_loulan_armor/princess_loulan_armor_color_tga_7b78c055.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/princess_loulan_armor/princess_loulan_armor.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/princess_loulan_armor/princess_loulan_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lanaya/princess_loulan/princess_loulan_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7786:black-lotus-armor",
+      "itemId": 7786,
+      "name": "Armor of the Onyx Lotus",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/666ff51b388e/models/items/lanaya/black_lotus_armor/black_lotus_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/666ff51b388e/models/items/lanaya/black_lotus_armor/black_lotus_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/black_lotus_armor/black_lotus_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/black_lotus_armor-08318433eefc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/666ff51b388e/models/items/lanaya/black_lotus_armor/black_lotus_armor_color_tga_2dcbd52b.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7436:the-timekeeper-silvera",
+      "itemId": 7436,
+      "name": "Armor of the Timekeeper",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9ee8ee4efde0/models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9ee8ee4efde0/models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_timekeeper_silvera-f2d92ee2fdb1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9ee8ee4efde0/models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera_color_tga_e6783cdc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Timekeeper Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Timekeeper Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7436:the-timekeeper-silvera:style-1",
+      "itemId": 7436,
+      "name": "Armor of the Timekeeper - Style 2",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9ee8ee4efde0/models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9ee8ee4efde0/models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_timekeeper_silvera_style1-0ab49f005e14.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9ee8ee4efde0/models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera_color_tga_e6783cdc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Timekeeper Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Timekeeper Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/the_timekeeper_silvera/the_timekeeper_silvera_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8872:shadow-of-wuxia-armor",
+      "itemId": 8872,
+      "name": "Armor of the Wuxia",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/237110595f85/models/items/lanaya/shadow_of_wuxia_armor/shadow_of_wuxia_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/237110595f85/models/items/lanaya/shadow_of_wuxia_armor/shadow_of_wuxia_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/shadow_of_wuxia_armor/shadow_of_wuxia_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_of_wuxia_armor-9cb073d1b5f8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/237110595f85/models/items/lanaya/shadow_of_wuxia_armor/shadow_of_wuxia_armor_color_tga_c3918583.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:22293:precious-coral-armor",
+      "itemId": 22293,
+      "name": "Artist of the Astral Summer  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0a612950bb1d/models/items/lanaya/precious_coral_armor/precious_coral_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0a612950bb1d/models/items/lanaya/precious_coral_armor/precious_coral_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/precious_coral_armor/precious_coral_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/precious_coral_armor-fa14f6eeb6e5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0a612950bb1d/models/items/lanaya/precious_coral_armor/precious_coral_armor_color_tga_4d2398a6.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19926:blessed-gifts-of-the-temple-armor",
+      "itemId": 19926,
+      "name": "Chimes of the Temple Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c84443961316/models/items/lanaya/blessed_gifts_of_the_temple_armor/blessed_gifts_of_the_temple_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c84443961316/models/items/lanaya/blessed_gifts_of_the_temple_armor/blessed_gifts_of_the_temple_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/blessed_gifts_of_the_temple_armor/blessed_gifts_of_the_temple_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blessed_gifts_of_the_temple_armor-c167f9d7ee9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c84443961316/models/items/lanaya/blessed_gifts_of_the_temple_armor/blessed_gifts_of_the_temple_armor_color_png_113d23f2.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:6731:raiment-of-the-violet-archives-armor",
+      "itemId": 6731,
+      "name": "Complete Guards of the Psion Inquisitor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/45b91851cb9e/models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/45b91851cb9e/models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_armor-bcc959220e00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/45b91851cb9e/models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor_color_tga_2f3eaa44.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:28624:templar-assasin-false-devotion-armor",
+      "itemId": 28624,
+      "name": "Darkblade Adept  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/4b3c4d1bd809/models/items/lanaya/templar_assasin_false_devotion_armor/templar_assasin_false_devotion_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/4b3c4d1bd809/models/items/lanaya/templar_assasin_false_devotion_armor/templar_assasin_false_devotion_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/templar_assasin_false_devotion_armor/templar_assasin_false_devotion_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/templar_assasin_false_devotion_armor-aee93d12f171.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/4b3c4d1bd809/models/items/lanaya/templar_assasin_false_devotion_armor/templar_assasin_false_devotion_armor_color_tga_2bb33dec.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5302:bravos-scarf",
+      "itemId": 5302,
+      "name": "Dreaded Bravos Scarf",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/20acf2181e9b/models/items/lanaya/bravos_scarf/bravos_scarf.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/20acf2181e9b/models/items/lanaya/bravos_scarf/bravos_scarf.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/bravos_scarf/bravos_scarf.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bravos_scarf-d0fe2d9c8b85.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/20acf2181e9b/models/items/lanaya/bravos_scarf/bravos_scarf_color_tga_2fbb29d6.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:6900:epitaphic-bonds-armor",
+      "itemId": 6900,
+      "name": "Epitaphic Bonds Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1293129f3df3/models/items/lanaya/epitaphic_bonds_armor/epitaphic_bonds_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1293129f3df3/models/items/lanaya/epitaphic_bonds_armor/epitaphic_bonds_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/epitaphic_bonds_armor/epitaphic_bonds_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/epitaphic_bonds_armor-5cd2428b237c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1293129f3df3/models/items/lanaya/epitaphic_bonds_armor/epitaphic_bonds_armor_color_tga_befe35bb.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:14023:jade-assassin-armor",
+      "itemId": 14023,
+      "name": "Faceless Destiny Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/19239d348030/models/items/lanaya/jade_assassin_armor/jade_assassin_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/19239d348030/models/items/lanaya/jade_assassin_armor/jade_assassin_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/jade_assassin_armor/jade_assassin_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jade_assassin_armor-382aa90ffc3b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/19239d348030/models/items/lanaya/jade_assassin_armor/jade_assassin_armor_color_tga_200efa63.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19884:death-bearing-wings-armor",
+      "itemId": 19884,
+      "name": "Faction of the Feather  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9bde6b7af6cc/models/items/lanaya/death_bearing_wings_armor/death_bearing_wings_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9bde6b7af6cc/models/items/lanaya/death_bearing_wings_armor/death_bearing_wings_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/death_bearing_wings_armor/death_bearing_wings_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_bearing_wings_armor-80e658a3338f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9bde6b7af6cc/models/items/lanaya/death_bearing_wings_armor/death_bearing_wings_armor_color_tga_ea739f70.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8287:concealed-raven-armor",
+      "itemId": 8287,
+      "name": "Feathers of the Concealed Raven",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/86dd8345b7a9/models/items/lanaya/concealed_raven_armor/concealed_raven_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/86dd8345b7a9/models/items/lanaya/concealed_raven_armor/concealed_raven_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/concealed_raven_armor/concealed_raven_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mlg_concealed_raven_armor-73c8651d58d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/86dd8345b7a9/models/items/lanaya/concealed_raven_armor/concealed_raven_armor_color_tga_2cfc53ed.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:4669:ta-ns-armor",
+      "itemId": 4669,
+      "name": "Garb of the Deadly Nightshade",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/760a5f41766d/models/items/lanaya/ta_ns_armor/ta_ns_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/760a5f41766d/models/items/lanaya/ta_ns_armor/ta_ns_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_ns_armor/ta_ns_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_ns_armor-182a518caea9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/760a5f41766d/models/items/lanaya/ta_ns_armor/ta_ns_armor_color_tga_658b3dee.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7118:hiddenflower-armor",
+      "itemId": 7118,
+      "name": "Guards of the Hidden Flower",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/a0b7433d451a/models/items/lanaya/hiddenflower_armor/hiddenflower_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/a0b7433d451a/models/items/lanaya/hiddenflower_armor/hiddenflower_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/hiddenflower_armor/hiddenflower_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hiddenflower_armor-03f894eecb33.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/a0b7433d451a/models/items/lanaya/hiddenflower_armor/hiddenflower_armor_color_tga_cba68543.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:9048:raiment-of-the-violet-archives-armor",
+      "itemId": 9048,
+      "name": "Guards of the Psion Inquisitor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/75e167f7e337/models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/75e167f7e337/models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_armor-bcc959220e00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/75e167f7e337/models/items/lanaya/raiment_of_the_violet_archives_armor/raiment_of_the_violet_archives_armor_color_tga_2f3eaa44.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8330:heavenly-secrets-armor",
+      "itemId": 8330,
+      "name": "Halter of the Clandestine Trail",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6d4461022e28/models/items/lanaya/heavenly_secrets_armor/heavenly_secrets_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6d4461022e28/models/items/lanaya/heavenly_secrets_armor/heavenly_secrets_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/heavenly_secrets_armor/heavenly_secrets_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenly_secrets_armor-a01b39b14f75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6d4461022e28/models/items/lanaya/heavenly_secrets_armor/heavenly_secrets_armor_color_tga_f2ab4035.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:18429:dplus-keeper-of-knowledge-armor",
+      "itemId": 18429,
+      "name": "Keeper of Oblivion Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c85867b2e0a1/models/items/lanaya/dplus_keeper_of_knowledge_armor/dplus_keeper_of_knowledge_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c85867b2e0a1/models/items/lanaya/dplus_keeper_of_knowledge_armor/dplus_keeper_of_knowledge_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/dplus_keeper_of_knowledge_armor/dplus_keeper_of_knowledge_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_keeper_of_knowledge_armor-b099f5dea22e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c85867b2e0a1/models/items/lanaya/dplus_keeper_of_knowledge_armor/dplus_keeper_of_knowledge_armor_color_tga_c04713e.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:30951:armor-of-sting",
+      "itemId": 30951,
+      "name": "Psionic Constrictor  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0c2937848f73/models/items/lanaya/armor_of_sting/armor_of_sting.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0c2937848f73/models/items/lanaya/armor_of_sting/armor_of_sting.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/armor_of_sting/armor_of_sting.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_sting-5da41ee9fed0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0c2937848f73/models/items/lanaya/armor_of_sting/armor_of_sting_color_tga_c16b0a4b.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5291:redmoon-assassinators-secret-armor",
+      "itemId": 5291,
+      "name": "Redmoon Assassins Secret Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/71033fa6417f/models/items/lanaya/redmoon_assassinators_secret_armor/redmoon_assassinators_secret_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/71033fa6417f/models/items/lanaya/redmoon_assassinators_secret_armor/redmoon_assassinators_secret_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/redmoon_assassinators_secret_armor/redmoon_assassinators_secret_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redmoon_assassinators_secret_armor-d8e68baae05d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/71033fa6417f/models/items/lanaya/redmoon_assassinators_secret_armor/redmoon_assassinators_secret_armor_color_tga_1a542662.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:4695:thiefscholar-girdle",
+      "itemId": 4695,
+      "name": "Sash of the Third Insight",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d6702ae614d4/models/items/lanaya/thiefscholar_girdle/thiefscholar_girdle.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d6702ae614d4/models/items/lanaya/thiefscholar_girdle/thiefscholar_girdle.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/thiefscholar_girdle/thiefscholar_girdle.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thiefscholar_girdle-f3768577a2da.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d6702ae614d4/models/items/lanaya/thiefscholar_girdle/thiefscholar_girdle_color_tga_2dcdc682.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7383:dancing-butterfly-armor",
+      "itemId": 7383,
+      "name": "Skirt of the Fluttering Amethyst",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/59d07524c398/models/items/lanaya/dancing_butterfly_armor/dancing_butterfly_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/59d07524c398/models/items/lanaya/dancing_butterfly_armor/dancing_butterfly_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/dancing_butterfly_armor/dancing_butterfly_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dancing_butterfly_armor-d3044f8a0704.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/59d07524c398/models/items/lanaya/dancing_butterfly_armor/dancing_butterfly_armor_color_tga_2c77ffe2.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:14752:ta-royal-squire-armor",
+      "itemId": 14752,
+      "name": "Steward of the Forbidden Chamber Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f963b1a54d22/models/items/lanaya/ta_royal_squire_armor/ta_royal_squire_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f963b1a54d22/models/items/lanaya/ta_royal_squire_armor/ta_royal_squire_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_royal_squire_armor/ta_royal_squire_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_royal_squire_armor-83c5d2d3a1c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f963b1a54d22/models/items/lanaya/ta_royal_squire_armor/ta_royal_squire_armor_color_tga_cf942187.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_royal_squire_armor/ta_royal_squire_armor.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_royal_squire_armor/ta_royal_squire_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_ti10_royal_squire_armor/ta_ti10_royal_squire_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:175:lanaya-bracers-skirt",
+      "itemId": 175,
+      "name": "Templar Assassins Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/852a23724225/models/heroes/lanaya/lanaya_bracers_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/852a23724225/models/heroes/lanaya/lanaya_bracers_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lanaya/lanaya_bracers_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lanaya_bracers_skirt-750cb767027b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/852a23724225/models/heroes/lanaya/lanaya_bracers_skirt_color_psd_a765c3c3.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:31011:fatal-joke-armor",
+      "itemId": 31011,
+      "name": "Vaudevillain  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e5cebaa482b9/models/items/lanaya/fatal_joke_armor/fatal_joke_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e5cebaa482b9/models/items/lanaya/fatal_joke_armor/fatal_joke_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/fatal_joke_armor/fatal_joke_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fatal_joke_armor-7a7e7bb3a772.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e5cebaa482b9/models/items/lanaya/fatal_joke_armor/fatal_joke_armor_color_png_26eaf855.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:26458:ta-warring-states-armor",
+      "itemId": 26458,
+      "name": "Whisper at the Temple Gates  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/8085a667d43c/models/items/lanaya/ta_warring_states_armor/ta_warring_states_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/8085a667d43c/models/items/lanaya/ta_warring_states_armor/ta_warring_states_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_warring_states_armor/ta_warring_states_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_warring_states_armor-2ef770582d12.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/8085a667d43c/models/items/lanaya/ta_warring_states_armor/ta_warring_states_armor_color_psd_d734cfab.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5229:whispering-dead-armor",
+      "itemId": 5229,
+      "name": "Whispering Dead Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/449374a479ca/models/items/lanaya/whispering_dead_armor/whispering_dead_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/449374a479ca/models/items/lanaya/whispering_dead_armor/whispering_dead_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/whispering_dead_armor/whispering_dead_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispering_dead_armor-c6173901d0b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/449374a479ca/models/items/lanaya/whispering_dead_armor/whispering_dead_armor_color_tga_bb629265.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:22292:precious-coral-head",
+      "itemId": 22292,
+      "name": "Artist of the Astral Summer  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ac571e038849/models/items/lanaya/precious_coral_head/precious_coral_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ac571e038849/models/items/lanaya/precious_coral_head/precious_coral_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/precious_coral_head/precious_coral_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/precious_coral_head-d072abe5144c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ac571e038849/models/items/lanaya/precious_coral_head/precious_coral_head_color_tga_7e24f02e.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7381:dancing-butterfly-head",
+      "itemId": 7381,
+      "name": "Brooch of the Fluttering Amethyst",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d2a1cf7e9425/models/items/lanaya/dancing_butterfly_head/dancing_butterfly_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d2a1cf7e9425/models/items/lanaya/dancing_butterfly_head/dancing_butterfly_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/dancing_butterfly_head/dancing_butterfly_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dancing_butterfly_head-37255b3385fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d2a1cf7e9425/models/items/lanaya/dancing_butterfly_head/dancing_butterfly_head_color_tga_b9a64d6c.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:4696:thiefscholar-coiffure",
+      "itemId": 4696,
+      "name": "Brooch of the Third Insight",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/337600111d90/models/items/lanaya/thiefscholar_coiffure/thiefscholar_coiffure.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/337600111d90/models/items/lanaya/thiefscholar_coiffure/thiefscholar_coiffure.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/thiefscholar_coiffure/thiefscholar_coiffure.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thiefscholar_coiffure-d4907c05eb73.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/337600111d90/models/items/lanaya/thiefscholar_coiffure/thiefscholar_coiffure_color_tga_64677a09.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5978:exotic-assassin-curls",
+      "itemId": 5978,
+      "name": "Charming Assassin Curls",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c6b1b4f07189/models/items/lanaya/exotic_assassin_curls/exotic_assassin_curls.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c6b1b4f07189/models/items/lanaya/exotic_assassin_curls/exotic_assassin_curls.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/exotic_assassin_curls/exotic_assassin_curls.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/exotic_assassin_curls-c591dcfa8dda.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c6b1b4f07189/models/items/lanaya/exotic_assassin_curls/exotic_assassin_curls_color_tga_8df80295.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19925:blessed-gifts-of-the-temple-head",
+      "itemId": 19925,
+      "name": "Chimes of the Temple Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/56b54744f2e7/models/items/lanaya/blessed_gifts_of_the_temple_head/blessed_gifts_of_the_temple_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/56b54744f2e7/models/items/lanaya/blessed_gifts_of_the_temple_head/blessed_gifts_of_the_temple_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/blessed_gifts_of_the_temple_head/blessed_gifts_of_the_temple_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blessed_gifts_of_the_temple_head-4fe9efee5c4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/56b54744f2e7/models/items/lanaya/blessed_gifts_of_the_temple_head/blessed_gifts_of_the_temple_head_color_png_e3a6c105.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:6732:raiment-of-the-violet-archives-head-hood",
+      "itemId": 6732,
+      "name": "Complete Hood of the Psion Inquisitor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0a55a85c7e4f/models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0a55a85c7e4f/models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_head_hood-6aa2b0f56683.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0a55a85c7e4f/models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood_color_tga_7c485c4b.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:28735:templar-assasin-false-devotion-head",
+      "itemId": 28735,
+      "name": "Darkblade Adept  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9aa653a77ab6/models/items/lanaya/templar_assasin_false_devotion_head/templar_assasin_false_devotion_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9aa653a77ab6/models/items/lanaya/templar_assasin_false_devotion_head/templar_assasin_false_devotion_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/templar_assasin_false_devotion_head/templar_assasin_false_devotion_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/templar_assasin_false_devotion_head-b7e03c88276c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9aa653a77ab6/models/items/lanaya/templar_assasin_false_devotion_head/templar_assasin_false_devotion_head_color_tga_83c1b679.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5304:dreaded-bravos-guise",
+      "itemId": 5304,
+      "name": "Dreaded Bravos Guise",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/df555e73f9d1/models/items/lanaya/dreaded_bravos_guise/dreaded_bravos_guise.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/df555e73f9d1/models/items/lanaya/dreaded_bravos_guise/dreaded_bravos_guise.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/dreaded_bravos_guise/dreaded_bravos_guise.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dreaded_bravos_guise-7aa9f01f9b1c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/df555e73f9d1/models/items/lanaya/dreaded_bravos_guise/dreaded_bravos_guise_color_tga_9c9d3f99.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:6901:epitaphic-bonds-hair",
+      "itemId": 6901,
+      "name": "Epitaphic Bonds Hair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/36d0ca3fce25/models/items/lanaya/epitaphic_bonds_hair/epitaphic_bonds_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/36d0ca3fce25/models/items/lanaya/epitaphic_bonds_hair/epitaphic_bonds_hair.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/epitaphic_bonds_hair/epitaphic_bonds_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/epitaphic_bonds_hair-03e72aeeb710.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/36d0ca3fce25/models/items/lanaya/epitaphic_bonds_hair/epitaphic_bonds_hair_color_tga_84bd66ca.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:14025:jade-assassin-head",
+      "itemId": 14025,
+      "name": "Faceless Destiny Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ef4eeaf5061d/models/items/lanaya/jade_assassin_head/jade_assassin_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ef4eeaf5061d/models/items/lanaya/jade_assassin_head/jade_assassin_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/jade_assassin_head/jade_assassin_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jade_assassin_head-4dbc18e9a368.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ef4eeaf5061d/models/items/lanaya/jade_assassin_head/jade_assassin_head_color_tga_a3e09a0c.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19883:death-bearing-wings-head",
+      "itemId": 19883,
+      "name": "Faction of the Feather  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ac1009f2f05d/models/items/lanaya/death_bearing_wings_head/death_bearing_wings_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ac1009f2f05d/models/items/lanaya/death_bearing_wings_head/death_bearing_wings_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/death_bearing_wings_head/death_bearing_wings_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_bearing_wings_head-674239ca80f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ac1009f2f05d/models/items/lanaya/death_bearing_wings_head/death_bearing_wings_head_color_tga_200c22dc.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:23836:ta-2022-immortal",
+      "itemId": 23836,
+      "name": "Golden Seclusions of the Void",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ca10b80bc848/models/items/lanaya/ta_2022_immortal/ta_2022_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ca10b80bc848/models/items/lanaya/ta_2022_immortal/ta_2022_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_2022_immortal1-cdaf07293da8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ca10b80bc848/models/items/lanaya/ta_2022_immortal/ta_2022_immortal_color_tga_7cda4392.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl"
+        ],
+        "abilityModels": [
+          {
+            "path": "models/items/lanaya/ta_2022_immortal/ta_2022_immortal_trap_invis_gold.vmdl",
+            "type": "vmdl",
+            "role": "ability_entity_model",
+            "target": "npc_dota_templar_assassin_psionic_trap"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_ambient_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_slow_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_gold_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_portrait_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_slow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7785:black-lotus-hair",
+      "itemId": 7785,
+      "name": "Hair of the Onyx Lotus",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/a4ac543c3d7b/models/items/lanaya/black_lotus_hair/black_lotus_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/a4ac543c3d7b/models/items/lanaya/black_lotus_hair/black_lotus_hair.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/black_lotus_hair/black_lotus_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/black_lotus_hair-758b12a79595.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/a4ac543c3d7b/models/items/lanaya/black_lotus_hair/black_lotus_hair_color_tga_1bf4705.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:13722:princess-loulan-head",
+      "itemId": 13722,
+      "name": "Headdress of the Loyal Fold",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b419a5e7e830/models/items/lanaya/princess_loulan_head/princess_loulan_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b419a5e7e830/models/items/lanaya/princess_loulan_head/princess_loulan_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/princess_loulan_head/princess_loulan_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/princess_loulan_head-5eb8fbd21976.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b419a5e7e830/models/items/lanaya/princess_loulan_head/princess_loulan_head_color_tga_c65d43a3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/princess_loulan_head/princess_loulan_head.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/princess_loulan_head/princess_loulan_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lanaya/princess_loulan/princess_loulan_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:4670:ta-ns-head",
+      "itemId": 4670,
+      "name": "Headpiece of the Deadly Nightshade",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c024ca8fe367/models/items/lanaya/ta_ns_head/ta_ns_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c024ca8fe367/models/items/lanaya/ta_ns_head/ta_ns_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_ns_head/ta_ns_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_ns_head-01cbc878ab47.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/c024ca8fe367/models/items/lanaya/ta_ns_head/ta_ns_head_color_tga_73217eaa.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8868:shadow-of-wuxia-head",
+      "itemId": 8868,
+      "name": "Headpiece of the Wuxia",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0e7dfae38aa8/models/items/lanaya/shadow_of_wuxia_head/shadow_of_wuxia_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0e7dfae38aa8/models/items/lanaya/shadow_of_wuxia_head/shadow_of_wuxia_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/shadow_of_wuxia_head/shadow_of_wuxia_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_of_wuxia_head-81f7452cc78a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0e7dfae38aa8/models/items/lanaya/shadow_of_wuxia_head/shadow_of_wuxia_head_color_tga_c38f4599.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:4400:mysterious-comb2",
+      "itemId": 4400,
+      "name": "Heirloom of the Temple Priestess",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/31e77c7521ac/models/items/lanaya/mysterious_comb2/mysterious_comb2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/31e77c7521ac/models/items/lanaya/mysterious_comb2/mysterious_comb2.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/mysterious_comb2/mysterious_comb2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mysterious_comb2-6a508139e8a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/31e77c7521ac/models/items/lanaya/mysterious_comb2/mysterious_comb2_color_tga_88867872.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8280:concealed-raven-head",
+      "itemId": 8280,
+      "name": "Hood of the Concealed Raven",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/befa5a408ca2/models/items/lanaya/concealed_raven_head/concealed_raven_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/befa5a408ca2/models/items/lanaya/concealed_raven_head/concealed_raven_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/concealed_raven_head/concealed_raven_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mlg_concealed_raven_head-5efb8141690a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/befa5a408ca2/models/items/lanaya/concealed_raven_head/concealed_raven_head_color_tga_a809cd5e.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:9049:raiment-of-the-violet-archives-head-hood",
+      "itemId": 9049,
+      "name": "Hood of the Psion Inquisitor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/adec859675b4/models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/adec859675b4/models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_head_hood-6aa2b0f56683.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/adec859675b4/models/items/lanaya/raiment_of_the_violet_archives_head_hood/raiment_of_the_violet_archives_head_hood_color_tga_7c485c4b.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:18428:dplus-keeper-of-knowledge-head",
+      "itemId": 18428,
+      "name": "Keeper of Oblivion Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/bc01be6f5d6c/models/items/lanaya/dplus_keeper_of_knowledge_head/dplus_keeper_of_knowledge_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/bc01be6f5d6c/models/items/lanaya/dplus_keeper_of_knowledge_head/dplus_keeper_of_knowledge_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/dplus_keeper_of_knowledge_head/dplus_keeper_of_knowledge_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_keeper_of_knowledge_head-9a36f61ad7fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/bc01be6f5d6c/models/items/lanaya/dplus_keeper_of_knowledge_head/dplus_keeper_of_knowledge_head_color_tga_af4a55c8.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:30952:hair-of-sting",
+      "itemId": 30952,
+      "name": "Psionic Constrictor  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/fdc5d2bd62e3/models/items/lanaya/hair_of_sting/hair_of_sting.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/fdc5d2bd62e3/models/items/lanaya/hair_of_sting/hair_of_sting.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/hair_of_sting/hair_of_sting.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hair_of_sting-9d5eafe4a424.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/fdc5d2bd62e3/models/items/lanaya/hair_of_sting/hair_of_sting_color_tga_22d96898.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5292:redmoon-assassinators-secret-headwear",
+      "itemId": 5292,
+      "name": "Redmoon Assassins Secret Headwear",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5e362627d6fa/models/items/lanaya/redmoon_assassinators_secret_headwear/redmoon_assassinators_secret_headwear.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5e362627d6fa/models/items/lanaya/redmoon_assassinators_secret_headwear/redmoon_assassinators_secret_headwear.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/redmoon_assassinators_secret_headwear/redmoon_assassinators_secret_headwear.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redmoon_assassinators_secret_headwear-ab89db788ff6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5e362627d6fa/models/items/lanaya/redmoon_assassinators_secret_headwear/redmoon_assassinators_secret_headwear_color_tga_9b53c55.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:23715:ta-2022-immortal",
+      "itemId": 23715,
+      "name": "Seclusions of the Void",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ffafdd8f0da3/models/items/lanaya/ta_2022_immortal/ta_2022_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ffafdd8f0da3/models/items/lanaya/ta_2022_immortal/ta_2022_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_2022_immortal-8bf2143b7d7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ffafdd8f0da3/models/items/lanaya/ta_2022_immortal/ta_2022_immortal_color_tga_7cda4392.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl"
+        ],
+        "abilityModels": [
+          {
+            "path": "models/items/lanaya/ta_2022_immortal/ta_2022_immortal_trap_invis.vmdl",
+            "type": "vmdl",
+            "role": "ability_entity_model",
+            "target": "npc_dota_templar_assassin_psionic_trap"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_slow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_slow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:29571:ta-2022-immortal",
+      "itemId": 29571,
+      "name": "Seclusions of the Void of the Crimson Witness",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f1c4f5b42361/models/items/lanaya/ta_2022_immortal/ta_2022_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f1c4f5b42361/models/items/lanaya/ta_2022_immortal/ta_2022_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_2022_immortal2-84e032805e1b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f1c4f5b42361/models/items/lanaya/ta_2022_immortal/ta_2022_immortal_color_tga_7cda4392.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_2022_immortal/ta_2022_immortal.vmdl"
+        ],
+        "abilityModels": [
+          {
+            "path": "models/items/lanaya/ta_2022_immortal/ta_2022_immortal_trap_invis.vmdl",
+            "type": "vmdl",
+            "role": "ability_entity_model",
+            "target": "npc_dota_templar_assassin_psionic_trap"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_ambient_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_slow_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_crimson_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2022_immortal/ta_2022_immortal_trap_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_slow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:14754:ta-royal-squire-head",
+      "itemId": 14754,
+      "name": "Steward of the Forbidden Chamber Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e827e79a4179/models/items/lanaya/ta_royal_squire_head/ta_royal_squire_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e827e79a4179/models/items/lanaya/ta_royal_squire_head/ta_royal_squire_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_royal_squire_head/ta_royal_squire_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_royal_squire_head-54aeee4f3c35.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e827e79a4179/models/items/lanaya/ta_royal_squire_head/ta_royal_squire_head_color_tga_c5d418f1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_royal_squire_head/ta_royal_squire_head.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_royal_squire_head/ta_royal_squire_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_ti10_royal_squire_head/ta_ti10_royal_squire_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8329:heavenly-secrets-head",
+      "itemId": 8329,
+      "name": "Style of the Clandestine Trail",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/de98f49331d4/models/items/lanaya/heavenly_secrets_head/heavenly_secrets_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/de98f49331d4/models/items/lanaya/heavenly_secrets_head/heavenly_secrets_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/heavenly_secrets_head/heavenly_secrets_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenly_secrets_head-e07cd2cfcf3c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/de98f49331d4/models/items/lanaya/heavenly_secrets_head/heavenly_secrets_head_color_tga_2d0ffccf.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5405:style-of-the-occult-protector",
+      "itemId": 5405,
+      "name": "Style of the Occult Protector",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0c2eb5a103d3/models/items/lanaya/style_of_the_occult_protector/style_of_the_occult_protector.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0c2eb5a103d3/models/items/lanaya/style_of_the_occult_protector/style_of_the_occult_protector.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/style_of_the_occult_protector/style_of_the_occult_protector.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/style_of_the_occult_protector-66e14e1d8279.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0c2eb5a103d3/models/items/lanaya/style_of_the_occult_protector/style_of_the_occult_protector_color_tga_4d2136c0.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7435:the-timekeeper-silver",
+      "itemId": 7435,
+      "name": "Style of the Timekeeper",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/566f9a95d21f/models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/566f9a95d21f/models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_timekeeper_silver-08846ff37674.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/566f9a95d21f/models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver_color_tga_105dfa36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Timekeeper Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lanaya/the_timekeeper_silver/the_timekeeper_silver",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Timekeeper Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/the_timekeeper_silver/the_timekeeper_silver_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7435:the-timekeeper-silver:style-1",
+      "itemId": 7435,
+      "name": "Style of the Timekeeper - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/566f9a95d21f/models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/566f9a95d21f/models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_timekeeper_silver_style1-8f97fc1d43e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/566f9a95d21f/models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver_color_tga_105dfa36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/the_timekeeper_silver/the_timekeeper_silver.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Timekeeper Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lanaya/the_timekeeper_silver/the_timekeeper_silver",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Timekeeper Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/the_timekeeper_silver/the_timekeeper_silver_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5851:tail-of-the-secret-order",
+      "itemId": 5851,
+      "name": "Tail of the Secret Order",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b8e94fc7b357/models/items/lanaya/tail_of_the_secret_order/tail_of_the_secret_order.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b8e94fc7b357/models/items/lanaya/tail_of_the_secret_order/tail_of_the_secret_order.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/tail_of_the_secret_order/tail_of_the_secret_order.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tail_of_the_secret_order-eb01a4d2c012.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b8e94fc7b357/models/items/lanaya/tail_of_the_secret_order/tail_of_the_secret_order_color_tga_f7f82a3.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:173:lanaya-hair",
+      "itemId": 173,
+      "name": "Templar Assassins Hair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9a8b5db48837/models/heroes/lanaya/lanaya_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9a8b5db48837/models/heroes/lanaya/lanaya_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lanaya/lanaya_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lanaya_hair-bd8ab9c20048.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/9a8b5db48837/models/heroes/lanaya/templar_assassin_head_color_psd_5e27c2ff.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:31009:fatal-joke-head",
+      "itemId": 31009,
+      "name": "Vaudevillain  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5cd5a7812cd5/models/items/lanaya/fatal_joke_head/fatal_joke_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5cd5a7812cd5/models/items/lanaya/fatal_joke_head/fatal_joke_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/fatal_joke_head/fatal_joke_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fatal_joke_head-2a71ee64be37.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5cd5a7812cd5/models/items/lanaya/fatal_joke_head/fatal_joke_head_color_png_aff9fcda.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7120:hiddenflower-head",
+      "itemId": 7120,
+      "name": "Veil of the Hidden Flower",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5793ae2e1a0b/models/items/lanaya/hiddenflower_head/hiddenflower_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5793ae2e1a0b/models/items/lanaya/hiddenflower_head/hiddenflower_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/hiddenflower_head/hiddenflower_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hiddenflower_head-1a725a71eff3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/5793ae2e1a0b/models/items/lanaya/hiddenflower_head/hiddenflower_head_color_tga_7be74b7.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:26459:ta-warring-states-head",
+      "itemId": 26459,
+      "name": "Whisper at the Temple Gates  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/989f57bdb7cf/models/items/lanaya/ta_warring_states_head/ta_warring_states_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/989f57bdb7cf/models/items/lanaya/ta_warring_states_head/ta_warring_states_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_warring_states_head/ta_warring_states_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_warring_states_head-1cc3d44892cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/989f57bdb7cf/models/items/lanaya/ta_warring_states_head/ta_warring_states_head_color_psd_52fedbde.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5230:whispering-dead-mask",
+      "itemId": 5230,
+      "name": "Whispering Dead Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1396c3192eb9/models/items/lanaya/whispering_dead_mask/whispering_dead_mask.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1396c3192eb9/models/items/lanaya/whispering_dead_mask/whispering_dead_mask.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/whispering_dead_mask/whispering_dead_mask.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispering_dead_mask-a1491a48eb8f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1396c3192eb9/models/items/lanaya/whispering_dead_mask/whispering_dead_mask_color_tga_9170102c.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:22294:precious-coral-shoulder",
+      "itemId": 22294,
+      "name": "Artist of the Astral Summer  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/96b6009e731e/models/items/lanaya/precious_coral_shoulder/precious_coral_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/96b6009e731e/models/items/lanaya/precious_coral_shoulder/precious_coral_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/precious_coral_shoulder/precious_coral_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/precious_coral_shoulder-1c30cc53dced.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/96b6009e731e/models/items/lanaya/precious_coral_shoulder/precious_coral_shoulder_color_tga_f1c41a3d.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19923:blessed-gifts-of-the-temple-shoulder",
+      "itemId": 19923,
+      "name": "Chimes of the Temple Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6fa70bcd17c5/models/items/lanaya/blessed_gifts_of_the_temple_shoulder/blessed_gifts_of_the_temple_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6fa70bcd17c5/models/items/lanaya/blessed_gifts_of_the_temple_shoulder/blessed_gifts_of_the_temple_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/blessed_gifts_of_the_temple_shoulder/blessed_gifts_of_the_temple_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blessed_gifts_of_the_temple_shoulder-d3cbeec3c3d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6fa70bcd17c5/models/items/lanaya/blessed_gifts_of_the_temple_shoulder/blessed_gifts_of_the_temple_shoulder_color_png_af83f256.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:6730:raiment-of-the-violet-archives-shoulder",
+      "itemId": 6730,
+      "name": "Complete Spaulders of the Psion Inquisitor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/33ddc0a4634a/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/33ddc0a4634a/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_shoulder-f278a97e1993.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/33ddc0a4634a/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder_color_psd_2b7e83a7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_violet/templar_assassin_violet_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:28736:templar-assasin-false-devotion-shoulder",
+      "itemId": 28736,
+      "name": "Darkblade Adept  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f568d989e46d/models/items/lanaya/templar_assasin_false_devotion_shoulder/templar_assasin_false_devotion_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f568d989e46d/models/items/lanaya/templar_assasin_false_devotion_shoulder/templar_assasin_false_devotion_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/templar_assasin_false_devotion_shoulder/templar_assasin_false_devotion_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/templar_assasin_false_devotion_shoulder-505ff185c669.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/f568d989e46d/models/items/lanaya/templar_assasin_false_devotion_shoulder/templar_assasin_false_devotion_shoulder_color_tga_860e3376.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/templar_assasin_false_devotion_shoulder/templar_assasin_false_devotion_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/templar_assasin_false_devotion_shoulder/templar_assasin_false_devotion_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2024_crownfall_cc/ta_cc_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2024_crownfall_cc/ta_cc_shoulder_ambient_behind_glows.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5303:bravos-cape",
+      "itemId": 5303,
+      "name": "Dreaded Bravos Cape",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e7574c4c48f9/models/items/lanaya/bravos_cape/bravos_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e7574c4c48f9/models/items/lanaya/bravos_cape/bravos_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/bravos_cape/bravos_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bravos_cape-bbf0f27ea38b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e7574c4c48f9/models/items/lanaya/bravos_cape/bravos_cape_color_tga_275514b2.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7787:black-lotus-dress",
+      "itemId": 7787,
+      "name": "Dress of the Onyx Lotus",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/117c5d031327/models/items/lanaya/black_lotus_dress/black_lotus_dress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/117c5d031327/models/items/lanaya/black_lotus_dress/black_lotus_dress.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/black_lotus_dress/black_lotus_dress.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/black_lotus_dress-bc87de2f611c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/117c5d031327/models/items/lanaya/black_lotus_dress/black_lotus_dress_color_tga_ae1ad5dc.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:6902:epitaphic-bonds-shoulders",
+      "itemId": 6902,
+      "name": "Epitaphic Bonds Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/7df7881c8bbf/models/items/lanaya/epitaphic_bonds_shoulders/epitaphic_bonds_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/7df7881c8bbf/models/items/lanaya/epitaphic_bonds_shoulders/epitaphic_bonds_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/epitaphic_bonds_shoulders/epitaphic_bonds_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/epitaphic_bonds_shoulders-0e42293a5b46.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/7df7881c8bbf/models/items/lanaya/epitaphic_bonds_shoulders/epitaphic_bonds_shoulders_color_tga_728853b5.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:14024:jade-assassin-shoulder",
+      "itemId": 14024,
+      "name": "Faceless Destiny Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1709e2b9cd12/models/items/lanaya/jade_assassin_shoulder/jade_assassin_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1709e2b9cd12/models/items/lanaya/jade_assassin_shoulder/jade_assassin_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/jade_assassin_shoulder/jade_assassin_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jade_assassin_shoulder-c79a03fdd2b2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1709e2b9cd12/models/items/lanaya/jade_assassin_shoulder/jade_assassin_shoulder_color_tga_3749fa5e.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19881:death-bearing-wings-shoulder",
+      "itemId": 19881,
+      "name": "Faction of the Feather  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/19b066ec7dbd/models/items/lanaya/death_bearing_wings_shoulder/death_bearing_wings_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/19b066ec7dbd/models/items/lanaya/death_bearing_wings_shoulder/death_bearing_wings_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/death_bearing_wings_shoulder/death_bearing_wings_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_bearing_wings_shoulder-d7df22e3f714.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/19b066ec7dbd/models/items/lanaya/death_bearing_wings_shoulder/death_bearing_wings_shoulder_color_tga_b10c9575.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:18426:dplus-keeper-of-knowledge-shoulder",
+      "itemId": 18426,
+      "name": "Keeper of Oblivion Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/49dd3f7473f0/models/items/lanaya/dplus_keeper_of_knowledge_shoulder/dplus_keeper_of_knowledge_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/49dd3f7473f0/models/items/lanaya/dplus_keeper_of_knowledge_shoulder/dplus_keeper_of_knowledge_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/dplus_keeper_of_knowledge_shoulder/dplus_keeper_of_knowledge_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_keeper_of_knowledge_shoulder-658addfbb338.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/49dd3f7473f0/models/items/lanaya/dplus_keeper_of_knowledge_shoulder/dplus_keeper_of_knowledge_shoulder_color_tga_428db61e.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8278:concealed-raven-shoulder",
+      "itemId": 8278,
+      "name": "Mantle of the Concealed Raven",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d0368dc7b3b3/models/items/lanaya/concealed_raven_shoulder/concealed_raven_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d0368dc7b3b3/models/items/lanaya/concealed_raven_shoulder/concealed_raven_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/concealed_raven_shoulder/concealed_raven_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mlg_concealed_raven_shoulder-8d76d05929a6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d0368dc7b3b3/models/items/lanaya/concealed_raven_shoulder/concealed_raven_shoulder_color_tga_f69b8567.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:13539:ta-ti9-immortal-shoulders",
+      "itemId": 13539,
+      "name": "Mantle of the Whispered Bond",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/46c162a92e67/models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/46c162a92e67/models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_ti9_immortal_shoulders-f6136d04b2ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/46c162a92e67/models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders_color_psd_e3f9b694.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_refract_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_refraction.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_refract_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_refraction.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:32540:ta-ti9-immortal-shoulders",
+      "itemId": 32540,
+      "name": "Mantle of the Whispered Bond of the Crimson Witness",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6253552f1f80/models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6253552f1f80/models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_ti9_immortal_shoulders1-aa00cbb69ed5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/6253552f1f80/models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders_color_psd_e3f9b694.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_crimson_immortal_shoulders.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_crimson_refract_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lanaya/ta_ti9_immortal_shoulders/ta_ti9_crimson_refraction.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_refract_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_refraction.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:4697:thiefscholar-shoulder",
+      "itemId": 4697,
+      "name": "Mask of the Third Insight",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/8619b9fa3bce/models/items/lanaya/thiefscholar_shoulder/thiefscholar_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/8619b9fa3bce/models/items/lanaya/thiefscholar_shoulder/thiefscholar_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/thiefscholar_shoulder/thiefscholar_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thiefscholar_shoulder-4fdd1cb9f800.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/8619b9fa3bce/models/items/lanaya/thiefscholar_shoulder/thiefscholar_shoulder_color_tga_8ffe8529.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/thiefscholar_shoulder/thiefscholar_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/thiefscholar_shoulder/thiefscholar_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_weapon_scholar/templar_assassin_ambient_scholar.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:13721:princess-loulan-shoulder",
+      "itemId": 13721,
+      "name": "Pauldrons of the Loyal Fold",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1701fceb637e/models/items/lanaya/princess_loulan_shoulder/princess_loulan_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1701fceb637e/models/items/lanaya/princess_loulan_shoulder/princess_loulan_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/princess_loulan_shoulder/princess_loulan_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/princess_loulan_shoulder-ae73f1b63357.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/1701fceb637e/models/items/lanaya/princess_loulan_shoulder/princess_loulan_shoulder_color_tga_afbe6f80.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/princess_loulan_shoulder/princess_loulan_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/princess_loulan_shoulder/princess_loulan_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lanaya/princess_loulan/princess_loulan_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7433:the-timekeeper-silvers",
+      "itemId": 7433,
+      "name": "Pauldrons of the Timekeeper",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/90eabb829a05/models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/90eabb829a05/models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_timekeeper_silvers-115abcb162e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/90eabb829a05/models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers_color_tga_766db9dd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Timekeeper Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Timekeeper Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7433:the-timekeeper-silvers:style-1",
+      "itemId": 7433,
+      "name": "Pauldrons of the Timekeeper - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/90eabb829a05/models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/90eabb829a05/models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_timekeeper_silvers_style1-dc9b3bc235cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/90eabb829a05/models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers_color_tga_766db9dd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Timekeeper Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Timekeeper Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/the_timekeeper_silvers/the_timekeeper_silvers_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8331:heavenly-secrets-shoulder",
+      "itemId": 8331,
+      "name": "Plume of the Clandestine Trail",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/4d1b4fc6e2bf/models/items/lanaya/heavenly_secrets_shoulder/heavenly_secrets_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/4d1b4fc6e2bf/models/items/lanaya/heavenly_secrets_shoulder/heavenly_secrets_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/heavenly_secrets_shoulder/heavenly_secrets_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenly_secrets_shoulder-77a07ed541a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/4d1b4fc6e2bf/models/items/lanaya/heavenly_secrets_shoulder/heavenly_secrets_shoulder_color_tga_b8d95b4c.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:30953:snake-sting",
+      "itemId": 30953,
+      "name": "Psionic Constrictor  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e9b23bb25b26/models/items/lanaya/snake_sting/snake_sting.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e9b23bb25b26/models/items/lanaya/snake_sting/snake_sting.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/snake_sting/snake_sting.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snake_sting-3232fb4bac35.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e9b23bb25b26/models/items/lanaya/snake_sting/snake_sting_color_tga_d4c4b088.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5293:redmoon-assassinators-secret-wraps",
+      "itemId": 5293,
+      "name": "Redmoon Assassins Secret Wraps",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b15ad1aeb994/models/items/lanaya/redmoon_assassinators_secret_wraps/redmoon_assassinators_secret_wraps.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b15ad1aeb994/models/items/lanaya/redmoon_assassinators_secret_wraps/redmoon_assassinators_secret_wraps.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/redmoon_assassinators_secret_wraps/redmoon_assassinators_secret_wraps.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redmoon_assassinators_secret_wraps-afc0b27fbb5a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b15ad1aeb994/models/items/lanaya/redmoon_assassinators_secret_wraps/redmoon_assassinators_secret_wraps_color_tga_4a3aadb7.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:4668:ta-ns-shoulder",
+      "itemId": 4668,
+      "name": "Scarf of the Deadly Nightshade",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3f94e91e6aad/models/items/lanaya/ta_ns_shoulder/ta_ns_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3f94e91e6aad/models/items/lanaya/ta_ns_shoulder/ta_ns_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_ns_shoulder/ta_ns_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_ns_shoulder-097fe47030c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3f94e91e6aad/models/items/lanaya/ta_ns_shoulder/ta_ns_shoulder_color_tga_d8b14850.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7119:hiddenflower-shoulder",
+      "itemId": 7119,
+      "name": "Sleeves of the Hidden Flower",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/99a135601539/models/items/lanaya/hiddenflower_shoulder/hiddenflower_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/99a135601539/models/items/lanaya/hiddenflower_shoulder/hiddenflower_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/hiddenflower_shoulder/hiddenflower_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hiddenflower_shoulder-1f76af5bdd3b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/99a135601539/models/items/lanaya/hiddenflower_shoulder/hiddenflower_shoulder_color_tga_cb0addaf.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:8867:shadow-of-wuxia-shoulder",
+      "itemId": 8867,
+      "name": "Spaulders of Wuxia",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/25e36ef4a6e1/models/items/lanaya/shadow_of_wuxia_shoulder/shadow_of_wuxia_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/25e36ef4a6e1/models/items/lanaya/shadow_of_wuxia_shoulder/shadow_of_wuxia_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/shadow_of_wuxia_shoulder/shadow_of_wuxia_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_of_wuxia_shoulder-cb39c17846ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/25e36ef4a6e1/models/items/lanaya/shadow_of_wuxia_shoulder/shadow_of_wuxia_shoulder_color_tga_aff994bb.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:9047:raiment-of-the-violet-archives-shoulder",
+      "itemId": 9047,
+      "name": "Spaulders of the Psion Inquisitor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e92cd934d47d/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e92cd934d47d/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_shoulder-f278a97e1993.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e92cd934d47d/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder_color_psd_2b7e83a7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_violet/templar_assassin_violet_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "icon": "econ/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/templar_assassin/templar_assassin_violet/templar_assassin_violet_shoulder_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:9047:raiment-of-the-violet-archives-shoulder:style-1",
+      "itemId": 9047,
+      "name": "Spaulders of the Psion Inquisitor - Infused",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e92cd934d47d/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e92cd934d47d/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_shoulder_style1-d75fd80e0134.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e92cd934d47d/models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder_color_psd_2b7e83a7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_violet/templar_assassin_violet_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "icon": "econ/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "alternateIcon": "1",
+            "icon": "econ/items/lanaya/raiment_of_the_violet_archives_shoulder/raiment_of_the_violet_archives_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/templar_assassin/templar_assassin_violet/templar_assassin_violet_shoulder_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:14753:ta-royal-squire-shoulder",
+      "itemId": 14753,
+      "name": "Steward of the Forbidden Chamber Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ba3f7038556a/models/items/lanaya/ta_royal_squire_shoulder/ta_royal_squire_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ba3f7038556a/models/items/lanaya/ta_royal_squire_shoulder/ta_royal_squire_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_royal_squire_shoulder/ta_royal_squire_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_royal_squire_shoulder-267102208c20.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ba3f7038556a/models/items/lanaya/ta_royal_squire_shoulder/ta_royal_squire_shoulder_color_tga_db2dab07.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/ta_royal_squire_shoulder/ta_royal_squire_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/ta_royal_squire_shoulder/ta_royal_squire_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_ti10_royal_squire_shoulder/ta_ti10_royal_squire_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:174:lanaya-cowl-shoulder",
+      "itemId": 174,
+      "name": "Templar Assassins Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/cb098c7fb2bd/models/heroes/lanaya/lanaya_cowl_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/cb098c7fb2bd/models/heroes/lanaya/lanaya_cowl_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lanaya/lanaya_cowl_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lanaya_cowl_shoulder-e63cade30df5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/cb098c7fb2bd/models/heroes/lanaya/templar_assassin_shoulder_color_psd_d64a74f.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:31010:fatal-joke-shoulders",
+      "itemId": 31010,
+      "name": "Vaudevillain  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/87f94a056e13/models/items/lanaya/fatal_joke_shoulders/fatal_joke_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/87f94a056e13/models/items/lanaya/fatal_joke_shoulders/fatal_joke_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/fatal_joke_shoulders/fatal_joke_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fatal_joke_shoulders-b8bdf052c1e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/87f94a056e13/models/items/lanaya/fatal_joke_shoulders/fatal_joke_shoulders_color_png_5f47f4bb.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:26457:ta-warring-states-shoulder",
+      "itemId": 26457,
+      "name": "Whisper at the Temple Gates  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d14a07072932/models/items/lanaya/ta_warring_states_shoulder/ta_warring_states_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d14a07072932/models/items/lanaya/ta_warring_states_shoulder/ta_warring_states_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_warring_states_shoulder/ta_warring_states_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_warring_states_shoulder-4e543115273b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/d14a07072932/models/items/lanaya/ta_warring_states_shoulder/ta_warring_states_shoulder_color_psd_f15c22f.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:5231:whispering-dead-drapes",
+      "itemId": 5231,
+      "name": "Whispering Dead Mantle",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/11333993cc84/models/items/lanaya/whispering_dead_drapes/whispering_dead_drapes.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/11333993cc84/models/items/lanaya/whispering_dead_drapes/whispering_dead_drapes.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/whispering_dead_drapes/whispering_dead_drapes.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispering_dead_drapes-732c5273c731.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/11333993cc84/models/items/lanaya/whispering_dead_drapes/whispering_dead_drapes_color_tga_5126d5a3.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:7382:dancing-butterfly-shoulder",
+      "itemId": 7382,
+      "name": "Wings of the Fluttering Amethyst",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/2d012476c798/models/items/lanaya/dancing_butterfly_shoulder/dancing_butterfly_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/2d012476c798/models/items/lanaya/dancing_butterfly_shoulder/dancing_butterfly_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/dancing_butterfly_shoulder/dancing_butterfly_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dancing_butterfly_shoulder-35bda3e6c967.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/2d012476c798/models/items/lanaya/dancing_butterfly_shoulder/dancing_butterfly_shoulder_color_tga_f24a1a9a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/dancing_butterfly_shoulder/dancing_butterfly_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/dancing_butterfly_shoulder/dancing_butterfly_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_butterfly/templar_assassin_meld_attack_butterfly.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_butterfly/templar_assassin_trap_butterfly.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_butterfly/templar_assassin_trap_butterfly_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_butterfly/templar_assassin_trap_explode_butterfly.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_meld_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_trap_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:12588:princess-loulan-weapon",
+      "itemId": 12588,
+      "name": "Blades of the Loyal Fold",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/17f4db921f97/models/items/lanaya/princess_loulan_weapon/princess_loulan_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/17f4db921f97/models/items/lanaya/princess_loulan_weapon/princess_loulan_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/princess_loulan_weapon/princess_loulan_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/princess_loulan_weapon-2ca2f1054f48.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/17f4db921f97/models/items/lanaya/princess_loulan_weapon/princess_loulan_weapon_color_tga_99ab808c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/princess_loulan_weapon/princess_loulan_weapon.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/princess_loulan_weapon/princess_loulan_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lanaya/princess_loulan/princess_loulan_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19922:blessed-gifts-of-the-temple-weapon",
+      "itemId": 19922,
+      "name": "Chimes of the Temple Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0ce6e5c972b0/models/items/lanaya/blessed_gifts_of_the_temple_weapon/blessed_gifts_of_the_temple_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0ce6e5c972b0/models/items/lanaya/blessed_gifts_of_the_temple_weapon/blessed_gifts_of_the_temple_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/blessed_gifts_of_the_temple_weapon/blessed_gifts_of_the_temple_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blessed_gifts_of_the_temple_weapon-1408544c33e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/0ce6e5c972b0/models/items/lanaya/blessed_gifts_of_the_temple_weapon/blessed_gifts_of_the_temple_weapon_color_png_6e23b595.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:28738:templar-assasin-false-devotion-weapon",
+      "itemId": 28738,
+      "name": "Darkblade Adept  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ce7d94c38212/models/items/lanaya/templar_assasin_false_devotion_weapon/templar_assasin_false_devotion_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ce7d94c38212/models/items/lanaya/templar_assasin_false_devotion_weapon/templar_assasin_false_devotion_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/templar_assasin_false_devotion_weapon/templar_assasin_false_devotion_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/templar_assasin_false_devotion_weapon-84eec5c3373d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ce7d94c38212/models/items/lanaya/templar_assasin_false_devotion_weapon/templar_assasin_false_devotion_weapon_color_tga_41e22069.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lanaya/templar_assasin_false_devotion_weapon/templar_assasin_false_devotion_weapon.vmdl",
+        "modelPaths": [
+          "models/items/lanaya/templar_assasin_false_devotion_weapon/templar_assasin_false_devotion_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/ta_2024_crownfall_cc/ta_cc_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:14040:jade-assassin-weapon",
+      "itemId": 14040,
+      "name": "Faceless Destiny Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b6384b382629/models/items/lanaya/jade_assassin_weapon/jade_assassin_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b6384b382629/models/items/lanaya/jade_assassin_weapon/jade_assassin_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/jade_assassin_weapon/jade_assassin_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jade_assassin_weapon-5acc916e401e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/b6384b382629/models/items/lanaya/jade_assassin_weapon/jade_assassin_weapon_color_tga_cd5957c2.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:19880:death-bearing-wings-weapon",
+      "itemId": 19880,
+      "name": "Faction of the Feather  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3097fd5833a4/models/items/lanaya/death_bearing_wings_weapon/death_bearing_wings_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3097fd5833a4/models/items/lanaya/death_bearing_wings_weapon/death_bearing_wings_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/death_bearing_wings_weapon/death_bearing_wings_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_bearing_wings_weapon-55d9dfa98813.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3097fd5833a4/models/items/lanaya/death_bearing_wings_weapon/death_bearing_wings_weapon_color_tga_4e59a371.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:9318:psi-blades-immortal",
+      "itemId": 9318,
+      "name": "Focal Resonance",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e1a3e19e43ec/models/items/templar_assassin/psi_blades/psi_blades_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e1a3e19e43ec/models/items/templar_assassin/psi_blades/psi_blades_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/templar_assassin/psi_blades/psi_blades_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/psi_blades_immortal4-7374c941712d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/e1a3e19e43ec/models/items/templar_assassin/psi_blades/psi_blades_color_psd_c1608380.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/templar_assassin/psi_blades/psi_blades_immortal.vmdl",
+        "modelPaths": [
+          "models/items/templar_assassin/psi_blades/psi_blades_immortal.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/ta_focal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/ta_focal_base_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/ta_focal_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/ta_focal_psi_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/ta_focal_upper_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/templar_assassin_meld_focal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/templar_assassin_meld_focal_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/templar_assassin_meld_focal_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/templar_assassin_meld_focal_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/templar_assassin/templar_assassin_focal/templar_meld_focal_overhead.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_meld.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_meld_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_meld_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_meld_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_assassin_psi_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_templar_assassin/templar_meld_overhead.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:31008:fatal-joke-weapon",
+      "itemId": 31008,
+      "name": "Vaudevillain  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3cef9209ec9c/models/items/lanaya/fatal_joke_weapon/fatal_joke_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3cef9209ec9c/models/items/lanaya/fatal_joke_weapon/fatal_joke_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/fatal_joke_weapon/fatal_joke_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fatal_joke_weapon-12f23d2cce2d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/3cef9209ec9c/models/items/lanaya/fatal_joke_weapon/fatal_joke_weapon_color_png_3db7fbd2.png"
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:item-model:26460:ta-warring-states-weapon",
+      "itemId": 26460,
+      "name": "Whisper at the Temple Gates  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ab82b635141a/models/items/lanaya/ta_warring_states_weapon/ta_warring_states_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ab82b635141a/models/items/lanaya/ta_warring_states_weapon/ta_warring_states_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/lanaya/ta_warring_states_weapon/ta_warring_states_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ta_warring_states_weapon-f52664e57d89.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_templar_assassin/ab82b635141a/models/items/lanaya/ta_warring_states_weapon/ta_warring_states_weapon_color_psd_5faf2636.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:22288:artist-of-the-astral-summer",
+      "name": "Artist of the Astral Summer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        22292,
+        22293,
+        22294
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/precious_coral_ls-017d077917cf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21980:chimes-of-the-temple",
+      "name": "Chimes of the Temple",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175,
+        603
+      ],
+      "sourceItemIds": [
+        19922,
+        19923,
+        19925,
+        19926
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/blessed_gifts_of_the_temple_ls-8cb9bd9a7115.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20916:clandestine-trail",
+      "name": "Clandestine Trail",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        8329,
+        8330,
+        8331
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/heavenly_secrets_loading_screen-f5d63586cb13.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20619:complete-province-of-the-psion-inquisitor",
+      "name": "Complete Province of the Psion Inquisitor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        6730,
+        6731,
+        6732
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_loading_screen-2725e823e685.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20898:concealed-raven",
+      "name": "Concealed Raven",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        8278,
+        8280,
+        8287
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/concealed_raven_loading_screen-902b1172618f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:29158:darkblade-adept",
+      "name": "Darkblade Adept",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175,
+        603
+      ],
+      "sourceItemIds": [
+        28624,
+        28735,
+        28736,
+        28738
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/templar_assasin_false_devotion_armor-aee93d12f171.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20574:epitaphic-bonds",
+      "name": "Epitaphic Bonds",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        6900,
+        6901,
+        6902
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_epitaphic_bonds-31b78310a849.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21485:faceless-destiny",
+      "name": "Faceless Destiny",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175,
+        603
+      ],
+      "sourceItemIds": [
+        14023,
+        14024,
+        14025,
+        14040
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/jade_assassin_armor-382aa90ffc3b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21972:faction-of-the-feather",
+      "name": "Faction of the Feather",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175,
+        603
+      ],
+      "sourceItemIds": [
+        19880,
+        19881,
+        19883,
+        19884
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/death_bearing_wings_weapon-55d9dfa98813.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20757:fluttering-amethyst",
+      "name": "Fluttering Amethyst",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        7381,
+        7382,
+        7383
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/ta_butterfly_loading_screen-557e6a5b7fde.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20655:hidden-flower",
+      "name": "Hidden Flower",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        7118,
+        7119,
+        7120
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/hiddenflower-507ff057e645.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21805:keeper-of-oblivion",
+      "name": "Keeper of Oblivion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        18426,
+        18428,
+        18429
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dplus_keeper_of_knowledge_ls-75aa838edf02.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20764:onyx-lotus",
+      "name": "Onyx Lotus",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        7785,
+        7786,
+        7787
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/black_lotus_loading_screen-f10fdd146fe7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21077:province-of-the-psion-inquisitor",
+      "name": "Province of the Psion Inquisitor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        9047,
+        9048,
+        9049
+      ],
+      "styleSelections": {
+        "9047": "0"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_loading_screen-2725e823e685.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21077:province-of-the-psion-inquisitor:style-1",
+      "name": "Province of the Psion Inquisitor - Infused",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        9047,
+        9048,
+        9049
+      ],
+      "styleSelections": {
+        "9047": "1"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/raiment_of_the_violet_archives_shoulder_style1-d75fd80e0134.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:31070:psionic-constrictor",
+      "name": "Psionic Constrictor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        30951,
+        30952,
+        30953
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/armor_of_sting-5da41ee9fed0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20238:redmoon-assassins-secret-set",
+      "name": "Redmoon Assassins Secret Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        5291,
+        5292,
+        5293
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/redmoon_assassinators_secret_armor-d8e68baae05d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21433:ritual-of-the-loyal-fold",
+      "name": "Ritual of the Loyal Fold",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175,
+        603
+      ],
+      "sourceItemIds": [
+        12588,
+        13720,
+        13721,
+        13722
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_princess_loulan-f50d2d31f114.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20997:shadows-of-the-wuxia",
+      "name": "Shadows of the Wuxia",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        8867,
+        8868,
+        8872
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/shadow_of_wuxia_loading_screen-52b7149f3425.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:21585:steward-of-the-forbidden-chamber",
+      "name": "Steward of the Forbidden Chamber",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        14752,
+        14753,
+        14754
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/ta_royal_squire_armor-83c5d2d3a1c6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20085:the-deadly-nightshade-set",
+      "name": "The Deadly Nightshade Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        4668,
+        4669,
+        4670
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/ta_ns_shoulder-097fe47030c4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20217:the-dreaded-bravo-set",
+      "name": "The Dreaded Bravo Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        5302,
+        5303,
+        5304
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/bravos_scarf-d0fe2d9c8b85.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20129:the-third-insight-set",
+      "name": "The Third Insight Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        4695,
+        4696,
+        4697
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/thiefscholar_girdle-f3768577a2da.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20750:the-timekeeper",
+      "name": "The Timekeeper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        7433,
+        7435,
+        7436
+      ],
+      "styleSelections": {
+        "7433": "0",
+        "7435": "0",
+        "7436": "0"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/timekeeper_gold_loading_screen-3f0f5adf9279.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20750:the-timekeeper:style-1",
+      "name": "The Timekeeper - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        7433,
+        7435,
+        7436
+      ],
+      "styleSelections": {
+        "7433": "1",
+        "7435": "1",
+        "7436": "1"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/the_timekeeper_silvers_style1-dc9b3bc235cf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:31082:vaudevillain",
+      "name": "Vaudevillain",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175,
+        603
+      ],
+      "sourceItemIds": [
+        31008,
+        31009,
+        31010,
+        31011
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/fatal_joke_weapon-12f23d2cce2d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:26544:whisper-at-the-temple-gates",
+      "name": "Whisper at the Temple Gates",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175,
+        603
+      ],
+      "sourceItemIds": [
+        26457,
+        26458,
+        26459,
+        26460
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/ta_warring_states_shoulder-4e543115273b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20216:whispering-dead-set",
+      "name": "Whispering Dead Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        5229,
+        5230,
+        5231
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/whispering_dead_armor-c6173901d0b9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_templar_assassin:core-set:20689:ileague-season-2",
+      "name": "iLeague Season 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        173,
+        174,
+        175
+      ],
+      "sourceItemIds": [
+        7381,
+        7382,
+        7383
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/dancing_butterfly_head-37255b3385fe.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 65786015,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 584
+  }
+}

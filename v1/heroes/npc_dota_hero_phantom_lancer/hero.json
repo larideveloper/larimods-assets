@@ -1,0 +1,3288 @@
+{
+  "heroId": "npc_dota_hero_phantom_lancer",
+  "sourceHeroId": "npc_dota_hero_phantom_lancer",
+  "variantId": "default",
+  "heroName": "Phantom Lancer",
+  "heroSlug": "phantom_lancer",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_lancer.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/5f9b1e111d3f/models/heroes/phantom_lancer/phantom_lancer.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 129,
+      "name": "Phantom Lancers Gauntlet",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2b09b1218f22/models/heroes/phantom_lancer/phantom_lancer_gauntlet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2b09b1218f22/models/heroes/phantom_lancer/phantom_lancer_gauntlet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_gauntlet.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2b09b1218f22/models/heroes/phantom_lancer/phantom_lancer_gauntlets_color_psd_49ba1dec.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 128,
+      "name": "Phantom Lancers Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ea1497004dbc/models/heroes/phantom_lancer/phantom_lancer_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ea1497004dbc/models/heroes/phantom_lancer/phantom_lancer_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ea1497004dbc/models/heroes/phantom_lancer/phantom_lancer_lowerbod_color_psd_28ae34d0.png"
+    },
+    {
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 127,
+      "name": "Phantom Lancers Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/13c3a5964dd8/models/heroes/phantom_lancer/phantom_lancer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/13c3a5964dd8/models/heroes/phantom_lancer/phantom_lancer_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/13c3a5964dd8/models/heroes/phantom_lancer/phantom_lancer_head_color_psd_58300cec.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 130,
+      "name": "Phantom Lancers Shoulderpad",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f72023f48da0/models/heroes/phantom_lancer/phantom_lancer_shoulderpad.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f72023f48da0/models/heroes/phantom_lancer/phantom_lancer_shoulderpad.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_shoulderpad.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f72023f48da0/models/heroes/phantom_lancer/phantom_lancer_upperbod_color_psd_a0346393.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 132,
+      "name": "Phantom Lancers Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0c5b6f9ee8e1/models/heroes/phantom_lancer/phantom_lancer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0c5b6f9ee8e1/models/heroes/phantom_lancer/phantom_lancer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0c5b6f9ee8e1/models/heroes/phantom_lancer/phantom_lancer_spear_color_psd_4b2cc615.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4857:ancestorspride-arms",
+      "itemId": 4857,
+      "name": "Ancestors Vambrace",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0a2d8434deef/models/items/phantom_lancer/ancestorspride_arms/ancestorspride_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0a2d8434deef/models/items/phantom_lancer/ancestorspride_arms/ancestorspride_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/ancestorspride_arms/ancestorspride_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancestorspride_arms-c9ab5120f12f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0a2d8434deef/models/items/phantom_lancer/ancestorspride_arms/ancestorspride_arms_color_tga_d708a7c2.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:5552:armlets-of-elemental-ice",
+      "itemId": 5552,
+      "name": "Armlets of Teardrop Ice",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ee4743fb174e/models/items/phantom_lancer/armlets_of_elemental_ice/armlets_of_elemental_ice.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ee4743fb174e/models/items/phantom_lancer/armlets_of_elemental_ice/armlets_of_elemental_ice.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/armlets_of_elemental_ice/armlets_of_elemental_ice.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armlets_of_elemental_ice-1a025818a6c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ee4743fb174e/models/items/phantom_lancer/armlets_of_elemental_ice/armlets_of_elemental_ice_color_tga_2756b71.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:12909:hockey-goalie-arms",
+      "itemId": 12909,
+      "name": "Arms of Harsh Sojourn",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9dacb287481b/models/items/phantom_lancer/hockey_goalie_arms/hockey_goalie_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9dacb287481b/models/items/phantom_lancer/hockey_goalie_arms/hockey_goalie_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/hockey_goalie_arms/hockey_goalie_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hockey_goalie_arms-98bb8a4742b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9dacb287481b/models/items/phantom_lancer/hockey_goalie_arms/hockey_goalie_arms_color_png_66b7d652.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6752:infinite-waves-arms",
+      "itemId": 6752,
+      "name": "Bindings of the Infinite Waves",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/392d4ab65abf/models/items/phantom_lancer/infinite_waves_arms/infinite_waves_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/392d4ab65abf/models/items/phantom_lancer/infinite_waves_arms/infinite_waves_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/infinite_waves_arms/infinite_waves_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infinite_waves_arms-b6dc8fd53d89.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/392d4ab65abf/models/items/phantom_lancer/infinite_waves_arms/infinite_waves_arms_color_tga_7d4a5c5e.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:13976:rakshasa-arms",
+      "itemId": 13976,
+      "name": "Bracers of the Red Sands",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/727e9597e549/models/items/phantom_lancer/rakshasa_arms/rakshasa_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/727e9597e549/models/items/phantom_lancer/rakshasa_arms/rakshasa_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/rakshasa_arms/rakshasa_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rakshasa_arms-688cb3979b5d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/727e9597e549/models/items/phantom_lancer/rakshasa_arms/rakshasa_arms_color_tga_75ed0e48.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6619:sunwarrior-arms",
+      "itemId": 6619,
+      "name": "Bracers of the Sunwarrior",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/85069933a7b8/models/items/phantom_lancer/sunwarrior_arms/sunwarrior_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/85069933a7b8/models/items/phantom_lancer/sunwarrior_arms/sunwarrior_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/sunwarrior_arms/sunwarrior_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sunwarrior_arms-f4e37ebf862f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/85069933a7b8/models/items/phantom_lancer/sunwarrior_arms/sunwarrior_arms_color_tga_3b2ee6a.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4718:ancient-gods-arms",
+      "itemId": 4718,
+      "name": "Buckler of the Bramble Lord",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/d67d95b5bd79/models/items/phantom_lancer/ancient_gods_arms/ancient_gods_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/d67d95b5bd79/models/items/phantom_lancer/ancient_gods_arms/ancient_gods_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/ancient_gods_arms/ancient_gods_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_gods_arms-919e6668205a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/d67d95b5bd79/models/items/phantom_lancer/ancient_gods_arms/ancient_gods_arms_color_tga_51e5d75d.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:14274:army-of-the-vast-sea-arms",
+      "itemId": 14274,
+      "name": "Darkwater Dominion  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/6868321118b8/models/items/phantom_lancer/army_of_the_vast_sea_arms/army_of_the_vast_sea_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/6868321118b8/models/items/phantom_lancer/army_of_the_vast_sea_arms/army_of_the_vast_sea_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/army_of_the_vast_sea_arms/army_of_the_vast_sea_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/army_of_the_vast_sea_arms-aef75b234a87.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/6868321118b8/models/items/phantom_lancer/army_of_the_vast_sea_arms/army_of_the_vast_sea_arms_color_tga_72a91fd.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:23771:winning-buddha-arms",
+      "itemId": 23771,
+      "name": "Disquiet Solitude  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/160b9d29a57e/models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/160b9d29a57e/models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winning_buddha_arms-8f4063134881.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/160b9d29a57e/models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms_color_tga_70a73976.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/winning_buddha_arms/winning_buddha_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_winning_buddha/phantom_lancer_winning_buddha_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:36228:phantom-lancer-dark-carnival-arm",
+      "itemId": 36228,
+      "name": "FlimFlam Felidae  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3c575b1293a1/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_arm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3c575b1293a1/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_arm.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_arm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_dark_carnival_arm-2c5b242cb2b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3c575b1293a1/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_arms_color_tga_71cf6903.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:28196:phantom-lancer-avilliva-arms",
+      "itemId": 28196,
+      "name": "Flock of Avilliva  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c0051af423f0/models/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c0051af423f0/models/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_avilliva_arms-643551c4d3c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c0051af423f0/models/items/phantom_lancer/phantom_lancer_avilliva_arms/pl_avilliva_arms_color_tga_70525e20.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_avilliva_arms/phantom_lancer_avilliva_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4576:arms-sunlit-ga",
+      "itemId": 4576,
+      "name": "Gauntlet of the Golden Mane",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/32a15141229f/models/items/phantom_lancer/arms_sunlit_ga/arms_sunlit_ga.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/32a15141229f/models/items/phantom_lancer/arms_sunlit_ga/arms_sunlit_ga.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/arms_sunlit_ga/arms_sunlit_ga.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_sunlit_ga-3139958263ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/32a15141229f/models/items/phantom_lancer/arms_sunlit_ga/arms_sunlit_ga_color_tga_838d8ff2.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:7746:vagabond-arms",
+      "itemId": 7746,
+      "name": "Humble Drifter Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/1064fc887715/models/items/phantom_lancer/vagabond_arms/vagabond_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/1064fc887715/models/items/phantom_lancer/vagabond_arms/vagabond_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_arms/vagabond_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_arms-6a8e73ff692d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/1064fc887715/models/items/phantom_lancer/vagabond_arms/vagabond_arms_color_tga_f45ab6ab.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6343:noble-warrior-armlet",
+      "itemId": 6343,
+      "name": "Noble Warrior Armlet",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/b4cf733f954c/models/items/phantom_lancer/noble_warrior_armlet/noble_warrior_armlet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/b4cf733f954c/models/items/phantom_lancer/noble_warrior_armlet/noble_warrior_armlet.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/noble_warrior_armlet/noble_warrior_armlet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noble_warrior_armlet-8d979c27f080.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/b4cf733f954c/models/items/phantom_lancer/noble_warrior_armlet/noble_warrior_armlet_color_tga_6121412.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:129:phantom-lancer-gauntlet",
+      "itemId": 129,
+      "name": "Phantom Lancers Gauntlet",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2b09b1218f22/models/heroes/phantom_lancer/phantom_lancer_gauntlet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2b09b1218f22/models/heroes/phantom_lancer/phantom_lancer_gauntlet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_gauntlet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_gauntlet-f0c1bed7fcec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2b09b1218f22/models/heroes/phantom_lancer/phantom_lancer_gauntlets_color_psd_49ba1dec.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4402:arms-kinship",
+      "itemId": 4402,
+      "name": "Revered Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4f6057703d68/models/items/phantom_lancer/arms_kinship/arms_kinship.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4f6057703d68/models/items/phantom_lancer/arms_kinship/arms_kinship.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/arms_kinship/arms_kinship.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_kinship-c9471db169aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4f6057703d68/models/items/phantom_lancer/arms_kinship/arms_kinship_color_tga_cd67c89b.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:18169:anubis-phantom-lancer-arms",
+      "itemId": 18169,
+      "name": "Scales of the Shadow Walker  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/af9687ce3b9d/models/items/phantom_lancer/anubis_phantom_lancer_arms/anubis_phantom_lancer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/af9687ce3b9d/models/items/phantom_lancer/anubis_phantom_lancer_arms/anubis_phantom_lancer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/anubis_phantom_lancer_arms/anubis_phantom_lancer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anubis_phantom_lancer_arms-fa7dacfd0b83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/af9687ce3b9d/models/items/phantom_lancer/anubis_phantom_lancer_arms/anubis_phantom_lancer_arms_color_tga_baaf4cf0.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:22789:vagabond-arms",
+      "itemId": 22789,
+      "name": "Winter Lineage Humble Drifter Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0dbd1cbe8860/models/items/phantom_lancer/vagabond_arms/vagabond_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0dbd1cbe8860/models/items/phantom_lancer/vagabond_arms/vagabond_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_arms/vagabond_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_arms1-511b8207f0e0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0dbd1cbe8860/models/items/phantom_lancer/vagabond_arms/vagabond_arms_color_tga_f45ab6ab.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4858:ancestorspride-belt",
+      "itemId": 4858,
+      "name": "Ancestors Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/24070e67c723/models/items/phantom_lancer/ancestorspride_belt/ancestorspride_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/24070e67c723/models/items/phantom_lancer/ancestorspride_belt/ancestorspride_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/ancestorspride_belt/ancestorspride_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancestorspride_belt-93ed5f1c28fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/24070e67c723/models/items/phantom_lancer/ancestorspride_belt/ancestorspride_belt_color_tga_fc292869.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:9302:hockey-goalie-belt",
+      "itemId": 9302,
+      "name": "Belt of Harsh Sojourn",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/35dec9d4658c/models/items/phantom_lancer/hockey_goalie_belt/hockey_goalie_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/35dec9d4658c/models/items/phantom_lancer/hockey_goalie_belt/hockey_goalie_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/hockey_goalie_belt/hockey_goalie_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hockey_goalie_belt-5ab543b8f829.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/35dec9d4658c/models/items/phantom_lancer/hockey_goalie_belt/hockey_goalie_belt_color_png_83c5d975.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:5553:belt-of-elemental-ice",
+      "itemId": 5553,
+      "name": "Belt of Teardrop Ice",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2f89950ad0c2/models/items/phantom_lancer/belt_of_elemental_ice/belt_of_elemental_ice.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2f89950ad0c2/models/items/phantom_lancer/belt_of_elemental_ice/belt_of_elemental_ice.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/belt_of_elemental_ice/belt_of_elemental_ice.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/belt_of_elemental_ice-51a59b63d91c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2f89950ad0c2/models/items/phantom_lancer/belt_of_elemental_ice/belt_of_elemental_ice_color_tga_8cc3e089.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4717:ancient-gods-belt",
+      "itemId": 4717,
+      "name": "Belt of the Bramble Lord",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f4095c0c7d44/models/items/phantom_lancer/ancient_gods_belt/ancient_gods_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f4095c0c7d44/models/items/phantom_lancer/ancient_gods_belt/ancient_gods_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/ancient_gods_belt/ancient_gods_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_gods_belt-d2eacf8c3d6e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f4095c0c7d44/models/items/phantom_lancer/ancient_gods_belt/ancient_gods_belt_color_tga_97da2875.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4547:belt-sunlit",
+      "itemId": 4547,
+      "name": "Belt of the Golden Mane",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/034f0391e788/models/items/phantom_lancer/belt_sunlit/belt_sunlit.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/034f0391e788/models/items/phantom_lancer/belt_sunlit/belt_sunlit.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/belt_sunlit/belt_sunlit.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/belt_sunlit-38f6e8616f4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/034f0391e788/models/items/phantom_lancer/belt_sunlit/belt_sunlit_color_tga_22ee0cf3.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:13977:rakshasa-belt",
+      "itemId": 13977,
+      "name": "Belt of the Red Sands",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/adb5c834f8a7/models/items/phantom_lancer/rakshasa_belt/rakshasa_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/adb5c834f8a7/models/items/phantom_lancer/rakshasa_belt/rakshasa_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/rakshasa_belt/rakshasa_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rakshasa_belt-9011c286cb7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/adb5c834f8a7/models/items/phantom_lancer/rakshasa_belt/rakshasa_belt_color_tga_73a16ade.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6617:sunwarrior-belt",
+      "itemId": 6617,
+      "name": "Belt of the Sunwarrior",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4953168314c5/models/items/phantom_lancer/sunwarrior_belt/sunwarrior_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4953168314c5/models/items/phantom_lancer/sunwarrior_belt/sunwarrior_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/sunwarrior_belt/sunwarrior_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sunwarrior_belt-dd2c2d2dd3b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4953168314c5/models/items/phantom_lancer/sunwarrior_belt/sunwarrior_belt_color_tga_1486929a.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:14267:army-of-the-vast-sea-belt",
+      "itemId": 14267,
+      "name": "Darkwater Dominion  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/7ab79b69860c/models/items/phantom_lancer/army_of_the_vast_sea_belt/army_of_the_vast_sea_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/7ab79b69860c/models/items/phantom_lancer/army_of_the_vast_sea_belt/army_of_the_vast_sea_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/army_of_the_vast_sea_belt/army_of_the_vast_sea_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/army_of_the_vast_sea_belt-9f2dce98332a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/7ab79b69860c/models/items/phantom_lancer/army_of_the_vast_sea_belt/army_of_the_vast_sea_belt_color_tga_63c24f5c.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:23798:winning-buddha-belt",
+      "itemId": 23798,
+      "name": "Disquiet Solitude  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9900d61c1414/models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9900d61c1414/models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winning_buddha_belt-12549e129ad2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9900d61c1414/models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt_color_tga_66c19b95.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/winning_buddha_belt/winning_buddha_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_winning_buddha/phantom_lancer_winning_buddha_belt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:36227:phantom-lancer-dark-carnival-belt",
+      "itemId": 36227,
+      "name": "FlimFlam Felidae  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/e246951f88c9/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/e246951f88c9/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_dark_carnival_belt-8e40081df22b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/e246951f88c9/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_belt_color_psd_cd8cda29.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:28197:phantom-lancer-avilliva-belt",
+      "itemId": 28197,
+      "name": "Flock of Avilliva  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/41719c0a3e94/models/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/41719c0a3e94/models/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_avilliva_belt-21326a55d552.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/41719c0a3e94/models/items/phantom_lancer/phantom_lancer_avilliva_belt/pl_avilliva_belt_color_tga_6c7833b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_avilliva_belt/phantom_lancer_avilliva_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_belt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6753:infinite-waves-belt",
+      "itemId": 6753,
+      "name": "Girdle of the Infinite Waves",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/bdb0dacffbd5/models/items/phantom_lancer/infinite_waves_belt/infinite_waves_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/bdb0dacffbd5/models/items/phantom_lancer/infinite_waves_belt/infinite_waves_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/infinite_waves_belt/infinite_waves_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infinite_waves_belt-9318d40f8888.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/bdb0dacffbd5/models/items/phantom_lancer/infinite_waves_belt/infinite_waves_belt_color_tga_1a3963a.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:7747:vagabond-pants",
+      "itemId": 7747,
+      "name": "Humble Drifter Pants",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/a7e441bfc4dd/models/items/phantom_lancer/vagabond_pants/vagabond_pants.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/a7e441bfc4dd/models/items/phantom_lancer/vagabond_pants/vagabond_pants.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_pants/vagabond_pants.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_pants-2207bdb827be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/a7e441bfc4dd/models/items/phantom_lancer/vagabond_pants/vagabond_pants_color_tga_bc07b906.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6344:noble-warrior-belt",
+      "itemId": 6344,
+      "name": "Noble Warrior Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4af81384392f/models/items/phantom_lancer/noble_warrior_belt/noble_warrior_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4af81384392f/models/items/phantom_lancer/noble_warrior_belt/noble_warrior_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/noble_warrior_belt/noble_warrior_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noble_warrior_belt-9097b5dad901.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4af81384392f/models/items/phantom_lancer/noble_warrior_belt/noble_warrior_belt_color_tga_16a7c60a.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:128:phantom-lancer-belt",
+      "itemId": 128,
+      "name": "Phantom Lancers Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ea1497004dbc/models/heroes/phantom_lancer/phantom_lancer_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ea1497004dbc/models/heroes/phantom_lancer/phantom_lancer_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_belt-a2d1633dbabf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ea1497004dbc/models/heroes/phantom_lancer/phantom_lancer_lowerbod_color_psd_28ae34d0.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4409:belt-kinship",
+      "itemId": 4409,
+      "name": "Revered Wrap",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/da4c9a3c5021/models/items/phantom_lancer/belt_kinship/belt_kinship.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/da4c9a3c5021/models/items/phantom_lancer/belt_kinship/belt_kinship.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/belt_kinship/belt_kinship.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/belt_kinship-8f91d1b9bd40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/da4c9a3c5021/models/items/phantom_lancer/belt_kinship/belt_kinship_color_tga_1a148221.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:18170:anubis-phantom-lancer-belt",
+      "itemId": 18170,
+      "name": "Scales of the Shadow Walker  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/5735e6dcc2f3/models/items/phantom_lancer/anubis_phantom_lancer_belt/anubis_phantom_lancer_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/5735e6dcc2f3/models/items/phantom_lancer/anubis_phantom_lancer_belt/anubis_phantom_lancer_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/anubis_phantom_lancer_belt/anubis_phantom_lancer_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anubis_phantom_lancer_belt-06bc07477ee1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/5735e6dcc2f3/models/items/phantom_lancer/anubis_phantom_lancer_belt/anubis_phantom_lancer_belt_color_tga_eece77a4.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:22790:vagabond-pants",
+      "itemId": 22790,
+      "name": "Winter Lineage Humble Drifter Pants",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fa81a1832229/models/items/phantom_lancer/vagabond_pants/vagabond_pants.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fa81a1832229/models/items/phantom_lancer/vagabond_pants/vagabond_pants.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_pants/vagabond_pants.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_pants1-5c859f087221.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fa81a1832229/models/items/phantom_lancer/vagabond_pants/vagabond_pants_color_tga_bc07b906.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:127:phantom-lancer-head",
+      "itemId": 127,
+      "name": "Phantom Lancers Head",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/13c3a5964dd8/models/heroes/phantom_lancer/phantom_lancer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/13c3a5964dd8/models/heroes/phantom_lancer/phantom_lancer_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_head-e312d5bd3cf6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/13c3a5964dd8/models/heroes/phantom_lancer/phantom_lancer_head_color_psd_58300cec.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:14995:pl-fall20-immortal-head",
+      "itemId": 14995,
+      "name": "Concord Reversion",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4a879d231220/models/items/phantom_lancer/pl_fall20_immortal_head/pl_fall20_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4a879d231220/models/items/phantom_lancer/pl_fall20_immortal_head/pl_fall20_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/pl_fall20_immortal_head/pl_fall20_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pl_fall20_immortal_head-e85922d40c75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4a879d231220/models/items/phantom_lancer/pl_fall20_immortal_head/pl_fall20_immortal_head_color_tga_4c0e430a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/pl_fall20_immortal_head/pl_fall20_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/pl_fall20_immortal_head/pl_fall20_immortal_head.vmdl"
+        ],
+        "refitModels": [
+          {
+            "targetModelPath": "models/heroes/phantom_lancer/phantom_lancer_head.vmdl",
+            "modifierModelPath": "models/items/phantom_lancer/pl_fall20_immortal_head/phantom_lancer_head_fall20_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9ba6e342d9aa/models/items/phantom_lancer/pl_fall20_immortal_head/phantom_lancer_head_fall20_refit.glb"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_fall20_immortal/phantom_lancer_fall20_illusion_destroy.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_fall20_immortal/phantom_lancer_fall20_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_fall20_immortal/phantom_lancer_fall20_immortal_doppelganger_aoe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_fall20_immortal/phantom_lancer_fall20_immortal_doppelganger_illlmove.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_fall20_immortal/phantom_lancer_fall20_immortal_spawn.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phantom_lancer/phantom_lancer_doppleganger_aoe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phantom_lancer/phantom_lancer_doppleganger_illlmove.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phantom_lancer/phantom_lancer_spawn_illusion.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phantom_lancer/phantomlancer_illusion_destroy.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:14263:army-of-the-vast-sea-head",
+      "itemId": 14263,
+      "name": "Darkwater Dominion  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/5b993ce8eb1d/models/items/phantom_lancer/army_of_the_vast_sea_head/army_of_the_vast_sea_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/5b993ce8eb1d/models/items/phantom_lancer/army_of_the_vast_sea_head/army_of_the_vast_sea_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/army_of_the_vast_sea_head/army_of_the_vast_sea_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/army_of_the_vast_sea_head-e9799468b513.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/5b993ce8eb1d/models/items/phantom_lancer/army_of_the_vast_sea_head/army_of_the_vast_sea_head_color_tga_3b0d7816.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:23796:winning-buddha-head",
+      "itemId": 23796,
+      "name": "Disquiet Solitude  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/93d489950a03/models/items/phantom_lancer/winning_buddha_head/winning_buddha_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/93d489950a03/models/items/phantom_lancer/winning_buddha_head/winning_buddha_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/winning_buddha_head/winning_buddha_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winning_buddha_head-af328244665c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/93d489950a03/models/items/phantom_lancer/winning_buddha_head/winning_buddha_head_color_tga_a7b9e80f.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:36226:phantom-lancer-dark-carnival-head",
+      "itemId": 36226,
+      "name": "FlimFlam Felidae  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4d6a368d26e9/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4d6a368d26e9/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_dark_carnival_head-1cac268c6519.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/4d6a368d26e9/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_head_color_psd_6e8e1266.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:28198:phantom-lancer-avilliva-head",
+      "itemId": 28198,
+      "name": "Flock of Avilliva  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f6f5387de3ca/models/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f6f5387de3ca/models/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_avilliva_head-52e718e2db15.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f6f5387de3ca/models/items/phantom_lancer/phantom_lancer_avilliva_head/pl_avilliva_head_color_psd_789a4d27.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_avilliva_head/phantom_lancer_avilliva_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:9460:vagabond-hat",
+      "itemId": 9460,
+      "name": "Humble Drifter Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/40c04ab8d6e3/models/items/phantom_lancer/vagabond_hat/vagabond_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/40c04ab8d6e3/models/items/phantom_lancer/vagabond_hat/vagabond_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_hat/vagabond_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_hat-6177fc51338c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/40c04ab8d6e3/models/items/phantom_lancer/vagabond_hat/vagabond_hat_color_tga_c58505cf.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6621:sunwarrior-head",
+      "itemId": 6621,
+      "name": "Mane of the Sunwarrior",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/d4da9dfe111b/models/items/phantom_lancer/sunwarrior_head/sunwarrior_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/d4da9dfe111b/models/items/phantom_lancer/sunwarrior_head/sunwarrior_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/sunwarrior_head/sunwarrior_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sunwarrior_head-9fbbf33b96fc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/d4da9dfe111b/models/items/phantom_lancer/sunwarrior_head/sunwarrior_head_color_tga_2711e393.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/sunwarrior_head/sunwarrior_head.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/sunwarrior_head/sunwarrior_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_sunwarrior/pl_sw_eye_glow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:9301:hockey-goalie-head",
+      "itemId": 9301,
+      "name": "Mask of Harsh Sojourn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9e86c7408203/models/items/phantom_lancer/hockey_goalie_head/hockey_goalie_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9e86c7408203/models/items/phantom_lancer/hockey_goalie_head/hockey_goalie_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/hockey_goalie_head/hockey_goalie_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hockey_goalie_head-625e9df00a66.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9e86c7408203/models/items/phantom_lancer/hockey_goalie_head/hockey_goalie_head_color_png_d0efb79a.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:18171:anubis-phantom-lancer-head",
+      "itemId": 18171,
+      "name": "Scales of the Shadow Walker  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9bababcbb0b1/models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9bababcbb0b1/models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anubis_phantom_lancer_head-3da048091485.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/9bababcbb0b1/models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head_color_tga_f91d42b0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head.vmdl"
+        ],
+        "refitModels": [
+          {
+            "targetModelPath": "models/heroes/phantom_lancer/phantom_lancer_head.vmdl",
+            "modifierModelPath": "models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/258eb09970a1/models/items/phantom_lancer/anubis_phantom_lancer_head/anubis_phantom_lancer_head_refit.glb"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_anubis/pl_anubis_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:13975:rakshasa-head",
+      "itemId": 13975,
+      "name": "Turban of the Red Sands",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/e9f1037593b6/models/items/phantom_lancer/rakshasa_head/rakshasa_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/e9f1037593b6/models/items/phantom_lancer/rakshasa_head/rakshasa_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/rakshasa_head/rakshasa_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rakshasa_head-4e30cbab86ab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/e9f1037593b6/models/items/phantom_lancer/rakshasa_head/rakshasa_head_color_tga_62ce5143.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:22793:vagabond-hat",
+      "itemId": 22793,
+      "name": "Winter Lineage Humble Drifter Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/46821d2626e8/models/items/phantom_lancer/vagabond_hat/vagabond_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/46821d2626e8/models/items/phantom_lancer/vagabond_hat/vagabond_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_hat/vagabond_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_hat1-48f266e83725.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/46821d2626e8/models/items/phantom_lancer/vagabond_hat/vagabond_hat_color_tga_c58505cf.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4856:ancestorspride-shoulders",
+      "itemId": 4856,
+      "name": "Ancestors Pauldron",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/8b046e001996/models/items/phantom_lancer/ancestorspride_shoulders/ancestorspride_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/8b046e001996/models/items/phantom_lancer/ancestorspride_shoulders/ancestorspride_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/ancestorspride_shoulders/ancestorspride_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancestorspride_shoulders-c3d71b8e40f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/8b046e001996/models/items/phantom_lancer/ancestorspride_shoulders/ancestorspride_shoulders_color_tga_186148ce.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:7817:phantom-lancer-ti7-immortal-shoulder",
+      "itemId": 7817,
+      "name": "Concord Dominion",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/bc6f690710d7/models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/bc6f690710d7/models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_ti7_immortal_shoulder-7aaa24f88b40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/bc6f690710d7/models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder_color_psd_5a544989.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/ti7_immortal_shoulder/pl_ti7_edge_boost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phantom_lancer/ti7_immortal_shoulder/pl_ti7_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phantom_lancer/phantomlancer_edge_boost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:31206:phantom-lancer-ti7-immortal-shoulder",
+      "itemId": 31206,
+      "name": "Concord Dominion of the Crimson Witness",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/61bd80545852/models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/61bd80545852/models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_ti7_immortal_shoulder1-c004a37afc67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/61bd80545852/models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder_color_psd_5a544989.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_ti7_immortal_shoulder/phantom_lancer_ti7_immortal_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/ti7_immortal_shoulder/pl_ti7_crimson_edge_boost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/phantom_lancer/ti7_immortal_shoulder/pl_ti7_immortal_ambient_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_phantom_lancer/phantomlancer_edge_boost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:14266:army-of-the-vast-sea-shoulder",
+      "itemId": 14266,
+      "name": "Darkwater Dominion  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/680b5d8fe407/models/items/phantom_lancer/army_of_the_vast_sea_shoulder/army_of_the_vast_sea_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/680b5d8fe407/models/items/phantom_lancer/army_of_the_vast_sea_shoulder/army_of_the_vast_sea_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/army_of_the_vast_sea_shoulder/army_of_the_vast_sea_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/army_of_the_vast_sea_shoulder-6a7bffd762fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/680b5d8fe407/models/items/phantom_lancer/army_of_the_vast_sea_shoulder/army_of_the_vast_sea_shoulder_color_tga_ce75a949.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:23777:winning-buddha-shoulder",
+      "itemId": 23777,
+      "name": "Disquiet Solitude  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f38cfac95d0a/models/items/phantom_lancer/winning_buddha_shoulder/winning_buddha_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f38cfac95d0a/models/items/phantom_lancer/winning_buddha_shoulder/winning_buddha_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/winning_buddha_shoulder/winning_buddha_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winning_buddha_shoulder-7d9633c32a24.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f38cfac95d0a/models/items/phantom_lancer/winning_buddha_shoulder/winning_buddha_shoulder_color_tga_8cdce97c.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:36229:phantom-lancer-dark-carnival-shoulder",
+      "itemId": 36229,
+      "name": "FlimFlam Felidae  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/acf88986d056/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/acf88986d056/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_dark_carnival_shoulder-46f4e5978564.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/acf88986d056/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_shoulders_color_psd_65e7a62.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:28195:phantom-lancer-avilliva-shoulders",
+      "itemId": 28195,
+      "name": "Flock of Avilliva  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/71cb9b332696/models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/phantom_lancer_avilliva_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/71cb9b332696/models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/phantom_lancer_avilliva_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/phantom_lancer_avilliva_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_avilliva_shoulder-0593c2287f7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/71cb9b332696/models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/pl_avilliva_shoulders_color_tga_650b9e8b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/phantom_lancer_avilliva_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_avilliva_shoulders/phantom_lancer_avilliva_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:7749:vagabond-shoulders",
+      "itemId": 7749,
+      "name": "Humble Drifter Garb",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f59571e18d83/models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f59571e18d83/models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_shoulders-d9885661a4d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f59571e18d83/models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders_color_tga_f3b0cfcd.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:13973:rakshasa-shoulder",
+      "itemId": 13973,
+      "name": "Necklace of the Red Sands",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0975ac5cd196/models/items/phantom_lancer/rakshasa_shoulder/rakshasa_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0975ac5cd196/models/items/phantom_lancer/rakshasa_shoulder/rakshasa_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/rakshasa_shoulder/rakshasa_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rakshasa_shoulder-05fd75a24f0b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0975ac5cd196/models/items/phantom_lancer/rakshasa_shoulder/rakshasa_shoulder_color_tga_414be3c7.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6351:noble-warrior-shoulder",
+      "itemId": 6351,
+      "name": "Noble Warrior Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/78694134c5ea/models/items/phantom_lancer/noble_warrior_shoulder/noble_warrior_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/78694134c5ea/models/items/phantom_lancer/noble_warrior_shoulder/noble_warrior_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/noble_warrior_shoulder/noble_warrior_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/noble_warrior_shoulder-5d2aee49fea4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/78694134c5ea/models/items/phantom_lancer/noble_warrior_shoulder/noble_warrior_shoulder_color_tga_998faff.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:5554:shoulder-of-elemental-ice",
+      "itemId": 5554,
+      "name": "Pauldron of Teardrop Ice",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/11b2ed8e7a56/models/items/phantom_lancer/shoulder_of_elemental_ice/shoulder_of_elemental_ice.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/11b2ed8e7a56/models/items/phantom_lancer/shoulder_of_elemental_ice/shoulder_of_elemental_ice.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/shoulder_of_elemental_ice/shoulder_of_elemental_ice.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_of_elemental_ice-748b2b7fef9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/11b2ed8e7a56/models/items/phantom_lancer/shoulder_of_elemental_ice/shoulder_of_elemental_ice_color_tga_c945104d.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:9300:hockey-goalie-shoulder",
+      "itemId": 9300,
+      "name": "Pauldrons of Harsh Sojourn",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/a7fb78e89076/models/items/phantom_lancer/hockey_goalie_shoulder/hockey_goalie_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/a7fb78e89076/models/items/phantom_lancer/hockey_goalie_shoulder/hockey_goalie_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/hockey_goalie_shoulder/hockey_goalie_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hockey_goalie_shoulder-f2210b7456d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/a7fb78e89076/models/items/phantom_lancer/hockey_goalie_shoulder/hockey_goalie_shoulder_color_png_1363fc1b.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:130:phantom-lancer-shoulderpad",
+      "itemId": 130,
+      "name": "Phantom Lancers Shoulderpad",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f72023f48da0/models/heroes/phantom_lancer/phantom_lancer_shoulderpad.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f72023f48da0/models/heroes/phantom_lancer/phantom_lancer_shoulderpad.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_shoulderpad.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_shoulderpad-baea8939234a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/f72023f48da0/models/heroes/phantom_lancer/phantom_lancer_upperbod_color_psd_a0346393.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4451:shoulder-kinship",
+      "itemId": 4451,
+      "name": "Revered Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3d39f69c6cb1/models/items/phantom_lancer/shoulder_kinship/shoulder_kinship.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3d39f69c6cb1/models/items/phantom_lancer/shoulder_kinship/shoulder_kinship.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/shoulder_kinship/shoulder_kinship.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_kinship-b46e56143c9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3d39f69c6cb1/models/items/phantom_lancer/shoulder_kinship/shoulder_kinship_color_tga_84995b00.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:18172:anubis-phantom-lancer-shoulder",
+      "itemId": 18172,
+      "name": "Scales of the Shadow Walker  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ec5529220d88/models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ec5529220d88/models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anubis_phantom_lancer_shoulder-7e8f145e9dbb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ec5529220d88/models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder_color_tga_195cd09f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/anubis_phantom_lancer_shoulder/anubis_phantom_lancer_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_anubis/pl_anubis_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6755:infinite-waves-shoulder",
+      "itemId": 6755,
+      "name": "Shoulder Guard of the Infinite Waves",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/abb07ce8299b/models/items/phantom_lancer/infinite_waves_shoulder/infinite_waves_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/abb07ce8299b/models/items/phantom_lancer/infinite_waves_shoulder/infinite_waves_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/infinite_waves_shoulder/infinite_waves_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infinite_waves_shoulder-f3e9ee1b0a07.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/abb07ce8299b/models/items/phantom_lancer/infinite_waves_shoulder/infinite_waves_shoulder_color_tga_2550f7d2.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4577:shoulder-sunlit",
+      "itemId": 4577,
+      "name": "Shoulder of the Golden Mane",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ffee384be47f/models/items/phantom_lancer/shoulder_sunlit/shoulder_sunlit.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ffee384be47f/models/items/phantom_lancer/shoulder_sunlit/shoulder_sunlit.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/shoulder_sunlit/shoulder_sunlit.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_sunlit-76c5354999b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ffee384be47f/models/items/phantom_lancer/shoulder_sunlit/shoulder_sunlit_color_tga_2366a495.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4720:ancient-gods-shoulder",
+      "itemId": 4720,
+      "name": "Spaulder of the Bramble Lord",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/b5529ac73999/models/items/phantom_lancer/ancient_gods_shoulder/ancient_gods_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/b5529ac73999/models/items/phantom_lancer/ancient_gods_shoulder/ancient_gods_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/ancient_gods_shoulder/ancient_gods_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_gods_shoulder-10901af6f647.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/b5529ac73999/models/items/phantom_lancer/ancient_gods_shoulder/ancient_gods_shoulder_color_tga_4a9af4ee.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:22792:vagabond-shoulders",
+      "itemId": 22792,
+      "name": "Winter Lineage Humble Drifter Garb",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2f57393fe093/models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2f57393fe093/models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_shoulders1-1accbc87311b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/2f57393fe093/models/items/phantom_lancer/vagabond_shoulders/vagabond_shoulders_color_tga_f3b0cfcd.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4855:ancestorspride-weapon",
+      "itemId": 4855,
+      "name": "Ancestors Edge",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/908e9f829ac1/models/items/phantom_lancer/ancestorspride_weapon/ancestorspride_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/908e9f829ac1/models/items/phantom_lancer/ancestorspride_weapon/ancestorspride_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/ancestorspride_weapon/ancestorspride_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancestorspride_weapon-81b2a46b67f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/908e9f829ac1/models/items/phantom_lancer/ancestorspride_weapon/ancestorspride_weapon_color_tga_6324d899.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:14265:army-of-the-vast-sea-weapon",
+      "itemId": 14265,
+      "name": "Darkwater Dominion  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/affa490504e1/models/items/phantom_lancer/army_of_the_vast_sea_weapon/army_of_the_vast_sea_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/affa490504e1/models/items/phantom_lancer/army_of_the_vast_sea_weapon/army_of_the_vast_sea_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/army_of_the_vast_sea_weapon/army_of_the_vast_sea_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/army_of_the_vast_sea_weapon-7b986d8f1a73.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/affa490504e1/models/items/phantom_lancer/army_of_the_vast_sea_weapon/army_of_the_vast_sea_weapon_color_tga_2eccc86.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:23797:winning-buddha-weapon",
+      "itemId": 23797,
+      "name": "Disquiet Solitude  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/1e2aedfa6b84/models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/1e2aedfa6b84/models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winning_buddha_weapon-31b3efaa68ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/1e2aedfa6b84/models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon_color_tga_f80e2121.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/winning_buddha_weapon/winning_buddha_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_winning_buddha/phantom_lancer_winning_buddha_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:36230:phantom-lancer-dark-carnival-weapon",
+      "itemId": 36230,
+      "name": "FlimFlam Felidae  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ff392e66e20c/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ff392e66e20c/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_dark_carnival_weapon-555ca8151544.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ff392e66e20c/models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_weapon_color_psd_6aaadd84.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_weapon.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_dark_carnival/phantom_lancer_dark_carnival_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:28175:phantom-lancer-avilliva-weapon",
+      "itemId": 28175,
+      "name": "Flock of Avilliva  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3c5641b50484/models/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3c5641b50484/models/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_avilliva_weapon-7f42dcf83552.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/3c5641b50484/models/items/phantom_lancer/phantom_lancer_avilliva_weapon/pl_avilliva_weapon_color_tga_a8ba9c1a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/phantom_lancer_avilliva_weapon/phantom_lancer_avilliva_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_avilliva/phantom_lancer_avilliva_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:9299:hockey-goalie-weapon",
+      "itemId": 9299,
+      "name": "Lance of Harsh Sojourn",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/971e914961fa/models/items/phantom_lancer/hockey_goalie_weapon/hockey_goalie_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/971e914961fa/models/items/phantom_lancer/hockey_goalie_weapon/hockey_goalie_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/hockey_goalie_weapon/hockey_goalie_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hockey_goalie_weapon-162412bb6d6a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/971e914961fa/models/items/phantom_lancer/hockey_goalie_weapon/hockey_goalie_weapon_color_png_3202b0a3.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6620:sunwarrior-weapon",
+      "itemId": 6620,
+      "name": "Lance of the Sunwarrior",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c4a5fe0b0e33/models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c4a5fe0b0e33/models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sunwarrior_weapon-a2ef94d3c09d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c4a5fe0b0e33/models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon_color_tga_499c0de8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/sunwarrior_weapon/sunwarrior_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_sunwarrior/pl_sw_lance.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4242:weapon-trispear",
+      "itemId": 4242,
+      "name": "Manifold Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ce7563babc64/models/items/phantom_lancer/weapon_trispear.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ce7563babc64/models/items/phantom_lancer/weapon_trispear.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/weapon_trispear.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_trispear-db9f523ba545.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/ce7563babc64/models/items/phantom_lancer/ancestorspride_arms_color_tga_d708a7c2.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:132:phantom-lancer-weapon",
+      "itemId": 132,
+      "name": "Phantom Lancers Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0c5b6f9ee8e1/models/heroes/phantom_lancer/phantom_lancer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0c5b6f9ee8e1/models/heroes/phantom_lancer/phantom_lancer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/phantom_lancer/phantom_lancer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/phantom_lancer_weapon-f624b6cc8d67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/0c5b6f9ee8e1/models/heroes/phantom_lancer/phantom_lancer_spear_color_psd_4b2cc615.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6067:weapon-plstaff",
+      "itemId": 6067,
+      "name": "Power of the Red Horse",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/738fe4093773/models/items/phantom_lancer/weapon_plstaff/weapon_plstaff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/738fe4093773/models/items/phantom_lancer/weapon_plstaff/weapon_plstaff.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/weapon_plstaff/weapon_plstaff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_plstaff-a6180f9b1fef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/738fe4093773/models/items/phantom_lancer/weapon_plstaff/weapon_plstaff_color_tga_a419d64d.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4439:weapon-kinship",
+      "itemId": 4439,
+      "name": "Revered Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c287b9b63f7e/models/items/phantom_lancer/weapon_kinship/weapon_kinship.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c287b9b63f7e/models/items/phantom_lancer/weapon_kinship/weapon_kinship.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/weapon_kinship/weapon_kinship.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_kinship-69391cda7a81.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c287b9b63f7e/models/items/phantom_lancer/weapon_kinship/weapon_kinship_color_tga_b162b5d0.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:18173:anubis-phantom-lancer-weapon",
+      "itemId": 18173,
+      "name": "Scales of the Shadow Walker  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/770f637689c3/models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/770f637689c3/models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anubis_phantom_lancer_weapon-7f752575d870.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/770f637689c3/models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon_color_tga_3b943225.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/anubis_phantom_lancer_weapon/anubis_phantom_lancer_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/phantom_lancer/phantom_lancer_anubis/pl_anubis_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:4575:weapon-sunli-spear",
+      "itemId": 4575,
+      "name": "Spear of the Golden Mane",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c032f36b3152/models/items/phantom_lancer/weapon_sunli_spear/weapon_sunli_spear.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c032f36b3152/models/items/phantom_lancer/weapon_sunli_spear/weapon_sunli_spear.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/weapon_sunli_spear/weapon_sunli_spear.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_sunli_spear-49322d0d7920.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/c032f36b3152/models/items/phantom_lancer/weapon_sunli_spear/weapon_sunli_spear_color_tga_6e8ea6ad.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:13972:rakshasa-weapon",
+      "itemId": 13972,
+      "name": "Spear of the Red Sands",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/dbe24afc688a/models/items/phantom_lancer/rakshasa_weapon/rakshasa_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/dbe24afc688a/models/items/phantom_lancer/rakshasa_weapon/rakshasa_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/rakshasa_weapon/rakshasa_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rakshasa_weapon-76b5e4bc2e50.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/dbe24afc688a/models/items/phantom_lancer/rakshasa_weapon/rakshasa_weapon_color_tga_78549b02.png"
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6317:infinite-waves-serpent-weapon",
+      "itemId": 6317,
+      "name": "Staff of the Infinite Waves",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fe739b0394d2/models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fe739b0394d2/models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infinite_waves_serpent_weapon-abcb2c71099b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fe739b0394d2/models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon_color_tga_32097743.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Staff of the Infinite Waves Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon",
+            "modelPaths": [
+              "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Staff of the Infinite Waves Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/phantom_lancer/infinite_waves_trident_weapon/infinite_waves_trident_weapon",
+            "modelPaths": [
+              "models/items/phantom_lancer/infinite_waves_trident_weapon/infinite_waves_trident_weapon.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:item-model:6317:infinite-waves-serpent-weapon:style-1",
+      "itemId": 6317,
+      "name": "Staff of the Infinite Waves - Style 2",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fe739b0394d2/models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fe739b0394d2/models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infinite_waves_trident_weapon-119c1c260ebd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_phantom_lancer/fe739b0394d2/models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon_color_tga_32097743.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl",
+        "modelPaths": [
+          "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Staff of the Infinite Waves Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon",
+            "modelPaths": [
+              "models/items/phantom_lancer/infinite_waves_serpent_weapon/infinite_waves_serpent_weapon.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Staff of the Infinite Waves Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/phantom_lancer/infinite_waves_trident_weapon/infinite_waves_trident_weapon",
+            "modelPaths": [
+              "models/items/phantom_lancer/infinite_waves_trident_weapon/infinite_waves_trident_weapon.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20146:ancestors-pride-set",
+      "name": "Ancestors Pride Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132
+      ],
+      "sourceItemIds": [
+        4855,
+        4856,
+        4857,
+        4858
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/ancestorspride_weapon-81b2a46b67f3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20117:arms-of-the-bramble-lord-set",
+      "name": "Arms of the Bramble Lord Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130
+      ],
+      "sourceItemIds": [
+        4717,
+        4718,
+        4720
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/ancient_gods_belt-d2eacf8c3d6e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:21526:darkwater-dominion",
+      "name": "Darkwater Dominion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        14263,
+        14265,
+        14266,
+        14267,
+        14274
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/army_of_the_vast_sea_head-e9799468b513.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:23800:disquiet-solitude",
+      "name": "Disquiet Solitude",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        23771,
+        23777,
+        23796,
+        23797,
+        23798
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/winning_buddha_loading-fcc5f209c1e6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20469:dreamhack-bucharest-2014-invitational",
+      "name": "DreamHack Bucharest 2014 Invitational",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130
+      ],
+      "sourceItemIds": [
+        6343,
+        6344,
+        6351
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/noble_warrior_armlet-8d979c27f080.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20592:dreamhack-bucharest-2014-invitational-no-contribution",
+      "name": "DreamHack Bucharest 2014 Invitational  No Contribution",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130
+      ],
+      "sourceItemIds": [
+        6343,
+        6344,
+        6351
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/noble_warrior_armlet-8d979c27f080.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:34212:flimflam-felidae",
+      "name": "FlimFlam Felidae",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        36226,
+        36227,
+        36228,
+        36229,
+        36230
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/phantom_lancer_dark_carnival_head-1cac268c6519.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:28231:flock-of-avilliva",
+      "name": "Flock of Avilliva",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        28175,
+        28195,
+        28196,
+        28197,
+        28198
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "taunt",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/phantom_lancer_avilliva_weapon-7f42dcf83552.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:21154:harsh-sojourn",
+      "name": "Harsh Sojourn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        9299,
+        9300,
+        9301,
+        9302,
+        12909
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/hockey_goalie_hockey_goalie_loading_screen-3fa59024d991.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20064:honors-of-the-golden-mane-set",
+      "name": "Honors of the Golden Mane Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132
+      ],
+      "sourceItemIds": [
+        4547,
+        4575,
+        4576,
+        4577
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/belt_sunlit-38f6e8616f4c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20765:humble-drifter",
+      "name": "Humble Drifter",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        637
+      ],
+      "sourceItemIds": [
+        7746,
+        7747,
+        7749,
+        9460
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/vagabond_loading_screen-b0b2219ed6c5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20288:jewels-of-teardrop-ice-set",
+      "name": "Jewels of Teardrop Ice Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130
+      ],
+      "sourceItemIds": [
+        5552,
+        5553,
+        5554
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/armlets_of_elemental_ice-1a025818a6c4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20465:noble-warrior",
+      "name": "Noble Warrior",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130
+      ],
+      "sourceItemIds": [
+        6343,
+        6344,
+        6351
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/noble_warrior_armlet-8d979c27f080.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20565:promo-vengeance-of-the-sunwarrior",
+      "name": "Promo Vengeance of the Sunwarrior",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        6617,
+        6619,
+        6620,
+        6621
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_vengeance_of_the_sunwarrior-1c9b21745dc8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20065:revered-arms-set",
+      "name": "Revered Arms Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132
+      ],
+      "sourceItemIds": [
+        4402,
+        4409,
+        4439,
+        4451
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/arms_kinship-c9471db169aa.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:21707:scales-of-the-shadow-walker",
+      "name": "Scales of the Shadow Walker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        18169,
+        18170,
+        18171,
+        18172,
+        18173
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/anubis_phantom_lancer_arms-fa7dacfd0b83.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20516:vengeance-of-the-sunwarrior",
+      "name": "Vengeance of the Sunwarrior",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        6617,
+        6619,
+        6620,
+        6621
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_vengeance_of_the_sunwarrior-1c9b21745dc8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20540:vestments-of-the-infinite-waves",
+      "name": "Vestments of the Infinite Waves",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132
+      ],
+      "sourceItemIds": [
+        6317,
+        6752,
+        6753,
+        6755
+      ],
+      "styleSelections": {
+        "6317": "0"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_infinite_waves-6a8b1039573f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:20540:vestments-of-the-infinite-waves:style-1",
+      "name": "Vestments of the Infinite Waves - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132
+      ],
+      "sourceItemIds": [
+        6317,
+        6752,
+        6753,
+        6755
+      ],
+      "styleSelections": {
+        "6317": "1"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/infinite_waves_trident_weapon-119c1c260ebd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:22794:winter-lineage-humble-drifter",
+      "name": "Winter Lineage Humble Drifter",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        637
+      ],
+      "sourceItemIds": [
+        22789,
+        22790,
+        22792,
+        22793
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/vagabond_arms1-511b8207f0e0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_phantom_lancer:core-set:21473:wraith-of-the-red-sands",
+      "name": "Wraith of the Red Sands",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        128,
+        129,
+        130,
+        132,
+        637
+      ],
+      "sourceItemIds": [
+        13972,
+        13973,
+        13975,
+        13976,
+        13977
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/rakshasa_weapon-76b5e4bc2e50.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 45044192,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 496
+  }
+}

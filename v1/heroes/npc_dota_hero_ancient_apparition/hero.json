@@ -1,0 +1,1792 @@
+{
+  "heroId": "npc_dota_hero_ancient_apparition",
+  "sourceHeroId": "npc_dota_hero_ancient_apparition",
+  "variantId": "default",
+  "heroName": "Ancient Apparition",
+  "heroSlug": "ancient_apparition",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ancient_apparition.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1d6d31a0c17c/models/heroes/ancient_apparition/ancient_apparition.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 648,
+      "name": "Ancient Apparitions Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3aa76f0c42cc/models/heroes/ancient_apparition/ancient_apparition_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3aa76f0c42cc/models/heroes/ancient_apparition/ancient_apparition_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ancient_apparition/ancient_apparition_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3aa76f0c42cc/models/heroes/ancient_apparition/ancientapparition_armor_color_psd_b1312f0d.png"
+    },
+    {
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "itemId": 652,
+      "name": "Ancient Apparitions Tail",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/de4ee4d8f038/models/heroes/ancient_apparition/ancient_apparition_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/de4ee4d8f038/models/heroes/ancient_apparition/ancient_apparition_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ancient_apparition/ancient_apparition_tail.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/de4ee4d8f038/models/heroes/ancient_apparition/ancientapparition_armor_color_psd_b1312f0d.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14165:extremely-cold-shackles-arms",
+      "itemId": 14165,
+      "name": "Apocalypse Unbound  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/f3b4b8c43623/models/items/ancient_apparition/extremely_cold_shackles_arms/extremely_cold_shackles_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/f3b4b8c43623/models/items/ancient_apparition/extremely_cold_shackles_arms/extremely_cold_shackles_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/extremely_cold_shackles_arms/extremely_cold_shackles_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/extremely_cold_shackles_arms-157516a25fda.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/f3b4b8c43623/models/items/ancient_apparition/extremely_cold_shackles_arms/extremely_cold_shackles_arms_color_png_efe2d737.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/extremely_cold_shackles_arms/extremely_cold_shackles_arms.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/extremely_cold_shackles_arms/extremely_cold_shackles_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_cold_shackles/aa_cold_shackles_arms/aa_cold_shackles_arms.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12570:ancient-apparition-frozen-evil-arms",
+      "itemId": 12570,
+      "name": "Armguards of the Equilibrium",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/9b7e2704bf8d/models/items/ancient_apparition/ancient_apparition_frozen_evil_arms/ancient_apparition_frozen_evil_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/9b7e2704bf8d/models/items/ancient_apparition/ancient_apparition_frozen_evil_arms/ancient_apparition_frozen_evil_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_apparition_frozen_evil_arms/ancient_apparition_frozen_evil_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_apparition_frozen_evil_arms-50aa22b319f6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/9b7e2704bf8d/models/items/ancient_apparition/ancient_apparition_frozen_evil_arms/ancient_apparition_frozen_evil_arms_color_tga_64b09113.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:8714:ancient-prophet-of-ice-arms",
+      "itemId": 8714,
+      "name": "Bindings of the Prophet Foretold",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/062ecf24119b/models/items/ancient_apparition/ancient_prophet_of_ice_arms/ancient_prophet_of_ice_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/062ecf24119b/models/items/ancient_apparition/ancient_prophet_of_ice_arms/ancient_prophet_of_ice_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_prophet_of_ice_arms/ancient_prophet_of_ice_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_prophet_of_ice_arms-a5aacb097e2a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/062ecf24119b/models/items/ancient_apparition/ancient_prophet_of_ice_arms/ancient_prophet_of_ice_arms_color_tga_69aded95.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14887:aa-frozenberserker-arms",
+      "itemId": 14887,
+      "name": "Brumal Berserker Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/6697bfd78b03/models/items/ancient_apparition/aa_frozenberserker_arms/aa_frozenberserker_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/6697bfd78b03/models/items/ancient_apparition/aa_frozenberserker_arms/aa_frozenberserker_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozenberserker_arms/aa_frozenberserker_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozenberserker_arms-879a3119f378.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/6697bfd78b03/models/items/ancient_apparition/aa_frozenberserker_arms/aa_frozenberserker_arms_color_tga_58698927.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:25902:aa-frozen-crown-arms",
+      "itemId": 25902,
+      "name": "Crystalline Crown  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/184106ea93e6/models/items/ancient_apparition/aa_frozen_crown_arms/aa_frozen_crown_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/184106ea93e6/models/items/ancient_apparition/aa_frozen_crown_arms/aa_frozen_crown_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozen_crown_arms/aa_frozen_crown_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozen_crown_arms-874c4a8d03f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/184106ea93e6/models/items/ancient_apparition/aa_frozen_crown_arms/aa_frozen_crown_arms_color_tga_9f90035b.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:35887:aa-cosmic-arms",
+      "itemId": 35887,
+      "name": "Frozen Nova  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/7d5f49c492f4/models/items/ancient_apparition/aa_cosmic/aa_cosmic_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/7d5f49c492f4/models/items/ancient_apparition/aa_cosmic/aa_cosmic_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_cosmic/aa_cosmic_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_cosmic_arms-201c6b9ba261.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/7d5f49c492f4/models/items/ancient_apparition/aa_cosmic/aa_cosmic_arms_color_tga_8a09b344.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:27536:dark-spirit-cuirass-arms",
+      "itemId": 27536,
+      "name": "Gilded Decay  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/2dacaf2225ff/models/items/ancient_apparition/dark_spirit_cuirass_arms/dark_spirit_cuirass_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/2dacaf2225ff/models/items/ancient_apparition/dark_spirit_cuirass_arms/dark_spirit_cuirass_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/dark_spirit_cuirass_arms/dark_spirit_cuirass_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_spirit_cuirass_arms-d78fd708724d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/2dacaf2225ff/models/items/ancient_apparition/dark_spirit_cuirass_arms/dark_spirit_cuirass_arms_color_tga_71aa9da7.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12442:frost-djin-arms",
+      "itemId": 12442,
+      "name": "Secrets of the Frost Singularity  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/cb79083a060a/models/items/ancient_apparition/frost_djin_arms/frost_djin_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/cb79083a060a/models/items/ancient_apparition/frost_djin_arms/frost_djin_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/frost_djin_arms/frost_djin_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frost_djin_arms-2534ed1b8da5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/cb79083a060a/models/items/ancient_apparition/frost_djin_arms/frost_djin_arms_color_psd_b0232fa4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/frost_djin_arms/frost_djin_arms.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/frost_djin_arms/frost_djin_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_frost_djin/aa_frost_djin_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:18510:aa-2021-immortal",
+      "itemId": 18510,
+      "name": "Shatterblast Rule",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/33fe02f4f92e/models/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/33fe02f4f92e/models/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_2021_immortal-87e447f6c5a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/33fe02f4f92e/models/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal_color_tga_bd9703c9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal.vmdl"
+        ],
+        "refitModels": [
+          {
+            "targetModelPath": "models/heroes/ancient_apparition/ancient_apparition_shoulder.vmdl",
+            "modifierModelPath": "models/items/ancient_apparition/aa_2021_immortal/aa_shoulder_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/7e5e6c7ebb7f/models/items/ancient_apparition/aa_2021_immortal/aa_shoulder_2021_refit.glb"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_2021_immortal/aa_2021_immortal_chilling_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ancient_apparition/ancient_apparition_chilling_touch_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30378:mr-frostys-arms",
+      "itemId": 30378,
+      "name": "Silent Wight  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3140329e2aff/models/items/ancient_apparition/mr_frostys_arms/mr_frostys_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3140329e2aff/models/items/ancient_apparition/mr_frostys_arms/mr_frostys_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/mr_frostys_arms/mr_frostys_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mr_frostys_arms-a79d01b4c143.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3140329e2aff/models/items/ancient_apparition/mr_frostys_arms/mr_frostys_arms_color_psd_7ed66c9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/mr_frostys_arms/mr_frostys_arms.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/mr_frostys_arms/mr_frostys_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_frostivus/aa_frostivus_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30994:unchained-entity-claws",
+      "itemId": 30994,
+      "name": "Unchained Entropy  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1c52486ca9a6/models/items/ancient_apparition/unchained_entity_claws/unchained_entity_claws.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1c52486ca9a6/models/items/ancient_apparition/unchained_entity_claws/unchained_entity_claws.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/unchained_entity_claws/unchained_entity_claws.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/unchained_entity_claws-2921b289d230.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1c52486ca9a6/models/items/ancient_apparition/unchained_entity_claws/unchained_entity_claws_color_tga_cace4f9d.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14164:extremely-cold-shackles-head",
+      "itemId": 14164,
+      "name": "Apocalypse Unbound  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/262ef1fcbe15/models/items/ancient_apparition/extremely_cold_shackles_head/extremely_cold_shackles_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/262ef1fcbe15/models/items/ancient_apparition/extremely_cold_shackles_head/extremely_cold_shackles_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/extremely_cold_shackles_head/extremely_cold_shackles_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/extremely_cold_shackles_head-4ba784d02b63.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/262ef1fcbe15/models/items/ancient_apparition/extremely_cold_shackles_head/extremely_cold_shackles_head_color_png_dfacd483.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/extremely_cold_shackles_head/extremely_cold_shackles_head.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/extremely_cold_shackles_head/extremely_cold_shackles_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_cold_shackles/aa_cold_shackles_head/aa_cold_shackles_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14890:aa-frozenberserker-head",
+      "itemId": 14890,
+      "name": "Brumal Berserker Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/d212eec54aba/models/items/ancient_apparition/aa_frozenberserker_head/aa_frozenberserker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/d212eec54aba/models/items/ancient_apparition/aa_frozenberserker_head/aa_frozenberserker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozenberserker_head/aa_frozenberserker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozenberserker_head-4b3eb69fe958.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/d212eec54aba/models/items/ancient_apparition/aa_frozenberserker_head/aa_frozenberserker_head_color_tga_4ecb484e.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:25901:aa-frozen-crown-head",
+      "itemId": 25901,
+      "name": "Crystalline Crown  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/10a4e19ef164/models/items/ancient_apparition/aa_frozen_crown_head/aa_frozen_crown_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/10a4e19ef164/models/items/ancient_apparition/aa_frozen_crown_head/aa_frozen_crown_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozen_crown_head/aa_frozen_crown_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozen_crown_head-9d080aa7ecee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/10a4e19ef164/models/items/ancient_apparition/aa_frozen_crown_head/aa_frozen_crown_head_color_tga_d2761b21.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:35886:aa-cosmic-head",
+      "itemId": 35886,
+      "name": "Frozen Nova  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/95955249aa0b/models/items/ancient_apparition/aa_cosmic/aa_cosmic_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/95955249aa0b/models/items/ancient_apparition/aa_cosmic/aa_cosmic_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_cosmic/aa_cosmic_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_cosmic_head-7fe25237779a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/95955249aa0b/models/items/ancient_apparition/aa_cosmic/aa_cosmic_head_color_tga_6465078e.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:27528:dark-spirit-cuirass-wearable",
+      "itemId": 27528,
+      "name": "Gilded Decay  Wearable",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/c9c72025e0a5/models/items/ancient_apparition/dark_spirit_cuirass_wearable/dark_spirit_cuirass_wearable.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/c9c72025e0a5/models/items/ancient_apparition/dark_spirit_cuirass_wearable/dark_spirit_cuirass_wearable.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/dark_spirit_cuirass_wearable/dark_spirit_cuirass_wearable.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_spirit_cuirass_wearable-3a6ed38954b2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/c9c72025e0a5/models/items/ancient_apparition/dark_spirit_cuirass_wearable/dark_spirit_cuirass_wearable_color_tga_265811da.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12572:ancient-apparition-frozen-evil-head",
+      "itemId": 12572,
+      "name": "Helm of the Equilibrium",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/70f43a6228c7/models/items/ancient_apparition/ancient_apparition_frozen_evil_head/ancient_apparition_frozen_evil_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/70f43a6228c7/models/items/ancient_apparition/ancient_apparition_frozen_evil_head/ancient_apparition_frozen_evil_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_apparition_frozen_evil_head/ancient_apparition_frozen_evil_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_apparition_frozen_evil_head-9e185f4823ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/70f43a6228c7/models/items/ancient_apparition/ancient_apparition_frozen_evil_head/ancient_apparition_frozen_evil_head_color_tga_a5154388.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:8726:ancient-prophet-of-ice-head",
+      "itemId": 8726,
+      "name": "Hood of the Prophet Foretold",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/463547c79081/models/items/ancient_apparition/ancient_prophet_of_ice_head/ancient_prophet_of_ice_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/463547c79081/models/items/ancient_apparition/ancient_prophet_of_ice_head/ancient_prophet_of_ice_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_prophet_of_ice_head/ancient_prophet_of_ice_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_prophet_of_ice_head-979344c090de.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/463547c79081/models/items/ancient_apparition/ancient_prophet_of_ice_head/ancient_prophet_of_ice_head_color_tga_156c9732.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12441:frost-djin-head",
+      "itemId": 12441,
+      "name": "Secrets of the Frost Singularity  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/31f5675dfc1a/models/items/ancient_apparition/frost_djin_head/frost_djin_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/31f5675dfc1a/models/items/ancient_apparition/frost_djin_head/frost_djin_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/frost_djin_head/frost_djin_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frost_djin_head-fb46720eeacb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/31f5675dfc1a/models/items/ancient_apparition/frost_djin_head/frost_djin_head_color_psd_7315501d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/frost_djin_head/frost_djin_head.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/frost_djin_head/frost_djin_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_frost_djin/aa_frost_djin_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:7462:shatterblast-crown",
+      "itemId": 7462,
+      "name": "Shatterblast Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/fb430ada3bfd/models/items/ancient_apparition/shatterblast_crown/shatterblast_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/fb430ada3bfd/models/items/ancient_apparition/shatterblast_crown/shatterblast_crown.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/shatterblast_crown/shatterblast_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shatterblast_crown2-8b64ade017d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/fb430ada3bfd/models/items/ancient_apparition/shatterblast_crown/shatterblast_crown_color_psd_50bdc231.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/shatterblast_crown/shatterblast_crown.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/shatterblast_crown/shatterblast_crown.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_blast_ti_5/aa_ti5_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_blast_ti_5/ancient_apparition_ice_blast_explode_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_blast_ti_5/ancient_apparition_ice_blast_final_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_blast_ti_5/ancient_apparition_ice_blast_initial_explode_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_blast_ti_5/ancient_apparition_ice_blast_initial_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_blast_ti_5/ancient_apparition_ice_blast_marker_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_final.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_initial.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_initial_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_marker.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30380:mr-frostys-evil-hood",
+      "itemId": 30380,
+      "name": "Silent Wight  Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/c40f29384cd6/models/items/ancient_apparition/mr_frostys_evil_hood/mr_frostys_evil_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/c40f29384cd6/models/items/ancient_apparition/mr_frostys_evil_hood/mr_frostys_evil_hood.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/mr_frostys_evil_hood/mr_frostys_evil_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mr_frostys_evil_hood-c4e9e27201f8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/c40f29384cd6/models/items/ancient_apparition/mr_frostys_evil_hood/mr_frostys_evil_hood_color_psd_fe2d024b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/mr_frostys_evil_hood/mr_frostys_evil_hood.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/mr_frostys_evil_hood/mr_frostys_evil_hood.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_frostivus/aa_frostivus_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30997:unchained-entitys-facade",
+      "itemId": 30997,
+      "name": "Unchained Entropy  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1153fa97c762/models/items/ancient_apparition/unchained_entitys_facade/unchained_entitys_facade.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1153fa97c762/models/items/ancient_apparition/unchained_entitys_facade/unchained_entitys_facade.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/unchained_entitys_facade/unchained_entitys_facade.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/unchained_entitys_facade-dd3d3c8316af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1153fa97c762/models/items/ancient_apparition/unchained_entitys_facade/unchained_entitys_facade_color_tga_756b4165.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/unchained_entitys_facade/unchained_entitys_facade.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/unchained_entitys_facade/unchained_entitys_facade.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_2024_unchained_entitys/aa_2024_unchained_entitys_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:648:ancient-apparition-shoulder",
+      "itemId": 648,
+      "name": "Ancient Apparitions Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3aa76f0c42cc/models/heroes/ancient_apparition/ancient_apparition_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3aa76f0c42cc/models/heroes/ancient_apparition/ancient_apparition_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ancient_apparition/ancient_apparition_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_apparition_shoulder-60342ef6f61c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/3aa76f0c42cc/models/heroes/ancient_apparition/ancientapparition_armor_color_psd_b1312f0d.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14163:extremely-cold-shackles-shoulder",
+      "itemId": 14163,
+      "name": "Apocalypse Unbound  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/15a11e960729/models/items/ancient_apparition/extremely_cold_shackles_shoulder/extremely_cold_shackles_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/15a11e960729/models/items/ancient_apparition/extremely_cold_shackles_shoulder/extremely_cold_shackles_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/extremely_cold_shackles_shoulder/extremely_cold_shackles_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/extremely_cold_shackles_shoulder-61a024e6f9b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/15a11e960729/models/items/ancient_apparition/extremely_cold_shackles_shoulder/extremely_cold_shackles_shoulder_color_png_c3c9134.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/extremely_cold_shackles_shoulder/extremely_cold_shackles_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/extremely_cold_shackles_shoulder/extremely_cold_shackles_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_cold_shackles/aa_cold_shackles_shoulder/aa_cold_shackles_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12571:ancient-apparition-frozen-evil-shoulder",
+      "itemId": 12571,
+      "name": "Armor of the Equilibrium",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/89819a2657b4/models/items/ancient_apparition/ancient_apparition_frozen_evil_shoulder/ancient_apparition_frozen_evil_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/89819a2657b4/models/items/ancient_apparition/ancient_apparition_frozen_evil_shoulder/ancient_apparition_frozen_evil_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_apparition_frozen_evil_shoulder/ancient_apparition_frozen_evil_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_apparition_frozen_evil_shoulder-f6901e717686.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/89819a2657b4/models/items/ancient_apparition/ancient_apparition_frozen_evil_shoulder/ancient_apparition_frozen_evil_shoulder_color_tga_75662a23.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14888:aa-frozenberserker-shoulder",
+      "itemId": 14888,
+      "name": "Brumal Berserker Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/5e21e7324359/models/items/ancient_apparition/aa_frozenberserker_shoulder/aa_frozenberserker_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/5e21e7324359/models/items/ancient_apparition/aa_frozenberserker_shoulder/aa_frozenberserker_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozenberserker_shoulder/aa_frozenberserker_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozenberserker_shoulder-481049f7abc7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/5e21e7324359/models/items/ancient_apparition/aa_frozenberserker_shoulder/aa_frozenberserker_shoulder_color_tga_7e04bd80.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:25903:aa-frozen-crown-shoulder",
+      "itemId": 25903,
+      "name": "Crystalline Crown  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a9df7e8c60b0/models/items/ancient_apparition/aa_frozen_crown_shoulder/aa_frozen_crown_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a9df7e8c60b0/models/items/ancient_apparition/aa_frozen_crown_shoulder/aa_frozen_crown_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozen_crown_shoulder/aa_frozen_crown_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozen_crown_shoulder-14773b3e7350.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a9df7e8c60b0/models/items/ancient_apparition/aa_frozen_crown_shoulder/aa_frozen_crown_shoulder_color_tga_6f3b3b14.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:35888:aa-cosmic-shoulders",
+      "itemId": 35888,
+      "name": "Frozen Nova  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/81c6782560ec/models/items/ancient_apparition/aa_cosmic/aa_cosmic_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/81c6782560ec/models/items/ancient_apparition/aa_cosmic/aa_cosmic_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_cosmic/aa_cosmic_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_cosmic_shoulders-cd0e00177a7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/81c6782560ec/models/items/ancient_apparition/aa_cosmic/aa_cosmic_shoulders_color_tga_36b5499f.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:27529:dark-spirit-cuirass-shoulder",
+      "itemId": 27529,
+      "name": "Gilded Decay  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/119944878efd/models/items/ancient_apparition/dark_spirit_cuirass_shoulder/dark_spirit_cuirass_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/119944878efd/models/items/ancient_apparition/dark_spirit_cuirass_shoulder/dark_spirit_cuirass_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/dark_spirit_cuirass_shoulder/dark_spirit_cuirass_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_spirit_cuirass_shoulder-9c711e84d93f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/119944878efd/models/items/ancient_apparition/dark_spirit_cuirass_shoulder/dark_spirit_cuirass_shoulder_color_tga_7c221ce3.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12440:frost-djin-shoulder",
+      "itemId": 12440,
+      "name": "Secrets of the Frost Singularity  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/cda34a8947f9/models/items/ancient_apparition/frost_djin_shoulder/frost_djin_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/cda34a8947f9/models/items/ancient_apparition/frost_djin_shoulder/frost_djin_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/frost_djin_shoulder/frost_djin_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frost_djin_shoulder-5e686ac8989d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/cda34a8947f9/models/items/ancient_apparition/frost_djin_shoulder/frost_djin_shoulder_color_psd_b98e7d49.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:9462:ancient-apparation-ti8",
+      "itemId": 9462,
+      "name": "Shatterblast Core",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/855643d1334c/models/items/ancient_apparition/ancient_apparation_ti8/ancient_apparation_ti8.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/855643d1334c/models/items/ancient_apparition/ancient_apparation_ti8/ancient_apparation_ti8.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_apparation_ti8/ancient_apparation_ti8.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_apparation_ti8-2c2ce78056c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/855643d1334c/models/items/ancient_apparition/ancient_apparation_ti8/ancient_apparation_ti8_color_psd_ccd2abb1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/ancient_apparation_ti8/ancient_apparation_ti8.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/ancient_apparation_ti8/ancient_apparation_ti8.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/ancient_apparation_ti8/ancient_ice_vortex_ti8.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ancient_apparition/ancient_apparation_ti8/ancient_ti8_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ancient_apparition/ancient_ice_vortex.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30381:mr-frostys-evil-scarf",
+      "itemId": 30381,
+      "name": "Silent Wight  Scarf",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/336679fba9da/models/items/ancient_apparition/mr_frostys_evil_scarf/mr_frostys_evil_scarf.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/336679fba9da/models/items/ancient_apparition/mr_frostys_evil_scarf/mr_frostys_evil_scarf.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/mr_frostys_evil_scarf/mr_frostys_evil_scarf.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mr_frostys_evil_scarf-67cfafffa63b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/336679fba9da/models/items/ancient_apparition/mr_frostys_evil_scarf/mr_frostys_evil_scarf_color_psd_7333e8ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/mr_frostys_evil_scarf/mr_frostys_evil_scarf.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/mr_frostys_evil_scarf/mr_frostys_evil_scarf.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_frostivus/aa_frostivus_scarf_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:8713:ancient-prophet-of-ice-shoulder",
+      "itemId": 8713,
+      "name": "Spires of the Prophet Foretold",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/328ef4738eda/models/items/ancient_apparition/ancient_prophet_of_ice_shoulder/ancient_prophet_of_ice_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/328ef4738eda/models/items/ancient_apparition/ancient_prophet_of_ice_shoulder/ancient_prophet_of_ice_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_prophet_of_ice_shoulder/ancient_prophet_of_ice_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_prophet_of_ice_shoulder-306d4f51a8cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/328ef4738eda/models/items/ancient_apparition/ancient_prophet_of_ice_shoulder/ancient_prophet_of_ice_shoulder_color_tga_8bdef96a.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30995:unchained-entity-pauldrons",
+      "itemId": 30995,
+      "name": "Unchained Entropy  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/28a9dfeeebc6/models/items/ancient_apparition/unchained_entity_pauldrons/unchained_entity_pauldrons.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/28a9dfeeebc6/models/items/ancient_apparition/unchained_entity_pauldrons/unchained_entity_pauldrons.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/unchained_entity_pauldrons/unchained_entity_pauldrons.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/unchained_entity_pauldrons-79d55cd349a0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/28a9dfeeebc6/models/items/ancient_apparition/unchained_entity_pauldrons/unchained_entity_pauldrons_color_tga_3dfe9436.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:652:ancient-apparition-tail",
+      "itemId": 652,
+      "name": "Ancient Apparitions Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/de4ee4d8f038/models/heroes/ancient_apparition/ancient_apparition_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/de4ee4d8f038/models/heroes/ancient_apparition/ancient_apparition_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ancient_apparition/ancient_apparition_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_apparition_tail-f37ae937e8e6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/de4ee4d8f038/models/heroes/ancient_apparition/ancientapparition_armor_color_psd_b1312f0d.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14162:extremely-cold-shackles-tail",
+      "itemId": 14162,
+      "name": "Apocalypse Unbound  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/0f15f8605856/models/items/ancient_apparition/extremely_cold_shackles_tail/extremely_cold_shackles_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/0f15f8605856/models/items/ancient_apparition/extremely_cold_shackles_tail/extremely_cold_shackles_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/extremely_cold_shackles_tail/extremely_cold_shackles_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/extremely_cold_shackles_tail-02b84d0feab0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/0f15f8605856/models/items/ancient_apparition/extremely_cold_shackles_tail/extremely_cold_shackles_tail_color_png_d4bec23.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/extremely_cold_shackles_tail/extremely_cold_shackles_tail.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/extremely_cold_shackles_tail/extremely_cold_shackles_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_cold_shackles/aa_cold_shackles_tail/aa_cold_shackles_tail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:14889:aa-frozenberserker-tail",
+      "itemId": 14889,
+      "name": "Brumal Berserker Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a3374297d05a/models/items/ancient_apparition/aa_frozenberserker_tail/aa_frozenberserker_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a3374297d05a/models/items/ancient_apparition/aa_frozenberserker_tail/aa_frozenberserker_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozenberserker_tail/aa_frozenberserker_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozenberserker_tail-3b39ec822ce2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a3374297d05a/models/items/ancient_apparition/aa_frozenberserker_tail/aa_frozenberserker_tail_color_tga_86d67f23.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:25904:aa-frozen-crown-tail",
+      "itemId": 25904,
+      "name": "Crystalline Crown  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/2423c8b82c9b/models/items/ancient_apparition/aa_frozen_crown_tail/aa_frozen_crown_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/2423c8b82c9b/models/items/ancient_apparition/aa_frozen_crown_tail/aa_frozen_crown_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_frozen_crown_tail/aa_frozen_crown_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_frozen_crown_tail-5cf4c740cf0b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/2423c8b82c9b/models/items/ancient_apparition/aa_frozen_crown_tail/aa_frozen_crown_tail_color_tga_81d6f366.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:35889:aa-cosmic-tail",
+      "itemId": 35889,
+      "name": "Frozen Nova  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/f9649a60f271/models/items/ancient_apparition/aa_cosmic/aa_cosmic_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/f9649a60f271/models/items/ancient_apparition/aa_cosmic/aa_cosmic_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/aa_cosmic/aa_cosmic_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aa_cosmic_tail-b15623fa1d59.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/f9649a60f271/models/items/ancient_apparition/aa_cosmic/aa_cosmic_tail_color_tga_38cfcb3.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:7844:ancient-prophet-of-ice-tail",
+      "itemId": 7844,
+      "name": "Garb of the Prophet Foretold",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1c88b6d76186/models/items/ancient_apparition/ancient_prophet_of_ice_tail/ancient_prophet_of_ice_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1c88b6d76186/models/items/ancient_apparition/ancient_prophet_of_ice_tail/ancient_prophet_of_ice_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_prophet_of_ice_tail/ancient_prophet_of_ice_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_prophet_of_ice_tail-bb84370f4ae7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/1c88b6d76186/models/items/ancient_apparition/ancient_prophet_of_ice_tail/ancient_prophet_of_ice_tail_color_tga_87d3cec3.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:27537:dark-spirit-cuirass-tail",
+      "itemId": 27537,
+      "name": "Gilded Decay  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/42ca39f7f275/models/items/ancient_apparition/dark_spirit_cuirass_tail/dark_spirit_cuirass_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/42ca39f7f275/models/items/ancient_apparition/dark_spirit_cuirass_tail/dark_spirit_cuirass_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/dark_spirit_cuirass_tail/dark_spirit_cuirass_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_spirit_cuirass_tail-09b2a57ac3d5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/42ca39f7f275/models/items/ancient_apparition/dark_spirit_cuirass_tail/dark_spirit_cuirass_tail_color_tga_2edd3688.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12439:frost-djin-tail",
+      "itemId": 12439,
+      "name": "Secrets of the Frost Singularity  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a1941977cea3/models/items/ancient_apparition/frost_djin_tail/frost_djin_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a1941977cea3/models/items/ancient_apparition/frost_djin_tail/frost_djin_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/frost_djin_tail/frost_djin_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frost_djin_tail-d6132becf251.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/a1941977cea3/models/items/ancient_apparition/frost_djin_tail/frost_djin_tail_color_psd_9db0e719.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ancient_apparition/frost_djin_tail/frost_djin_tail.vmdl",
+        "modelPaths": [
+          "models/items/ancient_apparition/frost_djin_tail/frost_djin_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ancient_apparition/aa_frost_djin/aa_frost_djin_tail_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30379:mr-frostys-tail",
+      "itemId": 30379,
+      "name": "Silent Wight  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/9af32ade0d39/models/items/ancient_apparition/mr_frostys_tail/mr_frostys_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/9af32ade0d39/models/items/ancient_apparition/mr_frostys_tail/mr_frostys_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/mr_frostys_tail/mr_frostys_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mr_frostys_tail-ad19fb9aadeb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/9af32ade0d39/models/items/ancient_apparition/mr_frostys_tail/mr_frostys_tail_color_png_8acd5f8c.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:12569:ancient-apparition-frozen-evil-tail",
+      "itemId": 12569,
+      "name": "Tail of the Equilibrium",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/027a6c8b8db7/models/items/ancient_apparition/ancient_apparition_frozen_evil_tail/ancient_apparition_frozen_evil_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/027a6c8b8db7/models/items/ancient_apparition/ancient_apparition_frozen_evil_tail/ancient_apparition_frozen_evil_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/ancient_apparition_frozen_evil_tail/ancient_apparition_frozen_evil_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_apparition_frozen_evil_tail-5635c4b27665.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/027a6c8b8db7/models/items/ancient_apparition/ancient_apparition_frozen_evil_tail/ancient_apparition_frozen_evil_tail_color_tga_fa49cd4f.png"
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:item-model:30996:unchained-entitys-heart",
+      "itemId": 30996,
+      "name": "Unchained Entropy  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/71e70d2755fd/models/items/ancient_apparition/unchained_entitys_heart/unchained_entitys_heart.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/71e70d2755fd/models/items/ancient_apparition/unchained_entitys_heart/unchained_entitys_heart.glb"
+      ],
+      "modelPaths": [
+        "models/items/ancient_apparition/unchained_entitys_heart/unchained_entitys_heart.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/unchained_entitys_heart-00aa99a6934f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ancient_apparition/71e70d2755fd/models/items/ancient_apparition/unchained_entitys_heart/unchained_entitys_heart_color_tga_287e5ee2.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:21508:apocalypse-unbound",
+      "name": "Apocalypse Unbound",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        14162,
+        14163,
+        14164,
+        14165
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/extremely_cold_shackles_tail-02b84d0feab0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:21614:brumal-berserker",
+      "name": "Brumal Berserker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        14887,
+        14888,
+        14889,
+        14890
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/aa_frozenberserker_arms-879a3119f378.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:25900:crystalline-crown",
+      "name": "Crystalline Crown",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        25901,
+        25902,
+        25903,
+        25904
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/aa_frozen_crown_head-9d080aa7ecee.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:35890:frozen-nova",
+      "name": "Frozen Nova",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        35886,
+        35887,
+        35888,
+        35889
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/aa_cosmic_head-7fe25237779a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:27527:gilded-decay",
+      "name": "Gilded Decay",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        27528,
+        27529,
+        27536,
+        27537
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/dark_spirit_cuirass_loading_screen-32022507d7ab.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:21261:iris-of-the-equilibrium",
+      "name": "Iris of the Equilibrium",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        12569,
+        12570,
+        12571,
+        12572
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/ancient_apparition_frozen_evil_tail-5635c4b27665.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:21166:mantle-of-the-prophet-foretold",
+      "name": "Mantle of the Prophet Foretold",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        7844,
+        8713,
+        8714,
+        8726
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/ancient_prophet_of_ice_tail-bb84370f4ae7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:21237:secrets-of-the-frost-singularity",
+      "name": "Secrets of the Frost Singularity",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        12439,
+        12440,
+        12441,
+        12442
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/frost_djin_tail-d6132becf251.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:30382:silent-wight",
+      "name": "Silent Wight",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        30378,
+        30379,
+        30380,
+        30381
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/mr_frostys_arms-a79d01b4c143.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ancient_apparition:core-set:31079:unchained-entropy",
+      "name": "Unchained Entropy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        172,
+        648,
+        649,
+        652
+      ],
+      "sourceItemIds": [
+        30994,
+        30995,
+        30996,
+        30997
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/unchained_entity_claws-2921b289d230.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 8344432,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 47
+  }
+}

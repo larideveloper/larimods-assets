@@ -1,0 +1,3642 @@
+{
+  "heroId": "npc_dota_hero_dazzle",
+  "sourceHeroId": "npc_dota_hero_dazzle",
+  "variantId": "default",
+  "heroName": "Dazzle",
+  "heroSlug": "dazzle",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_dazzle/d20563c6e47b/models/heroes/dazzle/dazzle.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 266,
+      "name": "Dazzles Sleeve",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/49675a8eb4a7/models/heroes/dazzle/dazzle_sleeve.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/49675a8eb4a7/models/heroes/dazzle/dazzle_sleeve.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_sleeve.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/49675a8eb4a7/models/heroes/dazzle/dazzle_sleeve_color_psd_3a4a9706.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 263,
+      "name": "Dazzles Mohawk",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/edeab3a856b5/models/heroes/dazzle/dazzle_mohawk.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/edeab3a856b5/models/heroes/dazzle/dazzle_mohawk.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_mohawk.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/edeab3a856b5/models/heroes/dazzle/dazzle_head_color_psd_aa2333e1.png"
+    },
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 265,
+      "name": "Dazzles Skirt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cf8a02b93fa9/models/heroes/dazzle/dazzle_dress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/cf8a02b93fa9/models/heroes/dazzle/dazzle_dress.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_dress.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cf8a02b93fa9/models/heroes/dazzle/dazzle_dress_color_psd_b765fc80.png"
+    },
+    {
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "itemId": 468,
+      "name": "Dazzles Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c392605e16ed/models/heroes/dazzle/dazzle_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/c392605e16ed/models/heroes/dazzle/dazzle_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c392605e16ed/models/heroes/dazzle/dazzle_shoulder_color_psd_62cfc072.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 264,
+      "name": "Dazzles Staff",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cdc07ecf9eda/models/heroes/dazzle/dazzle_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/cdc07ecf9eda/models/heroes/dazzle/dazzle_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_staff.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cdc07ecf9eda/models/heroes/dazzle/dazzle_staff_color_psd_84aeb78.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7501:dotapit-s3-sunshield-arms",
+      "itemId": 7501,
+      "name": "Acolyte Priests Guard",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/6ac316067f05/models/items/dazzle/dotapit_s3_sunshield_arms/dotapit_s3_sunshield_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/6ac316067f05/models/items/dazzle/dotapit_s3_sunshield_arms/dotapit_s3_sunshield_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dotapit_s3_sunshield_arms/dotapit_s3_sunshield_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_sunshield_arms-64d1fe435292.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/6ac316067f05/models/items/dazzle/dotapit_s3_sunshield_arms/dotapit_s3_sunshield_arms_color_tga_2e150d44.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4683:dazzleset-arm",
+      "itemId": 4683,
+      "name": "Ancestral Arm Wrap",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/8d19a13ab26d/models/items/dazzle/dazzleset_arm/dazzleset_arm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/8d19a13ab26d/models/items/dazzle/dazzleset_arm/dazzleset_arm.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzleset_arm/dazzleset_arm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzleset_arm-cfbac3dae796.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/8d19a13ab26d/models/items/dazzle/dazzleset_arm/dazzleset_arm_color_tga_abb3bbb8.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:5879:band-of-summoning",
+      "itemId": 5879,
+      "name": "Band Of Summoning",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/92706e51aae3/models/items/dazzle/band_of_summoning/band_of_summoning.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/92706e51aae3/models/items/dazzle/band_of_summoning/band_of_summoning.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/band_of_summoning/band_of_summoning.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/band_of_summoning-f06207d068f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/92706e51aae3/models/items/dazzle/band_of_summoning/band_of_summoning_color_tga_e5854907.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13471:ti9-cache-dazzle-trapping-of-the-secret-arms",
+      "itemId": 13471,
+      "name": "Bracer of Forbidden Medicine",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/5a5a4a876551/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_arms/ti9_cache_dazzle_trapping_of_the_secret_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/5a5a4a876551/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_arms/ti9_cache_dazzle_trapping_of_the_secret_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_arms/ti9_cache_dazzle_trapping_of_the_secret_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_trapping_of_the_secret_arms-63ba9ce39d51.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/5a5a4a876551/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_arms/ti9_cache_dazzle_trapping_of_the_secret_arms_color_tga_72f2e670.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_arms/ti9_cache_dazzle_trapping_of_the_secret_arms.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_arms/ti9_cache_dazzle_trapping_of_the_secret_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_forbidden/dazzle_ti9_forbidden_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12975:ti9-cavern-crawl-dazzle-arms",
+      "itemId": 12975,
+      "name": "Bracer of Petaluna",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/28fbfeecf1ac/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/28fbfeecf1ac/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_arms-53dbfe35b879.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/28fbfeecf1ac/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms_style_2_color_tga_7ee67b97.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12975:ti9-cavern-crawl-dazzle-arms:style-1",
+      "itemId": 12975,
+      "name": "Bracer of Petaluna - TI9 Cavern Crawl Upgrade",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/28fbfeecf1ac/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/28fbfeecf1ac/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_arms_style1-b5ee7fe8bed3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/28fbfeecf1ac/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms_style_2_color_tga_7ee67b97.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7359:darkclaw-acolyte-arms",
+      "itemId": 7359,
+      "name": "Darkclaw Emissary Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/80cfd011e409/models/items/dazzle/darkclaw_acolyte_arms/darkclaw_acolyte_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/80cfd011e409/models/items/dazzle/darkclaw_acolyte_arms/darkclaw_acolyte_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/darkclaw_acolyte_arms/darkclaw_acolyte_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkclaw_acolyte_arms-a45026c7e518.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/80cfd011e409/models/items/dazzle/darkclaw_acolyte_arms/darkclaw_acolyte_arms_color_tga_2440bd45.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:18335:dazzle-sleeve",
+      "itemId": 18335,
+      "name": "Dazzles Diretide Shimmer Sleeve",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/3ce954b290b4/models/heroes/dazzle/dazzle_sleeve.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/3ce954b290b4/models/heroes/dazzle/dazzle_sleeve.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_sleeve.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_sleeve1-191dd96d0cee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/3ce954b290b4/models/heroes/dazzle/dazzle_sleeve_color_psd_3a4a9706.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:266:dazzle-sleeve",
+      "itemId": 266,
+      "name": "Dazzles Sleeve",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/49675a8eb4a7/models/heroes/dazzle/dazzle_sleeve.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/49675a8eb4a7/models/heroes/dazzle/dazzle_sleeve.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_sleeve.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_sleeve-ef7bb4972e0a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/49675a8eb4a7/models/heroes/dazzle/dazzle_sleeve_color_psd_3a4a9706.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:29230:dazzle-death-venom-arms",
+      "itemId": 29230,
+      "name": "Dezun Viper Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/98860fe51327/models/items/dazzle/dazzle_death_venom_arms/dazzle_death_venom_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/98860fe51327/models/items/dazzle/dazzle_death_venom_arms/dazzle_death_venom_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_death_venom_arms/dazzle_death_venom_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_death_venom_arms-3fc3ce9c080a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/98860fe51327/models/items/dazzle/dazzle_death_venom_arms/dazzle_death_venom_arms_color_tga_6fa4a175.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_death_venom_arms/dazzle_death_venom_arms.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_death_venom_arms/dazzle_death_venom_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_death_venom/dazzle_death_venom_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13019:ti9-cache-dazzle-smoky-dreamer-arms",
+      "itemId": 13019,
+      "name": "Divinations of the Nothl Haze Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/230e0559f72d/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_arms/ti9_cache_dazzle_smoky_dreamer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/230e0559f72d/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_arms/ti9_cache_dazzle_smoky_dreamer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_arms/ti9_cache_dazzle_smoky_dreamer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_smoky_dreamer_arms-b88069716154.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/230e0559f72d/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_arms/ti9_cache_dazzle_smoky_dreamer_arms_color_tga_e799b7e1.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4813:arms-feathery",
+      "itemId": 4813,
+      "name": "Fetish of the Father Spirits",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/42742b4273c0/models/items/dazzle/arms_feathery/arms_feathery.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/42742b4273c0/models/items/dazzle/arms_feathery/arms_feathery.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/arms_feathery/arms_feathery.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_feathery-9a73d391a044.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/42742b4273c0/models/items/dazzle/arms_feathery/arms_feathery_color_tga_7cba83a6.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:22199:ti9-cavern-crawl-dazzle-arms",
+      "itemId": 22199,
+      "name": "Lineage Bracer of Petaluna",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c44d42badb89/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/c44d42badb89/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_arms2-c8939f2d4cd2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c44d42badb89/models/items/dazzle/ti9_cavern_crawl_dazzle_arms/ti9_cavern_crawl_dazzle_arms_style_2_color_tga_7ee67b97.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:25527:dazzle-magic-voodoo-arms",
+      "itemId": 25527,
+      "name": "Needlepoint Necromancer  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/67289187aba1/models/items/dazzle/dazzle_magic_voodoo_arms/dazzle_magic_voodoo_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/67289187aba1/models/items/dazzle/dazzle_magic_voodoo_arms/dazzle_magic_voodoo_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_magic_voodoo_arms/dazzle_magic_voodoo_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_magic_voodoo_arms-465c7f3c763d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/67289187aba1/models/items/dazzle/dazzle_magic_voodoo_arms/dazzle_magic_voodoo_arms_color_png_6940f929.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:6354:shadowflame-arms",
+      "itemId": 6354,
+      "name": "Shadow Flame Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c09eac6ec39a/models/items/dazzle/shadowflame_arms/shadowflame_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/c09eac6ec39a/models/items/dazzle/shadowflame_arms/shadowflame_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/shadowflame_arms/shadowflame_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadowflame_arms-9e3e98361597.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c09eac6ec39a/models/items/dazzle/shadowflame_arms/shadowflame_arms_color_tga_9a8087a7.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7503:dotapit-s3-sunshield-back",
+      "itemId": 7503,
+      "name": "Acolyte Priests Headdress",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a7b8a68cee6f/models/items/dazzle/dotapit_s3_sunshield_back/dotapit_s3_sunshield_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a7b8a68cee6f/models/items/dazzle/dotapit_s3_sunshield_back/dotapit_s3_sunshield_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dotapit_s3_sunshield_back/dotapit_s3_sunshield_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_sunshield_back-9a0ee5b7931f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a7b8a68cee6f/models/items/dazzle/dotapit_s3_sunshield_back/dotapit_s3_sunshield_back_color_tga_9e22dc8e.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4682:dazzleset-back",
+      "itemId": 4682,
+      "name": "Ancestral Cloak",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/dfbff715a446/models/items/dazzle/dazzleset_back/dazzleset_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/dfbff715a446/models/items/dazzle/dazzleset_back/dazzleset_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzleset_back/dazzleset_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzleset_back-4c73c34eac05.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/dfbff715a446/models/items/dazzle/dazzleset_back/dazzleset_back_color_tga_949d540c.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13570:dazzle-ti9-immortal-back",
+      "itemId": 13570,
+      "name": "Crimson Gates of Nothl",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c0faa4a46dcc/models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/c0faa4a46dcc/models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_ti9_immortal_back1-6fe0c1ff561f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c0faa4a46dcc/models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back_color_psd_7ff3adce.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_shadow_wave_crimson_ti9.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_shadow_wave_ti9_crimson_impact_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_shadow_wave_ti9_crimson_impact_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_ti9_immortal_crimson_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shadow_wave.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shadow_wave_impact_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shadow_wave_impact_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13469:ti9-cache-dazzle-trapping-of-the-secret-back",
+      "itemId": 13469,
+      "name": "Crown of Forbidden Medicine",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/fe9500ef1fb7/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_back/ti9_cache_dazzle_trapping_of_the_secret_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/fe9500ef1fb7/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_back/ti9_cache_dazzle_trapping_of_the_secret_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_back/ti9_cache_dazzle_trapping_of_the_secret_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_trapping_of_the_secret_back-72eabd7cf2b7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/fe9500ef1fb7/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_back/ti9_cache_dazzle_trapping_of_the_secret_back_color_tga_233de4ce.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_back/ti9_cache_dazzle_trapping_of_the_secret_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_back/ti9_cache_dazzle_trapping_of_the_secret_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_forbidden/dazzle_ti9_forbidden_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7356:darkclaw-acolyte-back",
+      "itemId": 7356,
+      "name": "Darkclaw Emissary Cowl",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/3ec997789e0e/models/items/dazzle/darkclaw_acolyte_back/darkclaw_acolyte_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/3ec997789e0e/models/items/dazzle/darkclaw_acolyte_back/darkclaw_acolyte_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/darkclaw_acolyte_back/darkclaw_acolyte_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkclaw_acolyte_back-3cfff7460e4f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/3ec997789e0e/models/items/dazzle/darkclaw_acolyte_back/darkclaw_acolyte_back_color_tga_14e0439e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/darkclaw_acolyte_back/darkclaw_acolyte_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/darkclaw_acolyte_back/darkclaw_acolyte_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_darkclaw/dazzle_darkclaw_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:18333:dazzle-mohawk",
+      "itemId": 18333,
+      "name": "Dazzles Diretide Shimmer Mohawk",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/e1609deb58b2/models/heroes/dazzle/dazzle_mohawk.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/e1609deb58b2/models/heroes/dazzle/dazzle_mohawk.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_mohawk.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_mohawk1-67aa0b96daac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/e1609deb58b2/models/heroes/dazzle/dazzle_head_color_psd_aa2333e1.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:263:dazzle-mohawk",
+      "itemId": 263,
+      "name": "Dazzles Mohawk",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/edeab3a856b5/models/heroes/dazzle/dazzle_mohawk.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/edeab3a856b5/models/heroes/dazzle/dazzle_mohawk.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_mohawk.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_mohawk-ae4311317908.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/edeab3a856b5/models/heroes/dazzle/dazzle_head_color_psd_aa2333e1.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:29231:dazzle-death-venom-back",
+      "itemId": 29231,
+      "name": "Dezun Viper Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/691c0954c0f2/models/items/dazzle/dazzle_death_venom_back/dazzle_death_venom_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/691c0954c0f2/models/items/dazzle/dazzle_death_venom_back/dazzle_death_venom_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_death_venom_back/dazzle_death_venom_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_death_venom_back-a66a1c39eaee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/691c0954c0f2/models/items/dazzle/dazzle_death_venom_back/dazzle_death_venom_back_color_tga_53545332.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_death_venom_back/dazzle_death_venom_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_death_venom_back/dazzle_death_venom_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_death_venom/dazzle_death_venom_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13018:ti9-cache-dazzle-smoky-dreamer-back",
+      "itemId": 13018,
+      "name": "Divinations of the Nothl Haze Headdress",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/295dd40b250b/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_back/ti9_cache_dazzle_smoky_dreamer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/295dd40b250b/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_back/ti9_cache_dazzle_smoky_dreamer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_back/ti9_cache_dazzle_smoky_dreamer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_smoky_dreamer_back-bc367b6220ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/295dd40b250b/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_back/ti9_cache_dazzle_smoky_dreamer_back_color_tga_e133d7f5.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:5880:headdress-of-the-yuwipi",
+      "itemId": 5880,
+      "name": "Headdress Of The Yuwipi",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/56ee9a65cdf1/models/items/dazzle/headdress_of_the_yuwipi/headdress_of_the_yuwipi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/56ee9a65cdf1/models/items/dazzle/headdress_of_the_yuwipi/headdress_of_the_yuwipi.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/headdress_of_the_yuwipi/headdress_of_the_yuwipi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/headdress_of_the_yuwipi-f0fc359c2199.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/56ee9a65cdf1/models/items/dazzle/headdress_of_the_yuwipi/headdress_of_the_yuwipi_color_tga_310e92c0.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4811:back-feathery",
+      "itemId": 4811,
+      "name": "Headdress of the Father Spirits",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/4bee7a8f966a/models/items/dazzle/back_feathery/back_feathery.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/4bee7a8f966a/models/items/dazzle/back_feathery/back_feathery.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/back_feathery/back_feathery.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/back_feathery-d3da11e9f132.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/4bee7a8f966a/models/items/dazzle/back_feathery/back_feathery_color_tga_ddc81a85.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:22197:ti9-cavern-crawl-dazzle-head",
+      "itemId": 22197,
+      "name": "Lineage Mask of Petaluna",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/96174d2d9373/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/96174d2d9373/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_head2-00acf0405588.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/96174d2d9373/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_style2_color_tga_841b2869.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti10_legacy_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12973:ti9-cavern-crawl-dazzle-head",
+      "itemId": 12973,
+      "name": "Mask of Petaluna",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/16cc80661a52/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/16cc80661a52/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_head-e356939cbde4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/16cc80661a52/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_style2_color_tga_841b2869.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_lvl1_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_lvl1_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12973:ti9-cavern-crawl-dazzle-head:style-1",
+      "itemId": 12973,
+      "name": "Mask of Petaluna - TI9 Cavern Crawl Upgrade",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/16cc80661a52/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/16cc80661a52/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_head_style1-6a2ef3c1529c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/16cc80661a52/models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_style2_color_tga_841b2869.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_lvl1_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_lvl1_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_head/ti9_cavern_crawl_dazzle_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:25526:dazzle-magic-voodoo-back",
+      "itemId": 25526,
+      "name": "Needlepoint Necromancer  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/dfac6cea544f/models/items/dazzle/dazzle_magic_voodoo_back/dazzle_magic_voodoo_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/dfac6cea544f/models/items/dazzle/dazzle_magic_voodoo_back/dazzle_magic_voodoo_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_magic_voodoo_back/dazzle_magic_voodoo_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_magic_voodoo_back-0af8f93303fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/dfac6cea544f/models/items/dazzle/dazzle_magic_voodoo_back/dazzle_magic_voodoo_back_color_png_b12738bf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_magic_voodoo_back/dazzle_magic_voodoo_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_magic_voodoo_back/dazzle_magic_voodoo_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_cc2024_magic_voodoo/dazzle_cc2024_magic_voodoo_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:6356:shadowflame-back",
+      "itemId": 6356,
+      "name": "Shadow Flame Headdress",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d59765c5d316/models/items/dazzle/shadowflame_back/shadowflame_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/d59765c5d316/models/items/dazzle/shadowflame_back/shadowflame_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadowflame_back-77af696e5d79.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d59765c5d316/models/items/dazzle/shadowflame_back/shadowflame_back_color_tga_4b0197f0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Shadow Flame Back Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/shadowflame_back/shadowflame_back",
+            "modelPaths": [
+              "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Shadow Flame Back Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/shadowflame_back_s1/shadowflame_back_s1",
+            "modelPaths": [
+              "models/items/dazzle/shadowflame_back_s1/shadowflame_back_s1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:6356:shadowflame-back:style-1",
+      "itemId": 6356,
+      "name": "Shadow Flame Headdress - Style 2",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d59765c5d316/models/items/dazzle/shadowflame_back/shadowflame_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/d59765c5d316/models/items/dazzle/shadowflame_back/shadowflame_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadowflame_back_s1-e2ee66519090.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d59765c5d316/models/items/dazzle/shadowflame_back/shadowflame_back_color_tga_4b0197f0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Shadow Flame Back Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/shadowflame_back/shadowflame_back",
+            "modelPaths": [
+              "models/items/dazzle/shadowflame_back/shadowflame_back.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Shadow Flame Back Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/shadowflame_back_s1/shadowflame_back_s1",
+            "modelPaths": [
+              "models/items/dazzle/shadowflame_back_s1/shadowflame_back_s1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12925:dazzle-ti9-immortal-back",
+      "itemId": 12925,
+      "name": "The Gates of Nothl",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/90bc41a91764/models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/90bc41a91764/models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_ti9_immortal_back-73275ea14173.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/90bc41a91764/models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back_color_psd_7ff3adce.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_ti9_immortal_back/dazzle_ti9_immortal_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_shadow_wave_ti9.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_shadow_wave_ti9_impact_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_shadow_wave_ti9_impact_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9/dazzle_ti9_immortal_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shadow_wave.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shadow_wave_impact_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shadow_wave_impact_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7502:dotapit-s3-sunshield-legs",
+      "itemId": 7502,
+      "name": "Acolyte Priests Robes",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/12a23f72fa14/models/items/dazzle/dotapit_s3_sunshield_legs/dotapit_s3_sunshield_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/12a23f72fa14/models/items/dazzle/dotapit_s3_sunshield_legs/dotapit_s3_sunshield_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dotapit_s3_sunshield_legs/dotapit_s3_sunshield_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_sunshield_legs-3bf655c958d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/12a23f72fa14/models/items/dazzle/dotapit_s3_sunshield_legs/dotapit_s3_sunshield_legs_color_tga_e3075f2a.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4684:dazzleset-legs",
+      "itemId": 4684,
+      "name": "Ancestral Dress",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c8ed3906af8b/models/items/dazzle/dazzleset_legs/dazzleset_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/c8ed3906af8b/models/items/dazzle/dazzleset_legs/dazzleset_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzleset_legs/dazzleset_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzleset_legs-2ca46efcb192.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c8ed3906af8b/models/items/dazzle/dazzleset_legs/dazzleset_legs_color_tga_853b7238.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:5881:bonedress-of-the-yuwipi",
+      "itemId": 5881,
+      "name": "Bonedress of the Yuwipi",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/71bd8d13145b/models/items/dazzle/bonedress_of_the_yuwipi/bonedress_of_the_yuwipi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/71bd8d13145b/models/items/dazzle/bonedress_of_the_yuwipi/bonedress_of_the_yuwipi.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/bonedress_of_the_yuwipi/bonedress_of_the_yuwipi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bonedress_of_the_yuwipi-a0769948648f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/71bd8d13145b/models/items/dazzle/bonedress_of_the_yuwipi/bonedress_of_the_yuwipi_color_tga_5dfdc047.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7358:darkclaw-acolyte-legs",
+      "itemId": 7358,
+      "name": "Darkclaw Emissary Dress",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9883a97ec18a/models/items/dazzle/darkclaw_acolyte_legs/darkclaw_acolyte_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/9883a97ec18a/models/items/dazzle/darkclaw_acolyte_legs/darkclaw_acolyte_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/darkclaw_acolyte_legs/darkclaw_acolyte_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkclaw_acolyte_legs-2500cf75dd40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9883a97ec18a/models/items/dazzle/darkclaw_acolyte_legs/darkclaw_acolyte_legs_color_tga_c48bf0e2.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:18332:dazzle-dress",
+      "itemId": 18332,
+      "name": "Dazzles Diretide Shimmer Skirt",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/717e7607fb46/models/heroes/dazzle/dazzle_dress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/717e7607fb46/models/heroes/dazzle/dazzle_dress.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_dress.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_dress1-afde337480d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/717e7607fb46/models/heroes/dazzle/dazzle_dress_color_psd_b765fc80.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:265:dazzle-dress",
+      "itemId": 265,
+      "name": "Dazzles Skirt",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cf8a02b93fa9/models/heroes/dazzle/dazzle_dress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/cf8a02b93fa9/models/heroes/dazzle/dazzle_dress.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_dress.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_dress-1dc488340328.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cf8a02b93fa9/models/heroes/dazzle/dazzle_dress_color_psd_b765fc80.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:29232:dazzle-death-venom-legs",
+      "itemId": 29232,
+      "name": "Dezun Viper Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/8af1fca7d50a/models/items/dazzle/dazzle_death_venom_legs/dazzle_death_venom_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/8af1fca7d50a/models/items/dazzle/dazzle_death_venom_legs/dazzle_death_venom_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_death_venom_legs/dazzle_death_venom_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_death_venom_legs-35db7d6bd7e6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/8af1fca7d50a/models/items/dazzle/dazzle_death_venom_legs/dazzle_death_venom_legs_color_tga_d5899802.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13017:ti9-cache-dazzle-smoky-dreamer-legs",
+      "itemId": 13017,
+      "name": "Divinations of the Nothl Haze Skirt",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9720b877f299/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_legs/ti9_cache_dazzle_smoky_dreamer_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/9720b877f299/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_legs/ti9_cache_dazzle_smoky_dreamer_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_legs/ti9_cache_dazzle_smoky_dreamer_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_smoky_dreamer_legs-f1805b4a88b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9720b877f299/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_legs/ti9_cache_dazzle_smoky_dreamer_legs_color_tga_5c44dee5.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13468:ti9-cache-dazzle-trapping-of-the-secret-legs",
+      "itemId": 13468,
+      "name": "Dress of Forbidden Medicine",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/ac3a89c00ae4/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_legs/ti9_cache_dazzle_trapping_of_the_secret_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/ac3a89c00ae4/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_legs/ti9_cache_dazzle_trapping_of_the_secret_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_legs/ti9_cache_dazzle_trapping_of_the_secret_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_trapping_of_the_secret_legs-aa83683e8ffa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/ac3a89c00ae4/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_legs/ti9_cache_dazzle_trapping_of_the_secret_legs_color_tga_9da8047.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:22200:ti9-cavern-crawl-dazzle-legs",
+      "itemId": 22200,
+      "name": "Lineage Skirt of Petaluna",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/00b88b7f356d/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/00b88b7f356d/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_legs2-15198c17763a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/00b88b7f356d/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs_style_2_color_tga_3f7932bd.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:25528:dazzle-magic-voodoo-legs",
+      "itemId": 25528,
+      "name": "Needlepoint Necromancer  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a15656a9e4dc/models/items/dazzle/dazzle_magic_voodoo_legs/dazzle_magic_voodoo_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a15656a9e4dc/models/items/dazzle/dazzle_magic_voodoo_legs/dazzle_magic_voodoo_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_magic_voodoo_legs/dazzle_magic_voodoo_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_magic_voodoo_legs-ca6c607d38b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a15656a9e4dc/models/items/dazzle/dazzle_magic_voodoo_legs/dazzle_magic_voodoo_legs_color_png_1845b4c4.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4814:skirt-feathery",
+      "itemId": 4814,
+      "name": "Ritual Skirt of the Father Spirits",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/27b8b018b256/models/items/dazzle/skirt_feathery/skirt_feathery.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/27b8b018b256/models/items/dazzle/skirt_feathery/skirt_feathery.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/skirt_feathery/skirt_feathery.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skirt_feathery-bffde8f7fc46.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/27b8b018b256/models/items/dazzle/skirt_feathery/skirt_feathery_color_tga_14bed8cf.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:6353:shadowflame-legs",
+      "itemId": 6353,
+      "name": "Shadow Flame Dress",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/f76912ecd92f/models/items/dazzle/shadowflame_legs/shadowflame_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/f76912ecd92f/models/items/dazzle/shadowflame_legs/shadowflame_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/shadowflame_legs/shadowflame_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadowflame_legs-28b94c551ad8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/f76912ecd92f/models/items/dazzle/shadowflame_legs/shadowflame_legs_color_tga_76e6478.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12976:ti9-cavern-crawl-dazzle-legs",
+      "itemId": 12976,
+      "name": "Skirt of Petaluna",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a0ee592355ff/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a0ee592355ff/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_legs-6b092559168a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a0ee592355ff/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs_style_2_color_tga_3f7932bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12976:ti9-cavern-crawl-dazzle-legs:style-1",
+      "itemId": 12976,
+      "name": "Skirt of Petaluna - TI9 Cavern Crawl Upgrade",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a0ee592355ff/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a0ee592355ff/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_legs_style1-14f9a2300d09.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a0ee592355ff/models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs_style_2_color_tga_3f7932bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_legs/ti9_cavern_crawl_dazzle_legs_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4006:dazzle-bonenecklace",
+      "itemId": 4006,
+      "name": "#DOTA Wearable Dazzle TrolltoothNecklace",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/fa7c2a2a64c1/models/items/dazzle/dazzle_bonenecklace.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/fa7c2a2a64c1/models/items/dazzle/dazzle_bonenecklace.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_bonenecklace.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_bonenecklace-c9f82d86df3a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/fa7c2a2a64c1/models/items/dazzle/dazzle_bonenecklace_color_psd_1ab702ba.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7504:dotapit-s3-sunshield-shoulders",
+      "itemId": 7504,
+      "name": "Acolyte Priests Fur",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d7128ee69eb0/models/items/dazzle/dotapit_s3_sunshield_shoulders/dotapit_s3_sunshield_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/d7128ee69eb0/models/items/dazzle/dotapit_s3_sunshield_shoulders/dotapit_s3_sunshield_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dotapit_s3_sunshield_shoulders/dotapit_s3_sunshield_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_sunshield_shoulders-306f522a8271.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d7128ee69eb0/models/items/dazzle/dotapit_s3_sunshield_shoulders/dotapit_s3_sunshield_shoulders_color_tga_2e81b6ba.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4681:dazzleset-misc",
+      "itemId": 4681,
+      "name": "Ancestral Headdress",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a1568b9d43ae/models/items/dazzle/dazzleset_misc/dazzleset_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a1568b9d43ae/models/items/dazzle/dazzleset_misc/dazzleset_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzleset_misc/dazzleset_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzleset_misc-fdf7074f016b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a1568b9d43ae/models/items/dazzle/dazzleset_misc/dazzleset_misc_color_tga_8559e57f.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7357:darkclaw-acolyte-misc",
+      "itemId": 7357,
+      "name": "Darkclaw Emissary Cloak",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9bfd259963ec/models/items/dazzle/darkclaw_acolyte_misc/darkclaw_acolyte_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/9bfd259963ec/models/items/dazzle/darkclaw_acolyte_misc/darkclaw_acolyte_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/darkclaw_acolyte_misc/darkclaw_acolyte_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkclaw_acolyte_misc-bba0b5fb7fed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9bfd259963ec/models/items/dazzle/darkclaw_acolyte_misc/darkclaw_acolyte_misc_color_tga_3ff9fbd9.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:18334:dazzle-shoulder",
+      "itemId": 18334,
+      "name": "Dazzles Diretide Shimmer Shoulder",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/70c3df6f46b1/models/heroes/dazzle/dazzle_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/70c3df6f46b1/models/heroes/dazzle/dazzle_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_shoulder1-fdf0cc669381.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/70c3df6f46b1/models/heroes/dazzle/dazzle_shoulder_color_psd_62cfc072.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:468:dazzle-shoulder",
+      "itemId": 468,
+      "name": "Dazzles Shoulders",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c392605e16ed/models/heroes/dazzle/dazzle_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/c392605e16ed/models/heroes/dazzle/dazzle_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_shoulder-087866ffb421.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c392605e16ed/models/heroes/dazzle/dazzle_shoulder_color_psd_62cfc072.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:29233:dazzle-death-venom-misc",
+      "itemId": 29233,
+      "name": "Dezun Viper Shoulders",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/01fd245155dc/models/items/dazzle/dazzle_death_venom_misc/dazzle_death_venom_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/01fd245155dc/models/items/dazzle/dazzle_death_venom_misc/dazzle_death_venom_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_death_venom_misc/dazzle_death_venom_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_death_venom_misc-84f57a7b82f5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/01fd245155dc/models/items/dazzle/dazzle_death_venom_misc/dazzle_death_venom_misc_color_tga_585d7445.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_death_venom_misc/dazzle_death_venom_misc.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_death_venom_misc/dazzle_death_venom_misc.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_death_venom/dazzle_death_venom_misc_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13016:ti9-cache-dazzle-smoky-dreamer-misc",
+      "itemId": 13016,
+      "name": "Divinations of the Nothl Haze Stash",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/3ed6ba133925/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_misc/ti9_cache_dazzle_smoky_dreamer_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/3ed6ba133925/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_misc/ti9_cache_dazzle_smoky_dreamer_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_misc/ti9_cache_dazzle_smoky_dreamer_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_smoky_dreamer_misc-da566277c498.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/3ed6ba133925/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_misc/ti9_cache_dazzle_smoky_dreamer_misc_color_tga_57730669.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:8040:dazzle-ti6-immortal",
+      "itemId": 8040,
+      "name": "Golden Nothlic Burden",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/2945a9f7ee4a/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/2945a9f7ee4a/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_ti6_immortal1-7ba10584ebfb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/2945a9f7ee4a/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal_color_psd_6f29eda1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti6_gold/dazzle_ti6_gold_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti6_gold/dazzle_ti6_shallow_grave_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shallow_grave.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:22198:ti9-cavern-crawl-dazzle-shoulders",
+      "itemId": 22198,
+      "name": "Lineage Shoulders of Petaluna",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/7204a5b61faa/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/7204a5b61faa/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_shoulders2-233eed12f6d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/7204a5b61faa/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders_style2_color_tga_7f21e313.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:25529:dazzle-magic-voodoo-misc",
+      "itemId": 25529,
+      "name": "Needlepoint Necromancer  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d01faec6ab3a/models/items/dazzle/dazzle_magic_voodoo_misc/dazzle_magic_voodoo_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/d01faec6ab3a/models/items/dazzle/dazzle_magic_voodoo_misc/dazzle_magic_voodoo_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_magic_voodoo_misc/dazzle_magic_voodoo_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_magic_voodoo_misc-a65eea1dbfff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d01faec6ab3a/models/items/dazzle/dazzle_magic_voodoo_misc/dazzle_magic_voodoo_misc_color_png_a40d996e.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:8016:dazzle-ti6-immortal",
+      "itemId": 8016,
+      "name": "Nothlic Burden",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/b935efea8598/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/b935efea8598/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_ti6_immortal-ca64eb04e3ba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/b935efea8598/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal_color_psd_6f29eda1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti6/dazzle_ti6_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti6/dazzle_ti6_shallow_grave.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shallow_grave.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:8034:dazzle-ti6-immortal",
+      "itemId": 8034,
+      "name": "Nothlic Burden of the Crimson Witness",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "quality:genuine",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/0c374d7ae84e/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/0c374d7ae84e/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_ti6_immortal2-07547979c29d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/0c374d7ae84e/models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal_color_psd_6f29eda1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_ti6_immortal/mesh/dazzle_ti6_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti6/dazzle_ti6_shallow_grave.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti6/dazzle_ti6_witness_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_shallow_grave.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13466:ti9-cache-dazzle-trapping-of-the-secret-misc",
+      "itemId": 13466,
+      "name": "Roots of Forbidden Medicine",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/09baf255862f/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_misc/ti9_cache_dazzle_trapping_of_the_secret_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/09baf255862f/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_misc/ti9_cache_dazzle_trapping_of_the_secret_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_misc/ti9_cache_dazzle_trapping_of_the_secret_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_trapping_of_the_secret_misc-e3bdaa192eef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/09baf255862f/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_misc/ti9_cache_dazzle_trapping_of_the_secret_misc_color_tga_79aaac89.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:6355:shadowflame-misc",
+      "itemId": 6355,
+      "name": "Shadow Flame Guards",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/4e1a8b577b99/models/items/dazzle/shadowflame_misc/shadowflame_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/4e1a8b577b99/models/items/dazzle/shadowflame_misc/shadowflame_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/shadowflame_misc/shadowflame_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadowflame_misc-64b4b034a5bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/4e1a8b577b99/models/items/dazzle/shadowflame_misc/shadowflame_misc_color_tga_1dba9a27.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12974:ti9-cavern-crawl-dazzle-shoulders",
+      "itemId": 12974,
+      "name": "Shoulders of Petaluna",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/38e6649637bf/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/38e6649637bf/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_shoulders-ef247e174993.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/38e6649637bf/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders_style2_color_tga_7f21e313.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_shoulder_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12974:ti9-cavern-crawl-dazzle-shoulders:style-1",
+      "itemId": 12974,
+      "name": "Shoulders of Petaluna - TI9 Cavern Crawl Upgrade",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/38e6649637bf/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/38e6649637bf/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_shoulders_style1-2c3d244edc7f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/38e6649637bf/models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders_style2_color_tga_7f21e313.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_shoulders/ti9_cavern_crawl_dazzle_shoulders_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/dazzle/dazzle_ti9_set/dazzle_ti9_shoulder_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4685:dazzleset-weapon",
+      "itemId": 4685,
+      "name": "Ancestral Medicine Stick",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/487c50afc051/models/items/dazzle/dazzleset_weapon/dazzleset_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/487c50afc051/models/items/dazzle/dazzleset_weapon/dazzleset_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzleset_weapon/dazzleset_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzleset_weapon-05fb2de1e389.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/487c50afc051/models/items/dazzle/dazzleset_weapon/dazzleset_weapon_color_tga_db0789a1.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7361:darkclaw-acolyte-weapon",
+      "itemId": 7361,
+      "name": "Darkclaw Emissary Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/fa727e77b719/models/items/dazzle/darkclaw_acolyte_weapon/darkclaw_acolyte_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/fa727e77b719/models/items/dazzle/darkclaw_acolyte_weapon/darkclaw_acolyte_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/darkclaw_acolyte_weapon/darkclaw_acolyte_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkclaw_acolyte_weapon-c28b28ece1db.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/fa727e77b719/models/items/dazzle/darkclaw_acolyte_weapon/darkclaw_acolyte_weapon_color_psd_f0993f40.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/darkclaw_acolyte_weapon/darkclaw_acolyte_weapon.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/darkclaw_acolyte_weapon/darkclaw_acolyte_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_darkclaw/dazzle_darkclaw_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/dazzle/dazzle_darkclaw/dazzle_darkclaw_poison_touch.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_dazzle/dazzle_poison_touch.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:6359:shadowflame-weapon",
+      "itemId": 6359,
+      "name": "Dazolator",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/1b3b04f5f973/models/items/dazzle/shadowflame_weapon/shadowflame_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/1b3b04f5f973/models/items/dazzle/shadowflame_weapon/shadowflame_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/shadowflame_weapon/shadowflame_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadowflame_weapon-1c12861990b8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/1b3b04f5f973/models/items/dazzle/shadowflame_weapon/shadowflame_weapon_color_tga_349c4a53.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:18336:dazzle-staff",
+      "itemId": 18336,
+      "name": "Dazzles Diretide Shimmer Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c7d93732f44e/models/heroes/dazzle/dazzle_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/c7d93732f44e/models/heroes/dazzle/dazzle_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_staff1-5958fde182cc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/c7d93732f44e/models/heroes/dazzle/dazzle_staff_color_psd_84aeb78.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:264:dazzle-staff",
+      "itemId": 264,
+      "name": "Dazzles Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cdc07ecf9eda/models/heroes/dazzle/dazzle_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/cdc07ecf9eda/models/heroes/dazzle/dazzle_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/dazzle/dazzle_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_staff-a9adac0aed4b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/cdc07ecf9eda/models/heroes/dazzle/dazzle_staff_color_psd_84aeb78.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:29234:dazzle-death-venom-weapon",
+      "itemId": 29234,
+      "name": "Dezun Viper Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/0ea834c742f4/models/items/dazzle/dazzle_death_venom_weapon/dazzle_death_venom_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/0ea834c742f4/models/items/dazzle/dazzle_death_venom_weapon/dazzle_death_venom_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_death_venom_weapon/dazzle_death_venom_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_death_venom_weapon-75096ca0eaf0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/0ea834c742f4/models/items/dazzle/dazzle_death_venom_weapon/dazzle_death_venom_weapon_color_psd_f6e8c794.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_death_venom_weapon/dazzle_death_venom_weapon.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_death_venom_weapon/dazzle_death_venom_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_death_venom/dazzle_death_venom_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13015:ti9-cache-dazzle-smoky-dreamer-weapon",
+      "itemId": 13015,
+      "name": "Divinations of the Nothl Haze Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a2ef53b18051/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_weapon/ti9_cache_dazzle_smoky_dreamer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a2ef53b18051/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_weapon/ti9_cache_dazzle_smoky_dreamer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_weapon/ti9_cache_dazzle_smoky_dreamer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_smoky_dreamer_weapon-1e7860ada6d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a2ef53b18051/models/items/dazzle/ti9_cache_dazzle_smoky_dreamer_weapon/ti9_cache_dazzle_smoky_dreamer_weapon_color_tga_67d985cf.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4674:dazzle-final-graveheart",
+      "itemId": 4674,
+      "name": "Graveheart Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/76493824e615/models/items/dazzle/dazzle_final_graveheart/dazzle_final_graveheart.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/76493824e615/models/items/dazzle/dazzle_final_graveheart/dazzle_final_graveheart.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_final_graveheart/dazzle_final_graveheart.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_final_graveheart-d4b41662ef64.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/76493824e615/models/items/dazzle/dazzle_final_graveheart/dazzle_final_graveheart_color_tga_acbed155.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:4812:weapon-pipe",
+      "itemId": 4812,
+      "name": "Great Pipe of the Father Spirits",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/56ea40b14032/models/items/dazzle/weapon_pipe/weapon_pipe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/56ea40b14032/models/items/dazzle/weapon_pipe/weapon_pipe.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/weapon_pipe/weapon_pipe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_pipe-931977a226b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/56ea40b14032/models/items/dazzle/weapon_pipe/weapon_pipe_color_tga_5d4537b8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/weapon_pipe/weapon_pipe.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/weapon_pipe/weapon_pipe.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_weapon_pipe/dazzle_ambient_pipe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:22201:ti9-cavern-crawl-dazzle-weapon",
+      "itemId": 22201,
+      "name": "Lineage Staff of Petaluna",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/f15edec674bd/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/f15edec674bd/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_weapon2-6278eef8ec22.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/f15edec674bd/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon_style_2_color_tga_6917c81b.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:25530:dazzle-magic-voodoo-weapon",
+      "itemId": 25530,
+      "name": "Needlepoint Necromancer  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/0ddf4ec2e849/models/items/dazzle/dazzle_magic_voodoo_weapon/dazzle_magic_voodoo_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/0ddf4ec2e849/models/items/dazzle/dazzle_magic_voodoo_weapon/dazzle_magic_voodoo_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dazzle_magic_voodoo_weapon/dazzle_magic_voodoo_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dazzle_magic_voodoo_weapon-059d21740c66.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/0ddf4ec2e849/models/items/dazzle/dazzle_magic_voodoo_weapon/dazzle_magic_voodoo_weapon_color_png_6e378b36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/dazzle_magic_voodoo_weapon/dazzle_magic_voodoo_weapon.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/dazzle_magic_voodoo_weapon/dazzle_magic_voodoo_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_cc2024_magic_voodoo/dazzle_cc2024_magic_voodoo_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:13467:ti9-cache-dazzle-trapping-of-the-secret-weapon",
+      "itemId": 13467,
+      "name": "Staff of Forbidden Medicine",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d458de28ae8f/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_weapon/ti9_cache_dazzle_trapping_of_the_secret_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/d458de28ae8f/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_weapon/ti9_cache_dazzle_trapping_of_the_secret_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_weapon/ti9_cache_dazzle_trapping_of_the_secret_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_trapping_of_the_secret_weapon-d839763b3ec0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/d458de28ae8f/models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_weapon/ti9_cache_dazzle_trapping_of_the_secret_weapon_color_tga_2d12e9dc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_weapon/ti9_cache_dazzle_trapping_of_the_secret_weapon.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cache_dazzle_trapping_of_the_secret_weapon/ti9_cache_dazzle_trapping_of_the_secret_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/dazzle/dazzle_ti9_forbidden/dazzle_ti9_forbidden_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12977:ti9-cavern-crawl-dazzle-weapon",
+      "itemId": 12977,
+      "name": "Staff of Petaluna",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a81d516af3a4/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a81d516af3a4/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_weapon-36195fef2303.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a81d516af3a4/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon_style_2_color_tga_6917c81b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:12977:ti9-cavern-crawl-dazzle-weapon:style-1",
+      "itemId": 12977,
+      "name": "Staff of Petaluna - TI9 Cavern Crawl Upgrade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a81d516af3a4/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/a81d516af3a4/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_weapon_style1-df87917fdf0e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/a81d516af3a4/models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon_style_2_color_tga_6917c81b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.vmdl",
+        "modelPaths": [
+          "models/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI9 Cavern Crawl Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI9 Cavern Crawl Upgrade",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/dazzle/ti9_cavern_crawl_dazzle_weapon/ti9_cavern_crawl_dazzle_weapon_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:5882:staff-of-the-yuwipi",
+      "itemId": 5882,
+      "name": "Staff of the Yuwipi",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9c7a06d43e66/models/items/dazzle/staff_of_the_yuwipi/staff_of_the_yuwipi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/9c7a06d43e66/models/items/dazzle/staff_of_the_yuwipi/staff_of_the_yuwipi.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/staff_of_the_yuwipi/staff_of_the_yuwipi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/staff_of_the_yuwipi-92f36806a35f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/9c7a06d43e66/models/items/dazzle/staff_of_the_yuwipi/staff_of_the_yuwipi_color_tga_29dbef8a.png"
+    },
+    {
+      "id": "npc_dota_hero_dazzle:item-model:7505:dotapit-s3-sunshield-weapon",
+      "itemId": 7505,
+      "name": "The Acolyte Priests Bonesaw",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/ed1837c31c8d/models/items/dazzle/dotapit_s3_sunshield_weapon/dotapit_s3_sunshield_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_dazzle/ed1837c31c8d/models/items/dazzle/dotapit_s3_sunshield_weapon/dotapit_s3_sunshield_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/dazzle/dotapit_s3_sunshield_weapon/dotapit_s3_sunshield_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_sunshield_weapon-27e6530dfd8d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_dazzle/ed1837c31c8d/models/items/dazzle/dotapit_s3_sunshield_weapon/dotapit_s3_sunshield_weapon_color_tga_91995a0f.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20098:ancestral-trappings-set",
+      "name": "Ancestral Trappings Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        4681,
+        4682,
+        4683,
+        4684,
+        4685
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/dazzleset_misc-fdf7074f016b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20987:darkclaw-emissary",
+      "name": "Darkclaw Emissary",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        7356,
+        7357,
+        7358,
+        7359,
+        7361
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/darkclaw_acolyte_loading_screen-b28955fb138b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:21791:dazzles-diretide-shimmer-bundle",
+      "name": "Dazzles Diretide Shimmer Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468,
+        740
+      ],
+      "sourceItemIds": [
+        18312,
+        18332,
+        18333,
+        18334,
+        18335,
+        18336
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "costume",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:seasonal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dazzle_dress1-afde337480d0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:21326:delights-of-petaluna",
+      "name": "Delights of Petaluna",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        12973,
+        12974,
+        12975,
+        12976,
+        12977
+      ],
+      "styleSelections": {
+        "12973": "0",
+        "12974": "0",
+        "12975": "0",
+        "12976": "0",
+        "12977": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_style1-3deed90a8718.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:21326:delights-of-petaluna:style-1",
+      "name": "Delights of Petaluna - TI9 Cavern Crawl Upgrade",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        12973,
+        12974,
+        12975,
+        12976,
+        12977
+      ],
+      "styleSelections": {
+        "12973": "1",
+        "12974": "1",
+        "12975": "1",
+        "12976": "1",
+        "12977": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_head_style1-6a2ef3c1529c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:29286:dezun-viper",
+      "name": "Dezun Viper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        29230,
+        29231,
+        29232,
+        29233,
+        29234
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/dazzle_death_venom_arms-3fc3ce9c080a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:21330:divinations-of-the-nothl-haze",
+      "name": "Divinations of the Nothl Haze",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        13015,
+        13016,
+        13017,
+        13018,
+        13019
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_smoky_dreamer_weapon-1e7860ada6d8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:21415:forbidden-medicine",
+      "name": "Forbidden Medicine",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        13466,
+        13467,
+        13468,
+        13469,
+        13471
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_dazzle_trapping_of_the_secret_ls-e4820bf8303f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:22202:lineage-delights-of-petaluna",
+      "name": "Lineage Delights of Petaluna",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        22197,
+        22198,
+        22199,
+        22200,
+        22201
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cavern_crawl_dazzle_head2-00acf0405588.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:25525:needlepoint-necromancer",
+      "name": "Needlepoint Necromancer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        25526,
+        25527,
+        25528,
+        25529,
+        25530
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/dazzle_magic_voodoo_back-0af8f93303fd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20569:promo-shadow-flame",
+      "name": "Promo Shadow Flame",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        6353,
+        6354,
+        6355,
+        6356,
+        6359
+      ],
+      "styleSelections": {
+        "6356": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/shadowflame-f6b33d9de9c2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20569:promo-shadow-flame:style-1",
+      "name": "Promo Shadow Flame - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        6353,
+        6354,
+        6355,
+        6356,
+        6359
+      ],
+      "styleSelections": {
+        "6356": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/shadowflame_back_s1-e2ee66519090.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20723:rite-of-the-acolyte-priest",
+      "name": "Rite of the Acolyte Priest",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        7501,
+        7502,
+        7503,
+        7504,
+        7505
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/dotapit_s3_dazzle-18b9fd199db2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20138:ritual-garb-of-the-father-spirits-set",
+      "name": "Ritual Garb of the Father Spirits Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266
+      ],
+      "sourceItemIds": [
+        4811,
+        4812,
+        4813,
+        4814
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/back_feathery-d3da11e9f132.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20460:shadow-flame",
+      "name": "Shadow Flame",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        6353,
+        6354,
+        6355,
+        6356,
+        6359
+      ],
+      "styleSelections": {
+        "6356": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/shadowflame_legs-28b94c551ad8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20460:shadow-flame:style-1",
+      "name": "Shadow Flame - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266,
+        468
+      ],
+      "sourceItemIds": [
+        6353,
+        6354,
+        6355,
+        6356,
+        6359
+      ],
+      "styleSelections": {
+        "6356": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "misc",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/shadowflame_back_s1-e2ee66519090.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_dazzle:core-set:20352:yuwipi-set",
+      "name": "Yuwipi Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        263,
+        264,
+        265,
+        266
+      ],
+      "sourceItemIds": [
+        5879,
+        5880,
+        5881,
+        5882
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "legs",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/band_of_summoning-f06207d068f0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 45254762,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 437
+  }
+}

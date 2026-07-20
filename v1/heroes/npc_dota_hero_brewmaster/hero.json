@@ -1,0 +1,2783 @@
+{
+  "heroId": "npc_dota_hero_brewmaster",
+  "sourceHeroId": "npc_dota_hero_brewmaster",
+  "variantId": "default",
+  "heroName": "Brewmaster",
+  "heroSlug": "brewmaster",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/brewmaster.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_brewmaster/f01c7d2e0072/models/heroes/brewmaster/brewmaster.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 160,
+      "name": "Brewmasters Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7bc5ff105568/models/heroes/brewmaster/bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/7bc5ff105568/models/heroes/brewmaster/bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/bracer.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7bc5ff105568/models/heroes/brewmaster/bracer_color_psd_116d6d07.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 161,
+      "name": "Brewmasters Backpack",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9a89f05489b8/models/heroes/brewmaster/back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/9a89f05489b8/models/heroes/brewmaster/back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/back.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9a89f05489b8/models/heroes/brewmaster/backpack_color_psd_6cedc92d.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "itemId": 159,
+      "name": "Brewmasters Barrel",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b671b76e1653/models/heroes/brewmaster/barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b671b76e1653/models/heroes/brewmaster/barrel.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/barrel.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b671b76e1653/models/heroes/brewmaster/barrel_color_psd_32445c15.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "itemId": 162,
+      "name": "Brewmasters Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c4dcf4417b92/models/heroes/brewmaster/shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/c4dcf4417b92/models/heroes/brewmaster/shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c4dcf4417b92/models/heroes/brewmaster/brewmaster_armor_color_psd_f3d0b44a.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 158,
+      "name": "Brewmasters Staff",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/11db353034bb/models/heroes/brewmaster/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/11db353034bb/models/heroes/brewmaster/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/11db353034bb/models/heroes/brewmaster/weapon_color_psd_7506589a.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9412:winter-fishmaster-brewmaster-arms",
+      "itemId": 9412,
+      "name": "Arms of the Icebrew Angler",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/15cea6266b49/models/items/brewmaster/winter_fishmaster_brewmaster_arms/winter_fishmaster_brewmaster_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/15cea6266b49/models/items/brewmaster/winter_fishmaster_brewmaster_arms/winter_fishmaster_brewmaster_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/winter_fishmaster_brewmaster_arms/winter_fishmaster_brewmaster_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_fishmaster_brewmaster_arms-bfbd6a3b0d03.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/15cea6266b49/models/items/brewmaster/winter_fishmaster_brewmaster_arms/winter_fishmaster_brewmaster_arms_color_png_4a49645a.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9179:treasures-of-the-east-arms",
+      "itemId": 9179,
+      "name": "Bracers of the Four Corners",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a9c3cc058679/models/items/brewmaster/treasures_of_the_east_arms/treasures_of_the_east_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/a9c3cc058679/models/items/brewmaster/treasures_of_the_east_arms/treasures_of_the_east_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/treasures_of_the_east_arms/treasures_of_the_east_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treasures_of_the_east_arms-a908dd26a316.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a9c3cc058679/models/items/brewmaster/treasures_of_the_east_arms/treasures_of_the_east_arms_color_tga_1c01ce5.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9283:pirate-cannoneer-arms",
+      "itemId": 9283,
+      "name": "Bracers of the Rumrunners Carronade",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/cd71f22ba68e/models/items/brewmaster/pirate_cannoneer_arms/pirate_cannoneer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/cd71f22ba68e/models/items/brewmaster/pirate_cannoneer_arms/pirate_cannoneer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/pirate_cannoneer_arms/pirate_cannoneer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_cannoneer_arms-4864c6b588a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/cd71f22ba68e/models/items/brewmaster/pirate_cannoneer_arms/pirate_cannoneer_arms_color_tga_37b45885.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:7489:honorable-brawler-arms",
+      "itemId": 7489,
+      "name": "Bracers of the Tipsy Brawler",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/928f85fb425d/models/items/brewmaster/honorable_brawler_arms/honorable_brawler_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/928f85fb425d/models/items/brewmaster/honorable_brawler_arms/honorable_brawler_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/honorable_brawler_arms/honorable_brawler_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/honorable_brawler_arms-08784faed816.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/928f85fb425d/models/items/brewmaster/honorable_brawler_arms/honorable_brawler_arms_color_tga_5d201c26.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:160:bracer",
+      "itemId": 160,
+      "name": "Brewmasters Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7bc5ff105568/models/heroes/brewmaster/bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/7bc5ff105568/models/heroes/brewmaster/bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer-3f1673bcf2d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7bc5ff105568/models/heroes/brewmaster/bracer_color_psd_116d6d07.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18048:the-bell-of-seclusion-arms",
+      "itemId": 18048,
+      "name": "Fortified Brew  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/53a10e97a2c6/models/items/brewmaster/the_bell_of_seclusion_arms/the_bell_of_seclusion_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/53a10e97a2c6/models/items/brewmaster/the_bell_of_seclusion_arms/the_bell_of_seclusion_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/the_bell_of_seclusion_arms/the_bell_of_seclusion_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bell_of_seclusion_arms-875c0008b7ac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/53a10e97a2c6/models/items/brewmaster/the_bell_of_seclusion_arms/the_bell_of_seclusion_arms_color_tga_d298b9d6.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9944:ti8-brew-the-tipsy-digger-arms",
+      "itemId": 9944,
+      "name": "Gloves of the Loaded Prospects",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c0107c5244ca/models/items/brewmaster/ti8_brew_the_tipsy_digger_arms/ti8_brew_the_tipsy_digger_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/c0107c5244ca/models/items/brewmaster/ti8_brew_the_tipsy_digger_arms/ti8_brew_the_tipsy_digger_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/ti8_brew_the_tipsy_digger_arms/ti8_brew_the_tipsy_digger_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brew_the_tipsy_digger_arms-75aa345046a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c0107c5244ca/models/items/brewmaster/ti8_brew_the_tipsy_digger_arms/ti8_brew_the_tipsy_digger_arms_color_tga_db04627.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:6967:reddragon-arms",
+      "itemId": 6967,
+      "name": "Red Dragon Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e979bcd80bbe/models/items/brewmaster/reddragon_arms/reddragon_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/e979bcd80bbe/models/items/brewmaster/reddragon_arms/reddragon_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/reddragon_arms/reddragon_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reddragon_arms-bb59a7bb0392.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e979bcd80bbe/models/items/brewmaster/reddragon_arms/reddragon_arms_color_tga_8409464e.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:25533:brewmaster-hujiang-arms",
+      "itemId": 25533,
+      "name": "The Wilding Tiger  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/99a4c87e1868/models/items/brewmaster/brewmaster_hujiang_arms/brewmaster_hujiang_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/99a4c87e1868/models/items/brewmaster/brewmaster_hujiang_arms/brewmaster_hujiang_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brewmaster_hujiang_arms/brewmaster_hujiang_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brewmaster_hujiang_arms-50c011a72254.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/99a4c87e1868/models/items/brewmaster/brewmaster_hujiang_arms/brewmaster_hujiang_arms_color_tga_54c15768.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:14663:brew-jousting-panda-and-donkey-kong-arms",
+      "itemId": 14663,
+      "name": "Vote Only Brew Jousting Panda and Donkey Kong Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/bf7a1324fbee/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_arms/brew_jousting_panda_and_donkey_kong_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/bf7a1324fbee/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_arms/brew_jousting_panda_and_donkey_kong_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brew_jousting_panda_and_donkey_kong_arms/brew_jousting_panda_and_donkey_kong_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brew_jousting_panda_and_donkey_kong_arms-4480ddb31706.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/bf7a1324fbee/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_arms/brew_jousting_panda_and_donkey_kong_arms_color_tga_bd52e0b9.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:19437:traveling-chef-arms",
+      "itemId": 19437,
+      "name": "Vote Only Traveling Chef Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/fdaf02be7742/models/items/brewmaster/traveling_chef_arms/traveling_chef_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/fdaf02be7742/models/items/brewmaster/traveling_chef_arms/traveling_chef_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/traveling_chef_arms/traveling_chef_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/traveling_chef_arms-c0c1f18ab573.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/fdaf02be7742/models/items/brewmaster/traveling_chef_arms/traveling_chef_arms_color_png_1613206e.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4891:gear-brewmaster-gloves-01",
+      "itemId": 4891,
+      "name": "Wraps of the Drunken Warlord",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/3879587742ee/models/items/brewmaster/gear_brewmaster_gloves_01/gear_brewmaster_gloves_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/3879587742ee/models/items/brewmaster/gear_brewmaster_gloves_01/gear_brewmaster_gloves_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gear_brewmaster_gloves_01/gear_brewmaster_gloves_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gear_brewmaster_gloves_01-5d0d2e33fbef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/3879587742ee/models/items/brewmaster/gear_brewmaster_gloves_01/gear_brewmaster_gloves_01_color_tga_65839ae0.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:21996:gifts-of-the-northern-lands-arms",
+      "itemId": 21996,
+      "name": "Wyrmbrew Connoisseur Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b1fe5247a548/models/items/brewmaster/gifts_of_the_northern_lands_arms/gifts_of_the_northern_lands_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b1fe5247a548/models/items/brewmaster/gifts_of_the_northern_lands_arms/gifts_of_the_northern_lands_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gifts_of_the_northern_lands_arms/gifts_of_the_northern_lands_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gifts_of_the_northern_lands_arms-88491120a5ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b1fe5247a548/models/items/brewmaster/gifts_of_the_northern_lands_arms/gifts_of_the_northern_lands_arms_color_tga_9c62b52b.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9414:winter-fishmaster-brewmaster-back",
+      "itemId": 9414,
+      "name": "Auger of the Icebrew Angler",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/2a0bef0abf2d/models/items/brewmaster/winter_fishmaster_brewmaster_back/winter_fishmaster_brewmaster_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/2a0bef0abf2d/models/items/brewmaster/winter_fishmaster_brewmaster_back/winter_fishmaster_brewmaster_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/winter_fishmaster_brewmaster_back/winter_fishmaster_brewmaster_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_fishmaster_brewmaster_back-47f2e8fe059e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/2a0bef0abf2d/models/items/brewmaster/winter_fishmaster_brewmaster_back/winter_fishmaster_brewmaster_back_color_png_365d388c.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18874:coffeemaster-shoulder",
+      "itemId": 18874,
+      "name": "Back of the Morning Brew",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c08af8919359/models/items/brewmaster/coffeemaster_shoulder/coffeemaster_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/c08af8919359/models/items/brewmaster/coffeemaster_shoulder/coffeemaster_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/coffeemaster_shoulder/coffeemaster_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/coffeemaster_shoulder-de5209c1f25b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c08af8919359/models/items/brewmaster/coffeemaster_shoulder/coffeemaster_shoulder_color_tga_e168bba8.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:161:back",
+      "itemId": 161,
+      "name": "Brewmasters Backpack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9a89f05489b8/models/heroes/brewmaster/back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/9a89f05489b8/models/heroes/brewmaster/back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/back-09748eb421a0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9a89f05489b8/models/heroes/brewmaster/backpack_color_psd_6cedc92d.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:7490:honorable-brawler-back",
+      "itemId": 7490,
+      "name": "Cape of the Tipsy Brawler",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9504aa1981c0/models/items/brewmaster/honorable_brawler_back/honorable_brawler_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/9504aa1981c0/models/items/brewmaster/honorable_brawler_back/honorable_brawler_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/honorable_brawler_back/honorable_brawler_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/honorable_brawler_back-258542f4079f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9504aa1981c0/models/items/brewmaster/honorable_brawler_back/honorable_brawler_back_color_tga_ff71d3c0.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9285:pirate-cannoneer-back",
+      "itemId": 9285,
+      "name": "Carriage of the Rumrunners Carronade",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/1bc34bc950ff/models/items/brewmaster/pirate_cannoneer_back/pirate_cannoneer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/1bc34bc950ff/models/items/brewmaster/pirate_cannoneer_back/pirate_cannoneer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/pirate_cannoneer_back/pirate_cannoneer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_cannoneer_back-d6149cd0f9fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/1bc34bc950ff/models/items/brewmaster/pirate_cannoneer_back/pirate_cannoneer_back_color_tga_69696880.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18070:the-bell-of-seclusion-back",
+      "itemId": 18070,
+      "name": "Fortified Brew  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/eafcf20bd7dd/models/items/brewmaster/the_bell_of_seclusion_back/the_bell_of_seclusion_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/eafcf20bd7dd/models/items/brewmaster/the_bell_of_seclusion_back/the_bell_of_seclusion_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/the_bell_of_seclusion_back/the_bell_of_seclusion_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bell_of_seclusion_back-4b91b21f1b9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/eafcf20bd7dd/models/items/brewmaster/the_bell_of_seclusion_back/the_bell_of_seclusion_back_color_tga_bea926bf.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4893:gear-brewmaster-back-01",
+      "itemId": 4893,
+      "name": "Mailed Skirt of the Drunken Warlord",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/93c22670ece5/models/items/brewmaster/gear_brewmaster_back_01/gear_brewmaster_back_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/93c22670ece5/models/items/brewmaster/gear_brewmaster_back_01/gear_brewmaster_back_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gear_brewmaster_back_01/gear_brewmaster_back_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gear_brewmaster_back_01-640b294d83b2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/93c22670ece5/models/items/brewmaster/gear_brewmaster_back_01/gear_brewmaster_back_01_color_tga_d5af1919.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9947:ti8-brew-the-tipsy-digger-back",
+      "itemId": 9947,
+      "name": "Pack of the Loaded Prospects",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/096b4e85eaa3/models/items/brewmaster/ti8_brew_the_tipsy_digger_back/ti8_brew_the_tipsy_digger_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/096b4e85eaa3/models/items/brewmaster/ti8_brew_the_tipsy_digger_back/ti8_brew_the_tipsy_digger_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/ti8_brew_the_tipsy_digger_back/ti8_brew_the_tipsy_digger_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brew_the_tipsy_digger_back-a1a91f3e9f78.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/096b4e85eaa3/models/items/brewmaster/ti8_brew_the_tipsy_digger_back/ti8_brew_the_tipsy_digger_back_color_tga_f22c0ec0.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9181:treasures-of-the-east-back",
+      "itemId": 9181,
+      "name": "Pipe of the Four Corners",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9f766e602f21/models/items/brewmaster/treasures_of_the_east_back/treasures_of_the_east_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/9f766e602f21/models/items/brewmaster/treasures_of_the_east_back/treasures_of_the_east_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/treasures_of_the_east_back/treasures_of_the_east_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treasures_of_the_east_back-9f32a41234d7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9f766e602f21/models/items/brewmaster/treasures_of_the_east_back/treasures_of_the_east_back_color_tga_3772d0e7.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:6966:reddragon-back",
+      "itemId": 6966,
+      "name": "Red Dragon Armor",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b6b7f31febc8/models/items/brewmaster/reddragon_back/reddragon_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b6b7f31febc8/models/items/brewmaster/reddragon_back/reddragon_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/reddragon_back/reddragon_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reddragon_back-697af61982c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b6b7f31febc8/models/items/brewmaster/reddragon_back/reddragon_back_color_tga_5b34d7da.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:25534:brewmaster-hujiang-back",
+      "itemId": 25534,
+      "name": "The Wilding Tiger  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea431359f389/models/items/brewmaster/brewmaster_hujiang_back/brewmaster_hujiang_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea431359f389/models/items/brewmaster/brewmaster_hujiang_back/brewmaster_hujiang_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brewmaster_hujiang_back/brewmaster_hujiang_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brewmaster_hujiang_back-4334510d9e13.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea431359f389/models/items/brewmaster/brewmaster_hujiang_back/brewmaster_hujiang_back_color_tga_23076c16.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:14662:brew-jousting-panda-and-donkey-kong-back",
+      "itemId": 14662,
+      "name": "Vote Only Brew Jousting Panda and Donkey Kong Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b86053fd3a66/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_back/brew_jousting_panda_and_donkey_kong_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b86053fd3a66/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_back/brew_jousting_panda_and_donkey_kong_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brew_jousting_panda_and_donkey_kong_back/brew_jousting_panda_and_donkey_kong_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brew_jousting_panda_and_donkey_kong_back-5e0ca4e29587.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b86053fd3a66/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_back/brew_jousting_panda_and_donkey_kong_back_color_tga_ae1832c.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:19438:traveling-chef-back",
+      "itemId": 19438,
+      "name": "Vote Only Traveling Chef Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ec39f672e885/models/items/brewmaster/traveling_chef_back/traveling_chef_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/ec39f672e885/models/items/brewmaster/traveling_chef_back/traveling_chef_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/traveling_chef_back/traveling_chef_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/traveling_chef_back-10d661636dd7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ec39f672e885/models/items/brewmaster/traveling_chef_back/traveling_chef_back_color_png_688725aa.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:21997:gifts-of-the-northern-lands-back",
+      "itemId": 21997,
+      "name": "Wyrmbrew Connoisseur Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/36166d663c06/models/items/brewmaster/gifts_of_the_northern_lands_back/gifts_of_the_northern_lands_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/36166d663c06/models/items/brewmaster/gifts_of_the_northern_lands_back/gifts_of_the_northern_lands_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gifts_of_the_northern_lands_back/gifts_of_the_northern_lands_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gifts_of_the_northern_lands_back-68004d766989.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/36166d663c06/models/items/brewmaster/gifts_of_the_northern_lands_back/gifts_of_the_northern_lands_back_color_tga_425eedea.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18872:coffeemaster-arms",
+      "itemId": 18872,
+      "name": "Arms of the Morning Brew",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/4cfe30bcb476/models/items/brewmaster/coffeemaster_arms/coffeemaster_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/4cfe30bcb476/models/items/brewmaster/coffeemaster_arms/coffeemaster_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/coffeemaster_arms/coffeemaster_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/coffeemaster_arms-73ddc05771a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/4cfe30bcb476/models/items/brewmaster/coffeemaster_arms/coffeemaster_arms_color_tga_a2069f8c.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9286:pirate-cannoneer-head",
+      "itemId": 9286,
+      "name": "Bandana of the Rumrunners Carronade",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/282046a78a36/models/items/brewmaster/pirate_cannoneer_head/pirate_cannoneer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/282046a78a36/models/items/brewmaster/pirate_cannoneer_head/pirate_cannoneer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/pirate_cannoneer_head/pirate_cannoneer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_cannoneer_head-cc85feee332f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/282046a78a36/models/items/brewmaster/pirate_cannoneer_head/pirate_cannoneer_head_color_tga_d51cc435.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18071:the-bell-of-seclusion-head",
+      "itemId": 18071,
+      "name": "Fortified Brew  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b0dfb35aefa5/models/items/brewmaster/the_bell_of_seclusion_head/the_bell_of_seclusion_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b0dfb35aefa5/models/items/brewmaster/the_bell_of_seclusion_head/the_bell_of_seclusion_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/the_bell_of_seclusion_head/the_bell_of_seclusion_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bell_of_seclusion_head-3591bc04f005.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b0dfb35aefa5/models/items/brewmaster/the_bell_of_seclusion_head/the_bell_of_seclusion_head_color_psd_72dac2d5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/the_bell_of_seclusion_head/the_bell_of_seclusion_head.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/the_bell_of_seclusion_head/the_bell_of_seclusion_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_bell_of_seclusion/brew_master_bell_of_seclusion_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9413:winter-fishmaster-brewmaster-head",
+      "itemId": 9413,
+      "name": "Head of the Icebrew Angler",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/fc3658c8c956/models/items/brewmaster/winter_fishmaster_brewmaster_head/winter_fishmaster_brewmaster_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/fc3658c8c956/models/items/brewmaster/winter_fishmaster_brewmaster_head/winter_fishmaster_brewmaster_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/winter_fishmaster_brewmaster_head/winter_fishmaster_brewmaster_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_fishmaster_brewmaster_head-1a9696286d49.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/fc3658c8c956/models/items/brewmaster/winter_fishmaster_brewmaster_head/winter_fishmaster_brewmaster_head_color_png_d13c98b1.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9946:ti8-brew-the-tipsy-digger-head",
+      "itemId": 9946,
+      "name": "Helmet of the Loaded Prospects",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/8d6d2ec7a70f/models/items/brewmaster/ti8_brew_the_tipsy_digger_head/ti8_brew_the_tipsy_digger_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/8d6d2ec7a70f/models/items/brewmaster/ti8_brew_the_tipsy_digger_head/ti8_brew_the_tipsy_digger_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/ti8_brew_the_tipsy_digger_head/ti8_brew_the_tipsy_digger_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brew_the_tipsy_digger_head-9f5c39c6e0c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/8d6d2ec7a70f/models/items/brewmaster/ti8_brew_the_tipsy_digger_head/ti8_brew_the_tipsy_digger_head_color_tga_9fbf3c9a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/ti8_brew_the_tipsy_digger_head/ti8_brew_the_tipsy_digger_head.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/ti8_brew_the_tipsy_digger_head/ti8_brew_the_tipsy_digger_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_ti8_tipsy_digger/ti8_brewmaster_tipsy_digger_flame_group.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:7495:honorable-brawler-shoulder",
+      "itemId": 7495,
+      "name": "Mane of the Tipsy Brawler",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e2a99b4cc6db/models/items/brewmaster/honorable_brawler_shoulder/honorable_brawler_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/e2a99b4cc6db/models/items/brewmaster/honorable_brawler_shoulder/honorable_brawler_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/honorable_brawler_shoulder/honorable_brawler_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/honorable_brawler_shoulder-0434a00823db.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e2a99b4cc6db/models/items/brewmaster/honorable_brawler_shoulder/honorable_brawler_shoulder_color_tga_eff45832.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:25535:brewmaster-hujiang-head",
+      "itemId": 25535,
+      "name": "The Wilding Tiger  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9372f835a258/models/items/brewmaster/brewmaster_hujiang_head/brewmaster_hujiang_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/9372f835a258/models/items/brewmaster/brewmaster_hujiang_head/brewmaster_hujiang_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brewmaster_hujiang_head/brewmaster_hujiang_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brewmaster_hujiang_head-ab3ade3f451f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/9372f835a258/models/items/brewmaster/brewmaster_hujiang_head/brewmaster_hujiang_head_color_tga_e4d96c33.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/brewmaster_hujiang_head/brewmaster_hujiang_head.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/brewmaster_hujiang_head/brewmaster_hujiang_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_2022_cc/brewmaster_2022_cc_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:14661:brew-jousting-panda-and-donkey-kong-head",
+      "itemId": 14661,
+      "name": "Vote Only Brew Jousting Panda and Donkey Kong Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/06195fcd758f/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_head/brew_jousting_panda_and_donkey_kong_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/06195fcd758f/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_head/brew_jousting_panda_and_donkey_kong_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brew_jousting_panda_and_donkey_kong_head/brew_jousting_panda_and_donkey_kong_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brew_jousting_panda_and_donkey_kong_head-a63374c3beaa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/06195fcd758f/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_head/brew_jousting_panda_and_donkey_kong_head_color_tga_d8e74ca0.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:19439:traveling-chef-head",
+      "itemId": 19439,
+      "name": "Vote Only Traveling Chef Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c351209b76f6/models/items/brewmaster/traveling_chef_head/traveling_chef_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/c351209b76f6/models/items/brewmaster/traveling_chef_head/traveling_chef_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/traveling_chef_head/traveling_chef_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/traveling_chef_head-cd2c6e93a71e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c351209b76f6/models/items/brewmaster/traveling_chef_head/traveling_chef_head_color_png_d96c8e89.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:21995:gifts-of-the-northern-lands-head",
+      "itemId": 21995,
+      "name": "Wyrmbrew Connoisseur Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/89471f9da73c/models/items/brewmaster/gifts_of_the_northern_lands_head/gifts_of_the_northern_lands_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/89471f9da73c/models/items/brewmaster/gifts_of_the_northern_lands_head/gifts_of_the_northern_lands_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gifts_of_the_northern_lands_head/gifts_of_the_northern_lands_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gifts_of_the_northern_lands_head-4b5a5687753b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/89471f9da73c/models/items/brewmaster/gifts_of_the_northern_lands_head/gifts_of_the_northern_lands_head_color_tga_d7474b78.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:7483:honorable-brawler-offhand",
+      "itemId": 7483,
+      "name": "Barrel of the Tipsy Brawler",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea6ae11f84ce/models/items/brewmaster/honorable_brawler_offhand/honorable_brawler_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea6ae11f84ce/models/items/brewmaster/honorable_brawler_offhand/honorable_brawler_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/honorable_brawler_offhand/honorable_brawler_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/honorable_brawler_offhand-fb714c886302.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea6ae11f84ce/models/items/brewmaster/honorable_brawler_offhand/honorable_brawler_offhand_color_tga_3b63d280.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4890:gear-brewmaster-sake-01",
+      "itemId": 4890,
+      "name": "Battlejug of the the Drunken Warlord",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a2d479ad95b3/models/items/brewmaster/gear_brewmaster_sake_01/gear_brewmaster_sake_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/a2d479ad95b3/models/items/brewmaster/gear_brewmaster_sake_01/gear_brewmaster_sake_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gear_brewmaster_sake_01/gear_brewmaster_sake_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gear_brewmaster_sake_01-b8bd119615b2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a2d479ad95b3/models/items/brewmaster/gear_brewmaster_sake_01/gear_brewmaster_sake_01_color_tga_16ca0968.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:159:barrel",
+      "itemId": 159,
+      "name": "Brewmasters Barrel",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b671b76e1653/models/heroes/brewmaster/barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b671b76e1653/models/heroes/brewmaster/barrel.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/barrel.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrel-205c469eb8b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b671b76e1653/models/heroes/brewmaster/barrel_color_psd_32445c15.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9422:winter-fishmaster-brewmaster-off-hand",
+      "itemId": 9422,
+      "name": "Cask of the Icebrew Angler",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/84fc5d7fa002/models/items/brewmaster/winter_fishmaster_brewmaster_off_hand/winter_fishmaster_brewmaster_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/84fc5d7fa002/models/items/brewmaster/winter_fishmaster_brewmaster_off_hand/winter_fishmaster_brewmaster_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/winter_fishmaster_brewmaster_off_hand/winter_fishmaster_brewmaster_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_fishmaster_brewmaster_off_hand-c930c0ad34fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/84fc5d7fa002/models/items/brewmaster/winter_fishmaster_brewmaster_off_hand/winter_fishmaster_brewmaster_off_hand_color_png_eb775367.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9945:ti8-brew-the-tipsy-digger-off-hand",
+      "itemId": 9945,
+      "name": "DrillBarrel of the Loaded Prospects",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/5bb385edd05d/models/items/brewmaster/ti8_brew_the_tipsy_digger_off_hand/ti8_brew_the_tipsy_digger_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/5bb385edd05d/models/items/brewmaster/ti8_brew_the_tipsy_digger_off_hand/ti8_brew_the_tipsy_digger_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/ti8_brew_the_tipsy_digger_off_hand/ti8_brew_the_tipsy_digger_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brew_the_tipsy_digger_off_hand-d3dc8d1215a0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/5bb385edd05d/models/items/brewmaster/ti8_brew_the_tipsy_digger_off_hand/ti8_brew_the_tipsy_digger_off_hand_color_tga_fe6bebea.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:6459:barrel-dragon-1",
+      "itemId": 6459,
+      "name": "Elixir of Dragons Breath",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a65d8807b1be/models/items/brewmaster/barrel_dragon_1/barrel_dragon_1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/a65d8807b1be/models/items/brewmaster/barrel_dragon_1/barrel_dragon_1.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/barrel_dragon_1/barrel_dragon_1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrel_dragon_1-ab689a496908.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a65d8807b1be/models/items/brewmaster/barrel_dragon_1/barrel_dragon_1_color_psd_7ec6fd7a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/barrel_dragon_1/barrel_dragon_1.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/barrel_dragon_1/barrel_dragon_1.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_offhand_elixir/brewmaster_offhand_elixir.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_offhand_elixir/brewmaster_thunder_clap_elixir.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_brewmaster/brewmaster_thunder_clap.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9287:pirate-cannoneer-off-hand",
+      "itemId": 9287,
+      "name": "Fiery keg of the Rumrunners Carronade",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/05bec832b576/models/items/brewmaster/pirate_cannoneer_off_hand/pirate_cannoneer_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/05bec832b576/models/items/brewmaster/pirate_cannoneer_off_hand/pirate_cannoneer_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/pirate_cannoneer_off_hand/pirate_cannoneer_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_cannoneer_off_hand-5a4797796404.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/05bec832b576/models/items/brewmaster/pirate_cannoneer_off_hand/pirate_cannoneer_off_hand_color_tga_4a3c38e.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18072:the-bell-of-seclusion-off-hand",
+      "itemId": 18072,
+      "name": "Fortified Brew  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/076fd5912140/models/items/brewmaster/the_bell_of_seclusion_off_hand/the_bell_of_seclusion_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/076fd5912140/models/items/brewmaster/the_bell_of_seclusion_off_hand/the_bell_of_seclusion_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/the_bell_of_seclusion_off_hand/the_bell_of_seclusion_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bell_of_seclusion_off_hand-c9bea424397f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/076fd5912140/models/items/brewmaster/the_bell_of_seclusion_off_hand/the_bell_of_seclusion_off_hand_color_tga_ebd088d6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/the_bell_of_seclusion_off_hand/the_bell_of_seclusion_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/the_bell_of_seclusion_off_hand/the_bell_of_seclusion_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_bell_of_seclusion/brewmaster_bell_of_seclusion_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18871:coffeemaster-weapon-offhand",
+      "itemId": 18871,
+      "name": "Jug of the Morning Brew",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/1cd3a1965e06/models/items/brewmaster/coffeemaster_weapon_offhand/coffeemaster_weapon_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/1cd3a1965e06/models/items/brewmaster/coffeemaster_weapon_offhand/coffeemaster_weapon_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/coffeemaster_weapon_offhand/coffeemaster_weapon_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/coffeemaster_weapon_offhand-774205cbc509.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/1cd3a1965e06/models/items/brewmaster/coffeemaster_weapon_offhand/coffeemaster_weapon_offhand_color_tga_8c5eec13.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9180:treasures-of-the-east-off-hand",
+      "itemId": 9180,
+      "name": "Keg of the Four Corners",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e1748cc98057/models/items/brewmaster/treasures_of_the_east_off_hand/treasures_of_the_east_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/e1748cc98057/models/items/brewmaster/treasures_of_the_east_off_hand/treasures_of_the_east_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/treasures_of_the_east_off_hand/treasures_of_the_east_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treasures_of_the_east_off_hand-a76eb82709f7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e1748cc98057/models/items/brewmaster/treasures_of_the_east_off_hand/treasures_of_the_east_off_hand_color_tga_1f4f4552.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:6968:reddragon-offhand",
+      "itemId": 6968,
+      "name": "Red Dragon Barrel",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/13353be02fd7/models/items/brewmaster/reddragon_offhand/reddragon_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/13353be02fd7/models/items/brewmaster/reddragon_offhand/reddragon_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/reddragon_offhand/reddragon_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reddragon_offhand-afacce4b5a98.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/13353be02fd7/models/items/brewmaster/reddragon_offhand/reddragon_offhand_color_tga_1129a50e.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4349:spiritual-spirits",
+      "itemId": 4349,
+      "name": "Spiritual Spirits",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/89e976960b33/models/items/brewmaster/spiritual_spirits.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/89e976960b33/models/items/brewmaster/spiritual_spirits.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/spiritual_spirits.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spiritual_spirits-129360cf4842.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/89e976960b33/models/items/brewmaster/spiritual_spirits_color_tga_c08a9e47.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:25538:brewmaster-hujiang-weapon-offhand",
+      "itemId": 25538,
+      "name": "The Wilding Tiger  OffHand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/243bfe32e471/models/items/brewmaster/brewmaster_hujiang_weapon_offhand/brewmaster_hujiang_weapon_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/243bfe32e471/models/items/brewmaster/brewmaster_hujiang_weapon_offhand/brewmaster_hujiang_weapon_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brewmaster_hujiang_weapon_offhand/brewmaster_hujiang_weapon_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brewmaster_hujiang_weapon_offhand-5ae48f346453.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/243bfe32e471/models/items/brewmaster/brewmaster_hujiang_weapon_offhand/brewmaster_hujiang_weapon_offhand_color_tga_dad91117.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4463:offhand-jug",
+      "itemId": 4463,
+      "name": "Travelers Jug",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/38c74789ad76/models/items/brewmaster/offhand_jug/offhand_jug.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/38c74789ad76/models/items/brewmaster/offhand_jug/offhand_jug.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/offhand_jug/offhand_jug.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/offhand_jug-154ed6f772f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/38c74789ad76/models/items/brewmaster/offhand_jug/offhand_jug_color_tga_d0108232.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4356:barrel-vice",
+      "itemId": 4356,
+      "name": "Vice of the West",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a4f78b0041e2/models/items/brewmaster/barrel_vice.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/a4f78b0041e2/models/items/brewmaster/barrel_vice.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/barrel_vice.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrel_vice-74343dcb4997.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a4f78b0041e2/models/items/brewmaster/barrel_vice_color_tga_c9fd7b5c.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:14660:brew-jousting-panda-and-donkey-kong-off-hand",
+      "itemId": 14660,
+      "name": "Vote Only Brew Jousting Panda and Donkey Kong OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ef9ad3ccdc3b/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_off_hand/brew_jousting_panda_and_donkey_kong_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/ef9ad3ccdc3b/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_off_hand/brew_jousting_panda_and_donkey_kong_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brew_jousting_panda_and_donkey_kong_off_hand/brew_jousting_panda_and_donkey_kong_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brew_jousting_panda_and_donkey_kong_off_hand-92c088aea753.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ef9ad3ccdc3b/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_off_hand/brew_jousting_panda_and_donkey_kong_off_hand_color_tga_b50cdc05.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:19440:traveling-chef-off-hand",
+      "itemId": 19440,
+      "name": "Vote Only Traveling Chef OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/639d51ed4a91/models/items/brewmaster/traveling_chef_off_hand/traveling_chef_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/639d51ed4a91/models/items/brewmaster/traveling_chef_off_hand/traveling_chef_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/traveling_chef_off_hand/traveling_chef_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/traveling_chef_off_hand-5b9741f260c5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/639d51ed4a91/models/items/brewmaster/traveling_chef_off_hand/traveling_chef_off_hand_color_png_2401ee27.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:21998:gifts-of-the-northern-lands-off-hand",
+      "itemId": 21998,
+      "name": "Wyrmbrew Connoisseur OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Brewmaster Barrel",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/04ec0978aef1/models/items/brewmaster/gifts_of_the_northern_lands_off_hand/gifts_of_the_northern_lands_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/04ec0978aef1/models/items/brewmaster/gifts_of_the_northern_lands_off_hand/gifts_of_the_northern_lands_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gifts_of_the_northern_lands_off_hand/gifts_of_the_northern_lands_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gifts_of_the_northern_lands_off_hand-39d36aecd66b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/04ec0978aef1/models/items/brewmaster/gifts_of_the_northern_lands_off_hand/gifts_of_the_northern_lands_off_hand_color_tga_be33d651.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9949:ti8-brew-the-tipsy-digger-shoulder",
+      "itemId": 9949,
+      "name": "Apron of the Loaded Prospects",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/caa4b52b1ccf/models/items/brewmaster/ti8_brew_the_tipsy_digger_shoulder/ti8_brew_the_tipsy_digger_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/caa4b52b1ccf/models/items/brewmaster/ti8_brew_the_tipsy_digger_shoulder/ti8_brew_the_tipsy_digger_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/ti8_brew_the_tipsy_digger_shoulder/ti8_brew_the_tipsy_digger_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brew_the_tipsy_digger_shoulder-f41b32a945cd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/caa4b52b1ccf/models/items/brewmaster/ti8_brew_the_tipsy_digger_shoulder/ti8_brew_the_tipsy_digger_shoulder_color_tga_86a723b8.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:162:shoulder",
+      "itemId": 162,
+      "name": "Brewmasters Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c4dcf4417b92/models/heroes/brewmaster/shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/c4dcf4417b92/models/heroes/brewmaster/shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder-d81a48b5bd6b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c4dcf4417b92/models/heroes/brewmaster/brewmaster_armor_color_psd_f3d0b44a.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18073:the-bell-of-seclusion-shoulder",
+      "itemId": 18073,
+      "name": "Fortified Brew  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/933352be7036/models/items/brewmaster/the_bell_of_seclusion_shoulder/the_bell_of_seclusion_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/933352be7036/models/items/brewmaster/the_bell_of_seclusion_shoulder/the_bell_of_seclusion_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/the_bell_of_seclusion_shoulder/the_bell_of_seclusion_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bell_of_seclusion_shoulder-5dfc0296afe0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/933352be7036/models/items/brewmaster/the_bell_of_seclusion_shoulder/the_bell_of_seclusion_shoulder_color_psd_9e95d5d5.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9411:winter-fishmaster-brewmaster-shoulder",
+      "itemId": 9411,
+      "name": "Garb of the Icebrew Angler",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/09d2dd974445/models/items/brewmaster/winter_fishmaster_brewmaster_shoulder/winter_fishmaster_brewmaster_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/09d2dd974445/models/items/brewmaster/winter_fishmaster_brewmaster_shoulder/winter_fishmaster_brewmaster_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/winter_fishmaster_brewmaster_shoulder/winter_fishmaster_brewmaster_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_fishmaster_brewmaster_shoulder-d77991e7fa50.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/09d2dd974445/models/items/brewmaster/winter_fishmaster_brewmaster_shoulder/winter_fishmaster_brewmaster_shoulder_color_png_4833db92.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4892:gear-brewmaster-shoulder-01",
+      "itemId": 4892,
+      "name": "Guard of the Drunken Warlord",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/019a129418ef/models/items/brewmaster/gear_brewmaster_shoulder_01/gear_brewmaster_shoulder_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/019a129418ef/models/items/brewmaster/gear_brewmaster_shoulder_01/gear_brewmaster_shoulder_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gear_brewmaster_shoulder_01/gear_brewmaster_shoulder_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gear_brewmaster_shoulder_01-64795700f675.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/019a129418ef/models/items/brewmaster/gear_brewmaster_shoulder_01/brewmaster_armor_color_psd_f3d0b44a.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9182:treasures-of-the-east-shoulder",
+      "itemId": 9182,
+      "name": "Pauldron of the Four Corners",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/f3aff59ab157/models/items/brewmaster/treasures_of_the_east_shoulder/treasures_of_the_east_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/f3aff59ab157/models/items/brewmaster/treasures_of_the_east_shoulder/treasures_of_the_east_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/treasures_of_the_east_shoulder/treasures_of_the_east_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treasures_of_the_east_shoulder-c6ac5b98120c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/f3aff59ab157/models/items/brewmaster/treasures_of_the_east_shoulder/treasures_of_the_east_shoulder_color_tga_195d924d.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:5641:reddragon-shoulder",
+      "itemId": 5641,
+      "name": "Red Dragon Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/650797b77582/models/items/brewmaster/reddragon_shoulder/reddragon_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/650797b77582/models/items/brewmaster/reddragon_shoulder/reddragon_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/reddragon_shoulder/reddragon_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reddragon_shoulder-ee37e73aaf8e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/650797b77582/models/items/brewmaster/reddragon_shoulder/reddragon_shoulder_color_psd_7bbca24d.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9279:pirate-cannoneer-shoulder",
+      "itemId": 9279,
+      "name": "Sash of the Rumrunners Carronade",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a48a1ae6b3b0/models/items/brewmaster/pirate_cannoneer_shoulder/pirate_cannoneer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/a48a1ae6b3b0/models/items/brewmaster/pirate_cannoneer_shoulder/pirate_cannoneer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/pirate_cannoneer_shoulder/pirate_cannoneer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_cannoneer_shoulder-38bbbfe28fb6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a48a1ae6b3b0/models/items/brewmaster/pirate_cannoneer_shoulder/pirate_cannoneer_shoulder_color_tga_dacfd90a.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:25536:brewmaster-hujiang-shoulders",
+      "itemId": 25536,
+      "name": "The Wilding Tiger  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e1da19dac72f/models/items/brewmaster/brewmaster_hujiang_shoulders/brewmaster_hujiang_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/e1da19dac72f/models/items/brewmaster/brewmaster_hujiang_shoulders/brewmaster_hujiang_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brewmaster_hujiang_shoulders/brewmaster_hujiang_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brewmaster_hujiang_shoulders-1f79318257f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/e1da19dac72f/models/items/brewmaster/brewmaster_hujiang_shoulders/brewmaster_hujiang_shoulders_color_tga_432c32fe.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/brewmaster_hujiang_shoulders/brewmaster_hujiang_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/brewmaster_hujiang_shoulders/brewmaster_hujiang_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_2022_cc/brewmaster_2022_cc_shoulders_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:14659:brew-jousting-panda-and-donkey-kong-shoulder",
+      "itemId": 14659,
+      "name": "Vote Only Brew Jousting Panda and Donkey Kong Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/65c3053145dd/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_shoulder/brew_jousting_panda_and_donkey_kong_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/65c3053145dd/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_shoulder/brew_jousting_panda_and_donkey_kong_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brew_jousting_panda_and_donkey_kong_shoulder/brew_jousting_panda_and_donkey_kong_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brew_jousting_panda_and_donkey_kong_shoulder-93896902318b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/65c3053145dd/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_shoulder/brew_jousting_panda_and_donkey_kong_shoulder_color_tga_9a35a1b6.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:19441:traveling-chef-shoulder",
+      "itemId": 19441,
+      "name": "Vote Only Traveling Chef Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/111b0e3d00ab/models/items/brewmaster/traveling_chef_shoulder/traveling_chef_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/111b0e3d00ab/models/items/brewmaster/traveling_chef_shoulder/traveling_chef_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/traveling_chef_shoulder/traveling_chef_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/traveling_chef_shoulder-47bffaef1221.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/111b0e3d00ab/models/items/brewmaster/traveling_chef_shoulder/traveling_chef_shoulder_color_png_5731ad2d.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:21999:gifts-of-the-northern-lands-shoulder",
+      "itemId": 21999,
+      "name": "Wyrmbrew Connoisseur Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Brewmaster Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/8f65a0d18efd/models/items/brewmaster/gifts_of_the_northern_lands_shoulder/gifts_of_the_northern_lands_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/8f65a0d18efd/models/items/brewmaster/gifts_of_the_northern_lands_shoulder/gifts_of_the_northern_lands_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gifts_of_the_northern_lands_shoulder/gifts_of_the_northern_lands_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gifts_of_the_northern_lands_shoulder-576aadb74463.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/8f65a0d18efd/models/items/brewmaster/gifts_of_the_northern_lands_shoulder/gifts_of_the_northern_lands_shoulder_color_tga_9b349afd.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:158:weapon",
+      "itemId": 158,
+      "name": "Brewmasters Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/11db353034bb/models/heroes/brewmaster/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/11db353034bb/models/heroes/brewmaster/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/brewmaster/weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon-311913825c2c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/11db353034bb/models/heroes/brewmaster/weapon_color_psd_7506589a.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9278:pirate-cannoneer-weapon",
+      "itemId": 9278,
+      "name": "Culverin of the Rumrunners Carronade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b42aa5ec1bb1/models/items/brewmaster/pirate_cannoneer_weapon/pirate_cannoneer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b42aa5ec1bb1/models/items/brewmaster/pirate_cannoneer_weapon/pirate_cannoneer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/pirate_cannoneer_weapon/pirate_cannoneer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_cannoneer_weapon-a28e7e526cb8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b42aa5ec1bb1/models/items/brewmaster/pirate_cannoneer_weapon/pirate_cannoneer_weapon_color_tga_a0c3d31c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/pirate_cannoneer_weapon/pirate_cannoneer_weapon.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/pirate_cannoneer_weapon/pirate_cannoneer_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_pirate_cannon/brewmaster_pirate_cannon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:6630:caskflail-weapon",
+      "itemId": 6630,
+      "name": "Flail of the Drunken Cask",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/8d0bc06825c2/models/items/brewmaster/caskflail_weapon/caskflail_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/8d0bc06825c2/models/items/brewmaster/caskflail_weapon/caskflail_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/caskflail_weapon/caskflail_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/caskflail_weapon-2ee4d3fa14df.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/8d0bc06825c2/models/items/brewmaster/caskflail_weapon/caskflail_weapon_color_tga_b797da6a.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18074:the-bell-of-seclusion-weapon",
+      "itemId": 18074,
+      "name": "Fortified Brew  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/49ed5811637f/models/items/brewmaster/the_bell_of_seclusion_weapon/the_bell_of_seclusion_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/49ed5811637f/models/items/brewmaster/the_bell_of_seclusion_weapon/the_bell_of_seclusion_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/the_bell_of_seclusion_weapon/the_bell_of_seclusion_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bell_of_seclusion_weapon-44b275984c7d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/49ed5811637f/models/items/brewmaster/the_bell_of_seclusion_weapon/the_bell_of_seclusion_weapon_color_psd_68492e99.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/the_bell_of_seclusion_weapon/the_bell_of_seclusion_weapon.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/the_bell_of_seclusion_weapon/the_bell_of_seclusion_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_bell_of_seclusion/brewmaster_bell_of_seclusion_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:6703:caskflail-weapon",
+      "itemId": 6703,
+      "name": "Genuine Flail of the Drunken Cask",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a2deb6b01ae7/models/items/brewmaster/caskflail_weapon/caskflail_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/a2deb6b01ae7/models/items/brewmaster/caskflail_weapon/caskflail_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/caskflail_weapon/caskflail_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/caskflail_weapon-2ee4d3fa14df.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a2deb6b01ae7/models/items/brewmaster/caskflail_weapon/caskflail_weapon_color_tga_b797da6a.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:7482:honorable-brawler-weapon",
+      "itemId": 7482,
+      "name": "Hammer of the Tipsy Brawler",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c46a59a7e322/models/items/brewmaster/honorable_brawler_weapon/honorable_brawler_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/c46a59a7e322/models/items/brewmaster/honorable_brawler_weapon/honorable_brawler_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/honorable_brawler_weapon/honorable_brawler_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/honorable_brawler_weapon-d356db004c7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/c46a59a7e322/models/items/brewmaster/honorable_brawler_weapon/honorable_brawler_weapon_color_tga_2b920e70.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9948:ti8-brew-the-tipsy-digger-weapon",
+      "itemId": 9948,
+      "name": "Lantern of the Loaded Prospects",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/484fa57e790b/models/items/brewmaster/ti8_brew_the_tipsy_digger_weapon/ti8_brew_the_tipsy_digger_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/484fa57e790b/models/items/brewmaster/ti8_brew_the_tipsy_digger_weapon/ti8_brew_the_tipsy_digger_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/ti8_brew_the_tipsy_digger_weapon/ti8_brew_the_tipsy_digger_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brew_the_tipsy_digger_weapon-c8b1eded7111.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/484fa57e790b/models/items/brewmaster/ti8_brew_the_tipsy_digger_weapon/ti8_brew_the_tipsy_digger_weapon_color_tga_a1cd6d0f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/ti8_brew_the_tipsy_digger_weapon/ti8_brew_the_tipsy_digger_weapon.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/ti8_brew_the_tipsy_digger_weapon/ti8_brew_the_tipsy_digger_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_ti8_tipsy_digger/ti8_brewmaster_tipsy_digger_flame_lamp_group.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:6969:reddragon-weapon",
+      "itemId": 6969,
+      "name": "Red Dragon Mace",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b6cff4c1200e/models/items/brewmaster/reddragon_weapon/reddragon_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/b6cff4c1200e/models/items/brewmaster/reddragon_weapon/reddragon_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/reddragon_weapon/reddragon_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reddragon_weapon-329acb9a44dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/b6cff4c1200e/models/items/brewmaster/reddragon_weapon/reddragon_weapon_color_tga_8ccc13a0.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9421:winter-fishmaster-brewmaster-weapon",
+      "itemId": 9421,
+      "name": "Reel of the Icebrew Angler",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/d3e074546fc6/models/items/brewmaster/winter_fishmaster_brewmaster_weapon/winter_fishmaster_brewmaster_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/d3e074546fc6/models/items/brewmaster/winter_fishmaster_brewmaster_weapon/winter_fishmaster_brewmaster_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/winter_fishmaster_brewmaster_weapon/winter_fishmaster_brewmaster_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_fishmaster_brewmaster_weapon-a857c4a5af9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/d3e074546fc6/models/items/brewmaster/winter_fishmaster_brewmaster_weapon/winter_fishmaster_brewmaster_weapon_color_png_ad7c3964.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:9178:treasures-of-the-east-weapon",
+      "itemId": 9178,
+      "name": "Staff of the Four Corners",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7abd7725cc5c/models/items/brewmaster/treasures_of_the_east_weapon/treasures_of_the_east_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/7abd7725cc5c/models/items/brewmaster/treasures_of_the_east_weapon/treasures_of_the_east_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/treasures_of_the_east_weapon/treasures_of_the_east_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treasures_of_the_east_weapon-75c745fd379c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7abd7725cc5c/models/items/brewmaster/treasures_of_the_east_weapon/treasures_of_the_east_weapon_color_tga_ee103492.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:25537:brewmaster-hujiang-weapon",
+      "itemId": 25537,
+      "name": "The Wilding Tiger  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/815a7a5f85b8/models/items/brewmaster/brewmaster_hujiang_weapon/brewmaster_hujiang_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/815a7a5f85b8/models/items/brewmaster/brewmaster_hujiang_weapon/brewmaster_hujiang_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brewmaster_hujiang_weapon/brewmaster_hujiang_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brewmaster_hujiang_weapon-666e59aee377.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/815a7a5f85b8/models/items/brewmaster/brewmaster_hujiang_weapon/brewmaster_hujiang_weapon_color_tga_24655105.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/brewmaster/brewmaster_hujiang_weapon/brewmaster_hujiang_weapon.vmdl",
+        "modelPaths": [
+          "models/items/brewmaster/brewmaster_hujiang_weapon/brewmaster_hujiang_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/brewmaster/brewmaster_2022_cc/brewmaster_2022_cc_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:14658:brew-jousting-panda-and-donkey-kong-weapon",
+      "itemId": 14658,
+      "name": "Vote Only Brew Jousting Panda and Donkey Kong Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7c97db17c988/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_weapon/brew_jousting_panda_and_donkey_kong_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/7c97db17c988/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_weapon/brew_jousting_panda_and_donkey_kong_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/brew_jousting_panda_and_donkey_kong_weapon/brew_jousting_panda_and_donkey_kong_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/brew_jousting_panda_and_donkey_kong_weapon-eb85a1ebdbb8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/7c97db17c988/models/items/brewmaster/brew_jousting_panda_and_donkey_kong_weapon/brew_jousting_panda_and_donkey_kong_weapon_color_tga_5a026a91.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:19442:traveling-chef-weapon",
+      "itemId": 19442,
+      "name": "Vote Only Traveling Chef Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/cea13c1f34b4/models/items/brewmaster/traveling_chef_weapon/traveling_chef_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/cea13c1f34b4/models/items/brewmaster/traveling_chef_weapon/traveling_chef_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/traveling_chef_weapon/traveling_chef_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/traveling_chef_weapon-6830c1723f49.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/cea13c1f34b4/models/items/brewmaster/traveling_chef_weapon/traveling_chef_weapon_color_png_211844ef.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:18870:coffeemaster-weapon",
+      "itemId": 18870,
+      "name": "Weapon of the Morning Brew",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a0952d97eb6e/models/items/brewmaster/coffeemaster_weapon/coffeemaster_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/a0952d97eb6e/models/items/brewmaster/coffeemaster_weapon/coffeemaster_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/coffeemaster_weapon/coffeemaster_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/coffeemaster_weapon-5f04aac285a2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/a0952d97eb6e/models/items/brewmaster/coffeemaster_weapon/coffeemaster_weapon_color_tga_69380fa2.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:4894:wep-brewmaster-cleaver-01",
+      "itemId": 4894,
+      "name": "Words of the Drunken Warlord",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea76d29183a3/models/items/brewmaster/wep_brewmaster_cleaver_01/wep_brewmaster_cleaver_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea76d29183a3/models/items/brewmaster/wep_brewmaster_cleaver_01/wep_brewmaster_cleaver_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/wep_brewmaster_cleaver_01/wep_brewmaster_cleaver_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wep_brewmaster_cleaver_01-a659857acaf5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/ea76d29183a3/models/items/brewmaster/wep_brewmaster_cleaver_01/wep_brewmaster_cleaver_01_color_tga_17df16ba.png"
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:item-model:22000:gifts-of-the-northern-lands-weapon",
+      "itemId": 22000,
+      "name": "Wyrmbrew Connoisseur Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/55bf40335c9f/models/items/brewmaster/gifts_of_the_northern_lands_weapon/gifts_of_the_northern_lands_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_brewmaster/55bf40335c9f/models/items/brewmaster/gifts_of_the_northern_lands_weapon/gifts_of_the_northern_lands_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/brewmaster/gifts_of_the_northern_lands_weapon/gifts_of_the_northern_lands_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gifts_of_the_northern_lands_weapon-b9af1f6929b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_brewmaster/55bf40335c9f/models/items/brewmaster/gifts_of_the_northern_lands_weapon/gifts_of_the_northern_lands_weapon_color_tga_83a30da7.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:20300:excellent-moscow-cup-season-2",
+      "name": "Excellent Moscow Cup Season 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "sourceItemIds": [
+        5641,
+        6966,
+        6967,
+        6968,
+        6969
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/reddragon_shoulder-ee37e73aaf8e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21651:fortified-brew",
+      "name": "Fortified Brew",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        18048,
+        18070,
+        18071,
+        18072,
+        18073,
+        18074
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/newbloom_2024_brew_master-c37144ca32a7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21157:icebrew-angler",
+      "name": "Icebrew Angler",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        9411,
+        9412,
+        9413,
+        9414,
+        9421,
+        9422
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/winter_fishmaster_brewmaster_shoulder-d77991e7fa50.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21208:loaded-prospects",
+      "name": "Loaded Prospects",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        9944,
+        9945,
+        9946,
+        9947,
+        9948,
+        9949
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti8_brew_the_tipsy_digger_loading_screen-a7e28cbfe4f7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21824:master-of-the-morning-brew",
+      "name": "Master of the Morning Brew",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        161,
+        632
+      ],
+      "sourceItemIds": [
+        18870,
+        18871,
+        18872,
+        18874
+      ],
+      "slots": [
+        "back",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/coffeemaster_ls-e6b92be5ab3a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:20618:red-dragon",
+      "name": "Red Dragon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "sourceItemIds": [
+        5641,
+        6966,
+        6967,
+        6968,
+        6969
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/reddragon_shoulder-ee37e73aaf8e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21113:rumrunners-carronade",
+      "name": "Rumrunners Carronade",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        9278,
+        9279,
+        9283,
+        9285,
+        9286,
+        9287
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/pirate_cannoneer_pirate_cannoneer_ls-f991da86a84c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:20157:the-drunken-warlord-set",
+      "name": "The Drunken Warlord Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "sourceItemIds": [
+        4890,
+        4891,
+        4892,
+        4893,
+        4894
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/gear_brewmaster_sake_01-b8bd119615b2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:25531:the-wilding-tiger",
+      "name": "The Wilding Tiger",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        25533,
+        25534,
+        25535,
+        25536,
+        25537,
+        25538
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/brewmaster_hujiang_ls-536a1efccbf3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:20869:tipsy-brawler",
+      "name": "Tipsy Brawler",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        632
+      ],
+      "sourceItemIds": [
+        7482,
+        7483,
+        7489,
+        7490,
+        7495
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/honorable_brawler_loading_screen-a9e15bc5d36e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21099:triumph-of-the-four-corners",
+      "name": "Triumph of the Four Corners",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "sourceItemIds": [
+        9178,
+        9179,
+        9180,
+        9181,
+        9182
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/treasures_of_the_east_treasures_of_the_east-5b8be3ef30c4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21623:vote-only-brewmaster-jousting-panda-and-donkey-kong",
+      "name": "Vote Only Brewmaster Jousting Panda and Donkey Kong",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        14658,
+        14659,
+        14660,
+        14661,
+        14662,
+        14663
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:21888:vote-only-traveling-chef",
+      "name": "Vote Only Traveling Chef",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        19437,
+        19438,
+        19439,
+        19440,
+        19441,
+        19442
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_brewmaster:core-set:22039:wyrmbrew-connoisseur",
+      "name": "Wyrmbrew Connoisseur",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        632
+      ],
+      "sourceItemIds": [
+        21995,
+        21996,
+        21997,
+        21998,
+        21999,
+        22000
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/gifts_of_the_northern_lands_ls-28b8450f22d3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 14853708,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 124
+  }
+}

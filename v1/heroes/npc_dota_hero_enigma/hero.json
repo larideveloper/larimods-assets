@@ -1,0 +1,1566 @@
+{
+  "heroId": "npc_dota_hero_enigma",
+  "sourceHeroId": "npc_dota_hero_enigma",
+  "variantId": "default",
+  "heroName": "Enigma",
+  "heroSlug": "enigma",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enigma.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_enigma/c42740b654d6/models/heroes/enigma/enigma.glb"
+  ],
+  "defaultSlots": [],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_enigma:item-model:32862:armisaels-galactic-maw",
+      "itemId": 32862,
+      "name": "Angel of the Abyss  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/5ee5eae6916d/models/items/enigma/armisaels_galactic_maw/armisaels_galactic_maw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/5ee5eae6916d/models/items/enigma/armisaels_galactic_maw/armisaels_galactic_maw.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/armisaels_galactic_maw/armisaels_galactic_maw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armisaels_galactic_maw-1b8eb3af892b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/5ee5eae6916d/models/items/enigma/armisaels_galactic_maw/armisaels_galactic_maw_color_tga_b7c1bce0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/armisaels_galactic_maw/armisaels_galactic_maw.vmdl",
+        "modelPaths": [
+          "models/items/enigma/armisaels_galactic_maw/armisaels_galactic_maw.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/angel_abyss/angel_abyss_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_ambient_body.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:9290:artifacts-of-crushing-depths-armor",
+      "itemId": 9290,
+      "name": "Armor of Abyssal Vortex",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/7035022fa10e/models/items/enigma/artifacts_of_crushing_depths_armor/artifacts_of_crushing_depths_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/7035022fa10e/models/items/enigma/artifacts_of_crushing_depths_armor/artifacts_of_crushing_depths_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/artifacts_of_crushing_depths_armor/artifacts_of_crushing_depths_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/artifacts_of_crushing_depths_armor-b66f740298c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/7035022fa10e/models/items/enigma/artifacts_of_crushing_depths_armor/artifacts_of_crushing_depths_armor_color_psd_e19b011e.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:9476:tentacular-conqueror-armor",
+      "itemId": 9476,
+      "name": "Armor of Endless Stars",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/7cc9c5bb3fa6/models/items/enigma/tentacular_conqueror_armor/tentacular_conqueror_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/7cc9c5bb3fa6/models/items/enigma/tentacular_conqueror_armor/tentacular_conqueror_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/tentacular_conqueror_armor/tentacular_conqueror_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tentacular_conqueror_armor-e2b4a5c2e305.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/7cc9c5bb3fa6/models/items/enigma/tentacular_conqueror_armor/tentacular_conqueror_armor_color_tga_3cb284f6.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:13023:ti9-cache-enigma-lord-of-luminaries-armor",
+      "itemId": 13023,
+      "name": "Armor of Mortal Deception",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/66e6445d1546/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_armor/ti9_cache_enigma_lord_of_luminaries_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/66e6445d1546/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_armor/ti9_cache_enigma_lord_of_luminaries_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/ti9_cache_enigma_lord_of_luminaries_armor/ti9_cache_enigma_lord_of_luminaries_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_enigma_lord_of_luminaries_armor-216a3e875c0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/66e6445d1546/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_armor/ti9_cache_enigma_lord_of_luminaries_armor_color_png_483ef42e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/ti9_cache_enigma_lord_of_luminaries_armor/ti9_cache_enigma_lord_of_luminaries_armor.vmdl",
+        "modelPaths": [
+          "models/items/enigma/ti9_cache_enigma_lord_of_luminaries_armor/ti9_cache_enigma_lord_of_luminaries_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/ti9_cache_enigma_lord_armor/ti9_cache_enigma_lord_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:12330:absolute-zero-updated-armour",
+      "itemId": 12330,
+      "name": "Armor of Twisted Maelstrom",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/3cc3c0361ac7/models/items/enigma/absolute_zero_updated_armour/absolute_zero_updated_armour.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/3cc3c0361ac7/models/items/enigma/absolute_zero_updated_armour/absolute_zero_updated_armour.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/absolute_zero_updated_armour/absolute_zero_updated_armour.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/absolute_zero_updated_armour-db87c84f9443.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/3cc3c0361ac7/models/items/enigma/absolute_zero_updated_armour/absolute_zero_updated_armour_color_psd_39fe4046.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/absolute_zero_updated_armour/absolute_zero_updated_armour.vmdl",
+        "modelPaths": [
+          "models/items/enigma/absolute_zero_updated_armour/absolute_zero_updated_armour.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/enigma_absolute_armour/enigma_absolute_armour_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/enigma/enigma_absolute_armour/enigma_absolute_armour_ambient_loadout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/enigma/enigma_absolute_armour/enigma_absolute_armour_body_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_ambient_body.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:13400:world-eater-armor",
+      "itemId": 13400,
+      "name": "Astral Terminus  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/75dfe015d2bd/models/items/enigma/world_eater_armor/world_eater_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/75dfe015d2bd/models/items/enigma/world_eater_armor/world_eater_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/world_eater_armor/world_eater_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/world_eater_armor-5cc00ceb8664.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/75dfe015d2bd/models/items/enigma/world_eater_armor/world_eater_armor_color_tga_662ab5c1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/world_eater_armor/world_eater_armor.vmdl",
+        "modelPaths": [
+          "models/items/enigma/world_eater_armor/world_eater_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/ti10_world_eater/world_eater_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:14750:enigma-seer-of-infinity-space-armor",
+      "itemId": 14750,
+      "name": "Evolution of the Infinite Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/52a0e7ef1490/models/items/enigma/enigma_seer_of_infinity_space_armor/enigma_seer_of_infinity_space_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/52a0e7ef1490/models/items/enigma/enigma_seer_of_infinity_space_armor/enigma_seer_of_infinity_space_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/enigma_seer_of_infinity_space_armor/enigma_seer_of_infinity_space_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/enigma_seer_of_infinity_space_armor-282ac73ad8c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/52a0e7ef1490/models/items/enigma/enigma_seer_of_infinity_space_armor/enigma_seer_of_infinity_space_armor_color_tga_12d972ab.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/enigma_seer_of_infinity_space_armor/enigma_seer_of_infinity_space_armor.vmdl",
+        "modelPaths": [
+          "models/items/enigma/enigma_seer_of_infinity_space_armor/enigma_seer_of_infinity_space_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/ti10_seer_of_infinity_armor/ti10_enigma_seer_of_infinity_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:32986:cosmic-conqueror-armor",
+      "itemId": 32986,
+      "name": "Graviton Blackguard  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/5ad136fcb377/models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/5ad136fcb377/models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cosmic_conqueror_armor-7e27ac846ca5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/5ad136fcb377/models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor_color_png_933b6122.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor.vmdl",
+        "modelPaths": [
+          "models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor_skirt.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_enigma/019069272062/models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor_skirt.glb"
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/enigma/cosmic_conqueror_armor/cosmic_conqueror_armor_skirt.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/enigma_cosmic/enigma_cosmic_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_ambient_body.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:17974:life-cycle-armor",
+      "itemId": 17974,
+      "name": "Patterns of the Pristine Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/3e18124f8975/models/items/enigma/life_cycle_armor/life_cycle_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/3e18124f8975/models/items/enigma/life_cycle_armor/life_cycle_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/life_cycle_armor/life_cycle_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/life_cycle_armor-8982a7fa072a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/3e18124f8975/models/items/enigma/life_cycle_armor/life_cycle_armor_color_tga_74ef4816.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:31237:tidal-surge-armor",
+      "itemId": 31237,
+      "name": "Sunken Singularity  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b7b37de41fef/models/items/enigma/tidal_surge_armor/tidal_surge_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/b7b37de41fef/models/items/enigma/tidal_surge_armor/tidal_surge_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/tidal_surge_armor/tidal_surge_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidal_surge_armor-f33a989ee733.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b7b37de41fef/models/items/enigma/tidal_surge_armor/tidal_surge_armor_color_tga_172342c5.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:17693:dark-keeper-armor",
+      "itemId": 17693,
+      "name": "Vote Only Dark Keeper Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/0f230c580962/models/items/enigma/dark_keeper_armor/dark_keeper_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/0f230c580962/models/items/enigma/dark_keeper_armor/dark_keeper_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/dark_keeper_armor/dark_keeper_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_keeper_armor-1c3e06de829c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/0f230c580962/models/items/enigma/dark_keeper_armor/dark_keeper_armor_color_png_9a431454.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:32864:armisaels-shackles",
+      "itemId": 32864,
+      "name": "Angel of the Abyss  Fetters",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/cc576522ef74/models/items/enigma/armisaels_shackles/armisaels_shackles.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/cc576522ef74/models/items/enigma/armisaels_shackles/armisaels_shackles.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/armisaels_shackles/armisaels_shackles.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armisaels_shackles-2178df245185.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/cc576522ef74/models/items/enigma/armisaels_shackles/armisaels_shackles_color_tga_12a105ad.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:12329:absolute-zero-updated-arms",
+      "itemId": 12329,
+      "name": "Armguards of Twisted Maelstrom",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/1e1e6254cb17/models/items/enigma/absolute_zero_updated_arms/absolute_zero_updated_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/1e1e6254cb17/models/items/enigma/absolute_zero_updated_arms/absolute_zero_updated_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/absolute_zero_updated_arms/absolute_zero_updated_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/absolute_zero_updated_arms-9f7a5b10adee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/1e1e6254cb17/models/items/enigma/absolute_zero_updated_arms/absolute_zero_updated_arms_color_psd_c9422d7c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/absolute_zero_updated_arms/absolute_zero_updated_arms.vmdl",
+        "modelPaths": [
+          "models/items/enigma/absolute_zero_updated_arms/absolute_zero_updated_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/enigma_absolute_arms/enigma_absolute_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:13363:world-eater-arms",
+      "itemId": 13363,
+      "name": "Astral Terminus  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/c2ccf716402c/models/items/enigma/world_eater_arms/world_eater_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/c2ccf716402c/models/items/enigma/world_eater_arms/world_eater_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/world_eater_arms/world_eater_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/world_eater_arms-26134e1ca7bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/c2ccf716402c/models/items/enigma/world_eater_arms/world_eater_arms_color_tga_c7188440.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:9288:artifacts-of-crushing-depths-arms",
+      "itemId": 9288,
+      "name": "Bracer of Abyssal Vortex",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/a2a833e6f9e5/models/items/enigma/artifacts_of_crushing_depths_arms/artifacts_of_crushing_depths_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/a2a833e6f9e5/models/items/enigma/artifacts_of_crushing_depths_arms/artifacts_of_crushing_depths_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/artifacts_of_crushing_depths_arms/artifacts_of_crushing_depths_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/artifacts_of_crushing_depths_arms-d4c272ae7a61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/a2a833e6f9e5/models/items/enigma/artifacts_of_crushing_depths_arms/artifacts_of_crushing_depths_arms_color_tga_53e3ce5.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:13022:ti9-cache-enigma-lord-of-luminaries-arms",
+      "itemId": 13022,
+      "name": "Bracer of Mortal Deception",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/331d069f3b08/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_arms/ti9_cache_enigma_lord_of_luminaries_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/331d069f3b08/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_arms/ti9_cache_enigma_lord_of_luminaries_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/ti9_cache_enigma_lord_of_luminaries_arms/ti9_cache_enigma_lord_of_luminaries_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_enigma_lord_of_luminaries_arms-00aa591aa067.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/331d069f3b08/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_arms/ti9_cache_enigma_lord_of_luminaries_arms_color_png_510b88b2.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:9474:tentacular-conqueror-arms",
+      "itemId": 9474,
+      "name": "Bracers of Endless Stars",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/d3f8cd852afe/models/items/enigma/tentacular_conqueror_arms/tentacular_conqueror_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/d3f8cd852afe/models/items/enigma/tentacular_conqueror_arms/tentacular_conqueror_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/tentacular_conqueror_arms/tentacular_conqueror_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tentacular_conqueror_arms-55030d2f1b16.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/d3f8cd852afe/models/items/enigma/tentacular_conqueror_arms/tentacular_conqueror_arms_color_tga_c535519e.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:14751:enigma-seer-of-infinity-space-arms",
+      "itemId": 14751,
+      "name": "Evolution of the Infinite Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/a55d8934fdda/models/items/enigma/enigma_seer_of_infinity_space_arms/enigma_seer_of_infinity_space_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/a55d8934fdda/models/items/enigma/enigma_seer_of_infinity_space_arms/enigma_seer_of_infinity_space_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/enigma_seer_of_infinity_space_arms/enigma_seer_of_infinity_space_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/enigma_seer_of_infinity_space_arms-144cd5529dfc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/a55d8934fdda/models/items/enigma/enigma_seer_of_infinity_space_arms/enigma_seer_of_infinity_space_arms_color_tga_302e0c2f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/enigma_seer_of_infinity_space_arms/enigma_seer_of_infinity_space_arms.vmdl",
+        "modelPaths": [
+          "models/items/enigma/enigma_seer_of_infinity_space_arms/enigma_seer_of_infinity_space_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/ti10_seer_of_infinity_elbows/ti10_seer_of_infinity_elbows.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:32987:cosmic-conqueror-claws",
+      "itemId": 32987,
+      "name": "Graviton Blackguard  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/6330b1ecc90d/models/items/enigma/cosmic_conqueror_claws/cosmic_conqueror_claws.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/6330b1ecc90d/models/items/enigma/cosmic_conqueror_claws/cosmic_conqueror_claws.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/cosmic_conqueror_claws/cosmic_conqueror_claws.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cosmic_conqueror_claws-600dec37f367.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/6330b1ecc90d/models/items/enigma/cosmic_conqueror_claws/cosmic_conqueror_claws_color_png_cba9d3ec.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:17975:life-cycle-arms",
+      "itemId": 17975,
+      "name": "Patterns of the Pristine Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/819da0610269/models/items/enigma/life_cycle_arms/life_cycle_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/819da0610269/models/items/enigma/life_cycle_arms/life_cycle_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/life_cycle_arms/life_cycle_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/life_cycle_arms-cf3fd63d459f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/819da0610269/models/items/enigma/life_cycle_arms/life_cycle_arms_color_tga_49c979a0.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:31238:tidal-surge-arm-plates",
+      "itemId": 31238,
+      "name": "Sunken Singularity  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/aa0b19cc8b3e/models/items/enigma/tidal_surge_arm_plates/tidal_surge_arm_plates.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/aa0b19cc8b3e/models/items/enigma/tidal_surge_arm_plates/tidal_surge_arm_plates.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/tidal_surge_arm_plates/tidal_surge_arm_plates.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidal_surge_arm_plates-bcdd13cccdd6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/aa0b19cc8b3e/models/items/enigma/tidal_surge_arm_plates/tidal_surge_arm_plates_color_tga_b83f9d62.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:17692:dark-keeper-arms",
+      "itemId": 17692,
+      "name": "Vote Only Dark Keeper Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/88081a8cb163/models/items/enigma/dark_keeper_arms/dark_keeper_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/88081a8cb163/models/items/enigma/dark_keeper_arms/dark_keeper_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/dark_keeper_arms/dark_keeper_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_keeper_arms-0f22d3739168.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/88081a8cb163/models/items/enigma/dark_keeper_arms/dark_keeper_arms_color_png_4e09651b.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:8326:world-chasm",
+      "itemId": 8326,
+      "name": "World Chasm Artifact",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/9d9a14dfa9c8/models/items/enigma/world_chasm/world_chasm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/9d9a14dfa9c8/models/items/enigma/world_chasm/world_chasm.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/world_chasm/world_chasm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/world_chasm-f1d4ed54eff8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/9d9a14dfa9c8/models/items/enigma/world_chasm/world_chasm_color_psd_58146adb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/world_chasm/world_chasm.vmdl",
+        "modelPaths": [
+          "models/items/enigma/world_chasm/world_chasm.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/enigma_world_chasm/enigma_blackhole_target_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/enigma/enigma_world_chasm/enigma_blackhole_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/enigma/enigma_world_chasm/enigma_world_chasm_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/enigma/enigma_world_chasm/status_effect_enigma_blackhole_tgt_ti5.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_enigma_blackhole_tgt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_blackhole.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_blackhole_target.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:32861:armisaels-fallen-halo",
+      "itemId": 32861,
+      "name": "Angel of the Abyss  Halo",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/e046cc2028be/models/items/enigma/armisaels_fallen_halo/armisaels_fallen_halo.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/e046cc2028be/models/items/enigma/armisaels_fallen_halo/armisaels_fallen_halo.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/armisaels_fallen_halo/armisaels_fallen_halo.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armisaels_fallen_halo-a2e04fb2dd6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/e046cc2028be/models/items/enigma/armisaels_fallen_halo/armisaels_fallen_halo_color_tga_c0f9ba2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/armisaels_fallen_halo/armisaels_fallen_halo.vmdl",
+        "modelPaths": [
+          "models/items/enigma/armisaels_fallen_halo/armisaels_fallen_halo.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/angel_abyss/angel_abyss_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:13402:world-eater-head",
+      "itemId": 13402,
+      "name": "Astral Terminus  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/4b73e13fe8cc/models/items/enigma/world_eater_head/world_eater_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/4b73e13fe8cc/models/items/enigma/world_eater_head/world_eater_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/world_eater_head/world_eater_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/world_eater_head-2619c4fcbfc3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/4b73e13fe8cc/models/items/enigma/world_eater_head/world_eater_head_color_tga_53dd4c8f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/world_eater_head/world_eater_head.vmdl",
+        "modelPaths": [
+          "models/items/enigma/world_eater_head/world_eater_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/ti10_world_eater/world_eater_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:14749:enigma-seer-of-infinity-space-head",
+      "itemId": 14749,
+      "name": "Evolution of the Infinite Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/7c163a24e42f/models/items/enigma/enigma_seer_of_infinity_space_head/enigma_seer_of_infinity_space_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/7c163a24e42f/models/items/enigma/enigma_seer_of_infinity_space_head/enigma_seer_of_infinity_space_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/enigma_seer_of_infinity_space_head/enigma_seer_of_infinity_space_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/enigma_seer_of_infinity_space_head-f81f58e5da1d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/7c163a24e42f/models/items/enigma/enigma_seer_of_infinity_space_head/enigma_seer_of_infinity_space_head_color_tga_847bda72.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:12332:absolute-zero-updated-head",
+      "itemId": 12332,
+      "name": "Eye of Twisted Maelstrom",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b19fc3640212/models/items/enigma/absolute_zero_updated_head/absolute_zero_updated_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/b19fc3640212/models/items/enigma/absolute_zero_updated_head/absolute_zero_updated_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/absolute_zero_updated_head/absolute_zero_updated_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/absolute_zero_updated_head-b8edb6871d43.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b19fc3640212/models/items/enigma/absolute_zero_updated_head/absolute_zero_updated_head_color_psd_8d53ebfa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/absolute_zero_updated_head/absolute_zero_updated_head.vmdl",
+        "modelPaths": [
+          "models/items/enigma/absolute_zero_updated_head/absolute_zero_updated_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/enigma_absolute_head/enigma_absolute_head_ambient_eye.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:32988:cosmic-conqueror-crown",
+      "itemId": 32988,
+      "name": "Graviton Blackguard  Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/4edd4c1fac31/models/items/enigma/cosmic_conqueror_crown/cosmic_conqueror_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/4edd4c1fac31/models/items/enigma/cosmic_conqueror_crown/cosmic_conqueror_crown.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/cosmic_conqueror_crown/cosmic_conqueror_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cosmic_conqueror_crown-0934bb8a4247.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/4edd4c1fac31/models/items/enigma/cosmic_conqueror_crown/cosmic_conqueror_crown_color_png_55bfdfe6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/cosmic_conqueror_crown/cosmic_conqueror_crown.vmdl",
+        "modelPaths": [
+          "models/items/enigma/cosmic_conqueror_crown/cosmic_conqueror_crown.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/enigma_cosmic/enigma_cosmic_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_enigma/enigma_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:9289:artifacts-of-crushing-depths-head",
+      "itemId": 9289,
+      "name": "Helm of Abyssal Vortex",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/1ffcbbd48364/models/items/enigma/artifacts_of_crushing_depths_head/artifacts_of_crushing_depths_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/1ffcbbd48364/models/items/enigma/artifacts_of_crushing_depths_head/artifacts_of_crushing_depths_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/artifacts_of_crushing_depths_head/artifacts_of_crushing_depths_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/artifacts_of_crushing_depths_head-4a55e5536131.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/1ffcbbd48364/models/items/enigma/artifacts_of_crushing_depths_head/artifacts_of_crushing_depths_head_color_tga_f643e521.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:9471:tentacular-conqueror-head",
+      "itemId": 9471,
+      "name": "Jewels of Endless Stars",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b76dc702fa70/models/items/enigma/tentacular_conqueror_head/tentacular_conqueror_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/b76dc702fa70/models/items/enigma/tentacular_conqueror_head/tentacular_conqueror_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/tentacular_conqueror_head/tentacular_conqueror_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tentacular_conqueror_head-a9b53aea036d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b76dc702fa70/models/items/enigma/tentacular_conqueror_head/tentacular_conqueror_head_color_tga_9c876b91.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:17977:life-cycle-head",
+      "itemId": 17977,
+      "name": "Patterns of the Pristine Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/827819c3f11f/models/items/enigma/life_cycle_head/life_cycle_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/827819c3f11f/models/items/enigma/life_cycle_head/life_cycle_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/life_cycle_head/life_cycle_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/life_cycle_head-47794e36d6fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/827819c3f11f/models/items/enigma/life_cycle_head/life_cycle_head_color_tga_1f12de22.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:31239:tidal-surge-helmet",
+      "itemId": 31239,
+      "name": "Sunken Singularity  Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b026ea9e3545/models/items/enigma/tidal_surge_helmet/tidal_surge_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/b026ea9e3545/models/items/enigma/tidal_surge_helmet/tidal_surge_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/tidal_surge_helmet/tidal_surge_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidal_surge_helmet-ef13b5251f29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/b026ea9e3545/models/items/enigma/tidal_surge_helmet/tidal_surge_helmet_color_tga_bcc43d32.png"
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:13021:ti9-cache-enigma-lord-of-luminaries-head",
+      "itemId": 13021,
+      "name": "Turban of Mortal Deception",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/015122f62983/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_head/ti9_cache_enigma_lord_of_luminaries_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/015122f62983/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_head/ti9_cache_enigma_lord_of_luminaries_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/ti9_cache_enigma_lord_of_luminaries_head/ti9_cache_enigma_lord_of_luminaries_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_enigma_lord_of_luminaries_head-ee66856abacc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/015122f62983/models/items/enigma/ti9_cache_enigma_lord_of_luminaries_head/ti9_cache_enigma_lord_of_luminaries_head_color_png_33ca461a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/enigma/ti9_cache_enigma_lord_of_luminaries_head/ti9_cache_enigma_lord_of_luminaries_head.vmdl",
+        "modelPaths": [
+          "models/items/enigma/ti9_cache_enigma_lord_of_luminaries_head/ti9_cache_enigma_lord_of_luminaries_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/enigma/ti9_cache_enigma_lord_head/ti9_cache_enigma_lord_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_enigma:item-model:17694:dark-keeper-head",
+      "itemId": 17694,
+      "name": "Vote Only Dark Keeper Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/6ee93af1fe45/models/items/enigma/dark_keeper_head/dark_keeper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_enigma/6ee93af1fe45/models/items/enigma/dark_keeper_head/dark_keeper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/enigma/dark_keeper_head/dark_keeper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_keeper_head-7b22bffed6e6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_enigma/6ee93af1fe45/models/items/enigma/dark_keeper_head/dark_keeper_head_color_png_dc4c1717.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_enigma:core-set:21114:abyssal-vortex",
+      "name": "Abyssal Vortex",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        9288,
+        9289,
+        9290,
+        9352
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/artifacts_of_crushing_depths_artifacts_of_crushing_depths_loadingscreen-b7fcc01bee05.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:32865:angel-of-the-abyss",
+      "name": "Angel of the Abyss",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        32861,
+        32862,
+        32863,
+        32864
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/armisaels_fallen_halo-a2e04fb2dd6c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:21379:astral-terminus",
+      "name": "Astral Terminus",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        13363,
+        13400,
+        13401,
+        13402
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/world_eater_ls-badf2bf13451.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:21584:evolution-of-the-infinite",
+      "name": "Evolution of the Infinite",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        14748,
+        14749,
+        14750,
+        14751
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/enigma_seer_of_infinity_space_head-f81f58e5da1d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:21127:exponent-of-the-endless-stars",
+      "name": "Exponent of the Endless Stars",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        9471,
+        9473,
+        9474,
+        9476
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/tentacular_conqueror_tentacular_conqueror_loadingscreen-b7a7f8809da0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:32990:graviton-blackguard",
+      "name": "Graviton Blackguard",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        32986,
+        32987,
+        32988,
+        32989
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/cosmic_conqueror_armor-7e27ac846ca5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:21732:patterns-of-the-pristine",
+      "name": "Patterns of the Pristine",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        17974,
+        17975,
+        17976,
+        17977
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/life_cycle_armor-8982a7fa072a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:31215:sunken-singularity",
+      "name": "Sunken Singularity",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629
+      ],
+      "sourceItemIds": [
+        31237,
+        31238,
+        31239
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_sunken_singularity-60144ac6351b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:21331:the-arts-of-mortal-deception",
+      "name": "The Arts of Mortal Deception",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        13020,
+        13021,
+        13022,
+        13023
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_enigma_lord_of_luminaries_head-ee66856abacc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:21235:twisted-maelstrom",
+      "name": "Twisted Maelstrom",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629,
+        8637
+      ],
+      "sourceItemIds": [
+        12329,
+        12330,
+        12331,
+        12332
+      ],
+      "slots": [
+        "ability2",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 19,
+      "previewUrl": "/larimods-data/v1/icons/absolute_zero_absolute_zero_loadingscreen-2441624a64b0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_enigma:core-set:21690:vote-only-dark-keeper",
+      "name": "Vote Only Dark Keeper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        559,
+        628,
+        629
+      ],
+      "sourceItemIds": [
+        17692,
+        17693,
+        17694
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 27035972,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 213
+  }
+}

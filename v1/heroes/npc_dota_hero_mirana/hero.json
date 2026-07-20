@@ -1,0 +1,5050 @@
+{
+  "heroId": "npc_dota_hero_mirana",
+  "sourceHeroId": "npc_dota_hero_mirana",
+  "variantId": "default",
+  "heroName": "Mirana",
+  "heroSlug": "mirana",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_mirana/b9e510338d79/models/heroes/mirana/mirana.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 408,
+      "name": "Miranas Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/da80fdb44273/models/heroes/mirana/bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/da80fdb44273/models/heroes/mirana/bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/da80fdb44273/models/heroes/mirana/bracer_color_tga_9ee80465.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 406,
+      "name": "Miranas Cape",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d200fad91b0a/models/heroes/mirana/cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d200fad91b0a/models/heroes/mirana/cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/cape.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d200fad91b0a/models/heroes/mirana/cape_color_tga_a5f3aa9d.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 405,
+      "name": "Miranas Headdress",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0ab559d145da/models/heroes/mirana/head_item.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/0ab559d145da/models/heroes/mirana/head_item.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/head_item.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0ab559d145da/models/heroes/mirana/head_item_color_psd_670b9aa7.png"
+    },
+    {
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "itemId": 409,
+      "name": "Miranas Quiver",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b84178bea754/models/heroes/mirana/quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/b84178bea754/models/heroes/mirana/quiver.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/quiver.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b84178bea754/models/heroes/mirana/quiver_color_tga_394e8d26.png"
+    },
+    {
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "itemId": 404,
+      "name": "Miranas Mount",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ebb38b4c63a1/models/heroes/mirana/mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/ebb38b4c63a1/models/heroes/mirana/mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/mount.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ebb38b4c63a1/models/heroes/mirana/mirana_cat_color_tga_f42e2316.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 407,
+      "name": "Miranas Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d2e1bd831dd0/models/heroes/mirana/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d2e1bd831dd0/models/heroes/mirana/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d2e1bd831dd0/models/heroes/mirana/shoulder_color_tga_89d4801b.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 403,
+      "name": "Miranas Bow",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8ed1ee0b401e/models/heroes/mirana/bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/8ed1ee0b401e/models/heroes/mirana/bow.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/bow.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8ed1ee0b401e/models/heroes/mirana/mirana_bow_color_psd_4b9c714a.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_mirana:item-model:9275:bohemian-summer-mirana-arms",
+      "itemId": 9275,
+      "name": "Bracelets of the Coastal Kingdom",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c7c8772de25c/models/items/mirana/bohemian_summer_mirana_arms/bohemian_summer_mirana_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/c7c8772de25c/models/items/mirana/bohemian_summer_mirana_arms/bohemian_summer_mirana_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bohemian_summer_mirana_arms/bohemian_summer_mirana_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_arms-87b43d444547.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c7c8772de25c/models/items/mirana/bohemian_summer_mirana_arms/bohemian_summer_mirana_arms_color_tga_510d02df.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4949:sl-arms",
+      "itemId": 4949,
+      "name": "Bracers of the Moon Rider",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/e7e4e2d1c9dd/models/items/mirana/sl_arms/sl_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/e7e4e2d1c9dd/models/items/mirana/sl_arms/sl_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/sl_arms/sl_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sl_arms-7a13e0871c83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/e7e4e2d1c9dd/models/items/mirana/sl_arms/sl_arms_color_tga_8f77d8bc.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7563:blue-wintermoon-arms",
+      "itemId": 7563,
+      "name": "Bracers of the Wintermoon",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/9805323a0ae5/models/items/mirana/blue_wintermoon_arms/blue_wintermoon_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/9805323a0ae5/models/items/mirana/blue_wintermoon_arms/blue_wintermoon_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/blue_wintermoon_arms/blue_wintermoon_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blue_wintermoon_arms-f7689934ea52.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/9805323a0ae5/models/items/mirana/blue_wintermoon_arms/blue_wintermoon_arms_color_png_2910be72.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6659:crescent-bracers",
+      "itemId": 6659,
+      "name": "Crescent Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d98b7418922f/models/items/mirana/crescent_bracers/crescent_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d98b7418922f/models/items/mirana/crescent_bracers/crescent_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/crescent_bracers/crescent_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crescent_bracers-872fb9c9e388.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d98b7418922f/models/items/mirana/crescent_bracers/crescent_bracers_color_tga_3b4cf33.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8541:warden-of-the-eternal-night-arms",
+      "itemId": 8541,
+      "name": "Darkfall Warden Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/633106436571/models/items/mirana/warden_of_the_eternal_night_arms/warden_of_the_eternal_night_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/633106436571/models/items/mirana/warden_of_the_eternal_night_arms/warden_of_the_eternal_night_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/warden_of_the_eternal_night_arms/warden_of_the_eternal_night_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_arms-d091581c51ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/633106436571/models/items/mirana/warden_of_the_eternal_night_arms/warden_of_the_eternal_night_arms_color_tga_b8a295e7.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6445:dotm-arms",
+      "itemId": 6445,
+      "name": "Dawn of the Moon Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8356e6111f26/models/items/mirana/dotm_arms/dotm_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/8356e6111f26/models/items/mirana/dotm_arms/dotm_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dotm_arms/dotm_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotm_arms-7df565bed8fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8356e6111f26/models/items/mirana/dotm_arms/dotm_arms_color_tga_5746ec46.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18480:spring2021-midsummer-night-regalia-arms",
+      "itemId": 18480,
+      "name": "Dreams of Midsummer Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d712215912c4/models/items/mirana/spring2021_midsummer_night_regalia_arms/spring2021_midsummer_night_regalia_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d712215912c4/models/items/mirana/spring2021_midsummer_night_regalia_arms/spring2021_midsummer_night_regalia_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/spring2021_midsummer_night_regalia_arms/spring2021_midsummer_night_regalia_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_arms-32f81b11a340.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d712215912c4/models/items/mirana/spring2021_midsummer_night_regalia_arms/spring2021_midsummer_night_regalia_arms_color_png_5cb77664.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6152:heavenlyguardian-bracer",
+      "itemId": 6152,
+      "name": "Heavenly Guardian Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/49222c90c06c/models/items/mirana/heavenlyguardian_bracer/heavenlyguardian_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/49222c90c06c/models/items/mirana/heavenlyguardian_bracer/heavenlyguardian_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/heavenlyguardian_bracer/heavenlyguardian_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlyguardian_bracer-3b97230a0ade.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/49222c90c06c/models/items/mirana/heavenlyguardian_bracer/heavenlyguardian_bracer_color_tga_188e3618.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:408:bracers",
+      "itemId": 408,
+      "name": "Miranas Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/da80fdb44273/models/heroes/mirana/bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/da80fdb44273/models/heroes/mirana/bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracers-b1b9cbec7bb4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/da80fdb44273/models/heroes/mirana/bracer_color_tga_9ee80465.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6935:moonrift-arms",
+      "itemId": 6935,
+      "name": "Moon Rift Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/31b700f0daa9/models/items/mirana/moonrift_arms/moonrift_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/31b700f0daa9/models/items/mirana/moonrift_arms/moonrift_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_arms/moonrift_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_arms-bfb609ec921a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/31b700f0daa9/models/items/mirana/moonrift_arms/moonrift_arms_color_tga_94f6b87b.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4645:mirana-nightsilver-arms",
+      "itemId": 4645,
+      "name": "Nightsilver Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/80b4eed9a2d9/models/items/mirana/mirana_nightsilver_arms/mirana_nightsilver_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/80b4eed9a2d9/models/items/mirana/mirana_nightsilver_arms/mirana_nightsilver_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_nightsilver_arms/mirana_nightsilver_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_nightsilver_arms-e56e1a136237.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/80b4eed9a2d9/models/items/mirana/mirana_nightsilver_arms/mirana_nightsilver_arms_color_tga_57d1e18a.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:34027:meoth-luminous-priestess-bracelets",
+      "itemId": 34027,
+      "name": "Photax Fluttercat  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4b5773055130/models/items/mirana/meoth_luminous_priestess_bracelets/meoth_luminous_priestess_bracelets.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4b5773055130/models/items/mirana/meoth_luminous_priestess_bracelets/meoth_luminous_priestess_bracelets.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/meoth_luminous_priestess_bracelets/meoth_luminous_priestess_bracelets.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_bracelets-4332da674ed4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4b5773055130/models/items/mirana/meoth_luminous_priestess_bracelets/meoth_luminous_priestess_bracelets_color_tga_ee30644d.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36094:mirana-dark-carnival-arms",
+      "itemId": 36094,
+      "name": "Selemene Showgirl  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f1193ddf94a1/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/f1193ddf94a1/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_dark_carnival_arms-4080571a39d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f1193ddf94a1/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_arms_color_tga_536f3bd2.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7097:snowstorm-arms",
+      "itemId": 7097,
+      "name": "Snowstorm Gloves",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a24a6da80190/models/items/mirana/snowstorm_arms/snowstorm_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/a24a6da80190/models/items/mirana/snowstorm_arms/snowstorm_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/snowstorm_arms/snowstorm_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowstorm_arms-0c36b3dfe495.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a24a6da80190/models/items/mirana/snowstorm_arms/snowstorm_arms_color_tga_68d44be8.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:14420:mirana-spirit-of-the-sacred-grove-arms",
+      "itemId": 14420,
+      "name": "Spirit of the Sacred Grove  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d63bf2756ae5/models/items/mirana/mirana_spirit_of_the_sacred_grove_arms/mirana_spirit_of_the_sacred_grove_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d63bf2756ae5/models/items/mirana/mirana_spirit_of_the_sacred_grove_arms/mirana_spirit_of_the_sacred_grove_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_spirit_of_the_sacred_grove_arms/mirana_spirit_of_the_sacred_grove_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_arms-dad72dd86705.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d63bf2756ae5/models/items/mirana/mirana_spirit_of_the_sacred_grove_arms/mirana_spirit_of_the_sacred_grove_arms_color_psd_9b515050.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5283:starlight-armguards",
+      "itemId": 5283,
+      "name": "Starlight Armguards",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/182043ed8601/models/items/mirana/starlight_armguards/starlight_armguards.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/182043ed8601/models/items/mirana/starlight_armguards/starlight_armguards.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/starlight_armguards/starlight_armguards.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starlight_armguards-2a50cca82459.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/182043ed8601/models/items/mirana/starlight_armguards/starlight_armguards_color_tga_75d58832.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:22322:empress-of-the-moonlight-arms",
+      "itemId": 22322,
+      "name": "Temple Gala  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/67ea36ec1160/models/items/mirana/empress_of_the_moonlight_arms/empress_of_the_moonlight_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/67ea36ec1160/models/items/mirana/empress_of_the_moonlight_arms/empress_of_the_moonlight_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/empress_of_the_moonlight_arms/empress_of_the_moonlight_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_arms-7dfc9f331b7a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/67ea36ec1160/models/items/mirana/empress_of_the_moonlight_arms/empress_of_the_moonlight_arms_color_tga_3182d174.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9271:bohemian-summer-mirana-back",
+      "itemId": 9271,
+      "name": "Belt of the Coastal Kingdom",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f697f951200d/models/items/mirana/bohemian_summer_mirana_back/bohemian_summer_mirana_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/f697f951200d/models/items/mirana/bohemian_summer_mirana_back/bohemian_summer_mirana_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bohemian_summer_mirana_back/bohemian_summer_mirana_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_back-a9c2473d948a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f697f951200d/models/items/mirana/bohemian_summer_mirana_back/bohemian_summer_mirana_back_color_tga_e16e1ed8.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6657:crescent-back",
+      "itemId": 6657,
+      "name": "Crescent Skirt",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/98da82eaeeb8/models/items/mirana/crescent_back/crescent_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/98da82eaeeb8/models/items/mirana/crescent_back/crescent_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/crescent_back/crescent_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crescent_back-7c0c3bc449ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/98da82eaeeb8/models/items/mirana/crescent_back/crescent_back_color_tga_f7fcdc60.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8538:warden-of-the-eternal-night-back",
+      "itemId": 8538,
+      "name": "Darkfall Warden Skirt",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4f5c50ec1b54/models/items/mirana/warden_of_the_eternal_night_back/warden_of_the_eternal_night_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4f5c50ec1b54/models/items/mirana/warden_of_the_eternal_night_back/warden_of_the_eternal_night_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/warden_of_the_eternal_night_back/warden_of_the_eternal_night_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_back-beef34423dac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4f5c50ec1b54/models/items/mirana/warden_of_the_eternal_night_back/warden_of_the_eternal_night_back_color_psd_9d999608.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6439:dotm-back",
+      "itemId": 6439,
+      "name": "Dawn of the Moon Skirt",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/427630e2a876/models/items/mirana/dotm_back/dotm_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/427630e2a876/models/items/mirana/dotm_back/dotm_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dotm_back/dotm_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotm_back-35e9f419f4d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/427630e2a876/models/items/mirana/dotm_back/dotm_back_color_tga_36e89a21.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18481:spring2021-midsummer-night-regalia-back",
+      "itemId": 18481,
+      "name": "Dreams of Midsummer Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6f71f2cda0df/models/items/mirana/spring2021_midsummer_night_regalia_back/spring2021_midsummer_night_regalia_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/6f71f2cda0df/models/items/mirana/spring2021_midsummer_night_regalia_back/spring2021_midsummer_night_regalia_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/spring2021_midsummer_night_regalia_back/spring2021_midsummer_night_regalia_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_back-9a4db1f26b3f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6f71f2cda0df/models/items/mirana/spring2021_midsummer_night_regalia_back/spring2021_midsummer_night_regalia_back_color_png_fca56166.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9098:blue-wintermoon-back",
+      "itemId": 9098,
+      "name": "Garb of the Wintermoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4eced704c572/models/items/mirana/blue_wintermoon_back/blue_wintermoon_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4eced704c572/models/items/mirana/blue_wintermoon_back/blue_wintermoon_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/blue_wintermoon_back/blue_wintermoon_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blue_wintermoon_back-982ebabb892c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4eced704c572/models/items/mirana/blue_wintermoon_back/blue_wintermoon_back_color_png_11c67fa4.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6154:heavenlyguardian-skirt",
+      "itemId": 6154,
+      "name": "Heavenly Guardian Skirt",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/36679b62d7a4/models/items/mirana/heavenlyguardian_skirt/heavenlyguardian_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/36679b62d7a4/models/items/mirana/heavenlyguardian_skirt/heavenlyguardian_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/heavenlyguardian_skirt/heavenlyguardian_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlyguardian_skirt-23ecfafb9212.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/36679b62d7a4/models/items/mirana/heavenlyguardian_skirt/heavenlyguardian_skirt_color_tga_baa3721c.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4952:sl-cape",
+      "itemId": 4952,
+      "name": "Lion Drape of the Moon Rider",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b5b00a2be26d/models/items/mirana/sl_cape/sl_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/b5b00a2be26d/models/items/mirana/sl_cape/sl_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/sl_cape/sl_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sl_cape-9cc83e2d9cf6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b5b00a2be26d/models/items/mirana/sl_cape/sl_cape_color_tga_2150c69a.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:406:cape",
+      "itemId": 406,
+      "name": "Miranas Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d200fad91b0a/models/heroes/mirana/cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d200fad91b0a/models/heroes/mirana/cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cape-76c4019e3fc2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d200fad91b0a/models/heroes/mirana/cape_color_tga_a5f3aa9d.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6941:moonrift-back",
+      "itemId": 6941,
+      "name": "Moon Rift Drape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/301cb7b18229/models/items/mirana/moonrift_back/moonrift_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/301cb7b18229/models/items/mirana/moonrift_back/moonrift_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_back/moonrift_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_back-63ee275d38fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/301cb7b18229/models/items/mirana/moonrift_back/moonrift_back_color_tga_7f944917.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4691:mirana-nightsilver-cape",
+      "itemId": 4691,
+      "name": "Nightsilver Raiments",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/de265539ae63/models/items/mirana/mirana_nightsilver_cape/mirana_nightsilver_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/de265539ae63/models/items/mirana/mirana_nightsilver_cape/mirana_nightsilver_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_nightsilver_cape/mirana_nightsilver_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_nightsilver_cape-9847599c468a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/de265539ae63/models/items/mirana/mirana_nightsilver_cape/mirana_nightsilver_cape_color_tga_7b841f5c.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:34030:meoth-luminous-priestess-skirt",
+      "itemId": 34030,
+      "name": "Photax Fluttercat  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/aa60eaf8bcbc/models/items/mirana/meoth_luminous_priestess_skirt/meoth_luminous_priestess_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/aa60eaf8bcbc/models/items/mirana/meoth_luminous_priestess_skirt/meoth_luminous_priestess_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/meoth_luminous_priestess_skirt/meoth_luminous_priestess_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_skirt-eb2a113b7581.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/aa60eaf8bcbc/models/items/mirana/meoth_luminous_priestess_skirt/meoth_luminous_priestess_skirt_color_tga_ab4cc19.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36097:mirana-dark-carnival-back",
+      "itemId": 36097,
+      "name": "Selemene Showgirl  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/86786ec2115e/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/86786ec2115e/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_dark_carnival_back-71c8446be7e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/86786ec2115e/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_back_color_tga_c9f454a3.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7095:snowstorm-back",
+      "itemId": 7095,
+      "name": "Snowstorm Skirt and Scarf",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/eaff74f76c10/models/items/mirana/snowstorm_back/snowstorm_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/eaff74f76c10/models/items/mirana/snowstorm_back/snowstorm_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/snowstorm_back/snowstorm_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowstorm_back-be44bcb5d976.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/eaff74f76c10/models/items/mirana/snowstorm_back/snowstorm_back_color_tga_9d46bfb4.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:14419:mirana-spirit-of-the-sacred-grove-back",
+      "itemId": 14419,
+      "name": "Spirit of the Sacred Grove  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4a9e16161195/models/items/mirana/mirana_spirit_of_the_sacred_grove_back/mirana_spirit_of_the_sacred_grove_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4a9e16161195/models/items/mirana/mirana_spirit_of_the_sacred_grove_back/mirana_spirit_of_the_sacred_grove_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_spirit_of_the_sacred_grove_back/mirana_spirit_of_the_sacred_grove_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_back-59acc5cd7f7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4a9e16161195/models/items/mirana/mirana_spirit_of_the_sacred_grove_back/mirana_spirit_of_the_sacred_grove_back_color_tga_4a680f1d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_spirit_of_the_sacred_grove_back/mirana_spirit_of_the_sacred_grove_back.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_spirit_of_the_sacred_grove_back/mirana_spirit_of_the_sacred_grove_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_ti10_cache/mirana_ti10_cache_back_leaves.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5284:starlight-dress",
+      "itemId": 5284,
+      "name": "Starlight Dress",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/de01bef06afd/models/items/mirana/starlight_dress/starlight_dress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/de01bef06afd/models/items/mirana/starlight_dress/starlight_dress.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/starlight_dress/starlight_dress.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starlight_dress-ad4bd2e4e419.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/de01bef06afd/models/items/mirana/starlight_dress/starlight_dress_color_tga_12e4801a.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:22324:empress-of-the-moonlight-back",
+      "itemId": 22324,
+      "name": "Temple Gala  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/57402202e6de/models/items/mirana/empress_of_the_moonlight_back/empress_of_the_moonlight_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/57402202e6de/models/items/mirana/empress_of_the_moonlight_back/empress_of_the_moonlight_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/empress_of_the_moonlight_back/empress_of_the_moonlight_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_back-e7263ac92125.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/57402202e6de/models/items/mirana/empress_of_the_moonlight_back/empress_of_the_moonlight_back_color_tga_8eac33c4.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5850:braids-of-moonshadow",
+      "itemId": 5850,
+      "name": "Braids of Moonshadow",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/09890ff7d1bf/models/items/mirana/braids_of_moonshadow/braids_of_moonshadow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/09890ff7d1bf/models/items/mirana/braids_of_moonshadow/braids_of_moonshadow.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/braids_of_moonshadow/braids_of_moonshadow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/braids_of_moonshadow-ba06938f8ea7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/09890ff7d1bf/models/items/mirana/braids_of_moonshadow/braids_of_moonshadow_color_tga_d112e46a.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9274:bohemian-summer-mirana-head",
+      "itemId": 9274,
+      "name": "Braids of the Coastal Kingdom",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2fd52b4a52cb/models/items/mirana/bohemian_summer_mirana_head/bohemian_summer_mirana_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2fd52b4a52cb/models/items/mirana/bohemian_summer_mirana_head/bohemian_summer_mirana_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bohemian_summer_mirana_head/bohemian_summer_mirana_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_head-80449400f5c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2fd52b4a52cb/models/items/mirana/bohemian_summer_mirana_head/bohemian_summer_mirana_head_color_tga_d8891f4b.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6660:crescent-hair",
+      "itemId": 6660,
+      "name": "Crescent Style",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c94306cb380e/models/items/mirana/crescent_hair/crescent_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/c94306cb380e/models/items/mirana/crescent_hair/crescent_hair.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/crescent_hair/crescent_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crescent_hair-c2cd163ed608.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c94306cb380e/models/items/mirana/crescent_hair/crescent_hair_color_tga_5d5c5821.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6993:blue-wintermoon-head",
+      "itemId": 6993,
+      "name": "Crown of the Wintermoon",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2b4c195689ca/models/items/mirana/blue_wintermoon_head/blue_wintermoon_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2b4c195689ca/models/items/mirana/blue_wintermoon_head/blue_wintermoon_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/blue_wintermoon_head/blue_wintermoon_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blue_wintermoon_head-4ee0cd9d1a4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2b4c195689ca/models/items/mirana/blue_wintermoon_head/blue_wintermoon_head_color_png_80fbee8c.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8834:warden-of-the-eternal-night-head",
+      "itemId": 8834,
+      "name": "Darkfall Warden Hair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/e67447d213c5/models/items/mirana/warden_of_the_eternal_night_head/warden_of_the_eternal_night_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/e67447d213c5/models/items/mirana/warden_of_the_eternal_night_head/warden_of_the_eternal_night_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/warden_of_the_eternal_night_head/warden_of_the_eternal_night_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_head-a2397a9968f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/e67447d213c5/models/items/mirana/warden_of_the_eternal_night_head/warden_of_the_eternal_night_head_color_psd_f38082a0.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6448:dotm-head",
+      "itemId": 6448,
+      "name": "Dawn of the Moon Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2e0c4ac0e502/models/items/mirana/dotm_head/dotm_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2e0c4ac0e502/models/items/mirana/dotm_head/dotm_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dotm_head/dotm_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotm_head-8247d04f19ac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2e0c4ac0e502/models/items/mirana/dotm_head/dotm_head_color_tga_1704a40e.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18482:spring2021-midsummer-night-regalia-head",
+      "itemId": 18482,
+      "name": "Dreams of Midsummer Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/1946392c0f5d/models/items/mirana/spring2021_midsummer_night_regalia_head/spring2021_midsummer_night_regalia_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/1946392c0f5d/models/items/mirana/spring2021_midsummer_night_regalia_head/spring2021_midsummer_night_regalia_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/spring2021_midsummer_night_regalia_head/spring2021_midsummer_night_regalia_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_head-7429324f53b2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/1946392c0f5d/models/items/mirana/spring2021_midsummer_night_regalia_head/crystalhead_color_png_571fa754.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:19005:mirana-2021-immortal",
+      "itemId": 19005,
+      "name": "Golden Mask of Metira",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/1908b6d1980c/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/1908b6d1980c/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_2021_immortal1-c8dfe17f740e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/1908b6d1980c/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal_color_psd_4fe10e9c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_gold_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_golden_owner.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_golden_timer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_recipient_golden.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_status_effect.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_owner.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_recipient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_recipient_timer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6157:heavenlyguardian-hair",
+      "itemId": 6157,
+      "name": "Heavenly Guardian Locks",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/fd7b4e547994/models/items/mirana/heavenlyguardian_hair/heavenlyguardian_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/fd7b4e547994/models/items/mirana/heavenlyguardian_hair/heavenlyguardian_hair.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/heavenlyguardian_hair/heavenlyguardian_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlyguardian_hair-a944f5a34ece.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/fd7b4e547994/models/items/mirana/heavenlyguardian_hair/heavenlyguardian_hair_color_tga_f70c20.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18112:mirana-2021-immortal",
+      "itemId": 18112,
+      "name": "Mask of Metira",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/02e9ca33f871/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/02e9ca33f871/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_2021_immortal-1df05f482f40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/02e9ca33f871/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal_color_psd_4fe10e9c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_owner.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_recipient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_timer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_status_effect.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_owner.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_recipient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_recipient_timer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:24671:mirana-2021-immortal",
+      "itemId": 24671,
+      "name": "Mask of Metira of the Crimson Witness",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/37fb249a8c54/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/37fb249a8c54/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_2021_immortal2-f5c7920f07a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/37fb249a8c54/models/items/mirana/mirana_2021_immortal/mirana_2021_immortal_color_psd_4fe10e9c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_2021_immortal/mirana_2021_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_ambient_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_crimson_recipient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_owner.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_moonlight_timer_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_2021_immortal/mirana_2021_immortal_status_effect_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_owner.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_recipient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_moonlight_recipient_timer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:405:head-item",
+      "itemId": 405,
+      "name": "Miranas Headdress",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0ab559d145da/models/heroes/mirana/head_item.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/0ab559d145da/models/heroes/mirana/head_item.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/head_item.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_item-3efc87dd14cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0ab559d145da/models/heroes/mirana/head_item_color_psd_670b9aa7.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6936:moonrift-head",
+      "itemId": 6936,
+      "name": "Moon Rift Style",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4919f79b93e0/models/items/mirana/moonrift_head/moonrift_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4919f79b93e0/models/items/mirana/moonrift_head/moonrift_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_head/moonrift_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_head-17ceafa6d6bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4919f79b93e0/models/items/mirana/moonrift_head/moonrift_head_color_tga_1c85614b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/moonrift_head/moonrift_head.vmdl",
+        "modelPaths": [
+          "models/items/mirana/moonrift_head/moonrift_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Moon Rift Style Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/mirana/moonrift_head/moonrift_head",
+            "modelPaths": [
+              "models/items/mirana/moonrift_head/moonrift_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Moon Rift Style Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/mirana/moonrift_head_no_mask/moonrift_head_no_mask",
+            "modelPaths": [
+              "models/items/mirana/moonrift_head_no_mask/moonrift_head_no_mask.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6936:moonrift-head:style-1",
+      "itemId": 6936,
+      "name": "Moon Rift Style - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4919f79b93e0/models/items/mirana/moonrift_head/moonrift_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4919f79b93e0/models/items/mirana/moonrift_head/moonrift_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_head/moonrift_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_head_no_mask-5b327f8865c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4919f79b93e0/models/items/mirana/moonrift_head/moonrift_head_color_tga_1c85614b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/moonrift_head/moonrift_head.vmdl",
+        "modelPaths": [
+          "models/items/mirana/moonrift_head/moonrift_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Moon Rift Style Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/mirana/moonrift_head/moonrift_head",
+            "modelPaths": [
+              "models/items/mirana/moonrift_head/moonrift_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Moon Rift Style Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/mirana/moonrift_head_no_mask/moonrift_head_no_mask",
+            "modelPaths": [
+              "models/items/mirana/moonrift_head_no_mask/moonrift_head_no_mask.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4693:mirana-nightsilver-hair",
+      "itemId": 4693,
+      "name": "Nightsilver Locks",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/dc6ea74aa355/models/items/mirana/mirana_nightsilver_hair/mirana_nightsilver_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/dc6ea74aa355/models/items/mirana/mirana_nightsilver_hair/mirana_nightsilver_hair.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_nightsilver_hair/mirana_nightsilver_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_nightsilver_hair-c1e63f5fc87a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/dc6ea74aa355/models/items/mirana/mirana_nightsilver_hair/mirana_nightsilver_hair_color_tga_bfc9e347.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:34025:meoth-luminous-priestess-crown",
+      "itemId": 34025,
+      "name": "Photax Fluttercat  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/464d4fe0db0e/models/items/mirana/meoth_luminous_priestess_crown/meoth_luminous_priestess_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/464d4fe0db0e/models/items/mirana/meoth_luminous_priestess_crown/meoth_luminous_priestess_crown.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/meoth_luminous_priestess_crown/meoth_luminous_priestess_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_crown-3d83c91af2b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/464d4fe0db0e/models/items/mirana/meoth_luminous_priestess_crown/meoth_luminous_priestess_crown_color_tga_daba9e69.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36092:mirana-dark-carnival-head",
+      "itemId": 36092,
+      "name": "Selemene Showgirl  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7352ae84aa6c/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/7352ae84aa6c/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_dark_carnival_head-43b2e09d5a31.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7352ae84aa6c/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_head_color_psd_7213b8b1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_head.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_dark_carnival/mirana_dark_carnival_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7100:snowstorm-head",
+      "itemId": 7100,
+      "name": "Snowstorm Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d244a8330be0/models/items/mirana/snowstorm_head/snowstorm_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d244a8330be0/models/items/mirana/snowstorm_head/snowstorm_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/snowstorm_head/snowstorm_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowstorm_head-12fb37ca373d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d244a8330be0/models/items/mirana/snowstorm_head/snowstorm_head_color_tga_f892f9fb.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:14418:mirana-spirit-of-the-sacred-grove-head",
+      "itemId": 14418,
+      "name": "Spirit of the Sacred Grove  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6f3c0592721d/models/items/mirana/mirana_spirit_of_the_sacred_grove_head/mirana_spirit_of_the_sacred_grove_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/6f3c0592721d/models/items/mirana/mirana_spirit_of_the_sacred_grove_head/mirana_spirit_of_the_sacred_grove_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_spirit_of_the_sacred_grove_head/mirana_spirit_of_the_sacred_grove_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_head-2f00b4fbc41e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6f3c0592721d/models/items/mirana/mirana_spirit_of_the_sacred_grove_head/mirana_spirit_of_the_sacred_grove_head_color_psd_959be1a1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_spirit_of_the_sacred_grove_head/mirana_spirit_of_the_sacred_grove_head.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_spirit_of_the_sacred_grove_head/mirana_spirit_of_the_sacred_grove_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_ti10_cache/mirana_ti10_cache_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5285:starlight-band",
+      "itemId": 5285,
+      "name": "Starlight Band",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2d4944901961/models/items/mirana/starlight_band/starlight_band.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2d4944901961/models/items/mirana/starlight_band/starlight_band.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/starlight_band/starlight_band.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starlight_band-fa34b43b5dce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2d4944901961/models/items/mirana/starlight_band/starlight_band_color_tga_35ceca62.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4954:sl-head",
+      "itemId": 4954,
+      "name": "Tail of the Moon Rider",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/87e24a0d3706/models/items/mirana/sl_head/sl_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/87e24a0d3706/models/items/mirana/sl_head/sl_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/sl_head/sl_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sl_head-f7ba40625161.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/87e24a0d3706/models/items/mirana/sl_head/sl_head_color_tga_a19dfa34.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:22325:empress-of-the-moonlight-head",
+      "itemId": 22325,
+      "name": "Temple Gala  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/bac0ddb5dc05/models/items/mirana/empress_of_the_moonlight_head/empress_of_the_moonlight_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/bac0ddb5dc05/models/items/mirana/empress_of_the_moonlight_head/empress_of_the_moonlight_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/empress_of_the_moonlight_head/empress_of_the_moonlight_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_head-020f77cf1491.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/bac0ddb5dc05/models/items/mirana/empress_of_the_moonlight_head/empress_of_the_moonlight_head_color_tga_375502f5.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9269:bohemian-summer-mirana-misc",
+      "itemId": 9269,
+      "name": "Arrows of the Coastal Kingdom",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/480884eeaee7/models/items/mirana/bohemian_summer_mirana_misc/bohemian_summer_mirana_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/480884eeaee7/models/items/mirana/bohemian_summer_mirana_misc/bohemian_summer_mirana_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bohemian_summer_mirana_misc/bohemian_summer_mirana_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_misc-81b44b646e51.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/480884eeaee7/models/items/mirana/bohemian_summer_mirana_misc/bohemian_summer_mirana_misc_color_tga_e6d1ff7e.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6662:crescent-quiver",
+      "itemId": 6662,
+      "name": "Crescent Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a05f9079f896/models/items/mirana/crescent_quiver/crescent_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/a05f9079f896/models/items/mirana/crescent_quiver/crescent_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/crescent_quiver/crescent_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crescent_quiver-5803228799e7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a05f9079f896/models/items/mirana/crescent_quiver/crescent_quiver_color_tga_828f96b1.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8542:warden-of-the-eternal-night-misc",
+      "itemId": 8542,
+      "name": "Darkfall Warden Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7471ec1cef21/models/items/mirana/warden_of_the_eternal_night_misc/warden_of_the_eternal_night_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/7471ec1cef21/models/items/mirana/warden_of_the_eternal_night_misc/warden_of_the_eternal_night_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/warden_of_the_eternal_night_misc/warden_of_the_eternal_night_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_misc-f44f361d1977.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7471ec1cef21/models/items/mirana/warden_of_the_eternal_night_misc/warden_of_the_eternal_night_misc_color_tga_23f1f92e.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6438:dotm-misc",
+      "itemId": 6438,
+      "name": "Dawn of the Moon Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8d4080fa20d9/models/items/mirana/dotm_misc/dotm_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/8d4080fa20d9/models/items/mirana/dotm_misc/dotm_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dotm_misc/dotm_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotm_misc-32f7eee81746.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8d4080fa20d9/models/items/mirana/dotm_misc/dotm_misc_color_tga_c0f95888.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18484:spring2021-midsummer-night-regalia-misc",
+      "itemId": 18484,
+      "name": "Dreams of Midsummer Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2915799bd65b/models/items/mirana/spring2021_midsummer_night_regalia_misc/spring2021_midsummer_night_regalia_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2915799bd65b/models/items/mirana/spring2021_midsummer_night_regalia_misc/spring2021_midsummer_night_regalia_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/spring2021_midsummer_night_regalia_misc/spring2021_midsummer_night_regalia_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_misc-57c240b4b0b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2915799bd65b/models/items/mirana/spring2021_midsummer_night_regalia_misc/spring2021_midsummer_night_regalia_misc_color_png_ff68d3ea.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6153:heavenlyguardian-quiver",
+      "itemId": 6153,
+      "name": "Heavenly Guardian Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c687d7638680/models/items/mirana/heavenlyguardian_quiver/heavenlyguardian_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/c687d7638680/models/items/mirana/heavenlyguardian_quiver/heavenlyguardian_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/heavenlyguardian_quiver/heavenlyguardian_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlyguardian_quiver-005fbe56f886.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c687d7638680/models/items/mirana/heavenlyguardian_quiver/heavenlyguardian_quiver_color_tga_5af51867.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4955:sl-quiver",
+      "itemId": 4955,
+      "name": "Lion Quiver of the Moon Rider",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7b2a2bf9d9a2/models/items/mirana/sl_quiver/sl_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/7b2a2bf9d9a2/models/items/mirana/sl_quiver/sl_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/sl_quiver/sl_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sl_quiver-c40cf78bc65b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7b2a2bf9d9a2/models/items/mirana/sl_quiver/sl_quiver_color_tga_bff4b822.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:409:quiver",
+      "itemId": 409,
+      "name": "Miranas Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b84178bea754/models/heroes/mirana/quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/b84178bea754/models/heroes/mirana/quiver.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/quiver-f92364ed3905.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b84178bea754/models/heroes/mirana/quiver_color_tga_394e8d26.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6937:moonrift-quiver",
+      "itemId": 6937,
+      "name": "Moon Rift Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/50062c11f009/models/items/mirana/moonrift_quiver/moonrift_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/50062c11f009/models/items/mirana/moonrift_quiver/moonrift_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_quiver/moonrift_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_quiver-9bc8f74744ab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/50062c11f009/models/items/mirana/moonrift_quiver/moonrift_quiver_color_tga_217f285c.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4690:mirana-nightsilver-quiver",
+      "itemId": 4690,
+      "name": "Nightsilver Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4100a48f1b58/models/items/mirana/mirana_nightsilver_quiver/mirana_nightsilver_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4100a48f1b58/models/items/mirana/mirana_nightsilver_quiver/mirana_nightsilver_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_nightsilver_quiver/mirana_nightsilver_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_nightsilver_quiver-590629c559c2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4100a48f1b58/models/items/mirana/mirana_nightsilver_quiver/mirana_nightsilver_quiver_color_tga_f97c3467.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:34029:meoth-luminous-priestess-quiver",
+      "itemId": 34029,
+      "name": "Photax Fluttercat  Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ab041f804d5c/models/items/mirana/meoth_luminous_priestess_quiver/meoth_luminous_priestess_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/ab041f804d5c/models/items/mirana/meoth_luminous_priestess_quiver/meoth_luminous_priestess_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/meoth_luminous_priestess_quiver/meoth_luminous_priestess_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_quiver-f710bd873e15.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ab041f804d5c/models/items/mirana/meoth_luminous_priestess_quiver/meoth_luminous_priestess_quiver_color_tga_d71c6ece.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9100:blue-wintermoon-misc",
+      "itemId": 9100,
+      "name": "Quiver of the Wintermoon",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d2821f701ee1/models/items/mirana/blue_wintermoon_misc/blue_wintermoon_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d2821f701ee1/models/items/mirana/blue_wintermoon_misc/blue_wintermoon_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/blue_wintermoon_misc/blue_wintermoon_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blue_wintermoon_misc-bc2989e17e88.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d2821f701ee1/models/items/mirana/blue_wintermoon_misc/blue_wintermoon_misc_color_png_a1435567.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36096:mirana-dark-carnival-misc",
+      "itemId": 36096,
+      "name": "Selemene Showgirl  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/34d5b56a62bb/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/34d5b56a62bb/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_dark_carnival_misc-090f9baa6973.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/34d5b56a62bb/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_misc_color_tga_d5967332.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7098:snowstorm-misc",
+      "itemId": 7098,
+      "name": "Snowstorm Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b91da5d2a1fd/models/items/mirana/snowstorm_misc/snowstorm_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/b91da5d2a1fd/models/items/mirana/snowstorm_misc/snowstorm_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/snowstorm_misc/snowstorm_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowstorm_misc-9bb92a4c7370.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b91da5d2a1fd/models/items/mirana/snowstorm_misc/snowstorm_misc_color_tga_3dfae741.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:14417:mirana-spirit-of-the-sacred-grove-misc",
+      "itemId": 14417,
+      "name": "Spirit of the Sacred Grove  Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/835c2d067df0/models/items/mirana/mirana_spirit_of_the_sacred_grove_misc/mirana_spirit_of_the_sacred_grove_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/835c2d067df0/models/items/mirana/mirana_spirit_of_the_sacred_grove_misc/mirana_spirit_of_the_sacred_grove_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_spirit_of_the_sacred_grove_misc/mirana_spirit_of_the_sacred_grove_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_misc-89ebca876077.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/835c2d067df0/models/items/mirana/mirana_spirit_of_the_sacred_grove_misc/mirana_spirit_of_the_sacred_grove_misc_color_psd_518b59ae.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_spirit_of_the_sacred_grove_misc/mirana_spirit_of_the_sacred_grove_misc.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_spirit_of_the_sacred_grove_misc/mirana_spirit_of_the_sacred_grove_misc.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_ti10_cache/mirana_ti10_cache_quiver.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5286:starlight-quiver",
+      "itemId": 5286,
+      "name": "Starlight Quiver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f938f8934bab/models/items/mirana/starlight_quiver/starlight_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/f938f8934bab/models/items/mirana/starlight_quiver/starlight_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/starlight_quiver/starlight_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starlight_quiver-e28077a04839.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f938f8934bab/models/items/mirana/starlight_quiver/starlight_quiver_color_tga_458d5ea7.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:22327:empress-of-the-moonlight-misc",
+      "itemId": 22327,
+      "name": "Temple Gala  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Quiver",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f90cd361099c/models/items/mirana/empress_of_the_moonlight_misc/empress_of_the_moonlight_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/f90cd361099c/models/items/mirana/empress_of_the_moonlight_misc/empress_of_the_moonlight_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/empress_of_the_moonlight_misc/empress_of_the_moonlight_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_misc-610d1b8cefc3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f90cd361099c/models/items/mirana/empress_of_the_moonlight_misc/empress_of_the_moonlight_misc_color_tga_f56cf7ed.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4953:sl-cat",
+      "itemId": 4953,
+      "name": "Andalmere the Litigon",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/90e32393ea76/models/items/mirana/sl_cat/sl_cat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/90e32393ea76/models/items/mirana/sl_cat/sl_cat.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/sl_cat/sl_cat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sl_cat-8d965c04679e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/90e32393ea76/models/items/mirana/sl_cat/sl_cat_color_tga_13d3b398.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9247:ti8-wyvernmount",
+      "itemId": 9247,
+      "name": "Axia of Metira",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "taunt"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0bf282fc15ea/models/items/mirana/ti8_wyvernmount/ti8_wyvernmount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/0bf282fc15ea/models/items/mirana/ti8_wyvernmount/ti8_wyvernmount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/ti8_wyvernmount/ti8_wyvernmount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_wyvernmount-76f5fb5dd5ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0bf282fc15ea/models/items/mirana/ti8_wyvernmount/ti8_wyvernmount01_color_psd_c00b441f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/ti8_wyvernmount/ti8_wyvernmount.vmdl",
+        "modelPaths": [
+          "models/items/mirana/ti8_wyvernmount/ti8_wyvernmount.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_ti8_immortal_mount/mirana_ti8_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_ti8_immortal_mount/mirana_ti8_immortal_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_ti8_immortal_mount/mirana_ti8_immortal_leap_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_ti8_immortal_mount/mirana_ti8_immortal_leap_trail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_leap_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_leap_trail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6440:dotm-mount",
+      "itemId": 6440,
+      "name": "Beast of the Moon",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/fd6c7e04bfbc/models/items/mirana/dotm_mount/dotm_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/fd6c7e04bfbc/models/items/mirana/dotm_mount/dotm_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dotm_mount/dotm_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotm_mount-a52613af6990.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/fd6c7e04bfbc/models/items/mirana/dotm_mount/dotm_mount_color_tga_eedac1a7.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5578:bramblehorn",
+      "itemId": 5578,
+      "name": "Bramblehorn",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/dfe8fdc8e9bb/models/items/mirana/bramblehorn/bramblehorn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/dfe8fdc8e9bb/models/items/mirana/bramblehorn/bramblehorn.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bramblehorn/bramblehorn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bramblehorn-e023446d77ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/dfe8fdc8e9bb/models/items/mirana/bramblehorn/bramblehorn_color_tga_5f3a8a2b.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8539:warden-of-the-eternal-night-mount",
+      "itemId": 8539,
+      "name": "Darkfall",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b7b9afb3fce0/models/items/mirana/warden_of_the_eternal_night_mount/warden_of_the_eternal_night_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/b7b9afb3fce0/models/items/mirana/warden_of_the_eternal_night_mount/warden_of_the_eternal_night_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/warden_of_the_eternal_night_mount/warden_of_the_eternal_night_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_mount-40eb227f1983.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/b7b9afb3fce0/models/items/mirana/warden_of_the_eternal_night_mount/warden_of_the_eternal_night_mount_color_tga_d1ca0aac.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/warden_of_the_eternal_night_mount/warden_of_the_eternal_night_mount.vmdl",
+        "modelPaths": [
+          "models/items/mirana/warden_of_the_eternal_night_mount/warden_of_the_eternal_night_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_darkfall_warden/mirana_darkfall_mount_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_darkfall_warden/mirana_warden_mount_tail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18483:spring2021-midsummer-night-regalia-mount",
+      "itemId": 18483,
+      "name": "Dreams of Midsummer Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d14e1c6e09bd/models/items/mirana/spring2021_midsummer_night_regalia_mount/spring2021_midsummer_night_regalia_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d14e1c6e09bd/models/items/mirana/spring2021_midsummer_night_regalia_mount/spring2021_midsummer_night_regalia_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/spring2021_midsummer_night_regalia_mount/spring2021_midsummer_night_regalia_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_mount-874453f80c9c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d14e1c6e09bd/models/items/mirana/spring2021_midsummer_night_regalia_mount/mount_crystal_color_png_9b845e2d.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7099:snowstorm-mount",
+      "itemId": 7099,
+      "name": "Jinky the Lion",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/9219025abd58/models/items/mirana/snowstorm_mount/snowstorm_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/9219025abd58/models/items/mirana/snowstorm_mount/snowstorm_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/snowstorm_mount/snowstorm_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowstorm_mount-5e96f1dbd767.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/9219025abd58/models/items/mirana/snowstorm_mount/snowstorm_mount_color_tga_e22a86c4.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:404:mount",
+      "itemId": 404,
+      "name": "Miranas Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ebb38b4c63a1/models/heroes/mirana/mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/ebb38b4c63a1/models/heroes/mirana/mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mount-149345a3b2d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ebb38b4c63a1/models/heroes/mirana/mirana_cat_color_tga_f42e2316.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7398:moon-griffon",
+      "itemId": 7398,
+      "name": "Moon Griffon",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "quality:genuine",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/388e4764b849/models/items/mirana/moon_griffon/moon_griffon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/388e4764b849/models/items/mirana/moon_griffon/moon_griffon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moon_griffon/moon_griffon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moon_griffon3-a05ace13db18.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/388e4764b849/models/items/mirana/moon_griffon/moon_griffon_color_tga_f6a9cd8d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/moon_griffon/moon_griffon.vmdl",
+        "modelPaths": [
+          "models/items/mirana/moon_griffon/moon_griffon.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_moon_griffon/mirana_moon_griffon_eyes_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_moon_griffon/mirana_moon_griffon_tail_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6934:moonrift-mount",
+      "itemId": 6934,
+      "name": "Moonrift",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a031976a8e10/models/items/mirana/moonrift_mount/moonrift_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/a031976a8e10/models/items/mirana/moonrift_mount/moonrift_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_mount/moonrift_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_mount-a7beb12f9456.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a031976a8e10/models/items/mirana/moonrift_mount/moonrift_mount_color_tga_cb6e732b.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5287:morcant",
+      "itemId": 5287,
+      "name": "Morcant",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/17255b53828a/models/items/mirana/morcant/morcant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/17255b53828a/models/items/mirana/morcant/morcant.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/morcant/morcant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/morcant-85468230c928.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/17255b53828a/models/items/mirana/morcant/morcant_color_tga_e1043c84.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9101:blue-wintermoon-mount",
+      "itemId": 9101,
+      "name": "Mount of the Wintermoon",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/77f153b11a8a/models/items/mirana/blue_wintermoon_mount/blue_wintermoon_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/77f153b11a8a/models/items/mirana/blue_wintermoon_mount/blue_wintermoon_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/blue_wintermoon_mount/blue_wintermoon_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blue_wintermoon_mount-f9204ed3301f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/77f153b11a8a/models/items/mirana/blue_wintermoon_mount/blue_wintermoon_mount_color_png_9722188.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6874:nightsilver-gryphon",
+      "itemId": 6874,
+      "name": "Nightsilver Gryphon",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/40359c3f72dc/models/items/mirana/nightsilver_gryphon/nightsilver_gryphon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/40359c3f72dc/models/items/mirana/nightsilver_gryphon/nightsilver_gryphon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/nightsilver_gryphon/nightsilver_gryphon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nightsilver_gryphon-bc87c9c6e9a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/40359c3f72dc/models/items/mirana/nightsilver_gryphon/nightsilver_gryphon_color_tga_9c99f0ba.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6158:heavenlyguardian-mount",
+      "itemId": 6158,
+      "name": "Noctis the Heavenly Qilin Guardian",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/1506d02583e6/models/items/mirana/heavenlyguardian_mount/heavenlyguardian_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/1506d02583e6/models/items/mirana/heavenlyguardian_mount/heavenlyguardian_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/heavenlyguardian_mount/heavenlyguardian_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlyguardian_mount-48b98157a202.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/1506d02583e6/models/items/mirana/heavenlyguardian_mount/heavenlyguardian_mount_color_tga_66cf4d14.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4880:lunardragon-mount",
+      "itemId": 4880,
+      "name": "Ormr the Lunar Dragon",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6739c3891af9/models/items/mirana/lunardragon_mount/lunardragon_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/6739c3891af9/models/items/mirana/lunardragon_mount/lunardragon_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/lunardragon_mount/lunardragon_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lunardragon_mount-640bfa04916d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6739c3891af9/models/items/mirana/lunardragon_mount/lunardragon_mount_color_tga_7cb39e19.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:34028:meoth-luminous-priestess-meoth",
+      "itemId": 34028,
+      "name": "Photax Fluttercat  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f732dcf072de/models/items/mirana/meoth_luminous_priestess_meoth/meoth_luminous_priestess_meoth.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/f732dcf072de/models/items/mirana/meoth_luminous_priestess_meoth/meoth_luminous_priestess_meoth.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/meoth_luminous_priestess_meoth/meoth_luminous_priestess_meoth.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_meoth-91e19bb734ab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f732dcf072de/models/items/mirana/meoth_luminous_priestess_meoth/meoth_luminous_priestess_meoth_color_tga_afb2c59a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/meoth_luminous_priestess_meoth/meoth_luminous_priestess_meoth.vmdl",
+        "modelPaths": [
+          "models/items/mirana/meoth_luminous_priestess_meoth/meoth_luminous_priestess_meoth.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/meoth/meoth_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9270:bohemian-summer-mirana-mount",
+      "itemId": 9270,
+      "name": "Pterois of the Coastal Kingdom",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/88ddee7cba9e/models/items/mirana/bohemian_summer_mirana_mount/bohemian_summer_mirana_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/88ddee7cba9e/models/items/mirana/bohemian_summer_mirana_mount/bohemian_summer_mirana_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bohemian_summer_mirana_mount/bohemian_summer_mirana_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_mount-25490f6da9cd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/88ddee7cba9e/models/items/mirana/bohemian_summer_mirana_mount/bohemian_summer_mirana_mount_color_psd_969d4bdd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/bohemian_summer_mirana_mount/bohemian_summer_mirana_mount.vmdl",
+        "modelPaths": [
+          "models/items/mirana/bohemian_summer_mirana_mount/bohemian_summer_mirana_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_bohemian/mirana_bohemian_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7081:dc-mountupdate",
+      "itemId": 7081,
+      "name": "Sapphire SabreLynx",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ae331efceabe/models/items/mirana/dc_mountupdate/dc_mountupdate.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/ae331efceabe/models/items/mirana/dc_mountupdate/dc_mountupdate.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dc_mountupdate/dc_mountupdate.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dc_mountupdate-f70ca939b091.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/ae331efceabe/models/items/mirana/dc_mountupdate/dc_mountupdate_color_tga_de8de04b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/dc_mountupdate/dc_mountupdate.vmdl",
+        "modelPaths": [
+          "models/items/mirana/dc_mountupdate/dc_mountupdate.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_sapphire_sabrelynx/mirana_sabrelynx_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_sapphire_sabrelynx/mirana_sabrelynx_feet.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_sapphire_sabrelynx/mirana_sabrelynx_tail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36095:mirana-dark-carnival-mount",
+      "itemId": 36095,
+      "name": "Selemene Showgirl  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d9793d610cfb/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d9793d610cfb/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_dark_carnival_mount-3143fc3e5331.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d9793d610cfb/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_mount_color_tga_fee70b30.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Mirana Dark Carnival  Mount 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount",
+            "tags": [
+              "modifier:model_skin",
+              "skin:1",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Mirana Dark Carnival  Mount 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount_style1",
+            "tags": [
+              "modifier:model_skin",
+              "skin:2",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36095:mirana-dark-carnival-mount:style-1",
+      "itemId": 36095,
+      "name": "Selemene Showgirl  Mount - Mirana Dark Carnival Mount 1",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:model_skin",
+        "rarity:mythical",
+        "skin:2",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d9793d610cfb/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d9793d610cfb/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d9793d610cfb/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_mount_color_tga_fee70b30.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Mirana Dark Carnival  Mount 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount",
+            "tags": [
+              "modifier:model_skin",
+              "skin:1",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Mirana Dark Carnival  Mount 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/mirana/mirana_dark_carnival/mirana_dark_carnival_mount_style1",
+            "tags": [
+              "modifier:model_skin",
+              "skin:2",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6661:crescent-mount",
+      "itemId": 6661,
+      "name": "Seleni",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/64582699d7d0/models/items/mirana/crescent_mount/crescent_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/64582699d7d0/models/items/mirana/crescent_mount/crescent_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/crescent_mount/crescent_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crescent_mount-61863e1d02ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/64582699d7d0/models/items/mirana/crescent_mount/crescent_mount_color_tga_b5ca03da.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:14416:mirana-spirit-of-the-sacred-grove-mount",
+      "itemId": 14416,
+      "name": "Spirit of the Sacred Grove  Guardian",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c824f91db71a/models/items/mirana/mirana_spirit_of_the_sacred_grove_mount/mirana_spirit_of_the_sacred_grove_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/c824f91db71a/models/items/mirana/mirana_spirit_of_the_sacred_grove_mount/mirana_spirit_of_the_sacred_grove_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_spirit_of_the_sacred_grove_mount/mirana_spirit_of_the_sacred_grove_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_mount-163200afa963.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c824f91db71a/models/items/mirana/mirana_spirit_of_the_sacred_grove_mount/mirana_spirit_of_the_sacred_grove_mount_color_psd_b0716713.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_spirit_of_the_sacred_grove_mount/mirana_spirit_of_the_sacred_grove_mount.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_spirit_of_the_sacred_grove_mount/mirana_spirit_of_the_sacred_grove_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_ti10_cache/mirana_ti10_cache_mount.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4387:mirana-nightsilver-owlion",
+      "itemId": 4387,
+      "name": "Stryff the Owlion",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4b074686c4b0/models/items/mirana/mirana_nightsilver_owlion/mirana_nightsilver_owlion.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4b074686c4b0/models/items/mirana/mirana_nightsilver_owlion/mirana_nightsilver_owlion.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_nightsilver_owlion/mirana_nightsilver_owlion.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_nightsilver_owlion-c153ed2b11de.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4b074686c4b0/models/items/mirana/mirana_nightsilver_owlion/mirana_nightsilver_owlion_color_tga_8e6a4d9d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_nightsilver_owlion/mirana_nightsilver_owlion.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_nightsilver_owlion/mirana_nightsilver_owlion.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:22328:empress-of-the-moonlight-mount",
+      "itemId": 22328,
+      "name": "Temple Gala  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d7de6aa2e98d/models/items/mirana/empress_of_the_moonlight_mount/empress_of_the_moonlight_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d7de6aa2e98d/models/items/mirana/empress_of_the_moonlight_mount/empress_of_the_moonlight_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/empress_of_the_moonlight_mount/empress_of_the_moonlight_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_mount-6cb25b89f1a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d7de6aa2e98d/models/items/mirana/empress_of_the_moonlight_mount/empress_of_the_moonlight_mount_color_tga_4ef91e52.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:17100:tsukumo-the-moon-cloud",
+      "itemId": 17100,
+      "name": "Tsukumo the Moon Cloud",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2890daf03e95/models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2890daf03e95/models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tsukumo_the_moon_cloud-f53b9cf84384.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2890daf03e95/models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud_color_tga_f7c0bec3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl",
+        "modelPaths": [
+          "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_tsukumo/mirana_tsukumo_ambient_alt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tsukumo the Moon Cloud 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/mirana/sukumo_the_moon_cloud/tsukumo_the_moon_cloud",
+            "modelPaths": [
+              "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl"
+            ],
+            "tags": [
+              "modifier:activity",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tsukumo the Moon Cloud 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/mirana/sukumo_the_moon_cloud_2/tsukumo_the_moon_cloud_2",
+            "modelPaths": [
+              "models/items/mirana/nukumo/nukumo.vmdl"
+            ],
+            "assets": [
+              {
+                "path": "particles/econ/items/mirana/mirana_tsukumo/mirana_tsukumo_ambient_alt.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:17100:tsukumo-the-moon-cloud:style-1",
+      "itemId": 17100,
+      "name": "Tsukumo the Moon Cloud - Tsukumo the Moon Cloud 1",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "quality:genuine",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2890daf03e95/models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2890daf03e95/models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2890daf03e95/models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud_color_tga_f7c0bec3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl",
+        "modelPaths": [
+          "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_tsukumo/mirana_tsukumo_ambient_alt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tsukumo the Moon Cloud 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/mirana/sukumo_the_moon_cloud/tsukumo_the_moon_cloud",
+            "modelPaths": [
+              "models/items/mirana/tsukumo_the_moon_cloud/tsukumo_the_moon_cloud.vmdl"
+            ],
+            "tags": [
+              "modifier:activity",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tsukumo the Moon Cloud 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/mirana/sukumo_the_moon_cloud_2/tsukumo_the_moon_cloud_2",
+            "modelPaths": [
+              "models/items/mirana/nukumo/nukumo.vmdl"
+            ],
+            "assets": [
+              {
+                "path": "particles/econ/items/mirana/mirana_tsukumo/mirana_tsukumo_ambient_alt.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6663:crescent-shoulder",
+      "itemId": 6663,
+      "name": "Crescent Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0d98f7e35f65/models/items/mirana/crescent_shoulder/crescent_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/0d98f7e35f65/models/items/mirana/crescent_shoulder/crescent_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/crescent_shoulder/crescent_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crescent_shoulder-ddaf6ecd1706.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0d98f7e35f65/models/items/mirana/crescent_shoulder/crescent_shoulder_color_tga_8b2a5ca4.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8537:warden-of-the-eternal-night-shoulder",
+      "itemId": 8537,
+      "name": "Darkfall Warden Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2ea6b501fb7c/models/items/mirana/warden_of_the_eternal_night_shoulder/warden_of_the_eternal_night_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2ea6b501fb7c/models/items/mirana/warden_of_the_eternal_night_shoulder/warden_of_the_eternal_night_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/warden_of_the_eternal_night_shoulder/warden_of_the_eternal_night_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_shoulder-4f68364993a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2ea6b501fb7c/models/items/mirana/warden_of_the_eternal_night_shoulder/warden_of_the_eternal_night_shoulder_color_psd_1d044ec0.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6446:dotm-shoulder",
+      "itemId": 6446,
+      "name": "Dawn of the Moon Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4e0d522cb92d/models/items/mirana/dotm_shoulder/dotm_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4e0d522cb92d/models/items/mirana/dotm_shoulder/dotm_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dotm_shoulder/dotm_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotm_shoulder-ca943dd6b082.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4e0d522cb92d/models/items/mirana/dotm_shoulder/dotm_shoulder_color_tga_23965f78.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18485:spring2021-midsummer-night-regalia-shoulder",
+      "itemId": 18485,
+      "name": "Dreams of Midsummer Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a8f6ed177811/models/items/mirana/spring2021_midsummer_night_regalia_shoulder/spring2021_midsummer_night_regalia_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/a8f6ed177811/models/items/mirana/spring2021_midsummer_night_regalia_shoulder/spring2021_midsummer_night_regalia_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/spring2021_midsummer_night_regalia_shoulder/spring2021_midsummer_night_regalia_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_shoulder-6a5f8ede092e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a8f6ed177811/models/items/mirana/spring2021_midsummer_night_regalia_shoulder/spring2021_midsummer_night_regalia_shoulder_color_png_54bee613.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4951:sl-shoulder",
+      "itemId": 4951,
+      "name": "Fluted Guard of the Moon Rider",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0328e1d5ac07/models/items/mirana/sl_shoulder/sl_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/0328e1d5ac07/models/items/mirana/sl_shoulder/sl_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/sl_shoulder/sl_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sl_shoulder-31ec7b68e74b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0328e1d5ac07/models/items/mirana/sl_shoulder/sl_shoulder_color_tga_330d8150.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6155:heavenlyguardian-shoulder",
+      "itemId": 6155,
+      "name": "Heavenly Guardian Crest",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/3b8421b34766/models/items/mirana/heavenlyguardian_shoulder/heavenlyguardian_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/3b8421b34766/models/items/mirana/heavenlyguardian_shoulder/heavenlyguardian_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/heavenlyguardian_shoulder/heavenlyguardian_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlyguardian_shoulder-4df6215d85b7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/3b8421b34766/models/items/mirana/heavenlyguardian_shoulder/heavenlyguardian_shoulder_color_tga_35744b83.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:407:shoulders",
+      "itemId": 407,
+      "name": "Miranas Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d2e1bd831dd0/models/heroes/mirana/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/d2e1bd831dd0/models/heroes/mirana/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders-5d5810f49326.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/d2e1bd831dd0/models/heroes/mirana/shoulder_color_tga_89d4801b.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6938:moonrift-shoulder",
+      "itemId": 6938,
+      "name": "Moon Rift Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/15fce73badca/models/items/mirana/moonrift_shoulder/moonrift_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/15fce73badca/models/items/mirana/moonrift_shoulder/moonrift_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_shoulder/moonrift_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_shoulder-c7bbc7bf2dda.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/15fce73badca/models/items/mirana/moonrift_shoulder/moonrift_shoulder_color_tga_a4e52718.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9272:bohemian-summer-mirana-shoulder",
+      "itemId": 9272,
+      "name": "Necklaces of the Coastal Kingdom",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2ad14a033371/models/items/mirana/bohemian_summer_mirana_shoulder/bohemian_summer_mirana_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/2ad14a033371/models/items/mirana/bohemian_summer_mirana_shoulder/bohemian_summer_mirana_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bohemian_summer_mirana_shoulder/bohemian_summer_mirana_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_shoulder-e7287e7add1a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/2ad14a033371/models/items/mirana/bohemian_summer_mirana_shoulder/bohemian_summer_mirana_shoulder_color_tga_51878ad9.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4692:mirana-nightsilver-shoulders",
+      "itemId": 4692,
+      "name": "Nightsilver Regalia",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7afdc871f151/models/items/mirana/mirana_nightsilver_shoulders/mirana_nightsilver_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/7afdc871f151/models/items/mirana/mirana_nightsilver_shoulders/mirana_nightsilver_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_nightsilver_shoulders/mirana_nightsilver_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_nightsilver_shoulders-c7c25f442f82.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7afdc871f151/models/items/mirana/mirana_nightsilver_shoulders/mirana_nightsilver_shoulders_color_tga_1200fd22.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6997:blue-wintermoon-shoulder",
+      "itemId": 6997,
+      "name": "Pauldrons of the Wintermoon",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/02bddbceb97c/models/items/mirana/blue_wintermoon_shoulder/blue_wintermoon_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/02bddbceb97c/models/items/mirana/blue_wintermoon_shoulder/blue_wintermoon_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/blue_wintermoon_shoulder/blue_wintermoon_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blue_wintermoon_shoulder-9f3aac378c71.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/02bddbceb97c/models/items/mirana/blue_wintermoon_shoulder/blue_wintermoon_shoulder_color_png_768f9552.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:34031:meoth-luminous-priestess-cape",
+      "itemId": 34031,
+      "name": "Photax Fluttercat  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a98b29250239/models/items/mirana/meoth_luminous_priestess_cape/meoth_luminous_priestess_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/a98b29250239/models/items/mirana/meoth_luminous_priestess_cape/meoth_luminous_priestess_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/meoth_luminous_priestess_cape/meoth_luminous_priestess_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_cape-785b784d99aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/a98b29250239/models/items/mirana/meoth_luminous_priestess_cape/meoth_luminous_priestess_cape_color_tga_fa5213d4.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36098:mirana-dark-carnival-shoulders",
+      "itemId": 36098,
+      "name": "Selemene Showgirl  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0c684dc75a51/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/0c684dc75a51/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_dark_carnival_shoulder-374d4f5d1188.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/0c684dc75a51/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_shoulders_color_tga_c8556b57.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7101:snowstorm-shoulder",
+      "itemId": 7101,
+      "name": "Snowstorm Mantle",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7e1a1a9a91aa/models/items/mirana/snowstorm_shoulder/snowstorm_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/7e1a1a9a91aa/models/items/mirana/snowstorm_shoulder/snowstorm_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/snowstorm_shoulder/snowstorm_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowstorm_shoulder-fc71ea3ee538.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7e1a1a9a91aa/models/items/mirana/snowstorm_shoulder/snowstorm_shoulder_color_tga_5ca688bf.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:14415:mirana-spirit-of-the-sacred-grove-shoulder",
+      "itemId": 14415,
+      "name": "Spirit of the Sacred Grove  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8cfba21d3491/models/items/mirana/mirana_spirit_of_the_sacred_grove_shoulder/mirana_spirit_of_the_sacred_grove_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/8cfba21d3491/models/items/mirana/mirana_spirit_of_the_sacred_grove_shoulder/mirana_spirit_of_the_sacred_grove_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_spirit_of_the_sacred_grove_shoulder/mirana_spirit_of_the_sacred_grove_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_shoulder-8afc1a82c653.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8cfba21d3491/models/items/mirana/mirana_spirit_of_the_sacred_grove_shoulder/mirana_spirit_of_the_sacred_grove_shoulder_color_psd_b5df12dd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_spirit_of_the_sacred_grove_shoulder/mirana_spirit_of_the_sacred_grove_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_spirit_of_the_sacred_grove_shoulder/mirana_spirit_of_the_sacred_grove_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_ti10_cache/mirana_ti10_cache_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5288:starlight-finery",
+      "itemId": 5288,
+      "name": "Starlight Finery",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f61f51319ad1/models/items/mirana/starlight_finery/starlight_finery.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/f61f51319ad1/models/items/mirana/starlight_finery/starlight_finery.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/starlight_finery/starlight_finery.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starlight_finery-dccf2e927e4b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/f61f51319ad1/models/items/mirana/starlight_finery/starlight_finery_color_tga_3a22a6b8.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:22342:empress-of-the-moonlight-shoulder",
+      "itemId": 22342,
+      "name": "Temple Gala  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/970b6b248c3f/models/items/mirana/empress_of_the_moonlight_shoulder/empress_of_the_moonlight_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/970b6b248c3f/models/items/mirana/empress_of_the_moonlight_shoulder/empress_of_the_moonlight_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/empress_of_the_moonlight_shoulder/empress_of_the_moonlight_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_shoulder-79a0427257e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/970b6b248c3f/models/items/mirana/empress_of_the_moonlight_shoulder/empress_of_the_moonlight_shoulder_color_tga_e4ac401d.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9273:bohemian-summer-mirana-weapon",
+      "itemId": 9273,
+      "name": "Bow of the Coastal Kingdom",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/98c71d716040/models/items/mirana/bohemian_summer_mirana_weapon/bohemian_summer_mirana_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/98c71d716040/models/items/mirana/bohemian_summer_mirana_weapon/bohemian_summer_mirana_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/bohemian_summer_mirana_weapon/bohemian_summer_mirana_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_weapon-3ae2a36e0519.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/98c71d716040/models/items/mirana/bohemian_summer_mirana_weapon/bohemian_summer_mirana_weapon_color_psd_e2051f55.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4950:sl-bow",
+      "itemId": 4950,
+      "name": "Bow of the Moon Rider",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c8d0af4634da/models/items/mirana/sl_bow/sl_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/c8d0af4634da/models/items/mirana/sl_bow/sl_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/sl_bow/sl_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sl_bow-dce31fdff54a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c8d0af4634da/models/items/mirana/sl_bow/sl_bow_color_tga_e81e142e.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:9099:blue-wintermoon-weapon",
+      "itemId": 9099,
+      "name": "Bow of the Wintermoon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c9c6a9ad93f8/models/items/mirana/blue_wintermoon_weapon/blue_wintermoon_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/c9c6a9ad93f8/models/items/mirana/blue_wintermoon_weapon/blue_wintermoon_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/blue_wintermoon_weapon/blue_wintermoon_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blue_wintermoon_weapon-5d30d3aa90b2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c9c6a9ad93f8/models/items/mirana/blue_wintermoon_weapon/blue_wintermoon_weapon_color_png_c088d9d.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6658:crescent-bow",
+      "itemId": 6658,
+      "name": "Crescent Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/12b773e73a95/models/items/mirana/crescent_bow/crescent_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/12b773e73a95/models/items/mirana/crescent_bow/crescent_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/crescent_bow/crescent_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crescent_bow-d1567b4023a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/12b773e73a95/models/items/mirana/crescent_bow/crescent_bow_color_tga_ad07c51c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/crescent_bow/crescent_bow.vmdl",
+        "modelPaths": [
+          "models/items/mirana/crescent_bow/crescent_bow.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_crescent_arrow/mirana_spell_crescent_arrow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_spell_arrow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8540:warden-of-the-eternal-night-weapon",
+      "itemId": 8540,
+      "name": "Darkfall Warden Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/81c19c18d3a7/models/items/mirana/warden_of_the_eternal_night_weapon/warden_of_the_eternal_night_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/81c19c18d3a7/models/items/mirana/warden_of_the_eternal_night_weapon/warden_of_the_eternal_night_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/warden_of_the_eternal_night_weapon/warden_of_the_eternal_night_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_weapon-43ba8b70e31e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/81c19c18d3a7/models/items/mirana/warden_of_the_eternal_night_weapon/warden_of_the_eternal_night_weapon_color_psd_24464db2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/warden_of_the_eternal_night_weapon/warden_of_the_eternal_night_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mirana/warden_of_the_eternal_night_weapon/warden_of_the_eternal_night_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_darkfall_warden/mirana_warden_bow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6437:dotm-weapon",
+      "itemId": 6437,
+      "name": "Dawn of the Moon Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7ccdfce2244b/models/items/mirana/dotm_weapon/dotm_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/7ccdfce2244b/models/items/mirana/dotm_weapon/dotm_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/dotm_weapon/dotm_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotm_weapon-88ff5688f985.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7ccdfce2244b/models/items/mirana/dotm_weapon/dotm_weapon_color_tga_193c412.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:8737:weta-divine-grace",
+      "itemId": 8737,
+      "name": "Divine Grace",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/3f5e9b30e104/models/items/mirana/weta_divine_grace/weta_divine_grace.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/3f5e9b30e104/models/items/mirana/weta_divine_grace/weta_divine_grace.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/weta_divine_grace/weta_divine_grace.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weta_divine_grace-a2f23cd20cd7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/3f5e9b30e104/models/items/mirana/weta_divine_grace/weta_divine_grace_color_tga_1e696b75.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:18486:spring2021-midsummer-night-regalia-bow",
+      "itemId": 18486,
+      "name": "Dreams of Midsummer Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/efddefad9e2b/models/items/mirana/spring2021_midsummer_night_regalia_bow/spring2021_midsummer_night_regalia_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/efddefad9e2b/models/items/mirana/spring2021_midsummer_night_regalia_bow/spring2021_midsummer_night_regalia_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/spring2021_midsummer_night_regalia_bow/spring2021_midsummer_night_regalia_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_bow-2bc5fb4707d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/efddefad9e2b/models/items/mirana/spring2021_midsummer_night_regalia_bow/spring2021_midsummer_night_regalia_bow_color_png_d6249825.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6156:heavenlyguardian-bow",
+      "itemId": 6156,
+      "name": "Heavenly Guardian Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/61820c4a2053/models/items/mirana/heavenlyguardian_bow/heavenlyguardian_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/61820c4a2053/models/items/mirana/heavenlyguardian_bow/heavenlyguardian_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/heavenlyguardian_bow/heavenlyguardian_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlyguardian_bow-4b31b6b0ed72.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/61820c4a2053/models/items/mirana/heavenlyguardian_bow/heavenlyguardian_bow_color_tga_35c3bf60.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:403:bow",
+      "itemId": 403,
+      "name": "Miranas Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8ed1ee0b401e/models/heroes/mirana/bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/8ed1ee0b401e/models/heroes/mirana/bow.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mirana/bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bow-ec31253973ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/8ed1ee0b401e/models/heroes/mirana/mirana_bow_color_psd_4b9c714a.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:6939:moonrift-weapon",
+      "itemId": 6939,
+      "name": "Moon Rift Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/9a17c0177a75/models/items/mirana/moonrift_weapon/moonrift_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/9a17c0177a75/models/items/mirana/moonrift_weapon/moonrift_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/moonrift_weapon/moonrift_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonrift_weapon-2c9e0422ebb8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/9a17c0177a75/models/items/mirana/moonrift_weapon/moonrift_weapon_color_psd_b44d0ac7.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:4694:mirana-nightsilver-weapon",
+      "itemId": 4694,
+      "name": "Nightsilver Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/946342e1184b/models/items/mirana/mirana_nightsilver_weapon/mirana_nightsilver_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/946342e1184b/models/items/mirana/mirana_nightsilver_weapon/mirana_nightsilver_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_nightsilver_weapon/mirana_nightsilver_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_nightsilver_weapon-eb6d9eb29218.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/946342e1184b/models/items/mirana/mirana_nightsilver_weapon/mirana_nightsilver_weapon_color_tga_59ca9c9f.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:34026:meoth-luminous-priestess-bow",
+      "itemId": 34026,
+      "name": "Photax Fluttercat  Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/10d64c5b6305/models/items/mirana/meoth_luminous_priestess_bow/meoth_luminous_priestess_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/10d64c5b6305/models/items/mirana/meoth_luminous_priestess_bow/meoth_luminous_priestess_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/meoth_luminous_priestess_bow/meoth_luminous_priestess_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_bow-6c20b2331fbb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/10d64c5b6305/models/items/mirana/meoth_luminous_priestess_bow/meoth_luminous_priestess_bow_color_tga_83d53f20.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/meoth_luminous_priestess_bow/meoth_luminous_priestess_bow.vmdl",
+        "modelPaths": [
+          "models/items/mirana/meoth_luminous_priestess_bow/meoth_luminous_priestess_bow.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/meoth/meoth_sacred_arrow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/meoth/meoth_sacred_arrow_owner.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_spell_arrow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_spell_arrow_fx.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7936:ti6-starstorm-bow-model",
+      "itemId": 7936,
+      "name": "Pulsar Remnant",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4efbcd31658a/models/items/mirana/ti6_starstorm_bow/mesh/ti6_starstorm_bow_model.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/4efbcd31658a/models/items/mirana/ti6_starstorm_bow/mesh/ti6_starstorm_bow_model.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/ti6_starstorm_bow/mesh/ti6_starstorm_bow_model.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_starstorm_bow_model-1b43e8c6ddde.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/4efbcd31658a/models/items/mirana/ti6_starstorm_bow/mesh/ti6_starstorm_bow_color_psd_5de6bdfe.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/ti6_starstorm_bow/mesh/ti6_starstorm_bow_model.vmdl",
+        "modelPaths": [
+          "models/items/mirana/ti6_starstorm_bow/mesh/ti6_starstorm_bow_model.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_starstorm_bow/mirana_bowstring_starstorm.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mirana/mirana_starstorm_bow/mirana_starstorm_starfall_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mirana/mirana_starfall_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:36093:mirana-dark-carnival-weapon",
+      "itemId": 36093,
+      "name": "Selemene Showgirl  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6182416da83c/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/6182416da83c/models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_dark_carnival/mirana_dark_carnival_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_dark_carnival_weapon-98d53cc8a8a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/6182416da83c/models/items/mirana/mirana_dark_carnival/dark_carnival_mirana_weapon_color_tga_d5982152.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:7096:snowstorm-weapon",
+      "itemId": 7096,
+      "name": "Snowstorm Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/481f18fd15ff/models/items/mirana/snowstorm_weapon/snowstorm_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/481f18fd15ff/models/items/mirana/snowstorm_weapon/snowstorm_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/snowstorm_weapon/snowstorm_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowstorm_weapon-80c44bd3a29b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/481f18fd15ff/models/items/mirana/snowstorm_weapon/snowstorm_weapon_color_tga_bf96f595.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:14414:mirana-spirit-of-the-sacred-grove-weapon",
+      "itemId": 14414,
+      "name": "Spirit of the Sacred Grove  Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7d95160ab3b7/models/items/mirana/mirana_spirit_of_the_sacred_grove_weapon/mirana_spirit_of_the_sacred_grove_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/7d95160ab3b7/models/items/mirana/mirana_spirit_of_the_sacred_grove_weapon/mirana_spirit_of_the_sacred_grove_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/mirana_spirit_of_the_sacred_grove_weapon/mirana_spirit_of_the_sacred_grove_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_weapon-4efa7f5564cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/7d95160ab3b7/models/items/mirana/mirana_spirit_of_the_sacred_grove_weapon/mirana_spirit_of_the_sacred_grove_weapon_color_psd_95187fd4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mirana/mirana_spirit_of_the_sacred_grove_weapon/mirana_spirit_of_the_sacred_grove_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mirana/mirana_spirit_of_the_sacred_grove_weapon/mirana_spirit_of_the_sacred_grove_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mirana/mirana_ti10_cache/mirana_ti10_cache_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:5289:starlight-bow",
+      "itemId": 5289,
+      "name": "Starlight Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/916bea28e9ed/models/items/mirana/starlight_bow/starlight_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/916bea28e9ed/models/items/mirana/starlight_bow/starlight_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/starlight_bow/starlight_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starlight_bow-793f3809677b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/916bea28e9ed/models/items/mirana/starlight_bow/starlight_bow_color_tga_ed9d1707.png"
+    },
+    {
+      "id": "npc_dota_hero_mirana:item-model:22343:empress-of-the-moonlight-weapon",
+      "itemId": 22343,
+      "name": "Temple Gala  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c4b996340e2c/models/items/mirana/empress_of_the_moonlight_weapon/empress_of_the_moonlight_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mirana/c4b996340e2c/models/items/mirana/empress_of_the_moonlight_weapon/empress_of_the_moonlight_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mirana/empress_of_the_moonlight_weapon/empress_of_the_moonlight_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_weapon-34e964bce49b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mirana/c4b996340e2c/models/items/mirana/empress_of_the_moonlight_weapon/empress_of_the_moonlight_weapon_color_tga_5a953da7.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_mirana:core-set:20530:crescent",
+      "name": "Crescent",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6657,
+        6658,
+        6659,
+        6660,
+        6661,
+        6662,
+        6663
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_mirana_crescent-9a6e79db1ee5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20936:darkfall-warden",
+      "name": "Darkfall Warden",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        8537,
+        8538,
+        8539,
+        8540,
+        8541,
+        8542,
+        8834
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/warden_of_the_eternal_night_loading_screen-f4d5708eee0f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20492:dawn-of-the-moon",
+      "name": "Dawn of the Moon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6437,
+        6438,
+        6439,
+        6440,
+        6445,
+        6446,
+        6448
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/dotm_weapon-88ff5688f985.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20665:dotacinema-presents-the-xmg-captains-draft-20",
+      "name": "DotaCinema Presents the XMG Captains Draft 20",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        404
+      ],
+      "sourceItemIds": [
+        7081
+      ],
+      "slots": [
+        "mount"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/dc_mountupdate-f70ca939b091.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:21813:dreams-of-midsummer",
+      "name": "Dreams of Midsummer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        18480,
+        18481,
+        18482,
+        18483,
+        18484,
+        18485,
+        18486
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/spring2021_midsummer_night_regalia_loading_screen-81ec99aacb98.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20125:garments-of-the-nightsilver-sentinel",
+      "name": "Garments of the Nightsilver Sentinel",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        4387,
+        4645,
+        4690,
+        4691,
+        4692,
+        4693,
+        4694
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/mirana_nightsilver_owlion-c153ed2b11de.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20408:gifts-of-the-heavenly-guardian",
+      "name": "Gifts of the Heavenly Guardian",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6152,
+        6153,
+        6154,
+        6155,
+        6156,
+        6157,
+        6158
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/heavenlyguardian_bracer-3b97230a0ade.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:21111:heiress-of-the-coastal-kingdom",
+      "name": "Heiress of the Coastal Kingdom",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        9269,
+        9270,
+        9271,
+        9272,
+        9273,
+        9274,
+        9275
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/bohemian_summer_mirana_bohemian_summer_loading_screen-2fc52e2539f2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20637:moon-rift",
+      "name": "Moon Rift",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6934,
+        6935,
+        6936,
+        6937,
+        6938,
+        6939,
+        6941
+      ],
+      "styleSelections": {
+        "6936": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_moonrift-6bf42a1b2a32.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20637:moon-rift:style-1",
+      "name": "Moon Rift - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6934,
+        6935,
+        6936,
+        6937,
+        6938,
+        6939,
+        6941
+      ],
+      "styleSelections": {
+        "6936": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/moonrift_head_no_mask-5b327f8865c4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:34032:photax-fluttercat",
+      "name": "Photax Fluttercat",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        34025,
+        34026,
+        34027,
+        34028,
+        34029,
+        34030,
+        34031
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/meoth_luminous_priestess_crown-3d83c91af2b9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20626:pride-of-the-wintermoon",
+      "name": "Pride of the Wintermoon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6993,
+        6997,
+        7563,
+        9098,
+        9099,
+        9100,
+        9101
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/blue_wintermoon_ls-1cbcc6be9015.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20639:promo-moon-rift",
+      "name": "Promo Moon Rift",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6934,
+        6935,
+        6936,
+        6937,
+        6938,
+        6939,
+        6941
+      ],
+      "styleSelections": {
+        "6936": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_moonrift-6bf42a1b2a32.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20639:promo-moon-rift:style-1",
+      "name": "Promo Moon Rift - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        6934,
+        6935,
+        6936,
+        6937,
+        6938,
+        6939,
+        6941
+      ],
+      "styleSelections": {
+        "6936": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/moonrift_head_no_mask-5b327f8865c4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:36091:selemene-showgirl",
+      "name": "Selemene Showgirl",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        36092,
+        36093,
+        36094,
+        36095,
+        36096,
+        36097,
+        36098
+      ],
+      "styleSelections": {
+        "36095": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/mirana_dark_carnival_head-43b2e09d5a31.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:36091:selemene-showgirl:style-1",
+      "name": "Selemene Showgirl - Mirana Dark Carnival Mount 1",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        36092,
+        36093,
+        36094,
+        36095,
+        36096,
+        36097,
+        36098
+      ],
+      "styleSelections": {
+        "36095": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:model_skin",
+        "rarity:mythical",
+        "skin:2",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/mirana_dark_carnival_head-43b2e09d5a31.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20642:snowstorm-huntress",
+      "name": "Snowstorm Huntress",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        7095,
+        7096,
+        7097,
+        7098,
+        7099,
+        7100,
+        7101
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/snowstorm-158fd683a1c9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:21556:spirit-of-the-sacred-grove",
+      "name": "Spirit of the Sacred Grove",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        14414,
+        14415,
+        14416,
+        14417,
+        14418,
+        14419,
+        14420
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/mirana_spirit_of_the_sacred_grove_weapon-4efa7f5564cf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20227:starlight-set",
+      "name": "Starlight Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        5283,
+        5284,
+        5285,
+        5286,
+        5287,
+        5288,
+        5289
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/starlight_armguards-2a50cca82459.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:22323:temple-gala",
+      "name": "Temple Gala",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        22322,
+        22324,
+        22325,
+        22327,
+        22328,
+        22342,
+        22343
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/empress_of_the_moonlight_ls-c81b5cdc7d39.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mirana:core-set:20166:the-moon-rider-set",
+      "name": "The Moon Rider Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "sourceItemIds": [
+        4949,
+        4950,
+        4951,
+        4952,
+        4953,
+        4954,
+        4955
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/sl_arms-7a13e0871c83.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 112787722,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 817
+  }
+}

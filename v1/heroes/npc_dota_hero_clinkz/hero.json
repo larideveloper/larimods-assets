@@ -1,0 +1,3066 @@
+{
+  "heroId": "npc_dota_hero_clinkz",
+  "sourceHeroId": "npc_dota_hero_clinkz",
+  "variantId": "default",
+  "heroName": "Clinkz",
+  "heroSlug": "clinkz",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_clinkz/e2a524e89f5c/models/heroes/clinkz/clinkz.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 59,
+      "name": "Clinkz Quiver",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5711c39042fe/models/heroes/clinkz/clinkz_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/5711c39042fe/models/heroes/clinkz/clinkz_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_back.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5711c39042fe/models/heroes/clinkz/clinkz_arrowquiver_color_psd_2adaacfc.png"
+    },
+    {
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 56,
+      "name": "Clinkz Skull",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/89a80ce89afe/models/heroes/clinkz/clinkz_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/89a80ce89afe/models/heroes/clinkz/clinkz_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/89a80ce89afe/models/heroes/clinkz/clinkz_head_color_psd_c429426b.png"
+    },
+    {
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "itemId": 61,
+      "name": "Clinkz Gloves",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/73f72106e46f/models/heroes/clinkz/clinkz_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/73f72106e46f/models/heroes/clinkz/clinkz_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_gloves.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/73f72106e46f/models/heroes/clinkz/clinkz_glove_color_psd_1cd03d7d.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 60,
+      "name": "Clinkz Horns",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/520f8134058d/models/heroes/clinkz/clinkz_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/520f8134058d/models/heroes/clinkz/clinkz_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_horns.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/520f8134058d/models/heroes/clinkz/clinkz_horns_color_psd_ce475be0.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 58,
+      "name": "Clinkz Shoulder Pads",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/1c2bf2adcaad/models/heroes/clinkz/clinkz_pads.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/1c2bf2adcaad/models/heroes/clinkz/clinkz_pads.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_pads.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/1c2bf2adcaad/models/heroes/clinkz/clinkz_pads_color_psd_e4446df3.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 57,
+      "name": "Clinkz Bow",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6ecae591c28e/models/heroes/clinkz/clinkz_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/6ecae591c28e/models/heroes/clinkz/clinkz_bow.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_bow.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6ecae591c28e/models/heroes/clinkz/clinkz_bow_color_psd_2988765a.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8559:degraded-soul-hunter-back",
+      "itemId": 8559,
+      "name": "Cask of the Hunt Eternal",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/58986d0b77ea/models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/58986d0b77ea/models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_back-3c624fec8b6f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/58986d0b77ea/models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back_color_tga_335a30d4.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:59:clinkz-back",
+      "itemId": 59,
+      "name": "Clinkz Quiver",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5711c39042fe/models/heroes/clinkz/clinkz_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/5711c39042fe/models/heroes/clinkz/clinkz_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_back-70a1b74f9b25.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5711c39042fe/models/heroes/clinkz/clinkz_arrowquiver_color_psd_2adaacfc.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7349:bone-fletcher-quiver",
+      "itemId": 7349,
+      "name": "Compendium Scorched Fletcher Quiver",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/dc38b24490e1/models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/dc38b24490e1/models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_quiver-e36c05b477cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/dc38b24490e1/models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver_color_tga_26a22ef7.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4591:justpicsnothingmnew",
+      "itemId": 4591,
+      "name": "Dark Quiver of the Vandal",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/365185632e3a/models/items/clinkz/justpicsnothingmnew/justpicsnothingmnew.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/365185632e3a/models/items/clinkz/justpicsnothingmnew/justpicsnothingmnew.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/justpicsnothingmnew/justpicsnothingmnew.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/justpicsnothingmnew-bdc9328f14ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/365185632e3a/models/items/clinkz/justpicsnothingmnew/justpicsnothingmnew_color_tga_a2b6248e.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4973:clinkz-back-goc",
+      "itemId": 4973,
+      "name": "Demon Quiver of the Crypt Guardian",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/1f4f5ceca0af/models/items/clinkz/clinkz_back_goc/clinkz_back_goc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/1f4f5ceca0af/models/items/clinkz/clinkz_back_goc/clinkz_back_goc.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_back_goc/clinkz_back_goc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_back_goc-68da79ad0e06.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/1f4f5ceca0af/models/items/clinkz/clinkz_back_goc/clinkz_back_goc_color_tga_d4089685.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:22140:degraded-soul-hunter-back",
+      "itemId": 22140,
+      "name": "Lineage Cask of the Hunt Eternal",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/975036f96c5d/models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/975036f96c5d/models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_back-1f182ae6aaa5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/975036f96c5d/models/items/clinkz/degraded_soul_hunter_back/degraded_soul_hunter_back_color_tga_335a30d4.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:5151:lost-viking-back",
+      "itemId": 5151,
+      "name": "Lost Hills Shield",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b7216207d8fb/models/items/clinkz/lost_viking_back/lost_viking_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/b7216207d8fb/models/items/clinkz/lost_viking_back/lost_viking_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/lost_viking_back/lost_viking_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lost_viking_back-89fd2ebd7ce5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b7216207d8fb/models/items/clinkz/lost_viking_back/lost_viking_back_color_tga_ab5dbd.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:9162:ti7-clinkz-immortal",
+      "itemId": 9162,
+      "name": "Maraxiforms Ire",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/10f44205f2d0/models/items/clinkz/ti7_clinkz_immortal/ti7_clinkz_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/10f44205f2d0/models/items/clinkz/ti7_clinkz_immortal/ti7_clinkz_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti7_clinkz_immortal/ti7_clinkz_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti7_clinkz_immortal-22b43b1d00b3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/10f44205f2d0/models/items/clinkz/ti7_clinkz_immortal/clinkz_back_immortal_color_psd_f42b0e36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti7_clinkz_immortal/ti7_clinkz_immortal.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti7_clinkz_immortal/ti7_clinkz_immortal.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/clinkz/clinkz_maraxiform/clinkz_maraxiform_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/clinkz/clinkz_maraxiform/clinkz_maraxiform_searing_arrow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/clinkz/clinkz_maraxiform/clinkz_maraxiform_searing_arrow_deso.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/items_fx/desolator_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_clinkz/clinkz_searing_arrow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7870:khans-champion-back",
+      "itemId": 7870,
+      "name": "Quiver of the Burning Decree",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4d1f97a7f638/models/items/clinkz/khans_champion_back/khans_champion_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/4d1f97a7f638/models/items/clinkz/khans_champion_back/khans_champion_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/khans_champion_back/khans_champion_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/khans_champion_back-2e2eac29f55b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4d1f97a7f638/models/items/clinkz/khans_champion_back/khans_champion_back_color_png_72171c10.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8293:redbull-clinkz-back",
+      "itemId": 8293,
+      "name": "Quiver of the Fallen Cloak",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/df16e36743d9/models/items/clinkz/redbull_clinkz_back/redbull_clinkz_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/df16e36743d9/models/items/clinkz/redbull_clinkz_back/redbull_clinkz_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/redbull_clinkz_back/redbull_clinkz_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redbull_clinkz_back-3698b906b670.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/df16e36743d9/models/items/clinkz/redbull_clinkz_back/redbull_clinkz_back_color_tga_de057689.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7929:ti6-clinkz-back",
+      "itemId": 7929,
+      "name": "Quiver of the Urushin Huntsman",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/a07f3ce090e4/models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/a07f3ce090e4/models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_back-6f07df74170a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/clinkz/ti6_quest/clinkz_ti6_quest_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quiver of the Urushin Huntsman 0",
+            "skin": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/clinkz/ti6_quest/clinkz_ti6_quest_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quiver of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_back/ti6_clinkz_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/clinkz/ti6_quest/clinkz_ti6_quest_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7929:ti6-clinkz-back:style-1",
+      "itemId": 7929,
+      "name": "Quiver of the Urushin Huntsman - Style 2",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/a07f3ce090e4/models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/a07f3ce090e4/models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_back_style1-e1c776bc04dc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_back/ti6_clinkz_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/clinkz/ti6_quest/clinkz_ti6_quest_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quiver of the Urushin Huntsman 0",
+            "skin": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/clinkz/ti6_quest/clinkz_ti6_quest_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quiver of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_back/ti6_clinkz_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/clinkz/ti6_quest/clinkz_ti6_quest_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7141:bone-fletcher-quiver",
+      "itemId": 7141,
+      "name": "Scorched Fletcher Quiver",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/ccd278b5608f/models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/ccd278b5608f/models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_quiver-e36c05b477cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/ccd278b5608f/models/items/clinkz/bone_fletcher_quiver/bone_fletcher_quiver_color_tga_26a22ef7.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13708:leader-of-the-molten-army-clinkz-back",
+      "itemId": 13708,
+      "name": "Vote Only Leader of the Molten army  Clinkz Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/bd901ace06b9/models/items/clinkz/leader_of_the_molten_army_clinkz_back/leader_of_the_molten_army_clinkz_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/bd901ace06b9/models/items/clinkz/leader_of_the_molten_army_clinkz_back/leader_of_the_molten_army_clinkz_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/leader_of_the_molten_army_clinkz_back/leader_of_the_molten_army_clinkz_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leader_of_the_molten_army_clinkz_back-6f6860ccedaa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/bd901ace06b9/models/items/clinkz/leader_of_the_molten_army_clinkz_back/leader_of_the_molten_army_clinkz_back_color_tga_da63f098.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13188:ti9-cache-clinkz-restless-shikaree-back",
+      "itemId": 13188,
+      "name": "Vote Only TI9 Cache Clinkz Restless Shikaree Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/96cddd1b1e6d/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_back/ti9_cache_clinkz_restless_shikaree_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/96cddd1b1e6d/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_back/ti9_cache_clinkz_restless_shikaree_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_back/ti9_cache_clinkz_restless_shikaree_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_clinkz_restless_shikaree_back-5109e9a7012b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/96cddd1b1e6d/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_back/ti9_cache_clinkz_restless_shikaree_back_color_tga_76c77802.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:14766:clinkz-the-faith-of-avengers-back",
+      "itemId": 14766,
+      "name": "Withering Pain  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/88220e9ad308/models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/88220e9ad308/models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_the_faith_of_avengers_back-4f26cf830e1a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/88220e9ad308/models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back_color_tga_102aac1d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/clinkz_the_faith_of_avengers_back/clinkz_the_faith_of_avengers_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/clinkz/clinkz_the_faith_of_the_avengers/clinkz_the_faith_of_the_avengers_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:56:clinkz-head",
+      "itemId": 56,
+      "name": "Clinkz Skull",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/89a80ce89afe/models/heroes/clinkz/clinkz_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/89a80ce89afe/models/heroes/clinkz/clinkz_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/89a80ce89afe/models/heroes/clinkz/clinkz_head_color_psd_c429426b.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:61:clinkz-gloves",
+      "itemId": 61,
+      "name": "Clinkz Gloves",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/73f72106e46f/models/heroes/clinkz/clinkz_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/73f72106e46f/models/heroes/clinkz/clinkz_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_gloves-946d74421cf5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/73f72106e46f/models/heroes/clinkz/clinkz_glove_color_psd_1cd03d7d.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7346:bone-fletcher-gloves",
+      "itemId": 7346,
+      "name": "Compendium Scorched Fletcher Gloves",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/9ca0727e8bf7/models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/9ca0727e8bf7/models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_gloves-abb446fca2d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/9ca0727e8bf7/models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves_color_tga_f9ee5700.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4972:clinkz-hands-goc",
+      "itemId": 4972,
+      "name": "Gauntlets of the Crypt Guardian",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/a9b9f587efa4/models/items/clinkz/clinkz_hands_goc/clinkz_hands_goc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/a9b9f587efa4/models/items/clinkz/clinkz_hands_goc/clinkz_hands_goc.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_hands_goc/clinkz_hands_goc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_hands_goc-06306a051ec3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/a9b9f587efa4/models/items/clinkz/clinkz_hands_goc/clinkz_hands_goc_color_tga_367b80a3.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8292:redbull-clinkz-gloves",
+      "itemId": 8292,
+      "name": "Gloves of the Fallen Cloak",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/2cf5bff5e2c0/models/items/clinkz/redbull_clinkz_gloves/redbull_clinkz_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/2cf5bff5e2c0/models/items/clinkz/redbull_clinkz_gloves/redbull_clinkz_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/redbull_clinkz_gloves/redbull_clinkz_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redbull_clinkz_gloves-82365346f0f9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/2cf5bff5e2c0/models/items/clinkz/redbull_clinkz_gloves/redbull_clinkz_gloves_color_tga_8995e960.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8560:degraded-soul-hunter-gloves",
+      "itemId": 8560,
+      "name": "Gloves of the Hunt Eternal",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/526d3ad722e0/models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/526d3ad722e0/models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_gloves-c8bdc4299742.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/526d3ad722e0/models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves_color_tga_c369e36f.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7868:khans-champion-gloves",
+      "itemId": 7868,
+      "name": "Guards of the Burning Decree",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/34ec0d52c65e/models/items/clinkz/khans_champion_gloves/khans_champion_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/34ec0d52c65e/models/items/clinkz/khans_champion_gloves/khans_champion_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/khans_champion_gloves/khans_champion_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/khans_champion_gloves-3b8ebe91e01f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/34ec0d52c65e/models/items/clinkz/khans_champion_gloves/khans_champion_gloves_color_psd_df85523e.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:22141:degraded-soul-hunter-gloves",
+      "itemId": 22141,
+      "name": "Lineage Gloves of the Hunt Eternal",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/ce3c60140bd6/models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/ce3c60140bd6/models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_gloves-bb07e5375e09.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/ce3c60140bd6/models/items/clinkz/degraded_soul_hunter_gloves/degraded_soul_hunter_gloves_color_tga_c369e36f.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:5153:lost-viking-gauntlet",
+      "itemId": 5153,
+      "name": "Lost Hills Gauntlets",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/abcfa1114f0c/models/items/clinkz/lost_viking_gauntlet/lost_viking_gauntlet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/abcfa1114f0c/models/items/clinkz/lost_viking_gauntlet/lost_viking_gauntlet.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/lost_viking_gauntlet/lost_viking_gauntlet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lost_viking_gauntlet-c31aa03cb02b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/abcfa1114f0c/models/items/clinkz/lost_viking_gauntlet/lost_viking_gauntlet_color_tga_86326e9d.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7135:bone-fletcher-gloves",
+      "itemId": 7135,
+      "name": "Scorched Fletcher Gloves",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/557545735681/models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/557545735681/models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_gloves-abb446fca2d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/557545735681/models/items/clinkz/bone_fletcher_gloves/bone_fletcher_gloves_color_tga_f9ee5700.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4374:clinkz-skeleton-hands",
+      "itemId": 4374,
+      "name": "Skeletal Claw of the Vandal",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5ed23799ab81/models/items/clinkz/clinkz_skeleton_hands/clinkz_skeleton_hands.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/5ed23799ab81/models/items/clinkz/clinkz_skeleton_hands/clinkz_skeleton_hands.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_skeleton_hands/clinkz_skeleton_hands.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_skeleton_hands-ee40dd3c1153.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5ed23799ab81/models/items/clinkz/clinkz_skeleton_hands/clinkz_skeleton_hands_color_tga_758f2634.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7917:ti6-clinkz-gloves",
+      "itemId": 7917,
+      "name": "Talons of the Urushin Huntsman",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f230fcb102f3/models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/f230fcb102f3/models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_gloves-7af7865adeec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f230fcb102f3/models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves_color_psd_14b7a606.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Talons of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Talons of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7917:ti6-clinkz-gloves:style-1",
+      "itemId": 7917,
+      "name": "Talons of the Urushin Huntsman - Talons of the Urushin Huntsman 1",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f230fcb102f3/models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/f230fcb102f3/models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_gloves_style1-494b17e846ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f230fcb102f3/models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves_color_psd_14b7a606.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Talons of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Talons of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_gloves/ti6_clinkz_gloves_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13707:leader-of-the-molten-army-clinkz-gloves",
+      "itemId": 13707,
+      "name": "Vote Only Leader of the Molten army  Clinkz Gloves",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/cc1f6adb38dd/models/items/clinkz/leader_of_the_molten_army_clinkz_gloves/leader_of_the_molten_army_clinkz_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/cc1f6adb38dd/models/items/clinkz/leader_of_the_molten_army_clinkz_gloves/leader_of_the_molten_army_clinkz_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/leader_of_the_molten_army_clinkz_gloves/leader_of_the_molten_army_clinkz_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leader_of_the_molten_army_clinkz_gloves-f376a501d7ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/cc1f6adb38dd/models/items/clinkz/leader_of_the_molten_army_clinkz_gloves/leader_of_the_molten_army_clinkz_gloves_color_tga_63dfc2fc.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13189:ti9-cache-clinkz-restless-shikaree-gloves",
+      "itemId": 13189,
+      "name": "Vote Only TI9 Cache Clinkz Restless Shikaree Gloves",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/8c2886b2aa03/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_gloves/ti9_cache_clinkz_restless_shikaree_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/8c2886b2aa03/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_gloves/ti9_cache_clinkz_restless_shikaree_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_gloves/ti9_cache_clinkz_restless_shikaree_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_clinkz_restless_shikaree_gloves-41b554cd11ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/8c2886b2aa03/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_gloves/ti9_cache_clinkz_restless_shikaree_gloves_color_tga_561fe2f4.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:14767:clinkz-the-faith-of-avengers-gloves",
+      "itemId": 14767,
+      "name": "Withering Pain  Gloves",
+      "slot": "gloves",
+      "slotDisplayName": "LoadoutSlot Gloves",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/da254cd7a80d/models/items/clinkz/clinkz_the_faith_of_avengers_gloves/clinkz_the_faith_of_avengers_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/da254cd7a80d/models/items/clinkz/clinkz_the_faith_of_avengers_gloves/clinkz_the_faith_of_avengers_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_the_faith_of_avengers_gloves/clinkz_the_faith_of_avengers_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_the_faith_of_avengers_gloves-943cbeb940aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/da254cd7a80d/models/items/clinkz/clinkz_the_faith_of_avengers_gloves/clinkz_the_faith_of_avengers_gloves_color_tga_ad6ec9e.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:60:clinkz-horns",
+      "itemId": 60,
+      "name": "Clinkz Horns",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/520f8134058d/models/heroes/clinkz/clinkz_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/520f8134058d/models/heroes/clinkz/clinkz_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_horns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_horns-b295828f0d6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/520f8134058d/models/heroes/clinkz/clinkz_horns_color_psd_ce475be0.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7347:bone-fletcher-head-alt-cyclops",
+      "itemId": 7347,
+      "name": "Compendium Scorched Fletcher Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4e46465dc7e0/models/items/clinkz/bone_fletcher_head_alt_cyclops/bone_fletcher_head_alt_cyclops.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/4e46465dc7e0/models/items/clinkz/bone_fletcher_head_alt_cyclops/bone_fletcher_head_alt_cyclops.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_head_alt_cyclops/bone_fletcher_head_alt_cyclops.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_head_alt_cyclops-6a3ccb839caf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4e46465dc7e0/models/items/clinkz/bone_fletcher_head_alt_cyclops/bone_fletcher_head_alt_cyclops_color_tga_dfac849f.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4605:clinkzhead",
+      "itemId": 4605,
+      "name": "Demon Guise of the Vandal",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0adcb63a5e63/models/items/clinkz/clinkzhead/clinkzhead.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/0adcb63a5e63/models/items/clinkz/clinkzhead/clinkzhead.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkzhead/clinkzhead.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkzhead-97615eea4027.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0adcb63a5e63/models/items/clinkz/clinkzhead/clinkzhead_color_tga_42469e0a.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7871:khans-champion-head",
+      "itemId": 7871,
+      "name": "Helmet of the Burning Decree",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f3d9be02f14b/models/items/clinkz/khans_champion_head/khans_champion_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/f3d9be02f14b/models/items/clinkz/khans_champion_head/khans_champion_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/khans_champion_head/khans_champion_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/khans_champion_head-c813b6de1882.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f3d9be02f14b/models/items/clinkz/khans_champion_head/khans_champion_head_color_tga_de7da4f5.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8290:redbull-clinkz-head",
+      "itemId": 8290,
+      "name": "Hood of the Fallen Cloak",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/097f620e944a/models/items/clinkz/redbull_clinkz_head/redbull_clinkz_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/097f620e944a/models/items/clinkz/redbull_clinkz_head/redbull_clinkz_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/redbull_clinkz_head/redbull_clinkz_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redbull_clinkz_head-a50561a9607f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/097f620e944a/models/items/clinkz/redbull_clinkz_head/redbull_clinkz_head_color_tga_a4c9f815.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4971:clinkz-helmet01-goc",
+      "itemId": 4971,
+      "name": "Horns of the Crypt Guardian",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b70e36612c4b/models/items/clinkz/clinkz_helmet01_goc/clinkz_helmet01_goc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/b70e36612c4b/models/items/clinkz/clinkz_helmet01_goc/clinkz_helmet01_goc.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_helmet01_goc/clinkz_helmet01_goc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_helmet01_goc-2d389b798ee6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b70e36612c4b/models/items/clinkz/clinkz_helmet01_goc/clinkz_helmet01_goc_color_tga_5a1623f0.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:22139:degraded-soul-hunter-head",
+      "itemId": 22139,
+      "name": "Lineage Mask of the Hunt Eternal",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/053471ad4894/models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/053471ad4894/models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_head-74b94fcfb51a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/053471ad4894/models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head_color_tga_6849c420.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:5154:lost-viking-helmet",
+      "itemId": 5154,
+      "name": "Lost Hills Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/66698538e589/models/items/clinkz/lost_viking_helmet/lost_viking_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/66698538e589/models/items/clinkz/lost_viking_helmet/lost_viking_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/lost_viking_helmet/lost_viking_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lost_viking_helmet-789ef84e8750.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/66698538e589/models/items/clinkz/lost_viking_helmet/lost_viking_helmet_color_tga_7963eb17.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8558:degraded-soul-hunter-head",
+      "itemId": 8558,
+      "name": "Mask of the Hunt Eternal",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f9bd2eceb368/models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/f9bd2eceb368/models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_head-e3ec6abf79a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f9bd2eceb368/models/items/clinkz/degraded_soul_hunter_head/degraded_soul_hunter_head_color_tga_6849c420.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7348:bone-fletcher-head-helmet",
+      "itemId": 7348,
+      "name": "Scorched Fletcher Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/83b6b8a0897a/models/items/clinkz/bone_fletcher_head_helmet/bone_fletcher_head_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/83b6b8a0897a/models/items/clinkz/bone_fletcher_head_helmet/bone_fletcher_head_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_head_helmet/bone_fletcher_head_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_head_helmet-da41e9a74cf5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/83b6b8a0897a/models/items/clinkz/bone_fletcher_head_helmet/bone_fletcher_head_helmet_color_tga_bd37e012.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13709:leader-of-the-molten-army-clinkz-head",
+      "itemId": 13709,
+      "name": "Vote Only Leader of the Molten army  Clinkz Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0bcb95e0bac5/models/items/clinkz/leader_of_the_molten_army_clinkz_head/leader_of_the_molten_army_clinkz_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/0bcb95e0bac5/models/items/clinkz/leader_of_the_molten_army_clinkz_head/leader_of_the_molten_army_clinkz_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/leader_of_the_molten_army_clinkz_head/leader_of_the_molten_army_clinkz_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leader_of_the_molten_army_clinkz_head-4579f1992795.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0bcb95e0bac5/models/items/clinkz/leader_of_the_molten_army_clinkz_head/leader_of_the_molten_army_clinkz_head_color_tga_90025b0e.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13187:ti9-cache-clinkz-restless-shikaree-head",
+      "itemId": 13187,
+      "name": "Vote Only TI9 Cache Clinkz Restless Shikaree Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4c68454ebc22/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_head/ti9_cache_clinkz_restless_shikaree_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/4c68454ebc22/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_head/ti9_cache_clinkz_restless_shikaree_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_head/ti9_cache_clinkz_restless_shikaree_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_clinkz_restless_shikaree_head-34615aed63ac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4c68454ebc22/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_head/ti9_cache_clinkz_restless_shikaree_head_color_tga_4527cae0.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:14768:clinkz-the-faith-of-avengers-head",
+      "itemId": 14768,
+      "name": "Withering Pain  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6cb5c1a79dc7/models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/6cb5c1a79dc7/models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_the_faith_of_avengers_head-312afe223a71.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6cb5c1a79dc7/models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head_color_tga_1924b4b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/clinkz_the_faith_of_avengers_head/clinkz_the_faith_of_avengers_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/clinkz/clinkz_the_faith_of_the_avengers/clinkz_the_faith_of_the_avengers_helmet_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7918:ti6-clinkz-head",
+      "itemId": 7918,
+      "name": "Wrap of the Urushin Huntsman",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/c420dabb9172/models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/c420dabb9172/models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_head-d59213e55c42.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/c420dabb9172/models/items/clinkz/ti6_clinkz_head/clinkz_head_color_psd_26adcbc0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Wrap of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Wrap of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_head/ti6_clinkz_head_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7918:ti6-clinkz-head:style-1",
+      "itemId": 7918,
+      "name": "Wrap of the Urushin Huntsman - Wrap of the Urushin Huntsman 1",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/c420dabb9172/models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/c420dabb9172/models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_head_style1-b0373e7d2638.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/c420dabb9172/models/items/clinkz/ti6_clinkz_head/clinkz_head_color_psd_26adcbc0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_head/ti6_clinkz_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Wrap of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Wrap of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_head/ti6_clinkz_head_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:58:clinkz-pads",
+      "itemId": 58,
+      "name": "Clinkz Shoulder Pads",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/1c2bf2adcaad/models/heroes/clinkz/clinkz_pads.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/1c2bf2adcaad/models/heroes/clinkz/clinkz_pads.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_pads.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_pads-f329818d1ca1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/1c2bf2adcaad/models/heroes/clinkz/clinkz_pads_color_psd_e4446df3.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7350:bone-fletcher-shoulders",
+      "itemId": 7350,
+      "name": "Compendium Scorched Fletcher Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e5332a8697ab/models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/e5332a8697ab/models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_shoulders-b4991298ebba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e5332a8697ab/models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders_color_tga_ff5b02ce.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8552:degraded-soul-hunter-shoulder",
+      "itemId": 8552,
+      "name": "Kit of the Hunt Eternal",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5473ad597ed1/models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/5473ad597ed1/models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_shoulder-eaa3e0bd1810.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5473ad597ed1/models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder_color_tga_f8f31719.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:22138:degraded-soul-hunter-shoulder",
+      "itemId": 22138,
+      "name": "Lineage Kit of the Hunt Eternal",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/bcb97096ab10/models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/bcb97096ab10/models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_shoulder-26e3d754e942.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/bcb97096ab10/models/items/clinkz/degraded_soul_hunter_shoulder/degraded_soul_hunter_shoulder_color_tga_f8f31719.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:5155:lost-viking-shoulder",
+      "itemId": 5155,
+      "name": "Lost Hills Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5c4449dd9cc3/models/items/clinkz/lost_viking_shoulder/lost_viking_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/5c4449dd9cc3/models/items/clinkz/lost_viking_shoulder/lost_viking_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/lost_viking_shoulder/lost_viking_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lost_viking_shoulder-819a11af3456.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5c4449dd9cc3/models/items/clinkz/lost_viking_shoulder/lost_viking_shoulder_color_tga_21742261.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4742:clinkz-shoulders-goc",
+      "itemId": 4742,
+      "name": "Pauldrons of the Crypt Guardian",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/d2af263a0781/models/items/clinkz/clinkz_shoulders_goc/clinkz_shoulders_goc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/d2af263a0781/models/items/clinkz/clinkz_shoulders_goc/clinkz_shoulders_goc.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_shoulders_goc/clinkz_shoulders_goc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_shoulders_goc-0c38cb9bd64a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/d2af263a0781/models/items/clinkz/clinkz_shoulders_goc/clinkz_shoulders_goc_color_tga_3538f5ad.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7142:bone-fletcher-shoulders",
+      "itemId": 7142,
+      "name": "Scorched Fletcher Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f13bbf744acb/models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/f13bbf744acb/models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_shoulders-b4991298ebba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f13bbf744acb/models/items/clinkz/bone_fletcher_shoulders/bone_fletcher_shoulders_color_tga_ff5b02ce.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7919:ti6-clinkz-shoulder",
+      "itemId": 7919,
+      "name": "Sentinels of the Urushin Huntsman",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e6c20d5347f9/models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/e6c20d5347f9/models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_shoulder-e2d35400e7b0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e6c20d5347f9/models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder_color_psd_a696bb79.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Sentinels of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Sentinels of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7919:ti6-clinkz-shoulder:style-1",
+      "itemId": 7919,
+      "name": "Sentinels of the Urushin Huntsman - Sentinels of the Urushin Huntsman 1",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e6c20d5347f9/models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/e6c20d5347f9/models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_shoulder_style1-b473f3063c52.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e6c20d5347f9/models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder_color_psd_a696bb79.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Sentinels of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Sentinels of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_shoulder/ti6_clinkz_shoulder_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7869:khans-champion-shoulder",
+      "itemId": 7869,
+      "name": "Shoulders of the Burning Decree",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6fb4e495514d/models/items/clinkz/khans_champion_shoulder/khans_champion_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/6fb4e495514d/models/items/clinkz/khans_champion_shoulder/khans_champion_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/khans_champion_shoulder/khans_champion_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/khans_champion_shoulder-1de298eefa63.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6fb4e495514d/models/items/clinkz/khans_champion_shoulder/khans_champion_shoulder_color_psd_8945452a.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8294:redbull-clinkz-shoulder",
+      "itemId": 8294,
+      "name": "Shoulders of the Fallen Cloak",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b80f32968e44/models/items/clinkz/redbull_clinkz_shoulder/redbull_clinkz_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/b80f32968e44/models/items/clinkz/redbull_clinkz_shoulder/redbull_clinkz_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/redbull_clinkz_shoulder/redbull_clinkz_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redbull_clinkz_shoulder-80f18901a033.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b80f32968e44/models/items/clinkz/redbull_clinkz_shoulder/redbull_clinkz_shoulder_color_tga_56b76ca9.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4590:guard",
+      "itemId": 4590,
+      "name": "Torn Guard of the Vandal",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/fb4f8ef6e50e/models/items/clinkz/guard/guard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/fb4f8ef6e50e/models/items/clinkz/guard/guard.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/guard/guard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guard-6962eaf7d345.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/fb4f8ef6e50e/models/items/clinkz/guard/guard_color_tga_ecf11a6c.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13710:leader-of-the-molten-army-clinkz-shoulder",
+      "itemId": 13710,
+      "name": "Vote Only Leader of the Molten army  Clinkz Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/06e1b9c37ab0/models/items/clinkz/leader_of_the_molten_army_clinkz_shoulder/leader_of_the_molten_army_clinkz_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/06e1b9c37ab0/models/items/clinkz/leader_of_the_molten_army_clinkz_shoulder/leader_of_the_molten_army_clinkz_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/leader_of_the_molten_army_clinkz_shoulder/leader_of_the_molten_army_clinkz_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leader_of_the_molten_army_clinkz_shoulder-bc437eecb87d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/06e1b9c37ab0/models/items/clinkz/leader_of_the_molten_army_clinkz_shoulder/leader_of_the_molten_army_clinkz_shoulder_color_tga_bce45d9d.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13186:ti9-cache-clinkz-restless-shikaree-shoulder",
+      "itemId": 13186,
+      "name": "Vote Only TI9 Cache Clinkz Restless Shikaree Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0f82aa238a9a/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_shoulder/ti9_cache_clinkz_restless_shikaree_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/0f82aa238a9a/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_shoulder/ti9_cache_clinkz_restless_shikaree_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_shoulder/ti9_cache_clinkz_restless_shikaree_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_clinkz_restless_shikaree_shoulder-7c05aeb2c828.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0f82aa238a9a/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_shoulder/ti9_cache_clinkz_restless_shikaree_shoulder_color_tga_88ed5914.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:14765:clinkz-the-faith-of-avengers-shoulder",
+      "itemId": 14765,
+      "name": "Withering Pain  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/260e33498907/models/items/clinkz/clinkz_the_faith_of_avengers_shoulder/clinkz_the_faith_of_avengers_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/260e33498907/models/items/clinkz/clinkz_the_faith_of_avengers_shoulder/clinkz_the_faith_of_avengers_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_the_faith_of_avengers_shoulder/clinkz_the_faith_of_avengers_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_the_faith_of_avengers_shoulder-349e47b520fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/260e33498907/models/items/clinkz/clinkz_the_faith_of_avengers_shoulder/clinkz_the_faith_of_avengers_shoulder_color_tga_25bd3b03.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7872:khans-champion-weapon",
+      "itemId": 7872,
+      "name": "Bow of the Burning Decree",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6a4195bb7573/models/items/clinkz/khans_champion_weapon/khans_champion_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/6a4195bb7573/models/items/clinkz/khans_champion_weapon/khans_champion_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/khans_champion_weapon/khans_champion_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/khans_champion_weapon-feb290adb4b8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6a4195bb7573/models/items/clinkz/khans_champion_weapon/khans_champion_weapon_color_psd_1a66eb7d.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4741:clinkz-weapon-goc",
+      "itemId": 4741,
+      "name": "Bow of the Crypt Guardian",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/8144036ffd9f/models/items/clinkz/clinkz_weapon_goc/clinkz_weapon_goc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/8144036ffd9f/models/items/clinkz/clinkz_weapon_goc/clinkz_weapon_goc.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_weapon_goc/clinkz_weapon_goc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_weapon_goc-42e027749145.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/8144036ffd9f/models/items/clinkz/clinkz_weapon_goc/clinkz_weapon_goc_color_tga_e6520bd.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8291:redbull-clinkz-weapon",
+      "itemId": 8291,
+      "name": "Bow of the Fallen Cloak",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0466f9c91ae4/models/items/clinkz/redbull_clinkz_weapon/redbull_clinkz_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/0466f9c91ae4/models/items/clinkz/redbull_clinkz_weapon/redbull_clinkz_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/redbull_clinkz_weapon/redbull_clinkz_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/redbull_clinkz_weapon-44b0ee760326.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0466f9c91ae4/models/items/clinkz/redbull_clinkz_weapon/redbull_clinkz_weapon_color_tga_e6705875.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:8551:degraded-soul-hunter-weapon",
+      "itemId": 8551,
+      "name": "Bow of the Hunt Eternal",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b053af3ad586/models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/b053af3ad586/models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_weapon-a440b802b21c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b053af3ad586/models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon_color_tga_804d6f49.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4618:searing-bow",
+      "itemId": 4618,
+      "name": "Bow of the Searing Soul",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6b9c8d261c51/models/items/clinkz/searing_bow/searing_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/6b9c8d261c51/models/items/clinkz/searing_bow/searing_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/searing_bow/searing_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/searing_bow-123b0f3a2e89.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6b9c8d261c51/models/items/clinkz/searing_bow/searing_bow_color_tga_c68560bd.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7916:ti6-clinkz-weapon",
+      "itemId": 7916,
+      "name": "Bow of the Urushin Huntsman",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/9157a3f0bac7/models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/9157a3f0bac7/models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_weapon-b003e1407b1e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/9157a3f0bac7/models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon_color_psd_e2529070.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Bow of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Bow of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7916:ti6-clinkz-weapon:style-1",
+      "itemId": 7916,
+      "name": "Bow of the Urushin Huntsman - Bow of the Urushin Huntsman 1",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/9157a3f0bac7/models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/9157a3f0bac7/models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_clinkz_weapon_style1-abc4b4d87039.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/9157a3f0bac7/models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon_color_psd_e2529070.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Bow of the Urushin Huntsman 0",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Bow of the Urushin Huntsman 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/clinkz/ti6_clinkz_weapon/ti6_clinkz_weapon_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:57:clinkz-bow",
+      "itemId": 57,
+      "name": "Clinkz Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6ecae591c28e/models/heroes/clinkz/clinkz_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/6ecae591c28e/models/heroes/clinkz/clinkz_bow.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/clinkz/clinkz_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_bow-0a37d4c9b67f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6ecae591c28e/models/heroes/clinkz/clinkz_bow_color_psd_2988765a.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7345:bone-fletcher-bow",
+      "itemId": 7345,
+      "name": "Compendium Scorched Fletcher Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6a0b255b26bb/models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/6a0b255b26bb/models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_bow-6cbf1194e7bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/6a0b255b26bb/models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow_color_tga_2cd64e95.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4600:demonspinerecurve-lod1",
+      "itemId": 4600,
+      "name": "Demon Spine Recurve Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/baa537386f00/models/items/clinkz/demonspinerecurve_lod1/demonspinerecurve_lod1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/baa537386f00/models/items/clinkz/demonspinerecurve_lod1/demonspinerecurve_lod1.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/demonspinerecurve_lod1/demonspinerecurve_lod1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demonspinerecurve_lod1-559bd87a9326.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/baa537386f00/models/items/clinkz/demonspinerecurve_lod1/demonspinerecurve_lod1_color_tga_b52157e.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:5178:bownes",
+      "itemId": 5178,
+      "name": "Heat",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e901d33218cc/models/items/clinkz/bownes/bownes.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/e901d33218cc/models/items/clinkz/bownes/bownes.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bownes/bownes.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bownes-d5e8bb66e7ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/e901d33218cc/models/items/clinkz/bownes/bownes_color_tga_d66ba58f.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:22137:degraded-soul-hunter-weapon",
+      "itemId": 22137,
+      "name": "Lineage Bow of the Hunt Eternal",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b390bd217911/models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/b390bd217911/models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/degraded_soul_hunter_weapon-8cd47a94f7a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b390bd217911/models/items/clinkz/degraded_soul_hunter_weapon/degraded_soul_hunter_weapon_color_tga_804d6f49.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:5152:lost-viking-bow",
+      "itemId": 5152,
+      "name": "Lost Hills Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/37f6db8151be/models/items/clinkz/lost_viking_bow/lost_viking_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/37f6db8151be/models/items/clinkz/lost_viking_bow/lost_viking_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/lost_viking_bow/lost_viking_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lost_viking_bow-389bf0735a10.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/37f6db8151be/models/items/clinkz/lost_viking_bow/lost_viking_bow_color_tga_de8db383.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13009:clinkz-ti9-immortal-weapon",
+      "itemId": 13009,
+      "name": "Maraxiforms Fate",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4abdea5bfdcc/models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/4abdea5bfdcc/models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_ti9_immortal_weapon-13e3e1c79c1b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/4abdea5bfdcc/models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon_color_psd_148b9e95.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/clinkz_ti9_immortal_weapon/clinkz_ti9_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/clinkz/clinkz_ti9_immortal/clinkz_ti9_strafe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/clinkz/clinkz_ti9_immortal/clinkz_ti9_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_clinkz/clinkz_strafe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4758:molten-genesis",
+      "itemId": 4758,
+      "name": "Molten Genesis",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b0c2835c471b/models/items/clinkz/molten_genesis/molten_genesis.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/b0c2835c471b/models/items/clinkz/molten_genesis/molten_genesis.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/molten_genesis/molten_genesis.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/molten_genesis-3d051e602e06.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/b0c2835c471b/models/items/clinkz/molten_genesis/molten_genesis_color_tga_5731e246.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4378:runic-bow-of-corruption",
+      "itemId": 4378,
+      "name": "Runic Bow of Corruption",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f52fd208b12b/models/items/clinkz/runic_bow_of_corruption/runic_bow_of_corruption.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/f52fd208b12b/models/items/clinkz/runic_bow_of_corruption/runic_bow_of_corruption.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/runic_bow_of_corruption/runic_bow_of_corruption.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/runic_bow_of_corruption-adcebbb9c68e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/f52fd208b12b/models/items/clinkz/runic_bow_of_corruption/runic_bow_of_corruption_color_tga_1e83486b.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:7130:bone-fletcher-bow",
+      "itemId": 7130,
+      "name": "Scorched Fletcher Bow",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/36fe542719b7/models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/36fe542719b7/models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bone_fletcher_bow-6cbf1194e7bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/36fe542719b7/models/items/clinkz/bone_fletcher_bow/bone_fletcher_bow_color_tga_2cd64e95.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:4588:wep",
+      "itemId": 4588,
+      "name": "Shredder of the Vandal",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/609113176613/models/items/clinkz/wep/wep.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/609113176613/models/items/clinkz/wep/wep.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/wep/wep.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wep-3d73b1333c29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/609113176613/models/items/clinkz/wep/wep_color_tga_6eb2deb.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13711:leader-of-the-molten-army-clinkz-weapon",
+      "itemId": 13711,
+      "name": "Vote Only Leader of the Molten army  Clinkz Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5677abad4fb9/models/items/clinkz/leader_of_the_molten_army_clinkz_weapon/leader_of_the_molten_army_clinkz_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/5677abad4fb9/models/items/clinkz/leader_of_the_molten_army_clinkz_weapon/leader_of_the_molten_army_clinkz_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/leader_of_the_molten_army_clinkz_weapon/leader_of_the_molten_army_clinkz_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leader_of_the_molten_army_clinkz_weapon-a246edf5c90e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/5677abad4fb9/models/items/clinkz/leader_of_the_molten_army_clinkz_weapon/leader_of_the_molten_army_clinkz_weapon_color_tga_dd560acd.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:13190:ti9-cache-clinkz-restless-shikaree-weapon",
+      "itemId": 13190,
+      "name": "Vote Only TI9 Cache Clinkz Restless Shikaree Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0bc31e9888cf/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_weapon/ti9_cache_clinkz_restless_shikaree_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/0bc31e9888cf/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_weapon/ti9_cache_clinkz_restless_shikaree_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/ti9_cache_clinkz_restless_shikaree_weapon/ti9_cache_clinkz_restless_shikaree_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_clinkz_restless_shikaree_weapon-a4128a5ef285.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/0bc31e9888cf/models/items/clinkz/ti9_cache_clinkz_restless_shikaree_weapon/ti9_cache_clinkz_restless_shikaree_weapon_color_tga_7db8de.png"
+    },
+    {
+      "id": "npc_dota_hero_clinkz:item-model:14769:clinkz-the-faith-of-avengers-weapon",
+      "itemId": 14769,
+      "name": "Withering Pain  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/d073a3237c19/models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_clinkz/d073a3237c19/models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/clinkz_the_faith_of_avengers_weapon-510a7852df62.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_clinkz/d073a3237c19/models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon_color_tga_e74c4473.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon.vmdl",
+        "modelPaths": [
+          "models/items/clinkz/clinkz_the_faith_of_avengers_weapon/clinkz_the_faith_of_avengers_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/clinkz/clinkz_the_faith_of_the_avengers/clinkz_the_faith_of_the_avengers_bow_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_clinkz:core-set:20693:compendium-scorched-fletcher",
+      "name": "Compendium Scorched Fletcher",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        7345,
+        7346,
+        7347,
+        7349,
+        7350
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/promo_bone_fletcher_loading_screen-ec019a649669.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:20175:crypt-guardians-set",
+      "name": "Crypt Guardians Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        4741,
+        4742,
+        4971,
+        4972,
+        4973
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/clinkz_weapon_goc-42e027749145.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:20053:demonic-vandals-set",
+      "name": "Demonic Vandals Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        4374,
+        4588,
+        4590,
+        4591,
+        4605
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/clinkz_skeleton_hands-ee40dd3c1153.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:22142:lineage-province-of-the-hunt-eternal",
+      "name": "Lineage Province of the Hunt Eternal",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        22137,
+        22138,
+        22139,
+        22140,
+        22141
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/degraded_soul_hunter_weapon-8cd47a94f7a5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:20207:lost-hills-set",
+      "name": "Lost Hills Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        5151,
+        5152,
+        5153,
+        5154,
+        5155
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/lost_viking_back-89fd2ebd7ce5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21422:maraxiforms-fate-bundle",
+      "name": "Maraxiforms Fate Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        685
+      ],
+      "sourceItemIds": [
+        13009,
+        13540
+      ],
+      "slots": [
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/ti9_maraxiform_fate_bundle-92c3c2433a85.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21005:nomad-of-the-burning-decree",
+      "name": "Nomad of the Burning Decree",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        7868,
+        7869,
+        7870,
+        7871,
+        7872
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/khans_champion_gloves-3b8ebe91e01f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21040:province-of-the-hunt-eternal",
+      "name": "Province of the Hunt Eternal",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        8551,
+        8552,
+        8558,
+        8559,
+        8560
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/degraded_soul_hunter_degraded_soul_hunter_loading-4b194b534924.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:20694:scorched-fletcher",
+      "name": "Scorched Fletcher",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        7130,
+        7135,
+        7141,
+        7142,
+        7348
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/bone_fletcher_loading_screen-9f41a3b2a802.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21016:urushin-huntsman",
+      "name": "Urushin Huntsman",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        7916,
+        7917,
+        7918,
+        7919,
+        7929
+      ],
+      "styleSelections": {
+        "7916": "0",
+        "7917": "0",
+        "7918": "0",
+        "7919": "0",
+        "7929": "0"
+      },
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/clinkz_ti6-fa3694dc12fa.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21016:urushin-huntsman:style-1",
+      "name": "Urushin Huntsman - Bow of the Urushin Huntsman 1",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        7916,
+        7917,
+        7918,
+        7919,
+        7929
+      ],
+      "styleSelections": {
+        "7916": "1",
+        "7917": "1",
+        "7918": "1",
+        "7919": "1",
+        "7929": "1"
+      },
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/ti6_clinkz_weapon_style1-abc4b4d87039.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21430:vote-only-leader-of-the-molten-army",
+      "name": "Vote Only Leader of the Molten army",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        13707,
+        13708,
+        13709,
+        13710,
+        13711
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21362:vote-only-ti9-cache-clinkz-restless-shikaree",
+      "name": "Vote Only TI9 Cache Clinkz Restless Shikaree",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "sourceItemIds": [
+        13186,
+        13187,
+        13188,
+        13189,
+        13190
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_clinkz:core-set:21588:withering-pain",
+      "name": "Withering Pain",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        685
+      ],
+      "sourceItemIds": [
+        14765,
+        14766,
+        14767,
+        14768,
+        14769,
+        26958
+      ],
+      "slots": [
+        "back",
+        "gloves",
+        "head",
+        "shoulder",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/clinkz_the_faith_of_avengers_ls-21388893ef2a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 23365003,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 390
+  }
+}

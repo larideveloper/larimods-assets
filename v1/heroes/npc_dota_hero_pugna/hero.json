@@ -1,0 +1,2041 @@
+{
+  "heroId": "npc_dota_hero_pugna",
+  "sourceHeroId": "npc_dota_hero_pugna",
+  "variantId": "default",
+  "heroName": "Pugna",
+  "heroSlug": "pugna",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_pugna/79aaa80c8549/models/heroes/pugna/pugna.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 155,
+      "name": "Pugnas Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/f7ab48b9eaac/models/heroes/pugna/pugna_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/f7ab48b9eaac/models/heroes/pugna/pugna_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/f7ab48b9eaac/models/heroes/pugna/pugna_bracers_color_psd_bebed9bb.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 154,
+      "name": "Pugnas Cape",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/cf50145c23c8/models/heroes/pugna/pugna_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/cf50145c23c8/models/heroes/pugna/pugna_cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_cape.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/cf50145c23c8/models/heroes/pugna/pugna_cape_diffuse_color_psd_fe174d1.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 157,
+      "name": "Pugnas Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4773aa6ed6ec/models/heroes/pugna/pugna_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/4773aa6ed6ec/models/heroes/pugna/pugna_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4773aa6ed6ec/models/heroes/pugna/pugna_belt_color_psd_d206996a.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 153,
+      "name": "Pugnas Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/5b7b4302c02f/models/heroes/pugna/pugna_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/5b7b4302c02f/models/heroes/pugna/pugna_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/5b7b4302c02f/models/heroes/pugna/pugna_head_diffuse_color_tga_4960543a.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 167,
+      "name": "Pugnas Shoulder",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4d5bbb5ec13f/models/heroes/pugna/pugna_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/4d5bbb5ec13f/models/heroes/pugna/pugna_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4d5bbb5ec13f/models/heroes/pugna/pugna_shoulder_color_psd_50203534.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 156,
+      "name": "Pugnas Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/71daaefb1a34/models/heroes/pugna/pugna_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/71daaefb1a34/models/heroes/pugna/pugna_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/71daaefb1a34/models/heroes/pugna/pugna_wand_color_psd_351b9b78.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_pugna:item-model:14811:dplus-battlemages-fury-arms",
+      "itemId": 14811,
+      "name": "Arms of the Tined Shroud",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/feb1c765a15f/models/items/pugna/dplus_battlemages_fury_arms/dplus_battlemages_fury_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/feb1c765a15f/models/items/pugna/dplus_battlemages_fury_arms/dplus_battlemages_fury_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/dplus_battlemages_fury_arms/dplus_battlemages_fury_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_battlemages_fury_arms-e518314001cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/feb1c765a15f/models/items/pugna/dplus_battlemages_fury_arms/dplus_battlemages_fury_arms_color_tga_9e913fca.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:22316:furious-phantasm-arms-v2",
+      "itemId": 22316,
+      "name": "Furious Nethergeist  Skull Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/28b1c3aaa070/models/items/pugna/furious_phantasm_arms_v2/furious_phantasm_arms_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/28b1c3aaa070/models/items/pugna/furious_phantasm_arms_v2/furious_phantasm_arms_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/furious_phantasm_arms_v2/furious_phantasm_arms_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/furious_phantasm_arms_v2-fe4419086487.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/28b1c3aaa070/models/items/pugna/furious_phantasm_arms_v2/furious_phantasm_arms_v2_color_tga_cfb1c4a8.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:22314:furious-phantasm-arms",
+      "itemId": 22314,
+      "name": "Furious Nethergeist  Spike Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/fbd39d6f7982/models/items/pugna/furious_phantasm_arms/furious_phantasm_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/fbd39d6f7982/models/items/pugna/furious_phantasm_arms/furious_phantasm_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/furious_phantasm_arms/furious_phantasm_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/furious_phantasm_arms-daa32c7f4d81.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/fbd39d6f7982/models/items/pugna/furious_phantasm_arms/furious_phantasm_arms_color_tga_c80b9ed1.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:7574:nether-lords-bracer",
+      "itemId": 7574,
+      "name": "Golden Nether Lords Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/2c375dd8b5cf/models/items/pugna/nether_lords_bracer/nether_lords_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/2c375dd8b5cf/models/items/pugna/nether_lords_bracer/nether_lords_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_bracer/nether_lords_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_bracer1-cc94c2b41a21.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/2c375dd8b5cf/models/items/pugna/nether_lords_bracer/nether_lords_bracer_color_tga_868cc152.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14389:pugna-researcher-of-oblivion-magic-arms",
+      "itemId": 14389,
+      "name": "Keeper of the NetherLens  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/f666231e3caf/models/items/pugna/pugna_researcher_of_oblivion_magic_arms/pugna_researcher_of_oblivion_magic_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/f666231e3caf/models/items/pugna/pugna_researcher_of_oblivion_magic_arms/pugna_researcher_of_oblivion_magic_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_researcher_of_oblivion_magic_arms/pugna_researcher_of_oblivion_magic_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_researcher_of_oblivion_magic_arms-1aea19e602fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/f666231e3caf/models/items/pugna/pugna_researcher_of_oblivion_magic_arms/pugna_researcher_of_oblivion_magic_arms_color_tga_c0c6d2b5.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6020:nether-grandmasters-bracers",
+      "itemId": 6020,
+      "name": "Nether Grandmasters Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/63c3118ce09c/models/items/pugna/nether_grandmasters_bracers/nether_grandmasters_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/63c3118ce09c/models/items/pugna/nether_grandmasters_bracers/nether_grandmasters_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_grandmasters_bracers/nether_grandmasters_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_grandmasters_bracers-b57cec27bebb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/63c3118ce09c/models/items/pugna/nether_grandmasters_bracers/nether_grandmasters_bracers_color_tga_e0282024.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5912:nether-lords-bracer",
+      "itemId": 5912,
+      "name": "Nether Lords Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/5b5240b13afd/models/items/pugna/nether_lords_bracer/nether_lords_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/5b5240b13afd/models/items/pugna/nether_lords_bracer/nether_lords_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_bracer/nether_lords_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_bracer-d3400c5e6739.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/5b5240b13afd/models/items/pugna/nether_lords_bracer/nether_lords_bracer_color_tga_868cc152.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5992:oblivion-headmaster-arms",
+      "itemId": 5992,
+      "name": "Oblivion Headmaster Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/49d00ab2b2e6/models/items/pugna/oblivion_headmaster_arms/oblivion_headmaster_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/49d00ab2b2e6/models/items/pugna/oblivion_headmaster_arms/oblivion_headmaster_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/oblivion_headmaster_arms/oblivion_headmaster_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oblivion_headmaster_arms-754bde1551ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/49d00ab2b2e6/models/items/pugna/oblivion_headmaster_arms/oblivion_headmaster_arms_color_tga_6fbdd7fa.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:155:pugna-bracers",
+      "itemId": 155,
+      "name": "Pugnas Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/f7ab48b9eaac/models/heroes/pugna/pugna_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/f7ab48b9eaac/models/heroes/pugna/pugna_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_bracers-db7ad2c90999.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/f7ab48b9eaac/models/heroes/pugna/pugna_bracers_color_psd_bebed9bb.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:8827:narcissistic-leech-arms",
+      "itemId": 8827,
+      "name": "Sleeves of the Narcissistic Leech",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/631ee2ac13ba/models/items/pugna/narcissistic_leech_arms/narcissistic_leech_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/631ee2ac13ba/models/items/pugna/narcissistic_leech_arms/narcissistic_leech_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/narcissistic_leech_arms/narcissistic_leech_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/narcissistic_leech_arms-ba119a6d9870.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/631ee2ac13ba/models/items/pugna/narcissistic_leech_arms/narcissistic_leech_arms_color_tga_85aa5d50.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14810:dplus-battlemages-fury-back",
+      "itemId": 14810,
+      "name": "Back of the Tined Shroud",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/90fc07906abc/models/items/pugna/dplus_battlemages_fury_back/dplus_battlemages_fury_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/90fc07906abc/models/items/pugna/dplus_battlemages_fury_back/dplus_battlemages_fury_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/dplus_battlemages_fury_back/dplus_battlemages_fury_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_battlemages_fury_back-78ef395b1324.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/90fc07906abc/models/items/pugna/dplus_battlemages_fury_back/dplus_battlemages_fury_back_color_tga_3190f48b.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:8752:narcissistic-leech-back",
+      "itemId": 8752,
+      "name": "Cape of the Narcissistic Leech",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/923c14d551dd/models/items/pugna/narcissistic_leech_back/narcissistic_leech_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/923c14d551dd/models/items/pugna/narcissistic_leech_back/narcissistic_leech_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/narcissistic_leech_back/narcissistic_leech_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/narcissistic_leech_back-53d38f1e9c65.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/923c14d551dd/models/items/pugna/narcissistic_leech_back/narcissistic_leech_back_color_tga_f4e8ce78.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:22309:furious-phantasm-back",
+      "itemId": 22309,
+      "name": "Furious Nethergeist  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/b5c19a3904a7/models/items/pugna/furious_phantasm_back/furious_phantasm_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/b5c19a3904a7/models/items/pugna/furious_phantasm_back/furious_phantasm_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/furious_phantasm_back/furious_phantasm_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/furious_phantasm_back-08ed5d1d7e51.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/b5c19a3904a7/models/items/pugna/furious_phantasm_back/furious_phantasm_back_color_tga_ac6a3197.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:7577:nether-lords-cape",
+      "itemId": 7577,
+      "name": "Golden Nether Lords Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/24865a2ebc8f/models/items/pugna/nether_lords_cape/nether_lords_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/24865a2ebc8f/models/items/pugna/nether_lords_cape/nether_lords_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_cape/nether_lords_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_cape1-670deaf613f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/24865a2ebc8f/models/items/pugna/nether_lords_cape/nether_lords_cape_color_tga_4ee2c0b2.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14388:pugna-researcher-of-oblivion-magic-back",
+      "itemId": 14388,
+      "name": "Keeper of the NetherLens  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/476d8be3ee5a/models/items/pugna/pugna_researcher_of_oblivion_magic_back/pugna_researcher_of_oblivion_magic_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/476d8be3ee5a/models/items/pugna/pugna_researcher_of_oblivion_magic_back/pugna_researcher_of_oblivion_magic_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_researcher_of_oblivion_magic_back/pugna_researcher_of_oblivion_magic_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_researcher_of_oblivion_magic_back-1d33c08dfd30.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/476d8be3ee5a/models/items/pugna/pugna_researcher_of_oblivion_magic_back/pugna_researcher_of_oblivion_magic_back_color_tga_afd0c197.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6021:nether-grandmasters-cape",
+      "itemId": 6021,
+      "name": "Nether Grandmasters Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/e2dbaffcf6ed/models/items/pugna/nether_grandmasters_cape/nether_grandmasters_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/e2dbaffcf6ed/models/items/pugna/nether_grandmasters_cape/nether_grandmasters_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_grandmasters_cape/nether_grandmasters_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_grandmasters_cape-03cd781bf9c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/e2dbaffcf6ed/models/items/pugna/nether_grandmasters_cape/nether_grandmasters_cape_color_tga_faee1709.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5917:nether-lords-cape",
+      "itemId": 5917,
+      "name": "Nether Lords Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/22502171e06a/models/items/pugna/nether_lords_cape/nether_lords_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/22502171e06a/models/items/pugna/nether_lords_cape/nether_lords_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_cape/nether_lords_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_cape-5899abf4f3bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/22502171e06a/models/items/pugna/nether_lords_cape/nether_lords_cape_color_tga_4ee2c0b2.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5994:oblivion-headmaster-back",
+      "itemId": 5994,
+      "name": "Oblivion Headmaster Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/6dd385917613/models/items/pugna/oblivion_headmaster_back/oblivion_headmaster_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/6dd385917613/models/items/pugna/oblivion_headmaster_back/oblivion_headmaster_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/oblivion_headmaster_back/oblivion_headmaster_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oblivion_headmaster_back-04244d11c3b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/6dd385917613/models/items/pugna/oblivion_headmaster_back/oblivion_headmaster_back_color_tga_236a5f2.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:154:pugna-cape",
+      "itemId": 154,
+      "name": "Pugnas Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/cf50145c23c8/models/heroes/pugna/pugna_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/cf50145c23c8/models/heroes/pugna/pugna_cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_cape-67bdf3dbee4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/cf50145c23c8/models/heroes/pugna/pugna_cape_diffuse_color_psd_fe174d1.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:8826:narcissistic-leech-belt",
+      "itemId": 8826,
+      "name": "Belt of the Narcissistic Leech",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/22a2a198eb43/models/items/pugna/narcissistic_leech_belt/narcissistic_leech_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/22a2a198eb43/models/items/pugna/narcissistic_leech_belt/narcissistic_leech_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/narcissistic_leech_belt/narcissistic_leech_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/narcissistic_leech_belt-1ff2c961804e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/22a2a198eb43/models/items/pugna/narcissistic_leech_belt/narcissistic_leech_belt_color_tga_8777ac6c.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14869:dplus-battlemages-fury-belt",
+      "itemId": 14869,
+      "name": "Belt of the Tined Shroud",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/e0ef8f50ab9b/models/items/pugna/dplus_battlemages_fury_belt/dplus_battlemages_fury_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/e0ef8f50ab9b/models/items/pugna/dplus_battlemages_fury_belt/dplus_battlemages_fury_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/dplus_battlemages_fury_belt/dplus_battlemages_fury_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_battlemages_fury_belt-b63f907230bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/e0ef8f50ab9b/models/items/pugna/dplus_battlemages_fury_belt/dplus_battlemages_fury_belt_color_tga_65142ac8.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:22310:furious-phantasm-belt",
+      "itemId": 22310,
+      "name": "Furious Nethergeist  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/2890e5e8aba3/models/items/pugna/furious_phantasm_belt/furious_phantasm_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/2890e5e8aba3/models/items/pugna/furious_phantasm_belt/furious_phantasm_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/furious_phantasm_belt/furious_phantasm_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/furious_phantasm_belt-d86678e7d338.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/2890e5e8aba3/models/items/pugna/furious_phantasm_belt/furious_phantasm_belt_color_tga_4489feec.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:7565:nether-lords-belt",
+      "itemId": 7565,
+      "name": "Golden Nether Lords Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/1e8ef840ccb3/models/items/pugna/nether_lords_belt/nether_lords_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/1e8ef840ccb3/models/items/pugna/nether_lords_belt/nether_lords_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_belt/nether_lords_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_belt1-f5fea41ad43f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/1e8ef840ccb3/models/items/pugna/nether_lords_belt/nether_lords_belt_color_tga_6e35e17c.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14387:pugna-researcher-of-oblivion-magic-belt",
+      "itemId": 14387,
+      "name": "Keeper of the NetherLens  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/890ad8e1feca/models/items/pugna/pugna_researcher_of_oblivion_magic_belt/pugna_researcher_of_oblivion_magic_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/890ad8e1feca/models/items/pugna/pugna_researcher_of_oblivion_magic_belt/pugna_researcher_of_oblivion_magic_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_researcher_of_oblivion_magic_belt/pugna_researcher_of_oblivion_magic_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_researcher_of_oblivion_magic_belt-18c2abd25bd7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/890ad8e1feca/models/items/pugna/pugna_researcher_of_oblivion_magic_belt/pugna_researcher_of_oblivion_magic_belt_color_tga_e5f3ae96.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6138:nether-grandmasters-waistcloth",
+      "itemId": 6138,
+      "name": "Nether Grandmasters Waistcloth",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/36da7893ff8f/models/items/pugna/nether_grandmasters_waistcloth/nether_grandmasters_waistcloth.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/36da7893ff8f/models/items/pugna/nether_grandmasters_waistcloth/nether_grandmasters_waistcloth.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_grandmasters_waistcloth/nether_grandmasters_waistcloth.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_grandmasters_waistcloth-0808163e4beb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/36da7893ff8f/models/items/pugna/nether_grandmasters_waistcloth/nether_grandmasters_waistcloth_color_tga_317f0f2.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5913:nether-lords-belt",
+      "itemId": 5913,
+      "name": "Nether Lords Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/898812ad1a20/models/items/pugna/nether_lords_belt/nether_lords_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/898812ad1a20/models/items/pugna/nether_lords_belt/nether_lords_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_belt/nether_lords_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_belt-be59b1db0659.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/898812ad1a20/models/items/pugna/nether_lords_belt/nether_lords_belt_color_tga_6e35e17c.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5996:oblivion-headmaster-belt",
+      "itemId": 5996,
+      "name": "Oblivion Headmaster Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/47eb64cf9d83/models/items/pugna/oblivion_headmaster_belt/oblivion_headmaster_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/47eb64cf9d83/models/items/pugna/oblivion_headmaster_belt/oblivion_headmaster_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/oblivion_headmaster_belt/oblivion_headmaster_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oblivion_headmaster_belt-3cc16d733f6a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/47eb64cf9d83/models/items/pugna/oblivion_headmaster_belt/oblivion_headmaster_belt_color_tga_e05bd090.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:157:pugna-belt",
+      "itemId": 157,
+      "name": "Pugnas Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4773aa6ed6ec/models/heroes/pugna/pugna_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/4773aa6ed6ec/models/heroes/pugna/pugna_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_belt-4c37e55ce44d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4773aa6ed6ec/models/heroes/pugna/pugna_belt_color_psd_d206996a.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5422:ashborn-horns",
+      "itemId": 5422,
+      "name": "Ashborn Horns",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/8a106c521a3d/models/items/pugna/ashborn_horns/ashborn_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/8a106c521a3d/models/items/pugna/ashborn_horns/ashborn_horns.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/ashborn_horns/ashborn_horns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ashborn_horns-e6f0ebfb7557.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/8a106c521a3d/models/items/pugna/ashborn_horns/ashborn_horns_color_tga_834897bf.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14965:pugna-ti10-immortal-head",
+      "itemId": 14965,
+      "name": "Eye of Ixyxa",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/db96df9bc5a8/models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/db96df9bc5a8/models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_ti10_immortal_head-9110fa00f919.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/db96df9bc5a8/models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head_color_tga_2b6075a6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_drain.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_drain_shard.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_give.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_give_shard.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_life_drain.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_life_give.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_shard_life_drain.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_shard_life_give.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:22312:furious-phantasm-head",
+      "itemId": 22312,
+      "name": "Furious Nethergeist  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/a97614b729d0/models/items/pugna/furious_phantasm_head/furious_phantasm_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/a97614b729d0/models/items/pugna/furious_phantasm_head/furious_phantasm_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/furious_phantasm_head/furious_phantasm_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/furious_phantasm_head-622b900797dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/a97614b729d0/models/items/pugna/furious_phantasm_head/furious_phantasm_head_color_tga_2124b57e.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:13755:pugna-ti10-immortal-head",
+      "itemId": 13755,
+      "name": "Golden Eye of Ixyxa",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/9adff881dedd/models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/9adff881dedd/models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_ti10_immortal_head1-01c3d1b0a43c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/9adff881dedd/models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head_color_tga_2b6075a6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/pugna/pugna_ti10_immortal_head/pugna_ti10_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_ambient_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_drain_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_drain_gold_shard.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_give_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti10_immortal/pugna_ti10_immortal_life_give_gold_shard.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_life_drain.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_life_give.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_shard_life_drain.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_shard_life_give.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:7460:nether-lords-hat",
+      "itemId": 7460,
+      "name": "Golden Nether Lords Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/18453279fe45/models/items/pugna/nether_lords_hat/nether_lords_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/18453279fe45/models/items/pugna/nether_lords_hat/nether_lords_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_hat/nether_lords_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_hat1-d2311abc30da.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/18453279fe45/models/items/pugna/nether_lords_hat/nether_lords_hat_color_tga_39e20b10.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/pugna/nether_lords_hat/nether_lords_hat.vmdl",
+        "modelPaths": [
+          "models/items/pugna/nether_lords_hat/nether_lords_hat.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/pugna/pugna_ward_golden_nether_lord/pugna_gold_ambient_hat.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14808:dplus-battlemages-fury-head",
+      "itemId": 14808,
+      "name": "Head of the Tined Shroud",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/c5ece78431e2/models/items/pugna/dplus_battlemages_fury_head/dplus_battlemages_fury_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/c5ece78431e2/models/items/pugna/dplus_battlemages_fury_head/dplus_battlemages_fury_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/dplus_battlemages_fury_head/dplus_battlemages_fury_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_battlemages_fury_head-de1d1efd9aec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/c5ece78431e2/models/items/pugna/dplus_battlemages_fury_head/dplus_battlemages_fury_head_color_tga_c4c3f93b.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14386:pugna-researcher-of-oblivion-magic-head",
+      "itemId": 14386,
+      "name": "Keeper of the NetherLens  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/0434667d34ca/models/items/pugna/pugna_researcher_of_oblivion_magic_head/pugna_researcher_of_oblivion_magic_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/0434667d34ca/models/items/pugna/pugna_researcher_of_oblivion_magic_head/pugna_researcher_of_oblivion_magic_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_researcher_of_oblivion_magic_head/pugna_researcher_of_oblivion_magic_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_researcher_of_oblivion_magic_head-d75b7573b33b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/0434667d34ca/models/items/pugna/pugna_researcher_of_oblivion_magic_head/pugna_researcher_of_oblivion_magic_head_color_tga_b716a181.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6443:maleficnetherfocus-head",
+      "itemId": 6443,
+      "name": "Malefic Nether Focus",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/7cecf7dab942/models/items/pugna/maleficnetherfocus_head/maleficnetherfocus_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/7cecf7dab942/models/items/pugna/maleficnetherfocus_head/maleficnetherfocus_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/maleficnetherfocus_head/maleficnetherfocus_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maleficnetherfocus_head-48cd35b8ee6f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/7cecf7dab942/models/items/pugna/maleficnetherfocus_head/maleficnetherfocus_head_color_tga_11d4ab57.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6139:nether-grandmasters-points",
+      "itemId": 6139,
+      "name": "Nether Grandmasters Points",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/48c4ad65478e/models/items/pugna/nether_grandmasters_points/nether_grandmasters_points.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/48c4ad65478e/models/items/pugna/nether_grandmasters_points/nether_grandmasters_points.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_grandmasters_points/nether_grandmasters_points.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_grandmasters_points-be559534b16c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/48c4ad65478e/models/items/pugna/nether_grandmasters_points/nether_grandmasters_points_color_tga_32690121.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5914:nether-lords-hat",
+      "itemId": 5914,
+      "name": "Nether Lords Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/2877a4d9ed98/models/items/pugna/nether_lords_hat/nether_lords_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/2877a4d9ed98/models/items/pugna/nether_lords_hat/nether_lords_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_hat/nether_lords_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_hat-f94b5434d588.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/2877a4d9ed98/models/items/pugna/nether_lords_hat/nether_lords_hat_color_tga_39e20b10.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5997:oblivion-headmaster-helm",
+      "itemId": 5997,
+      "name": "Oblivion Headmaster Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/6d624295548f/models/items/pugna/oblivion_headmaster_helm/oblivion_headmaster_helm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/6d624295548f/models/items/pugna/oblivion_headmaster_helm/oblivion_headmaster_helm.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/oblivion_headmaster_helm/oblivion_headmaster_helm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oblivion_headmaster_helm-ca858c72b14a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/6d624295548f/models/items/pugna/oblivion_headmaster_helm/oblivion_headmaster_helm_color_tga_3adfbfc.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6001:oblivion-headmaster-wand",
+      "itemId": 6001,
+      "name": "Oblivion Headmaster Wand",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/b027f5cb674b/models/items/pugna/oblivion_headmaster_wand/oblivion_headmaster_wand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/b027f5cb674b/models/items/pugna/oblivion_headmaster_wand/oblivion_headmaster_wand.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/oblivion_headmaster_wand/oblivion_headmaster_wand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oblivion_headmaster_wand-55ce2d01a8aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/b027f5cb674b/models/items/pugna/oblivion_headmaster_wand/oblivion_headmaster_wand_color_tga_b7dab151.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:153:pugna-head",
+      "itemId": 153,
+      "name": "Pugnas Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/5b7b4302c02f/models/heroes/pugna/pugna_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/5b7b4302c02f/models/heroes/pugna/pugna_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_head-604bf77375ac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/5b7b4302c02f/models/heroes/pugna/pugna_head_diffuse_color_tga_4960543a.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:8750:narcissistic-leech-head",
+      "itemId": 8750,
+      "name": "Skull of the Narcissistic Leech",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/7b7d1c51d42a/models/items/pugna/narcissistic_leech_head/narcissistic_leech_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/7b7d1c51d42a/models/items/pugna/narcissistic_leech_head/narcissistic_leech_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/narcissistic_leech_head/narcissistic_leech_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/narcissistic_leech_head-4fa3f84d5082.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/7b7d1c51d42a/models/items/pugna/narcissistic_leech_head/narcissistic_leech_head_color_tga_6d648848.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:8751:narcissistic-leech-shoulder",
+      "itemId": 8751,
+      "name": "Armor of the Narcissistic Leech",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/70dcf0dbc795/models/items/pugna/narcissistic_leech_shoulder/narcissistic_leech_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/70dcf0dbc795/models/items/pugna/narcissistic_leech_shoulder/narcissistic_leech_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/narcissistic_leech_shoulder/narcissistic_leech_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/narcissistic_leech_shoulder-2f48adf139d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/70dcf0dbc795/models/items/pugna/narcissistic_leech_shoulder/narcissistic_leech_shoulder_color_tga_d49b2df0.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:22313:furious-phantasm-shoulder",
+      "itemId": 22313,
+      "name": "Furious Nethergeist  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/fc87ae0fc4f9/models/items/pugna/furious_phantasm_shoulder/furious_phantasm_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/fc87ae0fc4f9/models/items/pugna/furious_phantasm_shoulder/furious_phantasm_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/furious_phantasm_shoulder/furious_phantasm_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/furious_phantasm_shoulder-ae5fef0647a8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/fc87ae0fc4f9/models/items/pugna/furious_phantasm_shoulder/furious_phantasm_shoulder_color_tga_2e4dce9c.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:7573:nether-lords-devourer",
+      "itemId": 7573,
+      "name": "Golden Nether Lords Devourer",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/7cb39cd52b61/models/items/pugna/nether_lords_devourer/nether_lords_devourer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/7cb39cd52b61/models/items/pugna/nether_lords_devourer/nether_lords_devourer.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_devourer/nether_lords_devourer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_devourer1-c3291994d898.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/7cb39cd52b61/models/items/pugna/nether_lords_devourer/nether_lords_devourer_color_tga_1d8a1b5e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/pugna/nether_lords_devourer/nether_lords_devourer.vmdl",
+        "modelPaths": [
+          "models/items/pugna/nether_lords_devourer/nether_lords_devourer.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/pugna/pugna_ward_golden_nether_lord/pugna_gold_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14385:pugna-researcher-of-oblivion-magic-shoulder",
+      "itemId": 14385,
+      "name": "Keeper of the NetherLens  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/043e1f4b99d5/models/items/pugna/pugna_researcher_of_oblivion_magic_shoulder/pugna_researcher_of_oblivion_magic_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/043e1f4b99d5/models/items/pugna/pugna_researcher_of_oblivion_magic_shoulder/pugna_researcher_of_oblivion_magic_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_researcher_of_oblivion_magic_shoulder/pugna_researcher_of_oblivion_magic_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_researcher_of_oblivion_magic_shoulder-f4592e064351.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/043e1f4b99d5/models/items/pugna/pugna_researcher_of_oblivion_magic_shoulder/pugna_researcher_of_oblivion_magic_shoulder_color_tga_61148b80.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6140:nether-grandmasters-covering",
+      "itemId": 6140,
+      "name": "Nether Grandmasters Covering",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/8522a909153e/models/items/pugna/nether_grandmasters_covering/nether_grandmasters_covering.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/8522a909153e/models/items/pugna/nether_grandmasters_covering/nether_grandmasters_covering.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_grandmasters_covering/nether_grandmasters_covering.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_grandmasters_covering-846d4988b61e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/8522a909153e/models/items/pugna/nether_grandmasters_covering/nether_grandmasters_covering_color_tga_e151e0cb.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:5915:nether-lords-devourer",
+      "itemId": 5915,
+      "name": "Nether Lords Devourer",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/1c33a63c711a/models/items/pugna/nether_lords_devourer/nether_lords_devourer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/1c33a63c711a/models/items/pugna/nether_lords_devourer/nether_lords_devourer.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/nether_lords_devourer/nether_lords_devourer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_lords_devourer-eeb216afdcbe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/1c33a63c711a/models/items/pugna/nether_lords_devourer/nether_lords_devourer_color_tga_1d8a1b5e.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:6000:oblivion-headmaster-shoulders",
+      "itemId": 6000,
+      "name": "Oblivion Headmaster Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/89b68f3a58ee/models/items/pugna/oblivion_headmaster_shoulders/oblivion_headmaster_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/89b68f3a58ee/models/items/pugna/oblivion_headmaster_shoulders/oblivion_headmaster_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/oblivion_headmaster_shoulders/oblivion_headmaster_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/oblivion_headmaster_shoulders-3417384666d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/89b68f3a58ee/models/items/pugna/oblivion_headmaster_shoulders/oblivion_headmaster_shoulders_color_tga_b9224936.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:167:pugna-shoulder",
+      "itemId": 167,
+      "name": "Pugnas Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4d5bbb5ec13f/models/heroes/pugna/pugna_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/4d5bbb5ec13f/models/heroes/pugna/pugna_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_shoulder-18490e7075d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/4d5bbb5ec13f/models/heroes/pugna/pugna_shoulder_color_psd_50203534.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14809:dplus-battlemages-fury-shoulder",
+      "itemId": 14809,
+      "name": "Shoulder of the Tined Shroud",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/16b0c7099716/models/items/pugna/dplus_battlemages_fury_shoulder/dplus_battlemages_fury_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/16b0c7099716/models/items/pugna/dplus_battlemages_fury_shoulder/dplus_battlemages_fury_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/dplus_battlemages_fury_shoulder/dplus_battlemages_fury_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_battlemages_fury_shoulder-3bc4f63edb16.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/16b0c7099716/models/items/pugna/dplus_battlemages_fury_shoulder/dplus_battlemages_fury_shoulder_color_tga_bd6e1a5e.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:12955:pugna-ti9-immortal-weapon",
+      "itemId": 12955,
+      "name": "Chalice of Ixyxa",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/d329e2de7527/models/items/pugna/pugna_ti9_immortal_weapon/pugna_ti9_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/d329e2de7527/models/items/pugna/pugna_ti9_immortal_weapon/pugna_ti9_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_ti9_immortal_weapon/pugna_ti9_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_ti9_immortal_weapon-39a73f76f55b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/d329e2de7527/models/items/pugna/pugna_ti9_immortal_weapon/pugna_ti9_immortal_weapon_color_psd_1e915382.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/pugna/pugna_ti9_immortal_weapon/pugna_ti9_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/pugna/pugna_ti9_immortal_weapon/pugna_ti9_immortal_weapon.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/pugna/pugna_ti9_immortal/pugna_ti9_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti9_immortal/pugna_ti9_immortal_netherblast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/pugna/pugna_ti9_immortal/pugna_ti9_immortal_netherblast_pre.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_netherblast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_netherblast_pre.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_pugna/pugna_weapon_glow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:22311:furious-phantasm-weapon",
+      "itemId": 22311,
+      "name": "Furious Nethergeist  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/b905ce6933d2/models/items/pugna/furious_phantasm_weapon/furious_phantasm_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/b905ce6933d2/models/items/pugna/furious_phantasm_weapon/furious_phantasm_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/furious_phantasm_weapon/furious_phantasm_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/furious_phantasm_weapon-3c03830fbb62.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/b905ce6933d2/models/items/pugna/furious_phantasm_weapon/furious_phantasm_weapon_color_tga_f2b672f4.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14383:pugna-researcher-of-oblivion-magic-weapon",
+      "itemId": 14383,
+      "name": "Keeper of the NetherLens  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/89e8e6b8a5bd/models/items/pugna/pugna_researcher_of_oblivion_magic_weapon/pugna_researcher_of_oblivion_magic_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/89e8e6b8a5bd/models/items/pugna/pugna_researcher_of_oblivion_magic_weapon/pugna_researcher_of_oblivion_magic_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/pugna_researcher_of_oblivion_magic_weapon/pugna_researcher_of_oblivion_magic_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_researcher_of_oblivion_magic_weapon-b01c168cfd88.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/89e8e6b8a5bd/models/items/pugna/pugna_researcher_of_oblivion_magic_weapon/pugna_researcher_of_oblivion_magic_weapon_color_tga_b576331c.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:156:pugna-weapon",
+      "itemId": 156,
+      "name": "Pugnas Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/71daaefb1a34/models/heroes/pugna/pugna_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/71daaefb1a34/models/heroes/pugna/pugna_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/pugna/pugna_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pugna_weapon-259293ac648f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/71daaefb1a34/models/heroes/pugna/pugna_wand_color_psd_351b9b78.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:8828:narcissistic-leech-weapon",
+      "itemId": 8828,
+      "name": "Scepter of the Narcissistic Leech",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/ecf6134386ae/models/items/pugna/narcissistic_leech_weapon/narcissistic_leech_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/ecf6134386ae/models/items/pugna/narcissistic_leech_weapon/narcissistic_leech_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/narcissistic_leech_weapon/narcissistic_leech_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/narcissistic_leech_weapon-f9c26de61fd7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/ecf6134386ae/models/items/pugna/narcissistic_leech_weapon/narcissistic_leech_weapon_color_tga_93145391.png"
+    },
+    {
+      "id": "npc_dota_hero_pugna:item-model:14870:dplus-battlemages-fury-weapon",
+      "itemId": 14870,
+      "name": "Weapon of the Tined Shroud",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/16152c2001c8/models/items/pugna/dplus_battlemages_fury_weapon/dplus_battlemages_fury_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_pugna/16152c2001c8/models/items/pugna/dplus_battlemages_fury_weapon/dplus_battlemages_fury_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/pugna/dplus_battlemages_fury_weapon/dplus_battlemages_fury_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_battlemages_fury_weapon-9e82baa77399.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_pugna/16152c2001c8/models/items/pugna/dplus_battlemages_fury_weapon/dplus_battlemages_fury_weapon_color_tga_ed865923.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_pugna:core-set:22344:furious-nethergeist",
+      "name": "Furious Nethergeist",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        156,
+        157,
+        167,
+        8628
+      ],
+      "sourceItemIds": [
+        22309,
+        22310,
+        22311,
+        22312,
+        22313,
+        22314,
+        22315,
+        22316
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_furious_nethergeist-bdc6b9469b65.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:20755:golden-nether-lords-regalia-set",
+      "name": "Golden Nether Lords Regalia Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        157,
+        167,
+        8628
+      ],
+      "sourceItemIds": [
+        7460,
+        7565,
+        7573,
+        7574,
+        7577,
+        8042
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/nether_lords_hat1-d2311abc30da.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:21551:keeper-of-the-netherlens",
+      "name": "Keeper of the NetherLens",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        156,
+        157,
+        167,
+        8628
+      ],
+      "sourceItemIds": [
+        14383,
+        14384,
+        14385,
+        14386,
+        14387,
+        14388,
+        14389
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/pugna_researcher_of_oblivion_magic_weapon-b01c168cfd88.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:20991:narcissistic-leech",
+      "name": "Narcissistic Leech",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        156,
+        157,
+        167
+      ],
+      "sourceItemIds": [
+        8750,
+        8751,
+        8752,
+        8826,
+        8827,
+        8828
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/narcissistic_leech_loading_screen-e2236feb9b53.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:20353:nether-lords-regalia-set",
+      "name": "Nether Lords Regalia Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        157,
+        167,
+        8628
+      ],
+      "sourceItemIds": [
+        5912,
+        5913,
+        5914,
+        5915,
+        5917,
+        5919
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/nether_lords_bracer-d3400c5e6739.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:20366:netolic-pro-league-5-west",
+      "name": "Netolic Pro League 5 West",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        157,
+        167
+      ],
+      "sourceItemIds": [
+        5992,
+        5994,
+        5996,
+        5997,
+        6000,
+        6001
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/oblivion_headmaster_arms-754bde1551ec.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:20365:oblivion-headmaster-set",
+      "name": "Oblivion Headmaster Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        157,
+        167
+      ],
+      "sourceItemIds": [
+        5992,
+        5994,
+        5996,
+        5997,
+        6000,
+        6001
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/oblivion_headmaster_arms-754bde1551ec.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:20399:the-nether-grandmasters-robes-set",
+      "name": "The Nether Grandmasters Robes Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        157,
+        167,
+        8628
+      ],
+      "sourceItemIds": [
+        6020,
+        6021,
+        6136,
+        6138,
+        6139,
+        6140
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/nether_grandmasters_bracers-b57cec27bebb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_pugna:core-set:21613:tined-shroud",
+      "name": "Tined Shroud",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        153,
+        154,
+        155,
+        156,
+        157,
+        167,
+        8628
+      ],
+      "sourceItemIds": [
+        14808,
+        14809,
+        14810,
+        14811,
+        14869,
+        14870,
+        14871
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dplus_battlemages_fury_ls-bb0a90ecd0e7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 20668201,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 328
+  }
+}

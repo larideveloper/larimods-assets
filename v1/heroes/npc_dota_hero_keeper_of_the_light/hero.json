@@ -1,0 +1,3414 @@
+{
+  "heroId": "npc_dota_hero_keeper_of_the_light",
+  "sourceHeroId": "npc_dota_hero_keeper_of_the_light",
+  "variantId": "default",
+  "heroName": "Keeper Of The Light",
+  "heroSlug": "keeper_of_the_light",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/keeper_of_the_light.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/33ae40702388/models/heroes/keeper_of_the_light/keeper_of_the_light.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "previewMode": "stage",
+      "itemId": 256,
+      "name": "Keeper of the Light Horse Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/55519de64b43/models/heroes/keeper_of_the_light/kotl_horse_accesories.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/55519de64b43/models/heroes/keeper_of_the_light/kotl_horse_accesories.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_horse_accesories.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/55519de64b43/models/heroes/keeper_of_the_light/horse_gear_color_psd_a2b43a7c.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 255,
+      "name": "Keeper of the Light Skirt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c463937ecc95/models/heroes/keeper_of_the_light/kotl_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c463937ecc95/models/heroes/keeper_of_the_light/kotl_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_skirt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c463937ecc95/models/heroes/keeper_of_the_light/keeper_skirt_color_psd_26edcc69.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 254,
+      "name": "Keeper of the Light Hood",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0543230dfe40/models/heroes/keeper_of_the_light/kotl_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0543230dfe40/models/heroes/keeper_of_the_light/kotl_hood.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_hood.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0543230dfe40/models/heroes/keeper_of_the_light/keeper_hood_color_psd_37917316.png"
+    },
+    {
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "itemId": 252,
+      "name": "Keeper of the Light Horse",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/88ef981ab577/models/heroes/keeper_of_the_light/kotl_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/88ef981ab577/models/heroes/keeper_of_the_light/kotl_mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_mount.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/88ef981ab577/models/heroes/keeper_of_the_light/kotl_mount_color_tga_d0af26fe.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 253,
+      "name": "Keeper of the Light Staff",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/74f6c77c4d22/models/heroes/keeper_of_the_light/kotl_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/74f6c77c4d22/models/heroes/keeper_of_the_light/kotl_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_staff.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/74f6c77c4d22/models/heroes/keeper_of_the_light/keeper_staff_color_psd_a47b5935.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5319:bardings-of-the-first-light",
+      "itemId": 5319,
+      "name": "Bardings of the First Light",
+      "slot": "armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d17ff62eb32a/models/items/keeper_of_the_light/bardings_of_the_first_light/bardings_of_the_first_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d17ff62eb32a/models/items/keeper_of_the_light/bardings_of_the_first_light/bardings_of_the_first_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/bardings_of_the_first_light/bardings_of_the_first_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bardings_of_the_first_light-ff7bb42e5790.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d17ff62eb32a/models/items/keeper_of_the_light/bardings_of_the_first_light/bardings_of_the_first_light_color_tga_76887c41.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/bardings_of_the_first_light/bardings_of_the_first_light.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/bardings_of_the_first_light/bardings_of_the_first_light.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4864:armor-armorgodsv3",
+      "itemId": 4864,
+      "name": "Empowered Barding of the Gods",
+      "slot": "armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/5f30cb52b7ac/models/items/keeper_of_the_light/armor_armorgodsv3/armor_armorgodsv3.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/5f30cb52b7ac/models/items/keeper_of_the_light/armor_armorgodsv3/armor_armorgodsv3.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/armor_armorgodsv3/armor_armorgodsv3.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_armorgodsv3-4279442698e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/5f30cb52b7ac/models/items/keeper_of_the_light/armor_armorgodsv3/armor_armorgodsv3_color_tga_3f9380e3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/armor_armorgodsv3/armor_armorgodsv3.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/armor_armorgodsv3/armor_armorgodsv3.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:256:kotl-horse-accesories",
+      "itemId": 256,
+      "name": "Keeper of the Light Horse Armor",
+      "slot": "armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/55519de64b43/models/heroes/keeper_of_the_light/kotl_horse_accesories.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/55519de64b43/models/heroes/keeper_of_the_light/kotl_horse_accesories.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_horse_accesories.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_horse_accesories-cc8e78d4d539.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/55519de64b43/models/heroes/keeper_of_the_light/horse_gear_color_psd_a2b43a7c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/keeper_of_the_light/kotl_horse_accesories.vmdl",
+        "modelPaths": [
+          "models/heroes/keeper_of_the_light/kotl_horse_accesories.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:12773:frostivus2018-kotl-the-northern-wise-belt",
+      "itemId": 12773,
+      "name": "Belt of the Midnight Sun",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/95c42657aa99/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_belt/frostivus2018_kotl_the_northern_wise_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/95c42657aa99/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_belt/frostivus2018_kotl_the_northern_wise_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_belt/frostivus2018_kotl_the_northern_wise_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_kotl_the_northern_wise_belt-161ba02cbadd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/95c42657aa99/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_belt/frostivus2018_kotl_the_northern_wise_belt_color_tga_38ecdb7c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_belt/frostivus2018_kotl_the_northern_wise_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_belt/frostivus2018_kotl_the_northern_wise_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9171:the-dragon-ascension-belt",
+      "itemId": 9171,
+      "name": "Belt of the Skyfire Apostate",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/996e3f87182b/models/items/keeper_of_the_light/the_dragon_ascension_belt/the_dragon_ascension_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/996e3f87182b/models/items/keeper_of_the_light/the_dragon_ascension_belt/the_dragon_ascension_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/the_dragon_ascension_belt/the_dragon_ascension_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_ascension_belt-9a993040e2d7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/996e3f87182b/models/items/keeper_of_the_light/the_dragon_ascension_belt/the_dragon_ascension_belt_color_tga_dd0703a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/the_dragon_ascension_belt/the_dragon_ascension_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/the_dragon_ascension_belt/the_dragon_ascension_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9128:keeper-of-the-light-light-messenger-belt",
+      "itemId": 9128,
+      "name": "Cape of the First Dawn",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3b8fe72d6256/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_belt/keeper_of_the_light_light_messenger_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3b8fe72d6256/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_belt/keeper_of_the_light_light_messenger_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_belt/keeper_of_the_light_light_messenger_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_light_messenger_belt-0b0031919eb1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3b8fe72d6256/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_belt/keeper_of_the_light_light_messenger_belt_color_tga_baff9009.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_belt/keeper_of_the_light_light_messenger_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_belt/keeper_of_the_light_light_messenger_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9566:keeper-of-the-light-aesir-lord-odin-belt",
+      "itemId": 9566,
+      "name": "Coat of the Forgotten Renegade",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/973175f77174/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_belt/keeper_of_the_light_aesir_lord_odin_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/973175f77174/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_belt/keeper_of_the_light_aesir_lord_odin_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_belt/keeper_of_the_light_aesir_lord_odin_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_aesir_lord_odin_belt-3b3f1e0b22d5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/973175f77174/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_belt/keeper_of_the_light_aesir_lord_odin_belt_color_tga_28602bf9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_belt/keeper_of_the_light_aesir_lord_odin_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_belt/keeper_of_the_light_aesir_lord_odin_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:7678:cradle-of-lights-belt",
+      "itemId": 7678,
+      "name": "Crucible of Lights Robes",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/acee6242de20/models/items/keeper_of_the_light/cradle_of_lights_belt/cradle_of_lights_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/acee6242de20/models/items/keeper_of_the_light/cradle_of_lights_belt/cradle_of_lights_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_belt/cradle_of_lights_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cradle_of_lights_belt-ca2a709910ac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/acee6242de20/models/items/keeper_of_the_light/cradle_of_lights_belt/cradle_of_lights_belt_color_tga_25547b0b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_belt/cradle_of_lights_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_belt/cradle_of_lights_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4866:belt-skirtgodsv2",
+      "itemId": 4866,
+      "name": "Empowered Skirt of the Gods",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3b0eb12af6e5/models/items/keeper_of_the_light/belt_skirtgodsv2/belt_skirtgodsv2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3b0eb12af6e5/models/items/keeper_of_the_light/belt_skirtgodsv2/belt_skirtgodsv2.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/belt_skirtgodsv2/belt_skirtgodsv2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/belt_skirtgodsv2-07cb0e6085c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3b0eb12af6e5/models/items/keeper_of_the_light/belt_skirtgodsv2/belt_skirtgodsv2_color_tga_41bfa6a0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/belt_skirtgodsv2/belt_skirtgodsv2.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/belt_skirtgodsv2/belt_skirtgodsv2.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:25286:kotl-arcane-griffin-master-belt",
+      "itemId": 25286,
+      "name": "Flight of the Gryphon Lord  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b716e06bfd42/models/items/keeper_of_the_light/kotl_arcane_griffin_master_belt/kotl_arcane_griffin_master_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b716e06bfd42/models/items/keeper_of_the_light/kotl_arcane_griffin_master_belt/kotl_arcane_griffin_master_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_arcane_griffin_master_belt/kotl_arcane_griffin_master_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_arcane_griffin_master_belt-3dd191785237.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b716e06bfd42/models/items/keeper_of_the_light/kotl_arcane_griffin_master_belt/kotl_arcane_griffin_master_belt_color_tga_1c3635cc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_arcane_griffin_master_belt/kotl_arcane_griffin_master_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_arcane_griffin_master_belt/kotl_arcane_griffin_master_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:255:kotl-skirt",
+      "itemId": 255,
+      "name": "Keeper of the Light Skirt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c463937ecc95/models/heroes/keeper_of_the_light/kotl_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c463937ecc95/models/heroes/keeper_of_the_light/kotl_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_skirt-ce59cfeb2491.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c463937ecc95/models/heroes/keeper_of_the_light/keeper_skirt_color_psd_26edcc69.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/keeper_of_the_light/kotl_skirt.vmdl",
+        "modelPaths": [
+          "models/heroes/keeper_of_the_light/kotl_skirt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5770:northlight-belt",
+      "itemId": 5770,
+      "name": "Robe of the Northlight",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3786d4707c05/models/items/keeper_of_the_light/northlight_belt/northlight_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3786d4707c05/models/items/keeper_of_the_light/northlight_belt/northlight_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/northlight_belt/northlight_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/northlight_belt-5bd6cd34e3d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3786d4707c05/models/items/keeper_of_the_light/northlight_belt/northlight_belt_color_tga_6fa133fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/northlight_belt/northlight_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/northlight_belt/northlight_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5320:robes-of-the-first-light",
+      "itemId": 5320,
+      "name": "Robes of the First Light",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/31da6a67f17a/models/items/keeper_of_the_light/robes_of_the_first_light/robes_of_the_first_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/31da6a67f17a/models/items/keeper_of_the_light/robes_of_the_first_light/robes_of_the_first_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/robes_of_the_first_light/robes_of_the_first_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/robes_of_the_first_light-e81fe9f86748.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/31da6a67f17a/models/items/keeper_of_the_light/robes_of_the_first_light/robes_of_the_first_light_color_tga_af3e3c4b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/robes_of_the_first_light/robes_of_the_first_light.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/robes_of_the_first_light/robes_of_the_first_light.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4957:keeper-skirt",
+      "itemId": 4957,
+      "name": "The 22 Keys of AnzarAnzulii",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/70b303cb175a/models/items/keeper_of_the_light/keeper_skirt/keeper_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/70b303cb175a/models/items/keeper_of_the_light/keeper_skirt/keeper_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_skirt/keeper_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_skirt-5167fec6960c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/70b303cb175a/models/items/keeper_of_the_light/keeper_skirt/keeper_skirt_color_tga_3fd121b7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_skirt/keeper_skirt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_skirt/keeper_skirt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:14452:kotl-the-king-of-thieves-belt",
+      "itemId": 14452,
+      "name": "The King Of Thieves Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3525af60429a/models/items/keeper_of_the_light/kotl_the_king_of_thieves_belt/kotl_the_king_of_thieves_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3525af60429a/models/items/keeper_of_the_light/kotl_the_king_of_thieves_belt/kotl_the_king_of_thieves_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_the_king_of_thieves_belt/kotl_the_king_of_thieves_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_the_king_of_thieves_belt-2409331cf507.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3525af60429a/models/items/keeper_of_the_light/kotl_the_king_of_thieves_belt/kotl_the_king_of_thieves_belt_color_tga_4d2388ce.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_the_king_of_thieves_belt/kotl_the_king_of_thieves_belt.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_the_king_of_thieves_belt/kotl_the_king_of_thieves_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti10_cache/kotl_ti10_cache_belt_sparkle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9565:keeper-of-the-light-aesir-lord-odin-head",
+      "itemId": 9565,
+      "name": "Countenance of the Forgotten Renegade",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cfd86c8b21a0/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_head/keeper_of_the_light_aesir_lord_odin_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cfd86c8b21a0/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_head/keeper_of_the_light_aesir_lord_odin_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_head/keeper_of_the_light_aesir_lord_odin_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_aesir_lord_odin_head-90ce90d93a70.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cfd86c8b21a0/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_head/keeper_of_the_light_aesir_lord_odin_head_color_tga_93f2ff8a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_head/keeper_of_the_light_aesir_lord_odin_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_head/keeper_of_the_light_aesir_lord_odin_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9170:the-dragon-ascension-head",
+      "itemId": 9170,
+      "name": "Crown of the Skyfire Apostate",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/950982db387e/models/items/keeper_of_the_light/the_dragon_ascension_head/the_dragon_ascension_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/950982db387e/models/items/keeper_of_the_light/the_dragon_ascension_head/the_dragon_ascension_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/the_dragon_ascension_head/the_dragon_ascension_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_ascension_head-efd0d6cd0621.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/950982db387e/models/items/keeper_of_the_light/the_dragon_ascension_head/the_dragon_ascension_head_color_tga_dce674c1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/the_dragon_ascension_head/the_dragon_ascension_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/the_dragon_ascension_head/the_dragon_ascension_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:7679:cradle-of-lights-head",
+      "itemId": 7679,
+      "name": "Crucible of Lights Vestiments",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e869e52c5e73/models/items/keeper_of_the_light/cradle_of_lights_head/cradle_of_lights_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e869e52c5e73/models/items/keeper_of_the_light/cradle_of_lights_head/cradle_of_lights_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_head/cradle_of_lights_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cradle_of_lights_head-5a91909bfd0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e869e52c5e73/models/items/keeper_of_the_light/cradle_of_lights_head/cradle_of_lights_head_color_tga_594759c7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_head/cradle_of_lights_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_head/cradle_of_lights_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4868:head-hoodgodsv3",
+      "itemId": 4868,
+      "name": "Empowered Hood of the Gods",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/00507f4c287e/models/items/keeper_of_the_light/head_hoodgodsv3/head_hoodgodsv3.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/00507f4c287e/models/items/keeper_of_the_light/head_hoodgodsv3/head_hoodgodsv3.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/head_hoodgodsv3/head_hoodgodsv3.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_hoodgodsv3-b45a2c3f12d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/00507f4c287e/models/items/keeper_of_the_light/head_hoodgodsv3/head_hoodgodsv3_color_tga_c404c0d9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/head_hoodgodsv3/head_hoodgodsv3.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/head_hoodgodsv3/head_hoodgodsv3.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5769:northlight-armor",
+      "itemId": 5769,
+      "name": "Equipment of the Northlight",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/ab6105fd981d/models/items/keeper_of_the_light/northlight_armor/northlight_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/ab6105fd981d/models/items/keeper_of_the_light/northlight_armor/northlight_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/northlight_armor/northlight_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/northlight_armor-f283a27a0ba6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/ab6105fd981d/models/items/keeper_of_the_light/northlight_armor/northlight_armor_color_tga_df3aad77.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/northlight_armor/northlight_armor.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/northlight_armor/northlight_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:25288:kotl-arcane-griffin-master-head",
+      "itemId": 25288,
+      "name": "Flight of the Gryphon Lord  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cd42d620098e/models/items/keeper_of_the_light/kotl_arcane_griffin_master_head/kotl_arcane_griffin_master_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cd42d620098e/models/items/keeper_of_the_light/kotl_arcane_griffin_master_head/kotl_arcane_griffin_master_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_arcane_griffin_master_head/kotl_arcane_griffin_master_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_arcane_griffin_master_head-02ec30b71a61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cd42d620098e/models/items/keeper_of_the_light/kotl_arcane_griffin_master_head/kotl_arcane_griffin_master_head_color_tga_9f3c87ab.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_arcane_griffin_master_head/kotl_arcane_griffin_master_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_arcane_griffin_master_head/kotl_arcane_griffin_master_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9127:keeper-of-the-light-light-messenger-head",
+      "itemId": 9127,
+      "name": "Helm of the First Dawn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c1b5fe133e56/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_head/keeper_of_the_light_light_messenger_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c1b5fe133e56/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_head/keeper_of_the_light_light_messenger_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_head/keeper_of_the_light_light_messenger_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_light_messenger_head-ba200d0d99af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/c1b5fe133e56/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_head/keeper_of_the_light_light_messenger_head_color_tga_b9ba910b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_head/keeper_of_the_light_light_messenger_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_head/keeper_of_the_light_light_messenger_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5771:northlight-head",
+      "itemId": 5771,
+      "name": "Hood of the Northlight",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d7b93dca4aab/models/items/keeper_of_the_light/northlight_head/northlight_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d7b93dca4aab/models/items/keeper_of_the_light/northlight_head/northlight_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/northlight_head/northlight_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/northlight_head-5f8bfa5909c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d7b93dca4aab/models/items/keeper_of_the_light/northlight_head/northlight_head_color_tga_fe2940b9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/northlight_head/northlight_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/northlight_head/northlight_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:7675:cradle-of-lights-armor",
+      "itemId": 7675,
+      "name": "Horns of Tendrillar",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d297e3fce955/models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d297e3fce955/models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cradle_of_lights_armor-a0e9eaa856c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d297e3fce955/models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor_color_tga_7cfcb6cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Horns of Tendrillar Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Horns of Tendrillar Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/keeper_of_the_light/cradle_of_lights_armor_alt/cradle_of_lights_armor_alt",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_armor_alt/cradle_of_lights_armor_alt.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:7675:cradle-of-lights-armor:style-1",
+      "itemId": 7675,
+      "name": "Horns of Tendrillar - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d297e3fce955/models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d297e3fce955/models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cradle_of_lights_armor_alt-161cc78c5db2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/d297e3fce955/models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor_color_tga_7cfcb6cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Horns of Tendrillar Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_armor/cradle_of_lights_armor.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Horns of Tendrillar Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/keeper_of_the_light/cradle_of_lights_armor_alt/cradle_of_lights_armor_alt",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_armor_alt/cradle_of_lights_armor_alt.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4960:heeper-hood",
+      "itemId": 4960,
+      "name": "Jewel of Futures Foretold",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6b65d461857f/models/items/keeper_of_the_light/heeper_hood/heeper_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6b65d461857f/models/items/keeper_of_the_light/heeper_hood/heeper_hood.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/heeper_hood/heeper_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heeper_hood-f170f8340b39.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6b65d461857f/models/items/keeper_of_the_light/heeper_hood/heeper_hood_color_tga_a2625872.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/heeper_hood/heeper_hood.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/heeper_hood/heeper_hood.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:254:kotl-hood",
+      "itemId": 254,
+      "name": "Keeper of the Light Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0543230dfe40/models/heroes/keeper_of_the_light/kotl_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0543230dfe40/models/heroes/keeper_of_the_light/kotl_hood.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_hood-f139e844c18b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0543230dfe40/models/heroes/keeper_of_the_light/keeper_hood_color_psd_37917316.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/keeper_of_the_light/kotl_hood.vmdl",
+        "modelPaths": [
+          "models/heroes/keeper_of_the_light/kotl_hood.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5301:the-one-horn",
+      "itemId": 5301,
+      "name": "One Horn Expired",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/81be054b41a5/models/items/keeper_of_the_light/the_one_horn/the_one_horn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/81be054b41a5/models/items/keeper_of_the_light/the_one_horn/the_one_horn.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/the_one_horn/the_one_horn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_one_horn-4c21a64cc1e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/81be054b41a5/models/items/keeper_of_the_light/the_one_horn/the_one_horn_color_tga_65f6ae21.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/the_one_horn/the_one_horn.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/the_one_horn/the_one_horn.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:6071:laozu-head",
+      "itemId": 6071,
+      "name": "Repose of the Defiant",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9fb4371e4d0b/models/items/keeper_of_the_light/laozu_head/laozu_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9fb4371e4d0b/models/items/keeper_of_the_light/laozu_head/laozu_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/laozu_head/laozu_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/laozu_head-e1d475855889.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9fb4371e4d0b/models/items/keeper_of_the_light/laozu_head/laozu_head_color_tga_2f2ab9fb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/laozu_head/laozu_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/laozu_head/laozu_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:14451:kotl-the-king-of-thieves-head",
+      "itemId": 14451,
+      "name": "The King Of Thieves Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e28b997fa048/models/items/keeper_of_the_light/kotl_the_king_of_thieves_head/kotl_the_king_of_thieves_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e28b997fa048/models/items/keeper_of_the_light/kotl_the_king_of_thieves_head/kotl_the_king_of_thieves_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_the_king_of_thieves_head/kotl_the_king_of_thieves_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_the_king_of_thieves_head-5308a6c51440.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e28b997fa048/models/items/keeper_of_the_light/kotl_the_king_of_thieves_head/kotl_the_king_of_thieves_head_color_tga_56c65a65.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_the_king_of_thieves_head/kotl_the_king_of_thieves_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_the_king_of_thieves_head/kotl_the_king_of_thieves_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti10_cache/kotl_ti10_cache_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:12774:frostivus2018-kotl-the-northern-wise-head",
+      "itemId": 12774,
+      "name": "Visage of the Midnight Sun",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/12ca53794d17/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_head/frostivus2018_kotl_the_northern_wise_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/12ca53794d17/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_head/frostivus2018_kotl_the_northern_wise_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_head/frostivus2018_kotl_the_northern_wise_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_kotl_the_northern_wise_head-1aa3a0e31f00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/12ca53794d17/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_head/frostivus2018_kotl_the_northern_wise_head_color_tga_ace00b51.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_head/frostivus2018_kotl_the_northern_wise_head.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_head/frostivus2018_kotl_the_northern_wise_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5316:wise-cap-of-the-first-light",
+      "itemId": 5316,
+      "name": "Wise Cap of the First Light",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/2eddc6a5fd2b/models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/2eddc6a5fd2b/models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wise_cap_of_the_first_light-14206f5f599a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/2eddc6a5fd2b/models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light_color_tga_a8b50810.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Wise Cap of the First Light Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Wise Cap of the First Light Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/keeper_of_the_light/hood_of_the_first_light/hood_of_the_first_light",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/hood_of_the_first_light/hood_of_the_first_light.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5316:wise-cap-of-the-first-light:style-1",
+      "itemId": 5316,
+      "name": "Wise Cap of the First Light - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/2eddc6a5fd2b/models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/2eddc6a5fd2b/models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hood_of_the_first_light-91535921c918.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/2eddc6a5fd2b/models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light_color_tga_a8b50810.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Wise Cap of the First Light Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/wise_cap_of_the_first_light/wise_cap_of_the_first_light.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Wise Cap of the First Light Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/keeper_of_the_light/hood_of_the_first_light/hood_of_the_first_light",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/hood_of_the_first_light/hood_of_the_first_light.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9118:ainidul-the-eternal-new",
+      "itemId": 9118,
+      "name": "Ainidul the Eternal",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/19e5ae0f600b/models/items/keeper_of_the_light/ainidul_the_eternal_new/ainidul_the_eternal_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/19e5ae0f600b/models/items/keeper_of_the_light/ainidul_the_eternal_new/ainidul_the_eternal_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/ainidul_the_eternal_new/ainidul_the_eternal_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ainidul_the_eternal_new-82a0af95b0cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/19e5ae0f600b/models/items/keeper_of_the_light/ainidul_the_eternal_new/ainidul_the_eternal_new_color_psd_117bd00a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/ainidul_the_eternal_new/ainidul_the_eternal_new.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/ainidul_the_eternal_new/ainidul_the_eternal_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4675:ainidul-the-eternal-retex",
+      "itemId": 4675,
+      "name": "Ainidul the Eternal Expired",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/1e118a715f87/models/items/keeper_of_the_light/ainidul_the_eternal_retex/ainidul_the_eternal_retex.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/1e118a715f87/models/items/keeper_of_the_light/ainidul_the_eternal_retex/ainidul_the_eternal_retex.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/ainidul_the_eternal_retex/ainidul_the_eternal_retex.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ainidul_the_eternal_retex-22cdcb4eba80.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/1e118a715f87/models/items/keeper_of_the_light/ainidul_the_eternal_retex/ainidul_the_eternal_retex_color_tga_781fd9db.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/ainidul_the_eternal_retex/ainidul_the_eternal_retex.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/ainidul_the_eternal_retex/ainidul_the_eternal_retex.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9126:keeper-of-the-light-light-messenger-mount",
+      "itemId": 9126,
+      "name": "First Dawn",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0cbcedc79a5d/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_mount/keeper_of_the_light_light_messenger_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0cbcedc79a5d/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_mount/keeper_of_the_light_light_messenger_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_mount/keeper_of_the_light_light_messenger_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_light_messenger_mount-789112dafa07.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/0cbcedc79a5d/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_mount/keeper_of_the_light_light_messenger_mount_color_tga_f14555aa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_mount/keeper_of_the_light_light_messenger_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_mount/keeper_of_the_light_light_messenger_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:25290:kotl-arcane-griffin-master-mount",
+      "itemId": 25290,
+      "name": "Flight of the Gryphon Lord  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/66b45bc18be9/models/items/keeper_of_the_light/kotl_arcane_griffin_master_mount/kotl_arcane_griffin_master_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/66b45bc18be9/models/items/keeper_of_the_light/kotl_arcane_griffin_master_mount/kotl_arcane_griffin_master_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_arcane_griffin_master_mount/kotl_arcane_griffin_master_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_arcane_griffin_master_mount-da0d9125415e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/66b45bc18be9/models/items/keeper_of_the_light/kotl_arcane_griffin_master_mount/kotl_arcane_griffin_master_mount_color_tga_c88dbca2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_arcane_griffin_master_mount/kotl_arcane_griffin_master_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_arcane_griffin_master_mount/kotl_arcane_griffin_master_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9122:gladys-the-lightbearing-mule-new",
+      "itemId": 9122,
+      "name": "Gladys the LightBearing Mule",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e49dc95a8962/models/items/keeper_of_the_light/gladys_the_lightbearing_mule_new/gladys_the_lightbearing_mule_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e49dc95a8962/models/items/keeper_of_the_light/gladys_the_lightbearing_mule_new/gladys_the_lightbearing_mule_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/gladys_the_lightbearing_mule_new/gladys_the_lightbearing_mule_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gladys_the_lightbearing_mule_new-80f56154cdd7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/e49dc95a8962/models/items/keeper_of_the_light/gladys_the_lightbearing_mule_new/gladys_the_lightbearing_mule_new_color_tga_dbe7de2a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/gladys_the_lightbearing_mule_new/gladys_the_lightbearing_mule_new.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/gladys_the_lightbearing_mule_new/gladys_the_lightbearing_mule_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:252:kotl-mount",
+      "itemId": 252,
+      "name": "Keeper of the Light Horse",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/88ef981ab577/models/heroes/keeper_of_the_light/kotl_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/88ef981ab577/models/heroes/keeper_of_the_light/kotl_mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_horse-e4bb67ca60af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/88ef981ab577/models/heroes/keeper_of_the_light/kotl_mount_color_tga_d0af26fe.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/keeper_of_the_light/kotl_mount.vmdl",
+        "modelPaths": [
+          "models/heroes/keeper_of_the_light/kotl_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9564:keeper-of-the-light-aesir-lord-odin-mount",
+      "itemId": 9564,
+      "name": "Mount of the Forgotten Renegade",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/26d22874cded/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_mount/keeper_of_the_light_aesir_lord_odin_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/26d22874cded/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_mount/keeper_of_the_light_aesir_lord_odin_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_mount/keeper_of_the_light_aesir_lord_odin_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_aesir_lord_odin_mount-b16ad6ebad96.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/26d22874cded/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_mount/keeper_of_the_light_aesir_lord_odin_mount_color_tga_60d0f383.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_mount/keeper_of_the_light_aesir_lord_odin_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_mount/keeper_of_the_light_aesir_lord_odin_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:12775:frostivus2018-kotl-the-northern-wise-mount",
+      "itemId": 12775,
+      "name": "Mount of the Midnight Sun",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/948559e9952d/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_mount/frostivus2018_kotl_the_northern_wise_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/948559e9952d/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_mount/frostivus2018_kotl_the_northern_wise_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_mount/frostivus2018_kotl_the_northern_wise_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_kotl_the_northern_wise_mount-4b4127ac5a14.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/948559e9952d/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_mount/frostivus2018_kotl_the_northern_wise_mount_color_tga_3a1b9ab3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_mount/frostivus2018_kotl_the_northern_wise_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_mount/frostivus2018_kotl_the_northern_wise_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9169:the-dragon-ascension-mount",
+      "itemId": 9169,
+      "name": "Mount of the Skyfire Apostate",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/4bb23f076054/models/items/keeper_of_the_light/the_dragon_ascension_mount/the_dragon_ascension_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/4bb23f076054/models/items/keeper_of_the_light/the_dragon_ascension_mount/the_dragon_ascension_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/the_dragon_ascension_mount/the_dragon_ascension_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_ascension_mount-2c72e4ee1bdb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/4bb23f076054/models/items/keeper_of_the_light/the_dragon_ascension_mount/the_dragon_ascension_mount_color_tga_8d77b7ef.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/the_dragon_ascension_mount/the_dragon_ascension_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/the_dragon_ascension_mount/the_dragon_ascension_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9121:the-one-horn-new",
+      "itemId": 9121,
+      "name": "One Horn",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3a5f8e6ab342/models/items/keeper_of_the_light/the_one_horn_new/the_one_horn_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3a5f8e6ab342/models/items/keeper_of_the_light/the_one_horn_new/the_one_horn_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/the_one_horn_new/the_one_horn_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_one_horn_new-e39626aea696.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3a5f8e6ab342/models/items/keeper_of_the_light/the_one_horn_new/the_one_horn_new_color_psd_73b7bcee.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/the_one_horn_new/the_one_horn_new.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/the_one_horn_new/the_one_horn_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9119:horse-roehringods-new",
+      "itemId": 9119,
+      "name": "Roehrin the Pale Stallion",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9d2157805429/models/items/keeper_of_the_light/horse_roehringods_new/horse_roehringods_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9d2157805429/models/items/keeper_of_the_light/horse_roehringods_new/horse_roehringods_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/horse_roehringods_new/horse_roehringods_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horse_roehringods_new-3caf42a70628.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9d2157805429/models/items/keeper_of_the_light/horse_roehringods_new/horse_roeringods_new_color_tga_1dfae9ba.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/horse_roehringods_new/horse_roehringods_new.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/horse_roehringods_new/horse_roehringods_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9123:northlight-stag-mount-new",
+      "itemId": 9123,
+      "name": "Stag of the Northlight",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/61f2c1647962/models/items/keeper_of_the_light/northlight_stag_mount_new/northlight_stag_mount_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/61f2c1647962/models/items/keeper_of_the_light/northlight_stag_mount_new/northlight_stag_mount_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/northlight_stag_mount_new/northlight_stag_mount_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/northlight_stag_mount_new-d57d5c81412c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/61f2c1647962/models/items/keeper_of_the_light/northlight_stag_mount_new/northlight_stag_mount_new_color_tga_5ca36be0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/northlight_stag_mount_new/northlight_stag_mount_new.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/northlight_stag_mount_new/northlight_stag_mount_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5773:northlight-stag-mount",
+      "itemId": 5773,
+      "name": "Stag of the Northlight Expired",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/170a568cc840/models/items/keeper_of_the_light/northlight_stag_mount/northlight_stag_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/170a568cc840/models/items/keeper_of_the_light/northlight_stag_mount/northlight_stag_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/northlight_stag_mount/northlight_stag_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/northlight_stag_mount-bbf1dcd8318b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/170a568cc840/models/items/keeper_of_the_light/northlight_stag_mount/northlight_stag_mount_color_tga_df1e0e3f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/northlight_stag_mount/northlight_stag_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/northlight_stag_mount/northlight_stag_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9124:cradle-of-lights-mount",
+      "itemId": 9124,
+      "name": "Tendrillar",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/013b9dd3281c/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/013b9dd3281c/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cradle_of_lights_mount-694917fdd213.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/013b9dd3281c/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount_color_psd_e48f1119.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Horns of Tendrillar Style0",
+            "alternateIcon": "0",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Horns of Tendrillar Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount_style1",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount_alt_new.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9124:cradle-of-lights-mount:style-1",
+      "itemId": 9124,
+      "name": "Tendrillar - Style 2",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/013b9dd3281c/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/013b9dd3281c/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/013b9dd3281c/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount_color_psd_e48f1119.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Horns of Tendrillar Style0",
+            "alternateIcon": "0",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Horns of Tendrillar Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount_style1",
+            "modelPaths": [
+              "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount_alt_new.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:7676:cradle-of-lights-mount",
+      "itemId": 7676,
+      "name": "Tendrillar Expired",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/73125e2824f1/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/73125e2824f1/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cradle_of_lights_mount-694917fdd213.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/73125e2824f1/models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount_color_psd_e48f1119.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_mount/cradle_of_lights_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:14450:kotl-the-king-of-thieves-mount",
+      "itemId": 14450,
+      "name": "The King Of Thieves Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/966c02553413/models/items/keeper_of_the_light/kotl_the_king_of_thieves_mount/kotl_the_king_of_thieves_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/966c02553413/models/items/keeper_of_the_light/kotl_the_king_of_thieves_mount/kotl_the_king_of_thieves_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_the_king_of_thieves_mount/kotl_the_king_of_thieves_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_the_king_of_thieves_mount-a63b40970903.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/966c02553413/models/items/keeper_of_the_light/kotl_the_king_of_thieves_mount/kotl_the_king_of_thieves_mount_color_tga_dcd2e912.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_the_king_of_thieves_mount/kotl_the_king_of_thieves_mount.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_the_king_of_thieves_mount/kotl_the_king_of_thieves_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti10_cache/kotl_ti10_cache_mount.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9120:horse-foretold-new",
+      "itemId": 9120,
+      "name": "Tinek the Unmastered",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/60f43edc9115/models/items/keeper_of_the_light/horse_foretold_new/horse_foretold_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/60f43edc9115/models/items/keeper_of_the_light/horse_foretold_new/horse_foretold_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/horse_foretold_new/horse_foretold_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horse_foretold_new-f86b5a4462d9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/60f43edc9115/models/items/keeper_of_the_light/horse_foretold_new/horse_foretold_new_color_tga_eaa55140.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/horse_foretold_new/horse_foretold_new.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/horse_foretold_new/horse_foretold_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9198:kotl-ti7-immortal-horse",
+      "itemId": 9198,
+      "name": "Wings of Daybreak",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/68d4f270b047/models/items/keeper_of_the_light/ti7_immortal_mount/kotl_ti7_immortal_horse.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/68d4f270b047/models/items/keeper_of_the_light/ti7_immortal_mount/kotl_ti7_immortal_horse.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/ti7_immortal_mount/kotl_ti7_immortal_horse.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_ti7_immortal_horse-e63ece8d73b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/68d4f270b047/models/items/keeper_of_the_light/ti7_immortal_mount/kotl_ti7_immortal_mount_color_psd_d2d0386f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/ti7_immortal_mount/kotl_ti7_immortal_horse.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/ti7_immortal_mount/kotl_ti7_immortal_horse.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti7_illuminate/kotl_ti7_illuminate.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti7_illuminate/kotl_ti7_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti7_illuminate/kotl_ti7_immortal_footsteps.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_illuminate.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4803:weapon-astaffancients",
+      "itemId": 4803,
+      "name": "Arcane Staff of the Ancients",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/fafaa498e520/models/items/keeper_of_the_light/weapon_astaffancients/weapon_astaffancients.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/fafaa498e520/models/items/keeper_of_the_light/weapon_astaffancients/weapon_astaffancients.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/weapon_astaffancients/weapon_astaffancients.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_astaffancients-bf2894c1c802.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/fafaa498e520/models/items/keeper_of_the_light/weapon_astaffancients/weapon_astaffancients_color_tga_c30e1b90.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/weapon_astaffancients/weapon_astaffancients.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/weapon_astaffancients/weapon_astaffancients.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_weapon_arcane_staff/keeper_base_attack_arcane_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4865:weapon-staffgods",
+      "itemId": 4865,
+      "name": "Empowered Staff of the Gods",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/8efc18fffc57/models/items/keeper_of_the_light/weapon_staffgods/weapon_staffgods.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/8efc18fffc57/models/items/keeper_of_the_light/weapon_staffgods/weapon_staffgods.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/weapon_staffgods/weapon_staffgods.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_staffgods-50d7b2621e7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/8efc18fffc57/models/items/keeper_of_the_light/weapon_staffgods/weapon_staffgods_color_tga_4a490e38.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/weapon_staffgods/weapon_staffgods.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/weapon_staffgods/weapon_staffgods.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:25292:kotl-arcane-griffin-master-weapon",
+      "itemId": 25292,
+      "name": "Flight of the Gryphon Lord  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9c0fbec0a591/models/items/keeper_of_the_light/kotl_arcane_griffin_master_weapon/kotl_arcane_griffin_master_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9c0fbec0a591/models/items/keeper_of_the_light/kotl_arcane_griffin_master_weapon/kotl_arcane_griffin_master_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_arcane_griffin_master_weapon/kotl_arcane_griffin_master_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_arcane_griffin_master_weapon-efb26c784691.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9c0fbec0a591/models/items/keeper_of_the_light/kotl_arcane_griffin_master_weapon/kotl_arcane_griffin_master_weapon_color_tga_9845c0a0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_arcane_griffin_master_weapon/kotl_arcane_griffin_master_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_arcane_griffin_master_weapon/kotl_arcane_griffin_master_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5579:heaven-sent",
+      "itemId": 5579,
+      "name": "Heaven Sent",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6cb64508a667/models/items/keeper_of_the_light/heaven_sent/heaven_sent.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6cb64508a667/models/items/keeper_of_the_light/heaven_sent/heaven_sent.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/heaven_sent/heaven_sent.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heaven_sent-268a12a57318.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6cb64508a667/models/items/keeper_of_the_light/heaven_sent/heaven_sent_color_tga_81f00393.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/heaven_sent/heaven_sent.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/heaven_sent/heaven_sent.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:253:kotl-staff",
+      "itemId": 253,
+      "name": "Keeper of the Light Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/74f6c77c4d22/models/heroes/keeper_of_the_light/kotl_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/74f6c77c4d22/models/heroes/keeper_of_the_light/kotl_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/keeper_of_the_light/kotl_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_staff-81c1630a075c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/74f6c77c4d22/models/heroes/keeper_of_the_light/keeper_staff_color_psd_a47b5935.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/keeper_of_the_light/kotl_staff.vmdl",
+        "modelPaths": [
+          "models/heroes/keeper_of_the_light/kotl_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9563:keeper-of-the-light-aesir-lord-odin-weapon",
+      "itemId": 9563,
+      "name": "Light of the Forgotten Renegade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cb9e6838b845/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_weapon/keeper_of_the_light_aesir_lord_odin_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cb9e6838b845/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_weapon/keeper_of_the_light_aesir_lord_odin_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_weapon/keeper_of_the_light_aesir_lord_odin_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_aesir_lord_odin_weapon-c735ee40e54f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/cb9e6838b845/models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_weapon/keeper_of_the_light_aesir_lord_odin_weapon_color_tga_a83b998f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_weapon/keeper_of_the_light_aesir_lord_odin_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_aesir_lord_odin_weapon/keeper_of_the_light_aesir_lord_odin_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:13773:kotl-ti10-immortal-weapon",
+      "itemId": 13773,
+      "name": "Prominence",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/832a0564c9a1/models/items/keeper_of_the_light/kotl_ti10_immortal_weapon/kotl_ti10_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/832a0564c9a1/models/items/keeper_of_the_light/kotl_ti10_immortal_weapon/kotl_ti10_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_ti10_immortal_weapon/kotl_ti10_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_ti10_immortal_weapon-cd1db175c609.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/832a0564c9a1/models/items/keeper_of_the_light/kotl_ti10_immortal_weapon/kotl_ti10_immortal_weapon_color_psd_b037d5d4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_ti10_immortal_weapon/kotl_ti10_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_ti10_immortal_weapon/kotl_ti10_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti10_immortal/kotl_ti10_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti10_immortal/kotl_ti10_ambient_trace.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti10_immortal/kotl_ti10_blinding_light.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_blinding_light_aoe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5318:spiral-staff-of-the-first-light",
+      "itemId": 5318,
+      "name": "Spiral Staff of the First Light",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/993175f3388b/models/items/keeper_of_the_light/spiral_staff_of_the_first_light/spiral_staff_of_the_first_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/993175f3388b/models/items/keeper_of_the_light/spiral_staff_of_the_first_light/spiral_staff_of_the_first_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/spiral_staff_of_the_first_light/spiral_staff_of_the_first_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spiral_staff_of_the_first_light-ea80000cc2d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/993175f3388b/models/items/keeper_of_the_light/spiral_staff_of_the_first_light/spiral_staff_of_the_first_light_color_tga_f08cb029.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/spiral_staff_of_the_first_light/spiral_staff_of_the_first_light.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/spiral_staff_of_the_first_light/spiral_staff_of_the_first_light.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9168:the-dragon-ascension-weapon",
+      "itemId": 9168,
+      "name": "Staff  of the Skyfire Apostate",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/1f2e7f93b887/models/items/keeper_of_the_light/the_dragon_ascension_weapon/the_dragon_ascension_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/1f2e7f93b887/models/items/keeper_of_the_light/the_dragon_ascension_weapon/the_dragon_ascension_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/the_dragon_ascension_weapon/the_dragon_ascension_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_ascension_weapon-4b5f3a315ec3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/1f2e7f93b887/models/items/keeper_of_the_light/the_dragon_ascension_weapon/the_dragon_ascension_weapon_color_tga_a43c017b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/the_dragon_ascension_weapon/the_dragon_ascension_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/the_dragon_ascension_weapon/the_dragon_ascension_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:4956:keeper-staff",
+      "itemId": 4956,
+      "name": "Staff of Wind and Sand",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6164981b488e/models/items/keeper_of_the_light/keeper_staff/keeper_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6164981b488e/models/items/keeper_of_the_light/keeper_staff/keeper_staff.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_staff/keeper_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_staff-6c6a9d39fc79.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6164981b488e/models/items/keeper_of_the_light/keeper_staff/keeper_staff_color_tga_1ac3cd60.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_staff/keeper_staff.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_staff/keeper_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:9125:keeper-of-the-light-light-messenger-weapon",
+      "itemId": 9125,
+      "name": "Staff of the First Dawn",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3cd4c8109ec9/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_weapon/keeper_of_the_light_light_messenger_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3cd4c8109ec9/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_weapon/keeper_of_the_light_light_messenger_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_weapon/keeper_of_the_light_light_messenger_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/keeper_of_the_light_light_messenger_weapon-21cb8ed89f91.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/3cd4c8109ec9/models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_weapon/keeper_of_the_light_light_messenger_weapon_color_tga_d8ea6c65.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_weapon/keeper_of_the_light_light_messenger_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/keeper_of_the_light_light_messenger_weapon/keeper_of_the_light_light_messenger_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:12772:frostivus2018-kotl-the-northern-wise-weapon",
+      "itemId": 12772,
+      "name": "Staff of the Midnight Sun",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b2b8a0cbf761/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_weapon/frostivus2018_kotl_the_northern_wise_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b2b8a0cbf761/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_weapon/frostivus2018_kotl_the_northern_wise_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_weapon/frostivus2018_kotl_the_northern_wise_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_kotl_the_northern_wise_weapon-e8d2c9dfc717.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b2b8a0cbf761/models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_weapon/frostivus2018_kotl_the_northern_wise_weapon_color_tga_1171e9f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_weapon/frostivus2018_kotl_the_northern_wise_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/frostivus2018_kotl_the_northern_wise_weapon/frostivus2018_kotl_the_northern_wise_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5772:northlight-staff",
+      "itemId": 5772,
+      "name": "Staff of the Northlight",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/67651c4eb872/models/items/keeper_of_the_light/northlight_staff/northlight_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/67651c4eb872/models/items/keeper_of_the_light/northlight_staff/northlight_staff.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/northlight_staff/northlight_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/northlight_staff-8d72ff1feb8c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/67651c4eb872/models/items/keeper_of_the_light/northlight_staff/northlight_staff_color_tga_6c94a491.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/northlight_staff/northlight_staff.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/northlight_staff/northlight_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:5970:strikeofthelight-weapon",
+      "itemId": 5970,
+      "name": "Strike of the Light",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9d64805a9403/models/items/keeper_of_the_light/strikeofthelight_weapon/strikeofthelight_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9d64805a9403/models/items/keeper_of_the_light/strikeofthelight_weapon/strikeofthelight_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/strikeofthelight_weapon/strikeofthelight_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/strikeofthelight_weapon-e72c28086b51.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/9d64805a9403/models/items/keeper_of_the_light/strikeofthelight_weapon/strikeofthelight_weapon_color_tga_e62ecaa2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/strikeofthelight_weapon/strikeofthelight_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/strikeofthelight_weapon/strikeofthelight_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:7677:cradle-of-lights-weapon",
+      "itemId": 7677,
+      "name": "The Crucible of Light Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6f8ab58063c6/models/items/keeper_of_the_light/cradle_of_lights_weapon/cradle_of_lights_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6f8ab58063c6/models/items/keeper_of_the_light/cradle_of_lights_weapon/cradle_of_lights_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/cradle_of_lights_weapon/cradle_of_lights_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cradle_of_lights_weapon-083a0216381e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/6f8ab58063c6/models/items/keeper_of_the_light/cradle_of_lights_weapon/cradle_of_lights_weapon_color_tga_e84e0173.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/cradle_of_lights_weapon/cradle_of_lights_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/cradle_of_lights_weapon/cradle_of_lights_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:item-model:14449:kotl-the-king-of-thieves-weapon",
+      "itemId": 14449,
+      "name": "The King Of Thieves Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b1de69323bcf/models/items/keeper_of_the_light/kotl_the_king_of_thieves_weapon/kotl_the_king_of_thieves_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b1de69323bcf/models/items/keeper_of_the_light/kotl_the_king_of_thieves_weapon/kotl_the_king_of_thieves_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/keeper_of_the_light/kotl_the_king_of_thieves_weapon/kotl_the_king_of_thieves_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/kotl_the_king_of_thieves_weapon-dfefc2a963fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_keeper_of_the_light/b1de69323bcf/models/items/keeper_of_the_light/kotl_the_king_of_thieves_weapon/kotl_the_king_of_thieves_weapon_color_tga_432a8d29.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/keeper_of_the_light/kotl_the_king_of_thieves_weapon/kotl_the_king_of_thieves_weapon.vmdl",
+        "modelPaths": [
+          "models/items/keeper_of_the_light/kotl_the_king_of_thieves_weapon/kotl_the_king_of_thieves_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/keeper_of_the_light/kotl_ti10_cache/kotl_ti10_cache_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_keeper_of_the_light/portrait_keeper.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:20167:attributes-of-the-foretold-set",
+      "name": "Attributes of the Foretold Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        4956,
+        4957,
+        4960,
+        9120
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/keeper_staff-6c6a9d39fc79.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:20743:crucible-of-light",
+      "name": "Crucible of Light",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        7677,
+        7678,
+        7679,
+        9124
+      ],
+      "styleSelections": {
+        "9124": "0"
+      },
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/cradle_of_lights_loading_screen-6e670b5d57d4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:20743:crucible-of-light:style-1",
+      "name": "Crucible of Light - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        7677,
+        7678,
+        7679,
+        9124
+      ],
+      "styleSelections": {
+        "9124": "1"
+      },
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/cradle_of_lights_loading_screen-6e670b5d57d4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:20228:dressings-of-the-first-light-set",
+      "name": "Dressings of the First Light Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        5316,
+        5318,
+        5320,
+        9122
+      ],
+      "styleSelections": {
+        "5316": "0"
+      },
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/wise_cap_of_the_first_light-14206f5f599a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:20228:dressings-of-the-first-light-set:style-1",
+      "name": "Dressings of the First Light Set - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        5316,
+        5318,
+        5320,
+        9122
+      ],
+      "styleSelections": {
+        "5316": "1"
+      },
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/hood_of_the_first_light-91535921c918.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:20149:empowered-vestments-of-the-gods-set",
+      "name": "Empowered Vestments of the Gods Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        4865,
+        4866,
+        4868,
+        9119
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/weapon_staffgods-50d7b2621e7e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:25285:flight-of-the-gryphon-lord",
+      "name": "Flight of the Gryphon Lord",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        25286,
+        25288,
+        25290,
+        25292
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/kotl_arcane_griffin_master_loading_screen-dd5c36d5d357.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:21159:forgotten-renegade",
+      "name": "Forgotten Renegade",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        9563,
+        9564,
+        9565,
+        9566
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/aesir_lord_odin_loadingscreen-22e8f9994ee0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:20325:keeper-of-the-northlight-set",
+      "name": "Keeper of the Northlight Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        5770,
+        5771,
+        5772,
+        9123
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/northlight_belt-5bd6cd34e3d0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:21091:promise-of-the-first-dawn",
+      "name": "Promise of the First Dawn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        9125,
+        9126,
+        9127,
+        9128
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/keeper_of_the_light_light_messenger_keeper_of_the_light_light_messenger_loadingscreen-1a66da9368b9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:21097:skyfire-apostate",
+      "name": "Skyfire Apostate",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        9168,
+        9169,
+        9170,
+        9171
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_dragon_ascension_the_dragon_ascension-3280b61a9c8e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:21561:the-king-of-thieves",
+      "name": "The King Of Thieves",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        14449,
+        14450,
+        14451,
+        14452
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/kotl_the_king_of_thieves_weapon-dfefc2a963fe.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_keeper_of_the_light:core-set:21296:wisdom-of-the-midnight-sun",
+      "name": "Wisdom of the Midnight Sun",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "sourceItemIds": [
+        12772,
+        12773,
+        12774,
+        12775
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_kotl_the_northern_wise_ls-0410b53717c1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 43715915,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 376
+  }
+}

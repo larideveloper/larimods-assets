@@ -1,0 +1,3876 @@
+{
+  "heroId": "npc_dota_hero_treant",
+  "sourceHeroId": "npc_dota_hero_treant",
+  "variantId": "default",
+  "heroName": "Treant",
+  "heroSlug": "treant",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/treant.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_treant/0cd4b0eed184/models/heroes/treant_protector/treant_protector.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 229,
+      "name": "Treant Protectors Hands",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b899ddaafeaa/models/heroes/treant_protector/hands.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/b899ddaafeaa/models/heroes/treant_protector/hands.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/hands.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b899ddaafeaa/models/heroes/treant_protector/treantprotector_hands_color_psd_b85eb38a.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 227,
+      "name": "Treant Protectors Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/1b4e516a9511/models/heroes/treant_protector/head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/1b4e516a9511/models/heroes/treant_protector/head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/1b4e516a9511/models/heroes/treant_protector/treantprotector_beard_color_psd_305847cc.png"
+    },
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 230,
+      "name": "Treant Protectors Feet",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b972ab202c58/models/heroes/treant_protector/legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/b972ab202c58/models/heroes/treant_protector/legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/legs.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b972ab202c58/models/heroes/treant_protector/treantprotector_legs_color_psd_e2edd077.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 228,
+      "name": "Treant Protectors Foliage",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/95b430415ccc/models/heroes/treant_protector/foliage.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/95b430415ccc/models/heroes/treant_protector/foliage.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/foliage.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/95b430415ccc/models/heroes/treant_protector/treantprotector_foliage_color_psd_b809be26.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_treant:item-model:8899:seed-of-rebirth-arms",
+      "itemId": 8899,
+      "name": "Arms of Eldritch Gnarl",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d78cfe47cf4e/models/items/treant/seed_of_rebirth_arms/seed_of_rebirth_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d78cfe47cf4e/models/items/treant/seed_of_rebirth_arms/seed_of_rebirth_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/seed_of_rebirth_arms/seed_of_rebirth_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/seed_of_rebirth_arms-3be4a210a56d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d78cfe47cf4e/models/items/treant/seed_of_rebirth_arms/seed_of_rebirth_arms_color_tga_97e4a7e1.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9898:lord-of-ancient-treant-arms",
+      "itemId": 9898,
+      "name": "Arms of the Ageless Witness",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/2e8ea690d02e/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/2e8ea690d02e/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_arms-6b9d422e39fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/2e8ea690d02e/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms_color_tga_1c1b19ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9898:lord-of-ancient-treant-arms:style-1",
+      "itemId": 9898,
+      "name": "Arms of the Ageless Witness - Quest Unlocked",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/2e8ea690d02e/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/2e8ea690d02e/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_arms_style1-4db4607ffb32.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/2e8ea690d02e/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms_color_tga_1c1b19ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7806:ancient-seal-protector-set-arms",
+      "itemId": 7806,
+      "name": "Arms of the Ancient Seal",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/5bd9bd76e36f/models/items/treant/ancient_seal_protector_set_arms/ancient_seal_protector_set_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/5bd9bd76e36f/models/items/treant/ancient_seal_protector_set_arms/ancient_seal_protector_set_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_seal_protector_set_arms/ancient_seal_protector_set_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_seal_protector_set_arms-ef2e459757a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/5bd9bd76e36f/models/items/treant/ancient_seal_protector_set_arms/ancient_seal_protector_set_arms_color_tga_5a28cc2e.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18855:tactician-of-forest-arms",
+      "itemId": 18855,
+      "name": "Arms of the Arbor Sage",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/444dcaf3026c/models/items/treant/tactician_of_forest_arms/tactician_of_forest_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/444dcaf3026c/models/items/treant/tactician_of_forest_arms/tactician_of_forest_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/tactician_of_forest_arms/tactician_of_forest_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tactician_of_forest_arms-d9a5040cb6b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/444dcaf3026c/models/items/treant/tactician_of_forest_arms/tactician_of_forest_arms_color_tga_a3a5433b.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:12858:ancient-guardian-set-frostivus-2018-arms",
+      "itemId": 12858,
+      "name": "Arms of the Boreal Sentinel",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/322427314771/models/items/treant/ancient_guardian_set_frostivus_2018_arms/ancient_guardian_set_frostivus_2018_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/322427314771/models/items/treant/ancient_guardian_set_frostivus_2018_arms/ancient_guardian_set_frostivus_2018_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_guardian_set_frostivus_2018_arms/ancient_guardian_set_frostivus_2018_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_guardian_set_frostivus_2018_arms-12f0fc8be676.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/322427314771/models/items/treant/ancient_guardian_set_frostivus_2018_arms/ancient_guardian_set_frostivus_2018_arms_color_tga_f3afe5a2.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8181:splintering-radiance-arms",
+      "itemId": 8181,
+      "name": "Arms of the Splintering Awe",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/27a836c1c753/models/items/treant/splintering_radiance_arms/splintering_radiance_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/27a836c1c753/models/items/treant/splintering_radiance_arms/splintering_radiance_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/splintering_radiance_arms/splintering_radiance_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/splintering_radiance_arms-0268b8a615ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/27a836c1c753/models/items/treant/splintering_radiance_arms/splintering_radiance_arms_color_tga_ebb0e69b.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:12181:shelter-of-the-frozen-forest-arms",
+      "itemId": 12181,
+      "name": "Bark of the Frost Auburn Hideaway",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/35b7ddeb245a/models/items/treant/shelter_of_the_frozen_forest_arms/shelter_of_the_frozen_forest_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/35b7ddeb245a/models/items/treant/shelter_of_the_frozen_forest_arms/shelter_of_the_frozen_forest_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/shelter_of_the_frozen_forest_arms/shelter_of_the_frozen_forest_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shelter_of_the_frozen_forest_arms-dd8ae0689063.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/35b7ddeb245a/models/items/treant/shelter_of_the_frozen_forest_arms/shelter_of_the_frozen_forest_arms_color_psd_fd7bb342.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:24178:serenity-of-the-old-master-arms",
+      "itemId": 24178,
+      "name": "Blossoms of the Wispwood  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/14504a589f51/models/items/treant/serenity_of_the_old_master_arms/serenity_of_the_old_master_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/14504a589f51/models/items/treant/serenity_of_the_old_master_arms/serenity_of_the_old_master_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/serenity_of_the_old_master_arms/serenity_of_the_old_master_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serenity_of_the_old_master_arms-548ccb34cbb0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/14504a589f51/models/items/treant/serenity_of_the_old_master_arms/serenity_of_the_old_master_arms_color_tga_7fff8361.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19399:bogborne-arms",
+      "itemId": 19399,
+      "name": "Bogborne Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/52d92a33e97d/models/items/treant/bogborne_arms/bogborne_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/52d92a33e97d/models/items/treant/bogborne_arms/bogborne_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/bogborne_arms/bogborne_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bogborne_arms-7117085457b1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/52d92a33e97d/models/items/treant/bogborne_arms/bogborne_arms_color_tga_9ca97b68.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8425:emberbark-arms",
+      "itemId": 8425,
+      "name": "Emberbark Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d4976c377b2d/models/items/treant/emberbark_arms/emberbark_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d4976c377b2d/models/items/treant/emberbark_arms/emberbark_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/emberbark_arms/emberbark_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emberbark_arms-80d8ea283f00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d4976c377b2d/models/items/treant/emberbark_arms/emberbark_arms_color_tga_a2be66cb.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7059:fungal-arms",
+      "itemId": 7059,
+      "name": "Embrace of the Agaric Flourish",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/9c0433c21569/models/items/treant/fungal_arms/fungal_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/9c0433c21569/models/items/treant/fungal_arms/fungal_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/fungal_arms/fungal_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fungal_arms-f285d3ad8e18.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/9c0433c21569/models/items/treant/fungal_arms/fungal_arms_color_tga_23a7d413.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19319:halloweentree-arms",
+      "itemId": 19319,
+      "name": "Grudges of the Gallows Tree  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/de3c9ed580de/models/items/treant/halloweentree_arms/halloweentree_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/de3c9ed580de/models/items/treant/halloweentree_arms/halloweentree_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/halloweentree_arms/halloweentree_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloweentree_arms-da87d8af1814.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/de3c9ed580de/models/items/treant/halloweentree_arms/halloweentree_arms_color_psd_92da76d7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/halloweentree_arms/halloweentree_arms.vmdl",
+        "modelPaths": [
+          "models/items/treant/halloweentree_arms/halloweentree_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/halloweentree/treant_halloweentree_cc_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18777:guardian-of-the-forest-arms",
+      "itemId": 18777,
+      "name": "Haven of the Hinterheart  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4236f1f8e939/models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/4236f1f8e939/models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_arms-ed11da687b41.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4236f1f8e939/models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms_color_tga_14fa0fc3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Arms 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Arms 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18777:guardian-of-the-forest-arms:style-1",
+      "itemId": 18777,
+      "name": "Haven of the Hinterheart  Arms - Style 2",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4236f1f8e939/models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/4236f1f8e939/models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_arms_style1-5f4ad412aa78.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4236f1f8e939/models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms_color_tga_14fa0fc3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Arms 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Arms 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_arms/guardian_of_the_forest_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7298:moonshard-arms",
+      "itemId": 7298,
+      "name": "Moonshard Claws",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/82bddbbff808/models/items/treant/moonshard_arms/moonshard_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/82bddbbff808/models/items/treant/moonshard_arms/moonshard_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/moonshard_arms/moonshard_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonshard_arms-a7c236b6c94d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/82bddbbff808/models/items/treant/moonshard_arms/moonshard_arms_color_tga_86640286.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:29610:spina-infernalis-arms-v2",
+      "itemId": 29610,
+      "name": "Spina Infernalis  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/879b39e397c5/models/items/treant/spina_infernalis_arms_v2/spina_infernalis_arms_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/879b39e397c5/models/items/treant/spina_infernalis_arms_v2/spina_infernalis_arms_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/spina_infernalis_arms_v2/spina_infernalis_arms_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spina_infernalis_arms_v2-c94eb1000757.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/879b39e397c5/models/items/treant/spina_infernalis_arms_v2/spina_infernalis_arms_v2_color_png_b77e18fe.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:23263:lord-of-ancient-treant-arms",
+      "itemId": 23263,
+      "name": "Summer Lineage Arms of the Ageless Witness",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f397e124e126/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/f397e124e126/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_arms2-193b33accbbe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f397e124e126/models/items/treant/lord_of_ancient_treant_arms/lord_of_ancient_treant_arms_color_tga_1c1b19ed.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:17827:hands",
+      "itemId": 17827,
+      "name": "Treant Protectors Diretide Shimmer Hands",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/3c371757f8a2/models/heroes/treant_protector/hands.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/3c371757f8a2/models/heroes/treant_protector/hands.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/hands.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hands1-f597a4a7b25c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/3c371757f8a2/models/heroes/treant_protector/treantprotector_hands_color_psd_b85eb38a.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:229:hands",
+      "itemId": 229,
+      "name": "Treant Protectors Hands",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b899ddaafeaa/models/heroes/treant_protector/hands.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/b899ddaafeaa/models/heroes/treant_protector/hands.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/hands.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hands-ed57894ddce3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b899ddaafeaa/models/heroes/treant_protector/treantprotector_hands_color_psd_b85eb38a.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9706:shelter-of-the-frozen-forest-head",
+      "itemId": 9706,
+      "name": "Beard of the Frost Auburn Hideaway",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d6193f486802/models/items/treant/shelter_of_the_frozen_forest_head/shelter_of_the_frozen_forest_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d6193f486802/models/items/treant/shelter_of_the_frozen_forest_head/shelter_of_the_frozen_forest_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/shelter_of_the_frozen_forest_head/shelter_of_the_frozen_forest_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shelter_of_the_frozen_forest_head-c8abaab59f61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d6193f486802/models/items/treant/shelter_of_the_frozen_forest_head/shelter_of_the_frozen_forest_head_color_psd_2ff72277.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:24194:serenity-of-the-old-master-head",
+      "itemId": 24194,
+      "name": "Blossoms of the Wispwood  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/8b19269809b3/models/items/treant/serenity_of_the_old_master_head/serenity_of_the_old_master_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/8b19269809b3/models/items/treant/serenity_of_the_old_master_head/serenity_of_the_old_master_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/serenity_of_the_old_master_head/serenity_of_the_old_master_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serenity_of_the_old_master_head-9c0386372d3e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/8b19269809b3/models/items/treant/serenity_of_the_old_master_head/serenity_of_the_old_master_head_color_tga_ce6de354.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19400:bogborne-head",
+      "itemId": 19400,
+      "name": "Bogborne Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/a9998d67f747/models/items/treant/bogborne_head/bogborne_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/a9998d67f747/models/items/treant/bogborne_head/bogborne_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/bogborne_head/bogborne_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bogborne_head-ae0e9d712481.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/a9998d67f747/models/items/treant/bogborne_head/bogborne_head_color_tga_4ac6227b.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7060:fungal-head",
+      "itemId": 7060,
+      "name": "Countenance of the Agaric Flourish",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b0a743c2a3e1/models/items/treant/fungal_head/fungal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/b0a743c2a3e1/models/items/treant/fungal_head/fungal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/fungal_head/fungal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fungal_head-08e889436505.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b0a743c2a3e1/models/items/treant/fungal_head/fungal_head_color_tga_b1ee3af8.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8427:emberbark-head",
+      "itemId": 8427,
+      "name": "Emberbark Beard",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/0c74cb82e010/models/items/treant/emberbark_head/emberbark_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/0c74cb82e010/models/items/treant/emberbark_head/emberbark_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/emberbark_head/emberbark_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emberbark_head-a629171d849b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/0c74cb82e010/models/items/treant/emberbark_head/emberbark_head_color_tga_f07ab6d7.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19318:halloweentree-head",
+      "itemId": 19318,
+      "name": "Grudges of the Gallows Tree  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/86955661b73e/models/items/treant/halloweentree_head/halloweentree_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/86955661b73e/models/items/treant/halloweentree_head/halloweentree_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/halloweentree_head/halloweentree_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloweentree_head-60853bb8c1a8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/86955661b73e/models/items/treant/halloweentree_head/halloweentree_head_color_psd_d3baea5c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/halloweentree_head/halloweentree_head.vmdl",
+        "modelPaths": [
+          "models/items/treant/halloweentree_head/halloweentree_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/halloweentree/treant_halloweentree_cc_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18774:guardian-of-the-forest-head",
+      "itemId": 18774,
+      "name": "Haven of the Hinterheart  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f050175ae014/models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/f050175ae014/models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_head-22a6cf61a0d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f050175ae014/models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head_color_tga_d617a095.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head_v2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Head 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Head 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head_v2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "red",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18774:guardian-of-the-forest-head:style-1",
+      "itemId": 18774,
+      "name": "Haven of the Hinterheart  Head - Red",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "red",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f050175ae014/models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/f050175ae014/models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_head_style1-969a513dab05.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f050175ae014/models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head_color_tga_d617a095.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head_v2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Head 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Head 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_head/guardian_of_the_forest_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_head_v2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "red",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9899:lord-of-ancient-treant-head",
+      "itemId": 9899,
+      "name": "Head of the Ageless Witness",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/44f0b5c6db47/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/44f0b5c6db47/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_head-338410bf5e13.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/44f0b5c6db47/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head_color_tga_a8091ced.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient_eyes_green.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient_eyes_green.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9899:lord-of-ancient-treant-head:style-1",
+      "itemId": 9899,
+      "name": "Head of the Ageless Witness - Quest Unlocked",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/44f0b5c6db47/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/44f0b5c6db47/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_head_style1-648ed2ecf090.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/44f0b5c6db47/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head_color_tga_a8091ced.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient_eyes_green.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient_eyes_green.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/ancient_treant/ancient_treant_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18857:tactician-of-forest-head",
+      "itemId": 18857,
+      "name": "Head of the Arbor Sage",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/45eb4e1a67ed/models/items/treant/tactician_of_forest_head/tactician_of_forest_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/45eb4e1a67ed/models/items/treant/tactician_of_forest_head/tactician_of_forest_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/tactician_of_forest_head/tactician_of_forest_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tactician_of_forest_head-29b100f8ffbf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/45eb4e1a67ed/models/items/treant/tactician_of_forest_head/tactician_of_forest_head_color_tga_7e468cae.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:12857:ancient-guardian-set-frostivus-2018-head",
+      "itemId": 12857,
+      "name": "Head of the Boreal Sentinel",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/04122ad3cdc0/models/items/treant/ancient_guardian_set_frostivus_2018_head/ancient_guardian_set_frostivus_2018_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/04122ad3cdc0/models/items/treant/ancient_guardian_set_frostivus_2018_head/ancient_guardian_set_frostivus_2018_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_guardian_set_frostivus_2018_head/ancient_guardian_set_frostivus_2018_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_guardian_set_frostivus_2018_head-3cada7edc8f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/04122ad3cdc0/models/items/treant/ancient_guardian_set_frostivus_2018_head/ancient_guardian_set_frostivus_2018_head_color_tga_3303fab6.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8182:splintering-radiance-head",
+      "itemId": 8182,
+      "name": "Mask of the Splintering Awe",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/8a8718649033/models/items/treant/splintering_radiance_head/splintering_radiance_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/8a8718649033/models/items/treant/splintering_radiance_head/splintering_radiance_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/splintering_radiance_head/splintering_radiance_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/splintering_radiance_head-0469f0b593d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/8a8718649033/models/items/treant/splintering_radiance_head/splintering_radiance_head_color_tga_86604d8e.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7299:moonshard-head",
+      "itemId": 7299,
+      "name": "Moonshard Tusks",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/03e1cba77f1a/models/items/treant/moonshard_head/moonshard_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/03e1cba77f1a/models/items/treant/moonshard_head/moonshard_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/moonshard_head/moonshard_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonshard_head-e255f028a391.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/03e1cba77f1a/models/items/treant/moonshard_head/moonshard_head_color_tga_2d03909e.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7808:ancient-seal-protector-set-head",
+      "itemId": 7808,
+      "name": "Overgrowth of the Ancient Seal",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/ead02e45d226/models/items/treant/ancient_seal_protector_set_head/ancient_seal_protector_set_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/ead02e45d226/models/items/treant/ancient_seal_protector_set_head/ancient_seal_protector_set_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_seal_protector_set_head/ancient_seal_protector_set_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_seal_protector_set_head-4ad30b45ab90.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/ead02e45d226/models/items/treant/ancient_seal_protector_set_head/ancient_seal_protector_set_head_color_tga_9f58a01e.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8900:seed-of-rebirth-head",
+      "itemId": 8900,
+      "name": "Snoot of Eldritch Gnarl",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/bec7389a468a/models/items/treant/seed_of_rebirth_head/seed_of_rebirth_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/bec7389a468a/models/items/treant/seed_of_rebirth_head/seed_of_rebirth_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/seed_of_rebirth_head/seed_of_rebirth_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/seed_of_rebirth_head-91df893cd365.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/bec7389a468a/models/items/treant/seed_of_rebirth_head/seed_of_rebirth_head_color_tga_755d7062.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:29617:spina-infernalis-headv2",
+      "itemId": 29617,
+      "name": "Spina Infernalis  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4beb09cf7c26/models/items/treant/spina_infernalis_headv2/spina_infernalis_headv2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/4beb09cf7c26/models/items/treant/spina_infernalis_headv2/spina_infernalis_headv2.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/spina_infernalis_headv2/spina_infernalis_headv2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spina_infernalis_headv2-3d3c441f5c17.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4beb09cf7c26/models/items/treant/spina_infernalis_headv2/spina_infernalis_headv2_color_png_8afe8b11.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:14991:treant-ti10-immortal-head",
+      "itemId": 14991,
+      "name": "Stuntwood Symbiont",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/41d04d9a0677/models/items/treant/treant_ti10_immortal_head/treant_ti10_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/41d04d9a0677/models/items/treant/treant_ti10_immortal_head/treant_ti10_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/treant_ti10_immortal_head/treant_ti10_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treant_ti10_immortal_head-5f73ed90600f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/41d04d9a0677/models/items/treant/treant_ti10_immortal_head/treant_ti10_immortal_head_color_psd_c3687c84.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/treant_ti10_immortal_head/treant_ti10_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/treant/treant_ti10_immortal_head/treant_ti10_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/treant_ti10_immortal_head/treant_ti10_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/treant_ti10_immortal_head/treant_ti10_immortal_overgrowth_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/treant_ti10_immortal_head/treant_ti10_immortal_overgrowth_root.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/treant_ti10_immortal_head/treant_ti10_immortal_overgrowth_root_small.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_treant/treant_overgrowth_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_treant/treant_overgrowth_trails.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_treant/treant_overgrowth_vines.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_treant/treant_overgrowth_vines_small.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:23264:lord-of-ancient-treant-head",
+      "itemId": 23264,
+      "name": "Summer Lineage Head of the Ageless Witness",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4e2dd8f031ec/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/4e2dd8f031ec/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_head2-606260b348e5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/4e2dd8f031ec/models/items/treant/lord_of_ancient_treant_head/lord_of_ancient_treant_head_color_tga_a8091ced.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:17826:head",
+      "itemId": 17826,
+      "name": "Treant Protectors Diretide Shimmer Beard",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/0b70d3f494a1/models/heroes/treant_protector/head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/0b70d3f494a1/models/heroes/treant_protector/head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head1-07f52a7e22a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/0b70d3f494a1/models/heroes/treant_protector/treantprotector_beard_color_psd_305847cc.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:227:head",
+      "itemId": 227,
+      "name": "Treant Protectors Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/1b4e516a9511/models/heroes/treant_protector/head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/1b4e516a9511/models/heroes/treant_protector/head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head-2c3a275e53e6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/1b4e516a9511/models/heroes/treant_protector/treantprotector_beard_color_psd_305847cc.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:24179:serenity-of-the-old-master-legs",
+      "itemId": 24179,
+      "name": "Blossoms of the Wispwood  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/dc6eadc65616/models/items/treant/serenity_of_the_old_master_legs/serenity_of_the_old_master_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/dc6eadc65616/models/items/treant/serenity_of_the_old_master_legs/serenity_of_the_old_master_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/serenity_of_the_old_master_legs/serenity_of_the_old_master_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serenity_of_the_old_master_legs-bdd77fa29f7c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/dc6eadc65616/models/items/treant/serenity_of_the_old_master_legs/serenity_of_the_old_master_legs_color_tga_4004207e.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19401:bogborne-legs",
+      "itemId": 19401,
+      "name": "Bogborne Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b8b4b231db92/models/items/treant/bogborne_legs/bogborne_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/b8b4b231db92/models/items/treant/bogborne_legs/bogborne_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/bogborne_legs/bogborne_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bogborne_legs-ee3ee1492ffe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b8b4b231db92/models/items/treant/bogborne_legs/bogborne_legs_color_tga_6456b864.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8428:emberbark-legs",
+      "itemId": 8428,
+      "name": "Emberbark Roots",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d0ef0044ca75/models/items/treant/emberbark_legs/emberbark_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d0ef0044ca75/models/items/treant/emberbark_legs/emberbark_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/emberbark_legs/emberbark_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emberbark_legs-41e925f120ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d0ef0044ca75/models/items/treant/emberbark_legs/emberbark_legs_color_tga_24307c07.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19317:halloweentree-legs",
+      "itemId": 19317,
+      "name": "Grudges of the Gallows Tree  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/90683d55345b/models/items/treant/halloweentree_legs/halloweentree_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/90683d55345b/models/items/treant/halloweentree_legs/halloweentree_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/halloweentree_legs/halloweentree_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloweentree_legs-cce7cf78d4ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/90683d55345b/models/items/treant/halloweentree_legs/halloweentree_legs_color_psd_e156a924.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18776:guardian-of-the-forest-legs",
+      "itemId": 18776,
+      "name": "Haven of the Hinterheart  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/9029a46fcd2d/models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/9029a46fcd2d/models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_legs-80fb4726dbeb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/9029a46fcd2d/models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs_color_tga_ef5176a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Legs 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Legs 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18776:guardian-of-the-forest-legs:style-1",
+      "itemId": 18776,
+      "name": "Haven of the Hinterheart  Legs - Style 2",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/9029a46fcd2d/models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/9029a46fcd2d/models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_legs_style1-e08a30971f76.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/9029a46fcd2d/models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs_color_tga_ef5176a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Legs 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Legs 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_legs/guardian_of_the_forest_legs_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9900:lord-of-ancient-treant-legs",
+      "itemId": 9900,
+      "name": "Legs of the Ageless Witness",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/81f99212cd79/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/81f99212cd79/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_legs-c6cf94af8cf7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/81f99212cd79/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs_color_tga_86c1e752.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9900:lord-of-ancient-treant-legs:style-1",
+      "itemId": 9900,
+      "name": "Legs of the Ageless Witness - Quest Unlocked",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/81f99212cd79/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/81f99212cd79/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_legs_style1-15b8e7e191ab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/81f99212cd79/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs_color_tga_86c1e752.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18854:tactician-of-forest-legs",
+      "itemId": 18854,
+      "name": "Legs of the Arbor Sage",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/67282742b2f8/models/items/treant/tactician_of_forest_legs/tactician_of_forest_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/67282742b2f8/models/items/treant/tactician_of_forest_legs/tactician_of_forest_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/tactician_of_forest_legs/tactician_of_forest_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tactician_of_forest_legs-13cba4e7eab3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/67282742b2f8/models/items/treant/tactician_of_forest_legs/tactician_of_forest_legs_color_tga_5af45cd3.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:12856:ancient-guardian-set-frostivus-2018-legs",
+      "itemId": 12856,
+      "name": "Legs of the Boreal Sentinel",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/8e3a9fe1dfff/models/items/treant/ancient_guardian_set_frostivus_2018_legs/ancient_guardian_set_frostivus_2018_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/8e3a9fe1dfff/models/items/treant/ancient_guardian_set_frostivus_2018_legs/ancient_guardian_set_frostivus_2018_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_guardian_set_frostivus_2018_legs/ancient_guardian_set_frostivus_2018_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_guardian_set_frostivus_2018_legs-567b3e1aff27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/8e3a9fe1dfff/models/items/treant/ancient_guardian_set_frostivus_2018_legs/ancient_guardian_set_frostivus_2018_legs_color_tga_7aa1a7ae.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7300:moonshard-legs",
+      "itemId": 7300,
+      "name": "Moonshard Roots",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/2680b0c93fd7/models/items/treant/moonshard_legs/moonshard_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/2680b0c93fd7/models/items/treant/moonshard_legs/moonshard_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/moonshard_legs/moonshard_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonshard_legs-8385a836dcfb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/2680b0c93fd7/models/items/treant/moonshard_legs/moonshard_legs_color_tga_10d4419c.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8901:seed-of-rebirth-legs",
+      "itemId": 8901,
+      "name": "Roots of Eldritch Gnarl",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/642ca39c16e3/models/items/treant/seed_of_rebirth_legs/seed_of_rebirth_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/642ca39c16e3/models/items/treant/seed_of_rebirth_legs/seed_of_rebirth_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/seed_of_rebirth_legs/seed_of_rebirth_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/seed_of_rebirth_legs-136e0b553dc8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/642ca39c16e3/models/items/treant/seed_of_rebirth_legs/seed_of_rebirth_legs_color_tga_a377068d.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9705:shelter-of-the-frozen-forest-legs",
+      "itemId": 9705,
+      "name": "Roots of the Frost Auburn Hideaway",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/78b9d0ad148c/models/items/treant/shelter_of_the_frozen_forest_legs/shelter_of_the_frozen_forest_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/78b9d0ad148c/models/items/treant/shelter_of_the_frozen_forest_legs/shelter_of_the_frozen_forest_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/shelter_of_the_frozen_forest_legs/shelter_of_the_frozen_forest_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shelter_of_the_frozen_forest_legs-d276898adb51.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/78b9d0ad148c/models/items/treant/shelter_of_the_frozen_forest_legs/shelter_of_the_frozen_forest_legs_color_psd_60470b07.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:30516:spina-infernalis-legs",
+      "itemId": 30516,
+      "name": "Spina Infernalis  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/ddea9efe97d6/models/items/treant/spina_infernalis_legs/spina_infernalis_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/ddea9efe97d6/models/items/treant/spina_infernalis_legs/spina_infernalis_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/spina_infernalis_legs/spina_infernalis_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spina_infernalis_legs-46e97d0865dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/ddea9efe97d6/models/items/treant/spina_infernalis_legs/spina_infernalis_legs_color_png_a8f80285.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8183:splintering-radiance-legs",
+      "itemId": 8183,
+      "name": "Stock of the Splintering Awe",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/3b461423ee54/models/items/treant/splintering_radiance_legs/splintering_radiance_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/3b461423ee54/models/items/treant/splintering_radiance_legs/splintering_radiance_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/splintering_radiance_legs/splintering_radiance_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/splintering_radiance_legs-5256c9b90ebc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/3b461423ee54/models/items/treant/splintering_radiance_legs/splintering_radiance_legs_color_tga_bf7e51a.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7061:fungal-legs",
+      "itemId": 7061,
+      "name": "Stride of the Agaric Flourish",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/ab49cc271d21/models/items/treant/fungal_legs/fungal_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/ab49cc271d21/models/items/treant/fungal_legs/fungal_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/fungal_legs/fungal_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fungal_legs-11ed0b7c53ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/ab49cc271d21/models/items/treant/fungal_legs/fungal_legs_color_tga_f8fd6498.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7805:ancient-seal-protector-set-legs",
+      "itemId": 7805,
+      "name": "Stumps of the Ancient Seal",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/5ca4ed395d96/models/items/treant/ancient_seal_protector_set_legs/ancient_seal_protector_set_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/5ca4ed395d96/models/items/treant/ancient_seal_protector_set_legs/ancient_seal_protector_set_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_seal_protector_set_legs/ancient_seal_protector_set_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_seal_protector_set_legs-2796ff8081e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/5ca4ed395d96/models/items/treant/ancient_seal_protector_set_legs/ancient_seal_protector_set_legs_color_tga_22263557.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:23265:lord-of-ancient-treant-legs",
+      "itemId": 23265,
+      "name": "Summer Lineage Legs of the Ageless Witness",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/727c98bcdc25/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/727c98bcdc25/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_legs2-70b1f905cfa6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/727c98bcdc25/models/items/treant/lord_of_ancient_treant_legs/lord_of_ancient_treant_legs_color_tga_86c1e752.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:17828:legs",
+      "itemId": 17828,
+      "name": "Treant Protectors Diretide Shimmer Feet",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/a91786db967a/models/heroes/treant_protector/legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/a91786db967a/models/heroes/treant_protector/legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legs1-9ba6f4674b6b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/a91786db967a/models/heroes/treant_protector/treantprotector_legs_color_psd_e2edd077.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:230:legs",
+      "itemId": 230,
+      "name": "Treant Protectors Feet",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b972ab202c58/models/heroes/treant_protector/legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/b972ab202c58/models/heroes/treant_protector/legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legs-aa952286e096.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b972ab202c58/models/heroes/treant_protector/treantprotector_legs_color_psd_e2edd077.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7807:ancient-seal-protector-set-shoulder",
+      "itemId": 7807,
+      "name": "Bearing of the Ancient Seal",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/1441e78e94bc/models/items/treant/ancient_seal_protector_set_shoulder/ancient_seal_protector_set_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/1441e78e94bc/models/items/treant/ancient_seal_protector_set_shoulder/ancient_seal_protector_set_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_seal_protector_set_shoulder/ancient_seal_protector_set_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_seal_protector_set_shoulder-0596c7c4696e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/1441e78e94bc/models/items/treant/ancient_seal_protector_set_shoulder/ancient_seal_protector_set_shoulder_color_tga_49950b58.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:24195:serenity-of-the-old-master-shoulder",
+      "itemId": 24195,
+      "name": "Blossoms of the Wispwood  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/eef6bea2c59e/models/items/treant/serenity_of_the_old_master_shoulder/serenity_of_the_old_master_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/eef6bea2c59e/models/items/treant/serenity_of_the_old_master_shoulder/serenity_of_the_old_master_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/serenity_of_the_old_master_shoulder/serenity_of_the_old_master_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serenity_of_the_old_master_shoulder-19d3c41554c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/eef6bea2c59e/models/items/treant/serenity_of_the_old_master_shoulder/serenity_of_the_old_master_shoulder_color_tga_e579baa2.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19402:bogborne-shoulder",
+      "itemId": 19402,
+      "name": "Bogborne Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/babe33a583bd/models/items/treant/bogborne_shoulder/bogborne_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/babe33a583bd/models/items/treant/bogborne_shoulder/bogborne_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/bogborne_shoulder/bogborne_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bogborne_shoulder-58c61f8498aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/babe33a583bd/models/items/treant/bogborne_shoulder/bogborne_shoulder_color_tga_febd7c1d.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7062:fungal-shoulder",
+      "itemId": 7062,
+      "name": "Canopy of the Agaric Flourish",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/79fcef6a1076/models/items/treant/fungal_shoulder/fungal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/79fcef6a1076/models/items/treant/fungal_shoulder/fungal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/fungal_shoulder/fungal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fungal_shoulder-d41fbb04a26b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/79fcef6a1076/models/items/treant/fungal_shoulder/fungal_shoulder_color_tga_338ed249.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:12855:ancient-guardian-set-frostivus-2018-shoulder",
+      "itemId": 12855,
+      "name": "Canopy of the Boreal Sentinel",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/5bff56efd649/models/items/treant/ancient_guardian_set_frostivus_2018_shoulder/ancient_guardian_set_frostivus_2018_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/5bff56efd649/models/items/treant/ancient_guardian_set_frostivus_2018_shoulder/ancient_guardian_set_frostivus_2018_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/ancient_guardian_set_frostivus_2018_shoulder/ancient_guardian_set_frostivus_2018_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_guardian_set_frostivus_2018_shoulder-26b28fbc5c51.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/5bff56efd649/models/items/treant/ancient_guardian_set_frostivus_2018_shoulder/ancient_guardian_set_frostivus_2018_shoulder_color_tga_903d2131.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:7301:moonshard-shoulder",
+      "itemId": 7301,
+      "name": "Canopy of the Moonshard",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/be4041f0716a/models/items/treant/moonshard_shoulder/moonshard_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/be4041f0716a/models/items/treant/moonshard_shoulder/moonshard_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/moonshard_shoulder/moonshard_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moonshard_shoulder-44bc5977b0ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/be4041f0716a/models/items/treant/moonshard_shoulder/moonshard_shoulder_color_tga_d748e1a2.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8184:splintering-radiance-shoulder",
+      "itemId": 8184,
+      "name": "Carvings of the Splintering Awe",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/afc9c2a3263c/models/items/treant/splintering_radiance_shoulder/splintering_radiance_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/afc9c2a3263c/models/items/treant/splintering_radiance_shoulder/splintering_radiance_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/splintering_radiance_shoulder/splintering_radiance_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/splintering_radiance_shoulder-edce81f78854.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/afc9c2a3263c/models/items/treant/splintering_radiance_shoulder/splintering_radiance_shoulder_color_tga_997a9e2c.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8429:emberbark-shoulder",
+      "itemId": 8429,
+      "name": "Emberbark Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/165db09bee31/models/items/treant/emberbark_shoulder/emberbark_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/165db09bee31/models/items/treant/emberbark_shoulder/emberbark_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/emberbark_shoulder/emberbark_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emberbark_shoulder-e274f0600f43.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/165db09bee31/models/items/treant/emberbark_shoulder/emberbark_shoulder_color_tga_7d854f72.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8902:seed-of-rebirth-shoulder",
+      "itemId": 8902,
+      "name": "Foliage of Eldritch Gnarl",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/dec89f858371/models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/dec89f858371/models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/seed_of_rebirth_shoulder-591a9c3a5b01.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/dec89f858371/models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder_color_tga_7355f0f9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/treant_seed_rebirth_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Seed of Rebirth Shoulder 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Seed of Rebirth Shoulder 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_seed_rebirth_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:8902:seed-of-rebirth-shoulder:style-1",
+      "itemId": 8902,
+      "name": "Foliage of Eldritch Gnarl - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/dec89f858371/models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/dec89f858371/models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/seed_of_rebirth_shoulder_style1-756c8bc79dea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/dec89f858371/models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder_color_tga_7355f0f9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/treant_seed_rebirth_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Seed of Rebirth Shoulder 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Seed of Rebirth Shoulder 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/seed_of_rebirth_shoulder/seed_of_rebirth_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_seed_rebirth_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:19316:halloweentree-shoulder",
+      "itemId": 19316,
+      "name": "Grudges of the Gallows Tree  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f22892cc962f/models/items/treant/halloweentree_shoulder/halloweentree_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/f22892cc962f/models/items/treant/halloweentree_shoulder/halloweentree_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/halloweentree_shoulder/halloweentree_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/halloweentree_shoulder-90b40183107e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f22892cc962f/models/items/treant/halloweentree_shoulder/halloweentree_shoulders_color_psd_f89e4793.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/halloweentree_shoulder/halloweentree_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/halloweentree_shoulder/halloweentree_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/halloweentree/treant_halloweentree_cc_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18775:guardian-of-the-forest-shoulder",
+      "itemId": 18775,
+      "name": "Haven of the Hinterheart  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d4c2cad8df2e/models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d4c2cad8df2e/models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_shoulder-8a08c9c9cc4b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d4c2cad8df2e/models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder_color_tga_66ac5cc2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder_v2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Shoulder 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Shoulder 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder_v2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "red",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18775:guardian-of-the-forest-shoulder:style-1",
+      "itemId": 18775,
+      "name": "Haven of the Hinterheart  Shoulder - Red",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "red",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d4c2cad8df2e/models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d4c2cad8df2e/models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardian_of_the_forest_shoulder_style1-aa3307d94dbd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d4c2cad8df2e/models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder_color_tga_66ac5cc2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder_v2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Guardian of the Forest Shoulder 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Guardian of the Forest Shoulder 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/guardian_of_the_forest_shoulder/guardian_of_the_forest_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/treant_protector/treant_cc_2021/treant_cc_2021_shoulder_v2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "red",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9704:shelter-of-the-frozen-forest-shoulder",
+      "itemId": 9704,
+      "name": "Sanctuary of the Frost Auburn Hideaway",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d61ecac46406/models/items/treant/shelter_of_the_frozen_forest_shoulder/shelter_of_the_frozen_forest_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d61ecac46406/models/items/treant/shelter_of_the_frozen_forest_shoulder/shelter_of_the_frozen_forest_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/shelter_of_the_frozen_forest_shoulder/shelter_of_the_frozen_forest_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shelter_of_the_frozen_forest_shoulder-3f0139f40a00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d61ecac46406/models/items/treant/shelter_of_the_frozen_forest_shoulder/shelter_of_the_frozen_forest_shoulder_color_psd_864ffe7c.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:18856:tactician-of-forest-shoulder",
+      "itemId": 18856,
+      "name": "Shoulder of the Arbor Sage",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/e1bb72a2f983/models/items/treant/tactician_of_forest_shoulder/tactician_of_forest_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/e1bb72a2f983/models/items/treant/tactician_of_forest_shoulder/tactician_of_forest_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/tactician_of_forest_shoulder/tactician_of_forest_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tactician_of_forest_shoulder-e058e34176c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/e1bb72a2f983/models/items/treant/tactician_of_forest_shoulder/tactician_of_forest_shoulder_color_tga_5c0facf1.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9901:lord-of-ancient-treant-shoulder",
+      "itemId": 9901,
+      "name": "Shoulders of the Ageless Witness",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/cab98ae5f84e/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/cab98ae5f84e/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_shoulder-5395c616816f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/cab98ae5f84e/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder_color_tga_dbb68d96.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9901:lord-of-ancient-treant-shoulder:style-1",
+      "itemId": 9901,
+      "name": "Shoulders of the Ageless Witness - Quest Unlocked",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/cab98ae5f84e/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/cab98ae5f84e/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_shoulder_style1-9ac49a6ce993.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/cab98ae5f84e/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder_color_tga_dbb68d96.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Quest Locked",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Quest Unlocked",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:29611:spina-infernalis-shoulders-v2",
+      "itemId": 29611,
+      "name": "Spina Infernalis  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f8b56542ce18/models/items/treant/spina_infernalis_shoulders_v2/spina_infernalis_shoulders_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/f8b56542ce18/models/items/treant/spina_infernalis_shoulders_v2/spina_infernalis_shoulders_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/spina_infernalis_shoulders_v2/spina_infernalis_shoulders_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spina_infernalis_shoulders_v2-766443a48b01.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/f8b56542ce18/models/items/treant/spina_infernalis_shoulders_v2/spina_infernalis_shoulders_v2_color_png_39786efb.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9196:treant-ti7-immortal-shoulder",
+      "itemId": 9196,
+      "name": "Stuntwood Sanctuary",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b4e78ebb6b34/models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/b4e78ebb6b34/models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treant_ti7_immortal_shoulder-0b64288fe9ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/b4e78ebb6b34/models/items/treant/immortal_shoulder/immortal_shoulder_seedlings_color_psd_82150901.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/ti7_shoulder/treant_ti7_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/ti7_shoulder/treant_ti7_livingarmor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_treant/treant_livingarmor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:9452:treant-ti7-immortal-shoulder",
+      "itemId": 9452,
+      "name": "Stuntwood Sanctuary of the Crimson Witness",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d6dd1f64534f/models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/d6dd1f64534f/models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treant_ti7_immortal_shoulder1-88f4dae8f55f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/d6dd1f64534f/models/items/treant/immortal_shoulder/immortal_shoulder_seedlings_color_psd_82150901.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/treant_protector/ti7_shoulder/treant_ti7_crimson_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/treant_protector/ti7_shoulder/treant_ti7_crimson_livingarmor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_treant/treant_livingarmor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:23266:lord-of-ancient-treant-shoulder",
+      "itemId": 23266,
+      "name": "Summer Lineage Shoulders of the Ageless Witness",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/c1feaf0ca71a/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/c1feaf0ca71a/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_shoulder2-b2091362e610.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/c1feaf0ca71a/models/items/treant/lord_of_ancient_treant_shoulder/lord_of_ancient_treant_shoulder_color_tga_dbb68d96.png"
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:17829:treant-ti7-immortal-shoulder",
+      "itemId": 17829,
+      "name": "Treant Protectors Diretide Shimmer Branches",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:seasonal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/6db5c5e15c40/models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/6db5c5e15c40/models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/treant_ti7_immortal_shoulder2-3abc9909614e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/6db5c5e15c40/models/items/treant/immortal_shoulder/immortal_shoulder_seedlings_color_psd_82150901.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/treant/immortal_shoulder/treant_ti7_immortal_shoulder.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_treant:item-model:228:foliage",
+      "itemId": 228,
+      "name": "Treant Protectors Foliage",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_treant/95b430415ccc/models/heroes/treant_protector/foliage.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_treant/95b430415ccc/models/heroes/treant_protector/foliage.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/treant_protector/foliage.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/foliage-688072b6ee55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_treant/95b430415ccc/models/heroes/treant_protector/treantprotector_foliage_color_psd_b809be26.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_treant:core-set:20664:agaric-flourish",
+      "name": "Agaric Flourish",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        7059,
+        7060,
+        7061,
+        7062
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_fungal_protector-a3f456a19236.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21079:bark-of-the-ageless-witness",
+      "name": "Bark of the Ageless Witness",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        9898,
+        9899,
+        9900,
+        9901
+      ],
+      "styleSelections": {
+        "9898": "0",
+        "9899": "0",
+        "9900": "0",
+        "9901": "0"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_lord_of_ancient_treant_loadingscreen-10e4371858e0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21079:bark-of-the-ageless-witness:style-1",
+      "name": "Bark of the Ageless Witness - Quest Unlocked",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        9898,
+        9899,
+        9900,
+        9901
+      ],
+      "styleSelections": {
+        "9898": "1",
+        "9899": "1",
+        "9900": "1",
+        "9901": "1"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_arms_style1-4db4607ffb32.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:24193:blossoms-of-the-wispwood",
+      "name": "Blossoms of the Wispwood",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        24178,
+        24179,
+        24194,
+        24195
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/serenity_of_the_old_master_loading_screen-72b946ab4f55.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21881:bogborne",
+      "name": "Bogborne",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        19399,
+        19400,
+        19401,
+        19402
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/bogborne_arms-7117085457b1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21058:eldritch-gnarl",
+      "name": "Eldritch Gnarl",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        8899,
+        8900,
+        8901,
+        8902
+      ],
+      "styleSelections": {
+        "8902": "0"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/seed_of_rebirth_seed_of_rebirth_loadscreen-f394cf8748d1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21058:eldritch-gnarl:style-1",
+      "name": "Eldritch Gnarl - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        8899,
+        8900,
+        8901,
+        8902
+      ],
+      "styleSelections": {
+        "8902": "1"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/seed_of_rebirth_shoulder_style1-756c8bc79dea.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:20803:emberbark",
+      "name": "Emberbark",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        8425,
+        8427,
+        8428,
+        8429
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/emberbark_loadingscreen-c8f32fef5636.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:20685:esportal-dota-2-league",
+      "name": "Esportal Dota 2 League",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        7298,
+        7299,
+        7300,
+        7301
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/moonshard_arms-a7c236b6c94d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21185:frost-auburn-hideaway",
+      "name": "Frost Auburn Hideaway",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        9704,
+        9705,
+        9706,
+        12181
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/shelter_of_the_frozen_forest_shoulder-3f0139f40a00.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21772:grudges-of-the-gallows-tree",
+      "name": "Grudges of the Gallows Tree",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        19316,
+        19317,
+        19318,
+        19319
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/halloweentree_shoulder-90b40183107e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21753:haven-of-the-hinterheart",
+      "name": "Haven of the Hinterheart",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        18774,
+        18775,
+        18776,
+        18777
+      ],
+      "styleSelections": {
+        "18774": "0",
+        "18775": "0",
+        "18776": "0",
+        "18777": "0"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_haven_of_the_hinterheart-655dac63b566.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21753:haven-of-the-hinterheart:style-1",
+      "name": "Haven of the Hinterheart - Red",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        18774,
+        18775,
+        18776,
+        18777
+      ],
+      "styleSelections": {
+        "18774": "1",
+        "18775": "1",
+        "18776": "1",
+        "18777": "1"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "red",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/guardian_of_the_forest_head_style1-969a513dab05.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21822:honors-of-the-arbor-sage",
+      "name": "Honors of the Arbor Sage",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        18854,
+        18855,
+        18856,
+        18857
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/tactician_of_forest_loading_screen-d178156defcf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:20971:moonshard-overgrowth",
+      "name": "Moonshard Overgrowth",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        7298,
+        7299,
+        7300,
+        7301
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/moonshard_loadingscreen-a2b354cdaaa0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21001:protector-of-the-ancient-seal",
+      "name": "Protector of the Ancient Seal",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        7805,
+        7806,
+        7807,
+        7808
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/ancient_seal_protector_set_loading_screen_of_the_ancient_seal_protector-054447419c3e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:30580:spina-infernalis",
+      "name": "Spina Infernalis",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        29610,
+        29611,
+        29617,
+        30516
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/spina_infernalis_arms_v2-c94eb1000757.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:20816:splintering-awe",
+      "name": "Splintering Awe",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        8181,
+        8182,
+        8183,
+        8184
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/splintering_radiance_loading_screen-4e51bb3ef9f5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:23262:summer-lineage-bark-of-the-ageless-witness",
+      "name": "Summer Lineage Bark of the Ageless Witness",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        23263,
+        23264,
+        23265,
+        23266
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/lord_of_ancient_treant_arms2-193b33accbbe.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21309:the-boreal-sentinel",
+      "name": "The Boreal Sentinel",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "sourceItemIds": [
+        12855,
+        12856,
+        12857,
+        12858
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/ancient_guardian_set_frostivus_2018_shoulder-26b28fbc5c51.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_treant:core-set:21701:treant-protectors-diretide-shimmer-bundle",
+      "name": "Treant Protectors Diretide Shimmer Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        227,
+        228,
+        229,
+        230,
+        736
+      ],
+      "sourceItemIds": [
+        17825,
+        17826,
+        17827,
+        17828,
+        17829
+      ],
+      "slots": [
+        "arms",
+        "costume",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:seasonal",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/head1-07f52a7e22a7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 76393669,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 446
+  }
+}

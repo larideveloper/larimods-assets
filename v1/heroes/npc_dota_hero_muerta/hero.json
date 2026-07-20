@@ -1,0 +1,642 @@
+{
+  "heroId": "npc_dota_hero_muerta",
+  "sourceHeroId": "npc_dota_hero_muerta",
+  "variantId": "default",
+  "heroName": "Muerta",
+  "heroSlug": "muerta",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/muerta.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_muerta/93a80c0aecb6/models/heroes/muerta/muerta_base.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 809,
+      "name": "Muertas Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ee8d86b712f6/models/heroes/muerta/muerta_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/ee8d86b712f6/models/heroes/muerta/muerta_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ee8d86b712f6/models/heroes/muerta/muerta_base_color_png_6bab89b0.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 808,
+      "name": "Muertas Shroud",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/c8d6d8d0622e/models/heroes/muerta/muerta_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/c8d6d8d0622e/models/heroes/muerta/muerta_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_back.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/c8d6d8d0622e/models/heroes/muerta/muerta_cape_2_color_png_afd672ba.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 807,
+      "name": "Muertas Mask",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ba5f045b44c9/models/heroes/muerta/muerta_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/ba5f045b44c9/models/heroes/muerta/muerta_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ba5f045b44c9/models/heroes/muerta/muerta_head_color_png_1f3098cf.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 804,
+      "name": "Muertas Mercy  Grace",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/3edebc6102a0/models/heroes/muerta/muerta_weapons.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/3edebc6102a0/models/heroes/muerta/muerta_weapons.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_weapons.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/3edebc6102a0/models/heroes/muerta/gun_color_png_93143a45.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_muerta:item-model:30948:deathcaster-armor",
+      "itemId": 30948,
+      "name": "Blackwing Bandolera  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/b4f4befc38e7/models/items/muerta/deathcaster_armor/deathcaster_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/b4f4befc38e7/models/items/muerta/deathcaster_armor/deathcaster_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/deathcaster_armor/deathcaster_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathcaster_armor-58b53a2dced5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/b4f4befc38e7/models/items/muerta/deathcaster_armor/deathcaster_armor_color_png_1086d152.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:30966:the-netherbutterfly-armor",
+      "itemId": 30966,
+      "name": "Mariposa Mori  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/26cf7ed2bca8/models/items/muerta/the_netherbutterfly_armor/the_netherbutterfly_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/26cf7ed2bca8/models/items/muerta/the_netherbutterfly_armor/the_netherbutterfly_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/the_netherbutterfly_armor/the_netherbutterfly_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_netherbutterfly_armor-b288b4691e27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/26cf7ed2bca8/models/items/muerta/the_netherbutterfly_armor/the_netherbutterfly_armor_color_tga_5ac75036.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:809:muerta-armor",
+      "itemId": 809,
+      "name": "Muertas Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ee8d86b712f6/models/heroes/muerta/muerta_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/ee8d86b712f6/models/heroes/muerta/muerta_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ee8d86b712f6/models/heroes/muerta/muerta_base_color_png_6bab89b0.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:32561:soul-warden-raiment",
+      "itemId": 32561,
+      "name": "Rose of Moira  Raiment",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/bb3530dc943a/models/items/muerta/soul_warden_raiment/soul_warden_raiment.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/bb3530dc943a/models/items/muerta/soul_warden_raiment/soul_warden_raiment.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/soul_warden_raiment/soul_warden_raiment.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_warden_raiment-fae6dcea5887.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/bb3530dc943a/models/items/muerta/soul_warden_raiment/soul_warden_raiment_color_tga_2dcedd55.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:30947:deathcaster-back",
+      "itemId": 30947,
+      "name": "Blackwing Bandolera  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/8096d2a532a6/models/items/muerta/deathcaster_back/deathcaster_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/8096d2a532a6/models/items/muerta/deathcaster_back/deathcaster_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/deathcaster_back/deathcaster_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathcaster_back-ab730277819a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/8096d2a532a6/models/items/muerta/deathcaster_back/deathcaster_back_color_png_7f1ce37c.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:30967:the-netherbutterfly-back",
+      "itemId": 30967,
+      "name": "Mariposa Mori  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/069b7a885f5d/models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/069b7a885f5d/models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_netherbutterfly_back-f7ece784a8fc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/069b7a885f5d/models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back_color_tga_add634b0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back.vmdl",
+        "modelPaths": [
+          "models/items/muerta/the_netherbutterfly_back/the_netherbutterfly_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/muerta/muerta_spring_2025_the_netherbutterfly/muerta_spring25_netherbutterfly_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:808:muerta-back",
+      "itemId": 808,
+      "name": "Muertas Shroud",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/c8d6d8d0622e/models/heroes/muerta/muerta_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/c8d6d8d0622e/models/heroes/muerta/muerta_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/muerta_shoulders-1aeec2a1c734.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/c8d6d8d0622e/models/heroes/muerta/muerta_cape_2_color_png_afd672ba.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:32560:soul-warden-prison",
+      "itemId": 32560,
+      "name": "Rose of Moira  Prison",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/cc99b2775ce1/models/items/muerta/soul_warden_prison/soul_warden_prison.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/cc99b2775ce1/models/items/muerta/soul_warden_prison/soul_warden_prison.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/soul_warden_prison/soul_warden_prison.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_warden_prison-5bfde85e34ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/cc99b2775ce1/models/items/muerta/soul_warden_prison/soul_warden_prison_color_tga_8ab57db3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/muerta/soul_warden_prison/soul_warden_prison.vmdl",
+        "modelPaths": [
+          "models/items/muerta/soul_warden_prison/soul_warden_prison.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/muerta/soul_warden/soul_warden_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:30946:deathcaster-head",
+      "itemId": 30946,
+      "name": "Blackwing Bandolera  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/d611f0402b19/models/items/muerta/deathcaster_head/deathcaster_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/d611f0402b19/models/items/muerta/deathcaster_head/deathcaster_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/deathcaster_head/deathcaster_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathcaster_head-fa77e4e022ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/d611f0402b19/models/items/muerta/deathcaster_head/deathcaster_head_color_png_202da173.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:30968:the-netherbutterfly-head",
+      "itemId": 30968,
+      "name": "Mariposa Mori  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/f66bedc14077/models/items/muerta/the_netherbutterfly_head/the_netherbutterfly_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/f66bedc14077/models/items/muerta/the_netherbutterfly_head/the_netherbutterfly_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/the_netherbutterfly_head/the_netherbutterfly_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_netherbutterfly_head-d7c828da6787.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/f66bedc14077/models/items/muerta/the_netherbutterfly_head/the_netherbutterfly_head_color_tga_bb913ae1.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:807:muerta-head",
+      "itemId": 807,
+      "name": "Muertas Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ba5f045b44c9/models/heroes/muerta/muerta_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/ba5f045b44c9/models/heroes/muerta/muerta_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/muerta_head-756e54cab168.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/ba5f045b44c9/models/heroes/muerta/muerta_head_color_png_1f3098cf.png"
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:32562:soul-warden-crown",
+      "itemId": 32562,
+      "name": "Rose of Moira  Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/abc511dea1e6/models/items/muerta/soul_warden_crown/soul_warden_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/abc511dea1e6/models/items/muerta/soul_warden_crown/soul_warden_crown.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/soul_warden_crown/soul_warden_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_warden_crown-bf11bc0aff76.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/abc511dea1e6/models/items/muerta/soul_warden_crown/soul_warden_crown_color_tga_9b81026e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/muerta/soul_warden_crown/soul_warden_crown.vmdl",
+        "modelPaths": [
+          "models/items/muerta/soul_warden_crown/soul_warden_crown.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/muerta/soul_warden/soul_warden_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:30949:deathcaster-weapon",
+      "itemId": 30949,
+      "name": "Blackwing Bandolera  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/b8d2de4d1246/models/items/muerta/deathcaster_weapon/deathcaster_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/b8d2de4d1246/models/items/muerta/deathcaster_weapon/deathcaster_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/deathcaster_weapon/deathcaster_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathcaster_weapon-30a18fd5568f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/b8d2de4d1246/models/items/muerta/deathcaster_weapon/deathcaster_weapon_color_png_b22054f2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/muerta/deathcaster_weapon/deathcaster_weapon.vmdl",
+        "modelPaths": [
+          "models/items/muerta/deathcaster_weapon/deathcaster_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_muerta/muerta_weapon_primary_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:30969:the-netherbutterfly-weapon",
+      "itemId": 30969,
+      "name": "Mariposa Mori  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/939adb5152d4/models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/939adb5152d4/models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_netherbutterfly_weapon-22ab1d9cbb29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/939adb5152d4/models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon_color_tga_26ee9e36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon.vmdl",
+        "modelPaths": [
+          "models/items/muerta/the_netherbutterfly_weapon/the_netherbutterfly_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_muerta/muerta_weapon_primary_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_muerta:item-model:804:muerta-weapons",
+      "itemId": 804,
+      "name": "Muertas Mercy  Grace",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/3edebc6102a0/models/heroes/muerta/muerta_weapons.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_muerta/3edebc6102a0/models/heroes/muerta/muerta_weapons.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/muerta/muerta_weapons.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/muerta_weapons-7a4ae9b06d4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_muerta/3edebc6102a0/models/heroes/muerta/gun_color_png_93143a45.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/muerta/muerta_weapons.vmdl",
+        "modelPaths": [
+          "models/heroes/muerta/muerta_weapons.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_muerta/muerta_weapon_primary_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_muerta:core-set:31072:blackwing-bandolera",
+      "name": "Blackwing Bandolera",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        804,
+        806,
+        807,
+        808,
+        809
+      ],
+      "sourceItemIds": [
+        30946,
+        30947,
+        30948,
+        30949,
+        30950
+      ],
+      "slots": [
+        "ability_ultimate",
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/deathcaster_head-fa77e4e022ad.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_muerta:core-set:31075:mariposa-mori",
+      "name": "Mariposa Mori",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        804,
+        806,
+        807,
+        808,
+        809
+      ],
+      "sourceItemIds": [
+        30965,
+        30966,
+        30967,
+        30968,
+        30969
+      ],
+      "slots": [
+        "ability_ultimate",
+        "armor",
+        "back",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/the_netherbutterfly-d17e115ea964.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_muerta:core-set:32572:rose-of-moira",
+      "name": "Rose of Moira",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        806,
+        807,
+        808,
+        809
+      ],
+      "sourceItemIds": [
+        32560,
+        32561,
+        32562,
+        32563
+      ],
+      "slots": [
+        "ability_ultimate",
+        "armor",
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/soul_warden_loading_screen-ef03a56c5b73.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 36792109,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 71
+  }
+}

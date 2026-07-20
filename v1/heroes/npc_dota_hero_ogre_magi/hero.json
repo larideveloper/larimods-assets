@@ -1,0 +1,3361 @@
+{
+  "heroId": "npc_dota_hero_ogre_magi",
+  "sourceHeroId": "npc_dota_hero_ogre_magi",
+  "variantId": "default",
+  "heroName": "Ogre Magi",
+  "heroSlug": "ogre_magi",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ogre_magi.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2afde72bb2de/models/heroes/ogre_magi/ogre_magi.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 134,
+      "name": "Ogre Magis Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2aa65c157101/models/heroes/ogre_magi/ogre_magi_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2aa65c157101/models/heroes/ogre_magi/ogre_magi_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2aa65c157101/models/heroes/ogre_magi/bracers_color_psd_e912d1e9.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 133,
+      "name": "Ogre Magis Cape",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/c2386af7f2a4/models/heroes/ogre_magi/ogre_magi_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/c2386af7f2a4/models/heroes/ogre_magi/ogre_magi_cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_cape.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/c2386af7f2a4/models/heroes/ogre_magi/cape_color_psd_8badf221.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 136,
+      "name": "Ogre Magis Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/03030d5671df/models/heroes/ogre_magi/ogre_magi_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/03030d5671df/models/heroes/ogre_magi/ogre_magi_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/03030d5671df/models/heroes/ogre_magi/belt_color_psd_b45a0166.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "itemId": 135,
+      "name": "Ogre Magis Hats",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/642adcb2ec57/models/heroes/ogre_magi/ogre_magi_hats.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/642adcb2ec57/models/heroes/ogre_magi/ogre_magi_hats.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_hats.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/642adcb2ec57/models/heroes/ogre_magi/hats_color_psd_6f5e3437.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 105,
+      "name": "Ogre Magis Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/80250387f940/models/heroes/ogre_magi/ogre_magi_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/80250387f940/models/heroes/ogre_magi/ogre_magi_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/80250387f940/models/heroes/ogre_magi/ogre_magi_weapon_color_psd_e403da2a.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:5242:ogre-ancestral-arms",
+      "itemId": 5242,
+      "name": "Bracer and Band of Ancestral Luck",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/895e127087aa/models/items/ogre_magi/ogre_ancestral_arms/ogre_ancestral_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/895e127087aa/models/items/ogre_magi/ogre_ancestral_arms/ogre_ancestral_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_ancestral_arms/ogre_ancestral_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_ancestral_arms-9f928e05f338.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/895e127087aa/models/items/ogre_magi/ogre_ancestral_arms/ogre_ancestral_arms_color_tga_79fcc8bc.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:12798:frostivus2018-ogre-prehistoric-hunter-arms",
+      "itemId": 12798,
+      "name": "Bracer of the Grey Wastes",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/7d4a4a1a8c47/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_arms/frostivus2018_ogre_prehistoric_hunter_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/7d4a4a1a8c47/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_arms/frostivus2018_ogre_prehistoric_hunter_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_arms/frostivus2018_ogre_prehistoric_hunter_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_ogre_prehistoric_hunter_arms-e0617170978b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/7d4a4a1a8c47/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_arms/frostivus2018_ogre_prehistoric_hunter_arms_color_png_a3909fa7.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7633:fortunes-veil-arms",
+      "itemId": 7633,
+      "name": "Bracers of Pagus",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9d348a5c87bc/models/items/ogre_magi/fortunes_veil_arms/fortunes_veil_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9d348a5c87bc/models/items/ogre_magi/fortunes_veil_arms/fortunes_veil_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/fortunes_veil_arms/fortunes_veil_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fortunes_veil_arms-e1e1e9b03877.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9d348a5c87bc/models/items/ogre_magi/fortunes_veil_arms/fortunes_veil_arms_color_tga_b3aa5362.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9225:ogre-magi-set-arms",
+      "itemId": 9225,
+      "name": "Floathide Bands of the Shoreline Sapper",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/286aaf25c398/models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/286aaf25c398/models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_arms-f563ae3a68a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/286aaf25c398/models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms_color_psd_c0876b04.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9225:ogre-magi-set-arms:style-1",
+      "itemId": 9225,
+      "name": "Floathide Bands of the Shoreline Sapper - TI7 Upgraded",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/286aaf25c398/models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/286aaf25c398/models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_arms_style1-78eb1a369606.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/286aaf25c398/models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms_color_psd_c0876b04.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_arms/ogre_magi_set_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:19370:adventurers-of-fortune-arms",
+      "itemId": 19370,
+      "name": "Freeboot Fortunes  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9d9fc2b983b5/models/items/ogre_magi/adventurers_of_fortune_arms/adventurers_of_fortune_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9d9fc2b983b5/models/items/ogre_magi/adventurers_of_fortune_arms/adventurers_of_fortune_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/adventurers_of_fortune_arms/adventurers_of_fortune_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/adventurers_of_fortune_arms-bb8522ebaeb5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9d9fc2b983b5/models/items/ogre_magi/adventurers_of_fortune_arms/adventurers_of_fortune_arms_color_tga_3945b8cd.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:134:ogre-magi-bracers",
+      "itemId": 134,
+      "name": "Ogre Magis Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2aa65c157101/models/heroes/ogre_magi/ogre_magi_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2aa65c157101/models/heroes/ogre_magi/ogre_magi_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_bracers-ae81e5baf35a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2aa65c157101/models/heroes/ogre_magi/bracers_color_psd_e912d1e9.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:25947:ogre-magi-oni-lord-arms",
+      "itemId": 25947,
+      "name": "Oni Magi  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f7a06e328b2c/models/items/ogre_magi/ogre_magi_oni_lord_arms/ogre_magi_oni_lord_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f7a06e328b2c/models/items/ogre_magi/ogre_magi_oni_lord_arms/ogre_magi_oni_lord_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_oni_lord_arms/ogre_magi_oni_lord_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_oni_lord_arms-01326bfb221d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f7a06e328b2c/models/items/ogre_magi/ogre_magi_oni_lord_arms/ogre_magi_oni_lord_arms_color_tga_47d9d02f.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:35997:ogre-cosmic-arms",
+      "itemId": 35997,
+      "name": "Pisces Gemini  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/5b16fd661bd8/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/5b16fd661bd8/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_cosmic_arms-d55bb7fdbcac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/5b16fd661bd8/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_arcana_arms_color_png_9ce28ff9.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18101:ogre-magi-enter-the-dragon-arms",
+      "itemId": 18101,
+      "name": "Pyrexae Polymorph Perfected  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b6c3f3eebdfd/models/items/ogre_magi/ogre_magi_enter_the_dragon_arms/ogre_magi_enter_the_dragon_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b6c3f3eebdfd/models/items/ogre_magi/ogre_magi_enter_the_dragon_arms/ogre_magi_enter_the_dragon_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_enter_the_dragon_arms/ogre_magi_enter_the_dragon_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_enter_the_dragon_arms-0210f0897709.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b6c3f3eebdfd/models/items/ogre_magi/ogre_magi_enter_the_dragon_arms/ogre_magi_enter_the_dragon_arms_color_tga_fad3c2ac.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_enter_the_dragon_arms/ogre_magi_enter_the_dragon_arms.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_enter_the_dragon_arms/ogre_magi_enter_the_dragon_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_2022_cc/ogre_2022_cc_arm_stuffing.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7839:antipodean-arms",
+      "itemId": 7839,
+      "name": "Shield and Bracelet of the Antipodeans",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/0ab8da395ac5/models/items/ogre_magi/antipodean_arms/antipodean_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/0ab8da395ac5/models/items/ogre_magi/antipodean_arms/antipodean_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/antipodean_arms/antipodean_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/antipodean_arms-4c0f1bf6feb4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/0ab8da395ac5/models/items/ogre_magi/antipodean_arms/antipodean_arms_color_tga_236f9a22.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18538:ti8-ogre-crypt-treasure-hunting-team-arms",
+      "itemId": 18538,
+      "name": "Stonebreak Excavators  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/65d59e7e6706/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_arms/ti8_ogre_crypt_treasure_hunting_team_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/65d59e7e6706/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_arms/ti8_ogre_crypt_treasure_hunting_team_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_arms/ti8_ogre_crypt_treasure_hunting_team_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aghs_bp_2021_ogre_magi_arms-7460d7f7693d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/65d59e7e6706/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_arms/ti8_ogre_crypt_treasure_hunting_team_arms_color_tga_f14b8184.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7910:auspice-of-the-whyrlegyge-model",
+      "itemId": 7910,
+      "name": "Auspice of the Whyrlegyge",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b958e3d28a10/models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b958e3d28a10/models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/auspice_of_the_whyrlegyge_model-09db01dfa3ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b958e3d28a10/models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_color_psd_82a9c485.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_eggbeater_jackpot_multicast_secondstyle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_multicast_style.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast_counter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast_counter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast_counter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Auspice of the Whyrlegyge 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model",
+            "modelPaths": [
+              "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl"
+            ],
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_multicast_style.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:ability_icon",
+              "modifier:particle",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Auspice of the Whyrlegyge 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model_style1",
+            "modelPaths": [
+              "models/items/ogre_magi/auspice_of_the_whyrlegyge/ogre_arcana_immortal.vmdl"
+            ],
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_back.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_eggbeater_jackpot_multicast_secondstyle.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7910:auspice-of-the-whyrlegyge-model:style-1",
+      "itemId": 7910,
+      "name": "Auspice of the Whyrlegyge - Auspice of the Whyrlegyge 1",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "hero",
+        "immortal",
+        "modifier:particle",
+        "modifier:particle_create",
+        "rarity:immortal",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b958e3d28a10/models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b958e3d28a10/models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/auspice_of_the_whyrlegyge_model_style1-f3a8a5bf8d52.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b958e3d28a10/models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_color_psd_82a9c485.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_eggbeater_jackpot_multicast_secondstyle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_multicast_style.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast_counter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast_counter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast_counter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Auspice of the Whyrlegyge 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model",
+            "modelPaths": [
+              "models/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model.vmdl"
+            ],
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_multicast_style.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:ability_icon",
+              "modifier:particle",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Auspice of the Whyrlegyge 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/auspice_of_the_whyrlegyge/mesh/auspice_of_the_whyrlegyge_model_style1",
+            "modelPaths": [
+              "models/items/ogre_magi/auspice_of_the_whyrlegyge/ogre_arcana_immortal.vmdl"
+            ],
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_back.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_eggbeater_jackpot_multicast_secondstyle.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_magi_jackpot/ogre_magi_jackpot_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_arcana_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_multicast_counter.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9226:ogre-magi-set-back",
+      "itemId": 9226,
+      "name": "Back Buoy of the Shoreline Sapper",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/269525f37260/models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/269525f37260/models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_back-48bdba9aa469.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/269525f37260/models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back_color_psd_7c31b1f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_back_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_back_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9226:ogre-magi-set-back:style-1",
+      "itemId": 9226,
+      "name": "Back Buoy of the Shoreline Sapper - TI7 Upgraded",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/269525f37260/models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/269525f37260/models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_back_style1-eb4812ae2ce9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/269525f37260/models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back_color_psd_7c31b1f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_back_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_back/ogre_magi_set_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_back_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:12799:frostivus2018-ogre-prehistoric-hunter-back",
+      "itemId": 12799,
+      "name": "Cape of the Grey Wastes",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/1029590037de/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_back/frostivus2018_ogre_prehistoric_hunter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/1029590037de/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_back/frostivus2018_ogre_prehistoric_hunter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_back/frostivus2018_ogre_prehistoric_hunter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_ogre_prehistoric_hunter_back-6f1772f904a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/1029590037de/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_back/frostivus2018_ogre_prehistoric_hunter_back_color_png_2165ef97.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7612:fortunes-veil-back",
+      "itemId": 7612,
+      "name": "Cloak of Pagus",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9a9fd156c1fe/models/items/ogre_magi/fortunes_veil_back/fortunes_veil_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9a9fd156c1fe/models/items/ogre_magi/fortunes_veil_back/fortunes_veil_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/fortunes_veil_back/fortunes_veil_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fortunes_veil_back-c0ea3c2cab23.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9a9fd156c1fe/models/items/ogre_magi/fortunes_veil_back/fortunes_veil_back_color_tga_15a9d22d.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:19371:adventurers-of-fortune-back",
+      "itemId": 19371,
+      "name": "Freeboot Fortunes  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/dcd571f7ca63/models/items/ogre_magi/adventurers_of_fortune_back/adventurers_of_fortune_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/dcd571f7ca63/models/items/ogre_magi/adventurers_of_fortune_back/adventurers_of_fortune_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/adventurers_of_fortune_back/adventurers_of_fortune_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/adventurers_of_fortune_back-12b25070cdb7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/dcd571f7ca63/models/items/ogre_magi/adventurers_of_fortune_back/adventurers_of_fortune_back_color_tga_a56335c2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/adventurers_of_fortune_back/adventurers_of_fortune_back.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/adventurers_of_fortune_back/adventurers_of_fortune_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_2022_cc_fortune/ogre_2022_cc_fortune_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:5243:ogre-ancestral-back",
+      "itemId": 5243,
+      "name": "Mantle of Ancestral Luck",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19259d9fcfcd/models/items/ogre_magi/ogre_ancestral_back/ogre_ancestral_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19259d9fcfcd/models/items/ogre_magi/ogre_ancestral_back/ogre_ancestral_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_ancestral_back/ogre_ancestral_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_ancestral_back-c274147fe5b0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19259d9fcfcd/models/items/ogre_magi/ogre_ancestral_back/ogre_ancestral_back_color_tga_68d2ae46.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:133:ogre-magi-cape",
+      "itemId": 133,
+      "name": "Ogre Magis Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/c2386af7f2a4/models/heroes/ogre_magi/ogre_magi_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/c2386af7f2a4/models/heroes/ogre_magi/ogre_magi_cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_cape-d400fee0e340.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/c2386af7f2a4/models/heroes/ogre_magi/cape_color_psd_8badf221.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:25949:ogre-magi-oni-lord-back",
+      "itemId": 25949,
+      "name": "Oni Magi  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/60b913334e40/models/items/ogre_magi/ogre_magi_oni_lord_back/ogre_magi_oni_lord_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/60b913334e40/models/items/ogre_magi/ogre_magi_oni_lord_back/ogre_magi_oni_lord_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_oni_lord_back/ogre_magi_oni_lord_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_oni_lord_back-d6765d8bf6d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/60b913334e40/models/items/ogre_magi/ogre_magi_oni_lord_back/ogre_magi_oni_lord_back_color_tga_13994934.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7845:antipodean-back",
+      "itemId": 7845,
+      "name": "Pauldron and Cloak of the Antipodeans",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/928fbf75f5e5/models/items/ogre_magi/antipodean_back/antipodean_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/928fbf75f5e5/models/items/ogre_magi/antipodean_back/antipodean_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/antipodean_back/antipodean_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/antipodean_back-d599e89929c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/928fbf75f5e5/models/items/ogre_magi/antipodean_back/antipodean_back_color_tga_cc985e5e.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:35999:ogre-cosmic-back",
+      "itemId": 35999,
+      "name": "Pisces Gemini  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/99797c626c8e/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/99797c626c8e/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_cosmic_back-21d1e3a170a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/99797c626c8e/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_arcana_back_color_png_7d51a162.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18100:ogre-magi-enter-the-dragon-back",
+      "itemId": 18100,
+      "name": "Pyrexae Polymorph Perfected  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/82b810f79b74/models/items/ogre_magi/ogre_magi_enter_the_dragon_back/ogre_magi_enter_the_dragon_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/82b810f79b74/models/items/ogre_magi/ogre_magi_enter_the_dragon_back/ogre_magi_enter_the_dragon_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_enter_the_dragon_back/ogre_magi_enter_the_dragon_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_enter_the_dragon_back-63845dd1d702.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/82b810f79b74/models/items/ogre_magi/ogre_magi_enter_the_dragon_back/ogre_magi_enter_the_dragon_back_color_tga_40c37764.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18537:ti8-ogre-crypt-treasure-hunting-team-back-agh",
+      "itemId": 18537,
+      "name": "Stonebreak Excavators  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/43e56fa4e324/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_back/ti8_ogre_crypt_treasure_hunting_team_back_agh.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/43e56fa4e324/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_back/ti8_ogre_crypt_treasure_hunting_team_back_agh.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_back/ti8_ogre_crypt_treasure_hunting_team_back_agh.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aghs_bp_2021_ogre_magi_back_agh1-45d3d50534ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/43e56fa4e324/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_back/aghsbp_2021_ogre_crypt_treasure_hunting_team_back_color_psd_49c78626.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:5244:ogre-ancestral-belt",
+      "itemId": 5244,
+      "name": "Belt of Ancestral Luck",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/fdb321561747/models/items/ogre_magi/ogre_ancestral_belt/ogre_ancestral_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/fdb321561747/models/items/ogre_magi/ogre_ancestral_belt/ogre_ancestral_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_ancestral_belt/ogre_ancestral_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_ancestral_belt-08503d18f0b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/fdb321561747/models/items/ogre_magi/ogre_ancestral_belt/ogre_ancestral_belt_color_tga_752d6eab.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7614:fortunes-veil-belt",
+      "itemId": 7614,
+      "name": "Belt of Pagus",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d45f5f7fae5d/models/items/ogre_magi/fortunes_veil_belt/fortunes_veil_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d45f5f7fae5d/models/items/ogre_magi/fortunes_veil_belt/fortunes_veil_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/fortunes_veil_belt/fortunes_veil_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fortunes_veil_belt-b23dbfa878c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d45f5f7fae5d/models/items/ogre_magi/fortunes_veil_belt/fortunes_veil_belt_color_tga_e64299e.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7846:antipodean-belt",
+      "itemId": 7846,
+      "name": "Belt of the Antipodeans",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2b76213d22db/models/items/ogre_magi/antipodean_belt/antipodean_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2b76213d22db/models/items/ogre_magi/antipodean_belt/antipodean_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/antipodean_belt/antipodean_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/antipodean_belt-f63ec709703f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/2b76213d22db/models/items/ogre_magi/antipodean_belt/antipodean_belt_color_tga_ab31a0ff.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:12800:frostivus2018-ogre-prehistoric-hunter-belt",
+      "itemId": 12800,
+      "name": "Belt of the Grey Wastes",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/219cc64ad8c5/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_belt/frostivus2018_ogre_prehistoric_hunter_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/219cc64ad8c5/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_belt/frostivus2018_ogre_prehistoric_hunter_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_belt/frostivus2018_ogre_prehistoric_hunter_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_ogre_prehistoric_hunter_belt-88d7d1a0c284.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/219cc64ad8c5/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_belt/frostivus2018_ogre_prehistoric_hunter_belt_color_png_800221d.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:4359:championbelt",
+      "itemId": 4359,
+      "name": "Champions Belly Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6828506ad936/models/items/ogre_magi/championbelt/championbelt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6828506ad936/models/items/ogre_magi/championbelt/championbelt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/championbelt/championbelt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/championbelt-095c6a511f19.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6828506ad936/models/items/ogre_magi/championbelt/championbelt_color_tga_dd10423a.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9227:ogre-magi-set-belt",
+      "itemId": 9227,
+      "name": "Floathide Belt of the Shoreline Sapper",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/293692739f73/models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/293692739f73/models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_belt-4faaea5dcba1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/293692739f73/models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt_color_psd_78502f14.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9227:ogre-magi-set-belt:style-1",
+      "itemId": 9227,
+      "name": "Floathide Belt of the Shoreline Sapper - TI7 Upgraded",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/293692739f73/models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/293692739f73/models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_belt_style1-e936a45907c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/293692739f73/models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt_color_psd_78502f14.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_belt/ogre_magi_set_belt_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:19372:adventurers-of-fortune-belt",
+      "itemId": 19372,
+      "name": "Freeboot Fortunes  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4a0eb9192413/models/items/ogre_magi/adventurers_of_fortune_belt/adventurers_of_fortune_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4a0eb9192413/models/items/ogre_magi/adventurers_of_fortune_belt/adventurers_of_fortune_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/adventurers_of_fortune_belt/adventurers_of_fortune_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/adventurers_of_fortune_belt-913d6b08db9c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4a0eb9192413/models/items/ogre_magi/adventurers_of_fortune_belt/adventurers_of_fortune_belt_color_tga_4d75f955.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/adventurers_of_fortune_belt/adventurers_of_fortune_belt.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/adventurers_of_fortune_belt/adventurers_of_fortune_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_2022_cc_fortune/ogre_2022_cc_fortune_belt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:4358:belt-rich",
+      "itemId": 4358,
+      "name": "Lucky Belly Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b3c410957c53/models/items/ogre_magi/belt_rich.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b3c410957c53/models/items/ogre_magi/belt_rich.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/belt_rich.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/belt_rich-2a75f9e24fb1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b3c410957c53/models/items/ogre_magi/belt_rich_color_tga_5d2a4525.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:136:ogre-magi-belt",
+      "itemId": 136,
+      "name": "Ogre Magis Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/03030d5671df/models/heroes/ogre_magi/ogre_magi_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/03030d5671df/models/heroes/ogre_magi/ogre_magi_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_belt-15c50412fb76.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/03030d5671df/models/heroes/ogre_magi/belt_color_psd_b45a0166.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:25946:ogre-magi-oni-lord-belt",
+      "itemId": 25946,
+      "name": "Oni Magi  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/40eeac0ae705/models/items/ogre_magi/ogre_magi_oni_lord_belt/ogre_magi_oni_lord_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/40eeac0ae705/models/items/ogre_magi/ogre_magi_oni_lord_belt/ogre_magi_oni_lord_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_oni_lord_belt/ogre_magi_oni_lord_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_oni_lord_belt-263d4ce658da.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/40eeac0ae705/models/items/ogre_magi/ogre_magi_oni_lord_belt/ogre_magi_oni_lord_belt_color_tga_5a0690bd.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:35998:ogre-cosmic-belt",
+      "itemId": 35998,
+      "name": "Pisces Gemini  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/ece74e8f5f27/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/ece74e8f5f27/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_cosmic_belt-592e1d4ac816.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/ece74e8f5f27/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_belt_color_png_31e7a53.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18099:ogre-magi-enter-the-dragon-belt",
+      "itemId": 18099,
+      "name": "Pyrexae Polymorph Perfected  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/367ba7b78323/models/items/ogre_magi/ogre_magi_enter_the_dragon_belt/ogre_magi_enter_the_dragon_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/367ba7b78323/models/items/ogre_magi/ogre_magi_enter_the_dragon_belt/ogre_magi_enter_the_dragon_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_enter_the_dragon_belt/ogre_magi_enter_the_dragon_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_enter_the_dragon_belt-1d06ddfad7ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/367ba7b78323/models/items/ogre_magi/ogre_magi_enter_the_dragon_belt/ogre_magi_enter_the_dragon_belt_color_tga_c45546f5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_enter_the_dragon_belt/ogre_magi_enter_the_dragon_belt.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_enter_the_dragon_belt/ogre_magi_enter_the_dragon_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_2022_cc/ogre_2022_cc_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18536:ti8-ogre-crypt-treasure-hunting-team-belt",
+      "itemId": 18536,
+      "name": "Stonebreak Excavators  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f39e4b83fae4/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_belt/ti8_ogre_crypt_treasure_hunting_team_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f39e4b83fae4/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_belt/ti8_ogre_crypt_treasure_hunting_team_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_belt/ti8_ogre_crypt_treasure_hunting_team_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aghs_bp_2021_ogre_magi_belt1-f6744323e24c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f39e4b83fae4/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_belt/ti8_ogre_crypt_treasure_hunting_team_belt_color_tga_f6396c6.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:35553:ogre-magi-arcana-head",
+      "itemId": 35553,
+      "name": "Flockhearts Gamble  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d27558f50a64/models/items/ogre_magi/ogre_arcana/ogre_magi_arcana_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d27558f50a64/models/items/ogre_magi/ogre_arcana/ogre_magi_arcana_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_arcana/ogre_magi_arcana_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_arcana_head-b8f7778fe62a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d27558f50a64/models/items/ogre_magi/ogre_arcana/ogre_arcana_alt_head_color_psd_43e609cb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_arcana/ogre_magi_arcana_head.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_arcana/ogre_magi_arcana_head.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_horns_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:19373:adventurers-of-fortune-head",
+      "itemId": 19373,
+      "name": "Freeboot Fortunes  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/17872c044784/models/items/ogre_magi/adventurers_of_fortune_head/adventurers_of_fortune_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/17872c044784/models/items/ogre_magi/adventurers_of_fortune_head/adventurers_of_fortune_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/adventurers_of_fortune_head/adventurers_of_fortune_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/adventurers_of_fortune_head-cdde31a2ddcd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/17872c044784/models/items/ogre_magi/adventurers_of_fortune_head/adventurers_of_fortune_head_color_tga_8f4157e4.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9229:ogre-magi-set-head",
+      "itemId": 9229,
+      "name": "Headgear of the Shoreline Sapper",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19c4d6740b77/models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19c4d6740b77/models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_head-65ed08c0efdc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19c4d6740b77/models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head_color_psd_d08d8209.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_style_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_style_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9229:ogre-magi-set-head:style-1",
+      "itemId": 9229,
+      "name": "Headgear of the Shoreline Sapper - TI7 Upgraded",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19c4d6740b77/models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19c4d6740b77/models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_head_style1-3d8cbfdf37f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/19c4d6740b77/models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head_color_psd_d08d8209.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_style_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_head/ogre_magi_set_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_style_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:12801:frostivus2018-ogre-prehistoric-hunter-head",
+      "itemId": 12801,
+      "name": "Heads of the Grey Wastes",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d76a6290b1e7/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_head/frostivus2018_ogre_prehistoric_hunter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d76a6290b1e7/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_head/frostivus2018_ogre_prehistoric_hunter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_head/frostivus2018_ogre_prehistoric_hunter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_ogre_prehistoric_hunter_head-7e635ec8b039.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d76a6290b1e7/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_head/frostivus2018_ogre_prehistoric_hunter_head_color_png_413cf09b.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7847:antipodean-head",
+      "itemId": 7847,
+      "name": "Helmet and hood of the Antipodeans",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6e9e2f032914/models/items/ogre_magi/antipodean_head/antipodean_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6e9e2f032914/models/items/ogre_magi/antipodean_head/antipodean_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/antipodean_head/antipodean_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/antipodean_head-c8bbe9366307.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6e9e2f032914/models/items/ogre_magi/antipodean_head/antipodean_head_color_tga_3ff7c821.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7613:fortunes-veil-head",
+      "itemId": 7613,
+      "name": "Hood of Pagus",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/25e52cb8368c/models/items/ogre_magi/fortunes_veil_head/fortunes_veil_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/25e52cb8368c/models/items/ogre_magi/fortunes_veil_head/fortunes_veil_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/fortunes_veil_head/fortunes_veil_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fortunes_veil_head-150e18d6b4c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/25e52cb8368c/models/items/ogre_magi/fortunes_veil_head/fortunes_veil_head_color_tga_a0d1688b.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:5245:ogre-ancestral-head",
+      "itemId": 5245,
+      "name": "Masks of Ancestral Luck",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e0ca6553ee60/models/items/ogre_magi/ogre_ancestral_head/ogre_ancestral_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e0ca6553ee60/models/items/ogre_magi/ogre_ancestral_head/ogre_ancestral_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_ancestral_head/ogre_ancestral_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_ancestral_head-dcb96daaf087.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e0ca6553ee60/models/items/ogre_magi/ogre_ancestral_head/ogre_ancestral_head_color_tga_57c7a0fa.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:135:ogre-magi-hats",
+      "itemId": 135,
+      "name": "Ogre Magis Hats",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/642adcb2ec57/models/heroes/ogre_magi/ogre_magi_hats.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/642adcb2ec57/models/heroes/ogre_magi/ogre_magi_hats.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_hats.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_hats-12e4c4a24bde.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/642adcb2ec57/models/heroes/ogre_magi/hats_color_psd_6f5e3437.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:25948:ogre-magi-oni-lord-head",
+      "itemId": 25948,
+      "name": "Oni Magi  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4e241a7fa0fb/models/items/ogre_magi/ogre_magi_oni_lord_head/ogre_magi_oni_lord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4e241a7fa0fb/models/items/ogre_magi/ogre_magi_oni_lord_head/ogre_magi_oni_lord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_oni_lord_head/ogre_magi_oni_lord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_oni_lord_head-7d208a7b0fd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4e241a7fa0fb/models/items/ogre_magi/ogre_magi_oni_lord_head/ogre_magi_oni_lord_head_color_psd_9a39313d.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:31207:ogre-cosmic-head",
+      "itemId": 31207,
+      "name": "Pisces Gemini  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/629914f486de/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/629914f486de/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_cosmic_head-5752c274e6ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/629914f486de/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_head_color_png_b0de2342.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_head.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_head.vmdl"
+        ],
+        "refitModels": [
+          {
+            "targetModelPath": "models/items/ogre_magi/ogre_arcana/ogre_magi_arcana_tail.vmdl",
+            "modifierModelPath": "models/development/invisiblebox.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/1fca4fa9491b/models/development/invisiblebox.glb"
+          },
+          {
+            "targetModelPath": "models/items/ogre_magi/ogre_arcana/ogre_magi_arcana_tail_style1.vmdl",
+            "modifierModelPath": "models/development/invisiblebox.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/1fca4fa9491b/models/development/invisiblebox.glb"
+          },
+          {
+            "targetModelPath": "models/items/ogre_magi/ogre_arcana/pedestal_ogre_arcana.vmdl",
+            "modifierModelPath": "models/items/ogre_magi/ogre_cosmic_arcana/ogre_cosmic_arcana_pedestal.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/0f6048ff6d38/models/items/ogre_magi/ogre_cosmic_arcana/ogre_cosmic_arcana_pedestal.glb"
+          },
+          {
+            "targetModelPath": "models/items/ogre_magi/ogre_arcana/pedestal_ogre_arcana_style1.vmdl",
+            "modifierModelPath": "models/items/ogre_magi/ogre_cosmic_arcana/ogre_cosmic_arcana_pedestal_style1.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/371156cce3e0/models/items/ogre_magi/ogre_cosmic_arcana/ogre_cosmic_arcana_pedestal_style1.glb"
+          }
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_magi_arcana/ogre_magi_arcana_secondstyle_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18098:ogre-magi-enter-the-dragon-head",
+      "itemId": 18098,
+      "name": "Pyrexae Polymorph Perfected  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4ca20a1b6793/models/items/ogre_magi/ogre_magi_enter_the_dragon_head/ogre_magi_enter_the_dragon_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4ca20a1b6793/models/items/ogre_magi/ogre_magi_enter_the_dragon_head/ogre_magi_enter_the_dragon_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_enter_the_dragon_head/ogre_magi_enter_the_dragon_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_enter_the_dragon_head-ab312cc0462d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4ca20a1b6793/models/items/ogre_magi/ogre_magi_enter_the_dragon_head/ogre_magi_enter_the_dragon_head_color_tga_81964719.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18535:ti8-ogre-crypt-treasure-hunting-team-head",
+      "itemId": 18535,
+      "name": "Stonebreak Excavators  Heads",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Heads",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/3d5ba963c341/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_head/ti8_ogre_crypt_treasure_hunting_team_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/3d5ba963c341/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_head/ti8_ogre_crypt_treasure_hunting_team_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_head/ti8_ogre_crypt_treasure_hunting_team_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aghs_bp_2021_ogre_magi_head1-561be12dcae9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/3d5ba963c341/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_head/ti8_ogre_crypt_treasure_hunting_team_head_color_tga_665c6601.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7848:antipodean-weapon",
+      "itemId": 7848,
+      "name": "Burning scepter of the Antipodeans",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f0458959037b/models/items/ogre_magi/antipodean_weapon/antipodean_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f0458959037b/models/items/ogre_magi/antipodean_weapon/antipodean_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/antipodean_weapon/antipodean_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/antipodean_weapon-b89cb3b1f260.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/f0458959037b/models/items/ogre_magi/antipodean_weapon/antipodean_weapon_color_tga_b49328e3.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:7611:fortunes-veil-weapon",
+      "itemId": 7611,
+      "name": "Club of Pagus",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4a68cc432302/models/items/ogre_magi/fortunes_veil_weapon/fortunes_veil_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4a68cc432302/models/items/ogre_magi/fortunes_veil_weapon/fortunes_veil_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/fortunes_veil_weapon/fortunes_veil_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fortunes_veil_weapon-2d86e4908af5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/4a68cc432302/models/items/ogre_magi/fortunes_veil_weapon/fortunes_veil_weapon_color_tga_1664762b.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:12802:frostivus2018-ogre-prehistoric-hunter-weapon",
+      "itemId": 12802,
+      "name": "Club of the Grey Wastes",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e52c5bdb8791/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_weapon/frostivus2018_ogre_prehistoric_hunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e52c5bdb8791/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_weapon/frostivus2018_ogre_prehistoric_hunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_weapon/frostivus2018_ogre_prehistoric_hunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_ogre_prehistoric_hunter_weapon-0b9564cb6f29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e52c5bdb8791/models/items/ogre_magi/frostivus2018_ogre_prehistoric_hunter_weapon/frostivus2018_ogre_prehistoric_hunter_weapon_color_tga_25578fd8.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:5241:ogre-ancestral-weapon",
+      "itemId": 5241,
+      "name": "Flaming Scepter of Ancestral Luck",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b0a2dab552d8/models/items/ogre_magi/ogre_ancestral_weapon/ogre_ancestral_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b0a2dab552d8/models/items/ogre_magi/ogre_ancestral_weapon/ogre_ancestral_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_ancestral_weapon/ogre_ancestral_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_ancestral_weapon-ee3801c77fb1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/b0a2dab552d8/models/items/ogre_magi/ogre_ancestral_weapon/ogre_ancestral_weapon_color_tga_fb38eb56.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:19374:adventurers-of-fortune-weapon",
+      "itemId": 19374,
+      "name": "Freeboot Fortunes  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/324bf442e983/models/items/ogre_magi/adventurers_of_fortune_weapon/adventurers_of_fortune_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/324bf442e983/models/items/ogre_magi/adventurers_of_fortune_weapon/adventurers_of_fortune_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/adventurers_of_fortune_weapon/adventurers_of_fortune_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/adventurers_of_fortune_weapon-d9ea46d8149f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/324bf442e983/models/items/ogre_magi/adventurers_of_fortune_weapon/adventurers_of_fortune_weapon_color_tga_c3245919.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/adventurers_of_fortune_weapon/adventurers_of_fortune_weapon.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/adventurers_of_fortune_weapon/adventurers_of_fortune_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_2022_cc_fortune/ogre_2022_cc_fortune_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:12318:ogre-ti8-immortal-weapon",
+      "itemId": 12318,
+      "name": "Gimlek Decanter",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e0cedc2dfb50/models/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e0cedc2dfb50/models/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_ti8_immortal_weapon-ed57bffa1487.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/e0cedc2dfb50/models/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_weapon_color_psd_e8136572.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_weapon.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_bloodlust_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti8_immortal_weapon/ogre_ti8_immortal_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:105:ogre-magi-weapon",
+      "itemId": 105,
+      "name": "Ogre Magis Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/80250387f940/models/heroes/ogre_magi/ogre_magi_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/80250387f940/models/heroes/ogre_magi/ogre_magi_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ogre_magi/ogre_magi_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_weapon-0901134d280f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/80250387f940/models/heroes/ogre_magi/ogre_magi_weapon_color_psd_e403da2a.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:25945:ogre-magi-oni-lord-weapon",
+      "itemId": 25945,
+      "name": "Oni Magi  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6d3b8b0d1ec0/models/items/ogre_magi/ogre_magi_oni_lord_weapon/ogre_magi_oni_lord_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6d3b8b0d1ec0/models/items/ogre_magi/ogre_magi_oni_lord_weapon/ogre_magi_oni_lord_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_oni_lord_weapon/ogre_magi_oni_lord_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_oni_lord_weapon-b41a1bade52c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/6d3b8b0d1ec0/models/items/ogre_magi/ogre_magi_oni_lord_weapon/ogre_magi_oni_lord_weapon_color_tga_a8d25395.png"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:36000:ogre-cosmic-weapon",
+      "itemId": 36000,
+      "name": "Pisces Gemini  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9af73174719a/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9af73174719a/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_cosmic_weapon-32c6c9dd8886.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/9af73174719a/models/items/ogre_magi/ogre_cosmic/ogre_cosmic_weapon_color_png_fa1ce61b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_weapon.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_cosmic/ogre_cosmic_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_cosmic/ogre_cosmic_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18097:ogre-magi-enter-the-dragon-weapon",
+      "itemId": 18097,
+      "name": "Pyrexae Polymorph Perfected  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d629892f124e/models/items/ogre_magi/ogre_magi_enter_the_dragon_weapon/ogre_magi_enter_the_dragon_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d629892f124e/models/items/ogre_magi/ogre_magi_enter_the_dragon_weapon/ogre_magi_enter_the_dragon_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_enter_the_dragon_weapon/ogre_magi_enter_the_dragon_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_enter_the_dragon_weapon-cc2d39defa14.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/d629892f124e/models/items/ogre_magi/ogre_magi_enter_the_dragon_weapon/ogre_magi_enter_the_dragon_weapon_color_tga_b620c8d1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_enter_the_dragon_weapon/ogre_magi_enter_the_dragon_weapon.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_enter_the_dragon_weapon/ogre_magi_enter_the_dragon_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_2022_cc/ogre_2022_cc_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9224:ogre-magi-set-weapon",
+      "itemId": 9224,
+      "name": "Shovel of the Shoreline Sapper",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/94e62f8d5fa2/models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/94e62f8d5fa2/models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_weapon-3d88f3c34609.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/94e62f8d5fa2/models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon_color_psd_2c90e75f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:activity",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:9224:ogre-magi-set-weapon:style-1",
+      "itemId": 9224,
+      "name": "Shovel of the Shoreline Sapper - TI7 Upgraded",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/94e62f8d5fa2/models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/94e62f8d5fa2/models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ogre_magi_set_weapon_style1-836947802ed6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/94e62f8d5fa2/models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon_color_psd_2c90e75f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.vmdl",
+        "modelPaths": [
+          "models/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "TI7 Default",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:activity",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "TI7 Upgraded",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/ogre_magi/ogre_magi_set_weapon/ogre_magi_set_weapon_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/ogre_magi/ogre_ti7_set/ogre_ti7_set_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_ogre_magi/ogre_magi_weapon.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:item-model:18534:ti8-ogre-crypt-treasure-hunting-team-weapon",
+      "itemId": 18534,
+      "name": "Stonebreak Excavators  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/a4fff8b74bb4/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_weapon/ti8_ogre_crypt_treasure_hunting_team_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ogre_magi/a4fff8b74bb4/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_weapon/ti8_ogre_crypt_treasure_hunting_team_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_weapon/ti8_ogre_crypt_treasure_hunting_team_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aghs_bp_2021_ogre_magi_weapon1-d96cae757d02.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ogre_magi/a4fff8b74bb4/models/items/ogre_magi/ti8_ogre_crypt_treasure_hunting_team_weapon/ti8_ogre_crypt_treasure_hunting_team_weapon_color_tga_e687d15c.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:20575:ancestral-fortune",
+      "name": "Ancestral Fortune",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        5241,
+        5242,
+        5243,
+        5244,
+        5245
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ogre_ancestral_weapon-ee3801c77fb1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:20234:ancestral-luck-set",
+      "name": "Ancestral Luck Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        5241,
+        5242,
+        5243,
+        5244,
+        5245
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ogre_ancestral_weapon-ee3801c77fb1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:20734:antipodean-allies",
+      "name": "Antipodean Allies",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        7839,
+        7845,
+        7846,
+        7847,
+        7848
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/antipodeanloadscreen-3fdc7390f549.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:21256:flockhearts-gamble-bundle",
+      "name": "Flockhearts Gamble Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        135,
+        698,
+        830
+      ],
+      "sourceItemIds": [
+        12536,
+        13670,
+        35553
+      ],
+      "styleSelections": {
+        "13670": "0"
+      },
+      "slots": [
+        "head",
+        "hero_base",
+        "voice"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:arcana",
+        "rarity:legendary",
+        "rarity:mythical",
+        "style",
+        "taunt",
+        "virtual-set",
+        "voice"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 79,
+      "previewUrl": "/larimods-data/v1/icons/ogre_magi_arcana_head-e4cc84132093.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:21256:flockhearts-gamble-bundle:style-1",
+      "name": "Flockhearts Gamble Bundle - Level 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        135,
+        698,
+        830
+      ],
+      "sourceItemIds": [
+        12536,
+        13670,
+        35553
+      ],
+      "styleSelections": {
+        "13670": "1"
+      },
+      "slots": [
+        "head",
+        "hero_base",
+        "voice"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "arcana_level:2",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:ability_icon",
+        "modifier:arcana_level",
+        "modifier:entity_model",
+        "modifier:icon_replacement_hero",
+        "modifier:icon_replacement_hero_minimap",
+        "modifier:model_skin",
+        "modifier:particle",
+        "modifier:particle_create",
+        "modifier:portrait_background_model",
+        "rarity:arcana",
+        "rarity:legendary",
+        "rarity:mythical",
+        "skin:1",
+        "style",
+        "taunt",
+        "virtual-set",
+        "voice"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 79,
+      "previewUrl": "/larimods-data/v1/icons/ogre_magi_arcana_head-e4cc84132093.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:21872:freeboot-fortunes",
+      "name": "Freeboot Fortunes",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        19370,
+        19371,
+        19372,
+        19373,
+        19374
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/adventurers_of_fortune_arms-bb8522ebaeb5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:25944:oni-magi",
+      "name": "Oni Magi",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        25945,
+        25946,
+        25947,
+        25948,
+        25949
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ogre_magi_oni_lord_weapon-b41a1bade52c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:36001:pisces-gemini",
+      "name": "Pisces Gemini",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        31207,
+        35997,
+        35998,
+        35999,
+        36000
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 21,
+      "previewUrl": "/larimods-data/v1/icons/ogre_cosmic_head-5752c274e6ed.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:21743:pyrexae-polymorph-perfected",
+      "name": "Pyrexae Polymorph Perfected",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        18097,
+        18098,
+        18099,
+        18100,
+        18101
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/ogre_magi_enter_the_dragon_weapon-cc2d39defa14.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:21103:shoreline-sapper",
+      "name": "Shoreline Sapper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        9224,
+        9225,
+        9226,
+        9227,
+        9229
+      ],
+      "styleSelections": {
+        "9224": "0",
+        "9225": "0",
+        "9226": "0",
+        "9227": "0",
+        "9229": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/ogre_magi_set_weapon-3d88f3c34609.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:21103:shoreline-sapper:style-1",
+      "name": "Shoreline Sapper - TI7 Upgraded",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        9224,
+        9225,
+        9226,
+        9227,
+        9229
+      ],
+      "styleSelections": {
+        "9224": "1",
+        "9225": "1",
+        "9226": "1",
+        "9227": "1",
+        "9229": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/ogre_magi_set_weapon_style1-836947802ed6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:22281:stonebreak-excavators",
+      "name": "Stonebreak Excavators",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        18534,
+        18535,
+        18536,
+        18537,
+        18538
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/aghs_bp_2021_ogre_magi_weapon1-d96cae757d02.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:21300:tales-of-the-grey-wastes",
+      "name": "Tales of the Grey Wastes",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        12798,
+        12799,
+        12800,
+        12801,
+        12802
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_ogre_prehistoric_hunter_arms-e0617170978b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ogre_magi:core-set:20879:veil-of-pagus",
+      "name": "Veil of Pagus",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        105,
+        133,
+        134,
+        135,
+        136
+      ],
+      "sourceItemIds": [
+        7611,
+        7612,
+        7613,
+        7614,
+        7633
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/fortunes_veil_fortunes_veil_loading_screen-bee247a7fdee.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 90482460,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 383
+  }
+}

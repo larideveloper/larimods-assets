@@ -1,0 +1,3045 @@
+{
+  "heroId": "npc_dota_hero_nevermore",
+  "sourceHeroId": "npc_dota_hero_nevermore",
+  "variantId": "default",
+  "heroName": "Nevermore",
+  "heroSlug": "nevermore",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nevermore.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_nevermore/c3b55b413b02/models/heroes/shadow_fiend/shadow_fiend.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 488,
+      "name": "Shadow Fiends Arms",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d5dfd5e8e72b/models/heroes/shadow_fiend/shadow_fiend_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/d5dfd5e8e72b/models/heroes/shadow_fiend/shadow_fiend_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_arms.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d5dfd5e8e72b/models/heroes/shadow_fiend/shadow_fiend_arms_color_png_561a447b.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 387,
+      "name": "Shadow Fiends Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d35327ffac61/models/heroes/shadow_fiend/shadow_fiend_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/d35327ffac61/models/heroes/shadow_fiend/shadow_fiend_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d35327ffac61/models/heroes/shadow_fiend/shadow_fiend_head_color_png_dcabc61a.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 486,
+      "name": "Shadow Fiends Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9333b28a2c29/models/heroes/shadow_fiend/shadow_fiend_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/9333b28a2c29/models/heroes/shadow_fiend/shadow_fiend_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9333b28a2c29/models/heroes/shadow_fiend/shadow_fiend_shoulders_color_png_f806bfc3.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_nevermore:item-model:8259:arms-deso",
+      "itemId": 8259,
+      "name": "Arms of Desolation",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/bfb55a1e7593/models/items/shadow_fiend/arms_deso/arms_deso.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/bfb55a1e7593/models/items/shadow_fiend/arms_deso/arms_deso.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadow_fiend/arms_deso/arms_deso.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_deso-94f54401b7be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/bfb55a1e7593/models/items/shadow_fiend/arms_deso/arms_deso_color_psd_14ae5fb2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadow_fiend/arms_deso/arms_deso.vmdl",
+        "modelPaths": [
+          "models/items/shadow_fiend/arms_deso/arms_deso.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_desolation/nvm_atk_blur_b_dso.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_desolation/nvm_atk_blur_dso.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_desolation/sf_base_attack_desolation.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_desolation/sf_base_attack_desolation_desolator.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_desolation/sf_base_attack_desolation_fire_arcana.vpcf",
+            "type": "vpcf",
+            "role": "modifier:particle_combined"
+          },
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_desolation/shadow_fiend_desolation_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "modifier:particle_combined"
+          },
+          {
+            "path": "particles/items_fx/desolator_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_nevermore/nevermore_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_nevermore/nvm_atk_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_nevermore/nvm_atk_blur_b.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:7193:diabolical-fiend-arms",
+      "itemId": 7193,
+      "name": "Arms of the Diabolical Fiend",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/43a924620254/models/items/nevermore/diabolical_fiend_arms/diabolical_fiend_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/43a924620254/models/items/nevermore/diabolical_fiend_arms/diabolical_fiend_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/diabolical_fiend_arms/diabolical_fiend_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/diabolical_fiend_arms-f0a12f4025e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/43a924620254/models/items/nevermore/diabolical_fiend_arms/diabolical_fiend_arms_color_psd_aa4c25e0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/diabolical_fiend_arms/diabolical_fiend_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/diabolical_fiend_arms/diabolical_fiend_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9495:krakens-ravager-arms",
+      "itemId": 9495,
+      "name": "Claws of the Fathomless Ravager",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9471dcd5c40b/models/items/nevermore/krakens_ravager_arms/krakens_ravager_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/9471dcd5c40b/models/items/nevermore/krakens_ravager_arms/krakens_ravager_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/krakens_ravager_arms/krakens_ravager_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/krakens_ravager_arms-956d3698c1a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9471dcd5c40b/models/items/nevermore/krakens_ravager_arms/krakens_ravager_arms_color_tga_662f53a2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/krakens_ravager_arms/krakens_ravager_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/krakens_ravager_arms/krakens_ravager_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:34186:shadow-fiend-arcana-arms",
+      "itemId": 34186,
+      "name": "Demon Eater  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/757020f04ac3/models/heroes/shadow_fiend/shadow_fiend_arcana_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/757020f04ac3/models/heroes/shadow_fiend/shadow_fiend_arcana_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_arcana_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_arcana_arms-fe23831983dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/757020f04ac3/models/heroes/shadow_fiend/shadow_fiend_arcana_arms_color_png_c16f2c93.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadow_fiend/shadow_fiend_arcana_arms.vmdl",
+        "modelPaths": [
+          "models/heroes/shadow_fiend/shadow_fiend_arcana_arms.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9019:ferrum-chiroptera-arms",
+      "itemId": 9019,
+      "name": "Grips of Eternal Harvest",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/0aa0449a4a82/models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/0aa0449a4a82/models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferrum_chiroptera_arms-b6ce033bb7ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/0aa0449a4a82/models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms_color_tga_c6548a33.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:33211:lord-of-the-elder-dunes-arms",
+      "itemId": 33211,
+      "name": "Lord of the Sundered Souls  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/355a19c83217/models/items/nevermore/lord_of_the_elder_dunes_arms/lord_of_the_elder_dunes_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/355a19c83217/models/items/nevermore/lord_of_the_elder_dunes_arms/lord_of_the_elder_dunes_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/lord_of_the_elder_dunes_arms/lord_of_the_elder_dunes_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_the_elder_dunes_arms-48730b969de0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/355a19c83217/models/items/nevermore/lord_of_the_elder_dunes_arms/lord_of_the_elder_dunes_arms_color_tga_1f3305f9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/lord_of_the_elder_dunes_arms/lord_of_the_elder_dunes_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/lord_of_the_elder_dunes_arms/lord_of_the_elder_dunes_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:26217:sf-dark-lord-arms",
+      "itemId": 26217,
+      "name": "Molten Maulers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/855f7121a7e6/models/items/nevermore/sf_dark_lord_arms/sf_dark_lord_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/855f7121a7e6/models/items/nevermore/sf_dark_lord_arms/sf_dark_lord_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_dark_lord_arms/sf_dark_lord_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_dark_lord_arms-86ee532c748a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/855f7121a7e6/models/items/nevermore/sf_dark_lord_arms/sf_dark_lord_arms_color_tga_c83ba7f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_dark_lord_arms/sf_dark_lord_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_dark_lord_arms/sf_dark_lord_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_dark_lord/sf_dark_lord_hands_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9993:nevermores-shade-arms",
+      "itemId": 9993,
+      "name": "Murder of Souls Talons",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/144511faac84/models/items/nevermore/nevermores_shade_arms/nevermores_shade_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/144511faac84/models/items/nevermore/nevermores_shade_arms/nevermores_shade_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/nevermores_shade_arms/nevermores_shade_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nevermores_shade_arms-1ad1010d5fc5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/144511faac84/models/items/nevermore/nevermores_shade_arms/nevermores_shade_arms_color_tga_90a23c31.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/nevermores_shade_arms/nevermores_shade_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/nevermores_shade_arms/nevermores_shade_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:29087:shadow-fiend-archon-of-darkness-arms",
+      "itemId": 29087,
+      "name": "Raven Harvest  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/54f1fe81c088/models/items/nevermore/shadow_fiend_archon_of_darkness_arms/shadow_fiend_archon_of_darkness_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/54f1fe81c088/models/items/nevermore/shadow_fiend_archon_of_darkness_arms/shadow_fiend_archon_of_darkness_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/shadow_fiend_archon_of_darkness_arms/shadow_fiend_archon_of_darkness_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_archon_of_darkness_arms-5bf2b4f5ade7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/54f1fe81c088/models/items/nevermore/shadow_fiend_archon_of_darkness_arms/shadow_fiend_archon_of_darkness_arms_color_png_386c66e8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/shadow_fiend_archon_of_darkness_arms/shadow_fiend_archon_of_darkness_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/shadow_fiend_archon_of_darkness_arms/shadow_fiend_archon_of_darkness_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:488:shadow-fiend-arms",
+      "itemId": 488,
+      "name": "Shadow Fiends Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d5dfd5e8e72b/models/heroes/shadow_fiend/shadow_fiend_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/d5dfd5e8e72b/models/heroes/shadow_fiend/shadow_fiend_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_arms-4797555d0004.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d5dfd5e8e72b/models/heroes/shadow_fiend/shadow_fiend_arms_color_png_561a447b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadow_fiend/shadow_fiend_arms.vmdl",
+        "modelPaths": [
+          "models/heroes/shadow_fiend/shadow_fiend_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:12679:sf-immortal-flame-arms",
+      "itemId": 12679,
+      "name": "Soul Corpulence  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/a3587ca0875e/models/items/nevermore/sf_immortal_flame_arms/sf_immortal_flame_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/a3587ca0875e/models/items/nevermore/sf_immortal_flame_arms/sf_immortal_flame_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_immortal_flame_arms/sf_immortal_flame_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_immortal_flame_arms-6eccc49df61d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/a3587ca0875e/models/items/nevermore/sf_immortal_flame_arms/sf_immortal_flame_arms_color_tga_31988762.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_immortal_flame_arms/sf_immortal_flame_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_immortal_flame_arms/sf_immortal_flame_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:13506:sf-souls-tyrant-arms",
+      "itemId": 13506,
+      "name": "Souls Tyrant Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/ae7f29c15f6c/models/items/nevermore/sf_souls_tyrant_arms/sf_souls_tyrant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/ae7f29c15f6c/models/items/nevermore/sf_souls_tyrant_arms/sf_souls_tyrant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_souls_tyrant_arms/sf_souls_tyrant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_souls_tyrant_arms-f0d3870cb044.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/ae7f29c15f6c/models/items/nevermore/sf_souls_tyrant_arms/sf_souls_tyrant_arms_color_psd_e5c1faee.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_souls_tyrant_arms/sf_souls_tyrant_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_souls_tyrant_arms/sf_souls_tyrant_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:22843:ferrum-chiroptera-arms",
+      "itemId": 22843,
+      "name": "Spring Lineage Grips of Eternal Harvest",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/e54f654166e1/models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/e54f654166e1/models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferrum_chiroptera_arms1-c15503024a79.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/e54f654166e1/models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms_color_tga_c6548a33.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/ferrum_chiroptera_arms/ferrum_chiroptera_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:18034:harvest-effigy-arms",
+      "itemId": 18034,
+      "name": "Twilight Effigy Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/7040d4d891a9/models/items/nevermore/harvest_effigy_arms/harvest_effigy_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/7040d4d891a9/models/items/nevermore/harvest_effigy_arms/harvest_effigy_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/harvest_effigy_arms/harvest_effigy_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harvest_effigy_arms-0c380450be7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/7040d4d891a9/models/items/nevermore/harvest_effigy_arms/harvest_effigy_arms_color_tga_9cc27ffc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/harvest_effigy_arms/harvest_effigy_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/harvest_effigy_arms/harvest_effigy_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19844:king-of-vipers-arms",
+      "itemId": 19844,
+      "name": "Vote Only King of Vipers Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_arms-3d0539d83a87.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms_color_tga_d73e317f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Arms 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Arms 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Arms 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19844:king-of-vipers-arms:style-1",
+      "itemId": 19844,
+      "name": "Vote Only King of Vipers Arms - Style 2",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_arms-3d0539d83a87.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms_color_tga_d73e317f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Arms 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Arms 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Arms 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19844:king-of-vipers-arms:style-2",
+      "itemId": 19844,
+      "name": "Vote Only King of Vipers Arms - Style 3",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_arms-3d0539d83a87.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/6ab09098b52f/models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms_color_tga_d73e317f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_arms/king_of_vipers_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Arms 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Arms 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Arms 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:34184:shadow-fiend-arcana-head",
+      "itemId": 34184,
+      "name": "Demon Eater  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/16f278856f94/models/heroes/shadow_fiend/shadow_fiend_arcana_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/16f278856f94/models/heroes/shadow_fiend/shadow_fiend_arcana_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_arcana_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_arcana_head-5de5b7257c30.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/16f278856f94/models/heroes/shadow_fiend/shadow_fiend_arcana_head_color_png_d1118c6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadow_fiend/shadow_fiend_arcana_head.vmdl",
+        "modelPaths": [
+          "models/heroes/shadow_fiend/shadow_fiend_arcana_head.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_ambient_head_parent.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9496:krakens-ravager-head",
+      "itemId": 9496,
+      "name": "Helm of the Fathomless Ravager",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/ef377899cbf2/models/items/nevermore/krakens_ravager_head/krakens_ravager_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/ef377899cbf2/models/items/nevermore/krakens_ravager_head/krakens_ravager_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/krakens_ravager_head/krakens_ravager_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/krakens_ravager_head-5ca9179ea37f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/ef377899cbf2/models/items/nevermore/krakens_ravager_head/krakens_ravager_head_color_tga_1a99d46.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/krakens_ravager_head/krakens_ravager_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/krakens_ravager_head/krakens_ravager_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9021:ferrum-chiroptera-head",
+      "itemId": 9021,
+      "name": "Horns of Eternal Harvest",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f56d0e924544/models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/f56d0e924544/models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferrum_chiroptera_head-5de10cb75cd1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f56d0e924544/models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head_color_tga_dccab64a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_ferrum/shadow_fiend_ferrum_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:7188:diabolical-fiend-head",
+      "itemId": 7188,
+      "name": "Horns of the Diabolical Fiend",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/e9462c61c682/models/items/nevermore/diabolical_fiend_head/diabolical_fiend_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/e9462c61c682/models/items/nevermore/diabolical_fiend_head/diabolical_fiend_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/diabolical_fiend_head/diabolical_fiend_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/diabolical_fiend_head-866c45814cc2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/e9462c61c682/models/items/nevermore/diabolical_fiend_head/diabolical_fiend_head_color_psd_f186351e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/diabolical_fiend_head/diabolical_fiend_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/diabolical_fiend_head/diabolical_fiend_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:33212:lord-of-the-elder-dunes-head",
+      "itemId": 33212,
+      "name": "Lord of the Sundered Souls  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/64bff20e385f/models/items/nevermore/lord_of_the_elder_dunes_head/lord_of_the_elder_dunes_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/64bff20e385f/models/items/nevermore/lord_of_the_elder_dunes_head/lord_of_the_elder_dunes_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/lord_of_the_elder_dunes_head/lord_of_the_elder_dunes_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_the_elder_dunes_head-025926803b3d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/64bff20e385f/models/items/nevermore/lord_of_the_elder_dunes_head/lord_of_the_elder_dunes_head_color_tga_c4d1d939.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/lord_of_the_elder_dunes_head/lord_of_the_elder_dunes_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/lord_of_the_elder_dunes_head/lord_of_the_elder_dunes_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/elder_dunes/default/elder_dunes_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:26218:sf-dark-lord-head",
+      "itemId": 26218,
+      "name": "Molten Maw",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f317b268a9a6/models/items/nevermore/sf_dark_lord_head/sf_dark_lord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/f317b268a9a6/models/items/nevermore/sf_dark_lord_head/sf_dark_lord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_dark_lord_head/sf_dark_lord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_dark_lord_head-9fc3729715fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f317b268a9a6/models/items/nevermore/sf_dark_lord_head/sf_dark_lord_head_color_psd_c8673dbc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_dark_lord_head/sf_dark_lord_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_dark_lord_head/sf_dark_lord_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9994:nevermores-shade-head",
+      "itemId": 9994,
+      "name": "Murder of Souls Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/2f9b286920c3/models/items/nevermore/nevermores_shade_head/nevermores_shade_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/2f9b286920c3/models/items/nevermore/nevermores_shade_head/nevermores_shade_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/nevermores_shade_head/nevermores_shade_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nevermores_shade_head-65a554c5f7d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/2f9b286920c3/models/items/nevermore/nevermores_shade_head/nevermores_shade_head_color_tga_afe6d1b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/nevermores_shade_head/nevermores_shade_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/nevermores_shade_head/nevermores_shade_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:29088:shadow-fiend-archon-of-darkness-head",
+      "itemId": 29088,
+      "name": "Raven Harvest  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/805b4a1ff216/models/items/nevermore/shadow_fiend_archon_of_darkness_head/shadow_fiend_archon_of_darkness_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/805b4a1ff216/models/items/nevermore/shadow_fiend_archon_of_darkness_head/shadow_fiend_archon_of_darkness_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/shadow_fiend_archon_of_darkness_head/shadow_fiend_archon_of_darkness_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_archon_of_darkness_head-9c6e0fb55379.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/805b4a1ff216/models/items/nevermore/shadow_fiend_archon_of_darkness_head/shadow_fiend_archon_of_darkness_head_color_png_32f215f7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/shadow_fiend_archon_of_darkness_head/shadow_fiend_archon_of_darkness_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/shadow_fiend_archon_of_darkness_head/shadow_fiend_archon_of_darkness_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:387:shadow-fiend-head",
+      "itemId": 387,
+      "name": "Shadow Fiends Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d35327ffac61/models/heroes/shadow_fiend/shadow_fiend_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/d35327ffac61/models/heroes/shadow_fiend/shadow_fiend_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_head-2a12591ea8bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d35327ffac61/models/heroes/shadow_fiend/shadow_fiend_head_color_png_dcabc61a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadow_fiend/shadow_fiend_head.vmdl",
+        "modelPaths": [
+          "models/heroes/shadow_fiend/shadow_fiend_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:12678:sf-immortal-flame-head",
+      "itemId": 12678,
+      "name": "Soul Corpulence  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/3a9ddb3be536/models/items/nevermore/sf_immortal_flame_head/sf_immortal_flame_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/3a9ddb3be536/models/items/nevermore/sf_immortal_flame_head/sf_immortal_flame_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_immortal_flame_head/sf_immortal_flame_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_immortal_flame_head-c8bc6008893d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/3a9ddb3be536/models/items/nevermore/sf_immortal_flame_head/sf_immortal_flame_head_color_tga_4eefb019.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_immortal_flame_head/sf_immortal_flame_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_immortal_flame_head/sf_immortal_flame_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:13505:sf-souls-tyrant-head",
+      "itemId": 13505,
+      "name": "Souls Tyrant Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f0b78d04788d/models/items/nevermore/sf_souls_tyrant_head/sf_souls_tyrant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/f0b78d04788d/models/items/nevermore/sf_souls_tyrant_head/sf_souls_tyrant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_souls_tyrant_head/sf_souls_tyrant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_souls_tyrant_head-6fa8b0275576.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f0b78d04788d/models/items/nevermore/sf_souls_tyrant_head/sf_souls_tyrant_head_color_tga_5665cff1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_souls_tyrant_head/sf_souls_tyrant_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_souls_tyrant_head/sf_souls_tyrant_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_souls_tyrant/sf_souls_tyrant_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:22845:ferrum-chiroptera-head",
+      "itemId": 22845,
+      "name": "Spring Lineage Horns of Eternal Harvest",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/c48f31fb64c2/models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/c48f31fb64c2/models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferrum_chiroptera_head1-d69bf615fb84.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/c48f31fb64c2/models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head_color_tga_dccab64a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/ferrum_chiroptera_head/ferrum_chiroptera_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_ferrum/shadow_fiend_ferrum_head_dpc_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:18035:harvest-effigy-head",
+      "itemId": 18035,
+      "name": "Twilight Effigy Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/ca3a0bf7a80b/models/items/nevermore/harvest_effigy_head/harvest_effigy_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/ca3a0bf7a80b/models/items/nevermore/harvest_effigy_head/harvest_effigy_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/harvest_effigy_head/harvest_effigy_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harvest_effigy_head-430566a88162.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/ca3a0bf7a80b/models/items/nevermore/harvest_effigy_head/harvest_effigy_head_color_tga_87a15829.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/harvest_effigy_head/harvest_effigy_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/harvest_effigy_head/harvest_effigy_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19843:king-of-vipers-head",
+      "itemId": 19843,
+      "name": "Vote Only King of Vipers Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_head-2f6aaf2c0166.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head_color_tga_a2c06c2b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Head 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Head 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Head 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19843:king-of-vipers-head:style-1",
+      "itemId": 19843,
+      "name": "Vote Only King of Vipers Head - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_head-2f6aaf2c0166.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head_color_tga_a2c06c2b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Head 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Head 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Head 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19843:king-of-vipers-head:style-2",
+      "itemId": 19843,
+      "name": "Vote Only King of Vipers Head - Style 3",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_head-2f6aaf2c0166.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/18dc80e5ff7f/models/items/nevermore/king_of_vipers_head/king_of_vipers_head_color_tga_a2c06c2b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_head/king_of_vipers_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Head 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Head 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Head 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "assets": [
+              {
+                "path": "particles/units/heroes/hero_nevermore/shadow_fiend_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:7279:diabolical-fiend-shoulder",
+      "itemId": 7279,
+      "name": "Armor of the Diabolical Fiend",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/c724f2cc8d5d/models/items/nevermore/diabolical_fiend_shoulder/diabolical_fiend_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/c724f2cc8d5d/models/items/nevermore/diabolical_fiend_shoulder/diabolical_fiend_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/diabolical_fiend_shoulder/diabolical_fiend_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/diabolical_fiend_shoulder-c0339182b62c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/c724f2cc8d5d/models/items/nevermore/diabolical_fiend_shoulder/diabolical_fiend_shoulder_color_psd_8de739b4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/diabolical_fiend_shoulder/diabolical_fiend_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/diabolical_fiend_shoulder/diabolical_fiend_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9494:krakens-ravager-shoulder",
+      "itemId": 9494,
+      "name": "Breastplate of the Fathomless Ravager",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/57528ef2e3b7/models/items/nevermore/krakens_ravager_shoulder/krakens_ravager_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/57528ef2e3b7/models/items/nevermore/krakens_ravager_shoulder/krakens_ravager_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/krakens_ravager_shoulder/krakens_ravager_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/krakens_ravager_shoulder-db6b42d4f888.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/57528ef2e3b7/models/items/nevermore/krakens_ravager_shoulder/krakens_ravager_shoulder_color_tga_5dc60d21.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/krakens_ravager_shoulder/krakens_ravager_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/krakens_ravager_shoulder/krakens_ravager_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:34185:shadow-fiend-arcana-shoulders",
+      "itemId": 34185,
+      "name": "Demon Eater  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/4aecfbb40db1/models/heroes/shadow_fiend/shadow_fiend_arcana_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/4aecfbb40db1/models/heroes/shadow_fiend/shadow_fiend_arcana_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_arcana_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_arcana_shoulders-d5e014a6e1d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/4aecfbb40db1/models/heroes/shadow_fiend/shadow_fiend_arcana_shoulders_color_png_5ab484cf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadow_fiend/shadow_fiend_arcana_shoulders.vmdl",
+        "modelPaths": [
+          "models/heroes/shadow_fiend/shadow_fiend_arcana_shoulders.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:33210:lord-of-the-elder-dunes-shoulders",
+      "itemId": 33210,
+      "name": "Lord of the Sundered Souls  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9aea67e7f7f9/models/items/nevermore/lord_of_the_elder_dunes_shoulders/lord_of_the_elder_dunes_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/9aea67e7f7f9/models/items/nevermore/lord_of_the_elder_dunes_shoulders/lord_of_the_elder_dunes_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/lord_of_the_elder_dunes_shoulders/lord_of_the_elder_dunes_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lord_of_the_elder_dunes_shoulders-ae81e51d8f85.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9aea67e7f7f9/models/items/nevermore/lord_of_the_elder_dunes_shoulders/lord_of_the_elder_dunes_shoulders_color_tga_42cb43ee.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/lord_of_the_elder_dunes_shoulders/lord_of_the_elder_dunes_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/lord_of_the_elder_dunes_shoulders/lord_of_the_elder_dunes_shoulders.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/elder_dunes/default/elder_dunes_wings.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_nevermore/nevermore_wings.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:26216:sf-dark-lord-shoulder",
+      "itemId": 26216,
+      "name": "Molten Mantle",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d5b04249f3d6/models/items/nevermore/sf_dark_lord_shoulder/sf_dark_lord_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/d5b04249f3d6/models/items/nevermore/sf_dark_lord_shoulder/sf_dark_lord_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_dark_lord_shoulder/sf_dark_lord_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_dark_lord_shoulder-252a2d871d81.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d5b04249f3d6/models/items/nevermore/sf_dark_lord_shoulder/sf_dark_lord_shoulder_color_psd_be0580bf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_dark_lord_shoulder/sf_dark_lord_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_dark_lord_shoulder/sf_dark_lord_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_dark_lord/sf_dark_lord_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9995:nevermores-shade-shoulder",
+      "itemId": 9995,
+      "name": "Murder of Souls Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/7ffb3b3ddd61/models/items/nevermore/nevermores_shade_shoulder/nevermores_shade_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/7ffb3b3ddd61/models/items/nevermore/nevermores_shade_shoulder/nevermores_shade_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/nevermores_shade_shoulder/nevermores_shade_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nevermores_shade_shoulder-11f10a343c20.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/7ffb3b3ddd61/models/items/nevermore/nevermores_shade_shoulder/nevermores_shade_shoulder_color_tga_73f678.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/nevermores_shade_shoulder/nevermores_shade_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/nevermores_shade_shoulder/nevermores_shade_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:9020:ferrum-chiroptera-shoulder",
+      "itemId": 9020,
+      "name": "Pauldrons of Eternal Harvest",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/a75a06f763ec/models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/a75a06f763ec/models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferrum_chiroptera_shoulder-326a07fee38c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/a75a06f763ec/models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder_color_tga_76d8573e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_ferrum/shadow_fiend_ferrum_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:29089:shadow-fiend-archon-of-darkness-shoulder",
+      "itemId": 29089,
+      "name": "Raven Harvest  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d1dd33864a14/models/items/nevermore/shadow_fiend_archon_of_darkness_shoulder/shadow_fiend_archon_of_darkness_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/d1dd33864a14/models/items/nevermore/shadow_fiend_archon_of_darkness_shoulder/shadow_fiend_archon_of_darkness_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/shadow_fiend_archon_of_darkness_shoulder/shadow_fiend_archon_of_darkness_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_archon_of_darkness_shoulder-0678a3e35772.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/d1dd33864a14/models/items/nevermore/shadow_fiend_archon_of_darkness_shoulder/shadow_fiend_archon_of_darkness_shoulder_color_png_d29c2172.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/shadow_fiend_archon_of_darkness_shoulder/shadow_fiend_archon_of_darkness_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/shadow_fiend_archon_of_darkness_shoulder/shadow_fiend_archon_of_darkness_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:486:shadow-fiend-shoulders",
+      "itemId": 486,
+      "name": "Shadow Fiends Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9333b28a2c29/models/heroes/shadow_fiend/shadow_fiend_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/9333b28a2c29/models/heroes/shadow_fiend/shadow_fiend_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadow_fiend/shadow_fiend_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadow_fiend_shoulders-d1641b379091.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/9333b28a2c29/models/heroes/shadow_fiend/shadow_fiend_shoulders_color_png_f806bfc3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadow_fiend/shadow_fiend_shoulders.vmdl",
+        "modelPaths": [
+          "models/heroes/shadow_fiend/shadow_fiend_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:12677:sf-immortal-flame-shoulder",
+      "itemId": 12677,
+      "name": "Soul Corpulence  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f4ed0978e5ea/models/items/nevermore/sf_immortal_flame_shoulder/sf_immortal_flame_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/f4ed0978e5ea/models/items/nevermore/sf_immortal_flame_shoulder/sf_immortal_flame_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_immortal_flame_shoulder/sf_immortal_flame_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_immortal_flame_shoulder-f6c2636be6b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f4ed0978e5ea/models/items/nevermore/sf_immortal_flame_shoulder/sf_immortal_flame_shoulder_color_tga_2c42c509.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_immortal_flame_shoulder/sf_immortal_flame_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_immortal_flame_shoulder/sf_immortal_flame_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:13507:sf-souls-tyrant-shoulder",
+      "itemId": 13507,
+      "name": "Souls Tyrant Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/aaf092337b05/models/items/nevermore/sf_souls_tyrant_shoulder/sf_souls_tyrant_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/aaf092337b05/models/items/nevermore/sf_souls_tyrant_shoulder/sf_souls_tyrant_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/sf_souls_tyrant_shoulder/sf_souls_tyrant_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sf_souls_tyrant_shoulder-d16708f0960f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/aaf092337b05/models/items/nevermore/sf_souls_tyrant_shoulder/sf_souls_tyrant_shoulder_color_psd_26817804.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/sf_souls_tyrant_shoulder/sf_souls_tyrant_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/sf_souls_tyrant_shoulder/sf_souls_tyrant_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_souls_tyrant/sf_souls_tyrant_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:22844:ferrum-chiroptera-shoulder",
+      "itemId": 22844,
+      "name": "Spring Lineage Pauldrons of Eternal Harvest",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f79ab2ab72ef/models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/f79ab2ab72ef/models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferrum_chiroptera_shoulder1-b004d0b3bdd3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/f79ab2ab72ef/models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder_color_tga_76d8573e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/ferrum_chiroptera_shoulder/ferrum_chiroptera_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_fiend/sf_ferrum/shadow_fiend_ferrum_shoulder_dpc_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:18036:harvest-effigy-shoulder",
+      "itemId": 18036,
+      "name": "Twilight Effigy Armor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/95eadc555319/models/items/nevermore/harvest_effigy_shoulder/harvest_effigy_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/95eadc555319/models/items/nevermore/harvest_effigy_shoulder/harvest_effigy_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/harvest_effigy_shoulder/harvest_effigy_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harvest_effigy_shoulder-d7e70b07cae5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/95eadc555319/models/items/nevermore/harvest_effigy_shoulder/harvest_effigy_shoulder_color_tga_215e2222.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/harvest_effigy_shoulder/harvest_effigy_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/harvest_effigy_shoulder/harvest_effigy_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19841:king-of-vipers-shoulder",
+      "itemId": 19841,
+      "name": "Vote Only King of Vipers Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_shoulder-39a4a40e56bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder_color_tga_301e1f73.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Shoulder 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Shoulder 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Shoulder 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19841:king-of-vipers-shoulder:style-1",
+      "itemId": 19841,
+      "name": "Vote Only King of Vipers Shoulder - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_shoulder-39a4a40e56bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder_color_tga_301e1f73.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Shoulder 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Shoulder 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Shoulder 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_nevermore:item-model:19841:king-of-vipers-shoulder:style-2",
+      "itemId": 19841,
+      "name": "Vote Only King of Vipers Shoulder - Style 3",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_vipers_shoulder-39a4a40e56bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_nevermore/b88a33b22c41/models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder_color_tga_301e1f73.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/nevermore/king_of_vipers_shoulder/king_of_vipers_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadow_demon/shadow_demon_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style King of Vipers Shoulder 0",
+            "skin": "2",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style King of Vipers Shoulder 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Vote Only Style King of Vipers Shoulder 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_nevermore:core-set:34211:demon-eater-bundle",
+      "name": "Demon Eater Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488,
+        826
+      ],
+      "sourceItemIds": [
+        6996,
+        34184,
+        34185,
+        34186
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "hero_base",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:arcana",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 55,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_shadow_fiend_arcana_bundle-cc48c75827b3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:20806:diabolical-fiend",
+      "name": "Diabolical Fiend",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        7188,
+        7193,
+        7279
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/diabolical_fiend_loading_screen-8eb413b9a705.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21070:eternal-harvest",
+      "name": "Eternal Harvest",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        9019,
+        9020,
+        9021
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ferrum_chiroptera_loading_screen-bb20254fce52.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21138:fathomless-ravager",
+      "name": "Fathomless Ravager",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        9494,
+        9495,
+        9496
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/krakens_ravager_shoulder-db6b42d4f888.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:33213:lord-of-the-sundered-souls",
+      "name": "Lord of the Sundered Souls",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        33210,
+        33211,
+        33212
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/lord_of_the_elder_dunes_shoulders-ae81e51d8f85.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:26215:molten-monarch",
+      "name": "Molten Monarch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        26216,
+        26217,
+        26218
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/sf_dark_lord_shoulder-252a2d871d81.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21217:murder-of-souls",
+      "name": "Murder of Souls",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        9993,
+        9994,
+        9995
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/nevermores_shade_ls-264cf620e862.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:29127:raven-harvest",
+      "name": "Raven Harvest",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        29087,
+        29088,
+        29089
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/shadow_fiend_archon_of_darkness_arms-5bf2b4f5ade7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21279:soul-corpulence",
+      "name": "Soul Corpulence",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        12677,
+        12678,
+        12679
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/sf_immortal_flame_ls-c14840b5134a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21419:souls-tyrant",
+      "name": "Souls Tyrant",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        13505,
+        13506,
+        13507
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/sf_souls_tyrant_ls-43543b9bd5a4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:22842:spring-lineage-eternal-harvest",
+      "name": "Spring Lineage Eternal Harvest",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        22843,
+        22844,
+        22845
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ferrum_chiroptera_arms1-c15503024a79.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21752:twilight-effigy",
+      "name": "Twilight Effigy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        18034,
+        18035,
+        18036
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/harvest_effigy_arms-0c380450be7e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21964:vote-only-king-of-vipers",
+      "name": "Vote Only King of Vipers",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        19841,
+        19843,
+        19844
+      ],
+      "styleSelections": {
+        "19841": "0",
+        "19843": "0",
+        "19844": "0"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21964:vote-only-king-of-vipers:style-1",
+      "name": "Vote Only King of Vipers - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        19841,
+        19843,
+        19844
+      ],
+      "styleSelections": {
+        "19841": "1",
+        "19843": "1",
+        "19844": "1"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_nevermore:core-set:21964:vote-only-king-of-vipers:style-2",
+      "name": "Vote Only King of Vipers - Style 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        387,
+        486,
+        488
+      ],
+      "sourceItemIds": [
+        19841,
+        19843,
+        19844
+      ],
+      "styleSelections": {
+        "19841": "2",
+        "19843": "2",
+        "19844": "2"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 43174751,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 244
+  }
+}

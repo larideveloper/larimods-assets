@@ -1,0 +1,3374 @@
+{
+  "heroId": "npc_dota_hero_batrider",
+  "sourceHeroId": "npc_dota_hero_batrider",
+  "variantId": "default",
+  "heroName": "Batrider",
+  "heroSlug": "batrider",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/batrider.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_batrider/ba7b2c1cf1b3/models/heroes/batrider/batrider.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 377,
+      "name": "Batriders Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/77c434e95042/models/heroes/batrider/batrider_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/77c434e95042/models/heroes/batrider/batrider_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/77c434e95042/models/heroes/batrider/batrider_belt_color_psd_26673587.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 375,
+      "name": "Batriders Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/65e4d249c070/models/heroes/batrider/batrider_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/65e4d249c070/models/heroes/batrider/batrider_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/65e4d249c070/models/heroes/batrider/batrider_head_color_1_color_psd_f8839403.png"
+    },
+    {
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "itemId": 378,
+      "name": "Batriders Mount",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/0f9b306bacff/models/heroes/batrider/batrider_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/0f9b306bacff/models/heroes/batrider/batrider_mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_mount.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/0f9b306bacff/models/heroes/batrider/batrider_mount_color_psd_3003005a.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 376,
+      "name": "Batriders Cloak",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8714999113a2/models/heroes/batrider/batrider_cloak.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/8714999113a2/models/heroes/batrider/batrider_cloak.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_cloak.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8714999113a2/models/heroes/batrider/batrider_cloak_color_psd_c9088674.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_batrider:item-model:377:batrider-belt",
+      "itemId": 377,
+      "name": "Batriders Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/77c434e95042/models/heroes/batrider/batrider_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/77c434e95042/models/heroes/batrider/batrider_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batrider_belt-303630478b2e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/77c434e95042/models/heroes/batrider/batrider_belt_color_psd_26673587.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/batrider/batrider_belt.vmdl",
+        "modelPaths": [
+          "models/heroes/batrider/batrider_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:12455:the-plague-burner-belt",
+      "itemId": 12455,
+      "name": "Belt of Empiric Incendiary",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/79c4054a4327/models/items/batrider/the_plague_burner_belt/the_plague_burner_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/79c4054a4327/models/items/batrider/the_plague_burner_belt/the_plague_burner_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/the_plague_burner_belt/the_plague_burner_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plague_burner_belt-8e6a49c1ce31.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/79c4054a4327/models/items/batrider/the_plague_burner_belt/the_plague_burner_belt_color_tga_f3505356.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/the_plague_burner_belt/the_plague_burner_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/the_plague_burner_belt/the_plague_burner_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9405:owl-rider-belt",
+      "itemId": 9405,
+      "name": "Belt of the Apex Explorer",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/1970bfcb419c/models/items/batrider/owl_rider_belt/owl_rider_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/1970bfcb419c/models/items/batrider/owl_rider_belt/owl_rider_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/owl_rider_belt/owl_rider_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/owl_rider_belt-f5bb212df1a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/1970bfcb419c/models/items/batrider/owl_rider_belt/owl_rider_belt_color_tga_240ba0e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/owl_rider_belt/owl_rider_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/owl_rider_belt/owl_rider_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7727:manta-rayder-ti7-belt",
+      "itemId": 7727,
+      "name": "Belt of the Manta Marauder",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/75f0f6f974a3/models/items/batrider/manta_rayder_ti7_belt/manta_rayder_ti7_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/75f0f6f974a3/models/items/batrider/manta_rayder_ti7_belt/manta_rayder_ti7_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/manta_rayder_ti7_belt/manta_rayder_ti7_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/manta_rayder_ti7_belt-27e0476e6872.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/75f0f6f974a3/models/items/batrider/manta_rayder_ti7_belt/manta_rayder_ti7_belt_color_png_ffc2cbcc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/manta_rayder_ti7_belt/manta_rayder_ti7_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/manta_rayder_ti7_belt/manta_rayder_ti7_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8339:fiery-heart-belt",
+      "itemId": 8339,
+      "name": "Burning Jacks",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bb7b34a7e55b/models/items/batrider/fiery_heart_belt/fiery_heart_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/bb7b34a7e55b/models/items/batrider/fiery_heart_belt/fiery_heart_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/fiery_heart_belt/fiery_heart_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fiery_heart_belt-c61990d48c9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bb7b34a7e55b/models/items/batrider/fiery_heart_belt/fiery_heart_belt_color_tga_923e69a4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/fiery_heart_belt/fiery_heart_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/fiery_heart_belt/fiery_heart_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:19468:sacred-fire-belt",
+      "itemId": 19468,
+      "name": "Charms of the Firefiend  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/2969fcddd0a9/models/items/batrider/sacred_fire_belt/sacred_fire_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/2969fcddd0a9/models/items/batrider/sacred_fire_belt/sacred_fire_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/sacred_fire_belt/sacred_fire_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_fire_belt-237f8c1cfcd6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/2969fcddd0a9/models/items/batrider/sacred_fire_belt/sacred_fire_belt_color_tga_7a60b294.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/sacred_fire_belt/sacred_fire_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/sacred_fire_belt/sacred_fire_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9386:marauding-pyro-belt",
+      "itemId": 9386,
+      "name": "Cocktail of the Marauding Pyro",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/efa42989333b/models/items/batrider/marauding_pyro_belt/marauding_pyro_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/efa42989333b/models/items/batrider/marauding_pyro_belt/marauding_pyro_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/marauding_pyro_belt/marauding_pyro_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/marauding_pyro_belt-0614df58255c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/efa42989333b/models/items/batrider/marauding_pyro_belt/marauding_pyro_belt_color_tga_40def528.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/marauding_pyro_belt/marauding_pyro_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/marauding_pyro_belt/marauding_pyro_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7012:firestarter-pump",
+      "itemId": 7012,
+      "name": "Firestarter Gas Pump",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/3a5ddddc2cda/models/items/batrider/firestarter_pump/firestarter_pump.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/3a5ddddc2cda/models/items/batrider/firestarter_pump/firestarter_pump.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/firestarter_pump/firestarter_pump.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firestarter_pump-3fcce5344749.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/3a5ddddc2cda/models/items/batrider/firestarter_pump/firestarter_pump_color_tga_8e01e2ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/firestarter_pump/firestarter_pump.vmdl",
+        "modelPaths": [
+          "models/items/batrider/firestarter_pump/firestarter_pump.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:5144:flamestiched-suitings-hand",
+      "itemId": 5144,
+      "name": "Flamestitched Suitings Wrap and Molotov",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/aa2f1dee74d5/models/items/batrider/flamestiched_suitings_hand/flamestiched_suitings_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/aa2f1dee74d5/models/items/batrider/flamestiched_suitings_hand/flamestiched_suitings_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flamestiched_suitings_hand/flamestiched_suitings_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flamestiched_suitings_hand-1612f25b4009.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/aa2f1dee74d5/models/items/batrider/flamestiched_suitings_hand/flamestiched_suitings_hand_color_tga_c3920f36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flamestiched_suitings_hand/flamestiched_suitings_hand.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flamestiched_suitings_hand/flamestiched_suitings_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:17925:flaming-boogeyman-belt",
+      "itemId": 17925,
+      "name": "Night Terrors Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/6ddbe202abdc/models/items/batrider/flaming_boogeyman_belt/flaming_boogeyman_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/6ddbe202abdc/models/items/batrider/flaming_boogeyman_belt/flaming_boogeyman_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flaming_boogeyman_belt/flaming_boogeyman_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flaming_boogeyman_belt-33ac8f0adcb4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/6ddbe202abdc/models/items/batrider/flaming_boogeyman_belt/flaming_boogeyman_belt_color_tga_3b88695a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flaming_boogeyman_belt/flaming_boogeyman_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flaming_boogeyman_belt/flaming_boogeyman_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/batrider_fall20/batrider_fall20_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:13333:ti9-cache-batrider-exploerer-magic-jungle-belt",
+      "itemId": 13333,
+      "name": "Prized Acquisitions Compass",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c9f297e8a94f/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_belt/ti9_cache_batrider_exploerer_magic_jungle_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/c9f297e8a94f/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_belt/ti9_cache_batrider_exploerer_magic_jungle_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_belt/ti9_cache_batrider_exploerer_magic_jungle_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_batrider_exploerer_magic_jungle_belt-788d62326f1f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c9f297e8a94f/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_belt/ti9_cache_batrider_exploerer_magic_jungle_belt_color_tga_4e6f3816.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_belt/ti9_cache_batrider_exploerer_magic_jungle_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_belt/ti9_cache_batrider_exploerer_magic_jungle_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:4815:belt-ruff",
+      "itemId": 4815,
+      "name": "Rough Riders Tools",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bc66f43cd0a2/models/items/batrider/belt_ruff/belt_ruff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/bc66f43cd0a2/models/items/batrider/belt_ruff/belt_ruff.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/belt_ruff/belt_ruff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/belt_ruff-e5efe61ef002.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bc66f43cd0a2/models/items/batrider/belt_ruff/belt_ruff_color_tga_d1942fe7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/belt_ruff/belt_ruff.vmdl",
+        "modelPaths": [
+          "models/items/batrider/belt_ruff/belt_ruff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8323:primal-firewing-belt",
+      "itemId": 8323,
+      "name": "Tools of the Primal Firewing",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/6a4094ca1cde/models/items/batrider/primal_firewing_belt/primal_firewing_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/6a4094ca1cde/models/items/batrider/primal_firewing_belt/primal_firewing_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/primal_firewing_belt/primal_firewing_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mlg_primal_firewing_belt-c32ce9d1c01f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/6a4094ca1cde/models/items/batrider/primal_firewing_belt/primal_firewing_belt_color_tga_721b54aa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/primal_firewing_belt/primal_firewing_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/primal_firewing_belt/primal_firewing_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7540:pernicious-firebrand-belt",
+      "itemId": 7540,
+      "name": "Tools of the Rowdy Firebrand",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/2ba86e17e221/models/items/batrider/pernicious_firebrand_belt/pernicious_firebrand_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/2ba86e17e221/models/items/batrider/pernicious_firebrand_belt/pernicious_firebrand_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/pernicious_firebrand_belt/pernicious_firebrand_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pernicious_firebrand_belt-7c993da4e0ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/2ba86e17e221/models/items/batrider/pernicious_firebrand_belt/pernicious_firebrand_belt_color_tga_8a476d8f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/pernicious_firebrand_belt/pernicious_firebrand_belt.vmdl",
+        "modelPaths": [
+          "models/items/batrider/pernicious_firebrand_belt/pernicious_firebrand_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:375:batrider-head",
+      "itemId": 375,
+      "name": "Batriders Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/65e4d249c070/models/heroes/batrider/batrider_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/65e4d249c070/models/heroes/batrider/batrider_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batrider_head-03e1c57913e8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/65e4d249c070/models/heroes/batrider/batrider_head_color_1_color_psd_f8839403.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/batrider/batrider_head.vmdl",
+        "modelPaths": [
+          "models/heroes/batrider/batrider_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:4810:batmichaels",
+      "itemId": 4810,
+      "name": "Big Bad Bandana",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/d7c527ded875/models/items/batrider/batmichaels/batmichaels.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/d7c527ded875/models/items/batrider/batmichaels/batmichaels.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/batmichaels/batmichaels.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batmichaels-ee419e3eac7a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/d7c527ded875/models/items/batrider/batmichaels/batmichaels_color_tga_350eaa4a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/batmichaels/batmichaels.vmdl",
+        "modelPaths": [
+          "models/items/batrider/batmichaels/batmichaels.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8337:fiery-heart-head",
+      "itemId": 8337,
+      "name": "Cap of the Jack Bomber",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a09c70ce2a8a/models/items/batrider/fiery_heart_head/fiery_heart_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/a09c70ce2a8a/models/items/batrider/fiery_heart_head/fiery_heart_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/fiery_heart_head/fiery_heart_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fiery_heart_head-c1aabbd764e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a09c70ce2a8a/models/items/batrider/fiery_heart_head/fiery_heart_head_color_tga_224a1240.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/fiery_heart_head/fiery_heart_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/fiery_heart_head/fiery_heart_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:19467:sacred-fire-head",
+      "itemId": 19467,
+      "name": "Charms of the Firefiend  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/4bb664711bd4/models/items/batrider/sacred_fire_head/sacred_fire_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/4bb664711bd4/models/items/batrider/sacred_fire_head/sacred_fire_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/sacred_fire_head/sacred_fire_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_fire_head-1edeaafdeb49.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/4bb664711bd4/models/items/batrider/sacred_fire_head/sacred_fire_head_color_tga_b57c8a30.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/sacred_fire_head/sacred_fire_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/sacred_fire_head/sacred_fire_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7014:firestarter-mask",
+      "itemId": 7014,
+      "name": "Firestarter Gas Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8a56b8d6c076/models/items/batrider/firestarter_mask/firestarter_mask.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/8a56b8d6c076/models/items/batrider/firestarter_mask/firestarter_mask.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/firestarter_mask/firestarter_mask.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firestarter_mask-b6d4b6a1ad29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8a56b8d6c076/models/items/batrider/firestarter_mask/firestarter_mask_color_tga_cf3f1547.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/firestarter_mask/firestarter_mask.vmdl",
+        "modelPaths": [
+          "models/items/batrider/firestarter_mask/firestarter_mask.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:5143:flamestiched-suitings-bandana",
+      "itemId": 5143,
+      "name": "Flamestitched Suitings Bandana",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/eee154c90809/models/items/batrider/flamestiched_suitings_bandana/flamestiched_suitings_bandana.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/eee154c90809/models/items/batrider/flamestiched_suitings_bandana/flamestiched_suitings_bandana.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flamestiched_suitings_bandana/flamestiched_suitings_bandana.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flamestiched_suitings_bandana-35d8e43d232a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/eee154c90809/models/items/batrider/flamestiched_suitings_bandana/flamestiched_suitings_bandana_color_tga_1c33cc22.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flamestiched_suitings_bandana/flamestiched_suitings_bandana.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flamestiched_suitings_bandana/flamestiched_suitings_bandana.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:12452:the-plague-burner-head",
+      "itemId": 12452,
+      "name": "Hat of Empiric Incendiary",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/d23553598531/models/items/batrider/the_plague_burner_head/the_plague_burner_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/d23553598531/models/items/batrider/the_plague_burner_head/the_plague_burner_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/the_plague_burner_head/the_plague_burner_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plague_burner_head-3ef2e09f0a1e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/d23553598531/models/items/batrider/the_plague_burner_head/the_plague_burner_head_color_tga_18dacb59.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/the_plague_burner_head/the_plague_burner_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/the_plague_burner_head/the_plague_burner_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9406:owl-rider-head",
+      "itemId": 9406,
+      "name": "Head of the Apex Explorer",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/22d1a3969539/models/items/batrider/owl_rider_head/owl_rider_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/22d1a3969539/models/items/batrider/owl_rider_head/owl_rider_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/owl_rider_head/owl_rider_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/owl_rider_head-50fb49222979.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/22d1a3969539/models/items/batrider/owl_rider_head/owl_rider_head_color_tga_72b55b99.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/owl_rider_head/owl_rider_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/owl_rider_head/owl_rider_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7549:pernicious-firebrand-head",
+      "itemId": 7549,
+      "name": "Hood of the Rowdy Firebrand",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c95ae9090dcb/models/items/batrider/pernicious_firebrand_head/pernicious_firebrand_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/c95ae9090dcb/models/items/batrider/pernicious_firebrand_head/pernicious_firebrand_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/pernicious_firebrand_head/pernicious_firebrand_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pernicious_firebrand_head-def9f0ea6618.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c95ae9090dcb/models/items/batrider/pernicious_firebrand_head/pernicious_firebrand_head_color_tga_ea3d7634.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/pernicious_firebrand_head/pernicious_firebrand_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/pernicious_firebrand_head/pernicious_firebrand_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9237:manta-rayder-ti7-head",
+      "itemId": 9237,
+      "name": "Mask of the Manta Marauder",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ed5425934748/models/items/batrider/manta_rayder_ti7_head/manta_rayder_ti7_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/ed5425934748/models/items/batrider/manta_rayder_ti7_head/manta_rayder_ti7_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/manta_rayder_ti7_head/manta_rayder_ti7_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/manta_rayder_ti7_head-c916cf3a24c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ed5425934748/models/items/batrider/manta_rayder_ti7_head/manta_rayder_ti7_head_color_png_13c204c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/manta_rayder_ti7_head/manta_rayder_ti7_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/manta_rayder_ti7_head/manta_rayder_ti7_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9376:marauding-pyro-head",
+      "itemId": 9376,
+      "name": "Mask of the Marauding Pyro",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a9b77739f0e2/models/items/batrider/marauding_pyro_head/marauding_pyro_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/a9b77739f0e2/models/items/batrider/marauding_pyro_head/marauding_pyro_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/marauding_pyro_head/marauding_pyro_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/marauding_pyro_head-684f89a1d435.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a9b77739f0e2/models/items/batrider/marauding_pyro_head/marauding_pyro_head_color_tga_915036a8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/marauding_pyro_head/marauding_pyro_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/marauding_pyro_head/marauding_pyro_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8322:primal-firewing-head",
+      "itemId": 8322,
+      "name": "Mask of the Primal Firewing",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/98411bed4fa4/models/items/batrider/primal_firewing_head/primal_firewing_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/98411bed4fa4/models/items/batrider/primal_firewing_head/primal_firewing_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/primal_firewing_head/primal_firewing_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mlg_primal_firewing_head-8bc5528f3786.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/98411bed4fa4/models/items/batrider/primal_firewing_head/primal_firewing_head_color_tga_e3312267.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/primal_firewing_head/primal_firewing_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/primal_firewing_head/primal_firewing_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:17924:flaming-boogeyman-head",
+      "itemId": 17924,
+      "name": "Night Terrors Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/5c56c00f3fd1/models/items/batrider/flaming_boogeyman_head/flaming_boogeyman_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/5c56c00f3fd1/models/items/batrider/flaming_boogeyman_head/flaming_boogeyman_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flaming_boogeyman_head/flaming_boogeyman_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flaming_boogeyman_head-9e98b2195c44.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/5c56c00f3fd1/models/items/batrider/flaming_boogeyman_head/flaming_boogeyman_head_color_tga_683cca64.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flaming_boogeyman_head/flaming_boogeyman_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flaming_boogeyman_head/flaming_boogeyman_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/batrider_fall20/batrider_fall20_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:13334:ti9-cache-batrider-exploerer-magic-jungle-head",
+      "itemId": 13334,
+      "name": "Prized Acquisitions Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/4ab733a9c883/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_head/ti9_cache_batrider_exploerer_magic_jungle_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/4ab733a9c883/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_head/ti9_cache_batrider_exploerer_magic_jungle_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_head/ti9_cache_batrider_exploerer_magic_jungle_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_batrider_exploerer_magic_jungle_head-adfd1d996f7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/4ab733a9c883/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_head/ti9_cache_batrider_exploerer_magic_jungle_head_color_tga_148cc917.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_head/ti9_cache_batrider_exploerer_magic_jungle_head.vmdl",
+        "modelPaths": [
+          "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_head/ti9_cache_batrider_exploerer_magic_jungle_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/ti9_batrider_explorer_head/ti9_batrider_explorer_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:4817:head-ruff",
+      "itemId": 4817,
+      "name": "Rough Riders Muggin Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ed4bbe6e54f1/models/items/batrider/head_ruff/head_ruff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/ed4bbe6e54f1/models/items/batrider/head_ruff/head_ruff.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/head_ruff/head_ruff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_ruff-e637f8541ce2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ed4bbe6e54f1/models/items/batrider/head_ruff/head_ruff_color_tga_b40d8bf0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/head_ruff/head_ruff.vmdl",
+        "modelPaths": [
+          "models/items/batrider/head_ruff/head_ruff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:378:batrider-mount",
+      "itemId": 378,
+      "name": "Batriders Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/0f9b306bacff/models/heroes/batrider/batrider_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/0f9b306bacff/models/heroes/batrider/batrider_mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batrider_mount-d7540ad2247e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/0f9b306bacff/models/heroes/batrider/batrider_mount_color_psd_3003005a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/batrider/batrider_mount.vmdl",
+        "modelPaths": [
+          "models/heroes/batrider/batrider_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:4818:mount-ruff",
+      "itemId": 4818,
+      "name": "Bertha the Mordebat",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/81c273f31309/models/items/batrider/mount_ruff/mount_ruff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/81c273f31309/models/items/batrider/mount_ruff/mount_ruff.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/mount_ruff/mount_ruff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mount_ruff-86db96840faf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/81c273f31309/models/items/batrider/mount_ruff/mount_ruff_color_tga_c112c0f7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/mount_ruff/mount_ruff.vmdl",
+        "modelPaths": [
+          "models/items/batrider/mount_ruff/mount_ruff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:4593:batmeleon-mount",
+      "itemId": 4593,
+      "name": "Bessy the Batmeleon",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ab585b8ded78/models/items/batrider/batmeleon_mount/batmeleon_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/ab585b8ded78/models/items/batrider/batmeleon_mount/batmeleon_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/batmeleon_mount/batmeleon_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batmeleon_mount-74ae3a6b35f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ab585b8ded78/models/items/batrider/batmeleon_mount/batmeleon_mount_color_tga_f80cf451.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/batmeleon_mount/batmeleon_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/batmeleon_mount/batmeleon_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:6932:burning-iron-mount",
+      "itemId": 6932,
+      "name": "Burning Iron",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c1ec63a32c53/models/items/batrider/burning_iron_mount/burning_iron_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/c1ec63a32c53/models/items/batrider/burning_iron_mount/burning_iron_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/burning_iron_mount/burning_iron_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_iron_mount-5ad829c011ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c1ec63a32c53/models/items/batrider/burning_iron_mount/burning_iron_mount_color_tga_60f2c1fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/burning_iron_mount/burning_iron_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/burning_iron_mount/burning_iron_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/burning_iron_mount_ambient/burning_iron_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:19466:sacred-fire-mount",
+      "itemId": 19466,
+      "name": "Charms of the Firefiend  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/17263daf1d0e/models/items/batrider/sacred_fire_mount/sacred_fire_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/17263daf1d0e/models/items/batrider/sacred_fire_mount/sacred_fire_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/sacred_fire_mount/sacred_fire_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_fire_mount-639b177175fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/17263daf1d0e/models/items/batrider/sacred_fire_mount/sacred_fire_mount_color_tga_edfb7c64.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/sacred_fire_mount/sacred_fire_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/sacred_fire_mount/sacred_fire_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/batrider_2022_themed/batrider_2022_themed_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:12453:the-plague-burner-mount",
+      "itemId": 12453,
+      "name": "Crow of Empiric Incendiary",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ccaf1ef32218/models/items/batrider/the_plague_burner_mount/the_plague_burner_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/ccaf1ef32218/models/items/batrider/the_plague_burner_mount/the_plague_burner_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/the_plague_burner_mount/the_plague_burner_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plague_burner_mount-181cafeccb10.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ccaf1ef32218/models/items/batrider/the_plague_burner_mount/the_plague_burner_mount_color_tga_81337bf9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/the_plague_burner_mount/the_plague_burner_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/the_plague_burner_mount/the_plague_burner_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:5172:bat-shirt-armor",
+      "itemId": 5172,
+      "name": "Dreaded Forgewing",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a7658df09449/models/items/batrider/shirt_armor/bat_shirt_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/a7658df09449/models/items/batrider/shirt_armor/bat_shirt_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/shirt_armor/bat_shirt_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bat_shirt_armor-4ff5d7b040ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a7658df09449/models/items/batrider/shirt_armor/shirt_armor_color_psd_a0bab24e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/shirt_armor/bat_shirt_armor.vmdl",
+        "modelPaths": [
+          "models/items/batrider/shirt_armor/bat_shirt_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:4557:anuxi-feral-mount1",
+      "itemId": 4557,
+      "name": "Feral the Werebat",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/236af478c990/models/items/batrider/anuxi_feral_mount1/anuxi_feral_mount1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/236af478c990/models/items/batrider/anuxi_feral_mount1/anuxi_feral_mount1.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/anuxi_feral_mount1/anuxi_feral_mount1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anuxi_feral_mount1-447a5b0b4056.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/236af478c990/models/items/batrider/anuxi_feral_mount1/anuxi_feral_mount1_color_tga_27f32025.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/anuxi_feral_mount1/anuxi_feral_mount1.vmdl",
+        "modelPaths": [
+          "models/items/batrider/anuxi_feral_mount1/anuxi_feral_mount1.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9816:primal-firewing-mount",
+      "itemId": 9816,
+      "name": "Fiery Tyl",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8144a2116c4a/models/items/batrider/primal_firewing_mount/primal_firewing_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/8144a2116c4a/models/items/batrider/primal_firewing_mount/primal_firewing_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/primal_firewing_mount/primal_firewing_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mlg_primal_firewing_mount-00ea7b33382a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8144a2116c4a/models/items/batrider/primal_firewing_mount/primal_firewing_mount_color_tga_263625e1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/primal_firewing_mount/primal_firewing_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/primal_firewing_mount/primal_firewing_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7013:firestarter-bat",
+      "itemId": 7013,
+      "name": "Flame Bat",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c27d9fcad77c/models/items/batrider/firestarter_bat/firestarter_bat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/c27d9fcad77c/models/items/batrider/firestarter_bat/firestarter_bat.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/firestarter_bat/firestarter_bat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firestarter_bat-8b2ed6048d30.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c27d9fcad77c/models/items/batrider/firestarter_bat/firestarter_bat_color_tga_a2fb13b9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/firestarter_bat/firestarter_bat.vmdl",
+        "modelPaths": [
+          "models/items/batrider/firestarter_bat/firestarter_bat.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7536:pernicious-firebrand-mount",
+      "itemId": 7536,
+      "name": "Freya",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a25f37360f16/models/items/batrider/pernicious_firebrand_mount/pernicious_firebrand_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/a25f37360f16/models/items/batrider/pernicious_firebrand_mount/pernicious_firebrand_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/pernicious_firebrand_mount/pernicious_firebrand_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pernicious_firebrand_mount-27b23ce4cbac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/a25f37360f16/models/items/batrider/pernicious_firebrand_mount/pernicious_firebrand_mount_color_tga_ee16f21d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/pernicious_firebrand_mount/pernicious_firebrand_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/pernicious_firebrand_mount/pernicious_firebrand_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:12290:batrider-ti8-immortal-mount",
+      "itemId": 12290,
+      "name": "Ghastly Nocturne",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ba0a1564ef3d/models/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/ba0a1564ef3d/models/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batrider_ti8_immortal_mount-683097ef8654.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ba0a1564ef3d/models/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_mount_color_psd_686145af.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_firefly.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_firefly_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_firefly_mount.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/batrider_firefly.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/batrider_firefly_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/batrider_firefly_ember.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7494:dotapit-s3-firefly",
+      "itemId": 7494,
+      "name": "Glowbat",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/3be3a4cd619e/models/items/batrider/dotapit_s3_firefly/dotapit_s3_firefly.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/3be3a4cd619e/models/items/batrider/dotapit_s3_firefly/dotapit_s3_firefly.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/dotapit_s3_firefly/dotapit_s3_firefly.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_firefly-1af08614178a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/3be3a4cd619e/models/items/batrider/dotapit_s3_firefly/dotapit_s3_firefly_color_tga_c6a9c74d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/dotapit_s3_firefly/dotapit_s3_firefly.vmdl",
+        "modelPaths": [
+          "models/items/batrider/dotapit_s3_firefly/dotapit_s3_firefly.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/hero_batrider_dpits3/batrider_dpits3_antennae.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/batrider/hero_batrider_dpits3/batrider_dpits3_eyes_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/batrider/hero_batrider_dpits3/batrider_dpits3_eyes_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/batrider/hero_batrider_dpits3/batrider_dpits3_tail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9238:manta-rayder-ti7-mount",
+      "itemId": 9238,
+      "name": "Manta Marauders Manta Ray",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/d6c61e86f85f/models/items/batrider/manta_rayder_ti7_mount/manta_rayder_ti7_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/d6c61e86f85f/models/items/batrider/manta_rayder_ti7_mount/manta_rayder_ti7_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/manta_rayder_ti7_mount/manta_rayder_ti7_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/manta_rayder_ti7_mount-2f81b2e137ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/d6c61e86f85f/models/items/batrider/manta_rayder_ti7_mount/manta_rayder_ti7_mount_color_psd_92e26259.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/manta_rayder_ti7_mount/manta_rayder_ti7_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/manta_rayder_ti7_mount/manta_rayder_ti7_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/manta_rayder_ti7_mount/manta_rayder_ti7_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:17922:flaming-boogeyman-mount",
+      "itemId": 17922,
+      "name": "Night Terrors Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ef0c0b390edc/models/items/batrider/flaming_boogeyman_mount/flaming_boogeyman_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/ef0c0b390edc/models/items/batrider/flaming_boogeyman_mount/flaming_boogeyman_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flaming_boogeyman_mount/flaming_boogeyman_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flaming_boogeyman_mount-f872bdd592ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/ef0c0b390edc/models/items/batrider/flaming_boogeyman_mount/flaming_boogeyman_mount_color_tga_982a0fa0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flaming_boogeyman_mount/flaming_boogeyman_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flaming_boogeyman_mount/flaming_boogeyman_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/batrider_fall20/batrider_fall20_mount.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:13331:ti9-cache-batrider-exploerer-magic-jungle-mount",
+      "itemId": 13331,
+      "name": "Prized Acquisitions Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/fd5dd56ba7a9/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_mount/ti9_cache_batrider_exploerer_magic_jungle_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/fd5dd56ba7a9/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_mount/ti9_cache_batrider_exploerer_magic_jungle_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_mount/ti9_cache_batrider_exploerer_magic_jungle_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_batrider_exploerer_magic_jungle_mount-82767f330889.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/fd5dd56ba7a9/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_mount/deep_sea_robot_shoulder_light_color_psd_734e9267.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_mount/ti9_cache_batrider_exploerer_magic_jungle_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_mount/ti9_cache_batrider_exploerer_magic_jungle_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/ti9_batrider_explorer_mount/ti9_batrider_explorer_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:6606:burning-iron-mount",
+      "itemId": 6606,
+      "name": "Promo Burning Iron",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/3d93d9874049/models/items/batrider/burning_iron_mount/burning_iron_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/3d93d9874049/models/items/batrider/burning_iron_mount/burning_iron_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/burning_iron_mount/burning_iron_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_iron_mount-5ad829c011ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/3d93d9874049/models/items/batrider/burning_iron_mount/burning_iron_mount_color_tga_60f2c1fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/burning_iron_mount/burning_iron_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/burning_iron_mount/burning_iron_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/burning_iron_mount_ambient/burning_iron_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8338:fiery-heart-mount",
+      "itemId": 8338,
+      "name": "Queen of the Jack Bomber",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/76358b56452d/models/items/batrider/fiery_heart_mount/fiery_heart_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/76358b56452d/models/items/batrider/fiery_heart_mount/fiery_heart_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/fiery_heart_mount/fiery_heart_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fiery_heart_mount-5b0b3c03981e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/76358b56452d/models/items/batrider/fiery_heart_mount/fiery_heart_mount_color_tga_363596de.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/fiery_heart_mount/fiery_heart_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/fiery_heart_mount/fiery_heart_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/burning_jack_bomber/burning_jack_bomber_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Queen of the Jack Bomber Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/batrider/fiery_heart_mount/fiery_heart_mount",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Queen of the Jack Bomber Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/batrider/fiery_heart_mount/fiery_heart_mount_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/batrider/burning_jack_bomber/burning_jack_bomber_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8338:fiery-heart-mount:style-1",
+      "itemId": 8338,
+      "name": "Queen of the Jack Bomber - Queen of the Jack Bomber Particle",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/76358b56452d/models/items/batrider/fiery_heart_mount/fiery_heart_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/76358b56452d/models/items/batrider/fiery_heart_mount/fiery_heart_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/fiery_heart_mount/fiery_heart_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fiery_heart_mount_particle-1469a25105e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/76358b56452d/models/items/batrider/fiery_heart_mount/fiery_heart_mount_color_tga_363596de.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/fiery_heart_mount/fiery_heart_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/fiery_heart_mount/fiery_heart_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/burning_jack_bomber/burning_jack_bomber_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Queen of the Jack Bomber Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/batrider/fiery_heart_mount/fiery_heart_mount",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Queen of the Jack Bomber Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/batrider/fiery_heart_mount/fiery_heart_mount_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/batrider/burning_jack_bomber/burning_jack_bomber_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:5142:flamestiched-suitings-bat",
+      "itemId": 5142,
+      "name": "Rachel the Mordebat",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c1fdc06b2680/models/items/batrider/flamestiched_suitings_bat/flamestiched_suitings_bat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/c1fdc06b2680/models/items/batrider/flamestiched_suitings_bat/flamestiched_suitings_bat.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flamestiched_suitings_bat/flamestiched_suitings_bat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flamestiched_suitings_bat-297fcb2d87fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/c1fdc06b2680/models/items/batrider/flamestiched_suitings_bat/flamestiched_suitings_bat_color_tga_94a3e714.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flamestiched_suitings_bat/flamestiched_suitings_bat.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flamestiched_suitings_bat/flamestiched_suitings_bat.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:32622:batrider-crownfall-avilliva-mount",
+      "itemId": 32622,
+      "name": "Snotty",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bf268f1beb36/models/items/batrider/batrider_crownfall_avilliva_mount/batrider_crownfall_avilliva_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/bf268f1beb36/models/items/batrider/batrider_crownfall_avilliva_mount/batrider_crownfall_avilliva_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/batrider_crownfall_avilliva_mount/batrider_crownfall_avilliva_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batrider_crownfall_avilliva_mount-f50d4eb2423d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bf268f1beb36/models/items/batrider/batrider_crownfall_avilliva_mount/batrider_crownfall_bottlefluid_color_psd_704ba86c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/batrider_crownfall_avilliva_mount/batrider_crownfall_avilliva_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/batrider_crownfall_avilliva_mount/batrider_crownfall_avilliva_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/crownfall_immortal/batrider_crownfall_immortal_sticky_napalm.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/batrider/crownfall_immortal/batrider_crownfall_immortal_stickynapalm_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/batrider_stickynapalm_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/batrider_stickynapalm_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9387:marauding-pyro-mount",
+      "itemId": 9387,
+      "name": "Torch",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/5acfced95723/models/items/batrider/marauding_pyro_mount/marauding_pyro_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/5acfced95723/models/items/batrider/marauding_pyro_mount/marauding_pyro_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/marauding_pyro_mount/marauding_pyro_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/marauding_pyro_mount-946665a9827c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/5acfced95723/models/items/batrider/marauding_pyro_mount/marauding_pyro_mount_color_tga_208260eb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/marauding_pyro_mount/marauding_pyro_mount.vmdl",
+        "modelPaths": [
+          "models/items/batrider/marauding_pyro_mount/marauding_pyro_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9407:owl-rider-mount-v1",
+      "itemId": 9407,
+      "name": "Verna",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/88afc66d098e/models/items/batrider/owl_rider_mount_v1/owl_rider_mount_v1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/88afc66d098e/models/items/batrider/owl_rider_mount_v1/owl_rider_mount_v1.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/owl_rider_mount_v1/owl_rider_mount_v1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/owl_rider_mount_v1-f22c715a06e7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/88afc66d098e/models/items/batrider/owl_rider_mount_v1/owl_rider_mount_v1_color_tga_13706a39.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/owl_rider_mount_v1/owl_rider_mount_v1.vmdl",
+        "modelPaths": [
+          "models/items/batrider/owl_rider_mount_v1/owl_rider_mount_v1.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:5575:vingspan",
+      "itemId": 5575,
+      "name": "Vingspan",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/467acdc6bb20/models/items/batrider/vingspan/vingspan.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/467acdc6bb20/models/items/batrider/vingspan/vingspan.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/vingspan/vingspan.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vingspan-313b18969eeb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/467acdc6bb20/models/items/batrider/vingspan/vingspan_color_tga_100d1b6c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/vingspan/vingspan.vmdl",
+        "modelPaths": [
+          "models/items/batrider/vingspan/vingspan.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:376:batrider-cloak",
+      "itemId": 376,
+      "name": "Batriders Cloak",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8714999113a2/models/heroes/batrider/batrider_cloak.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/8714999113a2/models/heroes/batrider/batrider_cloak.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/batrider/batrider_cloak.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/batrider_cloak-ec4ff3c3f5be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8714999113a2/models/heroes/batrider/batrider_cloak_color_psd_c9088674.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/batrider/batrider_cloak.vmdl",
+        "modelPaths": [
+          "models/heroes/batrider/batrider_cloak.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:12454:the-plague-burner-shoulder",
+      "itemId": 12454,
+      "name": "Cape of Empiric Incendiary",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/db9110b92a9e/models/items/batrider/the_plague_burner_shoulder/the_plague_burner_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/db9110b92a9e/models/items/batrider/the_plague_burner_shoulder/the_plague_burner_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/the_plague_burner_shoulder/the_plague_burner_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plague_burner_shoulder-a105562d40d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/db9110b92a9e/models/items/batrider/the_plague_burner_shoulder/the_plague_burner_shoulder_color_tga_b44bab22.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/the_plague_burner_shoulder/the_plague_burner_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/the_plague_burner_shoulder/the_plague_burner_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7539:pernicious-firebrand-shoulder",
+      "itemId": 7539,
+      "name": "Cape of the Rowdy Firebrand",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/03ec16ce8b55/models/items/batrider/pernicious_firebrand_shoulder/pernicious_firebrand_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/03ec16ce8b55/models/items/batrider/pernicious_firebrand_shoulder/pernicious_firebrand_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/pernicious_firebrand_shoulder/pernicious_firebrand_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pernicious_firebrand_shoulder-8d8c5f1bf803.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/03ec16ce8b55/models/items/batrider/pernicious_firebrand_shoulder/pernicious_firebrand_shoulder_color_tga_aad64101.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/pernicious_firebrand_shoulder/pernicious_firebrand_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/pernicious_firebrand_shoulder/pernicious_firebrand_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:19465:sacred-fire-shoulder",
+      "itemId": 19465,
+      "name": "Charms of the Firefiend  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bab0513bd1c1/models/items/batrider/sacred_fire_shoulder/sacred_fire_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/bab0513bd1c1/models/items/batrider/sacred_fire_shoulder/sacred_fire_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/sacred_fire_shoulder/sacred_fire_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_fire_shoulder-921220ffd473.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/bab0513bd1c1/models/items/batrider/sacred_fire_shoulder/sacred_fire_shoulder_color_tga_d00bb243.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/sacred_fire_shoulder/sacred_fire_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/sacred_fire_shoulder/sacred_fire_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8340:fiery-heart-shoulder",
+      "itemId": 8340,
+      "name": "Cloak of the Jack Bomber",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/22d15a7ac9b6/models/items/batrider/fiery_heart_shoulder/fiery_heart_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/22d15a7ac9b6/models/items/batrider/fiery_heart_shoulder/fiery_heart_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/fiery_heart_shoulder/fiery_heart_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fiery_heart_shoulder-51240af6cb40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/22d15a7ac9b6/models/items/batrider/fiery_heart_shoulder/fiery_heart_shoulder_color_tga_466899fd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/fiery_heart_shoulder/fiery_heart_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/fiery_heart_shoulder/fiery_heart_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:7015:firestarter-cannister",
+      "itemId": 7015,
+      "name": "Firestarter Fuel Cannister",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/e7b741488a70/models/items/batrider/firestarter_cannister/firestarter_cannister.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/e7b741488a70/models/items/batrider/firestarter_cannister/firestarter_cannister.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/firestarter_cannister/firestarter_cannister.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firestarter_cannister-b5dc0846e9a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/e7b741488a70/models/items/batrider/firestarter_cannister/firestarter_cannister_color_tga_17c39ee9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/firestarter_cannister/firestarter_cannister.vmdl",
+        "modelPaths": [
+          "models/items/batrider/firestarter_cannister/firestarter_cannister.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/batrider/firestarter_cannister_ambient/firestarter_cannister_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:5145:flamestiched-suitings-cape",
+      "itemId": 5145,
+      "name": "Flamestitched Suitings Cape",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/4f7b0fa94a31/models/items/batrider/flamestiched_suitings_cape/flamestiched_suitings_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/4f7b0fa94a31/models/items/batrider/flamestiched_suitings_cape/flamestiched_suitings_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flamestiched_suitings_cape/flamestiched_suitings_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flamestiched_suitings_cape-757dea246ae9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/4f7b0fa94a31/models/items/batrider/flamestiched_suitings_cape/flamestiched_suitings_cape_color_tga_2ea51cbc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flamestiched_suitings_cape/flamestiched_suitings_cape.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flamestiched_suitings_cape/flamestiched_suitings_cape.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9388:marauding-pyro-shoulder",
+      "itemId": 9388,
+      "name": "Glider of the Marauding Pyro",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/b87428b4d2a0/models/items/batrider/marauding_pyro_shoulder/marauding_pyro_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/b87428b4d2a0/models/items/batrider/marauding_pyro_shoulder/marauding_pyro_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/marauding_pyro_shoulder/marauding_pyro_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/marauding_pyro_shoulder-27cb82277dbd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/b87428b4d2a0/models/items/batrider/marauding_pyro_shoulder/marauding_pyro_shoulder_color_tga_2b5052dd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/marauding_pyro_shoulder/marauding_pyro_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/marauding_pyro_shoulder/marauding_pyro_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:17921:flaming-boogeyman-shoulder",
+      "itemId": 17921,
+      "name": "Night Terrors Cape",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8a95d0292bea/models/items/batrider/flaming_boogeyman_shoulder/flaming_boogeyman_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/8a95d0292bea/models/items/batrider/flaming_boogeyman_shoulder/flaming_boogeyman_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/flaming_boogeyman_shoulder/flaming_boogeyman_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flaming_boogeyman_shoulder-189f78520915.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/8a95d0292bea/models/items/batrider/flaming_boogeyman_shoulder/flaming_boogeyman_shoulder_color_tga_16613f9e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/flaming_boogeyman_shoulder/flaming_boogeyman_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/flaming_boogeyman_shoulder/flaming_boogeyman_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:13332:ti9-cache-batrider-exploerer-magic-jungle-shoulder",
+      "itemId": 13332,
+      "name": "Prized Acquisitions Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/29dd87749696/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_shoulder/ti9_cache_batrider_exploerer_magic_jungle_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/29dd87749696/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_shoulder/ti9_cache_batrider_exploerer_magic_jungle_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_shoulder/ti9_cache_batrider_exploerer_magic_jungle_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_batrider_exploerer_magic_jungle_shoulder-398de6813fed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/29dd87749696/models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_shoulder/ti9_cache_batrider_exploerer_magic_jungle_shoulder_color_tga_e86a9bc0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_shoulder/ti9_cache_batrider_exploerer_magic_jungle_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/ti9_cache_batrider_exploerer_magic_jungle_shoulder/ti9_cache_batrider_exploerer_magic_jungle_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:4816:shoulder-ruffian",
+      "itemId": 4816,
+      "name": "Rough Riders Slipshod Slicker",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/aa240118d0f0/models/items/batrider/shoulder_ruffian/shoulder_ruffian.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/aa240118d0f0/models/items/batrider/shoulder_ruffian/shoulder_ruffian.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/shoulder_ruffian/shoulder_ruffian.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_ruffian-851b6944ca7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/aa240118d0f0/models/items/batrider/shoulder_ruffian/shoulder_ruffian_color_tga_6ed34413.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/shoulder_ruffian/shoulder_ruffian.vmdl",
+        "modelPaths": [
+          "models/items/batrider/shoulder_ruffian/shoulder_ruffian.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9410:owl-rider-shoulder-v1",
+      "itemId": 9410,
+      "name": "Shoulder of the Apex Explorer",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/0875718542d1/models/items/batrider/owl_rider_shoulder_v1/owl_rider_shoulder_v1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/0875718542d1/models/items/batrider/owl_rider_shoulder_v1/owl_rider_shoulder_v1.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/owl_rider_shoulder_v1/owl_rider_shoulder_v1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/owl_rider_shoulder_v1-75d222b42119.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/0875718542d1/models/items/batrider/owl_rider_shoulder_v1/owl_rider_shoulder_v1_color_tga_58ded593.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/owl_rider_shoulder_v1/owl_rider_shoulder_v1.vmdl",
+        "modelPaths": [
+          "models/items/batrider/owl_rider_shoulder_v1/owl_rider_shoulder_v1.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:8321:primal-firewing-shoulder",
+      "itemId": 8321,
+      "name": "Spike of the Primal Firewing",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/f4878ca27a8e/models/items/batrider/primal_firewing_shoulder/primal_firewing_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/f4878ca27a8e/models/items/batrider/primal_firewing_shoulder/primal_firewing_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/primal_firewing_shoulder/primal_firewing_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mlg_primal_firewing_shoulder-7da5f92b3b30.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/f4878ca27a8e/models/items/batrider/primal_firewing_shoulder/primal_firewing_shoulder_color_tga_b2f9f58e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/primal_firewing_shoulder/primal_firewing_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/primal_firewing_shoulder/primal_firewing_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_batrider:item-model:9239:manta-rayder-ti7-shoulder",
+      "itemId": 9239,
+      "name": "Tank of the Manta Marauder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/76909e91d1e1/models/items/batrider/manta_rayder_ti7_shoulder/manta_rayder_ti7_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_batrider/76909e91d1e1/models/items/batrider/manta_rayder_ti7_shoulder/manta_rayder_ti7_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/batrider/manta_rayder_ti7_shoulder/manta_rayder_ti7_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/manta_rayder_ti7_shoulder-dfb542d255f9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_batrider/76909e91d1e1/models/items/batrider/manta_rayder_ti7_shoulder/manta_rayder_ti7_shoulder_color_png_61394993.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/batrider/manta_rayder_ti7_shoulder/manta_rayder_ti7_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/batrider/manta_rayder_ti7_shoulder/manta_rayder_ti7_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_batrider/portrait_batrider.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_batrider:core-set:21156:apex-explorer",
+      "name": "Apex Explorer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        9405,
+        9406,
+        9407,
+        9410
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/owl_rider_loading_screen_v1-5622300118bf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20921:burning-jack-bomber",
+      "name": "Burning Jack Bomber",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        8337,
+        8338,
+        8339,
+        8340
+      ],
+      "styleSelections": {
+        "8338": "0"
+      },
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/fiery_heart_loading_screen-43abf490d19f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20921:burning-jack-bomber:style-1",
+      "name": "Burning Jack Bomber - Queen of the Jack Bomber Particle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        8337,
+        8338,
+        8339,
+        8340
+      ],
+      "styleSelections": {
+        "8338": "1"
+      },
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/fiery_heart_mount_particle-1469a25105e3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:21895:charms-of-the-firefiend",
+      "name": "Charms of the Firefiend",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        19465,
+        19466,
+        19467,
+        19468
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/sacred_fire_shoulder-921220ffd473.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:21239:empiric-incendiary",
+      "name": "Empiric Incendiary",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        12452,
+        12453,
+        12454,
+        12455
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_plague_burner_head-3ef2e09f0a1e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20595:firestarter",
+      "name": "Firestarter",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        7012,
+        7013,
+        7014,
+        7015
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/firestarter_pump-3fcce5344749.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20209:flamestitched-suitings-set",
+      "name": "Flamestitched Suitings Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        5142,
+        5143,
+        5144,
+        5145
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/flamestiched_suitings_bat-297fcb2d87fd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20856:flight-of-the-marauding-pyro",
+      "name": "Flight of the Marauding Pyro",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        9376,
+        9386,
+        9387,
+        9388
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/marauding_pyro_loading_screen-7afaaa0c3c25.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:21107:manta-marauder",
+      "name": "Manta Marauder",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        7727,
+        9237,
+        9238,
+        9239
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/manta_rayder_ti7_manta_rayder_loading_screen_v1-d2c0233976e1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:21721:night-terrors",
+      "name": "Night Terrors",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        17921,
+        17922,
+        17924,
+        17925
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/flaming_boogeyman_shoulder-189f78520915.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20913:primal-firewing",
+      "name": "Primal Firewing",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        8321,
+        8322,
+        8323,
+        9816
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/primal_firewing_loading_screen-1b99d3365de5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:21388:prized-acquisitions",
+      "name": "Prized Acquisitions",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        13331,
+        13332,
+        13333,
+        13334
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_batrider_exploerer_magic_jungle_ls-e96bc66693b6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20137:the-rough-rider-of-yama-raskav-set",
+      "name": "The Rough Rider of Yama Raskav Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        4815,
+        4816,
+        4817,
+        4818
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/belt_ruff-e5efe61ef002.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_batrider:core-set:20872:the-rowdy-firebrand",
+      "name": "The Rowdy Firebrand",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        375,
+        376,
+        377,
+        378
+      ],
+      "sourceItemIds": [
+        7536,
+        7539,
+        7540,
+        7549
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/pernicious_firebrand_loading_screen-2cdee0cb7833.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 13209421,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 97
+  }
+}

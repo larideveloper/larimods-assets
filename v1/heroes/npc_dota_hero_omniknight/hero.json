@@ -1,0 +1,3200 @@
+{
+  "heroId": "npc_dota_hero_omniknight",
+  "sourceHeroId": "npc_dota_hero_omniknight",
+  "variantId": "default",
+  "heroName": "Omniknight",
+  "heroSlug": "omniknight",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/omniknight.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_omniknight/ef489007f02a/models/heroes/omniknight/omniknight.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 13,
+      "name": "Omniknights Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/56eaa1453acb/models/heroes/omniknight/bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/56eaa1453acb/models/heroes/omniknight/bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/bracer.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/56eaa1453acb/models/heroes/omniknight/bracer_color_psd_a7ffcf64.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 43,
+      "name": "Omniknights Cape",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/70a59ec1ddaf/models/heroes/omniknight/cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/70a59ec1ddaf/models/heroes/omniknight/cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/cape.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/70a59ec1ddaf/models/heroes/omniknight/cape_color_psd_6d2164ec.png"
+    },
+    {
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 45,
+      "name": "Omniknights Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e81c1daaf177/models/heroes/omniknight/head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e81c1daaf177/models/heroes/omniknight/head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e81c1daaf177/models/heroes/omniknight/head_color_psd_402ce21a.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 46,
+      "name": "Omniknights Hair",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0073eaff47be/models/heroes/omniknight/hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/0073eaff47be/models/heroes/omniknight/hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/hair.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0073eaff47be/models/heroes/omniknight/hair_color_psd_dbcc4911.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 42,
+      "name": "Omniknights Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2f04059c9b08/models/heroes/omniknight/shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2f04059c9b08/models/heroes/omniknight/shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2f04059c9b08/models/heroes/omniknight/shoulder_color_psd_97891c69.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 44,
+      "name": "Omniknights Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/9b92ecf17db3/models/heroes/omniknight/hammer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/9b92ecf17db3/models/heroes/omniknight/hammer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/hammer.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/9b92ecf17db3/models/heroes/omniknight/weapon_color_psd_e997c7be.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7090:stalwart-arms",
+      "itemId": 7090,
+      "name": "Armguards of the Stalwart",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/b409a0ce9322/models/items/omniknight/stalwart_arms/stalwart_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/b409a0ce9322/models/items/omniknight/stalwart_arms/stalwart_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/stalwart_arms/stalwart_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalwart_arms-5dbeb9da765b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/b409a0ce9322/models/items/omniknight/stalwart_arms/stalwart_arms_color_tga_6ab4e94f.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4497:bracer-faith",
+      "itemId": 4497,
+      "name": "Armlet of Renewed Faith",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/20b4b6295fcb/models/items/omniknight/bracer_faith/bracer_faith.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/20b4b6295fcb/models/items/omniknight/bracer_faith/bracer_faith.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/bracer_faith/bracer_faith.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer_faith-35084941f5f7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/20b4b6295fcb/models/items/omniknight/bracer_faith/bracer_faith_color_tga_7c099083.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:9555:the-unbroken-knight-arms",
+      "itemId": 9555,
+      "name": "Armor of the Undying Light",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/935a6c3eea58/models/items/omniknight/the_unbroken_knight_arms/the_unbroken_knight_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/935a6c3eea58/models/items/omniknight/the_unbroken_knight_arms/the_unbroken_knight_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_unbroken_knight_arms/the_unbroken_knight_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_unbroken_knight_arms-bd7113adf867.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/935a6c3eea58/models/items/omniknight/the_unbroken_knight_arms/the_unbroken_knight_arms_color_tga_19b346b2.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:31446:the-fist-of-frenzied-sun-arms",
+      "itemId": 31446,
+      "name": "Blinding Bastion  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/457fa281d577/models/items/omniknight/the_fist_of_frenzied_sun_arms/the_fist_of_frenzied_sun_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/457fa281d577/models/items/omniknight/the_fist_of_frenzied_sun_arms/the_fist_of_frenzied_sun_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_fist_of_frenzied_sun_arms/the_fist_of_frenzied_sun_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_fist_of_frenzied_sun_arms-984b0a1e74dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/457fa281d577/models/items/omniknight/the_fist_of_frenzied_sun_arms/the_fist_of_frenzied_sun_arms_color_png_2abeff00.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4267:bracer-purist",
+      "itemId": 4267,
+      "name": "Bracer of the Purist Champion",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/5e9fd0f26c25/models/items/omniknight/bracer_purist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/5e9fd0f26c25/models/items/omniknight/bracer_purist.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/bracer_purist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer_purist-1d65be7fcc61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/5e9fd0f26c25/models/items/omniknight/bracer_purist_color_tga_4321e48b.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8170:grey-night-arms",
+      "itemId": 8170,
+      "name": "Bracers of the Grey Gallant",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/760deede28f6/models/items/omniknight/grey_night_arms/grey_night_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/760deede28f6/models/items/omniknight/grey_night_arms/grey_night_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/grey_night_arms/grey_night_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grey_night_arms-35311f74b5bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/760deede28f6/models/items/omniknight/grey_night_arms/grey_night_arms_color_tga_e8bfe96f.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4318:bracer-hierophant",
+      "itemId": 4318,
+      "name": "Bracers of the Hierophant",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/cbdc37b7463f/models/items/omniknight/bracer_hierophant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/cbdc37b7463f/models/items/omniknight/bracer_hierophant.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/bracer_hierophant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer_hierophant-42cf4a1dbf33.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/cbdc37b7463f/models/items/omniknight/bracer_hierophant_color_tga_92e5f516.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4140:bracer-crusader",
+      "itemId": 4140,
+      "name": "Bracers of the Radiant Crusader",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1db545f52f1a/models/items/omniknight/bracer_crusader.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/1db545f52f1a/models/items/omniknight/bracer_crusader.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/bracer_crusader.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer_crusader-5837f2e768b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1db545f52f1a/models/items/omniknight/bracer_crusader_1_color_tga_59cb3605.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:12633:omniknight-sacred-light-arms",
+      "itemId": 12633,
+      "name": "Complete Gauntlets of Sacred Light",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/6c2dae43a3f5/models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/6c2dae43a3f5/models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_arms-e30e805d5ac6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/6c2dae43a3f5/models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms_color_tga_b54c5d95.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8954:omniknight-sacred-light-arms",
+      "itemId": 8954,
+      "name": "Gauntlets of Sacred Light",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/91b21dc7e7bb/models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/91b21dc7e7bb/models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_arms-e30e805d5ac6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/91b21dc7e7bb/models/items/omniknight/omniknight_sacred_light_arms/omniknight_sacred_light_arms_color_tga_b54c5d95.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:13237:divine-anvil-arms",
+      "itemId": 13237,
+      "name": "Godhammer  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/7adcea2b91b0/models/items/omniknight/divine_anvil_arms/divine_anvil_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/7adcea2b91b0/models/items/omniknight/divine_anvil_arms/divine_anvil_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/divine_anvil_arms/divine_anvil_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/divine_anvil_arms-2261f1ef91aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/7adcea2b91b0/models/items/omniknight/divine_anvil_arms/divine_anvil_arms_color_png_c69820d5.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7236:guard-heavenly-light",
+      "itemId": 7236,
+      "name": "Guards of Heavenly Light",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/729f2d7c983e/models/items/omniknight/guard_heavenly_light/guard_heavenly_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/729f2d7c983e/models/items/omniknight/guard_heavenly_light/guard_heavenly_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/guard_heavenly_light/guard_heavenly_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guard_heavenly_light-433a3c804711.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/729f2d7c983e/models/items/omniknight/guard_heavenly_light/guard_heavenly_light_color_tga_3231bebb.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:19636:lionheart-guardian-arms",
+      "itemId": 19636,
+      "name": "Lionheart  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/66ee634c3194/models/items/omniknight/lionheart_guardian_arms/lionheart_guardian_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/66ee634c3194/models/items/omniknight/lionheart_guardian_arms/lionheart_guardian_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/lionheart_guardian_arms/lionheart_guardian_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lionheart_guardian_arms-e25feaf1e088.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/66ee634c3194/models/items/omniknight/lionheart_guardian_arms/lionheart_guardian_arms_color_tga_47c60fd3.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:13:bracer",
+      "itemId": 13,
+      "name": "Omniknights Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/56eaa1453acb/models/heroes/omniknight/bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/56eaa1453acb/models/heroes/omniknight/bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracer-48029eab2e4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/56eaa1453acb/models/heroes/omniknight/bracer_color_psd_a7ffcf64.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:18199:omni-2021-immortal-arms",
+      "itemId": 18199,
+      "name": "Paragons Poise",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e7c483cbe312/models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e7c483cbe312/models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omni_2021_immortal_arms-8732678368bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e7c483cbe312/models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms_color_tga_591434cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/omni_2021_immortal_arms/omni_2021_immortal_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omni_2021_immortal/omni_2021_immortal_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4538:winged-gauntlet3",
+      "itemId": 4538,
+      "name": "Winged Paladins Gauntlet",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/73b2add90f2a/models/items/omniknight/winged_gauntlet3/winged_gauntlet3.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/73b2add90f2a/models/items/omniknight/winged_gauntlet3/winged_gauntlet3.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/winged_gauntlet3/winged_gauntlet3.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winged_gauntlet3-ce87906c9b6b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/73b2add90f2a/models/items/omniknight/winged_gauntlet3/winged_gauntlet3_color_tga_5a1ca9df.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8957:omniknight-sacred-light-back",
+      "itemId": 8957,
+      "name": "Armor of Sacred Light",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/44a192957282/models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/44a192957282/models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_back-0df06430a9dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/44a192957282/models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back_color_tga_78f81a54.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:34270:the-fist-of-frenzied-sun-alternate-back",
+      "itemId": 34270,
+      "name": "Blinding Bastion  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/c78c5ece9e3e/models/items/omniknight/the_fist_of_frenzied_sun_alternate_back/the_fist_of_frenzied_sun_alternate_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/c78c5ece9e3e/models/items/omniknight/the_fist_of_frenzied_sun_alternate_back/the_fist_of_frenzied_sun_alternate_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_fist_of_frenzied_sun_alternate_back/the_fist_of_frenzied_sun_alternate_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_fist_of_frenzied_sun_alternate_back-746b74eea233.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/c78c5ece9e3e/models/items/omniknight/the_fist_of_frenzied_sun_alternate_back/the_fist_of_frenzied_sun_alternate_back_color_png_b30ca263.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7235:cape-heavenly-light",
+      "itemId": 7235,
+      "name": "Cape of Heavenly Light",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0a95130911ad/models/items/omniknight/cape_heavenly_light/cape_heavenly_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/0a95130911ad/models/items/omniknight/cape_heavenly_light/cape_heavenly_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/cape_heavenly_light/cape_heavenly_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cape_heavenly_light-dd711030ebb0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0a95130911ad/models/items/omniknight/cape_heavenly_light/cape_heavenly_light_color_tga_3a571de2.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4507:thunderwraths-cape",
+      "itemId": 4507,
+      "name": "Cape of Thunderwraths Calling",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/80f59d445227/models/items/omniknight/thunderwraths_cape/thunderwraths_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/80f59d445227/models/items/omniknight/thunderwraths_cape/thunderwraths_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/thunderwraths_cape/thunderwraths_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thunderwraths_cape-72ba855ab957.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/80f59d445227/models/items/omniknight/thunderwraths_cape/thunderwraths_cape_color_tga_fa908b6d.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8171:grey-night-back",
+      "itemId": 8171,
+      "name": "Cape of the Grey Gallant",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2770adcb8ebb/models/items/omniknight/grey_night_back/grey_night_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2770adcb8ebb/models/items/omniknight/grey_night_back/grey_night_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/grey_night_back/grey_night_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grey_night_back-86974731ef6a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2770adcb8ebb/models/items/omniknight/grey_night_back/grey_night_back_color_tga_88aad5b2.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4315:cape-hierophant",
+      "itemId": 4315,
+      "name": "Chestplate of the Hierophant",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/5cd5421c83f6/models/items/omniknight/cape_hierophant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/5cd5421c83f6/models/items/omniknight/cape_hierophant.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/cape_hierophant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cape_hierophant-fe1560285f12.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/5cd5421c83f6/models/items/omniknight/cape_hierophant_color_tga_57c681d5.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:12630:omniknight-sacred-light-back",
+      "itemId": 12630,
+      "name": "Complete Armor of Sacred Light",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/57bc9077046c/models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/57bc9077046c/models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_back-0df06430a9dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/57bc9077046c/models/items/omniknight/omniknight_sacred_light_back/omniknight_sacred_light_back_color_tga_78f81a54.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:9556:the-unbroken-knight-back",
+      "itemId": 9556,
+      "name": "Flight of the Undying Light",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1d99d8dd3d5c/models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/1d99d8dd3d5c/models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_unbroken_knight_back-59b5faf44a7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1d99d8dd3d5c/models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back_color_tga_bf5cb02e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Omniknight UndyingLight Base",
+            "skin": "0",
+            "icon": "econ/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Omniknight UndyingLight Angel",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:9556:the-unbroken-knight-back:style-1",
+      "itemId": 9556,
+      "name": "Flight of the Undying Light - Omniknight UndyingLight Angel",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1d99d8dd3d5c/models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/1d99d8dd3d5c/models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_unbroken_knight_back-59b5faf44a7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1d99d8dd3d5c/models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back_color_tga_bf5cb02e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Omniknight UndyingLight Base",
+            "skin": "0",
+            "icon": "econ/items/omniknight/the_unbroken_knight_back/the_unbroken_knight_back",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Omniknight UndyingLight Angel",
+            "skin": "0",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:13228:divine-anvil-back",
+      "itemId": 13228,
+      "name": "Godhammer  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/8f995f1a78da/models/items/omniknight/divine_anvil_back/divine_anvil_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/8f995f1a78da/models/items/omniknight/divine_anvil_back/divine_anvil_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/divine_anvil_back/divine_anvil_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/divine_anvil_back-a8fa3fd5cf5b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/8f995f1a78da/models/items/omniknight/divine_anvil_back/divine_anvil_back_color_png_da9174de.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:19637:lionheart-guardian-back",
+      "itemId": 19637,
+      "name": "Lionheart  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/589a37a89390/models/items/omniknight/lionheart_guardian_back/lionheart_guardian_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/589a37a89390/models/items/omniknight/lionheart_guardian_back/lionheart_guardian_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/lionheart_guardian_back/lionheart_guardian_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lionheart_guardian_back-b5a2099a2c4b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/589a37a89390/models/items/omniknight/lionheart_guardian_back/lionheart_guardian_back_color_tga_4b5aed8e.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:43:cape",
+      "itemId": 43,
+      "name": "Omniknights Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/70a59ec1ddaf/models/heroes/omniknight/cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/70a59ec1ddaf/models/heroes/omniknight/cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cape-8d61ede2c0c2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/70a59ec1ddaf/models/heroes/omniknight/cape_color_psd_6d2164ec.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:19204:omni-2021-immortal",
+      "itemId": 19204,
+      "name": "Paragons Pride",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/93f57723b9a4/models/items/omniknight/omni_2021_immortal/omni_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/93f57723b9a4/models/items/omniknight/omni_2021_immortal/omni_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omni_2021_immortal/omni_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omni_2021_immortal-85a9619a844c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/93f57723b9a4/models/items/omniknight/omni_2021_immortal/omni_2021_immortal_color_tga_7f2c1b9d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/omni_2021_immortal/omni_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/omni_2021_immortal/omni_2021_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omni_2021_immortal/omni_2021_immortal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/omniknight/omni_2021_immortal/omni_2021_immortal_ally.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/omniknight/omni_2021_immortal/omni_2021_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_omniknight/omniknight_guardian_angel_ally.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_omniknight/omniknight_guardian_angel_omni.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7093:stalwart-back",
+      "itemId": 7093,
+      "name": "Plate of the Stalwart Soul",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fc7810c61354/models/items/omniknight/stalwart_back/stalwart_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/fc7810c61354/models/items/omniknight/stalwart_back/stalwart_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/stalwart_back/stalwart_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalwart_back-fd5abb3a8830.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fc7810c61354/models/items/omniknight/stalwart_back/stalwart_back_color_tga_4ad5b801.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4141:cape-crusader",
+      "itemId": 4141,
+      "name": "Sigil of the Radiant Crusader",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/3a6958996900/models/items/omniknight/cape_crusader.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/3a6958996900/models/items/omniknight/cape_crusader.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/cape_crusader.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cape_crusader-d9ab50ae5224.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/3a6958996900/models/items/omniknight/cape_crusader_1_color_tga_4b6a1308.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4580:winged-cape2",
+      "itemId": 4580,
+      "name": "Winged Paladins Glorious Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2668c0b18002/models/items/omniknight/winged_cape2/winged_cape2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2668c0b18002/models/items/omniknight/winged_cape2/winged_cape2.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/winged_cape2/winged_cape2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winged_cape2-123683f624c5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2668c0b18002/models/items/omniknight/winged_cape2/winged_cape2_color_tga_66375ffa.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:45:head",
+      "itemId": 45,
+      "name": "Omniknights Head",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e81c1daaf177/models/heroes/omniknight/head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e81c1daaf177/models/heroes/omniknight/head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e81c1daaf177/models/heroes/omniknight/head_color_psd_402ce21a.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:31450:the-fist-of-frenzied-sun-head",
+      "itemId": 31450,
+      "name": "Blinding Bastion  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/a456e35bef50/models/items/omniknight/the_fist_of_frenzied_sun_head/the_fist_of_frenzied_sun_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/a456e35bef50/models/items/omniknight/the_fist_of_frenzied_sun_head/the_fist_of_frenzied_sun_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_fist_of_frenzied_sun_head/the_fist_of_frenzied_sun_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_fist_of_frenzied_sun_head-55f2c90275d9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/a456e35bef50/models/items/omniknight/the_fist_of_frenzied_sun_head/the_fist_of_frenzied_sun_head_color_png_23dfd88.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/the_fist_of_frenzied_sun_head/the_fist_of_frenzied_sun_head.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/the_fist_of_frenzied_sun_head/the_fist_of_frenzied_sun_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/frenzied_sun/frenzied_sun_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4144:helmet-winged",
+      "itemId": 4144,
+      "name": "Champion of Emauracus",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2568eb47930a/models/items/omniknight/helmet_winged.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2568eb47930a/models/items/omniknight/helmet_winged.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/helmet_winged.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helmet_winged-a0b726bc6da9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2568eb47930a/models/items/omniknight/helmet_winged_color_psd_7e5f8dbc.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7092:stalwart-head",
+      "itemId": 7092,
+      "name": "Coiffure of the Stalwart Soul",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/da8e224becf0/models/items/omniknight/stalwart_head/stalwart_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/da8e224becf0/models/items/omniknight/stalwart_head/stalwart_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/stalwart_head/stalwart_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalwart_head-020a7884fb5d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/da8e224becf0/models/items/omniknight/stalwart_head/stalwart_head_color_tga_3057d7e3.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:12629:omniknight-sacred-light-head",
+      "itemId": 12629,
+      "name": "Complete Crown of Sacred Light",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/42243f1316c2/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/42243f1316c2/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_head-3f46c925081f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/42243f1316c2/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head_color_tga_5a3d1ab3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omni_sacred_light_head/omni_ambient_sacred_light.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8958:omniknight-sacred-light-head",
+      "itemId": 8958,
+      "name": "Crown of Sacred Light",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/6e45e6b0d242/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/6e45e6b0d242/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_head-3f46c925081f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/6e45e6b0d242/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head_color_tga_5a3d1ab3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omni_sacred_light_head/omni_ambient_sacred_light.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Crown of Sacred Light 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Crown of Sacred Light 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/omniknight/omni_sacred_light_head/omni_ambient_sacred_light.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8958:omniknight-sacred-light-head:style-1",
+      "itemId": 8958,
+      "name": "Crown of Sacred Light - Crown of Sacred Light 1",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/6e45e6b0d242/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/6e45e6b0d242/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_head_style1-ef6e434b238d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/6e45e6b0d242/models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head_color_tga_5a3d1ab3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omni_sacred_light_head/omni_ambient_sacred_light.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Crown of Sacred Light 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Crown of Sacred Light 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/omniknight/omniknight_sacred_light_head/omniknight_sacred_light_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/omniknight/omni_sacred_light_head/omni_ambient_sacred_light.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:13226:divine-anvil-head",
+      "itemId": 13226,
+      "name": "Godhammer  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e6885accb6c4/models/items/omniknight/divine_anvil_head/divine_anvil_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e6885accb6c4/models/items/omniknight/divine_anvil_head/divine_anvil_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/divine_anvil_head/divine_anvil_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/divine_anvil_head-b76c5611a42c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e6885accb6c4/models/items/omniknight/divine_anvil_head/divine_anvil_head_color_png_2cbec194.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8172:grey-night-head",
+      "itemId": 8172,
+      "name": "Hair of the Grey Gallant",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/ef78a067c3d2/models/items/omniknight/grey_night_head/grey_night_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/ef78a067c3d2/models/items/omniknight/grey_night_head/grey_night_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/grey_night_head/grey_night_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grey_night_head-26bb374145ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/ef78a067c3d2/models/items/omniknight/grey_night_head/grey_night_head_color_tga_dceb7b3b.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7237:helm-heavenly-light",
+      "itemId": 7237,
+      "name": "Helm of Heavenly Light",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/3abd8b77b9b9/models/items/omniknight/helm_heavenly_light/helm_heavenly_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/3abd8b77b9b9/models/items/omniknight/helm_heavenly_light/helm_heavenly_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/helm_heavenly_light/helm_heavenly_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helm_heavenly_light-1f54bbe1e148.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/3abd8b77b9b9/models/items/omniknight/helm_heavenly_light/helm_heavenly_light_color_tga_51bcf112.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4508:thunderwraths-helm",
+      "itemId": 4508,
+      "name": "Helm of Thunderwraths Calling",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/18749691d17c/models/items/omniknight/thunderwraths_helm/thunderwraths_helm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/18749691d17c/models/items/omniknight/thunderwraths_helm/thunderwraths_helm.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/thunderwraths_helm/thunderwraths_helm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thunderwraths_helm-5b03cb596830.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/18749691d17c/models/items/omniknight/thunderwraths_helm/thunderwraths_helm_color_tga_3b1d2af1.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4138:helmet-crusader",
+      "itemId": 4138,
+      "name": "Helm of the Radiant Crusader",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0ea36b0b717c/models/items/omniknight/helmet_crusader.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/0ea36b0b717c/models/items/omniknight/helmet_crusader.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/helmet_crusader.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helmet_crusader-3591a808e91d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0ea36b0b717c/models/items/omniknight/helmet_crusader_1_color_tga_c646a197.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4314:head-hood-hiero",
+      "itemId": 4314,
+      "name": "Hood of the Hierophant",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1034167064c7/models/items/omniknight/head_hood_hiero/head_hood_hiero.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/1034167064c7/models/items/omniknight/head_hood_hiero/head_hood_hiero.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/head_hood_hiero/head_hood_hiero.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_hood_hiero-8f50b4a22bdc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1034167064c7/models/items/omniknight/head_hood_hiero/head_hood_hiero_color_tga_115db40.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:19638:lionheart-guardian-head",
+      "itemId": 19638,
+      "name": "Lionheart  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/46f473281c62/models/items/omniknight/lionheart_guardian_head/lionheart_guardian_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/46f473281c62/models/items/omniknight/lionheart_guardian_head/lionheart_guardian_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/lionheart_guardian_head/lionheart_guardian_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lionheart_guardian_head-c16d445969b8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/46f473281c62/models/items/omniknight/lionheart_guardian_head/lionheart_guardian_head_color_tga_23b9f56c.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:9246:the-unbroken-knight-head",
+      "itemId": 9246,
+      "name": "Mane of the Undying Light",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/082d1a3a1fba/models/items/omniknight/the_unbroken_knight_head/the_unbroken_knight_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/082d1a3a1fba/models/items/omniknight/the_unbroken_knight_head/the_unbroken_knight_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_unbroken_knight_head/the_unbroken_knight_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_unbroken_knight_head-15b9b1f22b4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/082d1a3a1fba/models/items/omniknight/the_unbroken_knight_head/the_unbroken_knight_head_color_tga_4fe4478b.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:46:hair",
+      "itemId": 46,
+      "name": "Omniknights Hair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0073eaff47be/models/heroes/omniknight/hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/0073eaff47be/models/heroes/omniknight/hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hair-3fb515702c47.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/0073eaff47be/models/heroes/omniknight/hair_color_psd_dbcc4911.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:9748:light-helmet",
+      "itemId": 9748,
+      "name": "Paragons Rebuke",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/053ae25c9bd9/models/items/omniknight/light_helmet/light_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/053ae25c9bd9/models/items/omniknight/light_helmet/light_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/light_helmet/light_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/light_helmet-5b08ac49ae3b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/053ae25c9bd9/models/items/omniknight/light_helmet/light_helmet_color_psd_7de60ec8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/light_helmet/light_helmet.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/light_helmet/light_helmet.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omni_ti8_head/omni_ti8_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/omniknight/omni_ti8_head/omniknight_repel_buff_ti8.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/omniknight/omni_ti8_head/omniknight_repel_cast_ti8.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_omniknight/omniknight_heavenly_grace_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_omniknight/omniknight_repel_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4415:head-valor",
+      "itemId": 4415,
+      "name": "Runed Helm of Valor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1166c245bb18/models/items/omniknight/head_valor/head_valor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/1166c245bb18/models/items/omniknight/head_valor/head_valor.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/head_valor/head_valor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_valor-5a2dada87987.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/1166c245bb18/models/items/omniknight/head_valor/head_valor_color_tga_bc7c52f4.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4581:winged-helmet",
+      "itemId": 4581,
+      "name": "Winged Paladins Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2e2cf6b40c21/models/items/omniknight/winged_helmet/winged_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2e2cf6b40c21/models/items/omniknight/winged_helmet/winged_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/winged_helmet/winged_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winged_helmet-fc6bfe5e35a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2e2cf6b40c21/models/items/omniknight/winged_helmet/winged_helmet_color_tga_7b5f0963.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4269:helmet-purist",
+      "itemId": 4269,
+      "name": "Circlet of the Purist Champion",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/85cfe7eadd70/models/items/omniknight/helmet_purist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/85cfe7eadd70/models/items/omniknight/helmet_purist.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/helmet_purist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helmet_purist-7e1a8806a0a2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/85cfe7eadd70/models/items/omniknight/helmet_purist_color_tga_ef2d244e.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4317:misc-book-hierophant",
+      "itemId": 4317,
+      "name": "Holy Words of the Hierophant",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/8cafc1b43f21/models/items/omniknight/misc_book_hierophant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/8cafc1b43f21/models/items/omniknight/misc_book_hierophant.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/misc_book_hierophant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/misc_book_hierophant-b30ddb96dc8f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/8cafc1b43f21/models/items/omniknight/misc_book_color_tga_5b4a304a.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4515:thunderwraths-shoulders",
+      "itemId": 4515,
+      "name": "Armor of Thunderwraths Calling",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fc57aa005878/models/items/omniknight/thunderwraths_shoulders/thunderwraths_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/fc57aa005878/models/items/omniknight/thunderwraths_shoulders/thunderwraths_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/thunderwraths_shoulders/thunderwraths_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thunderwraths_shoulders-a36181d10764.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fc57aa005878/models/items/omniknight/thunderwraths_shoulders/thunderwraths_shoulders_color_tga_e6e1774f.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4266:shoulder-purist",
+      "itemId": 4266,
+      "name": "Armor of the Purist Champion",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/97c77701c1ce/models/items/omniknight/shoulder_purist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/97c77701c1ce/models/items/omniknight/shoulder_purist.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/shoulder_purist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_purist-c9880fec9d60.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/97c77701c1ce/models/items/omniknight/shoulder_purist_color_tga_8dd47b50.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4139:shoulder-crusader",
+      "itemId": 4139,
+      "name": "Armor of the Radiant Crusader",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e92688abe847/models/items/omniknight/shoulder_crusader.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e92688abe847/models/items/omniknight/shoulder_crusader.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/shoulder_crusader.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_crusader-069585c810f7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e92688abe847/models/items/omniknight/shoulder_crusader_1_color_tga_92832d50.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:31449:the-fist-of-frenzied-sun-shoulders",
+      "itemId": 31449,
+      "name": "Blinding Bastion  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fcbc7f9218e0/models/items/omniknight/the_fist_of_frenzied_sun_shoulders/the_fist_of_frenzied_sun_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/fcbc7f9218e0/models/items/omniknight/the_fist_of_frenzied_sun_shoulders/the_fist_of_frenzied_sun_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_fist_of_frenzied_sun_shoulders/the_fist_of_frenzied_sun_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_fist_of_frenzied_sun_shoulders-c5c56e41af43.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fcbc7f9218e0/models/items/omniknight/the_fist_of_frenzied_sun_shoulders/the_fist_of_frenzied_sun_shoulders_color_png_1653d27c.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:12632:omniknight-sacred-light-shoulder",
+      "itemId": 12632,
+      "name": "Complete Pauldrons of Sacred Light",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/186f8df5b793/models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/186f8df5b793/models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_shoulder-246754f88a0b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/186f8df5b793/models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder_color_tga_e60b952c.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:13756:omni-fall20-immortal-shoulders",
+      "itemId": 13756,
+      "name": "Fetters of Omniscience",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e5cbf02bb828/models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e5cbf02bb828/models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omni_fall20_immortal_shoulders-9ce98e4fd002.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e5cbf02bb828/models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders_color_tga_de29a6d6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omniknight_fall20_immortal/omniknight_fall20_immortal_degen_aura_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/omniknight/omniknight_fall20_immortal/omniknight_fall20_immortal_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_omniknight/omniknight_degen_aura_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:22267:omni-fall20-immortal-shoulders",
+      "itemId": 22267,
+      "name": "Fetters of Omniscience of the Crimson Witness",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/7f82b7ce7029/models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/7f82b7ce7029/models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omni_fall20_immortal_shoulders1-f797bf76716c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/7f82b7ce7029/models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders_color_tga_de29a6d6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/omniknight/omni_fall20_immortal_shoulders/omni_fall20_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/omniknight/omni_crimson_witness_2021/omniknight_crimson_witness_2021_degen_aura_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/omniknight/omni_crimson_witness_2021/omniknight_fall20_immortal_crimson_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_omniknight/omniknight_degen_aura_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:13229:divine-anvil-shoulder",
+      "itemId": 13229,
+      "name": "Godhammer  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e6767957c719/models/items/omniknight/divine_anvil_shoulder/divine_anvil_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e6767957c719/models/items/omniknight/divine_anvil_shoulder/divine_anvil_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/divine_anvil_shoulder/divine_anvil_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/divine_anvil_shoulder-0f2d2cae94c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e6767957c719/models/items/omniknight/divine_anvil_shoulder/divine_anvil_shoulder_color_png_6015ab1f.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4316:shoulder-hierophant",
+      "itemId": 4316,
+      "name": "Heavy Pauldrons of the Hierophant",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/4ff79429727e/models/items/omniknight/shoulder_hierophant.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/4ff79429727e/models/items/omniknight/shoulder_hierophant.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/shoulder_hierophant.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_hierophant-272abdfb5332.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/4ff79429727e/models/items/omniknight/shoulder_hierophant_color_tga_46c1b1c3.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:19639:lionheart-guardian-shoulder",
+      "itemId": 19639,
+      "name": "Lionheart  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/5b4301e33c37/models/items/omniknight/lionheart_guardian_shoulder/lionheart_guardian_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/5b4301e33c37/models/items/omniknight/lionheart_guardian_shoulder/lionheart_guardian_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/lionheart_guardian_shoulder/lionheart_guardian_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lionheart_guardian_shoulder-72277a66a8fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/5b4301e33c37/models/items/omniknight/lionheart_guardian_shoulder/lionheart_guardian_shoulder_color_tga_f2bbd8a7.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:42:shoulder",
+      "itemId": 42,
+      "name": "Omniknights Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2f04059c9b08/models/heroes/omniknight/shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2f04059c9b08/models/heroes/omniknight/shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder-d57b7b8c04bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2f04059c9b08/models/heroes/omniknight/shoulder_color_psd_97891c69.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4485:shoulders-faith",
+      "itemId": 4485,
+      "name": "Ornate Mantle of Renewed Faith",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/ab59a6054cee/models/items/omniknight/shoulders_faith/shoulders_faith.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/ab59a6054cee/models/items/omniknight/shoulders_faith/shoulders_faith.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/shoulders_faith/shoulders_faith.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders_faith-b81e9e653398.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/ab59a6054cee/models/items/omniknight/shoulders_faith/shoulders_faith_color_tga_70be0b55.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7234:pauldron-heavenly-light",
+      "itemId": 7234,
+      "name": "Pauldron of Heavenly Light",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fac71a9731cf/models/items/omniknight/pauldron_heavenly_light/pauldron_heavenly_light.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/fac71a9731cf/models/items/omniknight/pauldron_heavenly_light/pauldron_heavenly_light.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/pauldron_heavenly_light/pauldron_heavenly_light.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pauldron_heavenly_light-ee1a4a6507ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/fac71a9731cf/models/items/omniknight/pauldron_heavenly_light/pauldron_heavenly_light_color_tga_9bc9fdd4.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:9245:the-unbroken-knight-shoulder",
+      "itemId": 9245,
+      "name": "Pauldron of the Undying Light",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e081ce9dd839/models/items/omniknight/the_unbroken_knight_shoulder/the_unbroken_knight_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e081ce9dd839/models/items/omniknight/the_unbroken_knight_shoulder/the_unbroken_knight_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_unbroken_knight_shoulder/the_unbroken_knight_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_unbroken_knight_shoulder-b7155100c1bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e081ce9dd839/models/items/omniknight/the_unbroken_knight_shoulder/the_unbroken_knight_shoulder_color_tga_e57278a7.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8955:omniknight-sacred-light-shoulder",
+      "itemId": 8955,
+      "name": "Pauldrons of Sacred Light",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/298a88ce7855/models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/298a88ce7855/models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_shoulder-246754f88a0b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/298a88ce7855/models/items/omniknight/omniknight_sacred_light_shoulder/omniknight_sacred_light_shoulder_color_tga_e60b952c.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8173:grey-night-shoulders",
+      "itemId": 8173,
+      "name": "Pauldrons of the Grey Gallant",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/06873e414b2d/models/items/omniknight/grey_night_shoulders/grey_night_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/06873e414b2d/models/items/omniknight/grey_night_shoulders/grey_night_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/grey_night_shoulders/grey_night_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grey_night_shoulders-79a0c818e936.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/06873e414b2d/models/items/omniknight/grey_night_shoulders/grey_night_shoulders_color_tga_e4fa83fe.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7094:stalwart-shoulder",
+      "itemId": 7094,
+      "name": "Pauldrons of the Stalwart Soul",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2571a585e9d0/models/items/omniknight/stalwart_shoulder/stalwart_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2571a585e9d0/models/items/omniknight/stalwart_shoulder/stalwart_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/stalwart_shoulder/stalwart_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalwart_shoulder-07846df49f4b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2571a585e9d0/models/items/omniknight/stalwart_shoulder/stalwart_shoulder_color_tga_b6a6f783.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4560:winged-shoulders",
+      "itemId": 4560,
+      "name": "Winged Paladins Armor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d418c6e5e83a/models/items/omniknight/winged_shoulders/winged_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/d418c6e5e83a/models/items/omniknight/winged_shoulders/winged_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/winged_shoulders/winged_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winged_shoulders-9ca7ff7e4684.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d418c6e5e83a/models/items/omniknight/winged_shoulders/winged_shoulders_color_tga_456801ee.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:12631:omniknight-sacred-light-weapon",
+      "itemId": 12631,
+      "name": "Complete Mallet of Sacred Light",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/c9d587815f69/models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/c9d587815f69/models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_weapon-a82f04faa75d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/c9d587815f69/models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon_color_tga_b7d6c8ff.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4413:weapon-feudal",
+      "itemId": 4413,
+      "name": "Feudal Mace of Chivalry",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/9611b95eedca/models/items/omniknight/weapon_feudal/weapon_feudal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/9611b95eedca/models/items/omniknight/weapon_feudal/weapon_feudal.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/weapon_feudal/weapon_feudal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_feudal-6d697834d7ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/9611b95eedca/models/items/omniknight/weapon_feudal/weapon_feudal_color_tga_2ddb392d.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:13227:divine-anvil-weapon",
+      "itemId": 13227,
+      "name": "Godhammer  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/b1ff9d10f4a8/models/items/omniknight/divine_anvil_weapon/divine_anvil_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/b1ff9d10f4a8/models/items/omniknight/divine_anvil_weapon/divine_anvil_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/divine_anvil_weapon/divine_anvil_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/divine_anvil_weapon-7816d441b450.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/b1ff9d10f4a8/models/items/omniknight/divine_anvil_weapon/divine_anvil_weapon_color_png_5c56a265.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:6587:guardofbasilius-weapon",
+      "itemId": 6587,
+      "name": "Guard of Basilius",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/7ccf51432e92/models/items/omniknight/guardofbasilius_weapon/guardofbasilius_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/7ccf51432e92/models/items/omniknight/guardofbasilius_weapon/guardofbasilius_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/guardofbasilius_weapon/guardofbasilius_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/guardofbasilius_weapon-8e3a442cf046.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/7ccf51432e92/models/items/omniknight/guardofbasilius_weapon/guardofbasilius_weapon_color_tga_efea3fb0.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4324:weapon-hope-hammer",
+      "itemId": 4324,
+      "name": "Hammer of Hope",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d876f7318db3/models/items/omniknight/weapon_hope_hammer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/d876f7318db3/models/items/omniknight/weapon_hope_hammer.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/weapon_hope_hammer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_hope_hammer-09cde67225ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d876f7318db3/models/items/omniknight/weapon_hope_hammer_color_tga_7f72d5d8.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8174:grey-night-weapon",
+      "itemId": 8174,
+      "name": "Hammer of the Grey Gallant",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e63a7dfa70d8/models/items/omniknight/grey_night_weapon/grey_night_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/e63a7dfa70d8/models/items/omniknight/grey_night_weapon/grey_night_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/grey_night_weapon/grey_night_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grey_night_weapon-693c05d94409.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/e63a7dfa70d8/models/items/omniknight/grey_night_weapon/grey_night_weapon_color_tga_d082cdd7.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4268:weapon-purist",
+      "itemId": 4268,
+      "name": "Hammer of the Purist Champion",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d6474dd84bd7/models/items/omniknight/weapon_purist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/d6474dd84bd7/models/items/omniknight/weapon_purist.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/weapon_purist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_purist-38b286c7ecef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d6474dd84bd7/models/items/omniknight/weapon_purist_color_tga_a0c42828.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4142:weapon-crusader",
+      "itemId": 4142,
+      "name": "Hammer of the Radiant Crusader",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/ba4406eb0fec/models/items/omniknight/weapon_crusader.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/ba4406eb0fec/models/items/omniknight/weapon_crusader.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/weapon_crusader.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_crusader-7723261dfb01.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/ba4406eb0fec/models/items/omniknight/weapon_crusader_1_color_tga_12e1e5ff.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:7091:stalwart-weapon",
+      "itemId": 7091,
+      "name": "Hammer of the Stalwart Soul",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/47a62385bc4b/models/items/omniknight/stalwart_weapon/stalwart_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/47a62385bc4b/models/items/omniknight/stalwart_weapon/stalwart_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/stalwart_weapon/stalwart_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalwart_weapon-def67709ebd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/47a62385bc4b/models/items/omniknight/stalwart_weapon/stalwart_weapon_color_tga_f17ef964.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:19640:lionheart-guardian-weapon",
+      "itemId": 19640,
+      "name": "Lionheart  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/88854b55268a/models/items/omniknight/lionheart_guardian_weapon/lionheart_guardian_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/88854b55268a/models/items/omniknight/lionheart_guardian_weapon/lionheart_guardian_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/lionheart_guardian_weapon/lionheart_guardian_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lionheart_guardian_weapon-5a876be473f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/88854b55268a/models/items/omniknight/lionheart_guardian_weapon/lionheart_guardian_weapon_color_tga_c6045a1e.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:8956:omniknight-sacred-light-weapon",
+      "itemId": 8956,
+      "name": "Mallet of Sacred Light",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2f5151035c84/models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/2f5151035c84/models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/omniknight_sacred_light_weapon-a82f04faa75d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/2f5151035c84/models/items/omniknight/omniknight_sacred_light_weapon/omniknight_sacred_light_weapon_color_tga_b7d6c8ff.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:44:hammer",
+      "itemId": 44,
+      "name": "Omniknights Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/9b92ecf17db3/models/heroes/omniknight/hammer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/9b92ecf17db3/models/heroes/omniknight/hammer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/omniknight/hammer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hammer-2ed4c9b45a13.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/9b92ecf17db3/models/heroes/omniknight/weapon_color_psd_e997c7be.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:5920:weapon-omnik-slam",
+      "itemId": 5920,
+      "name": "Power Dragon Slam",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/da63ebb2fe41/models/items/omniknight/weapon_omnik_slam/weapon_omnik_slam.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/da63ebb2fe41/models/items/omniknight/weapon_omnik_slam/weapon_omnik_slam.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/weapon_omnik_slam/weapon_omnik_slam.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_omnik_slam-528697a8c50a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/da63ebb2fe41/models/items/omniknight/weapon_omnik_slam/weapon_omnik_slam_color_tga_996931a7.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4168:weapon-rune-hammer",
+      "itemId": 4168,
+      "name": "Rune Hammer",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/a8ca92e2b40c/models/items/omniknight/weapon_rune_hammer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/a8ca92e2b40c/models/items/omniknight/weapon_rune_hammer.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/weapon_rune_hammer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_rune_hammer-c3a0662f02e8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/a8ca92e2b40c/models/items/omniknight/weapon_rune_hammer_color_tga_757271b2.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:9244:the-unbroken-knight-weapon",
+      "itemId": 9244,
+      "name": "Sigil of the Undying Light",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d59a665e920a/models/items/omniknight/the_unbroken_knight_weapon/the_unbroken_knight_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/d59a665e920a/models/items/omniknight/the_unbroken_knight_weapon/the_unbroken_knight_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/the_unbroken_knight_weapon/the_unbroken_knight_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_unbroken_knight_weapon-edb4092e988d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/d59a665e920a/models/items/omniknight/the_unbroken_knight_weapon/the_unbroken_knight_weapon_color_tga_ce25056c.png"
+    },
+    {
+      "id": "npc_dota_hero_omniknight:item-model:4496:weapon-faith",
+      "itemId": 4496,
+      "name": "Warhammer of Renewed Faith",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/3570683cb9e4/models/items/omniknight/weapon_faith/weapon_faith.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_omniknight/3570683cb9e4/models/items/omniknight/weapon_faith/weapon_faith.glb"
+      ],
+      "modelPaths": [
+        "models/items/omniknight/weapon_faith/weapon_faith.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_faith-cba594484805.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_omniknight/3570683cb9e4/models/items/omniknight/weapon_faith/weapon_faith_color_tga_9d7bab28.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20066:armor-of-renewed-faith-set",
+      "name": "Armor of Renewed Faith Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        44
+      ],
+      "sourceItemIds": [
+        4485,
+        4496,
+        4497
+      ],
+      "slots": [
+        "arms",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/shoulders_faith-b81e9e653398.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20036:armor-of-the-purist-champion-set",
+      "name": "Armor of the Purist Champion Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        44,
+        562
+      ],
+      "sourceItemIds": [
+        4266,
+        4267,
+        4268,
+        4269
+      ],
+      "slots": [
+        "arms",
+        "misc",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/shoulder_purist-c9880fec9d60.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20643:armor-of-the-stalwart-soul",
+      "name": "Armor of the Stalwart Soul",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        7090,
+        7091,
+        7092,
+        7093,
+        7094
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/stalwart-39d0fa88974a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:31451:blinding-bastion",
+      "name": "Blinding Bastion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        46
+      ],
+      "sourceItemIds": [
+        31446,
+        31449,
+        31450,
+        34270
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_fist_of_frenzied_sun_arms-984b0a1e74dc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:21272:complete-sacred-light",
+      "name": "Complete Sacred Light",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        12629,
+        12630,
+        12631,
+        12632,
+        12633
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/omniknight_sacred_light_omniknight_loadingscreen_of_the_sacred_light-884534b9aaa7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:21368:godhammer",
+      "name": "Godhammer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        13226,
+        13227,
+        13228,
+        13229,
+        13237
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/divine_anvil_ls-72355b3909f4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:21926:lionheart",
+      "name": "Lionheart",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        19636,
+        19637,
+        19638,
+        19639,
+        19640
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/lionheart_guardian_arms-e25feaf1e088.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:22274:paragons-pride-bundle",
+      "name": "Paragons Pride Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        43
+      ],
+      "sourceItemIds": [
+        18199,
+        19204
+      ],
+      "slots": [
+        "arms",
+        "back"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/omni_2021_immortal_arms-8732678368bb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:21064:sacred-light",
+      "name": "Sacred Light",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        8954,
+        8955,
+        8956,
+        8957,
+        8958
+      ],
+      "styleSelections": {
+        "8958": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/omniknight_sacred_light_omniknight_loadingscreen_of_the_sacred_light-884534b9aaa7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:21064:sacred-light:style-1",
+      "name": "Sacred Light - Crown of Sacred Light 1",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        8954,
+        8955,
+        8956,
+        8957,
+        8958
+      ],
+      "styleSelections": {
+        "8958": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/omniknight_sacred_light_head_style1-ef6e434b238d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20646:tevent-dota-2-season-1",
+      "name": "TEvent Dota 2 Season 1",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        46
+      ],
+      "sourceItemIds": [
+        7234,
+        7235,
+        7236,
+        7237
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/pauldron_heavenly_light-ee1a4a6507ee.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20787:the-grey-gallant",
+      "name": "The Grey Gallant",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        8170,
+        8171,
+        8172,
+        8173,
+        8174
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/sltv_omni_gallant_set-37f69010e041.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20046:the-hierophants-protection-set",
+      "name": "The Hierophants Protection Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46,
+        562
+      ],
+      "sourceItemIds": [
+        4314,
+        4315,
+        4316,
+        4317,
+        4318,
+        4324
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "misc",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/head_hood_hiero-8f50b4a22bdc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20026:the-radiance-of-the-crusade-set",
+      "name": "The Radiance of the Crusade Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        4138,
+        4139,
+        4140,
+        4141,
+        4142
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/helmet_crusader-3591a808e91d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:21152:the-undying-light",
+      "name": "The Undying Light",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        9244,
+        9245,
+        9246,
+        9555,
+        9556
+      ],
+      "styleSelections": {
+        "9556": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_unbroken_knight_loadingscreen-bd1e054ccbee.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:21152:the-undying-light:style-1",
+      "name": "The Undying Light - Omniknight UndyingLight Angel",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        44,
+        46
+      ],
+      "sourceItemIds": [
+        9244,
+        9245,
+        9246,
+        9555,
+        9556
+      ],
+      "styleSelections": {
+        "9556": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_unbroken_knight_loadingscreen-bd1e054ccbee.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20067:thunderwraths-calling-set",
+      "name": "Thunderwraths Calling Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        42,
+        43,
+        46
+      ],
+      "sourceItemIds": [
+        4507,
+        4508,
+        4515
+      ],
+      "slots": [
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/thunderwraths_cape-72ba855ab957.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_omniknight:core-set:20068:wings-of-the-paladin-set",
+      "name": "Wings of the Paladin Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        13,
+        42,
+        43,
+        46
+      ],
+      "sourceItemIds": [
+        4538,
+        4560,
+        4580,
+        4581
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/winged_gauntlet3-ce87906c9b6b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 31244743,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 479
+  }
+}

@@ -1,0 +1,4754 @@
+{
+  "heroId": "npc_dota_hero_lich",
+  "sourceHeroId": "npc_dota_hero_lich",
+  "variantId": "default",
+  "heroName": "Lich",
+  "heroSlug": "lich",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lich.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_lich/eb3cf745fa20/models/heroes/lich/lich.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 333,
+      "name": "Lichs Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/734c8041dc1f/models/heroes/lich/lich_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/734c8041dc1f/models/heroes/lich/lich_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_bracer.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/734c8041dc1f/models/heroes/lich/lich_bracer_color_psd_f20c811c.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 334,
+      "name": "Lichs Back",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/47adb0e70746/models/heroes/lich/lich_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/47adb0e70746/models/heroes/lich/lich_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_horns.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/47adb0e70746/models/heroes/lich/lich_horn_color_psd_215c2ee1.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 331,
+      "name": "Lichs Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d9206748a742/models/heroes/lich/lich_dress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/d9206748a742/models/heroes/lich/lich_dress.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_dress.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d9206748a742/models/heroes/lich/lich_dress_color_psd_6024c2ae.png"
+    },
+    {
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "itemId": 332,
+      "name": "Lichs Neck",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/3f19ab9c336f/models/heroes/lich/lich_neck_rock.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/3f19ab9c336f/models/heroes/lich/lich_neck_rock.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_neck_rock.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/3f19ab9c336f/models/heroes/lich/lich_neck_rock_color_psd_c10a7438.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_lich:item-model:13744:the-pirate-king-arms",
+      "itemId": 13744,
+      "name": "Arms of the Mad Mutineer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/364766a537ce/models/items/lich/the_pirate_king_arms/the_pirate_king_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/364766a537ce/models/items/lich/the_pirate_king_arms/the_pirate_king_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_pirate_king_arms/the_pirate_king_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_pirate_king_arms-60cbc884cc89.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/364766a537ce/models/items/lich/the_pirate_king_arms/the_pirate_king_arms_color_tga_c40e9002.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12794:frostivus2018-lich-frozenworlds-arms",
+      "itemId": 12794,
+      "name": "Bracer of Vile Convocation",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2e6643b62acb/models/items/lich/frostivus2018_lich_frozenworlds_arms/frostivus2018_lich_frozenworlds_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2e6643b62acb/models/items/lich/frostivus2018_lich_frozenworlds_arms/frostivus2018_lich_frozenworlds_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/frostivus2018_lich_frozenworlds_arms/frostivus2018_lich_frozenworlds_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_lich_frozenworlds_arms-8282fc4bb8e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2e6643b62acb/models/items/lich/frostivus2018_lich_frozenworlds_arms/frostivus2018_lich_frozenworlds_arms_color_tga_262b3a28.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4898:ice-frostbite",
+      "itemId": 4898,
+      "name": "Bracers of Eldritch Ice",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/14e8fe63ca32/models/items/lich/ice_frostbite/ice_frostbite.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/14e8fe63ca32/models/items/lich/ice_frostbite/ice_frostbite.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/ice_frostbite/ice_frostbite.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ice_frostbite-9969be486fe7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/14e8fe63ca32/models/items/lich/ice_frostbite/ice_frostbite_color_tga_9999debc.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6214:lich-arms-sltv-t1",
+      "itemId": 6214,
+      "name": "Bracers of the Frozen Star",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/69f2047d28d5/models/items/lich/lich_arms_sltv_t1/lich_arms_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/69f2047d28d5/models/items/lich/lich_arms_sltv_t1/lich_arms_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_arms_sltv_t1/lich_arms_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_arms_sltv_t1-8110b5ba34a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/69f2047d28d5/models/items/lich/lich_arms_sltv_t1/lich_arms_sltv_t1_color_tga_dc5f349c.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12636:lich-rime-lord-arms",
+      "itemId": 12636,
+      "name": "Bracers of the Rime Lord",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/07d18bf7b0d3/models/items/lich/lich_rime_lord_arms/lich_rime_lord_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/07d18bf7b0d3/models/items/lich/lich_rime_lord_arms/lich_rime_lord_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_rime_lord_arms/lich_rime_lord_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_rime_lord_arms-2bf47075e6f5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/07d18bf7b0d3/models/items/lich/lich_rime_lord_arms/lich_rime_lord_arms_color_tga_f7e4ea9a.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8519:blizzard-tyrant-arms",
+      "itemId": 8519,
+      "name": "Bracers of the Serakund Tyrant",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/205efdf74077/models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/205efdf74077/models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_arms-9e46aa9d6836.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/205efdf74077/models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms_color_tga_ce3cb587.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8519:blizzard-tyrant-arms:style-1",
+      "itemId": 8519,
+      "name": "Bracers of the Serakund Tyrant - Style 2",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/205efdf74077/models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/205efdf74077/models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_arms_style1-3f87c51c28d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/205efdf74077/models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms_color_tga_ce3cb587.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_arms/blizzard_tyrant_arms_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14579:lich-lord-of-permafrost-arms",
+      "itemId": 14579,
+      "name": "CobraKa  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/f13b997d826a/models/items/lich/lich_lord_of_permafrost_arms/lich_lord_of_permafrost_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/f13b997d826a/models/items/lich/lich_lord_of_permafrost_arms/lich_lord_of_permafrost_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_lord_of_permafrost_arms/lich_lord_of_permafrost_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_lord_of_permafrost_arms-03713ee21b98.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/f13b997d826a/models/items/lich/lich_lord_of_permafrost_arms/lich_lord_of_permafrost_arms_color_psd_d0c7e34f.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8599:forbidden-knowledge-arms",
+      "itemId": 8599,
+      "name": "Cuffs of Forbidden Knowledge",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5447b460e7fa/models/items/lich/forbidden_knowledge_arms/forbidden_knowledge_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/5447b460e7fa/models/items/lich/forbidden_knowledge_arms/forbidden_knowledge_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/forbidden_knowledge_arms/forbidden_knowledge_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/forbidden_knowledge_arms-1ac94eafceee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5447b460e7fa/models/items/lich/forbidden_knowledge_arms/forbidden_knowledge_arms_color_tga_e8e7ab1b.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4854:the-deadwinter-arms",
+      "itemId": 4854,
+      "name": "Dead Winter Grasp",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2ec16391d47a/models/items/lich/the_deadwinter_arms/the_deadwinter_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2ec16391d47a/models/items/lich/the_deadwinter_arms/the_deadwinter_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_deadwinter_arms/the_deadwinter_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_deadwinter_arms-7c0414f275db.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2ec16391d47a/models/items/lich/the_deadwinter_arms/the_deadwinter_arms_color_tga_51e6612c.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7066:imperialists-runed-bracers",
+      "itemId": 7066,
+      "name": "Frozen Emperors Runed Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/168b0f6f1a82/models/items/lich/imperialists_runed_bracers/imperialists_runed_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/168b0f6f1a82/models/items/lich/imperialists_runed_bracers/imperialists_runed_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/imperialists_runed_bracers/imperialists_runed_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperialists_runed_bracers-2f29a317ae88.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/168b0f6f1a82/models/items/lich/imperialists_runed_bracers/imperialists_runed_bracers_color_tga_38a4fab5.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8454:erlkonig-bracers",
+      "itemId": 8454,
+      "name": "Gauntlets of the Frost Lord",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/db48d7044f2e/models/items/lich/erlkonig_bracers/erlkonig_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/db48d7044f2e/models/items/lich/erlkonig_bracers/erlkonig_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/erlkonig_bracers/erlkonig_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/erlkonig_bracers-4a787dd7cd3a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/db48d7044f2e/models/items/lich/erlkonig_bracers/erlkonig_bracers_color_tga_802b3074.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:9756:lich-ti8-immortal-arms",
+      "itemId": 9756,
+      "name": "Glare of the Tyrant",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d51be35e0c34/models/items/lich/lich_ti8_immortal_arms/lich_ti8_immortal_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/d51be35e0c34/models/items/lich/lich_ti8_immortal_arms/lich_ti8_immortal_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_ti8_immortal_arms/lich_ti8_immortal_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_ti8_immortal_arms-c8e9d40d1e34.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d51be35e0c34/models/items/lich/lich_ti8_immortal_arms/lich_ti8_immortal_arms_color_psd_fb6c0174.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_ti8_immortal_arms/lich_ti8_immortal_arms.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_ti8_immortal_arms/lich_ti8_immortal_arms.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/lich_ti8_immortal_arms/lich_ti8_ambient_frost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lich/lich_ti8_immortal_arms/lich_ti8_chain_frost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lich/lich_ambient_frost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lich/lich_ambient_frost_legs.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lich/lich_chain_frost.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:333:lich-bracer",
+      "itemId": 333,
+      "name": "Lichs Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/734c8041dc1f/models/heroes/lich/lich_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/734c8041dc1f/models/heroes/lich/lich_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_bracer-4de5379de10f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/734c8041dc1f/models/heroes/lich/lich_bracer_color_psd_f20c811c.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14156:dplus-lord-of-the-forsaken-arms",
+      "itemId": 14156,
+      "name": "Lord of the Forsaken Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b6e60bf5df20/models/items/lich/dplus_lord_of_the_forsaken_arms/dplus_lord_of_the_forsaken_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/b6e60bf5df20/models/items/lich/dplus_lord_of_the_forsaken_arms/dplus_lord_of_the_forsaken_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/dplus_lord_of_the_forsaken_arms/dplus_lord_of_the_forsaken_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_lord_of_the_forsaken_arms-c8b4debe694e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b6e60bf5df20/models/items/lich/dplus_lord_of_the_forsaken_arms/dplus_lord_of_the_forsaken_arms_color_tga_1924d967.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17604:ethreains-vestments-arms",
+      "itemId": 17604,
+      "name": "Revival of the Ice Witch Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/28238beda24e/models/items/lich/ethreains_vestments_arms/ethreains_vestments_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/28238beda24e/models/items/lich/ethreains_vestments_arms/ethreains_vestments_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/ethreains_vestments_arms/ethreains_vestments_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ethreains_vestments_arms-f4a8f61e2dcb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/28238beda24e/models/items/lich/ethreains_vestments_arms/ethreains_vestments_arms_color_tga_4c8d379a.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7932:master-of-jiang-shi-lich-arms",
+      "itemId": 7932,
+      "name": "Sleeves of the Jiang Shis Revenge",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/dc847ee716fc/models/items/lich/master_of_jiang_shi_lich_arms/master_of_jiang_shi_lich_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/dc847ee716fc/models/items/lich/master_of_jiang_shi_lich_arms/master_of_jiang_shi_lich_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/master_of_jiang_shi_lich_arms/master_of_jiang_shi_lich_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_of_jiang_shi_lich_arms-6194d34ce78f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/dc847ee716fc/models/items/lich/master_of_jiang_shi_lich_arms/master_of_jiang_shi_lich_arms_color_psd_51fb97d5.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14132:icebound-king-set-arms",
+      "itemId": 14132,
+      "name": "Vote Only Icebound King Set Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/592d477a114f/models/items/lich/icebound_king_set_arms/icebound_king_set_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/592d477a114f/models/items/lich/icebound_king_set_arms/icebound_king_set_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/icebound_king_set_arms/icebound_king_set_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icebound_king_set_arms-dba8fe531e5a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/592d477a114f/models/items/lich/icebound_king_set_arms/icebound_king_set_arms_color_tga_f59cd503.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14307:the-curse-of-black-pool-arms",
+      "itemId": 14307,
+      "name": "Vote Only The Curse of Black Pool Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f1055327733/models/items/lich/the_curse_of_black_pool_arms/the_curse_of_black_pool_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2f1055327733/models/items/lich/the_curse_of_black_pool_arms/the_curse_of_black_pool_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_curse_of_black_pool_arms/the_curse_of_black_pool_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_curse_of_black_pool_arms-cd93e214f7f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f1055327733/models/items/lich/the_curse_of_black_pool_arms/the_curse_of_black_pool_arms_color_tga_36063852.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6890:blackpool-arms",
+      "itemId": 6890,
+      "name": "Wraps of the Black Pool",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/480ce419a5a3/models/items/lich/blackpool_arms/blackpool_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/480ce419a5a3/models/items/lich/blackpool_arms/blackpool_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blackpool_arms/blackpool_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blackpool_arms-8c2796f21a73.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/480ce419a5a3/models/items/lich/blackpool_arms/blackpool_arms_color_tga_5d261e8b.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17575:the-pirate-king-back",
+      "itemId": 17575,
+      "name": "Back of the Mad Mutineer",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/775c39b86d64/models/items/lich/the_pirate_king_back/the_pirate_king_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/775c39b86d64/models/items/lich/the_pirate_king_back/the_pirate_king_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_pirate_king_back/the_pirate_king_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_pirate_king_back-dbf82d451274.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/775c39b86d64/models/items/lich/the_pirate_king_back/the_pirate_king_back_color_tga_2fb77311.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12795:frostivus2018-lich-frozenworlds-back",
+      "itemId": 12795,
+      "name": "Chains of Vile Convocation",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/cbef3004ff59/models/items/lich/frostivus2018_lich_frozenworlds_back/frostivus2018_lich_frozenworlds_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/cbef3004ff59/models/items/lich/frostivus2018_lich_frozenworlds_back/frostivus2018_lich_frozenworlds_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/frostivus2018_lich_frozenworlds_back/frostivus2018_lich_frozenworlds_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_lich_frozenworlds_back-96b3e9cf1a7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/cbef3004ff59/models/items/lich/frostivus2018_lich_frozenworlds_back/frostivus2018_lich_frozenworlds_back_color_psd_93bf5336.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/frostivus2018_lich_frozenworlds_back/frostivus2018_lich_frozenworlds_back.vmdl",
+        "modelPaths": [
+          "models/items/lich/frostivus2018_lich_frozenworlds_back/frostivus2018_lich_frozenworlds_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/frozenworlds/lich_frozenworlds_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:9560:lich-rime-lord-back",
+      "itemId": 9560,
+      "name": "Cloak of the Rime Lord",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/ea257823e402/models/items/lich/lich_rime_lord_back/lich_rime_lord_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/ea257823e402/models/items/lich/lich_rime_lord_back/lich_rime_lord_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_rime_lord_back/lich_rime_lord_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_rime_lord_back-bc730c09fbd1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/ea257823e402/models/items/lich/lich_rime_lord_back/lich_rime_lord_back_color_tga_b0df63d8.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14581:lich-lord-of-permafrost-back",
+      "itemId": 14581,
+      "name": "CobraKa  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/05c8a66d32fc/models/items/lich/lich_lord_of_permafrost_back/lich_lord_of_permafrost_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/05c8a66d32fc/models/items/lich/lich_lord_of_permafrost_back/lich_lord_of_permafrost_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_lord_of_permafrost_back/lich_lord_of_permafrost_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_lord_of_permafrost_back-c38305fcc013.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/05c8a66d32fc/models/items/lich/lich_lord_of_permafrost_back/lich_lord_of_permafrost_back_color_psd_466bf226.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_lord_of_permafrost_back/lich_lord_of_permafrost_back.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_lord_of_permafrost_back/lich_lord_of_permafrost_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/lich_permafrost/lich_permafrost_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7885:master-of-jiang-shi-lich-back",
+      "itemId": 7885,
+      "name": "Coffin of the Jiang Shis Revenge",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8435f9906cf9/models/items/lich/master_of_jiang_shi_lich_back/master_of_jiang_shi_lich_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/8435f9906cf9/models/items/lich/master_of_jiang_shi_lich_back/master_of_jiang_shi_lich_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/master_of_jiang_shi_lich_back/master_of_jiang_shi_lich_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_of_jiang_shi_lich_back-6abce8cc6b3f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8435f9906cf9/models/items/lich/master_of_jiang_shi_lich_back/master_of_jiang_shi_lich_back_color_psd_48d5dfe.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8522:blizzard-tyrant-back",
+      "itemId": 8522,
+      "name": "Core of the Serakund Tyrant",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2584f3e7ba6a/models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2584f3e7ba6a/models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_back-93b664fd0dda.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2584f3e7ba6a/models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back_color_tga_7980cdf1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face_dark.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_back/blizzard_tyrant_back",
+            "assets": [
+              {
+                "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_back/blizzard_tyrant_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face_dark.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8522:blizzard-tyrant-back:style-1",
+      "itemId": 8522,
+      "name": "Core of the Serakund Tyrant - Style 2",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2584f3e7ba6a/models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2584f3e7ba6a/models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_back_style1-3880342bcc5f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2584f3e7ba6a/models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back_color_tga_7980cdf1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_back/blizzard_tyrant_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face_dark.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_back/blizzard_tyrant_back",
+            "assets": [
+              {
+                "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_back/blizzard_tyrant_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/lich/blizzard_of_the_tyrant/blyzard_of_the_tyrant_back_face_dark.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4852:the-deadwinter-back",
+      "itemId": 4852,
+      "name": "Dead Winter Soul",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/67b3e9fcf2d1/models/items/lich/the_deadwinter_back/the_deadwinter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/67b3e9fcf2d1/models/items/lich/the_deadwinter_back/the_deadwinter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_deadwinter_back/the_deadwinter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_deadwinter_back-156acc40a4e5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/67b3e9fcf2d1/models/items/lich/the_deadwinter_back/the_deadwinter_back_color_tga_7f60c39a.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6949:imperialists-cape-of-the-twin-dragons",
+      "itemId": 6949,
+      "name": "Frozen Emperors Twin Dragon Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/e9b1acc7f73c/models/items/lich/imperialists_cape_of_the_twin_dragons/imperialists_cape_of_the_twin_dragons.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/e9b1acc7f73c/models/items/lich/imperialists_cape_of_the_twin_dragons/imperialists_cape_of_the_twin_dragons.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/imperialists_cape_of_the_twin_dragons/imperialists_cape_of_the_twin_dragons.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperialists_cape_of_the_twin_dragons-05a781b98a2b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/e9b1acc7f73c/models/items/lich/imperialists_cape_of_the_twin_dragons/imperialists_cape_of_the_twin_dragons_color_tga_3420b3a2.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4896:glacier",
+      "itemId": 4896,
+      "name": "Glacier of Eldritch Ice",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/ff5a57c86d07/models/items/lich/glacier/glacier.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/ff5a57c86d07/models/items/lich/glacier/glacier.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/glacier/glacier.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glacier-85d35bad83d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/ff5a57c86d07/models/items/lich/glacier/glacier_color_tga_fa003851.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:334:lich-horns",
+      "itemId": 334,
+      "name": "Lichs Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/47adb0e70746/models/heroes/lich/lich_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/47adb0e70746/models/heroes/lich/lich_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_horns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_horns-f892d63585a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/47adb0e70746/models/heroes/lich/lich_horn_color_psd_215c2ee1.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14154:dplus-lord-of-the-forsaken-back",
+      "itemId": 14154,
+      "name": "Lord of the Forsaken Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/7a919461d925/models/items/lich/dplus_lord_of_the_forsaken_back/dplus_lord_of_the_forsaken_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/7a919461d925/models/items/lich/dplus_lord_of_the_forsaken_back/dplus_lord_of_the_forsaken_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/dplus_lord_of_the_forsaken_back/dplus_lord_of_the_forsaken_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_lord_of_the_forsaken_back-2f1fd3a26c02.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/7a919461d925/models/items/lich/dplus_lord_of_the_forsaken_back/dplus_lord_of_the_forsaken_back_color_tga_9032e350.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8453:erlkonig-back",
+      "itemId": 8453,
+      "name": "Restraints of the Frost Lord",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5de94b9fcf8f/models/items/lich/erlkonig_back/erlkonig_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/5de94b9fcf8f/models/items/lich/erlkonig_back/erlkonig_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/erlkonig_back/erlkonig_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/erlkonig_back-61ff5f7672ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5de94b9fcf8f/models/items/lich/erlkonig_back/erlkonig_back_color_tga_f0379751.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17605:ethreains-vestments-back",
+      "itemId": 17605,
+      "name": "Revival of the Ice Witch Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8b21a6537476/models/items/lich/ethreains_vestments_back/ethreains_vestments_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/8b21a6537476/models/items/lich/ethreains_vestments_back/ethreains_vestments_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/ethreains_vestments_back/ethreains_vestments_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ethreains_vestments_back-8dd6f21fb5bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8b21a6537476/models/items/lich/ethreains_vestments_back/ethreains_vestments_back_color_tga_4d4ce6b5.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6896:blackpool-back",
+      "itemId": 6896,
+      "name": "Spikes of the Black Pool",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/a5a755d01c3f/models/items/lich/blackpool_back/blackpool_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/a5a755d01c3f/models/items/lich/blackpool_back/blackpool_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blackpool_back/blackpool_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blackpool_back-4e82d632489f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/a5a755d01c3f/models/items/lich/blackpool_back/blackpool_back_color_tga_9f7f6686.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6216:lich-back-sltv-t1",
+      "itemId": 6216,
+      "name": "Statue of the Frozen Star",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_back_sltv_t1-971c902dc875.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1_color_tga_5ee132f6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Back Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_back_sltv_t1/lich_back_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Back Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_back_sltv_t2/lich_back_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t2/lich_back_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Back Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_back_sltv_t3/lich_back_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t3/lich_back_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6216:lich-back-sltv-t1:style-1",
+      "itemId": 6216,
+      "name": "Statue of the Frozen Star - Style 2",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_back_sltv_t2-93e580f6c20b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1_color_tga_5ee132f6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Back Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_back_sltv_t1/lich_back_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Back Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_back_sltv_t2/lich_back_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t2/lich_back_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Back Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_back_sltv_t3/lich_back_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t3/lich_back_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6216:lich-back-sltv-t1:style-2",
+      "itemId": 6216,
+      "name": "Statue of the Frozen Star - Style 3",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_back_sltv_t3-c528281932e7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/deabd93c595f/models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1_color_tga_5ee132f6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Back Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_back_sltv_t1/lich_back_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t1/lich_back_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Back Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_back_sltv_t2/lich_back_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t2/lich_back_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Back Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_back_sltv_t3/lich_back_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_back_sltv_t3/lich_back_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8600:forbidden-knowledge-back",
+      "itemId": 8600,
+      "name": "Tome of Forbidden Knowledge",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/0e2304fb9e0f/models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/0e2304fb9e0f/models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/forbidden_knowledge_back-5f65e463d8f5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/0e2304fb9e0f/models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back_color_tga_8ed856c2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.vmdl",
+        "modelPaths": [
+          "models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/forbidden_knowledge/lich_forbidden_knowledge_ambient_book.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "icon": "econ/items/lich/forbidden_knowledge_back/forbidden_knowledge_back",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/forbidden_knowledge_back/forbidden_knowledge_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/lich/forbidden_knowledge/lich_forbidden_knowledge_ambient_book.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8600:forbidden-knowledge-back:style-1",
+      "itemId": 8600,
+      "name": "Tome of Forbidden Knowledge - Infused",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/0e2304fb9e0f/models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/0e2304fb9e0f/models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/forbidden_knowledge_back_style1-7c0dd7c0dd63.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/0e2304fb9e0f/models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back_color_tga_8ed856c2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.vmdl",
+        "modelPaths": [
+          "models/items/lich/forbidden_knowledge_back/forbidden_knowledge_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/forbidden_knowledge/lich_forbidden_knowledge_ambient_book.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "icon": "econ/items/lich/forbidden_knowledge_back/forbidden_knowledge_back",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/forbidden_knowledge_back/forbidden_knowledge_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/lich/forbidden_knowledge/lich_forbidden_knowledge_ambient_book.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14131:icebound-king-set-back",
+      "itemId": 14131,
+      "name": "Vote Only Icebound King Set Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/859f21f2f2f8/models/items/lich/icebound_king_set_back/icebound_king_set_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/859f21f2f2f8/models/items/lich/icebound_king_set_back/icebound_king_set_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/icebound_king_set_back/icebound_king_set_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icebound_king_set_back-cf3f67c3a4bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/859f21f2f2f8/models/items/lich/icebound_king_set_back/icebound_king_set_back_color_tga_f529948e.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14308:the-curse-of-black-pool-back",
+      "itemId": 14308,
+      "name": "Vote Only The Curse of Black Pool Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/261daa2c57ae/models/items/lich/the_curse_of_black_pool_back/the_curse_of_black_pool_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/261daa2c57ae/models/items/lich/the_curse_of_black_pool_back/the_curse_of_black_pool_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_curse_of_black_pool_back/the_curse_of_black_pool_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_curse_of_black_pool_back-5092ae34cd4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/261daa2c57ae/models/items/lich/the_curse_of_black_pool_back/the_curse_of_black_pool_back_color_tga_dcee27ba.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12796:frostivus2018-lich-frozenworlds-belt",
+      "itemId": 12796,
+      "name": "Belt of Vile Convocation",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d24c34489c1a/models/items/lich/frostivus2018_lich_frozenworlds_belt/frostivus2018_lich_frozenworlds_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/d24c34489c1a/models/items/lich/frostivus2018_lich_frozenworlds_belt/frostivus2018_lich_frozenworlds_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/frostivus2018_lich_frozenworlds_belt/frostivus2018_lich_frozenworlds_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_lich_frozenworlds_belt-c3bc8f8168a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d24c34489c1a/models/items/lich/frostivus2018_lich_frozenworlds_belt/frostivus2018_lich_frozenworlds_belt_color_tga_98554ed0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/frostivus2018_lich_frozenworlds_belt/frostivus2018_lich_frozenworlds_belt.vmdl",
+        "modelPaths": [
+          "models/items/lich/frostivus2018_lich_frozenworlds_belt/frostivus2018_lich_frozenworlds_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/frozenworlds/lich_frozenworlds_belt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6891:blackpool-belt",
+      "itemId": 6891,
+      "name": "Belt of the Black Pool",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/1b9c940ef695/models/items/lich/blackpool_belt/blackpool_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/1b9c940ef695/models/items/lich/blackpool_belt/blackpool_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blackpool_belt/blackpool_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blackpool_belt-8998a3f7098a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/1b9c940ef695/models/items/lich/blackpool_belt/blackpool_belt_color_tga_999b4256.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17577:the-pirate-king-belt",
+      "itemId": 17577,
+      "name": "Belt of the Mad Mutineer",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5aef2cd9e2de/models/items/lich/the_pirate_king_belt/the_pirate_king_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/5aef2cd9e2de/models/items/lich/the_pirate_king_belt/the_pirate_king_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_pirate_king_belt/the_pirate_king_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_pirate_king_belt-ce2ee8bbe8e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5aef2cd9e2de/models/items/lich/the_pirate_king_belt/the_pirate_king_belt_color_tga_1c219999.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4895:rags",
+      "itemId": 4895,
+      "name": "Bindings of Eldritch Ice",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/26f2cb55e937/models/items/lich/rags/rags.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/26f2cb55e937/models/items/lich/rags/rags.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/rags/rags.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rags-b918f441a26d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/26f2cb55e937/models/items/lich/rags/rags_color_tga_c95b425e.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6217:lich-belt-sltv-t1",
+      "itemId": 6217,
+      "name": "Bindings of the Frozen Star",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_belt_sltv_t1-5ed3a56b9832.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1_color_tga_416c772e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Belt Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Belt Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_belt_sltv_t2/lich_belt_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t2/lich_belt_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Belt Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_belt_sltv_t3/lich_belt_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t3/lich_belt_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6217:lich-belt-sltv-t1:style-1",
+      "itemId": 6217,
+      "name": "Bindings of the Frozen Star - Style 2",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_belt_sltv_t2-af6c5fc419d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1_color_tga_416c772e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Belt Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Belt Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_belt_sltv_t2/lich_belt_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t2/lich_belt_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Belt Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_belt_sltv_t3/lich_belt_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t3/lich_belt_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6217:lich-belt-sltv-t1:style-2",
+      "itemId": 6217,
+      "name": "Bindings of the Frozen Star - Style 3",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_belt_sltv_t3-2178b50425c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110c4a6bb148/models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1_color_tga_416c772e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Belt Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t1/lich_belt_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Belt Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_belt_sltv_t2/lich_belt_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t2/lich_belt_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Belt Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_belt_sltv_t3/lich_belt_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_belt_sltv_t3/lich_belt_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8452:erlkonig-belt",
+      "itemId": 8452,
+      "name": "Cloak of the Frost Lord",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/179304fafc19/models/items/lich/erlkonig_belt/erlkonig_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/179304fafc19/models/items/lich/erlkonig_belt/erlkonig_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/erlkonig_belt/erlkonig_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/erlkonig_belt-bd2b93b8539c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/179304fafc19/models/items/lich/erlkonig_belt/erlkonig_belt_color_tga_f13c0744.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14580:lich-lord-of-permafrost-belt",
+      "itemId": 14580,
+      "name": "CobraKa  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d7c13cd768fb/models/items/lich/lich_lord_of_permafrost_belt/lich_lord_of_permafrost_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/d7c13cd768fb/models/items/lich/lich_lord_of_permafrost_belt/lich_lord_of_permafrost_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_lord_of_permafrost_belt/lich_lord_of_permafrost_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_lord_of_permafrost_belt-cfdadeed8b7c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d7c13cd768fb/models/items/lich/lich_lord_of_permafrost_belt/lich_lord_of_permafrost_belt_color_psd_b2584a65.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_lord_of_permafrost_belt/lich_lord_of_permafrost_belt.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_lord_of_permafrost_belt/lich_lord_of_permafrost_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/lich_permafrost/lich_permafrost_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4853:the-deadwinter-sash",
+      "itemId": 4853,
+      "name": "Dead Winter Sash",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/574eafd87d40/models/items/lich/the_deadwinter_sash/the_deadwinter_sash.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/574eafd87d40/models/items/lich/the_deadwinter_sash/the_deadwinter_sash.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_deadwinter_sash/the_deadwinter_sash.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_deadwinter_sash-d11e949dff85.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/574eafd87d40/models/items/lich/the_deadwinter_sash/the_deadwinter_sash_color_tga_1d4de94b.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7065:imperialists-mana-chamber",
+      "itemId": 7065,
+      "name": "Frozen Emperors Cursed Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d6871a8c9df5/models/items/lich/imperialists_mana_chamber/imperialists_mana_chamber.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/d6871a8c9df5/models/items/lich/imperialists_mana_chamber/imperialists_mana_chamber.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/imperialists_mana_chamber/imperialists_mana_chamber.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperialists_mana_chamber-3f0dabbf803c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d6871a8c9df5/models/items/lich/imperialists_mana_chamber/imperialists_mana_chamber_color_tga_4ebfef56.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:331:lich-dress",
+      "itemId": 331,
+      "name": "Lichs Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d9206748a742/models/heroes/lich/lich_dress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/d9206748a742/models/heroes/lich/lich_dress.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_dress.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_dress-b355f0c32117.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/d9206748a742/models/heroes/lich/lich_dress_color_psd_6024c2ae.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14155:dplus-lord-of-the-forsaken-belt",
+      "itemId": 14155,
+      "name": "Lord of the Forsaken Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/4ed52361ae60/models/items/lich/dplus_lord_of_the_forsaken_belt/dplus_lord_of_the_forsaken_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/4ed52361ae60/models/items/lich/dplus_lord_of_the_forsaken_belt/dplus_lord_of_the_forsaken_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/dplus_lord_of_the_forsaken_belt/dplus_lord_of_the_forsaken_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_lord_of_the_forsaken_belt-6bd3615dcb11.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/4ed52361ae60/models/items/lich/dplus_lord_of_the_forsaken_belt/dplus_lord_of_the_forsaken_belt_color_tga_68e939a8.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17606:ethreains-vestments-belt",
+      "itemId": 17606,
+      "name": "Revival of the Ice Witch Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/772a92c7b1ee/models/items/lich/ethreains_vestments_belt/ethreains_vestments_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/772a92c7b1ee/models/items/lich/ethreains_vestments_belt/ethreains_vestments_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/ethreains_vestments_belt/ethreains_vestments_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ethreains_vestments_belt-c8364ef6fff7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/772a92c7b1ee/models/items/lich/ethreains_vestments_belt/ethreains_vestments_belt_color_tga_59a16c74.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8601:forbidden-knowledge-belt",
+      "itemId": 8601,
+      "name": "Robe of Forbidden Knowledge",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8800424e1059/models/items/lich/forbidden_knowledge_belt/forbidden_knowledge_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/8800424e1059/models/items/lich/forbidden_knowledge_belt/forbidden_knowledge_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/forbidden_knowledge_belt/forbidden_knowledge_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/forbidden_knowledge_belt-b15679fe75a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8800424e1059/models/items/lich/forbidden_knowledge_belt/forbidden_knowledge_belt_color_tga_a17e05.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7899:master-of-jiang-shi-lich-belt",
+      "itemId": 7899,
+      "name": "Robe of the Jiang Shis Revenge",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/3bb397219cf7/models/items/lich/master_of_jiang_shi_lich_belt/master_of_jiang_shi_lich_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/3bb397219cf7/models/items/lich/master_of_jiang_shi_lich_belt/master_of_jiang_shi_lich_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/master_of_jiang_shi_lich_belt/master_of_jiang_shi_lich_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_of_jiang_shi_lich_belt-ad11d23a9096.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/3bb397219cf7/models/items/lich/master_of_jiang_shi_lich_belt/master_of_jiang_shi_lich_belt_color_psd_4d906035.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:9561:lich-rime-lord-belt",
+      "itemId": 9561,
+      "name": "Robe of the Rime Lord",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/84e88140a7f2/models/items/lich/lich_rime_lord_belt/lich_rime_lord_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/84e88140a7f2/models/items/lich/lich_rime_lord_belt/lich_rime_lord_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_rime_lord_belt/lich_rime_lord_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_rime_lord_belt-efbdeeaf587d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/84e88140a7f2/models/items/lich/lich_rime_lord_belt/lich_rime_lord_belt_color_tga_a01262a.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8523:blizzard-tyrant-belt",
+      "itemId": 8523,
+      "name": "Tassets of the Serakund Tyrant",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/73cad5f4a8d5/models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/73cad5f4a8d5/models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_belt-4efb2274c63f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/73cad5f4a8d5/models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt_color_tga_b32eade4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8523:blizzard-tyrant-belt:style-1",
+      "itemId": 8523,
+      "name": "Tassets of the Serakund Tyrant - Style 2",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/73cad5f4a8d5/models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/73cad5f4a8d5/models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_belt_style1-edef9a8f5bf4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/73cad5f4a8d5/models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt_color_tga_b32eade4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_belt/blizzard_tyrant_belt_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14130:icebound-king-set-belt",
+      "itemId": 14130,
+      "name": "Vote Only Icebound King Set Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/40c61a753230/models/items/lich/icebound_king_set_belt/icebound_king_set_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/40c61a753230/models/items/lich/icebound_king_set_belt/icebound_king_set_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/icebound_king_set_belt/icebound_king_set_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icebound_king_set_belt-d4c6261b4c85.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/40c61a753230/models/items/lich/icebound_king_set_belt/icebound_king_set_belt_color_tga_5a4e079e.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14309:the-curse-of-black-pool-belt",
+      "itemId": 14309,
+      "name": "Vote Only The Curse of Black Pool Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/95325b054579/models/items/lich/the_curse_of_black_pool_belt/the_curse_of_black_pool_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/95325b054579/models/items/lich/the_curse_of_black_pool_belt/the_curse_of_black_pool_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_curse_of_black_pool_belt/the_curse_of_black_pool_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_curse_of_black_pool_belt-3e01afc063a2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/95325b054579/models/items/lich/the_curse_of_black_pool_belt/the_curse_of_black_pool_belt_color_tga_1af8d2ec.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8602:forbidden-knowledge-head",
+      "itemId": 8602,
+      "name": "Cage of Forbidden Knowledge",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110cbcbbee2d/models/items/lich/forbidden_knowledge_head/forbidden_knowledge_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/110cbcbbee2d/models/items/lich/forbidden_knowledge_head/forbidden_knowledge_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/forbidden_knowledge_head/forbidden_knowledge_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/forbidden_knowledge_head-efe1c8c823ba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/110cbcbbee2d/models/items/lich/forbidden_knowledge_head/forbidden_knowledge_head_color_tga_15adeeb4.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14582:lich-lord-of-permafrost-head",
+      "itemId": 14582,
+      "name": "CobraKa  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/73a7a3922173/models/items/lich/lich_lord_of_permafrost_head/lich_lord_of_permafrost_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/73a7a3922173/models/items/lich/lich_lord_of_permafrost_head/lich_lord_of_permafrost_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_lord_of_permafrost_head/lich_lord_of_permafrost_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_lord_of_permafrost_head-3446077723cc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/73a7a3922173/models/items/lich/lich_lord_of_permafrost_head/lich_lord_of_permafrost_head_color_psd_d51c5282.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_lord_of_permafrost_head/lich_lord_of_permafrost_head.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_lord_of_permafrost_head/lich_lord_of_permafrost_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/lich_permafrost/lich_permafrost_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12797:frostivus2018-lich-frozenworlds-head",
+      "itemId": 12797,
+      "name": "Crown of Vile Convocation",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/e62c4218b970/models/items/lich/frostivus2018_lich_frozenworlds_head/frostivus2018_lich_frozenworlds_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/e62c4218b970/models/items/lich/frostivus2018_lich_frozenworlds_head/frostivus2018_lich_frozenworlds_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/frostivus2018_lich_frozenworlds_head/frostivus2018_lich_frozenworlds_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_lich_frozenworlds_head-7cc2e14212d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/e62c4218b970/models/items/lich/frostivus2018_lich_frozenworlds_head/frostivus2018_lich_frozenworlds_head_color_tga_eeb2ff63.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/frostivus2018_lich_frozenworlds_head/frostivus2018_lich_frozenworlds_head.vmdl",
+        "modelPaths": [
+          "models/items/lich/frostivus2018_lich_frozenworlds_head/frostivus2018_lich_frozenworlds_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/frozenworlds/lich_frozenworlds_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8451:erlkonig-head",
+      "itemId": 8451,
+      "name": "Crown of the Frost Lord",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/4761c463b111/models/items/lich/erlkonig_head/erlkonig_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/4761c463b111/models/items/lich/erlkonig_head/erlkonig_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/erlkonig_head/erlkonig_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/erlkonig_head-4981806b8fc7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/4761c463b111/models/items/lich/erlkonig_head/erlkonig_head_color_tga_6256ea.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12638:lich-rime-lord-head",
+      "itemId": 12638,
+      "name": "Crown of the Rime Lord",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/fea064fded4b/models/items/lich/lich_rime_lord_head/lich_rime_lord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/fea064fded4b/models/items/lich/lich_rime_lord_head/lich_rime_lord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_rime_lord_head/lich_rime_lord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_rime_lord_head-d299394fc214.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/fea064fded4b/models/items/lich/lich_rime_lord_head/lich_rime_lord_head_color_tga_74274cf2.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8521:blizzard-tyrant-head",
+      "itemId": 8521,
+      "name": "Crown of the Serakund Tyrant",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/897de88c8f33/models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/897de88c8f33/models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_head-2d6ef60ee21d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/897de88c8f33/models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head_color_tga_a123c00e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_head/blizzard_tyrant_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_head/blizzard_tyrant_head_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8521:blizzard-tyrant-head:style-1",
+      "itemId": 8521,
+      "name": "Crown of the Serakund Tyrant - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/897de88c8f33/models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/897de88c8f33/models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_head_style1-5aee5a3b4984.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/897de88c8f33/models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head_color_tga_a123c00e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_head/blizzard_tyrant_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_head/blizzard_tyrant_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_head/blizzard_tyrant_head_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7063:imperialists-frost-biter",
+      "itemId": 7063,
+      "name": "Frozen Emperors Demon Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5986b3cd793e/models/items/lich/imperialists_frost_biter/imperialists_frost_biter.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/5986b3cd793e/models/items/lich/imperialists_frost_biter/imperialists_frost_biter.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/imperialists_frost_biter/imperialists_frost_biter.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperialists_frost_biter-4a6d5da438e5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5986b3cd793e/models/items/lich/imperialists_frost_biter/imperialists_frost_biter_color_tga_f440ec6a.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7907:master-of-jiang-shi-lich-head",
+      "itemId": 7907,
+      "name": "Hat of the Jiang Shis Revenge",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/11022b62c912/models/items/lich/master_of_jiang_shi_lich_head/master_of_jiang_shi_lich_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/11022b62c912/models/items/lich/master_of_jiang_shi_lich_head/master_of_jiang_shi_lich_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/master_of_jiang_shi_lich_head/master_of_jiang_shi_lich_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_of_jiang_shi_lich_head-8f4ed65b3fd3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/11022b62c912/models/items/lich/master_of_jiang_shi_lich_head/master_of_jiang_shi_lich_head_color_tga_c439fe50.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17576:the-pirate-king-head",
+      "itemId": 17576,
+      "name": "Hat of the Mad Mutineer",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/edde4963879a/models/items/lich/the_pirate_king_head/the_pirate_king_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/edde4963879a/models/items/lich/the_pirate_king_head/the_pirate_king_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_pirate_king_head/the_pirate_king_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_pirate_king_head-11a2e85fd687.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/edde4963879a/models/items/lich/the_pirate_king_head/the_pirate_king_head_color_tga_7ae4e0fc.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14153:dplus-lord-of-the-forsaken-head",
+      "itemId": 14153,
+      "name": "Lord of the Forsaken Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/cc7e2fc214e1/models/items/lich/dplus_lord_of_the_forsaken_head/dplus_lord_of_the_forsaken_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/cc7e2fc214e1/models/items/lich/dplus_lord_of_the_forsaken_head/dplus_lord_of_the_forsaken_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/dplus_lord_of_the_forsaken_head/dplus_lord_of_the_forsaken_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_lord_of_the_forsaken_head-21d3941bab79.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/cc7e2fc214e1/models/items/lich/dplus_lord_of_the_forsaken_head/dplus_lord_of_the_forsaken_head_color_tga_325fcf0f.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14998:lich-ti10-immortal-head",
+      "itemId": 14998,
+      "name": "Perversions of the Bloodwhorl",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/460125010d62/models/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/460125010d62/models/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_ti10_immortal_head-fb1a0abac66e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/460125010d62/models/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_head_color_png_83326e4e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_head.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_gaze.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_gaze_status_effect.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lich/lich_ti10_immortal_head/lich_ti10_immortal_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_lich_gaze.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lich/lich_gaze.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17602:ethreains-vestments-head",
+      "itemId": 17602,
+      "name": "Revival of the Ice Witch Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8d6fb8658da1/models/items/lich/ethreains_vestments_head/ethreains_vestments_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/8d6fb8658da1/models/items/lich/ethreains_vestments_head/ethreains_vestments_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/ethreains_vestments_head/ethreains_vestments_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ethreains_vestments_head-dd24206841ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8d6fb8658da1/models/items/lich/ethreains_vestments_head/ethreains_vestments_head_color_tga_d4b66991.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14129:icebound-king-set-head",
+      "itemId": 14129,
+      "name": "Vote Only Icebound King Set Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b0d14dee8cdf/models/items/lich/icebound_king_set_head/icebound_king_set_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/b0d14dee8cdf/models/items/lich/icebound_king_set_head/icebound_king_set_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/icebound_king_set_head/icebound_king_set_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icebound_king_set_head-fa10a3afcb4b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b0d14dee8cdf/models/items/lich/icebound_king_set_head/icebound_king_set_head_color_tga_a74e0a13.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14310:the-curse-of-black-pool-head",
+      "itemId": 14310,
+      "name": "Vote Only The Curse of Black Pool Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8fa47b58356d/models/items/lich/the_curse_of_black_pool_head/the_curse_of_black_pool_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/8fa47b58356d/models/items/lich/the_curse_of_black_pool_head/the_curse_of_black_pool_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_curse_of_black_pool_head/the_curse_of_black_pool_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_curse_of_black_pool_head-ddecaf2bda2d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8fa47b58356d/models/items/lich/the_curse_of_black_pool_head/the_curse_of_black_pool_head_color_tga_974aef79.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14578:lich-lord-of-permafrost-neck",
+      "itemId": 14578,
+      "name": "CobraKa  Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/c03a2582cd22/models/items/lich/lich_lord_of_permafrost_neck/lich_lord_of_permafrost_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/c03a2582cd22/models/items/lich/lich_lord_of_permafrost_neck/lich_lord_of_permafrost_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_lord_of_permafrost_neck/lich_lord_of_permafrost_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_lord_of_permafrost_neck-600e66d10f65.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/c03a2582cd22/models/items/lich/lich_lord_of_permafrost_neck/lich_lord_of_permafrost_neck_color_psd_ab9bacf2.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8455:erlkonig-neck",
+      "itemId": 8455,
+      "name": "Collar of the Frost Lord",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/ee7650d119e6/models/items/lich/erlkonig_neck/erlkonig_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/ee7650d119e6/models/items/lich/erlkonig_neck/erlkonig_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/erlkonig_neck/erlkonig_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/erlkonig_neck-3e25bd71df37.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/ee7650d119e6/models/items/lich/erlkonig_neck/erlkonig_neck_color_tga_4c23c230.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14999:the-pirate-king-neck",
+      "itemId": 14999,
+      "name": "Collar of the Mad Mutineer",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/56feccad5dd8/models/items/lich/the_pirate_king_neck/the_pirate_king_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/56feccad5dd8/models/items/lich/the_pirate_king_neck/the_pirate_king_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_pirate_king_neck/the_pirate_king_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_pirate_king_neck-485898ac33c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/56feccad5dd8/models/items/lich/the_pirate_king_neck/the_pirate_king_neck_color_tga_486d0813.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4851:the-deadwinter-head",
+      "itemId": 4851,
+      "name": "Dead Winter Mantle",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/57707c1bf6ab/models/items/lich/the_deadwinter_head/the_deadwinter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/57707c1bf6ab/models/items/lich/the_deadwinter_head/the_deadwinter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_deadwinter_head/the_deadwinter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_deadwinter_head-078267547f6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/57707c1bf6ab/models/items/lich/the_deadwinter_head/the_deadwinter_head_color_tga_ffe46297.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7064:imperialists-guardian-lions",
+      "itemId": 7064,
+      "name": "Frozen Emperors Guardian Lion",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/6fd7c5e26796/models/items/lich/imperialists_guardian_lions/imperialists_guardian_lions.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/6fd7c5e26796/models/items/lich/imperialists_guardian_lions/imperialists_guardian_lions.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/imperialists_guardian_lions/imperialists_guardian_lions.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperialists_guardian_lions-112cfc6bf6dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/6fd7c5e26796/models/items/lich/imperialists_guardian_lions/imperialists_guardian_lions_color_tga_4992749a.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:332:lich-neck-rock",
+      "itemId": 332,
+      "name": "Lichs Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/3f19ab9c336f/models/heroes/lich/lich_neck_rock.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/3f19ab9c336f/models/heroes/lich/lich_neck_rock.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/lich/lich_neck_rock.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_neck_rock-e3734458b707.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/3f19ab9c336f/models/heroes/lich/lich_neck_rock_color_psd_c10a7438.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14566:dplus-lord-of-the-forsaken-neck",
+      "itemId": 14566,
+      "name": "Lord of the Forsaken Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8d9369e8f309/models/items/lich/dplus_lord_of_the_forsaken_neck/dplus_lord_of_the_forsaken_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/8d9369e8f309/models/items/lich/dplus_lord_of_the_forsaken_neck/dplus_lord_of_the_forsaken_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/dplus_lord_of_the_forsaken_neck/dplus_lord_of_the_forsaken_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_lord_of_the_forsaken_neck-3b8c2819dd7c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/8d9369e8f309/models/items/lich/dplus_lord_of_the_forsaken_neck/dplus_lord_of_the_forsaken_neck_color_tga_12d97f19.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:4897:ice-mantle",
+      "itemId": 4897,
+      "name": "Mantle of Eldritch Ice",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/550a5fec0938/models/items/lich/ice_mantle/ice_mantle.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/550a5fec0938/models/items/lich/ice_mantle/ice_mantle.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/ice_mantle/ice_mantle.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ice_mantle-3cec0bc70925.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/550a5fec0938/models/items/lich/ice_mantle/ice_mantle_color_tga_4fb9023e.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7102:blackpool-neck",
+      "itemId": 7102,
+      "name": "Mantle of the Black Pool",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/1fa71d4a5253/models/items/lich/blackpool_neck/blackpool_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/1fa71d4a5253/models/items/lich/blackpool_neck/blackpool_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blackpool_neck/blackpool_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blackpool_neck-13a7dcf3d637.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/1fa71d4a5253/models/items/lich/blackpool_neck/blackpool_neck_color_tga_6c2cfe42.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6218:lich-neck-sltv-t1",
+      "itemId": 6218,
+      "name": "Mantle of the Frozen Star",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_neck_sltv_t1-df19ae189186.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1_color_tga_da3aae5f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Neck Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Neck Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_neck_sltv_t2/lich_neck_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t2/lich_neck_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Neck Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_neck_sltv_t3/lich_neck_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t3/lich_neck_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6218:lich-neck-sltv-t1:style-1",
+      "itemId": 6218,
+      "name": "Mantle of the Frozen Star - Style 2",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_neck_sltv_t2-c94d7562d2c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1_color_tga_da3aae5f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Neck Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Neck Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_neck_sltv_t2/lich_neck_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t2/lich_neck_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Neck Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_neck_sltv_t3/lich_neck_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t3/lich_neck_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:6218:lich-neck-sltv-t1:style-2",
+      "itemId": 6218,
+      "name": "Mantle of the Frozen Star - Style 3",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_neck_sltv_t3-918eb378b854.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/2f2ebefaebcf/models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1_color_tga_da3aae5f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Frozen Star Neck Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t1/lich_neck_sltv_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Frozen Star Neck Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/lich_neck_sltv_t2/lich_neck_sltv_t2",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t2/lich_neck_sltv_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Frozen Star Neck Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/lich/lich_neck_sltv_t3/lich_neck_sltv_t3",
+            "modelPaths": [
+              "models/items/lich/lich_neck_sltv_t3/lich_neck_sltv_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8520:blizzard-tyrant-neck",
+      "itemId": 8520,
+      "name": "Mantle of the Serakund Tyrant",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/c3b8917767be/models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/c3b8917767be/models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_neck-5a695d835de2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/c3b8917767be/models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck_color_tga_a986b8e8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8520:blizzard-tyrant-neck:style-1",
+      "itemId": 8520,
+      "name": "Mantle of the Serakund Tyrant - Style 2",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/c3b8917767be/models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/c3b8917767be/models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blizzard_tyrant_neck_style1-4ba26979c0c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/c3b8917767be/models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck_color_tga_a986b8e8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.vmdl",
+        "modelPaths": [
+          "models/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Serakund Tyrant Style 00",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Serakund Tyrant Style 01",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/lich/blizzard_tyrant_neck/blizzard_tyrant_neck_style1",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7931:master-of-jiang-shi-lich-neck",
+      "itemId": 7931,
+      "name": "Necklace of the Jiang Shis Revenge",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/a2b8e0b53321/models/items/lich/master_of_jiang_shi_lich_neck/master_of_jiang_shi_lich_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/a2b8e0b53321/models/items/lich/master_of_jiang_shi_lich_neck/master_of_jiang_shi_lich_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/master_of_jiang_shi_lich_neck/master_of_jiang_shi_lich_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_of_jiang_shi_lich_neck-c2c0072da6fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/a2b8e0b53321/models/items/lich/master_of_jiang_shi_lich_neck/master_of_jiang_shi_lich_neck_color_psd_83b0b9f6.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12792:frostivus2018-lich-frozenworlds-neck",
+      "itemId": 12792,
+      "name": "Point of Vile Convocation",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b1cc064b724a/models/items/lich/frostivus2018_lich_frozenworlds_neck/frostivus2018_lich_frozenworlds_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/b1cc064b724a/models/items/lich/frostivus2018_lich_frozenworlds_neck/frostivus2018_lich_frozenworlds_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/frostivus2018_lich_frozenworlds_neck/frostivus2018_lich_frozenworlds_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_lich_frozenworlds_neck-5c03acc4b43c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b1cc064b724a/models/items/lich/frostivus2018_lich_frozenworlds_neck/frostivus2018_lich_frozenworlds_neck_color_tga_ea8c1e32.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:17603:ethreains-vestments-neck",
+      "itemId": 17603,
+      "name": "Revival of the Ice Witch Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/81a83f8cc9b9/models/items/lich/ethreains_vestments_neck/ethreains_vestments_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/81a83f8cc9b9/models/items/lich/ethreains_vestments_neck/ethreains_vestments_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/ethreains_vestments_neck/ethreains_vestments_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ethreains_vestments_neck-d79a03e57f66.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/81a83f8cc9b9/models/items/lich/ethreains_vestments_neck/ethreains_vestments_neck_color_tga_30489f23.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:8603:forbidden-knowledge-neck",
+      "itemId": 8603,
+      "name": "Shackles of Forbidden Knowledge",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5740e923b591/models/items/lich/forbidden_knowledge_neck/forbidden_knowledge_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/5740e923b591/models/items/lich/forbidden_knowledge_neck/forbidden_knowledge_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/forbidden_knowledge_neck/forbidden_knowledge_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/forbidden_knowledge_neck-a74013e8208c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/5740e923b591/models/items/lich/forbidden_knowledge_neck/forbidden_knowledge_neck_color_tga_26dc6aac.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:7576:lich-immortal",
+      "itemId": 7576,
+      "name": "Shearing Deposition",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/cc6283e453c4/models/items/lich/lich_immortal/lich_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/cc6283e453c4/models/items/lich/lich_immortal/lich_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_immortal/lich_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_immortal-20af7e4a2047.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/cc6283e453c4/models/items/lich/lich_immortal/lich_immortal_chain_color_psd_692a060f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/lich/lich_immortal/lich_immortal.vmdl",
+        "modelPaths": [
+          "models/items/lich/lich_immortal/lich_immortal.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lich/frozen_chains_ti6/lich_frozenchains_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/lich/frozen_chains_ti6/lich_frozenchains_frostnova.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lich/lich_frost_nova.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:12637:lich-rime-lord-neck",
+      "itemId": 12637,
+      "name": "Vestment of the Rime Lord",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b428bc2caa79/models/items/lich/lich_rime_lord_neck/lich_rime_lord_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/b428bc2caa79/models/items/lich/lich_rime_lord_neck/lich_rime_lord_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/lich_rime_lord_neck/lich_rime_lord_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lich_rime_lord_neck-5216a877ca58.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/b428bc2caa79/models/items/lich/lich_rime_lord_neck/lich_rime_lord_neck_color_tga_fe4352c4.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14127:icebound-king-set-neck",
+      "itemId": 14127,
+      "name": "Vote Only Icebound King Set Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/f39877227bb9/models/items/lich/icebound_king_set_neck/icebound_king_set_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/f39877227bb9/models/items/lich/icebound_king_set_neck/icebound_king_set_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/icebound_king_set_neck/icebound_king_set_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icebound_king_set_neck-d0441649a07b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/f39877227bb9/models/items/lich/icebound_king_set_neck/icebound_king_set_neck_color_tga_1225e377.png"
+    },
+    {
+      "id": "npc_dota_hero_lich:item-model:14311:the-curse-of-black-pool-neck",
+      "itemId": 14311,
+      "name": "Vote Only The Curse of Black Pool Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Neck",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_lich/0759a9651be1/models/items/lich/the_curse_of_black_pool_neck/the_curse_of_black_pool_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_lich/0759a9651be1/models/items/lich/the_curse_of_black_pool_neck/the_curse_of_black_pool_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/lich/the_curse_of_black_pool_neck/the_curse_of_black_pool_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_curse_of_black_pool_neck-e2cea604ce37.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_lich/0759a9651be1/models/items/lich/the_curse_of_black_pool_neck/the_curse_of_black_pool_neck_color_tga_a668370e.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_lich:core-set:21273:ascendance-of-the-rime-lord",
+      "name": "Ascendance of the Rime Lord",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        9560,
+        9561,
+        12636,
+        12637,
+        12638
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/lich_rime_lord_loading_screen-62780aee9a68.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21637:cobraka",
+      "name": "CobraKa",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        14578,
+        14579,
+        14580,
+        14581,
+        14582
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/lich_lord_of_permafrost_neck-600e66d10f65.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20147:dead-winter-set",
+      "name": "Dead Winter Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        4851,
+        4852,
+        4853,
+        4854
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/the_deadwinter_head-078267547f6c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20603:dota-pit-league-season-2",
+      "name": "Dota Pit League Season 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6890,
+        6891,
+        6896,
+        7102
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/blackpool_arms-8c2796f21a73.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20155:eldritch-ice-set",
+      "name": "Eldritch Ice Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        4895,
+        4896,
+        4897,
+        4898
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/rags-b918f441a26d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21044:forbidden-knowledge",
+      "name": "Forbidden Knowledge",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        8599,
+        8600,
+        8601,
+        8602,
+        8603
+      ],
+      "styleSelections": {
+        "8600": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/forbidden_knowledge_loading_screen-bce3f844bff8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21044:forbidden-knowledge:style-1",
+      "name": "Forbidden Knowledge - Infused",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        8599,
+        8600,
+        8601,
+        8602,
+        8603
+      ],
+      "styleSelections": {
+        "8600": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/forbidden_knowledge_back_style1-7c0dd7c0dd63.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20661:frozen-emperor",
+      "name": "Frozen Emperor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        6949,
+        7063,
+        7064,
+        7065,
+        7066
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/imperialists_cape_of_the_twin_dragons-05a781b98a2b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20416:frozen-star",
+      "name": "Frozen Star",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "0",
+        "6217": "0",
+        "6218": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_arms_sltv_t1-8110b5ba34a1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20416:frozen-star:style-1",
+      "name": "Frozen Star - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "1",
+        "6217": "1",
+        "6218": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_back_sltv_t2-93e580f6c20b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20416:frozen-star:style-2",
+      "name": "Frozen Star - Style 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "2",
+        "6217": "2",
+        "6218": "2"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_back_sltv_t3-c528281932e7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20799:garb-of-the-frost-lord",
+      "name": "Garb of the Frost Lord",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        8451,
+        8452,
+        8453,
+        8454,
+        8455
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/erlkonig_loadingscreen-6ce18f7778a7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21008:jiang-shis-revenge",
+      "name": "Jiang Shis Revenge",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        7885,
+        7899,
+        7907,
+        7931,
+        7932
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/master_of_jiang_shi_lich_master_of_jiang_shi_loadingscreen-cbeb19fc9b74.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21598:lord-of-the-forsaken",
+      "name": "Lord of the Forsaken",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        14153,
+        14154,
+        14155,
+        14156,
+        14566
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/dplus_lord_of_the_forsaken_ls-12d736d60031.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21665:revival-of-the-ice-witch",
+      "name": "Revival of the Ice Witch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        17602,
+        17603,
+        17604,
+        17605,
+        17606
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ethreains_vestments_ls-3fc98b82952c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21299:rites-of-vile-convocation",
+      "name": "Rites of Vile Convocation",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        12792,
+        12794,
+        12795,
+        12796,
+        12797
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_lich_frozenworlds_ls-298fae14acfd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20417:sltv-star-series-season-9",
+      "name": "SLTV Star Series Season 9",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "0",
+        "6217": "0",
+        "6218": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_arms_sltv_t1-8110b5ba34a1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20417:sltv-star-series-season-9:style-1",
+      "name": "SLTV Star Series Season 9 - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "1",
+        "6217": "1",
+        "6218": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_back_sltv_t2-93e580f6c20b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20417:sltv-star-series-season-9:style-2",
+      "name": "SLTV Star Series Season 9 - Style 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "2",
+        "6217": "2",
+        "6218": "2"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_back_sltv_t3-c528281932e7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20475:sltv-star-series-season-9-no-contribution",
+      "name": "SLTV Star Series Season 9  No Contribution",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "0",
+        "6217": "0",
+        "6218": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_arms_sltv_t1-8110b5ba34a1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20475:sltv-star-series-season-9-no-contribution:style-1",
+      "name": "SLTV Star Series Season 9  No Contribution - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "1",
+        "6217": "1",
+        "6218": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_back_sltv_t2-93e580f6c20b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20475:sltv-star-series-season-9-no-contribution:style-2",
+      "name": "SLTV Star Series Season 9  No Contribution - Style 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6214,
+        6216,
+        6217,
+        6218
+      ],
+      "styleSelections": {
+        "6216": "2",
+        "6217": "2",
+        "6218": "2"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lich_back_sltv_t3-c528281932e7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21661:shares-of-the-mad-mutineer",
+      "name": "Shares of the Mad Mutineer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        13744,
+        14999,
+        17575,
+        17576,
+        17577
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_pirate_king_the_pirate_king_loadingscreen-08779ef08857.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20650:sorcerer-of-the-black-pool",
+      "name": "Sorcerer of the Black Pool",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334
+      ],
+      "sourceItemIds": [
+        6890,
+        6891,
+        6896,
+        7102
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/blackpool-089c5943fd95.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20932:the-serakund-tyrant",
+      "name": "The Serakund Tyrant",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        8519,
+        8520,
+        8521,
+        8522,
+        8523
+      ],
+      "styleSelections": {
+        "8519": "0",
+        "8520": "0",
+        "8521": "0",
+        "8522": "0",
+        "8523": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/blizzard_tyrant_loading_screen-67203978dede.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:20932:the-serakund-tyrant:style-1",
+      "name": "The Serakund Tyrant - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        8519,
+        8520,
+        8521,
+        8522,
+        8523
+      ],
+      "styleSelections": {
+        "8519": "1",
+        "8520": "1",
+        "8521": "1",
+        "8522": "1",
+        "8523": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/blizzard_tyrant_arms_style1-3f87c51c28d8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21501:vote-only-icebound-king-set",
+      "name": "Vote Only Icebound King Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        14127,
+        14129,
+        14130,
+        14131,
+        14132
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_lich:core-set:21536:vote-only-the-curse-of-black-pool",
+      "name": "Vote Only The Curse of Black Pool",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        331,
+        332,
+        333,
+        334,
+        571
+      ],
+      "sourceItemIds": [
+        14307,
+        14308,
+        14309,
+        14310,
+        14311
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "neck"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 48353164,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 528
+  }
+}

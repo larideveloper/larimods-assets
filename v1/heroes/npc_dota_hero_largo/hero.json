@@ -1,0 +1,136 @@
+{
+  "heroId": "npc_dota_hero_largo",
+  "sourceHeroId": "npc_dota_hero_largo",
+  "variantId": "default",
+  "heroName": "Largo",
+  "heroSlug": "largo",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/largo.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_largo/bd09f8a83823/models/heroes/bard/bard_frog_base.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 858,
+      "name": "Largos Lower Body",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_largo/4a1dff019215/models/heroes/bard/bard_frog_lowerbody.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_largo/4a1dff019215/models/heroes/bard/bard_frog_lowerbody.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/bard/bard_frog_lowerbody.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_largo/4a1dff019215/models/heroes/bard/bard_frog_legs_color_psd_a9ea0c18.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 857,
+      "name": "Largos Upper Body",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_largo/b9a30e1b2cd7/models/heroes/bard/bard_frog_upperbody.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_largo/b9a30e1b2cd7/models/heroes/bard/bard_frog_upperbody.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/bard/bard_frog_upperbody.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_largo/b9a30e1b2cd7/models/heroes/bard/bard_frog_armor_color_psd_c0b9d915.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 859,
+      "name": "Largos Instrument",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_largo/6df6a982d268/models/heroes/bard/bard_frog_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_largo/6df6a982d268/models/heroes/bard/bard_frog_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/bard/bard_frog_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_largo/6df6a982d268/models/heroes/bard/frog_weapon_color_psd_7214af5.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_largo:item-model:858:bard-frog-lowerbody",
+      "itemId": 858,
+      "name": "Largos Lower Body",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_largo/4a1dff019215/models/heroes/bard/bard_frog_lowerbody.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_largo/4a1dff019215/models/heroes/bard/bard_frog_lowerbody.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/bard/bard_frog_lowerbody.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/largo_lowerbody-5cd180c56df2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_largo/4a1dff019215/models/heroes/bard/bard_frog_legs_color_psd_a9ea0c18.png"
+    },
+    {
+      "id": "npc_dota_hero_largo:item-model:857:bard-frog-upperbody",
+      "itemId": 857,
+      "name": "Largos Upper Body",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_largo/b9a30e1b2cd7/models/heroes/bard/bard_frog_upperbody.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_largo/b9a30e1b2cd7/models/heroes/bard/bard_frog_upperbody.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/bard/bard_frog_upperbody.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/largo_upperbody-1f4b69ff5dbd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_largo/b9a30e1b2cd7/models/heroes/bard/bard_frog_armor_color_psd_c0b9d915.png"
+    },
+    {
+      "id": "npc_dota_hero_largo:item-model:859:bard-frog-weapon",
+      "itemId": 859,
+      "name": "Largos Instrument",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_largo/6df6a982d268/models/heroes/bard/bard_frog_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_largo/6df6a982d268/models/heroes/bard/bard_frog_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/bard/bard_frog_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/largo_weapon-31e32e36ba8a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_largo/6df6a982d268/models/heroes/bard/frog_weapon_color_psd_7214af5.png"
+    }
+  ],
+  "sets": [],
+  "stats": {
+    "modelBytes": 14934604,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 4
+  }
+}

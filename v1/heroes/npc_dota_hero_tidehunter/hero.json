@@ -1,0 +1,4527 @@
+{
+  "heroId": "npc_dota_hero_tidehunter",
+  "sourceHeroId": "npc_dota_hero_tidehunter",
+  "variantId": "default",
+  "heroName": "Tidehunter",
+  "heroSlug": "tidehunter",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_tidehunter/9a3f60bc2861/models/heroes/tidehunter/tidehunter.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 34,
+      "name": "Tidehunters Bracer",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/03c76e10258c/models/heroes/tidehunter/tidehunter_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/03c76e10258c/models/heroes/tidehunter/tidehunter_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_bracer.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/03c76e10258c/models/heroes/tidehunter/bracer_color_psd_d31844a7.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 35,
+      "name": "Tidehunters Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f5884a5399c1/models/heroes/tidehunter/tidehunter_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/f5884a5399c1/models/heroes/tidehunter/tidehunter_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f5884a5399c1/models/heroes/tidehunter/belt_color_psd_2a31285d.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "itemId": 37,
+      "name": "Tidehunters Lunch",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/52d57273c503/models/heroes/tidehunter/tidehunter_fish.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/52d57273c503/models/heroes/tidehunter/tidehunter_fish.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_fish.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/52d57273c503/models/heroes/tidehunter/fish_color_tga_2fc2e44.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:6467:neptunian-servant-arms",
+      "itemId": 6467,
+      "name": "Arm Fins of the Deepweed Drowner",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/512e966f1cf2/models/items/tidehunter/neptunian_servant_arms/neptunian_servant_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/512e966f1cf2/models/items/tidehunter/neptunian_servant_arms/neptunian_servant_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/neptunian_servant_arms/neptunian_servant_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/neptunian_servant_arms-a17db677af70.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/512e966f1cf2/models/items/tidehunter/neptunian_servant_arms/neptunian_servant_arms_color_tga_93c9e6aa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/neptunian_servant_arms/neptunian_servant_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/neptunian_servant_arms/neptunian_servant_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:9636:living-iceberg-collection-arms",
+      "itemId": 9636,
+      "name": "Arms of the Frostshard Ascendant",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/3e151fd2580a/models/items/tidehunter/living_iceberg_collection_arms/living_iceberg_collection_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/3e151fd2580a/models/items/tidehunter/living_iceberg_collection_arms/living_iceberg_collection_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/living_iceberg_collection_arms/living_iceberg_collection_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/living_iceberg_collection_arms-af7fce1f64a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/3e151fd2580a/models/items/tidehunter/living_iceberg_collection_arms/living_iceberg_collection_arms_color_tga_1d4899a4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/living_iceberg_collection_arms/living_iceberg_collection_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/living_iceberg_collection_arms/living_iceberg_collection_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13244:ti-9-cache-tide-chelonia-mydas-arms",
+      "itemId": 13244,
+      "name": "Bracer of the Poachers Bane",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/24e3cdab8a28/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_arms/ti_9_cache_tide_chelonia_mydas_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/24e3cdab8a28/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_arms/ti_9_cache_tide_chelonia_mydas_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_arms/ti_9_cache_tide_chelonia_mydas_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_chelonia_mydas_arms-473cc4f00ef7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/24e3cdab8a28/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_arms/ti_9_cache_tide_chelonia_mydas_arms_color_tga_20f1c65b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_arms/ti_9_cache_tide_chelonia_mydas_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_arms/ti_9_cache_tide_chelonia_mydas_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/ti9_cache_tide_chelonia_arms/ti9_cache_tide_chelonia_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13149:ti-9-cache-tide-tidal-conqueror-arms",
+      "itemId": 13149,
+      "name": "Brackish Stalker Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/49b8284f9bfd/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_arms/ti_9_cache_tide_tidal_conqueror_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/49b8284f9bfd/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_arms/ti_9_cache_tide_tidal_conqueror_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_arms/ti_9_cache_tide_tidal_conqueror_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_tidal_conqueror_arms-5626549426c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/49b8284f9bfd/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_arms/ti_9_cache_tide_tidal_conqueror_arms_color_tga_d1d6bf9f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_arms/ti_9_cache_tide_tidal_conqueror_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_arms/ti_9_cache_tide_tidal_conqueror_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7774:ancient-leviathan-arns",
+      "itemId": 7774,
+      "name": "Grip of the Drowning Trench",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/786224407772/models/items/tidehunter/ancient_leviathan_arns/ancient_leviathan_arns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/786224407772/models/items/tidehunter/ancient_leviathan_arns/ancient_leviathan_arns.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ancient_leviathan_arns/ancient_leviathan_arns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_leviathan_arns-28a9625be63b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/786224407772/models/items/tidehunter/ancient_leviathan_arns/ancient_leviathan_arns_color_tga_e7f761f9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ancient_leviathan_arns/ancient_leviathan_arns.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ancient_leviathan_arns/ancient_leviathan_arns.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14139:horror-from-the-deep-arms",
+      "itemId": 14139,
+      "name": "Horror from the Deep Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c69fd2ef71f1/models/items/tidehunter/horror_from_the_deep_arms/horror_from_the_deep_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/c69fd2ef71f1/models/items/tidehunter/horror_from_the_deep_arms/horror_from_the_deep_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/horror_from_the_deep_arms/horror_from_the_deep_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horror_from_the_deep_arms-f0dc94ae5d1e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c69fd2ef71f1/models/items/tidehunter/horror_from_the_deep_arms/horror_from_the_deep_arms_color_tga_5720b1d1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/horror_from_the_deep_arms/horror_from_the_deep_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/horror_from_the_deep_arms/horror_from_the_deep_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ti10_cache/tidehunter_ti10_cache_arms.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:33045:burning-shark-arms",
+      "itemId": 33045,
+      "name": "Insatiable Seas  Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/9d5403e92dc0/models/items/tidehunter/burning_shark_arms/burning_shark_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/9d5403e92dc0/models/items/tidehunter/burning_shark_arms/burning_shark_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/burning_shark_arms/burning_shark_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_shark_arms-e03d4042423b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/9d5403e92dc0/models/items/tidehunter/burning_shark_arms/burning_shark_arms_color_tga_dcd84368.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/burning_shark_arms/burning_shark_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/burning_shark_arms/burning_shark_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4155:buccaneers-bracer",
+      "itemId": 4155,
+      "name": "Pirate Slayers Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/39fa5257ad7a/models/items/tidehunter/buccaneers_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/39fa5257ad7a/models/items/tidehunter/buccaneers_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/buccaneers_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/buccaneers_bracer-09ead801b41e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/39fa5257ad7a/models/items/tidehunter/buccaneers_bracer_color_tga_2f95d522.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/buccaneers_bracer.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/buccaneers_bracer.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18230:swamp-monster-arms",
+      "itemId": 18230,
+      "name": "Swamp Terror Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/1ea18859ebdc/models/items/tidehunter/swamp_monster_arms/swamp_monster_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/1ea18859ebdc/models/items/tidehunter/swamp_monster_arms/swamp_monster_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/swamp_monster_arms/swamp_monster_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/swamp_monster_arms-c1883b97315e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/1ea18859ebdc/models/items/tidehunter/swamp_monster_arms/swamp_monster_arms_color_tga_16ba8775.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/swamp_monster_arms/swamp_monster_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/swamp_monster_arms/swamp_monster_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:34:tidehunter-bracer",
+      "itemId": 34,
+      "name": "Tidehunters Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/03c76e10258c/models/heroes/tidehunter/tidehunter_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/03c76e10258c/models/heroes/tidehunter/tidehunter_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_bracer-e48f92d57e9f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/03c76e10258c/models/heroes/tidehunter/bracer_color_psd_d31844a7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tidehunter/tidehunter_bracer.vmdl",
+        "modelPaths": [
+          "models/heroes/tidehunter/tidehunter_bracer.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:17823:tidehunter-bracer",
+      "itemId": 17823,
+      "name": "Tidehunters Diretide Shimmer Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/146164fdd8a2/models/heroes/tidehunter/tidehunter_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/146164fdd8a2/models/heroes/tidehunter/tidehunter_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/146164fdd8a2/models/heroes/tidehunter/bracer_color_psd_d31844a7.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7148:tidebreaker-arms",
+      "itemId": 7148,
+      "name": "Tidosaurus Arm Scales",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/19951d409807/models/items/tidehunter/tidebreaker_arms/tidebreaker_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/19951d409807/models/items/tidehunter/tidebreaker_arms/tidebreaker_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidebreaker_arms/tidebreaker_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidebreaker_arms-c0faa7dfe411.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/19951d409807/models/items/tidehunter/tidebreaker_arms/tidebreaker_arms_color_tga_42ae8fc8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidebreaker_arms/tidebreaker_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidebreaker_arms/tidebreaker_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18869:maelrawns-gaze-arms",
+      "itemId": 18869,
+      "name": "Trenchline Tracker Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/cc9bed127bd8/models/items/tidehunter/maelrawns_gaze_arms/maelrawns_gaze_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/cc9bed127bd8/models/items/tidehunter/maelrawns_gaze_arms/maelrawns_gaze_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_gaze_arms/maelrawns_gaze_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_gaze_arms-02221741b408.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/cc9bed127bd8/models/items/tidehunter/maelrawns_gaze_arms/maelrawns_gaze_arms_color_tga_f9254950.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_gaze_arms/maelrawns_gaze_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_gaze_arms/maelrawns_gaze_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14090:maelrawns-abyssal-guard-arms",
+      "itemId": 14090,
+      "name": "Vote Only Maelrawns abyssal Guard Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f867074e8ea1/models/items/tidehunter/maelrawns_abyssal_guard_arms/maelrawns_abyssal_guard_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/f867074e8ea1/models/items/tidehunter/maelrawns_abyssal_guard_arms/maelrawns_abyssal_guard_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_abyssal_guard_arms/maelrawns_abyssal_guard_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_abyssal_guard_arms-82aae69542e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f867074e8ea1/models/items/tidehunter/maelrawns_abyssal_guard_arms/maelrawns_abyssal_guard_arms_color_tga_b9654116.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_abyssal_guard_arms/maelrawns_abyssal_guard_arms.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_abyssal_guard_arms/maelrawns_abyssal_guard_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:6468:neptunian-servant-back",
+      "itemId": 6468,
+      "name": "Back Fins of the Deepweed Drowner",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/79438a2e5073/models/items/tidehunter/neptunian_servant_back/neptunian_servant_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/79438a2e5073/models/items/tidehunter/neptunian_servant_back/neptunian_servant_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/neptunian_servant_back/neptunian_servant_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/neptunian_servant_back-d77185407eb0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/79438a2e5073/models/items/tidehunter/neptunian_servant_back/neptunian_servant_back_color_tga_e1078be5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/neptunian_servant_back/neptunian_servant_back.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/neptunian_servant_back/neptunian_servant_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:9635:living-iceberg-collection-back",
+      "itemId": 9635,
+      "name": "Back of the Frostshard Ascendant",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/73fd85657458/models/items/tidehunter/living_iceberg_collection_back/living_iceberg_collection_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/73fd85657458/models/items/tidehunter/living_iceberg_collection_back/living_iceberg_collection_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/living_iceberg_collection_back/living_iceberg_collection_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/living_iceberg_collection_back-2b81c8dc9302.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/73fd85657458/models/items/tidehunter/living_iceberg_collection_back/living_iceberg_collection_back_color_tga_4c975bb9.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4128:tidehunter-spikes",
+      "itemId": 4128,
+      "name": "BackAche",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/354c07fcbf7e/models/items/tidehunter/tidehunter_spikes.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/354c07fcbf7e/models/items/tidehunter/tidehunter_spikes.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_spikes.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_spikes-8c6a811e38a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/354c07fcbf7e/models/items/tidehunter/tidehunter_spikes_color_psd_85dae246.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_spikes.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_spikes.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13151:ti-9-cache-tide-tidal-conqueror-back",
+      "itemId": 13151,
+      "name": "Brackish Stalker Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ad3cf5cbf47c/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_back/ti_9_cache_tide_tidal_conqueror_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/ad3cf5cbf47c/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_back/ti_9_cache_tide_tidal_conqueror_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_back/ti_9_cache_tide_tidal_conqueror_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_tidal_conqueror_back-5a3f28d77f99.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ad3cf5cbf47c/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_back/ti_9_cache_tide_tidal_conqueror_back_color_tga_ac889e99.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7775:ancient-leviathan-back",
+      "itemId": 7775,
+      "name": "Carapace of the Drowning Trench",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e9eeedeb986f/models/items/tidehunter/ancient_leviathan_back/ancient_leviathan_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/e9eeedeb986f/models/items/tidehunter/ancient_leviathan_back/ancient_leviathan_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ancient_leviathan_back/ancient_leviathan_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_leviathan_back-b54c617356bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e9eeedeb986f/models/items/tidehunter/ancient_leviathan_back/ancient_leviathan_back_color_tga_1dff634.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ancient_leviathan_back/ancient_leviathan_back.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ancient_leviathan_back/ancient_leviathan_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4146:tidehunter-skull-spines",
+      "itemId": 4146,
+      "name": "Cerebral Support",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c3cd0ab8d3cd/models/items/tidehunter/tidehunter_skull_spines.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/c3cd0ab8d3cd/models/items/tidehunter/tidehunter_skull_spines.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_skull_spines.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_skull_spines-0cc771af0960.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c3cd0ab8d3cd/models/items/tidehunter/tidehunter_skull_spines_color_tga_7e67f986.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_skull_spines.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_skull_spines.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14960:tide-fall20-immortal-back",
+      "itemId": 14960,
+      "name": "Deepshock Destroyer",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2f2d34089da5/models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/2f2d34089da5/models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tide_fall20_immortal_back-4679802c5f3d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2f2d34089da5/models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back_color_psd_6b6e1c5f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tide_2021_immortal/tide_2021_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tidehunter/tide_2021_immortal/tide_2021_ravage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tidehunter/tide_2021_immortal/tide_2021_ravage_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:5611:dorsal-doom",
+      "itemId": 5611,
+      "name": "Dorsal Doom",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/81ee73be8191/models/items/tidehunter/dorsal_doom/dorsal_doom.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/81ee73be8191/models/items/tidehunter/dorsal_doom/dorsal_doom.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/dorsal_doom/dorsal_doom.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dorsal_doom-b3b4b563aecb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/81ee73be8191/models/items/tidehunter/dorsal_doom/dorsal_doom_color_tga_39dc45c4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/dorsal_doom/dorsal_doom.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/dorsal_doom/dorsal_doom.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:19023:tide-fall20-immortal-back",
+      "itemId": 19023,
+      "name": "Golden Deepshock Destroyer",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/514962128c5f/models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/514962128c5f/models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tide_fall20_immortal_back1-8a5b69cc3c67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/514962128c5f/models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back_color_psd_6b6e1c5f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tide_fall20_immortal_back/tide_fall20_immortal_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tide_2021_immortal_gold/tide_2021_gold_ravage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tidehunter/tide_2021_immortal_gold/tide_2021_gold_ravage_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tidehunter/tide_2021_immortal_gold/tide_2021_immortal_gold_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14143:horror-from-the-deep-back",
+      "itemId": 14143,
+      "name": "Horror from the Deep Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e3f5f5ecad93/models/items/tidehunter/horror_from_the_deep_back/horror_from_the_deep_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/e3f5f5ecad93/models/items/tidehunter/horror_from_the_deep_back/horror_from_the_deep_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/horror_from_the_deep_back/horror_from_the_deep_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horror_from_the_deep_back-9ceb5a0138c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e3f5f5ecad93/models/items/tidehunter/horror_from_the_deep_back/horror_from_the_deep_back_color_tga_3abb615c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/horror_from_the_deep_back/horror_from_the_deep_back.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/horror_from_the_deep_back/horror_from_the_deep_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ti10_cache/tidehunter_ti10_cache_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:33046:burning-shark-back",
+      "itemId": 33046,
+      "name": "Insatiable Seas  Charms",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c1f340f323bf/models/items/tidehunter/burning_shark_back/burning_shark_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/c1f340f323bf/models/items/tidehunter/burning_shark_back/burning_shark_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/burning_shark_back/burning_shark_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_shark_back-6c76a7305698.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c1f340f323bf/models/items/tidehunter/burning_shark_back/burning_shark_back_color_tga_1e8857da.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4092:turtle-shell001",
+      "itemId": 4092,
+      "name": "Kraken Shell",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b1d0b5f5fa99/models/items/tidehunter/turtle_shell001.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b1d0b5f5fa99/models/items/tidehunter/turtle_shell001.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/turtle_shell001.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/turtle_shell001-f89e1cd053f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b1d0b5f5fa99/models/items/tidehunter/turtle_shell_color_psd_d781f39.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/turtle_shell001.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/turtle_shell001.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4145:tidehunter-shark",
+      "itemId": 4145,
+      "name": "Raw Hide",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c7ecd4b89119/models/items/tidehunter/tidehunter_shark.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/c7ecd4b89119/models/items/tidehunter/tidehunter_shark.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_shark.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_shark1-7beca294326e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c7ecd4b89119/models/items/tidehunter/tidehunter_shark_color_tga_2d691cb1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_shark.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_shark.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13246:ti-9-cache-tide-chelonia-mydas-back",
+      "itemId": 13246,
+      "name": "Shell of the Poachers Bane",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/4bfc7e2fc5a2/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_back/ti_9_cache_tide_chelonia_mydas_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/4bfc7e2fc5a2/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_back/ti_9_cache_tide_chelonia_mydas_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_back/ti_9_cache_tide_chelonia_mydas_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_chelonia_mydas_back-1bd693b5fcad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/4bfc7e2fc5a2/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_back/ti_9_cache_tide_chelonia_mydas_back_color_tga_ac94ccb4.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18228:swamp-monster-back",
+      "itemId": 18228,
+      "name": "Swamp Terror Fins",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f34b430cee6e/models/items/tidehunter/swamp_monster_back/swamp_monster_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/f34b430cee6e/models/items/tidehunter/swamp_monster_back/swamp_monster_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/swamp_monster_back/swamp_monster_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/swamp_monster_back-861eee617251.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f34b430cee6e/models/items/tidehunter/swamp_monster_back/swamp_monster_back_color_tga_783b6e4f.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7149:tidebreakernew-back",
+      "itemId": 7149,
+      "name": "Tidosaurus Vertebral Plates",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/3fc980c9a25f/models/items/tidehunter/tidebreakernew_back/tidebreakernew_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/3fc980c9a25f/models/items/tidehunter/tidebreakernew_back/tidebreakernew_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidebreakernew_back/tidebreakernew_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidebreakernew_back-ccfff3c092bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/3fc980c9a25f/models/items/tidehunter/tidebreakernew_back/tidebreakernew_back_color_tga_47cec5f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidebreakernew_back/tidebreakernew_back.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidebreakernew_back/tidebreakernew_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18844:maelrawns-gaze-back",
+      "itemId": 18844,
+      "name": "Trenchline Tracker Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/85d52103b629/models/items/tidehunter/maelrawns_gaze_back/maelrawns_gaze_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/85d52103b629/models/items/tidehunter/maelrawns_gaze_back/maelrawns_gaze_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_gaze_back/maelrawns_gaze_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_gaze_back-a3bd2e9769a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/85d52103b629/models/items/tidehunter/maelrawns_gaze_back/maelrawns_gaze_back_color_tga_d434d3d2.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14089:maelrawns-abyssal-guard-back",
+      "itemId": 14089,
+      "name": "Vote Only Maelrawns abyssal Guard Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/9b9462766887/models/items/tidehunter/maelrawns_abyssal_guard_back/maelrawns_abyssal_guard_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/9b9462766887/models/items/tidehunter/maelrawns_abyssal_guard_back/maelrawns_abyssal_guard_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_abyssal_guard_back/maelrawns_abyssal_guard_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_abyssal_guard_back-8f2e4b626523.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/9b9462766887/models/items/tidehunter/maelrawns_abyssal_guard_back/maelrawns_abyssal_guard_back_color_tga_26464182.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13245:ti-9-cache-tide-chelonia-mydas-belt",
+      "itemId": 13245,
+      "name": "Armor of the Poachers Bane",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a9173023033f/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_belt/ti_9_cache_tide_chelonia_mydas_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/a9173023033f/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_belt/ti_9_cache_tide_chelonia_mydas_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_belt/ti_9_cache_tide_chelonia_mydas_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_chelonia_mydas_belt-3b2939ae4a3a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a9173023033f/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_belt/ti_9_cache_tide_chelonia_mydas_belt_color_tga_51e55f9e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_belt/ti_9_cache_tide_chelonia_mydas_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_belt/ti_9_cache_tide_chelonia_mydas_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:6469:neptunian-servant-belt",
+      "itemId": 6469,
+      "name": "Belt of the Deepweed Drowner",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/863a00654b9d/models/items/tidehunter/neptunian_servant_belt/neptunian_servant_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/863a00654b9d/models/items/tidehunter/neptunian_servant_belt/neptunian_servant_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/neptunian_servant_belt/neptunian_servant_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/neptunian_servant_belt-fd2afab613fc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/863a00654b9d/models/items/tidehunter/neptunian_servant_belt/neptunian_servant_belt_color_tga_8ba6b860.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/neptunian_servant_belt/neptunian_servant_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/neptunian_servant_belt/neptunian_servant_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7773:ancient-leviathan-belt",
+      "itemId": 7773,
+      "name": "Belt of the Drowning Trench",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d8d066a2fa00/models/items/tidehunter/ancient_leviathan_belt/ancient_leviathan_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/d8d066a2fa00/models/items/tidehunter/ancient_leviathan_belt/ancient_leviathan_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ancient_leviathan_belt/ancient_leviathan_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_leviathan_belt-c27fc0fd9b59.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d8d066a2fa00/models/items/tidehunter/ancient_leviathan_belt/ancient_leviathan_belt_color_tga_45932e1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ancient_leviathan_belt/ancient_leviathan_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ancient_leviathan_belt/ancient_leviathan_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:9634:living-iceberg-collection-belt",
+      "itemId": 9634,
+      "name": "Belt of the Frostshard Ascendant",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2a47091e29b4/models/items/tidehunter/living_iceberg_collection_belt/living_iceberg_collection_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/2a47091e29b4/models/items/tidehunter/living_iceberg_collection_belt/living_iceberg_collection_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/living_iceberg_collection_belt/living_iceberg_collection_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/living_iceberg_collection_belt-a313d4fcc49a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2a47091e29b4/models/items/tidehunter/living_iceberg_collection_belt/living_iceberg_collection_belt_color_tga_27024ed8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/living_iceberg_collection_belt/living_iceberg_collection_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/living_iceberg_collection_belt/living_iceberg_collection_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13150:ti-9-cache-tide-tidal-conqueror-belt",
+      "itemId": 13150,
+      "name": "Brackish Stalker Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/8ad08cba873b/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_belt/ti_9_cache_tide_tidal_conqueror_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/8ad08cba873b/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_belt/ti_9_cache_tide_tidal_conqueror_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_belt/ti_9_cache_tide_tidal_conqueror_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_tidal_conqueror_belt-c183ce992930.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/8ad08cba873b/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_belt/ti_9_cache_tide_tidal_conqueror_belt_color_tga_f3b82786.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_belt/ti_9_cache_tide_tidal_conqueror_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_belt/ti_9_cache_tide_tidal_conqueror_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14142:horror-from-the-deep-belt",
+      "itemId": 14142,
+      "name": "Horror from the Deep Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/428c50249cd6/models/items/tidehunter/horror_from_the_deep_belt/horror_from_the_deep_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/428c50249cd6/models/items/tidehunter/horror_from_the_deep_belt/horror_from_the_deep_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/horror_from_the_deep_belt/horror_from_the_deep_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horror_from_the_deep_belt-78d0cef50ca7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/428c50249cd6/models/items/tidehunter/horror_from_the_deep_belt/horror_from_the_deep_belt_color_tga_ca5497a6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/horror_from_the_deep_belt/horror_from_the_deep_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/horror_from_the_deep_belt/horror_from_the_deep_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ti10_cache/tidehunter_ti10_cache_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:33047:burning-shark-belt",
+      "itemId": 33047,
+      "name": "Insatiable Seas  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/02a595ffec1a/models/items/tidehunter/burning_shark_belt/burning_shark_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/02a595ffec1a/models/items/tidehunter/burning_shark_belt/burning_shark_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/burning_shark_belt/burning_shark_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_shark_belt-ec1c6e018edc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/02a595ffec1a/models/items/tidehunter/burning_shark_belt/burning_shark_belt_color_tga_2cca091a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/burning_shark_belt/burning_shark_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/burning_shark_belt/burning_shark_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18229:swamp-monster-belt",
+      "itemId": 18229,
+      "name": "Swamp Terror Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/bd507f292b6e/models/items/tidehunter/swamp_monster_belt/swamp_monster_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/bd507f292b6e/models/items/tidehunter/swamp_monster_belt/swamp_monster_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/swamp_monster_belt/swamp_monster_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/swamp_monster_belt-a93381e631c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/bd507f292b6e/models/items/tidehunter/swamp_monster_belt/swamp_monster_belt_color_tga_3752267c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/swamp_monster_belt/swamp_monster_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/swamp_monster_belt/swamp_monster_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:35:tidehunter-belt",
+      "itemId": 35,
+      "name": "Tidehunters Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f5884a5399c1/models/heroes/tidehunter/tidehunter_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/f5884a5399c1/models/heroes/tidehunter/tidehunter_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_belt-9498fc45391a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f5884a5399c1/models/heroes/tidehunter/belt_color_psd_2a31285d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tidehunter/tidehunter_belt.vmdl",
+        "modelPaths": [
+          "models/heroes/tidehunter/tidehunter_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:17824:tidehunter-belt",
+      "itemId": 17824,
+      "name": "Tidehunters Diretide Shimmer Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/7da17144fa62/models/heroes/tidehunter/tidehunter_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/7da17144fa62/models/heroes/tidehunter/tidehunter_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_belt1-7917a5400058.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/7da17144fa62/models/heroes/tidehunter/belt_color_psd_2a31285d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tidehunter/tidehunter_belt.vmdl",
+        "modelPaths": [
+          "models/heroes/tidehunter/tidehunter_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7150:tidebreaker-belt",
+      "itemId": 7150,
+      "name": "Tidosaurus Tail",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ac9c65bc38c5/models/items/tidehunter/tidebreaker_belt/tidebreaker_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/ac9c65bc38c5/models/items/tidehunter/tidebreaker_belt/tidebreaker_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidebreaker_belt/tidebreaker_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidebreaker_belt-b45f3b2be5db.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ac9c65bc38c5/models/items/tidehunter/tidebreaker_belt/tidebreaker_belt_color_tga_1ac0c37f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidebreaker_belt/tidebreaker_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidebreaker_belt/tidebreaker_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18842:maelrawns-gaze-belt",
+      "itemId": 18842,
+      "name": "Trenchline Tracker Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e36cacbc5eb9/models/items/tidehunter/maelrawns_gaze_belt/maelrawns_gaze_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/e36cacbc5eb9/models/items/tidehunter/maelrawns_gaze_belt/maelrawns_gaze_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_gaze_belt/maelrawns_gaze_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_gaze_belt-38d5b5de6b91.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e36cacbc5eb9/models/items/tidehunter/maelrawns_gaze_belt/maelrawns_gaze_belt_color_tga_c93e9efc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_gaze_belt/maelrawns_gaze_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_gaze_belt/maelrawns_gaze_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14088:maelrawns-abyssal-guard-belt",
+      "itemId": 14088,
+      "name": "Vote Only Maelrawns abyssal Guard Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/91e630ca3db4/models/items/tidehunter/maelrawns_abyssal_guard_belt/maelrawns_abyssal_guard_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/91e630ca3db4/models/items/tidehunter/maelrawns_abyssal_guard_belt/maelrawns_abyssal_guard_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_abyssal_guard_belt/maelrawns_abyssal_guard_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_abyssal_guard_belt-b88e66739d8d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/91e630ca3db4/models/items/tidehunter/maelrawns_abyssal_guard_belt/maelrawns_abyssal_guard_belt_color_tga_7c4f2d65.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_abyssal_guard_belt/maelrawns_abyssal_guard_belt.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_abyssal_guard_belt/maelrawns_abyssal_guard_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13146:ti-9-cache-tide-tidal-conqueror-head",
+      "itemId": 13146,
+      "name": "Brackish Stalker Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/8df6d23d50e4/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_head/ti_9_cache_tide_tidal_conqueror_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/8df6d23d50e4/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_head/ti_9_cache_tide_tidal_conqueror_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_head/ti_9_cache_tide_tidal_conqueror_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_tidal_conqueror_head-c717df68cea9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/8df6d23d50e4/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_head/ti_9_cache_tide_tidal_conqueror_head_color_tga_b37b2b36.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4130:tidehunter-skull-rare",
+      "itemId": 4130,
+      "name": "Excavators Decorated Treasure",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ed061cd06c90/models/items/tidehunter/tidehunter_skull_rare.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/ed061cd06c90/models/items/tidehunter/tidehunter_skull_rare.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_skull_rare.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_skull_rare-f71db745b367.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ed061cd06c90/models/items/tidehunter/tidehunter_skull_rare_color_psd_e16d549d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_skull_rare.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_skull_rare.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4129:tidehunter-skull",
+      "itemId": 4129,
+      "name": "Excavators Treasure",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/689245ba55bb/models/items/tidehunter/tidehunter_skull.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/689245ba55bb/models/items/tidehunter/tidehunter_skull.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_skull.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_skull-25b07125c2cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/689245ba55bb/models/items/tidehunter/tidehunter_skull_color_psd_df998e98.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_skull.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_skull.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7569:executioner-ray-hood",
+      "itemId": 7569,
+      "name": "Executioner Ray Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e52d32866113/models/items/tidehunter/executioner_ray_hood/executioner_ray_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/e52d32866113/models/items/tidehunter/executioner_ray_hood/executioner_ray_hood.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/executioner_ray_hood/executioner_ray_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/executioner_ray_hood-f0d93616ff45.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e52d32866113/models/items/tidehunter/executioner_ray_hood/executioner_ray_hood_color_tga_97981982.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/executioner_ray_hood/executioner_ray_hood.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/executioner_ray_hood/executioner_ray_hood.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7408:tidehunter-diving-helmet",
+      "itemId": 7408,
+      "name": "Floodmask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d0fd03e998ce/models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/d0fd03e998ce/models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_diving_helmet-1ce83985fce0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d0fd03e998ce/models/items/tidehunter/diving_helmet/diving_helmet_color_psd_d93755b3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_divinghelmet/tidehunter_divinghelmet_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_divinghelmet/tidehunter_gush_diving_helmet.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_gush.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7461:tidehunter-diving-helmet",
+      "itemId": 7461,
+      "name": "Golden Floodmask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/500047632a34/models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/500047632a34/models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_diving_helmet1-2089867da1f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/500047632a34/models/items/tidehunter/diving_helmet/diving_helmet_color_psd_d93755b3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/diving_helmet/tidehunter_diving_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_divinghelmet/tidehunter_divinghelmet_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_divinghelmet/tidehunter_gush_diving_helmet_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_gush.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:6470:neptunian-servant-head",
+      "itemId": 6470,
+      "name": "Head Fins of the Deepweed Drowner",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b1fafbea6016/models/items/tidehunter/neptunian_servant_head/neptunian_servant_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b1fafbea6016/models/items/tidehunter/neptunian_servant_head/neptunian_servant_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/neptunian_servant_head/neptunian_servant_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/neptunian_servant_head-9fdc5dd0d71b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b1fafbea6016/models/items/tidehunter/neptunian_servant_head/neptunian_servant_head_color_tga_c258a528.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/neptunian_servant_head/neptunian_servant_head.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/neptunian_servant_head/neptunian_servant_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:9633:living-iceberg-collection-head",
+      "itemId": 9633,
+      "name": "Head of the Frostshard Ascendant",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a7ee9b853a50/models/items/tidehunter/living_iceberg_collection_head/living_iceberg_collection_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/a7ee9b853a50/models/items/tidehunter/living_iceberg_collection_head/living_iceberg_collection_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/living_iceberg_collection_head/living_iceberg_collection_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/living_iceberg_collection_head-10434146d387.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a7ee9b853a50/models/items/tidehunter/living_iceberg_collection_head/living_iceberg_collection_head_color_tga_50b13946.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13247:ti-9-cache-tide-chelonia-mydas-head",
+      "itemId": 13247,
+      "name": "Head of the Poachers Bane",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/0f203fe87c3c/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_head/ti_9_cache_tide_chelonia_mydas_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/0f203fe87c3c/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_head/ti_9_cache_tide_chelonia_mydas_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_head/ti_9_cache_tide_chelonia_mydas_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_chelonia_mydas_head-1bbacb5d5177.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/0f203fe87c3c/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_head/ti_9_cache_tide_chelonia_mydas_head_color_tga_d62258cf.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4341:headache",
+      "itemId": 4341,
+      "name": "HeadAche",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/7d0a0af5ac3e/models/items/tidehunter/headache.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/7d0a0af5ac3e/models/items/tidehunter/headache.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/headache.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/headache-f64018b001fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/7d0a0af5ac3e/models/items/tidehunter/headache_color_tga_bf098a9f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/headache.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/headache.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7776:ancient-leviathan-head",
+      "itemId": 7776,
+      "name": "Headshell of the Drowning Trench",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/28a0aafa1826/models/items/tidehunter/ancient_leviathan_head/ancient_leviathan_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/28a0aafa1826/models/items/tidehunter/ancient_leviathan_head/ancient_leviathan_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ancient_leviathan_head/ancient_leviathan_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_leviathan_head-2cf0f5aa4e1f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/28a0aafa1826/models/items/tidehunter/ancient_leviathan_head/ancient_leviathan_head_color_tga_ae2f56b3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ancient_leviathan_head/ancient_leviathan_head.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ancient_leviathan_head/ancient_leviathan_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14141:horror-from-the-deep-head",
+      "itemId": 14141,
+      "name": "Horror from the Deep Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a0bf49aa679a/models/items/tidehunter/horror_from_the_deep_head/horror_from_the_deep_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/a0bf49aa679a/models/items/tidehunter/horror_from_the_deep_head/horror_from_the_deep_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/horror_from_the_deep_head/horror_from_the_deep_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horror_from_the_deep_head-30b8676b0d34.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a0bf49aa679a/models/items/tidehunter/horror_from_the_deep_head/horror_from_the_deep_head_color_tga_7a05dd97.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/horror_from_the_deep_head/horror_from_the_deep_head.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/horror_from_the_deep_head/horror_from_the_deep_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ti10_cache/tidehunter_ti10_cache_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:33048:burning-shark-head",
+      "itemId": 33048,
+      "name": "Insatiable Seas  Maw",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b3ea2e7d7e95/models/items/tidehunter/burning_shark_head/burning_shark_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b3ea2e7d7e95/models/items/tidehunter/burning_shark_head/burning_shark_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/burning_shark_head/burning_shark_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_shark_head-e68dac3c0867.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b3ea2e7d7e95/models/items/tidehunter/burning_shark_head/burning_shark_head_color_tga_39ce9695.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/burning_shark_head/burning_shark_head.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/burning_shark_head/burning_shark_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4093:octopus",
+      "itemId": 4093,
+      "name": "Octopus Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/93d7039579ad/models/items/tidehunter/octopus.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/93d7039579ad/models/items/tidehunter/octopus.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/octopus.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/octopus_hat-be6c7118af11.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/93d7039579ad/models/items/tidehunter/octopus_color_psd_48d1f0d2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/octopus.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/octopus.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4156:tricorn-head",
+      "itemId": 4156,
+      "name": "Pirate Slayers Tricorn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/0f3fcd2aaa28/models/items/tidehunter/tricorn_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/0f3fcd2aaa28/models/items/tidehunter/tricorn_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tricorn_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tricorn_head-467c3e8ef9b0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/0f3fcd2aaa28/models/items/tidehunter/tricorn_head_color_tga_5d05770.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tricorn_head.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tricorn_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4132:tidehunter-spines",
+      "itemId": 4132,
+      "name": "Swamp Fins",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a6e04c2f64d1/models/items/tidehunter/tidehunter_spines.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/a6e04c2f64d1/models/items/tidehunter/tidehunter_spines.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_spines.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_spines-b6f5f47883ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a6e04c2f64d1/models/items/tidehunter/tidehunter_spine_color_tga_ccbbe746.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_spines.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_spines.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18129:swamp-monster-head",
+      "itemId": 18129,
+      "name": "Swamp Terror Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e69e7070f807/models/items/tidehunter/swamp_monster_head/swamp_monster_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/e69e7070f807/models/items/tidehunter/swamp_monster_head/swamp_monster_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/swamp_monster_head/swamp_monster_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/swamp_monster_head-d328f7bcd516.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e69e7070f807/models/items/tidehunter/swamp_monster_head/swamp_monster_head_color_tga_f19d4f85.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7151:tidebreaker-head",
+      "itemId": 7151,
+      "name": "Tidosaurus Skull Spikes",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/70bee9624f59/models/items/tidehunter/tidebreaker_head/tidebreaker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/70bee9624f59/models/items/tidehunter/tidebreaker_head/tidebreaker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidebreaker_head/tidebreaker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidebreaker_head-45ced55d1306.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/70bee9624f59/models/items/tidehunter/tidebreaker_head/tidebreaker_head_color_tga_42b2c218.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidebreaker_head/tidebreaker_head.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidebreaker_head/tidebreaker_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18843:maelrawns-gaze-head",
+      "itemId": 18843,
+      "name": "Trenchline Tracker Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e082a94da198/models/items/tidehunter/maelrawns_gaze_head/maelrawns_gaze_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/e082a94da198/models/items/tidehunter/maelrawns_gaze_head/maelrawns_gaze_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_gaze_head/maelrawns_gaze_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_gaze_head-5ff7795a5f10.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e082a94da198/models/items/tidehunter/maelrawns_gaze_head/maelrawns_gaze_head_color_tga_de2341e9.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14087:maelrawns-abyssal-guard-head",
+      "itemId": 14087,
+      "name": "Vote Only Maelrawns abyssal Guard Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b2727daa5299/models/items/tidehunter/maelrawns_abyssal_guard_head/maelrawns_abyssal_guard_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b2727daa5299/models/items/tidehunter/maelrawns_abyssal_guard_head/maelrawns_abyssal_guard_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_abyssal_guard_head/maelrawns_abyssal_guard_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_abyssal_guard_head-efc81f1c3abb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b2727daa5299/models/items/tidehunter/maelrawns_abyssal_guard_head/maelrawns_abyssal_guard_head_color_tga_4bd456d5.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4258:tidehunter-wheel",
+      "itemId": 4258,
+      "name": "Wheel of Fortitude",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/cf841711f318/models/items/tidehunter/tidehunter_wheel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/cf841711f318/models/items/tidehunter/tidehunter_wheel.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_wheel.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_wheel-2de4d0bfb24a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/cf841711f318/models/items/tidehunter/tidehunter_wheel_color_psd_2bb8a6a5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_wheel.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_wheel.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13147:ti-9-cache-tide-tidal-conqueror-off-hand",
+      "itemId": 13147,
+      "name": "Brackish Stalker OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a610f2963eea/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_off_hand/ti_9_cache_tide_tidal_conqueror_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/a610f2963eea/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_off_hand/ti_9_cache_tide_tidal_conqueror_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_off_hand/ti_9_cache_tide_tidal_conqueror_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_tidal_conqueror_off_hand-f4595b8331e6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a610f2963eea/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_off_hand/ti_9_cache_tide_tidal_conqueror_off_hand_color_tga_6d6e7cb4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_off_hand/ti_9_cache_tide_tidal_conqueror_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_off_hand/ti_9_cache_tide_tidal_conqueror_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14140:horror-from-the-deep-off-hand",
+      "itemId": 14140,
+      "name": "Horror from the Deep OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/252d091f2c00/models/items/tidehunter/horror_from_the_deep_off_hand/horror_from_the_deep_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/252d091f2c00/models/items/tidehunter/horror_from_the_deep_off_hand/horror_from_the_deep_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/horror_from_the_deep_off_hand/horror_from_the_deep_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horror_from_the_deep_off_hand-479493bd1585.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/252d091f2c00/models/items/tidehunter/horror_from_the_deep_off_hand/horror_from_the_deep_off_hand_color_tga_2d54c456.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/horror_from_the_deep_off_hand/horror_from_the_deep_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/horror_from_the_deep_off_hand/horror_from_the_deep_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ti10_cache/tidehunter_ti10_cache_offhand.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:33049:burning-shark-offhand",
+      "itemId": 33049,
+      "name": "Insatiable Seas  Ship",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/252e5ad942c0/models/items/tidehunter/burning_shark_offhand/burning_shark_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/252e5ad942c0/models/items/tidehunter/burning_shark_offhand/burning_shark_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/burning_shark_offhand/burning_shark_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_shark_offhand-b88d645578f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/252e5ad942c0/models/items/tidehunter/burning_shark_offhand/burning_shark_offhand_color_psd_2fab3d75.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/burning_shark_offhand/burning_shark_offhand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/burning_shark_offhand/burning_shark_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7777:ancient-leviathan-offhand",
+      "itemId": 7777,
+      "name": "Leashed Rockshark",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b0bd02f7046c/models/items/tidehunter/ancient_leviathan_offhand/ancient_leviathan_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b0bd02f7046c/models/items/tidehunter/ancient_leviathan_offhand/ancient_leviathan_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ancient_leviathan_offhand/ancient_leviathan_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_leviathan_offhand-b257acedd6c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b0bd02f7046c/models/items/tidehunter/ancient_leviathan_offhand/ancient_leviathan_offhand_color_tga_eee984af.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ancient_leviathan_offhand/ancient_leviathan_offhand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ancient_leviathan_offhand/ancient_leviathan_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4131:tidehunter-mine",
+      "itemId": 4131,
+      "name": "Naval Mine",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/73a1432b8915/models/items/tidehunter/tidehunter_mine.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/73a1432b8915/models/items/tidehunter/tidehunter_mine.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_mine.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_mine-8c55338f63bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/73a1432b8915/models/items/tidehunter/tidehunter_mine_color_tga_9895b3e8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_mine.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_mine.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_mine/tidehunter_mine_drag_sparks.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4201:skull-flag",
+      "itemId": 4201,
+      "name": "Pirate Slayers Black Flag",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/9b869c2fcdb6/models/items/tidehunter/skull_flag.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/9b869c2fcdb6/models/items/tidehunter/skull_flag.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/skull_flag.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skull_flag-07870172a323.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/9b869c2fcdb6/models/items/tidehunter/skull_flag_color_psd_a662938e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/skull_flag.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/skull_flag.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13242:ti-9-cache-tide-chelonia-mydas-off-hand",
+      "itemId": 13242,
+      "name": "Prey of the Poachers Bane",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/39ad2451ce75/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_off_hand/ti_9_cache_tide_chelonia_mydas_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/39ad2451ce75/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_off_hand/ti_9_cache_tide_chelonia_mydas_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_off_hand/ti_9_cache_tide_chelonia_mydas_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_chelonia_mydas_off_hand-94047a2f14e8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/39ad2451ce75/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_off_hand/ti_9_cache_tide_chelonia_mydas_off_hand_color_tga_aee83475.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_off_hand/ti_9_cache_tide_chelonia_mydas_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_off_hand/ti_9_cache_tide_chelonia_mydas_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4363:hammer-head",
+      "itemId": 4363,
+      "name": "Recluse Reef Denizen",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/7da15c17e051/models/items/tidehunter/hammer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/7da15c17e051/models/items/tidehunter/hammer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/hammer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hammer_head-4816caeffe3d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/7da15c17e051/models/items/tidehunter/hammer_head_color_psd_53116b98.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/hammer_head.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/hammer_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4147:tidehunter-fish-skeleton",
+      "itemId": 4147,
+      "name": "Skeletal Catch",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b82c0e116623/models/items/tidehunter/tidehunter_fish_skeleton.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b82c0e116623/models/items/tidehunter/tidehunter_fish_skeleton.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_fish_skeleton.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_fish_skeleton-ccd7b259fee4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b82c0e116623/models/items/tidehunter/tidehunter_fish_skeleton_color_tga_9f26c008.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_fish_skeleton.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_fish_skeleton.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4158:tidehunter-squid",
+      "itemId": 4158,
+      "name": "Squiddles",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/53b8e05b7c07/models/items/tidehunter/tidehunter_squid.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/53b8e05b7c07/models/items/tidehunter/tidehunter_squid.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_squid.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_squid-79341ee9c888.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/53b8e05b7c07/models/items/tidehunter/tidehunter_squid_color_tga_28b32862.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_squid.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_squid.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_squid/tidehunter_squid_trail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:9632:living-iceberg-collection-off-hand",
+      "itemId": 9632,
+      "name": "Sunken Frostshard",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/0a7df5e1931d/models/items/tidehunter/living_iceberg_collection_off_hand/living_iceberg_collection_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/0a7df5e1931d/models/items/tidehunter/living_iceberg_collection_off_hand/living_iceberg_collection_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/living_iceberg_collection_off_hand/living_iceberg_collection_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/living_iceberg_collection_off_hand-ab5b6a4a0d7a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/0a7df5e1931d/models/items/tidehunter/living_iceberg_collection_off_hand/living_iceberg_collection_off_hand_color_tga_ff588862.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/living_iceberg_collection_off_hand/living_iceberg_collection_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/living_iceberg_collection_off_hand/living_iceberg_collection_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18242:swamp-monster-off-hand",
+      "itemId": 18242,
+      "name": "Swamp Terror Buoy",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2f038c1462f0/models/items/tidehunter/swamp_monster_off_hand/swamp_monster_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/2f038c1462f0/models/items/tidehunter/swamp_monster_off_hand/swamp_monster_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/swamp_monster_off_hand/swamp_monster_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/swamp_monster_off_hand-97cf3e1a700a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2f038c1462f0/models/items/tidehunter/swamp_monster_off_hand/swamp_monster_off_hand_color_tga_b07c41a2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/swamp_monster_off_hand/swamp_monster_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/swamp_monster_off_hand/swamp_monster_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:5239:blink-dagger-tide",
+      "itemId": 5239,
+      "name": "Tidehunter Blink Dagger",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/4d70397ffee2/models/items/tidehunter/blink_dagger_tide/blink_dagger_tide.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/4d70397ffee2/models/items/tidehunter/blink_dagger_tide/blink_dagger_tide.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/blink_dagger_tide/blink_dagger_tide.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blink_dagger_tide-86c57f7e5101.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/4d70397ffee2/models/items/tidehunter/blink_dagger_tide/blink_dagger_eel_tide_color_psd_5eb2de52.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/blink_dagger_tide/blink_dagger_tide.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/blink_dagger_tide/blink_dagger_tide.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_blink_dagger/tidehunter_blink_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:17822:tidehunter-fish",
+      "itemId": 17822,
+      "name": "Tidehunters Diretide Shimmer Lunch",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ff83477d845c/models/heroes/tidehunter/tidehunter_fish.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/ff83477d845c/models/heroes/tidehunter/tidehunter_fish.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_fish.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/ff83477d845c/models/heroes/tidehunter/fish_color_tga_2fc2e44.png"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:37:tidehunter-fish",
+      "itemId": 37,
+      "name": "Tidehunters Lunch",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/52d57273c503/models/heroes/tidehunter/tidehunter_fish.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/52d57273c503/models/heroes/tidehunter/tidehunter_fish.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tidehunter/tidehunter_fish.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_fish-900342d03701.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/52d57273c503/models/heroes/tidehunter/fish_color_tga_2fc2e44.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tidehunter/tidehunter_fish.vmdl",
+        "modelPaths": [
+          "models/heroes/tidehunter/tidehunter_fish.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18841:maelrawns-gaze-offhand",
+      "itemId": 18841,
+      "name": "Trenchline Tracker Offhand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c3df171209f0/models/items/tidehunter/maelrawns_gaze_offhand/maelrawns_gaze_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/c3df171209f0/models/items/tidehunter/maelrawns_gaze_offhand/maelrawns_gaze_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_gaze_offhand/maelrawns_gaze_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_gaze_offhand-2aade0624c5b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c3df171209f0/models/items/tidehunter/maelrawns_gaze_offhand/maelrawns_gaze_offhand_color_tga_9b89b55e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_gaze_offhand/maelrawns_gaze_offhand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_gaze_offhand/maelrawns_gaze_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14085:maelrawns-abyssal-guard-off-hand",
+      "itemId": 14085,
+      "name": "Vote Only Maelrawns abyssal Guard OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/eaa1a4f553a6/models/items/tidehunter/maelrawns_abyssal_guard_off_hand/maelrawns_abyssal_guard_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/eaa1a4f553a6/models/items/tidehunter/maelrawns_abyssal_guard_off_hand/maelrawns_abyssal_guard_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_abyssal_guard_off_hand/maelrawns_abyssal_guard_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_abyssal_guard_off_hand-e696ebc2131b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/eaa1a4f553a6/models/items/tidehunter/maelrawns_abyssal_guard_off_hand/maelrawns_abyssal_guard_off_hand_color_tga_7cbfc395.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_abyssal_guard_off_hand/maelrawns_abyssal_guard_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_abyssal_guard_off_hand/maelrawns_abyssal_guard_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:6472:neptunian-servant-offhand",
+      "itemId": 6472,
+      "name": "Wrecking Ball",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/958f84ea1f16/models/items/tidehunter/neptunian_servant_offhand/neptunian_servant_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/958f84ea1f16/models/items/tidehunter/neptunian_servant_offhand/neptunian_servant_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/neptunian_servant_offhand/neptunian_servant_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/neptunian_servant_offhand-4eee5f26ea94.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/958f84ea1f16/models/items/tidehunter/neptunian_servant_offhand/neptunian_servant_offhand_color_tga_d6b40600.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/neptunian_servant_offhand/neptunian_servant_offhand.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/neptunian_servant_offhand/neptunian_servant_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7778:ancient-leviathan-weapon-fx",
+      "itemId": 7778,
+      "name": "Aquemerald Blade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b6243a2c77a6/models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b6243a2c77a6/models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_leviathan_weapon-3bf085fda597.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b6243a2c77a6/models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_color_tga_183f4757.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ancient_leviathan/tide_ancient_leviathan_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Aquemerald Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Aquemerald Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/tidehunter/tidehunter_ancient_leviathan/tide_ancient_leviathan_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7778:ancient-leviathan-weapon-fx:style-1",
+      "itemId": 7778,
+      "name": "Aquemerald Blade - Aquemerald Particle",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b6243a2c77a6/models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/b6243a2c77a6/models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ancient_leviathan_weapon_particle-b00fc44547bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/b6243a2c77a6/models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_color_tga_183f4757.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_fx.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ancient_leviathan/tide_ancient_leviathan_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Aquemerald Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Aquemerald Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/tidehunter/ancient_leviathan_weapon/ancient_leviathan_weapon_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/tidehunter/tidehunter_ancient_leviathan/tide_ancient_leviathan_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4149:tidehunter-shark-jaw",
+      "itemId": 4149,
+      "name": "BeastJaw Bludgeoner",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/bad8e653977c/models/items/tidehunter/tidehunter_shark_jaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/bad8e653977c/models/items/tidehunter/tidehunter_shark_jaw.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_shark_jaw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_shark_jaw-d90dcceadac2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/bad8e653977c/models/items/tidehunter/tidehunter_shark_jaw_color_tga_c852a8c6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_shark_jaw.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_shark_jaw.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13148:ti-9-cache-tide-tidal-conqueror-weapon",
+      "itemId": 13148,
+      "name": "Brackish Stalker Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/beaf419e92a3/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_weapon/ti_9_cache_tide_tidal_conqueror_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/beaf419e92a3/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_weapon/ti_9_cache_tide_tidal_conqueror_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_weapon/ti_9_cache_tide_tidal_conqueror_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_tidal_conqueror_weapon-dee8f0915740.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/beaf419e92a3/models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_weapon/ti_9_cache_tide_tidal_conqueror_weapon_color_tga_a141af96.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_weapon/ti_9_cache_tide_tidal_conqueror_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_tidal_conqueror_weapon/ti_9_cache_tide_tidal_conqueror_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:13243:ti-9-cache-tide-chelonia-mydas-weapon",
+      "itemId": 13243,
+      "name": "Club of the Poachers Bane",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/5f4ea53ae315/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_weapon/ti_9_cache_tide_chelonia_mydas_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/5f4ea53ae315/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_weapon/ti_9_cache_tide_chelonia_mydas_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_weapon/ti_9_cache_tide_chelonia_mydas_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tide_chelonia_mydas_weapon-994927a8ac9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/5f4ea53ae315/models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_weapon/ti_9_cache_tide_chelonia_mydas_weapon_color_tga_55749d6d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_weapon/ti_9_cache_tide_chelonia_mydas_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/ti_9_cache_tide_chelonia_mydas_weapon/ti_9_cache_tide_chelonia_mydas_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:6340:tidehunter-weapon",
+      "itemId": 6340,
+      "name": "Conch Cudgel",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/071d26028db8/models/items/tidehunter/pw_conch_cudgel/tidehunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/071d26028db8/models/items/tidehunter/pw_conch_cudgel/tidehunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/pw_conch_cudgel/tidehunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_weapon-7a594e8bb50b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/071d26028db8/models/items/tidehunter/pw_conch_cudgel/tidehunter_weapon_color_tga_d2a9e285.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/pw_conch_cudgel/tidehunter_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/pw_conch_cudgel/tidehunter_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_conche/tidehunter_conch_drips.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4148:tidehunter-skull-weapon",
+      "itemId": 4148,
+      "name": "Femur Thrasher",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2be88deb7ea7/models/items/tidehunter/tidehunter_skull_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/2be88deb7ea7/models/items/tidehunter/tidehunter_skull_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidehunter_skull_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidehunter_skull_weapon-ca8206e4d40d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2be88deb7ea7/models/items/tidehunter/tidehunter_skull_weapon_color_psd_2a282361.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidehunter_skull_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidehunter_skull_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4256:weapon-hammertime",
+      "itemId": 4256,
+      "name": "Hammer Time",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f30d8f89b703/models/items/tidehunter/weapon_hammertime.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/f30d8f89b703/models/items/tidehunter/weapon_hammertime.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/weapon_hammertime.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_hammertime-286f657b122e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/f30d8f89b703/models/items/tidehunter/weapon_hammertime_color_tga_d07bdb48.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/weapon_hammertime.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/weapon_hammertime.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14138:horror-from-the-deep-weapon",
+      "itemId": 14138,
+      "name": "Horror from the Deep Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e7ad69d306f7/models/items/tidehunter/horror_from_the_deep_weapon/horror_from_the_deep_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/e7ad69d306f7/models/items/tidehunter/horror_from_the_deep_weapon/horror_from_the_deep_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/horror_from_the_deep_weapon/horror_from_the_deep_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horror_from_the_deep_weapon-765492626214.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/e7ad69d306f7/models/items/tidehunter/horror_from_the_deep_weapon/horror_from_the_deep_weapon_color_tga_f57f166a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/horror_from_the_deep_weapon/horror_from_the_deep_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/horror_from_the_deep_weapon/horror_from_the_deep_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/tidehunter_ti10_cache/tidehunter_ti10_cache_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:33050:burning-shark-weapon",
+      "itemId": 33050,
+      "name": "Insatiable Seas  Anchor",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a6fa7abb34ee/models/items/tidehunter/burning_shark_weapon/burning_shark_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/a6fa7abb34ee/models/items/tidehunter/burning_shark_weapon/burning_shark_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/burning_shark_weapon/burning_shark_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burning_shark_weapon-98737ab0e777.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/a6fa7abb34ee/models/items/tidehunter/burning_shark_weapon/burning_shark_weapon_color_tga_f5c8d9e5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/burning_shark_weapon/burning_shark_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/burning_shark_weapon/burning_shark_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tidehunter/burning_shark/burning_shark_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:4200:skull-sword",
+      "itemId": 4200,
+      "name": "Pirate Slayers Cutlass",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/460b531d7339/models/items/tidehunter/skull_sword.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/460b531d7339/models/items/tidehunter/skull_sword.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/skull_sword.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skull_sword-683690794396.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/460b531d7339/models/items/tidehunter/skull_sword_color_tga_6a619b82.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/skull_sword.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/skull_sword.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:6471:neptunian-servant-weapon",
+      "itemId": 6471,
+      "name": "Reefcutter",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/cb49ae9d0b85/models/items/tidehunter/neptunian_servant_weapon/neptunian_servant_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/cb49ae9d0b85/models/items/tidehunter/neptunian_servant_weapon/neptunian_servant_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/neptunian_servant_weapon/neptunian_servant_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/neptunian_servant_weapon-5444a4993070.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/cb49ae9d0b85/models/items/tidehunter/neptunian_servant_weapon/neptunian_servant_weapon_color_tga_8c00efe.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/neptunian_servant_weapon/neptunian_servant_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/neptunian_servant_weapon/neptunian_servant_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18243:swamp-monster-weapon",
+      "itemId": 18243,
+      "name": "Swamp Terror Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d246a790a2a2/models/items/tidehunter/swamp_monster_weapon/swamp_monster_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/d246a790a2a2/models/items/tidehunter/swamp_monster_weapon/swamp_monster_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/swamp_monster_weapon/swamp_monster_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/swamp_monster_weapon-54b58bd660b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d246a790a2a2/models/items/tidehunter/swamp_monster_weapon/swamp_monster_weapon_color_tga_a2526d14.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/swamp_monster_weapon/swamp_monster_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/swamp_monster_weapon/swamp_monster_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:7152:tidebreaker-weapon",
+      "itemId": 7152,
+      "name": "Tidosaurus Club",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d948d3b0de07/models/items/tidehunter/tidebreaker_weapon/tidebreaker_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/d948d3b0de07/models/items/tidehunter/tidebreaker_weapon/tidebreaker_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/tidebreaker_weapon/tidebreaker_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tidebreaker_weapon-bd5faf92dd9c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/d948d3b0de07/models/items/tidehunter/tidebreaker_weapon/tidebreaker_weapon_color_tga_6f16835e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/tidebreaker_weapon/tidebreaker_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/tidebreaker_weapon/tidebreaker_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:18840:maelrawns-gaze-weapon",
+      "itemId": 18840,
+      "name": "Trenchline Tracker Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c71fbef525fe/models/items/tidehunter/maelrawns_gaze_weapon/maelrawns_gaze_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/c71fbef525fe/models/items/tidehunter/maelrawns_gaze_weapon/maelrawns_gaze_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_gaze_weapon/maelrawns_gaze_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_gaze_weapon-7efbb429745d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/c71fbef525fe/models/items/tidehunter/maelrawns_gaze_weapon/maelrawns_gaze_weapon_color_tga_9d4263d8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_gaze_weapon/maelrawns_gaze_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_gaze_weapon/maelrawns_gaze_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:14084:maelrawns-abyssal-guard-weapon",
+      "itemId": 14084,
+      "name": "Vote Only Maelrawns abyssal Guard Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/87e890a6544c/models/items/tidehunter/maelrawns_abyssal_guard_weapon/maelrawns_abyssal_guard_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/87e890a6544c/models/items/tidehunter/maelrawns_abyssal_guard_weapon/maelrawns_abyssal_guard_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/maelrawns_abyssal_guard_weapon/maelrawns_abyssal_guard_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/maelrawns_abyssal_guard_weapon-e143a8941262.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/87e890a6544c/models/items/tidehunter/maelrawns_abyssal_guard_weapon/maelrawns_abyssal_guard_weapon_color_tga_e9849d7b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/maelrawns_abyssal_guard_weapon/maelrawns_abyssal_guard_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/maelrawns_abyssal_guard_weapon/maelrawns_abyssal_guard_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:item-model:9631:living-iceberg-collection-weapon",
+      "itemId": 9631,
+      "name": "Weapon of the Frostshard Ascendant",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2895fad32829/models/items/tidehunter/living_iceberg_collection_weapon/living_iceberg_collection_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tidehunter/2895fad32829/models/items/tidehunter/living_iceberg_collection_weapon/living_iceberg_collection_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tidehunter/living_iceberg_collection_weapon/living_iceberg_collection_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/living_iceberg_collection_weapon-e25dcf50acbf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tidehunter/2895fad32829/models/items/tidehunter/living_iceberg_collection_weapon/living_iceberg_collection_weapon_color_tga_be7c85d6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tidehunter/living_iceberg_collection_weapon/living_iceberg_collection_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tidehunter/living_iceberg_collection_weapon/living_iceberg_collection_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tidehunter/tidehunter_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21355:brackish-stalker",
+      "name": "Brackish Stalker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        13146,
+        13147,
+        13148,
+        13149,
+        13150,
+        13151
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/ti_9_cache_tide_tidal_conqueror_head-c717df68cea9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:20497:deepweed-drowner",
+      "name": "Deepweed Drowner",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        6467,
+        6468,
+        6469,
+        6470,
+        6471,
+        6472
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/neptunian_servant_loading_screen-ac4831556f4b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:20730:dota-2-canada-cup-season-4",
+      "name": "Dota 2 Canada Cup Season 4",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        7148,
+        7149,
+        7150,
+        7151,
+        7152
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/tidebreaker_arms-c0faa7dfe411.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21173:frostshard-ascendant",
+      "name": "Frostshard Ascendant",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        9631,
+        9632,
+        9633,
+        9634,
+        9635,
+        9636
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/living_iceberg_collection_weapon-e25dcf50acbf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21503:horror-from-the-deep",
+      "name": "Horror from the Deep",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        14138,
+        14139,
+        14140,
+        14141,
+        14142,
+        14143
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/horror_from_the_deep_weapon-765492626214.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:33051:insatiable-seas",
+      "name": "Insatiable Seas",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        33045,
+        33046,
+        33047,
+        33048,
+        33049,
+        33050
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/burning_shark_arms-e03d4042423b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21371:poachers-bane",
+      "name": "Poachers Bane",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        13242,
+        13243,
+        13244,
+        13245,
+        13246,
+        13247
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti_9_cache_tide_chelonia_mydas_off_hand-94047a2f14e8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:20891:relics-of-the-drowning-trench",
+      "name": "Relics of the Drowning Trench",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        7773,
+        7774,
+        7775,
+        7776,
+        7777,
+        7778
+      ],
+      "styleSelections": {
+        "7778": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/drowning_trench_loadingscreen-dd942583753e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:20891:relics-of-the-drowning-trench:style-1",
+      "name": "Relics of the Drowning Trench - Aquemerald Particle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        7773,
+        7774,
+        7775,
+        7776,
+        7777,
+        7778
+      ],
+      "styleSelections": {
+        "7778": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ancient_leviathan_weapon_particle-b00fc44547bc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21780:swamp-terror",
+      "name": "Swamp Terror",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        18129,
+        18228,
+        18229,
+        18230,
+        18242,
+        18243
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/swamp_monster_head-d328f7bcd516.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:20023:the-paleogeneous-punisher-set",
+      "name": "The Paleogeneous Punisher Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        4129,
+        4146,
+        4147,
+        4148
+      ],
+      "slots": [
+        "back",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/tidehunter_skull-25b07125c2cf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:20022:the-pirates-booty-set",
+      "name": "The Pirates Booty Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        37,
+        582
+      ],
+      "sourceItemIds": [
+        4155,
+        4156,
+        4200,
+        4201
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/buccaneers_bracer-09ead801b41e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21700:tidehunters-diretide-shimmer-bundle",
+      "name": "Tidehunters Diretide Shimmer Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        735
+      ],
+      "sourceItemIds": [
+        17820,
+        17822,
+        17823,
+        17824
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "costume",
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:seasonal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:20760:tidosaurus",
+      "name": "Tidosaurus",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        7148,
+        7149,
+        7150,
+        7151,
+        7152
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/tidosaurus_loading_screen-ebfaa3549c1b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21774:trenchline-tracker",
+      "name": "Trenchline Tracker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        18840,
+        18841,
+        18842,
+        18843,
+        18844,
+        18869
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/maelrawns_gaze_ls-819f857e9c6c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tidehunter:core-set:21493:vote-only-maelrawns-abyssal-guard",
+      "name": "Vote Only Maelrawns abyssal Guard",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        34,
+        35,
+        37,
+        582,
+        583
+      ],
+      "sourceItemIds": [
+        14084,
+        14085,
+        14087,
+        14088,
+        14089,
+        14090
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 54432305,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 584
+  }
+}

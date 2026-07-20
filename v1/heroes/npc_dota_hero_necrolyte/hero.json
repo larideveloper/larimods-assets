@@ -1,0 +1,4197 @@
+{
+  "heroId": "npc_dota_hero_necrolyte",
+  "sourceHeroId": "npc_dota_hero_necrolyte",
+  "variantId": "default",
+  "heroName": "Necrolyte",
+  "heroSlug": "necrolyte",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/necrolyte.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_necrolyte/ab98dae5eb57/models/heroes/necrolyte/necrolyte.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "itemId": 212,
+      "name": "Necrophos Beard",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/65185a2eef52/models/heroes/necrolyte/beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/65185a2eef52/models/heroes/necrolyte/beard.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/beard.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/65185a2eef52/models/heroes/necrolyte/beard_color_psd_671eed77.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 213,
+      "name": "Necrophos Headdress",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/094825d9f08d/models/heroes/necrolyte/hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/094825d9f08d/models/heroes/necrolyte/hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/hat.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/094825d9f08d/models/heroes/necrolyte/hat_color_psd_6a26efe0.png"
+    },
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 659,
+      "name": "Necrophos Skirt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/5943a57a92c4/models/heroes/necrolyte/legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/5943a57a92c4/models/heroes/necrolyte/legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/legs.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/5943a57a92c4/models/heroes/necrolyte/necro_armor_lower_color_tga_3bfee1a7.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 214,
+      "name": "Necrophos Vestments",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d9ce4cc37c44/models/heroes/necrolyte/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/d9ce4cc37c44/models/heroes/necrolyte/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d9ce4cc37c44/models/heroes/necrolyte/shoulders_color_psd_c4999add.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:18212:ti8-necro-disaster-of-pestilence-beard",
+      "itemId": 18212,
+      "name": "Aghs BP Beard of the Murid Divine",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/636f3b9d86d3/models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/636f3b9d86d3/models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_beard1-ae916879597d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/636f3b9d86d3/models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard_color_tga_45f7b8d4.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:4689:death-protest-beard",
+      "itemId": 4689,
+      "name": "Beard of Weeping Scorn",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1892f48ccf1e/models/items/necrolyte/death_protest_beard/death_protest_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1892f48ccf1e/models/items/necrolyte/death_protest_beard/death_protest_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/death_protest_beard/death_protest_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_protest_beard-a60049d6a0c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1892f48ccf1e/models/items/necrolyte/death_protest_beard/death_protest_beard_color_tga_cec0ee1.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6377:heretic-head",
+      "itemId": 6377,
+      "name": "Beard of the Heretic",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/66ff3b59ba16/models/items/necrolyte/heretic_head/heretic_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/66ff3b59ba16/models/items/necrolyte/heretic_head/heretic_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/heretic_head/heretic_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heretic_head-e7176aa01f63.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/66ff3b59ba16/models/items/necrolyte/heretic_head/heretic_head_color_tga_bd3ec0a6.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9838:ti8-necro-disaster-of-pestilence-beard",
+      "itemId": 9838,
+      "name": "Beard of the Murid Divine",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1c26863c91e5/models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1c26863c91e5/models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_beard-0fbd7dd2be50.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1c26863c91e5/models/items/necrolyte/ti8_necro_disaster_of_pestilence_beard/ti8_necro_disaster_of_pestilence_beard_color_tga_45f7b8d4.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7739:plague-lord-plague-lord-beard",
+      "itemId": 7739,
+      "name": "Beard of the Scourge Dominion",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e8543194fd9c/models/items/necrolyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/e8543194fd9c/models/items/necrolyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/plague_lord_plague_lord_beard-b2e3edcac450.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e8543194fd9c/models/items/necrolyte/plague_lord_plague_lord_beard/plague_lord_plague_lord_beard_color_tga_2288bb59.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9484:the-plaguemonger-plaguemongers-beard",
+      "itemId": 9484,
+      "name": "Beard of the the Plaguemonger",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/bd16b5ebb62b/models/items/necrolyte/the_plaguemonger_plaguemongers_beard/the_plaguemonger_plaguemongers_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/bd16b5ebb62b/models/items/necrolyte/the_plaguemonger_plaguemongers_beard/the_plaguemonger_plaguemongers_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_plaguemonger_plaguemongers_beard/the_plaguemonger_plaguemongers_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plaguemonger_plaguemongers_beard-9df351af2adc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/bd16b5ebb62b/models/items/necrolyte/the_plaguemonger_plaguemongers_beard/the_plaguemonger_plaguemongers_beard_color_tga_dfbd1a85.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9480:dplus-plagues-beard",
+      "itemId": 9480,
+      "name": "Exodus of the Plague Witch Beard",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e96f8f7e42c5/models/items/necrolyte/the_bringer_of_plagues_beard/dplus_plagues_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/e96f8f7e42c5/models/items/necrolyte/the_bringer_of_plagues_beard/dplus_plagues_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_bringer_of_plagues_beard/dplus_plagues_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bringer_of_plagues_beard_the_bringer_of_plagues-cd0f4958ba1b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e96f8f7e42c5/models/items/necrolyte/the_bringer_of_plagues_beard/the_bringer_of_plagues_beard_the_bringer_of_plagues_color_tga_1735236c.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:13069:ti9-cache-necro-fowl-plague-beard",
+      "itemId": 13069,
+      "name": "Fowl Omen Beard",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/30e7230cb776/models/items/necrolyte/ti9_cache_necro_fowl_plague_beard/ti9_cache_necro_fowl_plague_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/30e7230cb776/models/items/necrolyte/ti9_cache_necro_fowl_plague_beard/ti9_cache_necro_fowl_plague_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti9_cache_necro_fowl_plague_beard/ti9_cache_necro_fowl_plague_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_necro_fowl_plague_beard-2397d60d9f59.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/30e7230cb776/models/items/necrolyte/ti9_cache_necro_fowl_plague_beard/ti9_cache_necro_fowl_plague_beard_color_tga_59825b09.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:24879:necro-2022-immortal-beard",
+      "itemId": 24879,
+      "name": "Golden Sullen Strands",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/6b37e2812c75/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/6b37e2812c75/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_2022_immortal_beard1-762ac6c53ac0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/6b37e2812c75/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard_color_png_1dc5d02.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_beard_immortal_golden_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8044:vampire-counts-beard",
+      "itemId": 8044,
+      "name": "Guise of the Master Necromancer",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4e5ea9b77aff/models/items/necrolyte/vampire_counts_beard/vampire_counts_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/4e5ea9b77aff/models/items/necrolyte/vampire_counts_beard/vampire_counts_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_beard/vampire_counts_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_beard-2604707f7c29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4e5ea9b77aff/models/items/necrolyte/vampire_counts_beard/vampire_counts_beard_color_psd_84824719.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6051:immemorial-emperor-beard",
+      "itemId": 6051,
+      "name": "Immemorial Emperors Beard",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e7aa4068d3bc/models/items/necrolyte/immemorial_emperor_beard/immemorial_emperor_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/e7aa4068d3bc/models/items/necrolyte/immemorial_emperor_beard/immemorial_emperor_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immemorial_emperor_beard/immemorial_emperor_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immemorial_emperor_beard-41492128df65.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e7aa4068d3bc/models/items/necrolyte/immemorial_emperor_beard/immemorial_emperor_beard_color_tga_1f5af359.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8475:vampire-counts-beard",
+      "itemId": 8475,
+      "name": "Lich Guise of the Master Necromancer",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/84cad35e35ff/models/items/necrolyte/vampire_counts_beard/vampire_counts_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/84cad35e35ff/models/items/necrolyte/vampire_counts_beard/vampire_counts_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_beard/vampire_counts_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_beard1-0e575a21be89.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/84cad35e35ff/models/items/necrolyte/vampire_counts_beard/vampire_counts_beard_color_psd_84824719.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8928:apostle-of-decay-mask",
+      "itemId": 8928,
+      "name": "Mask of Decay",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/7ddef8f095f8/models/items/necrolyte/apostle_of_decay_mask/apostle_of_decay_mask.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/7ddef8f095f8/models/items/necrolyte/apostle_of_decay_mask/apostle_of_decay_mask.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/apostle_of_decay_mask/apostle_of_decay_mask.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/apostle_of_decay_mask-ee0296e74a15.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/7ddef8f095f8/models/items/necrolyte/apostle_of_decay_mask/apostle_of_decay_mask_color_tga_f24eca2b.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6291:necronub-head",
+      "itemId": 6291,
+      "name": "Moldering Mask of Ka",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/f1c5e1a28c4a/models/items/necrolyte/necronub_head/necronub_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/f1c5e1a28c4a/models/items/necrolyte/necronub_head/necronub_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necronub_head/necronub_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necronub_head-09ce95e6c160.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/f1c5e1a28c4a/models/items/necrolyte/necronub_head/necronub_head_color_tga_57fd1256.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:212:beard",
+      "itemId": 212,
+      "name": "Necrophos Beard",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/65185a2eef52/models/heroes/necrolyte/beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/65185a2eef52/models/heroes/necrolyte/beard.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/beard-af840610384f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/65185a2eef52/models/heroes/necrolyte/beard_color_psd_671eed77.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:17926:the-count-of-plague-collar",
+      "itemId": 17926,
+      "name": "Plague Baron Collar",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/f429cd7b9970/models/items/necrolyte/the_count_of_plague_collar/the_count_of_plague_collar.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/f429cd7b9970/models/items/necrolyte/the_count_of_plague_collar/the_count_of_plague_collar.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_count_of_plague_collar/the_count_of_plague_collar.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_count_of_plague_collar-ca9155e2c825.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/f429cd7b9970/models/items/necrolyte/the_count_of_plague_collar/the_count_of_plague_collar_color_tga_dae6d2fa.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:25410:necro-plague-doctor-beard",
+      "itemId": 25410,
+      "name": "RotIron Ripper  Body",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/db62ca7ff7e2/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/db62ca7ff7e2/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_plague_doctor_beard-bfbfdd89557a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/db62ca7ff7e2/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_beard_color_tga_31d81cc0.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:32671:serpent-sage-sash",
+      "itemId": 32671,
+      "name": "Serpents Spite  Sash",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a5895f2c5ebf/models/items/necrolyte/serpent_sage_sash/serpent_sage_sash.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/a5895f2c5ebf/models/items/necrolyte/serpent_sage_sash/serpent_sage_sash.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/serpent_sage_sash/serpent_sage_sash.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serpent_sage_sash-4305d983a5c2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a5895f2c5ebf/models/items/necrolyte/serpent_sage_sash/serpent_sage_sash_color_tga_42a4c857.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:23346:necro-2022-immortal-beard",
+      "itemId": 23346,
+      "name": "Sullen Strands",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/2e96fc6110a4/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/2e96fc6110a4/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_2022_immortal_beard-a92bcc48da69.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/2e96fc6110a4/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard_color_png_1dc5d02.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_beard.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_beard_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:5622:tenplagues-necrolyte-beard",
+      "itemId": 5622,
+      "name": "Vestments of the Ten Plagues Beard",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Beard",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/584eccd1216f/models/items/necrolyte/tenplagues_necrolyte_beard/tenplagues_necrolyte_beard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/584eccd1216f/models/items/necrolyte/tenplagues_necrolyte_beard/tenplagues_necrolyte_beard.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/tenplagues_necrolyte_beard/tenplagues_necrolyte_beard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tenplagues_necrolyte_beard-f1a6fc075f5f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/584eccd1216f/models/items/necrolyte/tenplagues_necrolyte_beard/tenplagues_necrolyte_beard_color_psd_ca54188c.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:18213:ti8-necro-disaster-of-pestilence-head",
+      "itemId": 18213,
+      "name": "Aghs BP Crown of the Murid Divine",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/889ee7188295/models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/889ee7188295/models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_head1-87609a575764.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/889ee7188295/models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head_color_tga_99c752ea.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9839:ti8-necro-disaster-of-pestilence-head",
+      "itemId": 9839,
+      "name": "Crown of the Murid Divine",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/102c2159b39a/models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/102c2159b39a/models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_head-24939e97c2d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/102c2159b39a/models/items/necrolyte/ti8_necro_disaster_of_pestilence_head/ti8_necro_disaster_of_pestilence_head_color_tga_99c752ea.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7729:plague-lord-plague-lord-head",
+      "itemId": 7729,
+      "name": "Crown of the Scourge Dominion",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/794bdb37d429/models/items/necrolyte/plague_lord_plague_lord_head/plague_lord_plague_lord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/794bdb37d429/models/items/necrolyte/plague_lord_plague_lord_head/plague_lord_plague_lord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/plague_lord_plague_lord_head/plague_lord_plague_lord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/plague_lord_plague_lord_head-49629e41eff4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/794bdb37d429/models/items/necrolyte/plague_lord_plague_lord_head/plague_lord_plague_lord_head_color_tga_dcd0c4ec.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9479:the-bringer-of-plagues-head-the-bringer-of-plagues",
+      "itemId": 9479,
+      "name": "Exodus of the Plague Witch Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a1624c91d1aa/models/items/necrolyte/the_bringer_of_plagues_head_the_bringer_of_plagues/the_bringer_of_plagues_head_the_bringer_of_plagues.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/a1624c91d1aa/models/items/necrolyte/the_bringer_of_plagues_head_the_bringer_of_plagues/the_bringer_of_plagues_head_the_bringer_of_plagues.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_bringer_of_plagues_head_the_bringer_of_plagues/the_bringer_of_plagues_head_the_bringer_of_plagues.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bringer_of_plagues_head_the_bringer_of_plagues-5a8f9bc24460.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a1624c91d1aa/models/items/necrolyte/the_bringer_of_plagues_head_the_bringer_of_plagues/the_bringer_of_plagues_head_the_bringer_of_plagues_color_tga_38f2d1b0.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:13068:ti9-cache-necro-fowl-plague-head",
+      "itemId": 13068,
+      "name": "Fowl Omen Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/19c7367ca569/models/items/necrolyte/ti9_cache_necro_fowl_plague_head/ti9_cache_necro_fowl_plague_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/19c7367ca569/models/items/necrolyte/ti9_cache_necro_fowl_plague_head/ti9_cache_necro_fowl_plague_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti9_cache_necro_fowl_plague_head/ti9_cache_necro_fowl_plague_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_necro_fowl_plague_head-46856c101ae0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/19c7367ca569/models/items/necrolyte/ti9_cache_necro_fowl_plague_head/ti9_cache_necro_fowl_plague_head_color_psd_5128a013.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/ti9_cache_necro_fowl_plague_head/ti9_cache_necro_fowl_plague_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/ti9_cache_necro_fowl_plague_head/ti9_cache_necro_fowl_plague_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_cache/necro_ti9_cache_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:24878:necro-2022-immortal-head",
+      "itemId": 24878,
+      "name": "Golden Sullen Shrine",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/6067fa8ac9df/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/6067fa8ac9df/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_2022_immortal_head1-e7332adc80ac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/6067fa8ac9df/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head_color_psd_acb153f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_head_immortal_golden_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_head_immortal_golden_target.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_head_immortal_golden_target_creep.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_heartstop_target_creep_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_heartstop_target_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9483:the-plaguemonger-plaguemongers-headdress",
+      "itemId": 9483,
+      "name": "Headdress of the Plaguemonger",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/20f9336d5584/models/items/necrolyte/the_plaguemonger_plaguemongers_headdress/the_plaguemonger_plaguemongers_headdress.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/20f9336d5584/models/items/necrolyte/the_plaguemonger_plaguemongers_headdress/the_plaguemonger_plaguemongers_headdress.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_plaguemonger_plaguemongers_headdress/the_plaguemonger_plaguemongers_headdress.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plaguemonger_plaguemongers_headdress-911b56b321af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/20f9336d5584/models/items/necrolyte/the_plaguemonger_plaguemongers_headdress/the_plaguemonger_plaguemongers_headdress_color_tga_61925ffa.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8927:apostle-of-decay-head",
+      "itemId": 8927,
+      "name": "Hood of Decay",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/5c09ff692a6a/models/items/necrolyte/apostle_of_decay_head/apostle_of_decay_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/5c09ff692a6a/models/items/necrolyte/apostle_of_decay_head/apostle_of_decay_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/apostle_of_decay_head/apostle_of_decay_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/apostle_of_decay_head-82b7a3fec4ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/5c09ff692a6a/models/items/necrolyte/apostle_of_decay_head/apostle_of_decay_head_color_tga_18d1c62f.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6378:heretic-hood",
+      "itemId": 6378,
+      "name": "Hood of the Heretic",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b708a959f51f/models/items/necrolyte/heretic_hood/heretic_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/b708a959f51f/models/items/necrolyte/heretic_hood/heretic_hood.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/heretic_hood/heretic_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heretic_hood-1dd5b4dd07c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b708a959f51f/models/items/necrolyte/heretic_hood/heretic_hood_color_tga_f3efad40.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6052:immemorial-emperor-head",
+      "itemId": 6052,
+      "name": "Immemorial Emperors Coronet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/301b935985a9/models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/301b935985a9/models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immemorial_emperor_head-ccf12a08a855.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/301b935985a9/models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head_color_tga_85dab22c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Immemorial Emperors Coronet Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Immemorial Emperors Coronet Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/immemorial_emperor_head_black/immemorial_emperor_head_black",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_head_black/immemorial_emperor_head_black.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6052:immemorial-emperor-head:style-1",
+      "itemId": 6052,
+      "name": "Immemorial Emperors Coronet - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/301b935985a9/models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/301b935985a9/models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immemorial_emperor_head_black-2540527a3108.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/301b935985a9/models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head_color_tga_85dab22c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Immemorial Emperors Coronet Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_head/immemorial_emperor_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Immemorial Emperors Coronet Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/immemorial_emperor_head_black/immemorial_emperor_head_black",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_head_black/immemorial_emperor_head_black.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8474:vampire-counts-head",
+      "itemId": 8474,
+      "name": "Lich Sleeves of the Master Necromancer",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/918ceb5cc9ea/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/918ceb5cc9ea/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_head_pre-ff6d161b0f10.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/918ceb5cc9ea/models/items/necrolyte/vampire_counts_head/vampire_counts_head_color_tga_f0c67a83.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vampire Counts Master Head and Sleeves 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vampire Counts Master Head and Sleeves 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head_style1",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head2/vampire_counts_head2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8474:vampire-counts-head:style-1",
+      "itemId": 8474,
+      "name": "Lich Sleeves of the Master Necromancer - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/918ceb5cc9ea/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/918ceb5cc9ea/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_head_style1-d0e9d28fa52d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/918ceb5cc9ea/models/items/necrolyte/vampire_counts_head/vampire_counts_head_color_tga_f0c67a83.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vampire Counts Master Head and Sleeves 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vampire Counts Master Head and Sleeves 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head_style1",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head2/vampire_counts_head2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:213:hat",
+      "itemId": 213,
+      "name": "Necrophos Headdress",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/094825d9f08d/models/heroes/necrolyte/hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/094825d9f08d/models/heroes/necrolyte/hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hat-24779df5c366.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/094825d9f08d/models/heroes/necrolyte/hat_color_psd_6a26efe0.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:17930:the-count-of-plague-hat",
+      "itemId": 17930,
+      "name": "Plague Baron Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e82ddb1f902f/models/items/necrolyte/the_count_of_plague_hat/the_count_of_plague_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/e82ddb1f902f/models/items/necrolyte/the_count_of_plague_hat/the_count_of_plague_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_count_of_plague_hat/the_count_of_plague_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_count_of_plague_hat-e9f151589c8a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e82ddb1f902f/models/items/necrolyte/the_count_of_plague_hat/the_count_of_plague_hat_color_tga_c46399da.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:4688:death-protest-hat",
+      "itemId": 4688,
+      "name": "Pretiosa of Putrescense",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/92250a19ec26/models/items/necrolyte/death_protest_hat/death_protest_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/92250a19ec26/models/items/necrolyte/death_protest_hat/death_protest_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/death_protest_hat/death_protest_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_protest_hat-220b13e4de76.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/92250a19ec26/models/items/necrolyte/death_protest_hat/death_protest_hat_color_tga_1720aba2.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:25024:necro-plague-doctor-head",
+      "itemId": 25024,
+      "name": "RotIron Ripper  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/10c5d1448d86/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/10c5d1448d86/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_plague_doctor_head-6825200833de.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/10c5d1448d86/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_head_color_tga_295c4f20.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:32669:serpent-sage-head",
+      "itemId": 32669,
+      "name": "Serpents Spite  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1498061e8333/models/items/necrolyte/serpent_sage_head/serpent_sage_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1498061e8333/models/items/necrolyte/serpent_sage_head/serpent_sage_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/serpent_sage_head/serpent_sage_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serpent_sage_head-46b818b9407e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1498061e8333/models/items/necrolyte/serpent_sage_head/serpent_sage_head_color_tga_d1d24b22.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7083:necronub-top",
+      "itemId": 7083,
+      "name": "Shroud of Ka",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/c0cd251af427/models/items/necrolyte/necronub_top/necronub_top.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/c0cd251af427/models/items/necrolyte/necronub_top/necronub_top.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necronub_top/necronub_top.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necronub_top-300a048c5781.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/c0cd251af427/models/items/necrolyte/necronub_top/necronub_top_color_tga_d25460c8.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8043:vampire-counts-head",
+      "itemId": 8043,
+      "name": "Sleeves of the Master Necromancer",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/9cb30cb6612e/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/9cb30cb6612e/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_head-bfeaa8cbfaaf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/9cb30cb6612e/models/items/necrolyte/vampire_counts_head/vampire_counts_head_color_tga_f0c67a83.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vampire Counts Master Head and Sleeves 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vampire Counts Master Head and Sleeves 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head_style1",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head2/vampire_counts_head2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8043:vampire-counts-head:style-1",
+      "itemId": 8043,
+      "name": "Sleeves of the Master Necromancer - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/9cb30cb6612e/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/9cb30cb6612e/models/items/necrolyte/vampire_counts_head/vampire_counts_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_head_style1-d0e9d28fa52d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/9cb30cb6612e/models/items/necrolyte/vampire_counts_head/vampire_counts_head_color_tga_f0c67a83.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vampire Counts Master Head and Sleeves 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head/vampire_counts_head.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vampire Counts Master Head and Sleeves 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/vampire_counts_head/vampire_counts_head_style1",
+            "modelPaths": [
+              "models/items/necrolyte/vampire_counts_head2/vampire_counts_head2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:23345:necro-2022-immortal-head",
+      "itemId": 23345,
+      "name": "Sullen Shrine",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e9a3203f4478/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/e9a3203f4478/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_2022_immortal_head-57b227cf223b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e9a3203f4478/models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head_color_psd_acb153f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necro_2022_immortal/necro_2022_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_head_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_head_immortal_target.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_2022_head_immortal/necro_head_immortal_target_creep.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_heartstop_target_creep_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_heartstop_target_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:5623:tenplagues-necrolyte-head",
+      "itemId": 5623,
+      "name": "Vestments of the Ten Plagues Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/14c6d0db03b9/models/items/necrolyte/tenplagues_necrolyte_head/tenplagues_necrolyte_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/14c6d0db03b9/models/items/necrolyte/tenplagues_necrolyte_head/tenplagues_necrolyte_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/tenplagues_necrolyte_head/tenplagues_necrolyte_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tenplagues_necrolyte_head-89f4fc85448e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/14c6d0db03b9/models/items/necrolyte/tenplagues_necrolyte_head/tenplagues_necrolyte_head_color_tga_a8ed4196.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:18214:ti8-necro-disaster-of-pestilence-legs",
+      "itemId": 18214,
+      "name": "Aghs BP Legs of the Murid Divine",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/14f7324d0193/models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/14f7324d0193/models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_legs1-1237da093d54.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/14f7324d0193/models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs_color_tga_3227eedd.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:13067:ti9-cache-necro-fowl-plague-legs",
+      "itemId": 13067,
+      "name": "Fowl Omen Skirt",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d156d9c51c1c/models/items/necrolyte/ti9_cache_necro_fowl_plague_legs/ti9_cache_necro_fowl_plague_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/d156d9c51c1c/models/items/necrolyte/ti9_cache_necro_fowl_plague_legs/ti9_cache_necro_fowl_plague_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti9_cache_necro_fowl_plague_legs/ti9_cache_necro_fowl_plague_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_necro_fowl_plague_legs-3d0f29e712af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d156d9c51c1c/models/items/necrolyte/ti9_cache_necro_fowl_plague_legs/ti9_cache_necro_fowl_plague_legs_color_tga_c4f3ca1a.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9760:necrolyte-plaguemongers-skirt",
+      "itemId": 9760,
+      "name": "Fringe of the Plaguemonger",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/85566d725251/models/items/necrolyte/the_plaguemonger_plaguemongers_robe/necrolyte_plaguemongers_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/85566d725251/models/items/necrolyte/the_plaguemonger_plaguemongers_robe/necrolyte_plaguemongers_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_plaguemonger_plaguemongers_robe/necrolyte_plaguemongers_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necrolyte_plaguemongers_skirt-04629dd7351f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/85566d725251/models/items/necrolyte/the_plaguemonger_plaguemongers_robe/plaguemongers_robe_lower_color_tga_63e4cdf5.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9840:ti8-necro-disaster-of-pestilence-legs",
+      "itemId": 9840,
+      "name": "Legs of the Murid Divine",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/40aac12cb595/models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/40aac12cb595/models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_legs-8caeb6449b1f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/40aac12cb595/models/items/necrolyte/ti8_necro_disaster_of_pestilence_legs/ti8_necro_disaster_of_pestilence_legs_color_tga_3227eedd.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:659:legs",
+      "itemId": 659,
+      "name": "Necrophos Skirt",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/5943a57a92c4/models/heroes/necrolyte/legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/5943a57a92c4/models/heroes/necrolyte/legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legs-b6c59d35a4a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/5943a57a92c4/models/heroes/necrolyte/necro_armor_lower_color_tga_3bfee1a7.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:17927:the-count-of-plague-skirt",
+      "itemId": 17927,
+      "name": "Plague Baron Skirt",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e290079f3aa9/models/items/necrolyte/the_count_of_plague_skirt/the_count_of_plague_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/e290079f3aa9/models/items/necrolyte/the_count_of_plague_skirt/the_count_of_plague_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_count_of_plague_skirt/the_count_of_plague_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_count_of_plague_skirt-cf50ffce5161.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e290079f3aa9/models/items/necrolyte/the_count_of_plague_skirt/the_count_of_plague_skirt_color_tga_3b8d2187.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:25412:necro-plague-doctor-legs",
+      "itemId": 25412,
+      "name": "RotIron Ripper  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1786a881be4a/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1786a881be4a/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_plague_doctor_legs-7b6f5d15ee9a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1786a881be4a/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_legs_color_tga_815a66d6.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:32673:serpent-sage-tail",
+      "itemId": 32673,
+      "name": "Serpents Spite  Tail",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/efea3921b42b/models/items/necrolyte/serpent_sage_tail/serpent_sage_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/efea3921b42b/models/items/necrolyte/serpent_sage_tail/serpent_sage_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/serpent_sage_tail/serpent_sage_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serpent_sage_tail-d0506c9a3071.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/efea3921b42b/models/items/necrolyte/serpent_sage_tail/serpent_sage_tail_color_tga_33b46190.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:12932:necro-ti9-immortal-skirt",
+      "itemId": 12932,
+      "name": "Sullen Rampart",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/155bcc4ab4d6/models/items/necrolyte/necro_ti9_immortal_skirt/necro_ti9_immortal_skirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/155bcc4ab4d6/models/items/necrolyte/necro_ti9_immortal_skirt/necro_ti9_immortal_skirt.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_ti9_immortal_skirt/necro_ti9_immortal_skirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_ti9_immortal_skirt-721f0c0e3669.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/155bcc4ab4d6/models/items/necrolyte/necro_ti9_immortal_skirt/necro_ti9_immortal_skirt_color_psd_c49a5df8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necro_ti9_immortal_skirt/necro_ti9_immortal_skirt.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necro_ti9_immortal_skirt/necro_ti9_immortal_skirt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_immortal/necro_ti9_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_immortal/necro_ti9_immortal_loadout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_immortal/necro_ti9_immortal_shroud.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_immortal/necro_ti9_immortal_shroud_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_immortal/status_effect_necro_ti9_immortal_shroud.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_necrolyte_spirit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_loadout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_spirit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_spirit_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:18215:ti8-necro-disaster-of-pestilence-robe",
+      "itemId": 18215,
+      "name": "Aghs BP Robe of the Murid Divine",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/24c91d93f7bc/models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/24c91d93f7bc/models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_robe1-a763c2d60c31.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/24c91d93f7bc/models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe_color_tga_aa9a84c2.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9478:the-bringer-of-plagues-robe-the-bringer-of-plagues",
+      "itemId": 9478,
+      "name": "Exodus of the Plague Witch Back",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d6abe4bc6163/models/items/necrolyte/the_bringer_of_plagues_robe_the_bringer_of_plagues/the_bringer_of_plagues_robe_the_bringer_of_plagues.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/d6abe4bc6163/models/items/necrolyte/the_bringer_of_plagues_robe_the_bringer_of_plagues/the_bringer_of_plagues_robe_the_bringer_of_plagues.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_bringer_of_plagues_robe_the_bringer_of_plagues/the_bringer_of_plagues_robe_the_bringer_of_plagues.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bringer_of_plagues_robe_the_bringer_of_plagues-017870f9b1bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d6abe4bc6163/models/items/necrolyte/the_bringer_of_plagues_robe_the_bringer_of_plagues/the_bringer_of_plagues_robe_the_bringer_of_plagues_color_tga_7e6bdf4a.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:13065:ti9-cache-necro-fowl-plague-shoulder",
+      "itemId": 13065,
+      "name": "Fowl Omen Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1c909e7c48f1/models/items/necrolyte/ti9_cache_necro_fowl_plague_shoulder/ti9_cache_necro_fowl_plague_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1c909e7c48f1/models/items/necrolyte/ti9_cache_necro_fowl_plague_shoulder/ti9_cache_necro_fowl_plague_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti9_cache_necro_fowl_plague_shoulder/ti9_cache_necro_fowl_plague_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_necro_fowl_plague_shoulder-6813102e4454.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1c909e7c48f1/models/items/necrolyte/ti9_cache_necro_fowl_plague_shoulder/ti9_cache_necro_fowl_plague_shoulder_color_psd_326fb616.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/ti9_cache_necro_fowl_plague_shoulder/ti9_cache_necro_fowl_plague_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/ti9_cache_necro_fowl_plague_shoulder/ti9_cache_necro_fowl_plague_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_cache/necro_ti9_cache_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7508:immortal-shoulders",
+      "itemId": 7508,
+      "name": "Golden Sullen Hollow",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b1889ebda821/models/items/necrolyte/immortal_shoulders/immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/b1889ebda821/models/items/necrolyte/immortal_shoulders/immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immortal_shoulders/immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immortal_shoulders2-16c1db00f74b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b1889ebda821/models/items/necrolyte/immortal_shoulders/immortal_shoulders_color_psd_a05abca2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immortal_shoulders/immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immortal_shoulders/immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necrophos_sullen_gold/necro_sullen_ambient_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necrophos_sullen_gold/necro_sullen_pulse_enemy_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necrophos_sullen_gold/necro_sullen_pulse_friend_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_pulse_enemy.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_pulse_friend.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6053:immemorial-emperor-shoulder",
+      "itemId": 6053,
+      "name": "Immemorial Emperors Mantle",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b699180d3fb3/models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/b699180d3fb3/models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immemorial_emperor_shoulder-ba6b511e8c15.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b699180d3fb3/models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder_color_psd_102eee55.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Immemorial Emperors Mantle Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Immemorial Emperors Mantle Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/immemorial_emperor_shoulder_black/immemorial_emperor_shoulder_black",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_shoulder_black/immemorial_emperor_shoulder_black.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6053:immemorial-emperor-shoulder:style-1",
+      "itemId": 6053,
+      "name": "Immemorial Emperors Mantle - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b699180d3fb3/models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/b699180d3fb3/models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immemorial_emperor_shoulder_black-aa70f7b2091d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/b699180d3fb3/models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder_color_psd_102eee55.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Immemorial Emperors Mantle Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_shoulder/immemorial_emperor_shoulder.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Immemorial Emperors Mantle Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/immemorial_emperor_shoulder_black/immemorial_emperor_shoulder_black",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_shoulder_black/immemorial_emperor_shoulder_black.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8477:vampire-counts-shoulder",
+      "itemId": 8477,
+      "name": "Lich Robe of the Master Necromancer",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1a93e341bcdb/models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1a93e341bcdb/models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_shoulder1-3e1e5cb53294.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1a93e341bcdb/models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder_color_psd_7f73a24b.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6380:heretic-shoulder",
+      "itemId": 6380,
+      "name": "Mantle of the Heretic",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/bdc6e28c03f9/models/items/necrolyte/heretic_shoulder/heretic_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/bdc6e28c03f9/models/items/necrolyte/heretic_shoulder/heretic_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/heretic_shoulder/heretic_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heretic_shoulder-8c18f3a57aa5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/bdc6e28c03f9/models/items/necrolyte/heretic_shoulder/heretic_shoulder_color_psd_563c36f4.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7738:plague-lord-plague-lord-shoulder",
+      "itemId": 7738,
+      "name": "Mantle of the Scourge Dominion",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/7313c5ffa138/models/items/necrolyte/plague_lord_plague_lord_shoulder/plague_lord_plague_lord_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/7313c5ffa138/models/items/necrolyte/plague_lord_plague_lord_shoulder/plague_lord_plague_lord_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/plague_lord_plague_lord_shoulder/plague_lord_plague_lord_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/plague_lord_plague_lord_shoulder-0a1eb98046d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/7313c5ffa138/models/items/necrolyte/plague_lord_plague_lord_shoulder/plague_lord_plague_lord_shoulder_color_psd_fd712f03.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:214:shoulders",
+      "itemId": 214,
+      "name": "Necrophos Vestments",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d9ce4cc37c44/models/heroes/necrolyte/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/d9ce4cc37c44/models/heroes/necrolyte/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/necrolyte/shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders-0249b733ce27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d9ce4cc37c44/models/heroes/necrolyte/shoulders_color_psd_c4999add.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:17929:the-count-of-plague-wings",
+      "itemId": 17929,
+      "name": "Plague Baron Wings",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/27d2107ddd15/models/items/necrolyte/the_count_of_plague_wings/the_count_of_plague_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/27d2107ddd15/models/items/necrolyte/the_count_of_plague_wings/the_count_of_plague_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_count_of_plague_wings/the_count_of_plague_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_count_of_plague_wings-ace55b801b5b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/27d2107ddd15/models/items/necrolyte/the_count_of_plague_wings/the_count_of_plague_wings_color_tga_8cae4341.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:4687:death-protest-shoulder",
+      "itemId": 4687,
+      "name": "Reliquary of Rotting Doom",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a5d719d05032/models/items/necrolyte/death_protest_shoulder/death_protest_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/a5d719d05032/models/items/necrolyte/death_protest_shoulder/death_protest_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/death_protest_shoulder/death_protest_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_protest_shoulder-34cd3d21a9f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a5d719d05032/models/items/necrolyte/death_protest_shoulder/death_protest_shoulder_color_psd_227aed46.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8046:vampire-counts-shoulder",
+      "itemId": 8046,
+      "name": "Robe of the Master Necromancer",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/ec05f1c035cd/models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/ec05f1c035cd/models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_shoulder-4435174a8532.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/ec05f1c035cd/models/items/necrolyte/vampire_counts_shoulder/vampire_counts_shoulder_color_psd_7f73a24b.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9841:ti8-necro-disaster-of-pestilence-robe",
+      "itemId": 9841,
+      "name": "Robe of the Murid Divine",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/05382ab5e8d1/models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/05382ab5e8d1/models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_robe-65e8c0d08581.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/05382ab5e8d1/models/items/necrolyte/ti8_necro_disaster_of_pestilence_robe/ti8_necro_disaster_of_pestilence_robe_color_tga_aa9a84c2.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9482:the-plaguemonger-plaguemongers-robe",
+      "itemId": 9482,
+      "name": "Robe of the Plaguemonger",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1f795b6e11d0/models/items/necrolyte/the_plaguemonger_plaguemongers_robe/the_plaguemonger_plaguemongers_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1f795b6e11d0/models/items/necrolyte/the_plaguemonger_plaguemongers_robe/the_plaguemonger_plaguemongers_robe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_plaguemonger_plaguemongers_robe/the_plaguemonger_plaguemongers_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plaguemonger_plaguemongers_robe-3c9a345194dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1f795b6e11d0/models/items/necrolyte/the_plaguemonger_plaguemongers_robe/the_plaguemonger_plaguemongers_robe_color_tga_684c8f6b.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:25411:necro-plague-doctor-robe",
+      "itemId": 25411,
+      "name": "RotIron Ripper  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1a10b3d39da2/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1a10b3d39da2/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_robe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_plague_doctor_robe-f7e8bb1d0d14.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1a10b3d39da2/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_robe_color_tga_9802e795.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:32670:serpent-sage-robe",
+      "itemId": 32670,
+      "name": "Serpents Spite  Robe",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1ae0d7c4b509/models/items/necrolyte/serpent_sage_robe/serpent_sage_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/1ae0d7c4b509/models/items/necrolyte/serpent_sage_robe/serpent_sage_robe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/serpent_sage_robe/serpent_sage_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/serpent_sage_robe-63e99981f358.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/1ae0d7c4b509/models/items/necrolyte/serpent_sage_robe/serpent_sage_robe_color_tga_ceaff97e.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7427:immortal-shoulders",
+      "itemId": 7427,
+      "name": "Sullen Hollow",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/dc36be229e04/models/items/necrolyte/immortal_shoulders/immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/dc36be229e04/models/items/necrolyte/immortal_shoulders/immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immortal_shoulders/immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immortal_shoulders-26c03160a46d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/dc36be229e04/models/items/necrolyte/immortal_shoulders/immortal_shoulders_color_psd_a05abca2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immortal_shoulders/immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immortal_shoulders/immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necrophos_sullen/necro_sullen_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necrophos_sullen/necro_sullen_pulse_enemy.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necrophos_sullen/necro_sullen_pulse_friend.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_pulse_enemy.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_pulse_friend.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8930:apostle-of-decay-shoulder",
+      "itemId": 8930,
+      "name": "Vestments of Decay",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/188c3fa6a285/models/items/necrolyte/apostle_of_decay_shoulder/apostle_of_decay_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/188c3fa6a285/models/items/necrolyte/apostle_of_decay_shoulder/apostle_of_decay_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/apostle_of_decay_shoulder/apostle_of_decay_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/apostle_of_decay_shoulder-529d21b7f6bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/188c3fa6a285/models/items/necrolyte/apostle_of_decay_shoulder/apostle_of_decay_shoulder_color_psd_48f4c178.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:5624:tenplagues-necrolyte-shoulder",
+      "itemId": 5624,
+      "name": "Vestments of the Ten Plagues Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/464b47ce962e/models/items/necrolyte/tenplagues_necrolyte_shoulder/tenplagues_necrolyte_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/464b47ce962e/models/items/necrolyte/tenplagues_necrolyte_shoulder/tenplagues_necrolyte_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/tenplagues_necrolyte_shoulder/tenplagues_necrolyte_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tenplagues_necrolyte_shoulder-1b51487a5d67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/464b47ce962e/models/items/necrolyte/tenplagues_necrolyte_shoulder/tenplagues_necrolyte_shoulder_color_psd_b782bfff.png"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7124:necronub-wings",
+      "itemId": 7124,
+      "name": "Wings of Ka",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4498bad1e42b/models/items/necrolyte/necronub_wings/necronub_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/4498bad1e42b/models/items/necrolyte/necronub_wings/necronub_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necronub_wings/necronub_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necronub_wings-008cf8d892c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4498bad1e42b/models/items/necrolyte/necronub_wings/necronub_wings_color_psd_3dc42eb6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necronub_wings/necronub_wings.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necronub_wings/necronub_wings.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Wings of Ka Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/necronub_wings/necronub_wings",
+            "modelPaths": [
+              "models/items/necrolyte/necronub_wings/necronub_wings.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Wings of Ka Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/necronub_coffin/necronub_coffin",
+            "modelPaths": [
+              "models/items/necrolyte/necronub_coffin/necronub_coffin.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7124:necronub-wings:style-1",
+      "itemId": 7124,
+      "name": "Wings of Ka - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4498bad1e42b/models/items/necrolyte/necronub_wings/necronub_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/4498bad1e42b/models/items/necrolyte/necronub_wings/necronub_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necronub_wings/necronub_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necronub_coffin-e671e24a6bdb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4498bad1e42b/models/items/necrolyte/necronub_wings/necronub_wings_color_psd_3dc42eb6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necronub_wings/necronub_wings.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necronub_wings/necronub_wings.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Wings of Ka Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/necronub_wings/necronub_wings",
+            "modelPaths": [
+              "models/items/necrolyte/necronub_wings/necronub_wings.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Wings of Ka Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/necronub_coffin/necronub_coffin",
+            "modelPaths": [
+              "models/items/necrolyte/necronub_coffin/necronub_coffin.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:18216:ti8-necro-disaster-of-pestilence-weapon-agh",
+      "itemId": 18216,
+      "name": "Aghs BP Staff of the Murid Divine",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/375dabbf7083/models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon_agh.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/375dabbf7083/models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon_agh.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon_agh.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_weapon1-25c430cb03c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/375dabbf7083/models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/aghsbp_2021_necro_disaster_of_pestilence_weapon_color_psd_72100223.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon_agh.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon_agh.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9477:the-bringer-of-plagues-weapon-the-bringer-of-plagues",
+      "itemId": 9477,
+      "name": "Exodus of the Plague Witch Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/02e0a35a2669/models/items/necrolyte/the_bringer_of_plagues_weapon_the_bringer_of_plagues/the_bringer_of_plagues_weapon_the_bringer_of_plagues.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/02e0a35a2669/models/items/necrolyte/the_bringer_of_plagues_weapon_the_bringer_of_plagues/the_bringer_of_plagues_weapon_the_bringer_of_plagues.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_bringer_of_plagues_weapon_the_bringer_of_plagues/the_bringer_of_plagues_weapon_the_bringer_of_plagues.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_bringer_of_plagues_weapon_the_bringer_of_plagues-3dfde3c40232.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/02e0a35a2669/models/items/necrolyte/the_bringer_of_plagues_weapon_the_bringer_of_plagues/the_bringer_of_plagues_weapon_the_bringer_of_plagues_color_tga_d9a78fd7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/the_bringer_of_plagues_weapon_the_bringer_of_plagues/the_bringer_of_plagues_weapon_the_bringer_of_plagues.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/the_bringer_of_plagues_weapon_the_bringer_of_plagues/the_bringer_of_plagues_weapon_the_bringer_of_plagues.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:13066:ti9-cache-necro-fowl-plague-scythe",
+      "itemId": 13066,
+      "name": "Fowl Omen Scythe",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/fd5c831b463d/models/items/necrolyte/ti9_cache_necro_fowl_plague_scythe/ti9_cache_necro_fowl_plague_scythe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/fd5c831b463d/models/items/necrolyte/ti9_cache_necro_fowl_plague_scythe/ti9_cache_necro_fowl_plague_scythe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti9_cache_necro_fowl_plague_scythe/ti9_cache_necro_fowl_plague_scythe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_necro_fowl_plague_scythe-4704eec06953.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/fd5c831b463d/models/items/necrolyte/ti9_cache_necro_fowl_plague_scythe/ti9_cache_necro_fowl_plague_scythe_color_psd_9b053f5d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/ti9_cache_necro_fowl_plague_scythe/ti9_cache_necro_fowl_plague_scythe.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/ti9_cache_necro_fowl_plague_scythe/ti9_cache_necro_fowl_plague_scythe.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_ti9_cache/necro_ti9_cache_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6054:immemorial-emperor-weapon",
+      "itemId": 6054,
+      "name": "Immemorial Emperors Scythe",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d4ca6456fbc1/models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/d4ca6456fbc1/models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immemorial_emperor_weapon-9f357a1d7441.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d4ca6456fbc1/models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon_color_tga_19421302.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Immemorial Emperors Scythe Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Immemorial Emperors Scythe Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/immemorial_emperor_weapon_black/immemorial_emperor_weapon_black",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_weapon_black/immemorial_emperor_weapon_black.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6054:immemorial-emperor-weapon:style-1",
+      "itemId": 6054,
+      "name": "Immemorial Emperors Scythe - Style 2",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d4ca6456fbc1/models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/d4ca6456fbc1/models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immemorial_emperor_weapon_black-30d9e40ef812.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/d4ca6456fbc1/models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon_color_tga_19421302.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Immemorial Emperors Scythe Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_weapon/immemorial_emperor_weapon.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Immemorial Emperors Scythe Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/necrolyte/immemorial_emperor_weapon_black/immemorial_emperor_weapon_black",
+            "modelPaths": [
+              "models/items/necrolyte/immemorial_emperor_weapon_black/immemorial_emperor_weapon_black.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:5420:laments-for-the-dead",
+      "itemId": 5420,
+      "name": "Laments of the Dead",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/3cafac497830/models/items/necrolyte/laments_for_the_dead/laments_for_the_dead.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/3cafac497830/models/items/necrolyte/laments_for_the_dead/laments_for_the_dead.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/laments_for_the_dead/laments_for_the_dead.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/laments_for_the_dead-b982fc63eb31.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/3cafac497830/models/items/necrolyte/laments_for_the_dead/laments_for_the_dead_color_tga_db94b388.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/laments_for_the_dead/laments_for_the_dead.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/laments_for_the_dead/laments_for_the_dead.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8476:vampire-counts-weapon",
+      "itemId": 8476,
+      "name": "Lich Scythe of the Master Necromancer",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/3d2f808b1d4d/models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/3d2f808b1d4d/models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_weapon1-5a6c5d5f2f7c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/3d2f808b1d4d/models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon_color_tga_9fce545c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:17928:the-count-of-plague-wand",
+      "itemId": 17928,
+      "name": "Plague Baron Wand",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/bc63ce4f978f/models/items/necrolyte/the_count_of_plague_wand/the_count_of_plague_wand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/bc63ce4f978f/models/items/necrolyte/the_count_of_plague_wand/the_count_of_plague_wand.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_count_of_plague_wand/the_count_of_plague_wand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_count_of_plague_wand-17fedd369f24.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/bc63ce4f978f/models/items/necrolyte/the_count_of_plague_wand/the_count_of_plague_wand_color_tga_b474e3c7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/the_count_of_plague_wand/the_count_of_plague_wand.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/the_count_of_plague_wand/the_count_of_plague_wand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:25413:necro-plague-doctor-weapon",
+      "itemId": 25413,
+      "name": "RotIron Ripper  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/997c6ef8e1ba/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/997c6ef8e1ba/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/necro_plague_doctor_weapon-e84c6ce44d95.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/997c6ef8e1ba/models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_weapon_color_tga_fa2fa805.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/necro_plague_doctor/necro_plague_doctor_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8929:apostle-of-decay-weapon",
+      "itemId": 8929,
+      "name": "Scythe of Decay",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e73b1ae7a45d/models/items/necrolyte/apostle_of_decay_weapon/apostle_of_decay_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/e73b1ae7a45d/models/items/necrolyte/apostle_of_decay_weapon/apostle_of_decay_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/apostle_of_decay_weapon/apostle_of_decay_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/apostle_of_decay_weapon-53ac5ab2dbbd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/e73b1ae7a45d/models/items/necrolyte/apostle_of_decay_weapon/apostle_of_decay_weapon_color_tga_f212454f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/apostle_of_decay_weapon/apostle_of_decay_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/apostle_of_decay_weapon/apostle_of_decay_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6591:scytheofplague-weapon",
+      "itemId": 6591,
+      "name": "Scythe of Plague",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/aed21a04fbc2/models/items/necrolyte/scytheofplague_weapon/scytheofplague_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/aed21a04fbc2/models/items/necrolyte/scytheofplague_weapon/scytheofplague_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/scytheofplague_weapon/scytheofplague_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/scytheofplague_weapon-0fd0695dea45.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/aed21a04fbc2/models/items/necrolyte/scytheofplague_weapon/scytheofplague_weapon_color_tga_84ca5a81.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/scytheofplague_weapon/scytheofplague_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/scytheofplague_weapon/scytheofplague_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:4686:death-protest-weapon",
+      "itemId": 4686,
+      "name": "Scythe of Twin Deaths",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/97c7e1365b75/models/items/necrolyte/death_protest_weapon/death_protest_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/97c7e1365b75/models/items/necrolyte/death_protest_weapon/death_protest_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/death_protest_weapon/death_protest_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/death_protest_weapon-4efde7b8bc3f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/97c7e1365b75/models/items/necrolyte/death_protest_weapon/death_protest_weapon_color_tga_55674139.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/death_protest_weapon/death_protest_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/death_protest_weapon/death_protest_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:6379:heretic-weapon",
+      "itemId": 6379,
+      "name": "Scythe of the Heretic",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/21c66783a54c/models/items/necrolyte/heretic_weapon/heretic_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/21c66783a54c/models/items/necrolyte/heretic_weapon/heretic_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/heretic_weapon/heretic_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heretic_weapon-1a7d822afa51.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/21c66783a54c/models/items/necrolyte/heretic_weapon/heretic_weapon_color_tga_5c95aa5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/heretic_weapon/heretic_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/heretic_weapon/heretic_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:8045:vampire-counts-weapon",
+      "itemId": 8045,
+      "name": "Scythe of the Master Necromancer",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4adcfbac4f3c/models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/4adcfbac4f3c/models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vampire_counts_weapon-45ea7d22f98f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/4adcfbac4f3c/models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon_color_tga_9fce545c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/vampire_counts_weapon/vampire_counts_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9481:the-plaguemonger-plaguemongers-scythe",
+      "itemId": 9481,
+      "name": "Scythe of the Plaguemonger",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/05e0ec1e172e/models/items/necrolyte/the_plaguemonger_plaguemongers_scythe/the_plaguemonger_plaguemongers_scythe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/05e0ec1e172e/models/items/necrolyte/the_plaguemonger_plaguemongers_scythe/the_plaguemonger_plaguemongers_scythe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/the_plaguemonger_plaguemongers_scythe/the_plaguemonger_plaguemongers_scythe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_plaguemonger_plaguemongers_scythe-305247029b42.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/05e0ec1e172e/models/items/necrolyte/the_plaguemonger_plaguemongers_scythe/the_plaguemonger_plaguemongers_scythe_color_tga_d520929c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/the_plaguemonger_plaguemongers_scythe/the_plaguemonger_plaguemongers_scythe.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/the_plaguemonger_plaguemongers_scythe/the_plaguemonger_plaguemongers_scythe.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:7728:plague-lord-plague-lord-weapon",
+      "itemId": 7728,
+      "name": "Scythe of the Scourge Dominion",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a35efc52a181/models/items/necrolyte/plague_lord_plague_lord_weapon/plague_lord_plague_lord_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/a35efc52a181/models/items/necrolyte/plague_lord_plague_lord_weapon/plague_lord_plague_lord_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/plague_lord_plague_lord_weapon/plague_lord_plague_lord_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/plague_lord_plague_lord_weapon-1700edab4dd3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/a35efc52a181/models/items/necrolyte/plague_lord_plague_lord_weapon/plague_lord_plague_lord_weapon_color_tga_15186dc4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/plague_lord_plague_lord_weapon/plague_lord_plague_lord_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/plague_lord_plague_lord_weapon/plague_lord_plague_lord_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9842:ti8-necro-disaster-of-pestilence-weapon",
+      "itemId": 9842,
+      "name": "Staff of the Murid Divine",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/7ec05d40fa79/models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/7ec05d40fa79/models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_weapon-95ea322a545c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/7ec05d40fa79/models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon_color_tga_fab265b8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/ti8_necro_disaster_of_pestilence_weapon/ti8_necro_disaster_of_pestilence_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:9089:immortal-scythe",
+      "itemId": 9089,
+      "name": "Sullen Harvest",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/32c1c1acb9be/models/items/necrolyte/immortal_scythe/immortal_scythe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/32c1c1acb9be/models/items/necrolyte/immortal_scythe/immortal_scythe.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/immortal_scythe/immortal_scythe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/immortal_scythe-754b594dbe86.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/32c1c1acb9be/models/items/necrolyte/immortal_scythe/immortal_scythe_color_psd_f0251515.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/immortal_scythe/immortal_scythe.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/immortal_scythe/immortal_scythe.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/necrolyte/necro_sullen_harvest/necro_sullen_harvest_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_sullen_harvest/necro_ti7_immortal_scythe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/necrolyte/necro_sullen_harvest/necro_ti7_immortal_scythe_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_scythe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_necrolyte/necrolyte_scythe_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:item-model:5625:tenplagues-necrolyte-weapon",
+      "itemId": 5625,
+      "name": "Vestments of the Ten Plagues Scythe",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/572f0b445ccd/models/items/necrolyte/tenplagues_necrolyte_weapon/tenplagues_necrolyte_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_necrolyte/572f0b445ccd/models/items/necrolyte/tenplagues_necrolyte_weapon/tenplagues_necrolyte_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/necrolyte/tenplagues_necrolyte_weapon/tenplagues_necrolyte_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tenplagues_necrolyte_weapon-26f9dbf77a6d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_necrolyte/572f0b445ccd/models/items/necrolyte/tenplagues_necrolyte_weapon/tenplagues_necrolyte_weapon_color_tga_5d3792cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/necrolyte/tenplagues_necrolyte_weapon/tenplagues_necrolyte_weapon.vmdl",
+        "modelPaths": [
+          "models/items/necrolyte/tenplagues_necrolyte_weapon/tenplagues_necrolyte_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:22276:aghs-bp-the-murid-divine",
+      "name": "Aghs BP The Murid Divine",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214,
+        659
+      ],
+      "sourceItemIds": [
+        18212,
+        18213,
+        18214,
+        18215,
+        18216
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "legs",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20823:apostle-of-decay",
+      "name": "Apostle of Decay",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        8927,
+        8928,
+        8929,
+        8930
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/apostle_of_decay_loading_screen-0e7a8fc7b5c6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:21131:exodus-of-the-plague-witch",
+      "name": "Exodus of the Plague Witch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        9477,
+        9478,
+        9479,
+        9480
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_bringer_of_plagues_loading_the_bringer_of_plagues-737641bb1217.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:21340:fowl-omen",
+      "name": "Fowl Omen",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214,
+        659
+      ],
+      "sourceItemIds": [
+        13065,
+        13066,
+        13067,
+        13068,
+        13069
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "legs",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_necro_fowl_plague_shoulder-6813102e4454.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:24880:golden-sullen-sanctum",
+      "name": "Golden Sullen Sanctum",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213
+      ],
+      "sourceItemIds": [
+        24878,
+        24879
+      ],
+      "slots": [
+        "body_head",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/necro_2022_immortal_head1-e7332adc80ac.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20375:immemorial-emperor-set",
+      "name": "Immemorial Emperor Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        6051,
+        6052,
+        6053,
+        6054
+      ],
+      "styleSelections": {
+        "6052": "0",
+        "6053": "0",
+        "6054": "0"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/immemorial_emperor_beard-41492128df65.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20375:immemorial-emperor-set:style-1",
+      "name": "Immemorial Emperor Set - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        6051,
+        6052,
+        6053,
+        6054
+      ],
+      "styleSelections": {
+        "6052": "1",
+        "6053": "1",
+        "6054": "1"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/immemorial_emperor_head_black-2540527a3108.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:21032:lich-master-necromancer",
+      "name": "Lich Master Necromancer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        8474,
+        8475,
+        8476,
+        8477
+      ],
+      "styleSelections": {
+        "8474": "0"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/vampire_counts_loadingscreen-40b34a294b16.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:21032:lich-master-necromancer:style-1",
+      "name": "Lich Master Necromancer - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        8474,
+        8475,
+        8476,
+        8477
+      ],
+      "styleSelections": {
+        "8474": "1"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/vampire_counts_head_style1-d0e9d28fa52d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20882:master-necromancer",
+      "name": "Master Necromancer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        8043,
+        8044,
+        8045,
+        8046
+      ],
+      "styleSelections": {
+        "8043": "0"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/vampire_counts_loadingscreen-40b34a294b16.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20882:master-necromancer:style-1",
+      "name": "Master Necromancer - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        8043,
+        8044,
+        8045,
+        8046
+      ],
+      "styleSelections": {
+        "8043": "1"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/vampire_counts_head_style1-d0e9d28fa52d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:21722:plague-baron",
+      "name": "Plague Baron",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214,
+        659
+      ],
+      "sourceItemIds": [
+        17926,
+        17927,
+        17928,
+        17929,
+        17930
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "legs",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/the_count_of_plague_collar-ca9155e2c825.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20107:relics-of-the-putrid-pontiff-set",
+      "name": "Relics of the Putrid Pontiff Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        4686,
+        4687,
+        4688,
+        4689
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/death_protest_weapon-4efde7b8bc3f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20481:robes-of-the-heretic",
+      "name": "Robes of the Heretic",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        6377,
+        6378,
+        6379,
+        6380
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/heretic_head-e7176aa01f63.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:25023:rotiron-ripper",
+      "name": "RotIron Ripper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214,
+        659
+      ],
+      "sourceItemIds": [
+        25024,
+        25410,
+        25411,
+        25412,
+        25413
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "legs",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/necro_plague_doctor_head-6825200833de.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20894:scourge-dominion",
+      "name": "Scourge Dominion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        7728,
+        7729,
+        7738,
+        7739
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/plague_lord_plague_lord_weapon-1700edab4dd3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:32668:serpents-spite",
+      "name": "Serpents Spite",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214,
+        659
+      ],
+      "sourceItemIds": [
+        32669,
+        32670,
+        32671,
+        32673
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "legs",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/serpent_sage_head-46b818b9407e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:23717:sullen-sanctum",
+      "name": "Sullen Sanctum",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213
+      ],
+      "sourceItemIds": [
+        23345,
+        23346
+      ],
+      "slots": [
+        "body_head",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/necro_2022_immortal_head-57b227cf223b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:21195:the-murid-divine",
+      "name": "The Murid Divine",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214,
+        659
+      ],
+      "sourceItemIds": [
+        9838,
+        9839,
+        9840,
+        9841,
+        9842
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "legs",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/ti8_necro_disaster_of_pestilence_loadingscreen-3989cb1ff553.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:21129:the-plaguemonger",
+      "name": "The Plaguemonger",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214,
+        659
+      ],
+      "sourceItemIds": [
+        9481,
+        9482,
+        9483,
+        9484,
+        9760
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "legs",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/the_plaguemonger_plaguemonger_loading_screen-789001a9c1ef.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20298:vestments-of-the-ten-plagues-set",
+      "name": "Vestments of the Ten Plagues Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        5622,
+        5623,
+        5624,
+        5625
+      ],
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/tenplagues_necrolyte_beard-f1a6fc075f5f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20676:wrath-of-ka",
+      "name": "Wrath of Ka",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        6291,
+        7083,
+        7124
+      ],
+      "styleSelections": {
+        "7124": "0"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/necronub_load_screen-035968a925ee.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_necrolyte:core-set:20676:wrath-of-ka:style-1",
+      "name": "Wrath of Ka - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        212,
+        213,
+        214
+      ],
+      "sourceItemIds": [
+        6291,
+        7083,
+        7124
+      ],
+      "styleSelections": {
+        "7124": "1"
+      },
+      "slots": [
+        "body_head",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/necronub_coffin-e671e24a6bdb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 72452129,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 512
+  }
+}

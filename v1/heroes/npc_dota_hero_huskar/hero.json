@@ -1,0 +1,4182 @@
+{
+  "heroId": "npc_dota_hero_huskar",
+  "sourceHeroId": "npc_dota_hero_huskar",
+  "variantId": "default",
+  "heroName": "Huskar",
+  "heroSlug": "huskar",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/huskar.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_huskar/b78554cd7faa/models/heroes/huskar/huskar.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 272,
+      "name": "Huskars Bracer",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/621c8c8b60a5/models/heroes/huskar/huskar_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/621c8c8b60a5/models/heroes/huskar/huskar_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_bracer.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/621c8c8b60a5/models/heroes/huskar/huskar_bracer_color_psd_7a9e5038.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 270,
+      "name": "Huskars Helmet",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/30810f2a43ae/models/heroes/huskar/huskar_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/30810f2a43ae/models/heroes/huskar/huskar_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_helmet.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/30810f2a43ae/models/heroes/huskar/huskar_helmet_color_psd_3b134dbb.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "itemId": 269,
+      "name": "Huskars Dagger",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/e351b1e9d42f/models/heroes/huskar/huskar_dagger.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/e351b1e9d42f/models/heroes/huskar/huskar_dagger.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_dagger.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/e351b1e9d42f/models/heroes/huskar/huskar_dagger_color_psd_e5a4e7d1.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 271,
+      "name": "Huskars Shoulder",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/86fb18bbd9f2/models/heroes/huskar/huskar_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/86fb18bbd9f2/models/heroes/huskar/huskar_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/86fb18bbd9f2/models/heroes/huskar/huskar_shoulder_color_psd_c0ffb644.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_huskar:item-model:7323:armor-of-reckless-vigor-arms",
+      "itemId": 7323,
+      "name": "Armlet of Reckless Vigor",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6e94b1676fa7/models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/6e94b1676fa7/models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_reckless_vigor_arms-bf86aaaebb38.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6e94b1676fa7/models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms_color_tga_75234d12.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14145:flame-samurai-arms",
+      "itemId": 14145,
+      "name": "Bleeding Edge  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d7d144979808/models/items/huskar/flame_samurai_arms/flame_samurai_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/d7d144979808/models/items/huskar/flame_samurai_arms/flame_samurai_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/flame_samurai_arms/flame_samurai_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_samurai_arms-d2faa7169caa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d7d144979808/models/items/huskar/flame_samurai_arms/flame_samurai_arms_color_tga_aa360ad9.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13322:ti9-cache-huskar-baptism-of-melting-fire-arms",
+      "itemId": 13322,
+      "name": "Bracers of the Ember Demons",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4ae55c55e922/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/4ae55c55e922/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_baptism_of_melting_fire_arms-796be0468d8b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4ae55c55e922/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms_color_tga_7fc7d90b.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:9291:huskar-poseidon-arms",
+      "itemId": 9291,
+      "name": "Bracers of the Samareen Sacrifice",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ec7f9d4c6d40/models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/ec7f9d4c6d40/models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_poseidon_arms-9fac521481ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ec7f9d4c6d40/models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms_color_tga_64565080.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14478:huskar-explosive-maniac-arms",
+      "itemId": 14478,
+      "name": "Flashpoint Proselyte  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/e15fa36c1888/models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/e15fa36c1888/models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_explosive_maniac_arms-a58ddaf8de44.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/e15fa36c1888/models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms_color_tga_44a572e4.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:23282:the-ironbound-hunter-arms",
+      "itemId": 23282,
+      "name": "Hides of Hostility  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/9bbdfe523550/models/items/huskar/the_ironbound_hunter_arms/the_ironbound_hunter_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/9bbdfe523550/models/items/huskar/the_ironbound_hunter_arms/the_ironbound_hunter_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/the_ironbound_hunter_arms/the_ironbound_hunter_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_ironbound_hunter_arms-2dfc8cc7340a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/9bbdfe523550/models/items/huskar/the_ironbound_hunter_arms/the_ironbound_hunter_arms_color_tga_2e3ad66.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:12758:frostivus2018-huskar-ice-age-hunter-arms",
+      "itemId": 12758,
+      "name": "Hunters Dawn Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c4f5570caf81/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/c4f5570caf81/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_arms-cdf45f2b6f37.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c4f5570caf81/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms_color_tga_bc88ad1d.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:272:huskar-bracer",
+      "itemId": 272,
+      "name": "Huskars Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/621c8c8b60a5/models/heroes/huskar/huskar_bracer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/621c8c8b60a5/models/heroes/huskar/huskar_bracer.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_bracer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_bracer-7052e5e48024.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/621c8c8b60a5/models/heroes/huskar/huskar_bracer_color_psd_7a9e5038.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4299:obsidian-claw-of-the-jaguar-arms",
+      "itemId": 4299,
+      "name": "Obsidian Blade Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0db90a8e51ce/models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/0db90a8e51ce/models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/obsidian_claw_of_the_jaguar_arms-a83517a1d5ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0db90a8e51ce/models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms_color_tga_db14bcfb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.vmdl",
+        "modelPaths": [
+          "models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4908:sacred-bones-arms",
+      "itemId": 4908,
+      "name": "Sacred Bones Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c8595b6e4420/models/items/huskar/sacred_bones_arms/sacred_bones_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/c8595b6e4420/models/items/huskar/sacred_bones_arms/sacred_bones_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/sacred_bones_arms/sacred_bones_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_bones_arms-031b0ba04d7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c8595b6e4420/models/items/huskar/sacred_bones_arms/sacred_bones_arms_color_tga_70ea137e.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:26829:huskar-pharaohs-guard-arms",
+      "itemId": 26829,
+      "name": "Sacred Chamber Guardian  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/eed0e5ba089e/models/items/huskar/huskar_pharaohs_guard_arms/huskar_pharaohs_guard_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/eed0e5ba089e/models/items/huskar/huskar_pharaohs_guard_arms/huskar_pharaohs_guard_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_pharaohs_guard_arms/huskar_pharaohs_guard_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_pharaohs_guard_arms-6d9edd46f29b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/eed0e5ba089e/models/items/huskar/huskar_pharaohs_guard_arms/huskar_pharaohs_guard_arms_color_tga_df4be8a9.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:30981:demon-arms",
+      "itemId": 30981,
+      "name": "The Burning Sentinel  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/877d25873df7/models/items/huskar/demon_arms/demon_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/877d25873df7/models/items/huskar/demon_arms/demon_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/demon_arms/demon_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_arms-252ed67accc6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/877d25873df7/models/items/huskar/demon_arms/demon_arms_color_tga_76278398.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13216:ti9-cache-huskar-darkclaw-berserker-arms",
+      "itemId": 13216,
+      "name": "Vote Only TI9 Cache Huskar Darkclaw Berserker Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/64035133722d/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_arms/ti9_cache_huskar_darkclaw_berserker_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/64035133722d/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_arms/ti9_cache_huskar_darkclaw_berserker_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_arms/ti9_cache_huskar_darkclaw_berserker_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_darkclaw_berserker_arms-985ea149c5cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/64035133722d/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_arms/ti9_cache_huskar_darkclaw_berserker_arms_color_tga_f2dc4d92.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18973:winter-hunting-arms",
+      "itemId": 18973,
+      "name": "Vote Only Winter Hunting Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/15905ab42efd/models/items/huskar/winter_hunting_arms/winter_hunting_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/15905ab42efd/models/items/huskar/winter_hunting_arms/winter_hunting_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_arms/winter_hunting_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_arms-3e7879147479.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/15905ab42efd/models/items/huskar/winter_hunting_arms/winter_hunting_arms_color_tga_2e30c608.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_arms/winter_hunting_arms.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_arms/winter_hunting_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Arms 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Arms 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_arms_2/winter_hunting_arms_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18973:winter-hunting-arms:style-1",
+      "itemId": 18973,
+      "name": "Vote Only Winter Hunting Arms - Style 2",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/15905ab42efd/models/items/huskar/winter_hunting_arms/winter_hunting_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/15905ab42efd/models/items/huskar/winter_hunting_arms/winter_hunting_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_arms/winter_hunting_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_arms-3e7879147479.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/15905ab42efd/models/items/huskar/winter_hunting_arms/winter_hunting_arms_color_tga_2e30c608.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_arms/winter_hunting_arms.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_arms/winter_hunting_arms.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Arms 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Arms 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_arms_2/winter_hunting_arms_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18860:charred-berserker-arms",
+      "itemId": 18860,
+      "name": "Wildmane Berserker Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/100afeb2ad0c/models/items/huskar/charred_berserker_arms/charred_berserker_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/100afeb2ad0c/models/items/huskar/charred_berserker_arms/charred_berserker_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/charred_berserker_arms/charred_berserker_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/charred_berserker_arms-50c0217b7538.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/100afeb2ad0c/models/items/huskar/charred_berserker_arms/charred_berserker_arms_color_tga_a529f8fe.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22768:frostivus2018-huskar-ice-age-hunter-arms",
+      "itemId": 22768,
+      "name": "Winter Lineage Hunters Dawn Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/aef7bc2be52a/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/aef7bc2be52a/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_dpc_arms-92ba33cfc19a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/aef7bc2be52a/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms_color_tga_bc88ad1d.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14146:flame-samurai-head",
+      "itemId": 14146,
+      "name": "Bleeding Edge  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/dfa890c19822/models/items/huskar/flame_samurai_head/flame_samurai_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/dfa890c19822/models/items/huskar/flame_samurai_head/flame_samurai_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/flame_samurai_head/flame_samurai_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_samurai_head-fdb59977e05e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/dfa890c19822/models/items/huskar/flame_samurai_head/flame_samurai_head_color_tga_9617c1bf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/flame_samurai_head/flame_samurai_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/flame_samurai_head/flame_samurai_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2024_flame_samurai/huskar_2024_flame_samurai_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22716:husk-2022-immortal",
+      "itemId": 22716,
+      "name": "Draca Mane",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/05a8cf7509ff/models/items/huskar/husk_2022_immortal/husk_2022_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/05a8cf7509ff/models/items/huskar/husk_2022_immortal/husk_2022_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/husk_2022_immortal/husk_2022_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/husk_2022_immortal-4d4143f1493a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/05a8cf7509ff/models/items/huskar/husk_2022_immortal/husk_2022_immortal_color_tga_c6acdebc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/husk_2022_immortal/husk_2022_immortal.vmdl",
+        "modelPaths": [
+          "models/items/huskar/husk_2022_immortal/husk_2022_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_life_break.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_life_break_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_life_break_spellstart.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break_spellstart.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14477:huskar-explosive-maniac-head",
+      "itemId": 14477,
+      "name": "Flashpoint Proselyte  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/68426c0c7ae7/models/items/huskar/huskar_explosive_maniac_head/huskar_explosive_maniac_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/68426c0c7ae7/models/items/huskar/huskar_explosive_maniac_head/huskar_explosive_maniac_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_explosive_maniac_head/huskar_explosive_maniac_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_explosive_maniac_head-e5b2f5394b68.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/68426c0c7ae7/models/items/huskar/huskar_explosive_maniac_head/huskar_explosive_maniac_head_color_tga_fa814ea5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_explosive_maniac_head/huskar_explosive_maniac_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_explosive_maniac_head/huskar_explosive_maniac_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_explosive_maniac/explosive_maniac_head/explosive_maniac_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:24877:husk-2022-immortal",
+      "itemId": 24877,
+      "name": "Golden Draca Mane",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/9dfe6f758203/models/items/huskar/husk_2022_immortal/husk_2022_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/9dfe6f758203/models/items/huskar/husk_2022_immortal/husk_2022_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/husk_2022_immortal/husk_2022_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/husk_2022_immortal1-58958354f848.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/9dfe6f758203/models/items/huskar/husk_2022_immortal/husk_2022_immortal_color_tga_c6acdebc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/husk_2022_immortal/husk_2022_immortal.vmdl",
+        "modelPaths": [
+          "models/items/huskar/husk_2022_immortal/husk_2022_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_head_gold_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_life_break_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_life_break_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_immortal/huskar_2022_immortal_life_break_gold_spellstart.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break_spellstart.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13321:ti9-cache-huskar-baptism-of-melting-fire-head",
+      "itemId": 13321,
+      "name": "Helm of the Ember Demons",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6e6774535403/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_head/ti9_cache_huskar_baptism_of_melting_fire_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/6e6774535403/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_head/ti9_cache_huskar_baptism_of_melting_fire_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_head/ti9_cache_huskar_baptism_of_melting_fire_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_baptism_of_melting_fire_head-e2e9883b276e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6e6774535403/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_head/ti9_cache_huskar_baptism_of_melting_fire_head_color_tga_7f633f36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_head/ti9_cache_huskar_baptism_of_melting_fire_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_head/ti9_cache_huskar_baptism_of_melting_fire_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/ti9_cache_huskar_baptism_head/ti9_cache_huskar_baptism_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22709:the-ironbound-hunter-head",
+      "itemId": 22709,
+      "name": "Hides of Hostility  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d633d87b7819/models/items/huskar/the_ironbound_hunter_head/the_ironbound_hunter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/d633d87b7819/models/items/huskar/the_ironbound_hunter_head/the_ironbound_hunter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/the_ironbound_hunter_head/the_ironbound_hunter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_ironbound_hunter_head-4dfe8b315c11.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d633d87b7819/models/items/huskar/the_ironbound_hunter_head/the_ironbound_hunter_head_color_tga_3ae05545.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/the_ironbound_hunter_head/the_ironbound_hunter_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/the_ironbound_hunter_head/the_ironbound_hunter_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:12757:frostivus2018-huskar-ice-age-hunter-head",
+      "itemId": 12757,
+      "name": "Hunters Dawn Beard",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0b0e59f9fff3/models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/0b0e59f9fff3/models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_head-d8d31770e003.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0b0e59f9fff3/models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head_color_tga_e710c941.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:270:huskar-helmet",
+      "itemId": 270,
+      "name": "Huskars Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/30810f2a43ae/models/heroes/huskar/huskar_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/30810f2a43ae/models/heroes/huskar/huskar_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_helmet-390152df781c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/30810f2a43ae/models/heroes/huskar/huskar_helmet_color_psd_3b134dbb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/huskar/huskar_helmet.vmdl",
+        "modelPaths": [
+          "models/heroes/huskar/huskar_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:9295:huskar-poseidon-head",
+      "itemId": 9295,
+      "name": "Mane of the Samareen Sacrifice",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/092c715a0b19/models/items/huskar/huskar_poseidon_head/huskar_poseidon_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/092c715a0b19/models/items/huskar/huskar_poseidon_head/huskar_poseidon_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_poseidon_head/huskar_poseidon_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_poseidon_head-0a6e523d2aeb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/092c715a0b19/models/items/huskar/huskar_poseidon_head/huskar_poseidon_head_color_tga_5046b0b8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_poseidon_head/huskar_poseidon_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_poseidon_head/huskar_poseidon_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4300:obsidian-claw-of-the-jaguar-helmet",
+      "itemId": 4300,
+      "name": "Obsidian Blade Warhelm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/59b1490a8e96/models/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/59b1490a8e96/models/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/obsidian_claw_of_the_jaguar_helmet-7a6a59a1f0e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/59b1490a8e96/models/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet_color_tga_910e19b0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet.vmdl",
+        "modelPaths": [
+          "models/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4909:sacred-bones-helmet",
+      "itemId": 4909,
+      "name": "Sacred Bones Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/03a26b3bb927/models/items/huskar/sacred_bones_helmet/sacred_bones_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/03a26b3bb927/models/items/huskar/sacred_bones_helmet/sacred_bones_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/sacred_bones_helmet/sacred_bones_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_bones_helmet-cfadc668fd2a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/03a26b3bb927/models/items/huskar/sacred_bones_helmet/sacred_bones_helmet_color_tga_dea9c818.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:26830:huskar-pharaohs-guard-head",
+      "itemId": 26830,
+      "name": "Sacred Chamber Guardian  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0341258e7718/models/items/huskar/huskar_pharaohs_guard_head/huskar_pharaohs_guard_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/0341258e7718/models/items/huskar/huskar_pharaohs_guard_head/huskar_pharaohs_guard_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_pharaohs_guard_head/huskar_pharaohs_guard_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_pharaohs_guard_head-7d2485e2c9ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0341258e7718/models/items/huskar/huskar_pharaohs_guard_head/huskar_pharaohs_guard_head_color_tga_ae6f5f30.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_pharaohs_guard_head/huskar_pharaohs_guard_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_pharaohs_guard_head/huskar_pharaohs_guard_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_cache/huskar_2022_cache_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:8188:searing-dominator",
+      "itemId": 8188,
+      "name": "Searing Dominator",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4fbe97632dd6/models/items/huskar/searing_dominator/searing_dominator.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/4fbe97632dd6/models/items/huskar/searing_dominator/searing_dominator.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/searing_dominator/searing_dominator.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/searing_dominator-ee8eebee44e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4fbe97632dd6/models/items/huskar/searing_dominator/searing_dominator_color_tga_99c49823.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/searing_dominator/searing_dominator.vmdl",
+        "modelPaths": [
+          "models/items/huskar/searing_dominator/searing_dominator.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_searing_dominator/huskar_searing_dominator_backhair.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_searing_dominator/huskar_searing_dominator_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_searing_dominator/huskar_searing_dominator_feather.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_searing_dominator/huskar_searing_life_break.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_searing_dominator/huskar_searing_lifebreak_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_searing_dominator/huskar_searing_lifebreak_spellstart.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_searing_dominator/huskar_searingdom_ambient_glows.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_life_break_spellstart.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:7326:armor-of-reckless-vigor-head",
+      "itemId": 7326,
+      "name": "Style of Reckless Vigor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ce632a3fb767/models/items/huskar/armor_of_reckless_vigor_head/armor_of_reckless_vigor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/ce632a3fb767/models/items/huskar/armor_of_reckless_vigor_head/armor_of_reckless_vigor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/armor_of_reckless_vigor_head/armor_of_reckless_vigor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_reckless_vigor_head-4c23bfdbcad1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ce632a3fb767/models/items/huskar/armor_of_reckless_vigor_head/armor_of_reckless_vigor_head_color_tga_93654e70.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/armor_of_reckless_vigor_head/armor_of_reckless_vigor_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/armor_of_reckless_vigor_head/armor_of_reckless_vigor_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:30982:demon-head",
+      "itemId": 30982,
+      "name": "The Burning Sentinel  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0142e82b2c80/models/items/huskar/demon_head/demon_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/0142e82b2c80/models/items/huskar/demon_head/demon_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/demon_head/demon_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_head-d24cd68cecd5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0142e82b2c80/models/items/huskar/demon_head/demon_head_color_tga_df92da28.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/demon_head/demon_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/demon_head/demon_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13217:ti9-cache-huskar-darkclaw-berserker-head",
+      "itemId": 13217,
+      "name": "Vote Only TI9 Cache Huskar Darkclaw Berserker Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ef065ffa5e96/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_head/ti9_cache_huskar_darkclaw_berserker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/ef065ffa5e96/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_head/ti9_cache_huskar_darkclaw_berserker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_head/ti9_cache_huskar_darkclaw_berserker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_darkclaw_berserker_head-5fc550b2107e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ef065ffa5e96/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_head/ti9_cache_huskar_darkclaw_berserker_head_color_tga_42eb6fba.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_head/ti9_cache_huskar_darkclaw_berserker_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_head/ti9_cache_huskar_darkclaw_berserker_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18971:winter-hunting-head",
+      "itemId": 18971,
+      "name": "Vote Only Winter Hunting Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f2d5c0ad840e/models/items/huskar/winter_hunting_head/winter_hunting_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/f2d5c0ad840e/models/items/huskar/winter_hunting_head/winter_hunting_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_head/winter_hunting_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_head-a47084e458eb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f2d5c0ad840e/models/items/huskar/winter_hunting_head/winter_hunting_head_color_tga_128b0e2b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_head/winter_hunting_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_head/winter_hunting_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Head 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Head 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_head_2/winter_hunting_head_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18971:winter-hunting-head:style-1",
+      "itemId": 18971,
+      "name": "Vote Only Winter Hunting Head - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f2d5c0ad840e/models/items/huskar/winter_hunting_head/winter_hunting_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/f2d5c0ad840e/models/items/huskar/winter_hunting_head/winter_hunting_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_head/winter_hunting_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_head-a47084e458eb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f2d5c0ad840e/models/items/huskar/winter_hunting_head/winter_hunting_head_color_tga_128b0e2b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_head/winter_hunting_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_head/winter_hunting_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Head 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Head 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_head_2/winter_hunting_head_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18863:charred-berserker-head",
+      "itemId": 18863,
+      "name": "Wildmane Berserker Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/cfbd6789956c/models/items/huskar/charred_berserker_head/charred_berserker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/cfbd6789956c/models/items/huskar/charred_berserker_head/charred_berserker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/charred_berserker_head/charred_berserker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/charred_berserker_head-86d980bc7dc6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/cfbd6789956c/models/items/huskar/charred_berserker_head/charred_berserker_head_color_tga_b3f4c1c8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/charred_berserker_head/charred_berserker_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/charred_berserker_head/charred_berserker_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22772:frostivus2018-huskar-ice-age-hunter-head",
+      "itemId": 22772,
+      "name": "Winter Lineage Hunters Dawn Beard",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/b394dcacd014/models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/b394dcacd014/models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_head1-70321984235d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/b394dcacd014/models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head_color_tga_e710c941.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.vmdl",
+        "modelPaths": [
+          "models/items/huskar/frostivus2018_huskar_ice_age_hunter_head/frostivus2018_huskar_ice_age_hunter_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:7325:armor-of-reckless-vigor-offhand",
+      "itemId": 7325,
+      "name": "Blade of Reckless Vigor",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/1ec8b813ea5a/models/items/huskar/armor_of_reckless_vigor_offhand/armor_of_reckless_vigor_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/1ec8b813ea5a/models/items/huskar/armor_of_reckless_vigor_offhand/armor_of_reckless_vigor_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/armor_of_reckless_vigor_offhand/armor_of_reckless_vigor_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_reckless_vigor_offhand-94718995a94e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/1ec8b813ea5a/models/items/huskar/armor_of_reckless_vigor_offhand/armor_of_reckless_vigor_offhand_color_tga_b413b0ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/armor_of_reckless_vigor_offhand/armor_of_reckless_vigor_offhand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/armor_of_reckless_vigor_offhand/armor_of_reckless_vigor_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14147:flame-samurai-off-hand",
+      "itemId": 14147,
+      "name": "Bleeding Edge  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6c69161a6a37/models/items/huskar/flame_samurai_off_hand/flame_samurai_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/6c69161a6a37/models/items/huskar/flame_samurai_off_hand/flame_samurai_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/flame_samurai_off_hand/flame_samurai_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_samurai_off_hand-0b98b3ed95d9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6c69161a6a37/models/items/huskar/flame_samurai_off_hand/flame_samurai_off_hand_color_tga_ae232f8f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/flame_samurai_off_hand/flame_samurai_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/flame_samurai_off_hand/flame_samurai_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13318:ti9-cache-huskar-baptism-of-melting-fire-off-hand",
+      "itemId": 13318,
+      "name": "Buckler of the Ember Demons",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f8afe1a308d5/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_off_hand/ti9_cache_huskar_baptism_of_melting_fire_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/f8afe1a308d5/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_off_hand/ti9_cache_huskar_baptism_of_melting_fire_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_off_hand/ti9_cache_huskar_baptism_of_melting_fire_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_baptism_of_melting_fire_off_hand-945b233eba40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f8afe1a308d5/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_off_hand/ti9_cache_huskar_baptism_of_melting_fire_off_hand_color_tga_27d0e901.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_off_hand/ti9_cache_huskar_baptism_of_melting_fire_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_off_hand/ti9_cache_huskar_baptism_of_melting_fire_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/ti9_cache_huskar_baptism_off_hand/ti9_cache_huskar_baptism_off_hand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:9293:huskar-poseidon-off-hand",
+      "itemId": 9293,
+      "name": "Dagger of the Samareen Sacrifice",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/cd766f1fcf81/models/items/huskar/huskar_poseidon_off_hand/huskar_poseidon_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/cd766f1fcf81/models/items/huskar/huskar_poseidon_off_hand/huskar_poseidon_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_poseidon_off_hand/huskar_poseidon_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_poseidon_off_hand-983a05e4949f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/cd766f1fcf81/models/items/huskar/huskar_poseidon_off_hand/huskar_poseidon_off_hand_color_tga_7829ea9d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_poseidon_off_hand/huskar_poseidon_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_poseidon_off_hand/huskar_poseidon_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14476:huskar-explosive-maniac-off-hand",
+      "itemId": 14476,
+      "name": "Flashpoint Proselyte  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/476f388e83be/models/items/huskar/huskar_explosive_maniac_off_hand/huskar_explosive_maniac_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/476f388e83be/models/items/huskar/huskar_explosive_maniac_off_hand/huskar_explosive_maniac_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_explosive_maniac_off_hand/huskar_explosive_maniac_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_explosive_maniac_off_hand-0c5d5e70557e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/476f388e83be/models/items/huskar/huskar_explosive_maniac_off_hand/huskar_explosive_maniac_off_hand_color_tga_d9449a3d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_explosive_maniac_off_hand/huskar_explosive_maniac_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_explosive_maniac_off_hand/huskar_explosive_maniac_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_explosive_maniac/explosive_maniac_offhand/explosive_maniac_offhand.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:23281:the-ironbound-hunter-off-hand",
+      "itemId": 23281,
+      "name": "Hides of Hostility  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/dd85bde2647a/models/items/huskar/the_ironbound_hunter_off_hand/the_ironbound_hunter_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/dd85bde2647a/models/items/huskar/the_ironbound_hunter_off_hand/the_ironbound_hunter_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/the_ironbound_hunter_off_hand/the_ironbound_hunter_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_ironbound_hunter_off_hand-77bcf76d1f08.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/dd85bde2647a/models/items/huskar/the_ironbound_hunter_off_hand/the_ironbound_hunter_off_hand_color_tga_289be0a8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/the_ironbound_hunter_off_hand/the_ironbound_hunter_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/the_ironbound_hunter_off_hand/the_ironbound_hunter_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_themed/huskar_2022_themed_off_hand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:12756:frostivus2018-huskar-ice-age-hunter-off-hand",
+      "itemId": 12756,
+      "name": "Hunters Dawn Torch",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/8be092258186/models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/8be092258186/models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_off_hand-d875f401293f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/8be092258186/models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand_color_tga_ad19f1fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/2018_frostivus_ice_age_hunter/2018_frostivus_ice_age_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:269:huskar-dagger",
+      "itemId": 269,
+      "name": "Huskars Dagger",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/e351b1e9d42f/models/heroes/huskar/huskar_dagger.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/e351b1e9d42f/models/heroes/huskar/huskar_dagger.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_dagger.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_dagger-41286b4b1d58.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/e351b1e9d42f/models/heroes/huskar/huskar_dagger_color_psd_e5a4e7d1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/huskar/huskar_dagger.vmdl",
+        "modelPaths": [
+          "models/heroes/huskar/huskar_dagger.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4749:obsidian-claw-of-the-jaguar-dagger",
+      "itemId": 4749,
+      "name": "Obsidian Blade Dagger",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f1b9eebf311e/models/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/f1b9eebf311e/models/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/obsidian_claw_of_the_jaguar_dagger-49d68047c673.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f1b9eebf311e/models/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger_color_tga_6df7c27c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger.vmdl",
+        "modelPaths": [
+          "models/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4906:sacred-bones-offhand-weapon",
+      "itemId": 4906,
+      "name": "Sacred Bones Chopper",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ed2a4b8cba22/models/items/huskar/sacred_bones_offhand_weapon/sacred_bones_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/ed2a4b8cba22/models/items/huskar/sacred_bones_offhand_weapon/sacred_bones_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/sacred_bones_offhand_weapon/sacred_bones_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_bones_offhand_weapon-ab43c30b32be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ed2a4b8cba22/models/items/huskar/sacred_bones_offhand_weapon/sacred_bones_offhand_weapon_color_tga_9a84489f.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:26831:huskar-pharaohs-guard-offhand-weapon",
+      "itemId": 26831,
+      "name": "Sacred Chamber Guardian  OffHand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/5d7bc766ab9d/models/items/huskar/huskar_pharaohs_guard_offhand_weapon/huskar_pharaohs_guard_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/5d7bc766ab9d/models/items/huskar/huskar_pharaohs_guard_offhand_weapon/huskar_pharaohs_guard_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_pharaohs_guard_offhand_weapon/huskar_pharaohs_guard_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_pharaohs_guard_offhand_weapon-ed68e36877ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/5d7bc766ab9d/models/items/huskar/huskar_pharaohs_guard_offhand_weapon/huskar_pharaohs_guard_offhand_weapon_color_tga_1b353e6f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_pharaohs_guard_offhand_weapon/huskar_pharaohs_guard_offhand_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_pharaohs_guard_offhand_weapon/huskar_pharaohs_guard_offhand_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_cache/huskar_2022_cache_offhand.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:30983:demon-offhand",
+      "itemId": 30983,
+      "name": "The Burning Sentinel  Offhand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7a6badad0e03/models/items/huskar/demon_offhand/demon_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/7a6badad0e03/models/items/huskar/demon_offhand/demon_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/demon_offhand/demon_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_offhand-78a3eedac7f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7a6badad0e03/models/items/huskar/demon_offhand/demon_offhand_color_tga_a1fdc83e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/demon_offhand/demon_offhand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/demon_offhand/demon_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13215:ti9-cache-huskar-darkclaw-berserker-off-hand",
+      "itemId": 13215,
+      "name": "Vote Only TI9 Cache Huskar Darkclaw Berserker OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/87cf0c0752e0/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_off_hand/ti9_cache_huskar_darkclaw_berserker_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/87cf0c0752e0/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_off_hand/ti9_cache_huskar_darkclaw_berserker_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_off_hand/ti9_cache_huskar_darkclaw_berserker_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_darkclaw_berserker_off_hand-6ed42e138986.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/87cf0c0752e0/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_off_hand/ti9_cache_huskar_darkclaw_berserker_off_hand_color_tga_8c3fcf52.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_off_hand/ti9_cache_huskar_darkclaw_berserker_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_off_hand/ti9_cache_huskar_darkclaw_berserker_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18967:winter-hunting-off-hand",
+      "itemId": 18967,
+      "name": "Vote Only Winter Hunting OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/51feab91d255/models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/51feab91d255/models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_off_hand-b0e3d9a5cbdb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/51feab91d255/models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand_color_tga_28e509e5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting OffHand 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting OffHand 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_off_hand_2/winter_hunting_off_hand_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18967:winter-hunting-off-hand:style-1",
+      "itemId": 18967,
+      "name": "Vote Only Winter Hunting OffHand - Style 2",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/51feab91d255/models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/51feab91d255/models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_off_hand-b0e3d9a5cbdb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/51feab91d255/models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand_color_tga_28e509e5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_off_hand/winter_hunting_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting OffHand 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting OffHand 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_off_hand_2/winter_hunting_off_hand_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18861:charred-berserker-offhand",
+      "itemId": 18861,
+      "name": "Wildmane Berserker Offhand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c256e95ad229/models/items/huskar/charred_berserker_offhand/charred_berserker_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/c256e95ad229/models/items/huskar/charred_berserker_offhand/charred_berserker_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/charred_berserker_offhand/charred_berserker_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/charred_berserker_offhand-a9c41c3bb683.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c256e95ad229/models/items/huskar/charred_berserker_offhand/charred_berserker_offhand_color_tga_2574d39.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/charred_berserker_offhand/charred_berserker_offhand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/charred_berserker_offhand/charred_berserker_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22771:frostivus2018-huskar-ice-age-hunter-off-hand",
+      "itemId": 22771,
+      "name": "Winter Lineage Hunters Dawn Torch",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/60e463430f05/models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/60e463430f05/models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_off_hand1-38da8fa1febd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/60e463430f05/models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand_color_tga_ad19f1fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/huskar/frostivus2018_huskar_ice_age_hunter_off_hand/frostivus2018_huskar_ice_age_hunter_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/2018_frostivus_ice_age_hunter/2018_frostivus_ice_age_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13319:ti9-cache-huskar-baptism-of-melting-fire-shoulder",
+      "itemId": 13319,
+      "name": "Armor of the Ember Demons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/9d4e0f99a0cb/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_shoulder/ti9_cache_huskar_baptism_of_melting_fire_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/9d4e0f99a0cb/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_shoulder/ti9_cache_huskar_baptism_of_melting_fire_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_shoulder/ti9_cache_huskar_baptism_of_melting_fire_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_baptism_of_melting_fire_shoulder-381bee4a06cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/9d4e0f99a0cb/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_shoulder/ti9_cache_huskar_baptism_of_melting_fire_shoulder_color_tga_a349324b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_shoulder/ti9_cache_huskar_baptism_of_melting_fire_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_shoulder/ti9_cache_huskar_baptism_of_melting_fire_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/ti9_cache_huskar_baptism_shoulder/ti9_cache_huskar_baptism_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:29599:huskar-flame-samurai-shoulders-noflag",
+      "itemId": 29599,
+      "name": "Bleeding Edge  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/111fe9d81881/models/items/huskar/huskar_flame_samurai_shoulders_noflag/huskar_flame_samurai_shoulders_noflag.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/111fe9d81881/models/items/huskar/huskar_flame_samurai_shoulders_noflag/huskar_flame_samurai_shoulders_noflag.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_flame_samurai_shoulders_noflag/huskar_flame_samurai_shoulders_noflag.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_flame_samurai_shoulders_noflag-843f0260f6c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/111fe9d81881/models/items/huskar/huskar_flame_samurai_shoulders_noflag/huskar_flame_samurai_shoulders_noflag_color_tga_5f92cebc.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14475:huskar-explosive-maniac-shoulder",
+      "itemId": 14475,
+      "name": "Flashpoint Proselyte  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/bbbd16e14653/models/items/huskar/huskar_explosive_maniac_shoulder/huskar_explosive_maniac_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/bbbd16e14653/models/items/huskar/huskar_explosive_maniac_shoulder/huskar_explosive_maniac_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_explosive_maniac_shoulder/huskar_explosive_maniac_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_explosive_maniac_shoulder-8fd487d3b043.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/bbbd16e14653/models/items/huskar/huskar_explosive_maniac_shoulder/huskar_explosive_maniac_shoulder_color_tga_b95fb354.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_explosive_maniac_shoulder/huskar_explosive_maniac_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_explosive_maniac_shoulder/huskar_explosive_maniac_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_explosive_maniac/explosive_maniac_shoulders/explosive_maniac_shoulders.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22710:the-ironbound-hunter-shoulder",
+      "itemId": 22710,
+      "name": "Hides of Hostility  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/051b457b68c6/models/items/huskar/the_ironbound_hunter_shoulder/the_ironbound_hunter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/051b457b68c6/models/items/huskar/the_ironbound_hunter_shoulder/the_ironbound_hunter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/the_ironbound_hunter_shoulder/the_ironbound_hunter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_ironbound_hunter_shoulder-830de31574ab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/051b457b68c6/models/items/huskar/the_ironbound_hunter_shoulder/the_ironbound_hunter_shoulder_color_tga_b1eab81d.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:12755:frostivus2018-huskar-ice-age-hunter-shoulder",
+      "itemId": 12755,
+      "name": "Hunters Dawn Furs",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/b9600aa8b6be/models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/b9600aa8b6be/models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_shoulder-d82e40173033.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/b9600aa8b6be/models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder_color_tga_e34c0df.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:271:huskar-shoulder",
+      "itemId": 271,
+      "name": "Huskars Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/86fb18bbd9f2/models/heroes/huskar/huskar_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/86fb18bbd9f2/models/heroes/huskar/huskar_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/huskar/huskar_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_shoulder-a13aca8b2192.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/86fb18bbd9f2/models/heroes/huskar/huskar_shoulder_color_psd_c0ffb644.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4301:obsidian-claw-of-the-jaguar-shoulder",
+      "itemId": 4301,
+      "name": "Obsidian Blade Pauldron",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/19cd7b5a14ca/models/items/huskar/obsidian_claw_of_the_jaguar_shoulder/obsidian_claw_of_the_jaguar_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/19cd7b5a14ca/models/items/huskar/obsidian_claw_of_the_jaguar_shoulder/obsidian_claw_of_the_jaguar_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/obsidian_claw_of_the_jaguar_shoulder/obsidian_claw_of_the_jaguar_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/obsidian_claw_of_the_jaguar_shoulder-a41f94822b75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/19cd7b5a14ca/models/items/huskar/obsidian_claw_of_the_jaguar_shoulder/huskar_shoulder_color_psd_c0ffb644.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_shoulder/obsidian_claw_of_the_jaguar_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/huskar/obsidian_claw_of_the_jaguar_shoulder/obsidian_claw_of_the_jaguar_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4907:sacred-bones-shoulder",
+      "itemId": 4907,
+      "name": "Sacred Bones Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6569306ba48e/models/items/huskar/sacred_bones_shoulder/sacred_bones_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/6569306ba48e/models/items/huskar/sacred_bones_shoulder/sacred_bones_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/sacred_bones_shoulder/sacred_bones_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sacred_bones_shoulder-0865b79e4f23.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6569306ba48e/models/items/huskar/sacred_bones_shoulder/huskar_shoulder_color_psd_c0ffb644.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:26832:huskar-pharaohs-guard-shoulder",
+      "itemId": 26832,
+      "name": "Sacred Chamber Guardian  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/76e9bbacbda1/models/items/huskar/huskar_pharaohs_guard_shoulder/huskar_pharaohs_guard_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/76e9bbacbda1/models/items/huskar/huskar_pharaohs_guard_shoulder/huskar_pharaohs_guard_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_pharaohs_guard_shoulder/huskar_pharaohs_guard_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_pharaohs_guard_shoulder-18ecf88db440.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/76e9bbacbda1/models/items/huskar/huskar_pharaohs_guard_shoulder/huskar_pharaohs_guard_shoulder_color_tga_a0f33df9.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:9294:huskar-poseidon-shoulder",
+      "itemId": 9294,
+      "name": "Shield of the Samareen Sacrifice",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6efc427793f9/models/items/huskar/huskar_poseidon_shoulder/huskar_poseidon_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/6efc427793f9/models/items/huskar/huskar_poseidon_shoulder/huskar_poseidon_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_poseidon_shoulder/huskar_poseidon_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_poseidon_shoulder-2c234951ee8e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6efc427793f9/models/items/huskar/huskar_poseidon_shoulder/huskar_poseidon_arms_color_tga_64565080.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:7324:armor-of-reckless-vigor-shoulder",
+      "itemId": 7324,
+      "name": "Spikes of Reckless Vigor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/80430f27ea66/models/items/huskar/armor_of_reckless_vigor_shoulder/armor_of_reckless_vigor_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/80430f27ea66/models/items/huskar/armor_of_reckless_vigor_shoulder/armor_of_reckless_vigor_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/armor_of_reckless_vigor_shoulder/armor_of_reckless_vigor_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_reckless_vigor_shoulder-33d1343c3468.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/80430f27ea66/models/items/huskar/armor_of_reckless_vigor_shoulder/armor_of_reckless_vigor_shoulder_color_tga_b9a616bb.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:30984:demon-shoulders",
+      "itemId": 30984,
+      "name": "The Burning Sentinel  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d1501a96c83a/models/items/huskar/demon_shoulders/demon_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/d1501a96c83a/models/items/huskar/demon_shoulders/demon_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/demon_shoulders/demon_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_shoulders-9b30352a8ffc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d1501a96c83a/models/items/huskar/demon_shoulders/demon_shoulders_color_tga_c6432c6c.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:9793:huskar-ti8-immortal-shoulders",
+      "itemId": 9793,
+      "name": "The Spoils of Dezun",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0f4f033aaa3b/models/items/huskar/huskar_ti8_immortal_shoulders/huskar_ti8_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/0f4f033aaa3b/models/items/huskar/huskar_ti8_immortal_shoulders/huskar_ti8_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_ti8_immortal_shoulders/huskar_ti8_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_ti8_immortal_shoulders-4c54e0a6c975.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0f4f033aaa3b/models/items/huskar/huskar_ti8_immortal_shoulders/huskar_shoulder_color_psd_c0ffb644.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_ti8_immortal_shoulders/huskar_ti8_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_ti8_immortal_shoulders/huskar_ti8_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_ti8/huskar_ti8_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_ti8/huskar_ti8_shoulder_berserk_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_ti8/huskar_ti8_shoulder_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_ti8/huskar_ti8_shoulder_heal_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_berserkers_blood.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_inner_vitality.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_inner_vitality_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13218:ti9-cache-huskar-darkclaw-berserker-shoulder",
+      "itemId": 13218,
+      "name": "Vote Only TI9 Cache Huskar Darkclaw Berserker Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4aca9d41f7fe/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_shoulder/ti9_cache_huskar_darkclaw_berserker_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/4aca9d41f7fe/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_shoulder/ti9_cache_huskar_darkclaw_berserker_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_shoulder/ti9_cache_huskar_darkclaw_berserker_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_darkclaw_berserker_shoulder-11a7915c7c8f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4aca9d41f7fe/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_shoulder/ti9_cache_huskar_darkclaw_berserker_shoulder_color_tga_d9632a49.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18965:winter-hunting-shoulder",
+      "itemId": 18965,
+      "name": "Vote Only Winter Hunting Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d2a89b3211cd/models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/d2a89b3211cd/models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_shoulder-ace579995096.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d2a89b3211cd/models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder_color_tga_e0efdfa5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Shoulder 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Shoulder 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_shoulder_2/winter_hunting_shoulder_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18965:winter-hunting-shoulder:style-1",
+      "itemId": 18965,
+      "name": "Vote Only Winter Hunting Shoulder - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d2a89b3211cd/models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/d2a89b3211cd/models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_shoulder-ace579995096.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d2a89b3211cd/models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder_color_tga_e0efdfa5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_shoulder/winter_hunting_shoulder.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Shoulder 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Shoulder 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_shoulder_2/winter_hunting_shoulder_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18862:charred-berserker-shoulder",
+      "itemId": 18862,
+      "name": "Wildmane Berserker Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/a61ebf76d192/models/items/huskar/charred_berserker_shoulder/charred_berserker_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/a61ebf76d192/models/items/huskar/charred_berserker_shoulder/charred_berserker_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/charred_berserker_shoulder/charred_berserker_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/charred_berserker_shoulder-bb0254610355.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/a61ebf76d192/models/items/huskar/charred_berserker_shoulder/charred_berserker_shoulder_color_tga_9698deed.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22770:frostivus2018-huskar-ice-age-hunter-shoulder",
+      "itemId": 22770,
+      "name": "Winter Lineage Hunters Dawn Furs",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d169e7392952/models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/d169e7392952/models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_shoulder1-3cbcfcc5821d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d169e7392952/models/items/huskar/frostivus2018_huskar_ice_age_hunter_shoulder/frostivus2018_huskar_ice_age_hunter_shoulder_color_tga_e34c0df.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14167:flame-samurai-weapon",
+      "itemId": 14167,
+      "name": "Bleeding Edge  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d24fc17e3d5f/models/items/huskar/flame_samurai_weapon/flame_samurai_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/d24fc17e3d5f/models/items/huskar/flame_samurai_weapon/flame_samurai_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/flame_samurai_weapon/flame_samurai_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_samurai_weapon-5862fc66e46a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/d24fc17e3d5f/models/items/huskar/flame_samurai_weapon/flame_samurai_weapon_color_tga_f507a1a2.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18616:husk-2021-immortal",
+      "itemId": 18616,
+      "name": "Draca Maw",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "collector_cache",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7869911fbe58/models/items/huskar/husk_2021_immortal/husk_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/7869911fbe58/models/items/huskar/husk_2021_immortal/husk_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/husk_2021_immortal/husk_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/husk_2021_immortal-69c9a2c912c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7869911fbe58/models/items/huskar/husk_2021_immortal/husk_2021_immortal_color_tga_3881872e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/husk_2021_immortal/husk_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/huskar/husk_2021_immortal/husk_2021_immortal.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/huskar/husk_2021_immortal/husk_2021_immortal_arm_model.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_huskar/06120af2938d/models/items/huskar/husk_2021_immortal/husk_2021_immortal_arm_model.glb"
+        ],
+        "refitModels": [
+          {
+            "targetModelPath": "models/heroes/huskar/huskar_bracer.vmdl",
+            "modifierModelPath": "models/items/huskar/husk_2021_immortal/huskar_bracer_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0b2ac73cef3d/models/items/huskar/husk_2021_immortal/huskar_bracer_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c9788a952602/models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/charred_berserker_arms/charred_berserker_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/charred_berserker_arms/charred_berserker_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/da42600ed205/models/items/huskar/charred_berserker_arms/charred_berserker_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4059901a0a64/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6337802d9c22/models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/5701abbeb19f/models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/b7acb658271c/models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/sacred_bones_arms/sacred_bones_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/sacred_bones_arms/sacred_bones_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/4029aed42da5/models/items/huskar/sacred_bones_arms/sacred_bones_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/cb4c066ca217/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms_2021_refit.glb"
+          }
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/huskar/husk_2021_immortal/husk_2021_immortal_arm_model.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_arm.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_burning_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_burning_spear_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_base_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_burning_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_burning_spear_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:14474:huskar-explosive-maniac-weapon",
+      "itemId": 14474,
+      "name": "Flashpoint Proselyte  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/51023da4dbe6/models/items/huskar/huskar_explosive_maniac_weapon/huskar_explosive_maniac_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/51023da4dbe6/models/items/huskar/huskar_explosive_maniac_weapon/huskar_explosive_maniac_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_explosive_maniac_weapon/huskar_explosive_maniac_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_explosive_maniac_weapon-3e60409856e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/51023da4dbe6/models/items/huskar/huskar_explosive_maniac_weapon/huskar_explosive_maniac_weapon_color_tga_17c1fc09.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_explosive_maniac_weapon/huskar_explosive_maniac_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_explosive_maniac_weapon/huskar_explosive_maniac_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_explosive_maniac/explosive_maniac_weapon/explosive_maniac_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18564:husk-2021-immortal",
+      "itemId": 18564,
+      "name": "Golden Draca Maw",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "collector_cache",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7c0c64791153/models/items/huskar/husk_2021_immortal/husk_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/7c0c64791153/models/items/huskar/husk_2021_immortal/husk_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/husk_2021_immortal/husk_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/husk_2021_immortal1-f653da1d1803.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7c0c64791153/models/items/huskar/husk_2021_immortal/husk_2021_immortal_color_tga_3881872e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/husk_2021_immortal/husk_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/huskar/husk_2021_immortal/husk_2021_immortal.vmdl"
+        ],
+        "auxiliaryModelPaths": [
+          "models/items/huskar/husk_2021_immortal/husk_2021_immortal_arm_model.vmdl"
+        ],
+        "auxiliaryModelUrls": [
+          "/larimods-data/v1/models/npc_dota_hero_huskar/2b3e9c2e4913/models/items/huskar/husk_2021_immortal/husk_2021_immortal_arm_model.glb"
+        ],
+        "refitModels": [
+          {
+            "targetModelPath": "models/heroes/huskar/huskar_bracer.vmdl",
+            "modifierModelPath": "models/items/huskar/husk_2021_immortal/huskar_bracer_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/f80763607007/models/items/huskar/husk_2021_immortal/huskar_bracer_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/b466efb2bf85/models/items/huskar/armor_of_reckless_vigor_arms/armor_of_reckless_vigor_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/charred_berserker_arms/charred_berserker_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/charred_berserker_arms/charred_berserker_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/5410390d9797/models/items/huskar/charred_berserker_arms/charred_berserker_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/5c9ca2c84067/models/items/huskar/frostivus2018_huskar_ice_age_hunter_arms/frostivus2018_huskar_ice_age_hunter_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ba2fc7298114/models/items/huskar/huskar_explosive_maniac_arms/huskar_explosive_maniac_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/078b1f93a24c/models/items/huskar/huskar_poseidon_arms/huskar_poseidon_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/587513a7aff3/models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/sacred_bones_arms/sacred_bones_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/sacred_bones_arms/sacred_bones_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/50891500df3a/models/items/huskar/sacred_bones_arms/sacred_bones_arms_2021_refit.glb"
+          },
+          {
+            "targetModelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms.vmdl",
+            "modifierModelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms_2021_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/6f3053ba2cc3/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_arms/ti9_cache_huskar_baptism_of_melting_fire_arms_2021_refit.glb"
+          }
+        ],
+        "auxiliaryModels": [
+          {
+            "path": "models/items/huskar/husk_2021_immortal/husk_2021_immortal_arm_model.vmdl",
+            "type": "vmdl",
+            "role": "additional_wearable"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_arm_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_base_attack_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_burning_spear_debuff_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_burning_spear_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/huskar/huskar_2021_immortal/huskar_2021_immortal_spear_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_base_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_burning_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_burning_spear_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22708:the-ironbound-hunter-weapon",
+      "itemId": 22708,
+      "name": "Hides of Hostility  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7b00a5013ee1/models/items/huskar/the_ironbound_hunter_weapon/the_ironbound_hunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/7b00a5013ee1/models/items/huskar/the_ironbound_hunter_weapon/the_ironbound_hunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/the_ironbound_hunter_weapon/the_ironbound_hunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_ironbound_hunter_weapon-f5f95e5b372b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7b00a5013ee1/models/items/huskar/the_ironbound_hunter_weapon/the_ironbound_hunter_weapon_color_tga_a0e8c44a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/the_ironbound_hunter_weapon/the_ironbound_hunter_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/the_ironbound_hunter_weapon/the_ironbound_hunter_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_themed/huskar_2022_themed_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_base_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:12754:frostivus2018-huskar-ice-age-hunter-weapon",
+      "itemId": 12754,
+      "name": "Hunters Dawn Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ede1b7d6de46/models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/ede1b7d6de46/models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_weapon-8331346885fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ede1b7d6de46/models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon_color_tga_1b6dbf64.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:4748:obsidian-blade-spear",
+      "itemId": 4748,
+      "name": "Obsidian Blade Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ee8e533250b1/models/items/huskar/obsidian_blade_spear/obsidian_blade_spear.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/ee8e533250b1/models/items/huskar/obsidian_blade_spear/obsidian_blade_spear.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/obsidian_blade_spear/obsidian_blade_spear.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/obsidian_blade_spear-5aae39d4dedc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/ee8e533250b1/models/items/huskar/obsidian_blade_spear/obsidian_blade_spear_color_tga_10067253.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/obsidian_blade_spear/obsidian_blade_spear.vmdl",
+        "modelPaths": [
+          "models/items/huskar/obsidian_blade_spear/obsidian_blade_spear.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:26833:huskar-pharaohs-guard-weapon",
+      "itemId": 26833,
+      "name": "Sacred Chamber Guardian  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c6233bef8309/models/items/huskar/huskar_pharaohs_guard_weapon/huskar_pharaohs_guard_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/c6233bef8309/models/items/huskar/huskar_pharaohs_guard_weapon/huskar_pharaohs_guard_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_pharaohs_guard_weapon/huskar_pharaohs_guard_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_pharaohs_guard_weapon-4f01d899cdff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/c6233bef8309/models/items/huskar/huskar_pharaohs_guard_weapon/huskar_pharaohs_guard_weapon_color_tga_331e1f28.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/huskar_pharaohs_guard_weapon/huskar_pharaohs_guard_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/huskar_pharaohs_guard_weapon/huskar_pharaohs_guard_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/huskar_2022_cache/huskar_2022_cache_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:7327:armor-of-reckless-vigor-weapon",
+      "itemId": 7327,
+      "name": "Spear of Reckless Vigor",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7d8a8ace45c8/models/items/huskar/armor_of_reckless_vigor_weapon/armor_of_reckless_vigor_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/7d8a8ace45c8/models/items/huskar/armor_of_reckless_vigor_weapon/armor_of_reckless_vigor_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/armor_of_reckless_vigor_weapon/armor_of_reckless_vigor_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_reckless_vigor_weapon-ad112e02abbf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7d8a8ace45c8/models/items/huskar/armor_of_reckless_vigor_weapon/armor_of_reckless_vigor_weapon_color_tga_29aabb56.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13320:ti9-cache-huskar-baptism-of-melting-fire-weapon",
+      "itemId": 13320,
+      "name": "Spear of the Ember Demons",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7e9921cf1ca9/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_weapon/ti9_cache_huskar_baptism_of_melting_fire_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/7e9921cf1ca9/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_weapon/ti9_cache_huskar_baptism_of_melting_fire_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_weapon/ti9_cache_huskar_baptism_of_melting_fire_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_baptism_of_melting_fire_weapon-9b52dc43e70a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7e9921cf1ca9/models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_weapon/ti9_cache_huskar_baptism_of_melting_fire_weapon_color_tga_c684694e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_weapon/ti9_cache_huskar_baptism_of_melting_fire_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/ti9_cache_huskar_baptism_of_melting_fire_weapon/ti9_cache_huskar_baptism_of_melting_fire_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/huskar/ti9_cache_huskar_baptism_weapon/ti9_cache_huskar_baptism_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:30985:demon-weapon",
+      "itemId": 30985,
+      "name": "The Burning Sentinel  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7d5b7e84934f/models/items/huskar/demon_weapon/demon_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/7d5b7e84934f/models/items/huskar/demon_weapon/demon_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/demon_weapon/demon_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demon_weapon-1c105f03834f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/7d5b7e84934f/models/items/huskar/demon_weapon/demon_weapon_color_tga_17470756.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/demon_weapon/demon_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/demon_weapon/demon_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_huskar/huskar_base_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:9292:huskar-poseidon-weapon",
+      "itemId": 9292,
+      "name": "Trident of the Samareen Sacrifice",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/5a7e36d131cf/models/items/huskar/huskar_poseidon_weapon/huskar_poseidon_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/5a7e36d131cf/models/items/huskar/huskar_poseidon_weapon/huskar_poseidon_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/huskar_poseidon_weapon/huskar_poseidon_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/huskar_poseidon_weapon-445c9b73f5fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/5a7e36d131cf/models/items/huskar/huskar_poseidon_weapon/huskar_poseidon_weapon_color_tga_50be6f2e.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:13214:ti9-cache-huskar-darkclaw-berserker-weapon",
+      "itemId": 13214,
+      "name": "Vote Only TI9 Cache Huskar Darkclaw Berserker Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/1dccb6d1921c/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_weapon/ti9_cache_huskar_darkclaw_berserker_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/1dccb6d1921c/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_weapon/ti9_cache_huskar_darkclaw_berserker_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/ti9_cache_huskar_darkclaw_berserker_weapon/ti9_cache_huskar_darkclaw_berserker_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_huskar_darkclaw_berserker_weapon-265db9f000d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/1dccb6d1921c/models/items/huskar/ti9_cache_huskar_darkclaw_berserker_weapon/ti9_cache_huskar_darkclaw_berserker_weapon_color_tga_780a1497.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18963:winter-hunting-weapon",
+      "itemId": 18963,
+      "name": "Vote Only Winter Hunting Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/8303d87fe2a5/models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/8303d87fe2a5/models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_weapon-f28cfde2b4ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/8303d87fe2a5/models/items/huskar/winter_hunting_weapon/winter_hunting_weapon_color_tga_2f58c851.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Weapon 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Weapon 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_weapon_2/winter_hunting_weapon_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18963:winter-hunting-weapon:style-1",
+      "itemId": 18963,
+      "name": "Vote Only Winter Hunting Weapon - Style 2",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/8303d87fe2a5/models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/8303d87fe2a5/models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_hunting_weapon-f28cfde2b4ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/8303d87fe2a5/models/items/huskar/winter_hunting_weapon/winter_hunting_weapon_color_tga_2f58c851.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.vmdl",
+        "modelPaths": [
+          "models/items/huskar/winter_hunting_weapon/winter_hunting_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Vote Only Style Winter Hunting Weapon 0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Vote Only Style Winter Hunting Weapon 1",
+            "modelPaths": [
+              "models/items/huskar/winter_hunting_weapon_2/winter_hunting_weapon_2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:18859:charred-berserker-weapon",
+      "itemId": 18859,
+      "name": "Wildmane Berserker Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0c9179494324/models/items/huskar/charred_berserker_weapon/charred_berserker_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/0c9179494324/models/items/huskar/charred_berserker_weapon/charred_berserker_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/charred_berserker_weapon/charred_berserker_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/charred_berserker_weapon-2c70f7d31717.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/0c9179494324/models/items/huskar/charred_berserker_weapon/charred_berserker_weapon_color_tga_fb4b04ca.png"
+    },
+    {
+      "id": "npc_dota_hero_huskar:item-model:22769:frostivus2018-huskar-ice-age-hunter-weapon",
+      "itemId": 22769,
+      "name": "Winter Lineage Hunters Dawn Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/52bd1b46acc3/models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_huskar/52bd1b46acc3/models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_weapon1-ec37296dac4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_huskar/52bd1b46acc3/models/items/huskar/frostivus2018_huskar_ice_age_hunter_weapon/frostivus2018_huskar_ice_age_hunter_weapon_color_tga_1b6dbf64.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_huskar:core-set:21504:bleeding-edge",
+      "name": "Bleeding Edge",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        14145,
+        14146,
+        14147,
+        14167,
+        29599
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/flame_samurai_arms-d2faa7169caa.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21565:flashpoint-proselyte",
+      "name": "Flashpoint Proselyte",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        14474,
+        14475,
+        14476,
+        14477,
+        14478
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/huskar_explosive_maniac_weapon-3e60409856e4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:22707:hides-of-hostility",
+      "name": "Hides of Hostility",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        22708,
+        22709,
+        22710,
+        23281,
+        23282
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/the_ironbound_hunter_weapon-f5f95e5b372b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21293:hunters-dawn",
+      "name": "Hunters Dawn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        12754,
+        12755,
+        12756,
+        12757,
+        12758
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_huskar_ice_age_hunter_weapon-8331346885fa.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21386:pursuit-of-the-ember-demons",
+      "name": "Pursuit of the Ember Demons",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        13318,
+        13319,
+        13320,
+        13321,
+        13322
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_huskar_baptism_of_melting_fire_ls-fbcf619cfe2a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:20984:reckless-vigor",
+      "name": "Reckless Vigor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        7323,
+        7324,
+        7325,
+        7326,
+        7327
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/armor_of_reckless_vigor_loading_screen-d5a6db7dc7fc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:20158:sacred-bones-set",
+      "name": "Sacred Bones Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        4906,
+        4907,
+        4908,
+        4909
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/sacred_bones_offhand_weapon-ab43c30b32be.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:26816:sacred-chamber-guardian",
+      "name": "Sacred Chamber Guardian",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        26829,
+        26830,
+        26831,
+        26832,
+        26833
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/huskar_pharaohs_guard_arms-6d9edd46f29b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21115:samareen-sacrifice",
+      "name": "Samareen Sacrifice",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        9291,
+        9292,
+        9293,
+        9294,
+        9295
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/huskar_poseidon_huskar_poseidon_loadingscreen-c85ebb0d8cc6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:31074:the-burning-sentinel",
+      "name": "The Burning Sentinel",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        30981,
+        30982,
+        30983,
+        30984,
+        30985
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/demon_arms-252ed67accc6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:20106:the-obsidian-blade-set",
+      "name": "The Obsidian Blade Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        4299,
+        4300,
+        4301,
+        4748,
+        4749
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/obsidian_claw_of_the_jaguar_arms-a83517a1d5ae.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21366:vote-only-ti9-cache-huskar-darkclaw-berserker",
+      "name": "Vote Only TI9 Cache Huskar Darkclaw Berserker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        13214,
+        13215,
+        13216,
+        13217,
+        13218
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_huskar_darkclaw_berserker_weapon-265db9f000d0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21829:vote-only-winter-hunting",
+      "name": "Vote Only Winter Hunting",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        18963,
+        18965,
+        18967,
+        18971,
+        18973
+      ],
+      "styleSelections": {
+        "18963": "0",
+        "18965": "0",
+        "18967": "0",
+        "18971": "0",
+        "18973": "0"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21829:vote-only-winter-hunting:style-1",
+      "name": "Vote Only Winter Hunting - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        18963,
+        18965,
+        18967,
+        18971,
+        18973
+      ],
+      "styleSelections": {
+        "18963": "1",
+        "18965": "1",
+        "18967": "1",
+        "18971": "1",
+        "18973": "1"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:21823:wildmane-berserker",
+      "name": "Wildmane Berserker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        18859,
+        18860,
+        18861,
+        18862,
+        18863
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/charred_berserker_ls-ab2d727df40a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_huskar:core-set:22773:winter-lineage-hunters-dawn",
+      "name": "Winter Lineage Hunters Dawn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        269,
+        270,
+        271,
+        272
+      ],
+      "sourceItemIds": [
+        22768,
+        22769,
+        22770,
+        22771,
+        22772
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_dpc_2022_hunters_dawn-d496d5efa924.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 81051722,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 638
+  }
+}

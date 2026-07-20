@@ -1,0 +1,2209 @@
+{
+  "heroId": "npc_dota_hero_puck",
+  "sourceHeroId": "npc_dota_hero_puck",
+  "variantId": "default",
+  "heroName": "Puck",
+  "heroSlug": "puck",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_puck/bbe1e9627e14/models/heroes/puck/puck.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "itemId": 370,
+      "name": "Pucks Wings",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/24372e78ee40/models/heroes/puck/puck_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/24372e78ee40/models/heroes/puck/puck_wings.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/puck/puck_wings.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/24372e78ee40/models/heroes/puck/puck_wings_color_psd_e5e2cbaf.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 372,
+      "name": "Pucks Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/edd6890cdbb4/models/heroes/puck/puck_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/edd6890cdbb4/models/heroes/puck/puck_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/puck/puck_horns.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/edd6890cdbb4/models/heroes/puck/puck_head_color_psd_a1f2875b.png"
+    },
+    {
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "itemId": 371,
+      "name": "Pucks Tail",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f383718b0384/models/heroes/puck/puck_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/f383718b0384/models/heroes/puck/puck_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/puck/puck_tail.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f383718b0384/models/heroes/puck/puck_tail_color_psd_dc5fe263.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_puck:item-model:5338:fairy-wing",
+      "itemId": 5338,
+      "name": "AetherWings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/8510e071f56d/models/items/puck/fairy_wing.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/8510e071f56d/models/items/puck/fairy_wing.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/fairy_wing.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fairy_wing-78969678c15e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/8510e071f56d/models/items/puck/fairy_wing_color_psd_2b4b2ca9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/fairy_wing.vmdl",
+        "modelPaths": [
+          "models/items/puck/fairy_wing.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/puck_fairy_wing/puck_waning_rift_fairy_wing.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_puck/puck_waning_rift.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:13767:puck-ti10-immortal-wings",
+      "itemId": 13767,
+      "name": "Blossom of the Merry Wanderer",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/8126597ad730/models/items/puck/puck_ti10_immortal_wings/puck_ti10_immortal_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/8126597ad730/models/items/puck/puck_ti10_immortal_wings/puck_ti10_immortal_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/puck_ti10_immortal_wings/puck_ti10_immortal_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_ti10_immortal_wings-2f9c81ca6f68.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/8126597ad730/models/items/puck/puck_ti10_immortal_wings/puck_ti10_immortal_wings_color_psd_fcc12528.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/puck_ti10_immortal_wings/puck_ti10_immortal_wings.vmdl",
+        "modelPaths": [
+          "models/items/puck/puck_ti10_immortal_wings/puck_ti10_immortal_wings.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/puck_ti10_immortal/puck_ti10_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/puck/puck_ti10_immortal/puck_ti10_tether.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/puck/puck_ti10_immortal/puck_ti10_ult.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_puck/puck_dreamcoil.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_puck/puck_dreamcoil_tether.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6290:radiant-wanderer-back",
+      "itemId": 6290,
+      "name": "Complete Wings of the Ethereal Monarch",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/743bc1ae3c67/models/items/puck/radiant_wanderer_back/radiant_wanderer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/743bc1ae3c67/models/items/puck/radiant_wanderer_back/radiant_wanderer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/radiant_wanderer_back-1ebb3d24becd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/743bc1ae3c67/models/items/puck/radiant_wanderer_back/radiant_wanderer_back_color_tga_943c88e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl",
+        "modelPaths": [
+          "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/puck_radiant_wanderer/puck_ambient_radiant_wandered_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:18415:dplus-the-tricksters-guise-back",
+      "itemId": 18415,
+      "name": "Cycles of the Serene Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/d2eb39b8803c/models/items/puck/dplus_the_tricksters_guise_back/dplus_the_tricksters_guise_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/d2eb39b8803c/models/items/puck/dplus_the_tricksters_guise_back/dplus_the_tricksters_guise_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/dplus_the_tricksters_guise_back/dplus_the_tricksters_guise_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_the_tricksters_guise_back-208ca9d7a2e0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/d2eb39b8803c/models/items/puck/dplus_the_tricksters_guise_back/dplus_the_tricksters_guise_back_color_tga_bc0c26a1.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:7759:essence-of-the-trickster-back",
+      "itemId": 7759,
+      "name": "Essence of the Trickster Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7472b5260640/models/items/puck/essence_of_the_trickster_back/essence_of_the_trickster_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/7472b5260640/models/items/puck/essence_of_the_trickster_back/essence_of_the_trickster_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/essence_of_the_trickster_back/essence_of_the_trickster_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/essence_of_the_trickster_back-e602e7ac8edb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7472b5260640/models/items/puck/essence_of_the_trickster_back/essence_of_the_trickster_back_color_tga_fd549d98.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6287:etherealwings-puck-back",
+      "itemId": 6287,
+      "name": "Ethereal Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/1e4588dd125a/models/items/puck/etherealwings_puck_back/etherealwings_puck_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/1e4588dd125a/models/items/puck/etherealwings_puck_back/etherealwings_puck_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/etherealwings_puck_back/etherealwings_puck_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/etherealwings_puck_back-e609bbaaf9fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/1e4588dd125a/models/items/puck/etherealwings_puck_back/etherealwings_puck_back_color_tga_dea8d26f.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:13129:ti9-cache-puck-dionaea-muscipula-back",
+      "itemId": 13129,
+      "name": "Faeriesnap Spriteleaf Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/d6a87d6c9b2f/models/items/puck/ti9_cache_puck_dionaea_muscipula_back/ti9_cache_puck_dionaea_muscipula_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/d6a87d6c9b2f/models/items/puck/ti9_cache_puck_dionaea_muscipula_back/ti9_cache_puck_dionaea_muscipula_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/ti9_cache_puck_dionaea_muscipula_back/ti9_cache_puck_dionaea_muscipula_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_puck_dionaea_muscipula_back-9215c95f8737.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/d6a87d6c9b2f/models/items/puck/ti9_cache_puck_dionaea_muscipula_back/ti9_cache_puck_dionaea_muscipula_back_color_tga_c1785e28.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:22318:luminous-scarab-back",
+      "itemId": 22318,
+      "name": "Luminous Scarab Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/a14a58abf288/models/items/puck/luminous_scarab_back/luminous_scarab_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/a14a58abf288/models/items/puck/luminous_scarab_back/luminous_scarab_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/luminous_scarab_back/luminous_scarab_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/luminous_scarab_back-9d9c72a1f657.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/a14a58abf288/models/items/puck/luminous_scarab_back/luminous_scarab_back_color_psd_6ce293c8.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:28651:puck-firefly-back",
+      "itemId": 28651,
+      "name": "Mischief of the Winter Moth  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/95ec4dc571fb/models/items/puck/puck_firefly_back/puck_firefly_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/95ec4dc571fb/models/items/puck/puck_firefly_back/puck_firefly_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/puck_firefly_back/puck_firefly_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_firefly_back-5ddfdb902ec4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/95ec4dc571fb/models/items/puck/puck_firefly_back/puck_firefly_back_color_tga_cbc8177b.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6166:mischievous-back",
+      "itemId": 6166,
+      "name": "Mischievous Dragon Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f4697d89fd8d/models/items/puck/mischievous_back/mischievous_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/f4697d89fd8d/models/items/puck/mischievous_back/mischievous_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/mischievous_back/mischievous_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mischievous_back-7d5bcce6bf4d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f4697d89fd8d/models/items/puck/mischievous_back/mischievous_back_color_tga_2395bddd.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6177:mysticcoils-wings",
+      "itemId": 6177,
+      "name": "Mystic Coils Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/c68de815d398/models/items/puck/mysticcoils_wings/mysticcoils_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/c68de815d398/models/items/puck/mysticcoils_wings/mysticcoils_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/mysticcoils_wings/mysticcoils_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mysticcoils_wings-9e7e9f43cf9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/c68de815d398/models/items/puck/mysticcoils_wings/mysticcoils_wings_color_tga_2f9eb1e4.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:370:puck-wings",
+      "itemId": 370,
+      "name": "Pucks Wings",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/24372e78ee40/models/heroes/puck/puck_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/24372e78ee40/models/heroes/puck/puck_wings.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/puck/puck_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_wings-e6fdf3fa9ea9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/24372e78ee40/models/heroes/puck/puck_wings_color_psd_e5e2cbaf.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:14643:hippocampus-back",
+      "itemId": 14643,
+      "name": "Vanishing Pearl  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/673b244a0b2c/models/items/puck/hippocampus_back/hippocampus_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/673b244a0b2c/models/items/puck/hippocampus_back/hippocampus_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/hippocampus_back/hippocampus_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hippocampus_back-77ef415e0d50.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/673b244a0b2c/models/items/puck/hippocampus_back/hippocampus_back_color_tga_7319b191.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:9580:puck-snowflake-elf-back",
+      "itemId": 9580,
+      "name": "Wings of Curious Coldspell",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/789eac2c3c2d/models/items/puck/puck_snowflake_elf_back/puck_snowflake_elf_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/789eac2c3c2d/models/items/puck/puck_snowflake_elf_back/puck_snowflake_elf_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/puck_snowflake_elf_back/puck_snowflake_elf_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_snowflake_elf_back-42a8e97767bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/789eac2c3c2d/models/items/puck/puck_snowflake_elf_back/puck_snowflake_elf_back_color_tga_949491d8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/puck_snowflake_elf_back/puck_snowflake_elf_back.vmdl",
+        "modelPaths": [
+          "models/items/puck/puck_snowflake_elf_back/puck_snowflake_elf_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/puck_snowflake/puck_snowflake_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6711:reminiscence-wings",
+      "itemId": 6711,
+      "name": "Wings of Reminiscence",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/681fc943804c/models/items/puck/reminiscence_wings/reminiscence_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/681fc943804c/models/items/puck/reminiscence_wings/reminiscence_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/reminiscence_wings/reminiscence_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reminiscence_wings-07b816383cf6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/681fc943804c/models/items/puck/reminiscence_wings/reminiscence_wings_color_tga_a4a6392d.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:13340:ti9-cache-puck-ahpuck-back",
+      "itemId": 13340,
+      "name": "Wings of the Ageless Fae",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/6216694a0f97/models/items/puck/ti9_cache_puck_ahpuck_back/ti9_cache_puck_ahpuck_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/6216694a0f97/models/items/puck/ti9_cache_puck_ahpuck_back/ti9_cache_puck_ahpuck_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/ti9_cache_puck_ahpuck_back/ti9_cache_puck_ahpuck_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_puck_ahpuck_back-bb0a03298625.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/6216694a0f97/models/items/puck/ti9_cache_puck_ahpuck_back/ti9_cache_puck_ahpuck_back_color_png_9f9c9951.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/ti9_cache_puck_ahpuck_back/ti9_cache_puck_ahpuck_back.vmdl",
+        "modelPaths": [
+          "models/items/puck/ti9_cache_puck_ahpuck_back/ti9_cache_puck_ahpuck_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/ti9_cache_puck_ahpuck_back/ti9_cache_puck_ahpuck_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6856:eternalnymph-back",
+      "itemId": 6856,
+      "name": "Wings of the Eternal Nymph",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/b43d38aae40f/models/items/puck/eternalnymph_back/eternalnymph_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/b43d38aae40f/models/items/puck/eternalnymph_back/eternalnymph_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/eternalnymph_back/eternalnymph_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eternalnymph_back-107bae82a635.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/b43d38aae40f/models/items/puck/eternalnymph_back/eternalnymph_back_color_tga_c5a356b2.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:8892:radiant-wanderer-back",
+      "itemId": 8892,
+      "name": "Wings of the Ethereal Monarch",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/450b03b865d9/models/items/puck/radiant_wanderer_back/radiant_wanderer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/450b03b865d9/models/items/puck/radiant_wanderer_back/radiant_wanderer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/radiant_wanderer_back-1ebb3d24becd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/450b03b865d9/models/items/puck/radiant_wanderer_back/radiant_wanderer_back_color_tga_943c88e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl",
+        "modelPaths": [
+          "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/puck_radiant_wanderer/puck_ambient_radiant_wandered_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Radiant Wanderer Back 0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Radiant Wanderer Back 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/puck/radiant_wanderer_back/radiant_wanderer_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/puck/puck_radiant_wanderer/puck_ambient_radiant_wandered_back.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:8892:radiant-wanderer-back:style-1",
+      "itemId": 8892,
+      "name": "Wings of the Ethereal Monarch - Style 2",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Wings",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/450b03b865d9/models/items/puck/radiant_wanderer_back/radiant_wanderer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/450b03b865d9/models/items/puck/radiant_wanderer_back/radiant_wanderer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/radiant_wanderer_back_style1-4d73e532eaaf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/450b03b865d9/models/items/puck/radiant_wanderer_back/radiant_wanderer_back_color_tga_943c88e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl",
+        "modelPaths": [
+          "models/items/puck/radiant_wanderer_back/radiant_wanderer_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/puck_radiant_wanderer/puck_ambient_radiant_wandered_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Radiant Wanderer Back 0",
+            "alternateIcon": "0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Radiant Wanderer Back 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/puck/radiant_wanderer_back/radiant_wanderer_back_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/puck/puck_radiant_wanderer/puck_ambient_radiant_wandered_back.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6618:radiant-wanderer-head",
+      "itemId": 6618,
+      "name": "Complete Crown of the Ethereal Monarch",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/4260b7ff169e/models/items/puck/radiant_wanderer_head/radiant_wanderer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/4260b7ff169e/models/items/puck/radiant_wanderer_head/radiant_wanderer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/radiant_wanderer_head/radiant_wanderer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/radiant_wanderer_head-270a21999718.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/4260b7ff169e/models/items/puck/radiant_wanderer_head/radiant_wanderer_head_color_tga_66e49e93.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:9582:puck-snowflake-elf-head",
+      "itemId": 9582,
+      "name": "Crown of Curious Coldspell",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/3f496be494d8/models/items/puck/puck_snowflake_elf_head/puck_snowflake_elf_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/3f496be494d8/models/items/puck/puck_snowflake_elf_head/puck_snowflake_elf_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/puck_snowflake_elf_head/puck_snowflake_elf_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_snowflake_elf_head-d85da8857fea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/3f496be494d8/models/items/puck/puck_snowflake_elf_head/puck_snowflake_elf_head_color_tga_1f04d3c5.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:13341:ti9-cache-puck-ahpuck-head",
+      "itemId": 13341,
+      "name": "Crown of the Ageless Fae",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/36221b53f48b/models/items/puck/ti9_cache_puck_ahpuck_head/ti9_cache_puck_ahpuck_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/36221b53f48b/models/items/puck/ti9_cache_puck_ahpuck_head/ti9_cache_puck_ahpuck_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/ti9_cache_puck_ahpuck_head/ti9_cache_puck_ahpuck_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_puck_ahpuck_head-a01d73b1c385.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/36221b53f48b/models/items/puck/ti9_cache_puck_ahpuck_head/ti9_cache_puck_ahpuck_head_color_png_2598c49a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/ti9_cache_puck_ahpuck_head/ti9_cache_puck_ahpuck_head.vmdl",
+        "modelPaths": [
+          "models/items/puck/ti9_cache_puck_ahpuck_head/ti9_cache_puck_ahpuck_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/ti9_cache_puck_ahpuck_head/ti9_cache_puck_ahpuck_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:8890:radiant-wanderer-head",
+      "itemId": 8890,
+      "name": "Crown of the Ethereal Monarch",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f0cb9665de1c/models/items/puck/radiant_wanderer_head/radiant_wanderer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/f0cb9665de1c/models/items/puck/radiant_wanderer_head/radiant_wanderer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/radiant_wanderer_head/radiant_wanderer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/radiant_wanderer_head-270a21999718.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f0cb9665de1c/models/items/puck/radiant_wanderer_head/radiant_wanderer_head_color_tga_66e49e93.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:18414:dplus-the-tricksters-guise-head",
+      "itemId": 18414,
+      "name": "Cycles of the Serene Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7f7dbece9f35/models/items/puck/dplus_the_tricksters_guise_head/dplus_the_tricksters_guise_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/7f7dbece9f35/models/items/puck/dplus_the_tricksters_guise_head/dplus_the_tricksters_guise_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/dplus_the_tricksters_guise_head/dplus_the_tricksters_guise_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_the_tricksters_guise_head-f51423cfe77f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7f7dbece9f35/models/items/puck/dplus_the_tricksters_guise_head/dplus_the_tricksters_guise_head_color_tga_d6880d90.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:7758:essence-of-the-trickster-head",
+      "itemId": 7758,
+      "name": "Essence of the Trickster Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/cad95f361486/models/items/puck/essence_of_the_trickster_head/essence_of_the_trickster_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/cad95f361486/models/items/puck/essence_of_the_trickster_head/essence_of_the_trickster_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/essence_of_the_trickster_head/essence_of_the_trickster_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/essence_of_the_trickster_head-a4c6c465f865.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/cad95f361486/models/items/puck/essence_of_the_trickster_head/essence_of_the_trickster_head_color_tga_e9d18ef.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:13131:ti9-cache-puck-dionaea-muscipula-head",
+      "itemId": 13131,
+      "name": "Faeriesnap Spriteleaf Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/e464835cd937/models/items/puck/ti9_cache_puck_dionaea_muscipula_head/ti9_cache_puck_dionaea_muscipula_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/e464835cd937/models/items/puck/ti9_cache_puck_dionaea_muscipula_head/ti9_cache_puck_dionaea_muscipula_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/ti9_cache_puck_dionaea_muscipula_head/ti9_cache_puck_dionaea_muscipula_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_puck_dionaea_muscipula_head-fca623f8a62b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/e464835cd937/models/items/puck/ti9_cache_puck_dionaea_muscipula_head/ti9_cache_puck_dionaea_muscipula_head_color_tga_76368d4b.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6855:eternalnymph-head",
+      "itemId": 6855,
+      "name": "Horns of the Eternal Nymph",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/8fa5e3e9d29d/models/items/puck/eternalnymph_head/eternalnymph_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/8fa5e3e9d29d/models/items/puck/eternalnymph_head/eternalnymph_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/eternalnymph_head/eternalnymph_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eternalnymph_head-1830777159ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/8fa5e3e9d29d/models/items/puck/eternalnymph_head/eternalnymph_head_color_tga_4a41af16.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:22317:luminous-scarab-head",
+      "itemId": 22317,
+      "name": "Luminous Scarab Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/cf3f00ce15cb/models/items/puck/luminous_scarab_head/luminous_scarab_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/cf3f00ce15cb/models/items/puck/luminous_scarab_head/luminous_scarab_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/luminous_scarab_head/luminous_scarab_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/luminous_scarab_head-69e9556331a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/cf3f00ce15cb/models/items/puck/luminous_scarab_head/luminous_scarab_head_color_psd_bf251237.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:28650:puck-firefly-head",
+      "itemId": 28650,
+      "name": "Mischief of the Winter Moth  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/cf42986cb320/models/items/puck/puck_firefly_head/puck_firefly_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/cf42986cb320/models/items/puck/puck_firefly_head/puck_firefly_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/puck_firefly_head/puck_firefly_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_firefly_head-33526d1710c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/cf42986cb320/models/items/puck/puck_firefly_head/puck_firefly_head_color_tga_914b4049.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6167:mischievous-head",
+      "itemId": 6167,
+      "name": "Mischievous Dragon Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/a031b1a4c568/models/items/puck/mischievous_head/mischievous_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/a031b1a4c568/models/items/puck/mischievous_head/mischievous_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/mischievous_head/mischievous_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mischievous_head-db731f9b70e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/a031b1a4c568/models/items/puck/mischievous_head/mischievous_head_color_tga_8e1d9d4e.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6595:mischievousfruits-head",
+      "itemId": 6595,
+      "name": "Mischievous Fruits",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/ef722ed5b3b7/models/items/puck/mischievousfruits_head/mischievousfruits_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/ef722ed5b3b7/models/items/puck/mischievousfruits_head/mischievousfruits_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/mischievousfruits_head/mischievousfruits_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mischievousfruits_head-07769e67ce05.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/ef722ed5b3b7/models/items/puck/mischievousfruits_head/mischievousfruits_head_color_tga_782e055a.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6178:mysticcoils-antennae",
+      "itemId": 6178,
+      "name": "Mystic Coils Antennae",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/736a13087c5a/models/items/puck/mysticcoils_antennae/mysticcoils_antennae.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/736a13087c5a/models/items/puck/mysticcoils_antennae/mysticcoils_antennae.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/mysticcoils_antennae/mysticcoils_antennae.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mysticcoils_antennae-0376fc9beb30.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/736a13087c5a/models/items/puck/mysticcoils_antennae/mysticcoils_antennae_color_tga_ac2b42f8.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6709:reminiscence-head",
+      "itemId": 6709,
+      "name": "Orb of Reminiscence",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/84265af81c8f/models/items/puck/reminiscence_head/reminiscence_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/84265af81c8f/models/items/puck/reminiscence_head/reminiscence_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/reminiscence_head/reminiscence_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reminiscence_head-9b9c44276675.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/84265af81c8f/models/items/puck/reminiscence_head/reminiscence_head_color_tga_3efa76c1.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:372:puck-horns",
+      "itemId": 372,
+      "name": "Pucks Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/edd6890cdbb4/models/heroes/puck/puck_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/edd6890cdbb4/models/heroes/puck/puck_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/puck/puck_horns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_horns-df1ccc285c66.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/edd6890cdbb4/models/heroes/puck/puck_head_color_psd_a1f2875b.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:14644:hippocampus-head",
+      "itemId": 14644,
+      "name": "Vanishing Pearl  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/565989eda64e/models/items/puck/hippocampus_head/hippocampus_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/565989eda64e/models/items/puck/hippocampus_head/hippocampus_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/hippocampus_head/hippocampus_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hippocampus_head-5d490f77ac8b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/565989eda64e/models/items/puck/hippocampus_head/hippocampus_head_color_tga_aa2b4db8.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6292:radiant-wanderer-tail",
+      "itemId": 6292,
+      "name": "Complete Tail of the Ethereal Monarch",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/1f35fa600dba/models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/1f35fa600dba/models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/radiant_wanderer_tail-2f6851dd87d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/1f35fa600dba/models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail_color_tga_a70341cc.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:18413:dplus-the-tricksters-guise-tail",
+      "itemId": 18413,
+      "name": "Cycles of the Serene Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/43da8598dfbe/models/items/puck/dplus_the_tricksters_guise_tail/dplus_the_tricksters_guise_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/43da8598dfbe/models/items/puck/dplus_the_tricksters_guise_tail/dplus_the_tricksters_guise_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/dplus_the_tricksters_guise_tail/dplus_the_tricksters_guise_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_the_tricksters_guise_tail-6d68858be876.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/43da8598dfbe/models/items/puck/dplus_the_tricksters_guise_tail/dplus_the_tricksters_guise_tail_color_tga_2434166f.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:7757:essence-of-the-trickster-tail",
+      "itemId": 7757,
+      "name": "Essence of the Trickster Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/bcce219a8fdb/models/items/puck/essence_of_the_trickster_tail/essence_of_the_trickster_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/bcce219a8fdb/models/items/puck/essence_of_the_trickster_tail/essence_of_the_trickster_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/essence_of_the_trickster_tail/essence_of_the_trickster_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/essence_of_the_trickster_tail-b6b46102575b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/bcce219a8fdb/models/items/puck/essence_of_the_trickster_tail/essence_of_the_trickster_tail_color_tga_1837fed9.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:13130:ti9-cache-puck-dionaea-muscipula-tail",
+      "itemId": 13130,
+      "name": "Faeriesnap Spriteleaf Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/48eae48758bd/models/items/puck/ti9_cache_puck_dionaea_muscipula_tail/ti9_cache_puck_dionaea_muscipula_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/48eae48758bd/models/items/puck/ti9_cache_puck_dionaea_muscipula_tail/ti9_cache_puck_dionaea_muscipula_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/ti9_cache_puck_dionaea_muscipula_tail/ti9_cache_puck_dionaea_muscipula_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_puck_dionaea_muscipula_tail-f84b33bfdaf3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/48eae48758bd/models/items/puck/ti9_cache_puck_dionaea_muscipula_tail/ti9_cache_puck_dionaea_muscipula_tail_color_tga_4d40bb95.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:22319:luminous-scarab-tail",
+      "itemId": 22319,
+      "name": "Luminous Scarab Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7d014e45260a/models/items/puck/luminous_scarab_tail/luminous_scarab_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/7d014e45260a/models/items/puck/luminous_scarab_tail/luminous_scarab_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/luminous_scarab_tail/luminous_scarab_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/luminous_scarab_tail-d78f1b4daa35.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7d014e45260a/models/items/puck/luminous_scarab_tail/luminous_scarab_tail_color_psd_5c4be3a6.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6671:merry-wanderers-brush-tail",
+      "itemId": 6671,
+      "name": "Merry Wanderers Brush",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7921a66863ec/models/items/puck/merry_wanderers_brush_tail/merry_wanderers_brush_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/7921a66863ec/models/items/puck/merry_wanderers_brush_tail/merry_wanderers_brush_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/merry_wanderers_brush_tail/merry_wanderers_brush_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/merry_wanderers_brush_tail-ea51c5ec8adb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/7921a66863ec/models/items/puck/merry_wanderers_brush_tail/merry_wanderers_brush_tail_color_psd_b3b21e8b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/merry_wanderers_brush_tail/merry_wanderers_brush_tail.vmdl",
+        "modelPaths": [
+          "models/items/puck/merry_wanderers_brush_tail/merry_wanderers_brush_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/puck_merry_wanderer/puck_ambient_merry_wanderer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/puck/puck_merry_wanderer/puck_illusory_orb_merry_wanderer_linear_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/puck/puck_merry_wanderer/puck_illusory_orb_merry_wanderer_tracking_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_puck/puck_illusory_orb_linear_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_puck/puck_illusory_orb_tracking_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:28649:puck-firefly-tail",
+      "itemId": 28649,
+      "name": "Mischief of the Winter Moth  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/c94546460e09/models/items/puck/puck_firefly_tail/puck_firefly_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/c94546460e09/models/items/puck/puck_firefly_tail/puck_firefly_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/puck_firefly_tail/puck_firefly_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_firefly_tail-c28ecb4d1259.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/c94546460e09/models/items/puck/puck_firefly_tail/puck_firefly_tail_color_tga_2e82b004.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6165:mischievous-tail",
+      "itemId": 6165,
+      "name": "Mischievous Dragon Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/80ad3e01dfaf/models/items/puck/mischievous_tail/mischievous_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/80ad3e01dfaf/models/items/puck/mischievous_tail/mischievous_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/mischievous_tail/mischievous_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mischievous_tail-8981170f6aae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/80ad3e01dfaf/models/items/puck/mischievous_tail/mischievous_tail_color_tga_ef32f2b3.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6176:mysticcoils-tail",
+      "itemId": 6176,
+      "name": "Mystic Coils Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/6956a689387a/models/items/puck/mysticcoils_tail/mysticcoils_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/6956a689387a/models/items/puck/mysticcoils_tail/mysticcoils_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/mysticcoils_tail/mysticcoils_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mysticcoils_tail-82d879d7c899.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/6956a689387a/models/items/puck/mysticcoils_tail/mysticcoils_tail_color_tga_92930c8d.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:371:puck-tail",
+      "itemId": 371,
+      "name": "Pucks Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f383718b0384/models/heroes/puck/puck_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/f383718b0384/models/heroes/puck/puck_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/puck/puck_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_tail-e8ed2f1d765f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/f383718b0384/models/heroes/puck/puck_tail_color_psd_dc5fe263.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:9581:puck-snowflake-elf-tail",
+      "itemId": 9581,
+      "name": "Tail of Curious Coldspell",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/0a4d2dc75db3/models/items/puck/puck_snowflake_elf_tail/puck_snowflake_elf_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/0a4d2dc75db3/models/items/puck/puck_snowflake_elf_tail/puck_snowflake_elf_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/puck_snowflake_elf_tail/puck_snowflake_elf_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puck_snowflake_elf_tail-46adabcd01a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/0a4d2dc75db3/models/items/puck/puck_snowflake_elf_tail/puck_snowflake_elf_tail_color_tga_d2afda79.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6710:reminiscence-tail",
+      "itemId": 6710,
+      "name": "Tail of Reminiscence",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/c90eb3f27e74/models/items/puck/reminiscence_tail/reminiscence_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/c90eb3f27e74/models/items/puck/reminiscence_tail/reminiscence_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/reminiscence_tail/reminiscence_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reminiscence_tail-914607c1826b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/c90eb3f27e74/models/items/puck/reminiscence_tail/reminiscence_tail_color_tga_99a5088e.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:13342:ti9-cache-puck-ahpuck-tail",
+      "itemId": 13342,
+      "name": "Tail of the Ageless Fae",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/1ed51930fadf/models/items/puck/ti9_cache_puck_ahpuck_tail/ti9_cache_puck_ahpuck_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/1ed51930fadf/models/items/puck/ti9_cache_puck_ahpuck_tail/ti9_cache_puck_ahpuck_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/ti9_cache_puck_ahpuck_tail/ti9_cache_puck_ahpuck_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_puck_ahpuck_tail-e3667e7a1cec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/1ed51930fadf/models/items/puck/ti9_cache_puck_ahpuck_tail/ti9_cache_puck_ahpuck_tail_color_png_6ad42618.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/puck/ti9_cache_puck_ahpuck_tail/ti9_cache_puck_ahpuck_tail.vmdl",
+        "modelPaths": [
+          "models/items/puck/ti9_cache_puck_ahpuck_tail/ti9_cache_puck_ahpuck_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/puck/ti9_cache_puck_ahpuck_tail/ti9_cache_puck_ahpuck_tail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:6452:eternalnymph-tail",
+      "itemId": 6452,
+      "name": "Tail of the Eternal Nymph",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/dfcbcc0fde9b/models/items/puck/eternalnymph_tail/eternalnymph_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/dfcbcc0fde9b/models/items/puck/eternalnymph_tail/eternalnymph_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/eternalnymph_tail/eternalnymph_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eternalnymph_tail-4e7cab073696.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/dfcbcc0fde9b/models/items/puck/eternalnymph_tail/eternalnymph_tail_color_tga_f73108f.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:8891:radiant-wanderer-tail",
+      "itemId": 8891,
+      "name": "Tail of the Ethereal Monarch",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/49b256bb638d/models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/49b256bb638d/models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/radiant_wanderer_tail-2f6851dd87d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/49b256bb638d/models/items/puck/radiant_wanderer_tail/radiant_wanderer_tail_color_tga_a70341cc.png"
+    },
+    {
+      "id": "npc_dota_hero_puck:item-model:14645:hippocampus-tail",
+      "itemId": 14645,
+      "name": "Vanishing Pearl  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_puck/b468756dd0a5/models/items/puck/hippocampus_tail/hippocampus_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_puck/b468756dd0a5/models/items/puck/hippocampus_tail/hippocampus_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/puck/hippocampus_tail/hippocampus_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hippocampus_tail-0cb52667ae25.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_puck/b468756dd0a5/models/items/puck/hippocampus_tail/hippocampus_tail_color_tga_e7d01a7d.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_puck:core-set:21390:amusements-of-the-ageless-fae",
+      "name": "Amusements of the Ageless Fae",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        13340,
+        13341,
+        13342
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_puck_ahpuck_back-bb0a03298625.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20436:complete-ethereal-monarch",
+      "name": "Complete Ethereal Monarch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        6290,
+        6292,
+        6618
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/radiant_wanderer_radiant_wanderer_loadingscreen-7c390407e06b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:21162:curious-coldspell",
+      "name": "Curious Coldspell",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        9580,
+        9581,
+        9582
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/puck_snowflake_elf_back-42a8e97767bc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:21802:cycles-of-the-serene",
+      "name": "Cycles of the Serene",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        18413,
+        18414,
+        18415
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dplus_the_tricksters_guise_tail-6d68858be876.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20446:dota-pit-league-season-one",
+      "name": "Dota Pit League Season One",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370
+      ],
+      "sourceItemIds": [
+        6287
+      ],
+      "slots": [
+        "back"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 2,
+      "previewUrl": "/larimods-data/v1/icons/etherealwings_puck_back-e609bbaaf9fa.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20911:essence-of-the-trickster",
+      "name": "Essence of the Trickster",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        7757,
+        7758,
+        7759
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/essence_of_the_trickster_essence_of_the_trickster_loading_screen-e697f2ddca0b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20588:eternal-nymph",
+      "name": "Eternal Nymph",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        6452,
+        6855,
+        6856
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_eternal_nymph-a92a282c8274.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:21056:ethereal-monarch",
+      "name": "Ethereal Monarch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        8890,
+        8891,
+        8892
+      ],
+      "styleSelections": {
+        "8892": "0"
+      },
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/radiant_wanderer_radiant_wanderer_loadingscreen-7c390407e06b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:21056:ethereal-monarch:style-1",
+      "name": "Ethereal Monarch - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        8890,
+        8891,
+        8892
+      ],
+      "styleSelections": {
+        "8892": "1"
+      },
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/radiant_wanderer_back_style1-4d73e532eaaf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:21351:faeriesnap-spriteleaf",
+      "name": "Faeriesnap Spriteleaf",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        13129,
+        13130,
+        13131
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_puck_dionaea_muscipula_back-9215c95f8737.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:22335:luminous-scarab",
+      "name": "Luminous Scarab",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        22317,
+        22318,
+        22319
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/luminous_scarab_ls-939fbfe73955.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:29160:mischief-of-the-winter-moth",
+      "name": "Mischief of the Winter Moth",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        28649,
+        28650,
+        28651
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/puck_firefly_tail-c28ecb4d1259.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20410:mischievous-dragon",
+      "name": "Mischievous Dragon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        6165,
+        6166,
+        6167
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/mischievousdragon-aa319c58400b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20444:mystic-coils",
+      "name": "Mystic Coils",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        6176,
+        6177,
+        6178
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/mysticcoils_tail-82d879d7c899.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20445:prodota-spring-cup",
+      "name": "Prodota Spring Cup",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        6176,
+        6177,
+        6178
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/mysticcoils_tail-82d879d7c899.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20557:promo-mischievous-dragon",
+      "name": "Promo Mischievous Dragon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        6165,
+        6166,
+        6167
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/mischievousdragon-aa319c58400b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:20576:reminiscence-of-dreams",
+      "name": "Reminiscence of Dreams",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        6709,
+        6710,
+        6711
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "rarity:mythical",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_puck_reminiscence-5d830fbd285b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_puck:core-set:22018:vanishing-pearl",
+      "name": "Vanishing Pearl",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        370,
+        371,
+        372
+      ],
+      "sourceItemIds": [
+        14643,
+        14644,
+        14645
+      ],
+      "slots": [
+        "back",
+        "head",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/hippocampus_back-77ef415e0d50.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 29862166,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 296
+  }
+}

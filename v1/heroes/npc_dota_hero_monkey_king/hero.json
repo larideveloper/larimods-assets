@@ -1,0 +1,3565 @@
+{
+  "heroId": "npc_dota_hero_monkey_king",
+  "sourceHeroId": "npc_dota_hero_monkey_king",
+  "variantId": "default",
+  "heroName": "Monkey King",
+  "heroSlug": "monkey_king",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/monkey_king.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_monkey_king/0e6a77924ae7/models/heroes/monkey_king/monkey_king.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 608,
+      "name": "Monkey King Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d0daae1b1416/models/heroes/monkey_king/monkey_king_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/d0daae1b1416/models/heroes/monkey_king/monkey_king_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d0daae1b1416/models/heroes/monkey_king/monkey_king_armor_color_psd_38206e1c.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 594,
+      "name": "Monkey King Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dfcb7f0cdcd8/models/heroes/monkey_king/monkey_king_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/dfcb7f0cdcd8/models/heroes/monkey_king/monkey_king_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_hair.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dfcb7f0cdcd8/models/heroes/monkey_king/monkey_king_hair_color_psd_9ce9fabc.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 657,
+      "name": "Monkey King Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/16980fb0e049/models/heroes/monkey_king/monkey_king_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/16980fb0e049/models/heroes/monkey_king/monkey_king_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/16980fb0e049/models/heroes/monkey_king/monkey_king_shoulders_color_tga_98b7490a.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 609,
+      "name": "Monkey King Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/29669e137ad6/models/heroes/monkey_king/monkey_king_base_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/29669e137ad6/models/heroes/monkey_king/monkey_king_base_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_base_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/29669e137ad6/models/heroes/monkey_king/monkey_king_weapon_color_psd_d85ddc8d.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:13008:mk-ti9-immortal-armor",
+      "itemId": 13008,
+      "name": "Armor of the Demon Trickster",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor_style0_color_psd_5a5a7ad6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Monkey King Immortal Base",
+            "skin": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Monkey King Immortal Water",
+            "skin": "1",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Monkey King Immortal Death",
+            "skin": "2",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "3",
+            "name": "Monkey King Immortal Fire",
+            "skin": "3",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:13008:mk-ti9-immortal-armor:style-1",
+      "itemId": 13008,
+      "name": "Armor of the Demon Trickster - Monkey King Immortal Water",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor_style0_color_psd_5a5a7ad6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Monkey King Immortal Base",
+            "skin": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Monkey King Immortal Water",
+            "skin": "1",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Monkey King Immortal Death",
+            "skin": "2",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "3",
+            "name": "Monkey King Immortal Fire",
+            "skin": "3",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:13008:mk-ti9-immortal-armor:style-2",
+      "itemId": 13008,
+      "name": "Armor of the Demon Trickster - Monkey King Immortal Death",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor_style0_color_psd_5a5a7ad6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Monkey King Immortal Base",
+            "skin": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Monkey King Immortal Water",
+            "skin": "1",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Monkey King Immortal Death",
+            "skin": "2",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "3",
+            "name": "Monkey King Immortal Fire",
+            "skin": "3",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:13008:mk-ti9-immortal-armor:style-3",
+      "itemId": 13008,
+      "name": "Armor of the Demon Trickster - Monkey King Immortal Fire",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/879d71488485/models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor_style0_color_psd_5a5a7ad6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Monkey King Immortal Base",
+            "skin": "0",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Monkey King Immortal Water",
+            "skin": "1",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Monkey King Immortal Death",
+            "skin": "2",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "3",
+            "name": "Monkey King Immortal Fire",
+            "skin": "3",
+            "assets": [
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/status_fx/status_effect_monkey_king_fur_army.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "3"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9463:the-havoc-of-dragon-palacesix-ear-armor",
+      "itemId": 9463,
+      "name": "Armor of the Dragon Palace",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/151b55aeddeb/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/151b55aeddeb/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_havoc_of_dragon_palacesix_ear_armor-5bd2a6e83b49.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/151b55aeddeb/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_armor_color_tga_fb3c37d8.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:12694:dota-plus-monkey-king-armor",
+      "itemId": 12694,
+      "name": "Armor of the Masks of Mischief",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/935a2a32b2a2/models/items/monkey_king/dota_plus_monkey_king_armor/dota_plus_monkey_king_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/935a2a32b2a2/models/items/monkey_king/dota_plus_monkey_king_armor/dota_plus_monkey_king_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/dota_plus_monkey_king_armor/dota_plus_monkey_king_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dota_plus_monkey_king_armor-6226a180f18f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/935a2a32b2a2/models/items/monkey_king/dota_plus_monkey_king_armor/dota_plus_monkey_king_armor_color_psd_7c407a9f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/dota_plus_monkey_king_armor/dota_plus_monkey_king_armor.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/dota_plus_monkey_king_armor/dota_plus_monkey_king_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/plus_2018/monkey_king_plus_2018_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9401:monkey-king-king-of-the-dark-reef-ti-2017-armor",
+      "itemId": 9401,
+      "name": "Armor of the Riptide Raider",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/fd4410084daa/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/monkey_king_king_of_the_dark_reef_ti_2017_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/fd4410084daa/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/monkey_king_king_of_the_dark_reef_ti_2017_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/monkey_king_king_of_the_dark_reef_ti_2017_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_king_of_the_dark_reef_ti_2017_armor-e806b04d6bea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/fd4410084daa/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/monkey_king_king_of_the_dark_reef_ti_2017_armor_color_png_72bc9755.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:22378:return-of-the-monkey-king-armor-v2",
+      "itemId": 22378,
+      "name": "Baubles of the Preening King  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/e231cc76e164/models/items/monkey_king/return_of_the_monkey_king_armor_v2/return_of_the_monkey_king_armor_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/e231cc76e164/models/items/monkey_king/return_of_the_monkey_king_armor_v2/return_of_the_monkey_king_armor_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/return_of_the_monkey_king_armor_v2/return_of_the_monkey_king_armor_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/return_of_the_monkey_king_armor_v2-a4c0135f9d2f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/e231cc76e164/models/items/monkey_king/return_of_the_monkey_king_armor_v2/return_of_the_monkey_king_armor_v2_color_tga_1465c853.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:36263:monkey-dark-carnival-armor",
+      "itemId": 36263,
+      "name": "Bonobo the Clown  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/18a92a302120/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/18a92a302120/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_dark_carnival_armor-fa8e895e1c8d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/18a92a302120/models/items/monkey_king/monkey_king_dark_carnival/monkey_king_dark_carnival_armor_color_psd_604a60f2.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:25352:mk-fiery-vajrapani-armor",
+      "itemId": 25352,
+      "name": "Champion of the Fire Lotus  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/ebac8ca5de25/models/items/monkey_king/mk_fiery_vajrapani_armor/mk_fiery_vajrapani_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/ebac8ca5de25/models/items/monkey_king/mk_fiery_vajrapani_armor/mk_fiery_vajrapani_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_fiery_vajrapani_armor/mk_fiery_vajrapani_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_fiery_vajrapani_armor-167fe498ac73.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/ebac8ca5de25/models/items/monkey_king/mk_fiery_vajrapani_armor/mk_fiery_vajrapani_armor_color_tga_9579c652.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:608:monkey-king-armor",
+      "itemId": 608,
+      "name": "Monkey King Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d0daae1b1416/models/heroes/monkey_king/monkey_king_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/d0daae1b1416/models/heroes/monkey_king/monkey_king_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_armor-4957b895fab4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d0daae1b1416/models/heroes/monkey_king/monkey_king_armor_color_psd_38206e1c.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:31421:accursed-king-armor",
+      "itemId": 31421,
+      "name": "Sins of the Simian Sovereign  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/e7cd64569e66/models/items/monkey_king/accursed_king_armor/accursed_king_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/e7cd64569e66/models/items/monkey_king/accursed_king_armor/accursed_king_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/accursed_king_armor/accursed_king_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/accursed_king_armor-5c54ced54897.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/e7cd64569e66/models/items/monkey_king/accursed_king_armor/accursed_king_armor_arcana_blue_color_tga_3ddf772c.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:23704:path-of-the-jungle-armor",
+      "itemId": 23704,
+      "name": "Tangled Tropics  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/ec19f8a98593/models/items/monkey_king/path_of_the_jungle_armor/path_of_the_jungle_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/ec19f8a98593/models/items/monkey_king/path_of_the_jungle_armor/path_of_the_jungle_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/path_of_the_jungle_armor/path_of_the_jungle_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/path_of_the_jungle_armor-ad6a3041088e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/ec19f8a98593/models/items/monkey_king/path_of_the_jungle_armor/path_of_the_jungle_armor_color_tga_83f6fe0f.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:28153:flame-of-winning-buddha-armor",
+      "itemId": 28153,
+      "name": "Victorious Fighting Scoundrel  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/f23ce1049650/models/items/monkey_king/flame_of_winning_buddha_armor/flame_of_winning_buddha_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/f23ce1049650/models/items/monkey_king/flame_of_winning_buddha_armor/flame_of_winning_buddha_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/flame_of_winning_buddha_armor/flame_of_winning_buddha_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_of_winning_buddha_armor-5a4a0c7cc243.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/f23ce1049650/models/items/monkey_king/flame_of_winning_buddha_armor/flame_of_winning_buddha_armor_color_psd_a966cdd1.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:22390:return-of-the-monkey-king-head",
+      "itemId": 22390,
+      "name": "Baubles of the Preening King  Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/36f4cf8f7538/models/items/monkey_king/return_of_the_monkey_king_head/return_of_the_monkey_king_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/36f4cf8f7538/models/items/monkey_king/return_of_the_monkey_king_head/return_of_the_monkey_king_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/return_of_the_monkey_king_head/return_of_the_monkey_king_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/return_of_the_monkey_king_head-9d9fc1eca6a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/36f4cf8f7538/models/items/monkey_king/return_of_the_monkey_king_head/return_of_the_monkey_king_head_color_tga_9cb59c4c.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:36264:monkey-dark-carnival-head",
+      "itemId": 36264,
+      "name": "Bonobo the Clown  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/7683d8745b27/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/7683d8745b27/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_dark_carnival_head-32fa43c80c43.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/7683d8745b27/models/items/monkey_king/monkey_king_dark_carnival/monkey_king_dark_carnival_head_color_psd_f23aa7aa.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:25353:mk-fiery-vajrapani-head",
+      "itemId": 25353,
+      "name": "Champion of the Fire Lotus  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d21694834ee5/models/items/monkey_king/mk_fiery_vajrapani_head/mk_fiery_vajrapani_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/d21694834ee5/models/items/monkey_king/mk_fiery_vajrapani_head/mk_fiery_vajrapani_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_fiery_vajrapani_head/mk_fiery_vajrapani_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_fiery_vajrapani_head-eb66ea178070.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d21694834ee5/models/items/monkey_king/mk_fiery_vajrapani_head/mk_fiery_vajrapani_head_color_tga_ea572228.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_fiery_vajrapani_head/mk_fiery_vajrapani_head.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_fiery_vajrapani_head/mk_fiery_vajrapani_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_collectors_cache_2022/mk_collectors_cache_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:12696:dota-plus-monkey-king-head",
+      "itemId": 12696,
+      "name": "Crown of the Masks of Mischief",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/df4afaf5d6a4/models/items/monkey_king/dota_plus_monkey_king_head/dota_plus_monkey_king_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/df4afaf5d6a4/models/items/monkey_king/dota_plus_monkey_king_head/dota_plus_monkey_king_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/dota_plus_monkey_king_head/dota_plus_monkey_king_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dota_plus_monkey_king_head-9a2a0148ba17.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/df4afaf5d6a4/models/items/monkey_king/dota_plus_monkey_king_head/dota_plus_monkey_king_head_color_psd_752066d4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/dota_plus_monkey_king_head/dota_plus_monkey_king_head.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/dota_plus_monkey_king_head/dota_plus_monkey_king_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/plus_2018/monkey_king_plus_2018_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9400:monkey-king-king-of-the-dark-reef-ti-2017-head",
+      "itemId": 9400,
+      "name": "Crown of the Riptide Raider",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/51b4aab21f8e/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_head/monkey_king_king_of_the_dark_reef_ti_2017_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/51b4aab21f8e/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_head/monkey_king_king_of_the_dark_reef_ti_2017_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_head/monkey_king_king_of_the_dark_reef_ti_2017_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_king_of_the_dark_reef_ti_2017_head-3c0f3c4177bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/51b4aab21f8e/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_head/monkey_king_king_of_the_dark_reef_ti_2017_head_color_png_3c22689c.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:34183:monkey-king-arcana",
+      "itemId": 34183,
+      "name": "Great Sages Reckoning  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/f616d504d765/models/items/monkey_king/monkey_king_arcana_head/mesh/monkey_king_arcana.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/f616d504d765/models/items/monkey_king/monkey_king_arcana_head/mesh/monkey_king_arcana.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_arcana_head/mesh/monkey_king_arcana.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_arcana-d40137309208.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/f616d504d765/models/items/monkey_king/monkey_king_arcana_head/mesh/mk_arcana_style2_scroll_color_psd_afc1c0e2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/monkey_king_arcana_head/mesh/monkey_king_arcana.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/monkey_king_arcana_head/mesh/monkey_king_arcana.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/arcana/monkey_king_arcana_crown.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/arcana/monkey_king_arcana_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9195:the-havoc-of-dragon-palacesix-ear-head",
+      "itemId": 9195,
+      "name": "Helm of the Dragon Palace",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/40f7dc631206/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_head/the_havoc_of_dragon_palacesix_ear_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/40f7dc631206/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_head/the_havoc_of_dragon_palacesix_ear_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_head/the_havoc_of_dragon_palacesix_ear_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_havoc_of_dragon_palacesix_ear_head-4331c8c2dff2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/40f7dc631206/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_head/the_havoc_of_dragon_palacesix_ear_head_color_tga_1ab42f1c.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:13544:mk-ti9-immortal-head",
+      "itemId": 13544,
+      "name": "Mask of the Demon Trickster",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/979fd2e9e315/models/items/monkey_king/mk_ti9_immortal_head/mk_ti9_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/979fd2e9e315/models/items/monkey_king/mk_ti9_immortal_head/mk_ti9_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_ti9_immortal_head/mk_ti9_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_ti9_immortal_head-cb59a6d3fbbb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/979fd2e9e315/models/items/monkey_king/mk_ti9_immortal_head/mk_ti9_immortal_head_color_psd_3042d3b4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_ti9_immortal_head/mk_ti9_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_ti9_immortal_head/mk_ti9_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:594:monkey-king-hair",
+      "itemId": 594,
+      "name": "Monkey King Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dfcb7f0cdcd8/models/heroes/monkey_king/monkey_king_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/dfcb7f0cdcd8/models/heroes/monkey_king/monkey_king_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_hair-addf09a69292.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dfcb7f0cdcd8/models/heroes/monkey_king/monkey_king_hair_color_psd_9ce9fabc.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:31422:accursed-king-inverted-crown",
+      "itemId": 31422,
+      "name": "Sins of the Simian Sovereign  Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/25c621e8f906/models/items/monkey_king/accursed_king_inverted_crown/accursed_king_inverted_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/25c621e8f906/models/items/monkey_king/accursed_king_inverted_crown/accursed_king_inverted_crown.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/accursed_king_inverted_crown/accursed_king_inverted_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/accursed_king_inverted_crown-293be6f32f7c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/25c621e8f906/models/items/monkey_king/accursed_king_inverted_crown/accursed_king_head_color_tga_23f8a235.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/accursed_king_inverted_crown/accursed_king_inverted_crown.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/accursed_king_inverted_crown/accursed_king_inverted_crown.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/accursed_king/accursed_king_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:23706:path-of-the-jungle-head",
+      "itemId": 23706,
+      "name": "Tangled Tropics  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/95ad0002918f/models/items/monkey_king/path_of_the_jungle_head/path_of_the_jungle_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/95ad0002918f/models/items/monkey_king/path_of_the_jungle_head/path_of_the_jungle_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/path_of_the_jungle_head/path_of_the_jungle_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/path_of_the_jungle_head-6196fcc4dbd7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/95ad0002918f/models/items/monkey_king/path_of_the_jungle_head/path_of_the_jungle_head_color_tga_5f770108.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:28149:flame-of-winning-buddha-head",
+      "itemId": 28149,
+      "name": "Victorious Fighting Scoundrel  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/cd058291d857/models/items/monkey_king/flame_of_winning_buddha_head/flame_of_winning_buddha_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/cd058291d857/models/items/monkey_king/flame_of_winning_buddha_head/flame_of_winning_buddha_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/flame_of_winning_buddha_head/flame_of_winning_buddha_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_of_winning_buddha_head-e9666f52091b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/cd058291d857/models/items/monkey_king/flame_of_winning_buddha_head/flame_of_winning_buddha_head_color_psd_7f8c8b13.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:23802:return-of-the-monkey-king-shoulders",
+      "itemId": 23802,
+      "name": "Baubles of the Preening King  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/b0b1958b578c/models/items/monkey_king/return_of_the_monkey_king_shoulders/return_of_the_monkey_king_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/b0b1958b578c/models/items/monkey_king/return_of_the_monkey_king_shoulders/return_of_the_monkey_king_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/return_of_the_monkey_king_shoulders/return_of_the_monkey_king_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/return_of_the_monkey_king_shoulders-0d89a3a77d59.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/b0b1958b578c/models/items/monkey_king/return_of_the_monkey_king_shoulders/return_of_the_monkey_king_shoulders_color_tga_cc251748.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:36265:monkey-dark-carnival-shoulder",
+      "itemId": 36265,
+      "name": "Bonobo the Clown  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d896ced32691/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/d896ced32691/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_dark_carnival_shoulder-e02eedd59ac1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d896ced32691/models/items/monkey_king/monkey_king_dark_carnival/monkey_king_dark_carnival_shoulder_color_psd_3828b6a1.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:25354:mk-fiery-vajrapani-shoulder",
+      "itemId": 25354,
+      "name": "Champion of the Fire Lotus  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/9e016708b2ba/models/items/monkey_king/mk_fiery_vajrapani_shoulder/mk_fiery_vajrapani_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/9e016708b2ba/models/items/monkey_king/mk_fiery_vajrapani_shoulder/mk_fiery_vajrapani_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_fiery_vajrapani_shoulder/mk_fiery_vajrapani_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_fiery_vajrapani_shoulder-4474d2fdbad7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/9e016708b2ba/models/items/monkey_king/mk_fiery_vajrapani_shoulder/mk_fiery_vajrapani_shoulder_color_tga_a0c44127.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_fiery_vajrapani_shoulder/mk_fiery_vajrapani_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_fiery_vajrapani_shoulder/mk_fiery_vajrapani_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_collectors_cache_2022/mk_collectors_cache_ambient_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:12695:dota-plus-monkey-king-shoulders",
+      "itemId": 12695,
+      "name": "Garb of the Masks of Mischief",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dc6d9fe07a49/models/items/monkey_king/dota_plus_monkey_king_shoulders/dota_plus_monkey_king_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/dc6d9fe07a49/models/items/monkey_king/dota_plus_monkey_king_shoulders/dota_plus_monkey_king_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/dota_plus_monkey_king_shoulders/dota_plus_monkey_king_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dota_plus_monkey_king_shoulders-2893b532ccc6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dc6d9fe07a49/models/items/monkey_king/dota_plus_monkey_king_shoulders/dota_plus_monkey_king_shoulders_color_psd_c851bb8e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/dota_plus_monkey_king_shoulders/dota_plus_monkey_king_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/dota_plus_monkey_king_shoulders/dota_plus_monkey_king_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/plus_2018/monkey_king_plus_2018_shoulders_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:657:monkey-king-shoulders",
+      "itemId": 657,
+      "name": "Monkey King Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/16980fb0e049/models/heroes/monkey_king/monkey_king_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/16980fb0e049/models/heroes/monkey_king/monkey_king_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_shoulders-12250de9b689.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/16980fb0e049/models/heroes/monkey_king/monkey_king_shoulders_color_tga_98b7490a.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:13545:mk-ti9-immortal-shoulder",
+      "itemId": 13545,
+      "name": "Pauldrons of the Demon Trickster",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d42eb4b7b789/models/items/monkey_king/mk_ti9_immortal_shoulder/mk_ti9_immortal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/d42eb4b7b789/models/items/monkey_king/mk_ti9_immortal_shoulder/mk_ti9_immortal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_ti9_immortal_shoulder/mk_ti9_immortal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_ti9_immortal_shoulder-53a55cbd0f36.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d42eb4b7b789/models/items/monkey_king/mk_ti9_immortal_shoulder/mk_ti9_immortal_shoulder_color_psd_6543d0d0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_ti9_immortal_shoulder/mk_ti9_immortal_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_ti9_immortal_shoulder/mk_ti9_immortal_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_shoulders_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9673:the-havoc-of-dragon-palacesix-ear-shoulders",
+      "itemId": 9673,
+      "name": "Shoulders of the Dragon Palace",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/64965da33db4/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/64965da33db4/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_havoc_of_dragon_palacesix_ear_shoulders-c73f92eafce5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/64965da33db4/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_armor/the_havoc_of_dragon_palacesix_ear_shoulder_color_tga_60f41326.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9675:mk-king-of-the-dark-reef-t7-shoulders",
+      "itemId": 9675,
+      "name": "Shoulders of the Riptide Raider",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/aa678a826336/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/mk_king_of_the_dark_reef_t7_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/aa678a826336/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/mk_king_of_the_dark_reef_t7_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/mk_king_of_the_dark_reef_t7_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_king_of_the_dark_reef_t7_shoulders-53e5c6dae020.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/aa678a826336/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_armor/mk_king_of_the_dark_reef_ti7_shoulders_color_tga_ccee10e5.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:31423:accursed-king-shoulder",
+      "itemId": 31423,
+      "name": "Sins of the Simian Sovereign  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/a18fb3060bbe/models/items/monkey_king/accursed_king_shoulder/accursed_king_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/a18fb3060bbe/models/items/monkey_king/accursed_king_shoulder/accursed_king_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/accursed_king_shoulder/accursed_king_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/accursed_king_shoulder-31c32a272628.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/a18fb3060bbe/models/items/monkey_king/accursed_king_shoulder/accursed_king_shoulder_color_tga_ce2ecd6e.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:23705:path-of-the-jungle-shoulder",
+      "itemId": 23705,
+      "name": "Tangled Tropics  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/5de1f5d43b18/models/items/monkey_king/path_of_the_jungle_shoulder/path_of_the_jungle_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/5de1f5d43b18/models/items/monkey_king/path_of_the_jungle_shoulder/path_of_the_jungle_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/path_of_the_jungle_shoulder/path_of_the_jungle_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/path_of_the_jungle_shoulder-520054657ce7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/5de1f5d43b18/models/items/monkey_king/path_of_the_jungle_shoulder/path_of_the_jungle_shoulder_color_tga_6dd5627f.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:28150:flame-of-winning-buddha-shoulder",
+      "itemId": 28150,
+      "name": "Victorious Fighting Scoundrel  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/64109147fbe4/models/items/monkey_king/flame_of_winning_buddha_shoulder/flame_of_winning_buddha_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/64109147fbe4/models/items/monkey_king/flame_of_winning_buddha_shoulder/flame_of_winning_buddha_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/flame_of_winning_buddha_shoulder/flame_of_winning_buddha_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_of_winning_buddha_shoulder-ec0e0b8173b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/64109147fbe4/models/items/monkey_king/flame_of_winning_buddha_shoulder/flame_of_winning_buddha_shoulder_color_psd_a33988be.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:29347:monkey-king-immortal-weapon",
+      "itemId": 29347,
+      "name": "10th Anniversary Staff of GunYu",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/7c30ba963194/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/7c30ba963194/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_immortal_weapon3-de62847f598a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/7c30ba963194/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_color_psd_715fe9cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_10th_anniversary_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_10th_anniversary_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_10th_anniversary_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:22392:return-of-the-monkey-king-weapon",
+      "itemId": 22392,
+      "name": "Baubles of the Preening King  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/2b9bd474d723/models/items/monkey_king/return_of_the_monkey_king_weapon/return_of_the_monkey_king_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/2b9bd474d723/models/items/monkey_king/return_of_the_monkey_king_weapon/return_of_the_monkey_king_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/return_of_the_monkey_king_weapon/return_of_the_monkey_king_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/return_of_the_monkey_king_weapon-e7e454f48236.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/2b9bd474d723/models/items/monkey_king/return_of_the_monkey_king_weapon/return_of_the_monkey_king_weapon_color_tga_3549e51e.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:36266:monkey-dark-carnival-weapon",
+      "itemId": 36266,
+      "name": "Bonobo the Clown  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/ca51638751d3/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/ca51638751d3/models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_dark_carnival/monkey_dark_carnival_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_dark_carnival_weapon-3c398f828091.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/ca51638751d3/models/items/monkey_king/monkey_king_dark_carnival/monkey_king_dark_carnival_weapon_color_psd_cbca2d5c.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:25371:mk-fiery-vajrapani-weapon",
+      "itemId": 25371,
+      "name": "Champion of the Fire Lotus  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/0723717131a4/models/items/monkey_king/mk_fiery_vajrapani_weapon/mk_fiery_vajrapani_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/0723717131a4/models/items/monkey_king/mk_fiery_vajrapani_weapon/mk_fiery_vajrapani_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_fiery_vajrapani_weapon/mk_fiery_vajrapani_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_fiery_vajrapani_weapon-1cf926d6e3f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/0723717131a4/models/items/monkey_king/mk_fiery_vajrapani_weapon/mk_fiery_vajrapani_weapon_color_tga_4f2c1abd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_fiery_vajrapani_weapon/mk_fiery_vajrapani_weapon.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_fiery_vajrapani_weapon/mk_fiery_vajrapani_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_collectors_cache_2022/mk_collectors_cache_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9453:monkey-king-immortal-weapon",
+      "itemId": 9453,
+      "name": "Golden Staff of GunYu",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/92ddeac2036a/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/92ddeac2036a/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_immortal_weapon2-97134bc8af50.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/92ddeac2036a/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_color_psd_715fe9cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_golden_immortal_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_golden_immortal_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_golden_immortal_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:609:monkey-king-base-weapon",
+      "itemId": 609,
+      "name": "Monkey King Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/29669e137ad6/models/heroes/monkey_king/monkey_king_base_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/29669e137ad6/models/heroes/monkey_king/monkey_king_base_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/monkey_king/monkey_king_base_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_base_weapon-52f66dac61ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/29669e137ad6/models/heroes/monkey_king/monkey_king_weapon_color_psd_d85ddc8d.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:31424:accursed-king-staff",
+      "itemId": 31424,
+      "name": "Sins of the Simian Sovereign  Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/6962fdb48680/models/items/monkey_king/accursed_king_staff/accursed_king_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/6962fdb48680/models/items/monkey_king/accursed_king_staff/accursed_king_staff.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/accursed_king_staff/accursed_king_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/accursed_king_staff-c0374d1922f9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/6962fdb48680/models/items/monkey_king/accursed_king_staff/accursed_king_staff_color_tga_ab21d77f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/accursed_king_staff/accursed_king_staff.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/accursed_king_staff/accursed_king_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/accursed_king/accursed_king_staff_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9212:monkey-king-immortal-weapon",
+      "itemId": 9212,
+      "name": "Staff of GunYu",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/45e245aff125/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/45e245aff125/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_immortal_weapon-17badb73f384.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/45e245aff125/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_color_psd_715fe9cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_immortal_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_immortal_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_immortal_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:7824:monkey-king-immortal-weapon",
+      "itemId": 7824,
+      "name": "Staff of GunYu of the Crimson Witness",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/9e1844a0d916/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/9e1844a0d916/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_immortal_weapon1-1810c3fb5387.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/9e1844a0d916/models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_color_psd_715fe9cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/monkey_king_immortal_weapon/monkey_king_immortal_weapon.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_crimson_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_crimson_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/monkey_king/ti7_weapon/mk_ti7_crimson_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_monkey_king/monkey_king_strike_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:13546:mk-ti9-immortal-weapon",
+      "itemId": 13546,
+      "name": "Staff of the Demon Trickster",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dc9433659fb6/models/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/dc9433659fb6/models/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mk_ti9_immortal_weapon-c875fecd53f8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/dc9433659fb6/models/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon_color_psd_36b889d3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9464:the-havoc-of-dragon-palacesix-ear-weapon",
+      "itemId": 9464,
+      "name": "Staff of the Dragon Palace",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/69570a23866d/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_weapon/the_havoc_of_dragon_palacesix_ear_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/69570a23866d/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_weapon/the_havoc_of_dragon_palacesix_ear_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_weapon/the_havoc_of_dragon_palacesix_ear_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_havoc_of_dragon_palacesix_ear_weapon-2a1c50ef4051.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/69570a23866d/models/items/monkey_king/the_havoc_of_dragon_palacesix_ear_weapon/the_havoc_of_dragon_palacesix_ear_weapon_color_tga_23229c8.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:12693:dota-plus-monkey-king-weapon",
+      "itemId": 12693,
+      "name": "Staff of the Masks of Mischief",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/25b27121ad24/models/items/monkey_king/dota_plus_monkey_king_weapon/dota_plus_monkey_king_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/25b27121ad24/models/items/monkey_king/dota_plus_monkey_king_weapon/dota_plus_monkey_king_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/dota_plus_monkey_king_weapon/dota_plus_monkey_king_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dota_plus_monkey_king_weapon-ccd1aa0432e8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/25b27121ad24/models/items/monkey_king/dota_plus_monkey_king_weapon/monkey_king_set_weapon_leaves_color_psd_2f12e009.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/monkey_king/dota_plus_monkey_king_weapon/dota_plus_monkey_king_weapon.vmdl",
+        "modelPaths": [
+          "models/items/monkey_king/dota_plus_monkey_king_weapon/dota_plus_monkey_king_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/monkey_king/plus_2018/monkey_king_plus_2018_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:23702:path-of-the-jungle-weapon",
+      "itemId": 23702,
+      "name": "Tangled Tropics  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/4c6f8e1cd49a/models/items/monkey_king/path_of_the_jungle_weapon/path_of_the_jungle_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/4c6f8e1cd49a/models/items/monkey_king/path_of_the_jungle_weapon/path_of_the_jungle_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/path_of_the_jungle_weapon/path_of_the_jungle_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/path_of_the_jungle_weapon-56889bd590a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/4c6f8e1cd49a/models/items/monkey_king/path_of_the_jungle_weapon/path_of_the_jungle_weapon_color_tga_d891aae0.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:9399:monkey-king-king-of-the-dark-reef-ti-2017-weapon",
+      "itemId": 9399,
+      "name": "Trident of the Riptide Raider",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d1218ca49453/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_weapon/monkey_king_king_of_the_dark_reef_ti_2017_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/d1218ca49453/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_weapon/monkey_king_king_of_the_dark_reef_ti_2017_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_weapon/monkey_king_king_of_the_dark_reef_ti_2017_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/monkey_king_king_of_the_dark_reef_ti_2017_weapon-8e8703545eb1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/d1218ca49453/models/items/monkey_king/monkey_king_king_of_the_dark_reef_ti_2017_weapon/monkey_king_king_of_the_dark_reef_ti_2017_weapon_color_png_9c90c58d.png"
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:item-model:28156:flame-of-winning-buddha-staff",
+      "itemId": 28156,
+      "name": "Victorious Fighting Scoundrel  Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/9c190d666156/models/items/monkey_king/flame_of_winning_buddha_staff/flame_of_winning_buddha_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_monkey_king/9c190d666156/models/items/monkey_king/flame_of_winning_buddha_staff/flame_of_winning_buddha_staff.glb"
+      ],
+      "modelPaths": [
+        "models/items/monkey_king/flame_of_winning_buddha_staff/flame_of_winning_buddha_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/flame_of_winning_buddha_staff-fd9c17e2251f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_monkey_king/9c190d666156/models/items/monkey_king/flame_of_winning_buddha_staff/flame_of_winning_buddha_staff_color_psd_a5abeb51.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:22505:baubles-of-the-preening-king",
+      "name": "Baubles of the Preening King",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        22378,
+        22390,
+        22392,
+        23802
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/return_of_the_monkey_king_loading-3b03c2669350.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:36262:bonobo-the-clown",
+      "name": "Bonobo the Clown",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        36263,
+        36264,
+        36265,
+        36266
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/monkey_dark_carnival_armor-fa8e895e1c8d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:25021:champion-of-the-fire-lotus",
+      "name": "Champion of the Fire Lotus",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        25352,
+        25353,
+        25354,
+        25371
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/mk_fiery_vajrapani_armor-167fe498ac73.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:21425:cult-of-the-demon-trickster",
+      "name": "Cult of the Demon Trickster",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        13008,
+        13544,
+        13545,
+        13546
+      ],
+      "styleSelections": {
+        "13008": "0"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 17,
+      "previewUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:21425:cult-of-the-demon-trickster:style-1",
+      "name": "Cult of the Demon Trickster - Monkey King Immortal Water",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        13008,
+        13544,
+        13545,
+        13546
+      ],
+      "styleSelections": {
+        "13008": "1"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 17,
+      "previewUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:21425:cult-of-the-demon-trickster:style-2",
+      "name": "Cult of the Demon Trickster - Monkey King Immortal Death",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        13008,
+        13544,
+        13545,
+        13546
+      ],
+      "styleSelections": {
+        "13008": "2"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 17,
+      "previewUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:21425:cult-of-the-demon-trickster:style-3",
+      "name": "Cult of the Demon Trickster - Monkey King Immortal Fire",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        13008,
+        13544,
+        13545,
+        13546
+      ],
+      "styleSelections": {
+        "13008": "3"
+      },
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 17,
+      "previewUrl": "/larimods-data/v1/icons/mk_ti9_immortal_armor-60eb9edb9cf8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:20935:great-sages-reckoning-bundle",
+      "name": "Great Sages Reckoning Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        825
+      ],
+      "sourceItemIds": [
+        9050,
+        34183
+      ],
+      "styleSelections": {
+        "9050": "0"
+      },
+      "slots": [
+        "head",
+        "hero_base"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:arcana",
+        "rarity:mythical",
+        "style",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 59,
+      "previewUrl": "/larimods-data/v1/icons/great_reckoning_arcana_bundle-986d326a7413.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:20935:great-sages-reckoning-bundle:style-1",
+      "name": "Great Sages Reckoning Bundle - Level 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        825
+      ],
+      "sourceItemIds": [
+        9050,
+        34183
+      ],
+      "styleSelections": {
+        "9050": "1"
+      },
+      "slots": [
+        "head",
+        "hero_base"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "arcana_level:2",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "modifier:arcana_level",
+        "modifier:model_skin",
+        "modifier:particle",
+        "modifier:particle_create",
+        "modifier:portrait_game",
+        "modifier:response_criteria",
+        "modifier:sound",
+        "rarity:arcana",
+        "rarity:mythical",
+        "skin:2",
+        "style",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 59,
+      "previewUrl": "/larimods-data/v1/icons/great_reckoning_arcana_bundle-986d326a7413.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:20935:great-sages-reckoning-bundle:style-2",
+      "name": "Great Sages Reckoning Bundle - Level 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        825
+      ],
+      "sourceItemIds": [
+        9050,
+        34183
+      ],
+      "styleSelections": {
+        "9050": "2"
+      },
+      "slots": [
+        "head",
+        "hero_base"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "arcana_level:3",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "modifier:arcana_level",
+        "modifier:model_skin",
+        "modifier:particle",
+        "modifier:particle_create",
+        "modifier:portrait_game",
+        "modifier:response_criteria",
+        "rarity:arcana",
+        "rarity:mythical",
+        "skin:3",
+        "style",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 59,
+      "previewUrl": "/larimods-data/v1/icons/great_reckoning_arcana_bundle-986d326a7413.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:20935:great-sages-reckoning-bundle:style-3",
+      "name": "Great Sages Reckoning Bundle - Level 4",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        825
+      ],
+      "sourceItemIds": [
+        9050,
+        34183
+      ],
+      "styleSelections": {
+        "9050": "3"
+      },
+      "slots": [
+        "head",
+        "hero_base"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "arcana_level:4",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "modifier:arcana_level",
+        "modifier:model_skin",
+        "modifier:particle",
+        "modifier:particle_create",
+        "modifier:portrait_game",
+        "modifier:response_criteria",
+        "rarity:arcana",
+        "rarity:mythical",
+        "skin:4",
+        "style",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 59,
+      "previewUrl": "/larimods-data/v1/icons/great_reckoning_arcana_bundle-986d326a7413.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:21078:havoc-of-dragon-palace",
+      "name": "Havoc of Dragon Palace",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        9195,
+        9463,
+        9464,
+        9673
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/the_havoc_of_dragon_palacesix_ear_the_havoc_of_dragon_palacesix_ear-0c53a287a165.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:21283:masks-of-mischief",
+      "name": "Masks of Mischief",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        12693,
+        12694,
+        12695,
+        12696
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dota_plus_monkey_king_weapon-ccd1aa0432e8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:21126:riptide-raider",
+      "name": "Riptide Raider",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        9399,
+        9400,
+        9401,
+        9675
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/monkey_king_king_of_the_dark_reef_loading_screen_ti_2017-b053533b2ed4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:31425:sins-of-the-simian-sovereign",
+      "name": "Sins of the Simian Sovereign",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        31421,
+        31422,
+        31423,
+        31424
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/accursed_king_armor-5c54ced54897.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:23707:tangled-tropics",
+      "name": "Tangled Tropics",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        23702,
+        23704,
+        23705,
+        23706
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/path_of_the_jungle_weapon-56889bd590a4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_monkey_king:core-set:28151:victorious-fighting-scoundrel",
+      "name": "Victorious Fighting Scoundrel",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        594,
+        608,
+        609,
+        657
+      ],
+      "sourceItemIds": [
+        28149,
+        28150,
+        28153,
+        28156
+      ],
+      "slots": [
+        "armor",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/flame_of_winning_buddha_head-e9666f52091b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 168897750,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 319
+  }
+}

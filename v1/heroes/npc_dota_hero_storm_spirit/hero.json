@@ -1,0 +1,3277 @@
+{
+  "heroId": "npc_dota_hero_storm_spirit",
+  "sourceHeroId": "npc_dota_hero_storm_spirit",
+  "variantId": "default",
+  "heroName": "Storm Spirit",
+  "heroSlug": "storm_spirit",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3cf7cb474739/models/heroes/storm_spirit/storm_spirit.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 310,
+      "name": "Storm Spirits Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/71a665c6c6e1/models/heroes/storm_spirit/storm_shirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/71a665c6c6e1/models/heroes/storm_spirit/storm_shirt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/storm_spirit/storm_shirt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/71a665c6c6e1/models/heroes/storm_spirit/storm_spirit_armor_color_psd_856dbe4b.png"
+    },
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 309,
+      "name": "Storm Spirits Shoulder",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/97d16e214e96/models/heroes/storm_spirit/storm_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/97d16e214e96/models/heroes/storm_spirit/storm_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/storm_spirit/storm_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/97d16e214e96/models/heroes/storm_spirit/storm_spirit_arms_color_psd_9a8d7ba3.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 308,
+      "name": "Storm Spirits Hat",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15c163fb9dc6/models/heroes/storm_spirit/storm_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15c163fb9dc6/models/heroes/storm_spirit/storm_hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/storm_spirit/storm_hat.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15c163fb9dc6/models/heroes/storm_spirit/storm_spirit_head_color_psd_2e809c7c.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:13098:ti9-cache-storm-genie-spirit-armor",
+      "itemId": 13098,
+      "name": "Adornments of the Storm Djinn",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/d66365dedf5c/models/items/storm_spirit/ti9_cache_storm_genie_spirit_armor/ti9_cache_storm_genie_spirit_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/d66365dedf5c/models/items/storm_spirit/ti9_cache_storm_genie_spirit_armor/ti9_cache_storm_genie_spirit_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/ti9_cache_storm_genie_spirit_armor/ti9_cache_storm_genie_spirit_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_storm_genie_spirit_armor-fc31a68af090.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/d66365dedf5c/models/items/storm_spirit/ti9_cache_storm_genie_spirit_armor/ti9_cache_storm_genie_spirit_armor_color_png_1fcc7e0c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/ti9_cache_storm_genie_spirit_armor/ti9_cache_storm_genie_spirit_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/ti9_cache_storm_genie_spirit_armor/ti9_cache_storm_genie_spirit_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8166:storm-spring-armor",
+      "itemId": 8166,
+      "name": "Armor of Sizzling Charge",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9f91055a6a9f/models/items/storm_spirit/storm_spring_armor/storm_spring_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9f91055a6a9f/models/items/storm_spirit/storm_spring_armor/storm_spring_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/storm_spring_armor/storm_spring_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_spring_armor-722c4d34429c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9f91055a6a9f/models/items/storm_spirit/storm_spring_armor/storm_spring_armor_color_tga_fbee872a.png"
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12517:qilin-sorcerer-armor",
+      "itemId": 12517,
+      "name": "Armor of the Storm Dragon Potente",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5a084343ce74/models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5a084343ce74/models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/qilin_sorcerer_armor-d3f766bf7cd3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5a084343ce74/models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor_color_tga_776be4cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:27051:beast-of-thunder-armor",
+      "itemId": 27051,
+      "name": "Beast of Thunder Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/c18b7c4f4571/models/items/storm_spirit/beast_of_thunder_armor/beast_of_thunder_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/c18b7c4f4571/models/items/storm_spirit/beast_of_thunder_armor/beast_of_thunder_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/beast_of_thunder_armor/beast_of_thunder_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/beast_of_thunder_armor-02f0e1433262.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/c18b7c4f4571/models/items/storm_spirit/beast_of_thunder_armor/beast_of_thunder_armor_color_png_15374831.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/beast_of_thunder_armor/beast_of_thunder_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/beast_of_thunder_armor/beast_of_thunder_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12614:tormenta-armor",
+      "itemId": 12614,
+      "name": "Complete Garb of the Corridan Maestro",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/08ae758eda27/models/items/storm_spirit/tormenta_armor/tormenta_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/08ae758eda27/models/items/storm_spirit/tormenta_armor/tormenta_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormenta_armor-c9f410519e99.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/08ae758eda27/models/items/storm_spirit/tormenta_armor/tormenta_armor_color_psd_3c37396f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_tormenta_armor/storm_spirit_tormenta_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6019:festive-dress-of-good-fortune",
+      "itemId": 6019,
+      "name": "Festive Robes of Good Fortune",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/4c0e4df65166/models/items/storm_spirit/festive_dress_of_good_fortune/festive_dress_of_good_fortune.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/4c0e4df65166/models/items/storm_spirit/festive_dress_of_good_fortune/festive_dress_of_good_fortune.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/festive_dress_of_good_fortune/festive_dress_of_good_fortune.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/festive_dress_of_good_fortune-f006dcd92084.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/4c0e4df65166/models/items/storm_spirit/festive_dress_of_good_fortune/festive_dress_of_good_fortune_color_tga_82d036fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/festive_dress_of_good_fortune/festive_dress_of_good_fortune.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/festive_dress_of_good_fortune/festive_dress_of_good_fortune.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9028:tormenta-armor",
+      "itemId": 9028,
+      "name": "Garb of the Corridan Maestro",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/722e6f357896/models/items/storm_spirit/tormenta_armor/tormenta_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/722e6f357896/models/items/storm_spirit/tormenta_armor/tormenta_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormenta_armor-c9f410519e99.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/722e6f357896/models/items/storm_spirit/tormenta_armor/tormenta_armor_color_psd_3c37396f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_tormenta_armor/storm_spirit_tormenta_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tormenta Armor 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/storm_spirit/tormenta_armor/tormenta_armor",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tormenta Armor 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/storm_spirit/tormenta_armor/tormenta_armor_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_tormenta_armor/storm_spirit_tormenta_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9028:tormenta-armor:style-1",
+      "itemId": 9028,
+      "name": "Garb of the Corridan Maestro - Tormenta Armor 1",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/722e6f357896/models/items/storm_spirit/tormenta_armor/tormenta_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/722e6f357896/models/items/storm_spirit/tormenta_armor/tormenta_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormenta_armor_style1-dfb52f73df62.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/722e6f357896/models/items/storm_spirit/tormenta_armor/tormenta_armor_color_psd_3c37396f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/tormenta_armor/tormenta_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_tormenta_armor/storm_spirit_tormenta_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tormenta Armor 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/storm_spirit/tormenta_armor/tormenta_armor",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tormenta Armor 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/storm_spirit/tormenta_armor/tormenta_armor_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_tormenta_armor/storm_spirit_tormenta_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6168:heavenlygeneral-armor",
+      "itemId": 6168,
+      "name": "Heavenly General Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/e4e13670b6f2/models/items/storm_spirit/heavenlygeneral_armor/heavenlygeneral_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/e4e13670b6f2/models/items/storm_spirit/heavenlygeneral_armor/heavenlygeneral_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/heavenlygeneral_armor/heavenlygeneral_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlygeneral_armor-e6c3cf38abd3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/e4e13670b6f2/models/items/storm_spirit/heavenlygeneral_armor/heavenlygeneral_armor_color_tga_eb63432b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/heavenlygeneral_armor/heavenlygeneral_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/heavenlygeneral_armor/heavenlygeneral_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9799:esl-harmony-armor",
+      "itemId": 9799,
+      "name": "Robe of Blossoming Harmony",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/0925829ea9fd/models/items/storm_spirit/esl_harmony_armor/esl_harmony_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/0925829ea9fd/models/items/storm_spirit/esl_harmony_armor/esl_harmony_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/esl_harmony_armor/esl_harmony_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/esl_harmony_armor-7c601ba19ea4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/0925829ea9fd/models/items/storm_spirit/esl_harmony_armor/esl_harmony_armor_color_tga_8ebc7fd9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/esl_harmony_armor/esl_harmony_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/esl_harmony_armor/esl_harmony_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8794:raikage-ares-armor",
+      "itemId": 8794,
+      "name": "Robe of the Raikage Warrior",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/f1006f33d21d/models/items/storm_spirit/raikage_ares_armor/raikage_ares_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/f1006f33d21d/models/items/storm_spirit/raikage_ares_armor/raikage_ares_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/raikage_ares_armor/raikage_ares_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raikage_ares_armor-b7dd5a118ddd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/f1006f33d21d/models/items/storm_spirit/raikage_ares_armor/raikage_ares_armor_color_tga_683d6491.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/raikage_ares_armor/raikage_ares_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/raikage_ares_armor/raikage_ares_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:23182:qilin-sorcerer-armor",
+      "itemId": 23182,
+      "name": "Spring Lineage Armor of the Storm Dragon Potente",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9fb3de350cc8/models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9fb3de350cc8/models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/qilin_sorcerer_armor1-7c0c15a4fa0a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9fb3de350cc8/models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor_color_tga_776be4cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/qilin_sorcerer_armor/qilin_sorcerer_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:310:storm-shirt",
+      "itemId": 310,
+      "name": "Storm Spirits Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/71a665c6c6e1/models/heroes/storm_spirit/storm_shirt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/71a665c6c6e1/models/heroes/storm_spirit/storm_shirt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/storm_spirit/storm_shirt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_shirt-d3701de348af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/71a665c6c6e1/models/heroes/storm_spirit/storm_spirit_armor_color_psd_856dbe4b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/storm_spirit/storm_shirt.vmdl",
+        "modelPaths": [
+          "models/heroes/storm_spirit/storm_shirt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:18847:emperors-robe-armor",
+      "itemId": 18847,
+      "name": "Vestments of the Thunderfold Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/67ae99326196/models/items/storm_spirit/emperors_robe_armor/emperors_robe_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/67ae99326196/models/items/storm_spirit/emperors_robe_armor/emperors_robe_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/emperors_robe_armor/emperors_robe_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperors_robe_armor-c176b41d7d03.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/67ae99326196/models/items/storm_spirit/emperors_robe_armor/emperors_robe_armor_color_tga_567ed575.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/emperors_robe_armor/emperors_robe_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/emperors_robe_armor/emperors_robe_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8251:raijins-tools-of-war-armor",
+      "itemId": 8251,
+      "name": "Virtuous Roar Aspect",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b68f56c0c6f9/models/items/storm_spirit/raijins_tools_of_war_armor/raijins_tools_of_war_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b68f56c0c6f9/models/items/storm_spirit/raijins_tools_of_war_armor/raijins_tools_of_war_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/raijins_tools_of_war_armor/raijins_tools_of_war_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raijins_tools_of_war_armor-007223ed534b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b68f56c0c6f9/models/items/storm_spirit/raijins_tools_of_war_armor/raijins_tools_of_war_armor_color_tga_ea32b4c1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/raijins_tools_of_war_armor/raijins_tools_of_war_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/raijins_tools_of_war_armor/raijins_tools_of_war_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:26889:frozen-whirlwind-armor",
+      "itemId": 26889,
+      "name": "Whirls of the Winter Wind  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/83169ffd56fa/models/items/storm_spirit/frozen_whirlwind_armor/frozen_whirlwind_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/83169ffd56fa/models/items/storm_spirit/frozen_whirlwind_armor/frozen_whirlwind_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/frozen_whirlwind_armor/frozen_whirlwind_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozen_whirlwind_armor-ce832f4b498e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/83169ffd56fa/models/items/storm_spirit/frozen_whirlwind_armor/frozen_whirlwind_armor_color_tga_f9d67b13.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/frozen_whirlwind_armor/frozen_whirlwind_armor.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/frozen_whirlwind_armor/frozen_whirlwind_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:27050:beast-of-thunder-arm",
+      "itemId": 27050,
+      "name": "Beast of Thunder Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5596b6709574/models/items/storm_spirit/beast_of_thunder_arm/beast_of_thunder_arm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5596b6709574/models/items/storm_spirit/beast_of_thunder_arm/beast_of_thunder_arm.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/beast_of_thunder_arm/beast_of_thunder_arm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/beast_of_thunder_arm-bd159a98ae0b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5596b6709574/models/items/storm_spirit/beast_of_thunder_arm/beast_of_thunder_arm_color_png_8c648375.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/beast_of_thunder_arm/beast_of_thunder_arm.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/beast_of_thunder_arm/beast_of_thunder_arm.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/beast_of_thunder/beast_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12612:tormenta-arms",
+      "itemId": 12612,
+      "name": "Complete Rose of the Corridan Maestro",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8c5fc96b0fe8/models/items/storm_spirit/tormenta_arms/tormenta_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8c5fc96b0fe8/models/items/storm_spirit/tormenta_arms/tormenta_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/tormenta_arms/tormenta_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormenta_arms-f42eff40ccbc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8c5fc96b0fe8/models/items/storm_spirit/tormenta_arms/tormenta_arms_color_psd_5f10f2d3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/tormenta_arms/tormenta_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/tormenta_arms/tormenta_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12423:storm-ti8-immortal-shoulders",
+      "itemId": 12423,
+      "name": "Golden Mandate of the Stormborn",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8f0afb083bff/models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8f0afb083bff/models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_ti8_immortal_shoulders1-34a15f6e7fe1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8f0afb083bff/models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders_color_psd_26316d01.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/strom_spirit_ti8/gold_storm_sprit_ti8_overload_discharge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/strom_spirit_ti8/storm_spirit_shivas_gold_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/strom_spirit_ti8/storm_spirit_ti8_overload_gold_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_overload_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_overload_discharge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6170:heavenlygeneral-shoulders",
+      "itemId": 6170,
+      "name": "Heavenly General Shoulders",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/085c12a77e8b/models/items/storm_spirit/heavenlygeneral_shoulders/heavenlygeneral_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/085c12a77e8b/models/items/storm_spirit/heavenlygeneral_shoulders/heavenlygeneral_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/heavenlygeneral_shoulders/heavenlygeneral_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlygeneral_shoulders-32b9f255d1c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/085c12a77e8b/models/items/storm_spirit/heavenlygeneral_shoulders/heavenlygeneral_shoulders_color_tga_6ef4d73c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/heavenlygeneral_shoulders/heavenlygeneral_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/heavenlygeneral_shoulders/heavenlygeneral_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:13097:ti9-cache-storm-genie-spirit-arms",
+      "itemId": 13097,
+      "name": "Light of the Storm Djinn",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/7552acc6d7cd/models/items/storm_spirit/ti9_cache_storm_genie_spirit_arms/ti9_cache_storm_genie_spirit_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/7552acc6d7cd/models/items/storm_spirit/ti9_cache_storm_genie_spirit_arms/ti9_cache_storm_genie_spirit_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/ti9_cache_storm_genie_spirit_arms/ti9_cache_storm_genie_spirit_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_storm_genie_spirit_arms-620f7b89bb4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/7552acc6d7cd/models/items/storm_spirit/ti9_cache_storm_genie_spirit_arms/ti9_cache_storm_genie_spirit_arms_color_png_ded6d633.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/ti9_cache_storm_genie_spirit_arms/ti9_cache_storm_genie_spirit_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/ti9_cache_storm_genie_spirit_arms/ti9_cache_storm_genie_spirit_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12415:storm-ti8-immortal-shoulders",
+      "itemId": 12415,
+      "name": "Mandate of the Stormborn",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3e5f4cdccb8e/models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3e5f4cdccb8e/models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_ti8_immortal_shoulders-3569ebbb07df.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3e5f4cdccb8e/models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders_color_psd_26316d01.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/storm_ti8_immortal_shoulders/storm_ti8_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/strom_spirit_ti8/storm_spirit_shivas_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/strom_spirit_ti8/storm_spirit_ti8_overload_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/strom_spirit_ti8/storm_sprit_ti8_overload_discharge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_overload_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_overload_discharge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8180:storm-spring-arms",
+      "itemId": 8180,
+      "name": "Pauldrons of Sizzling Charge",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/cb87c1b0e28d/models/items/storm_spirit/storm_spring_arms/storm_spring_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/cb87c1b0e28d/models/items/storm_spirit/storm_spring_arms/storm_spring_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/storm_spring_arms/storm_spring_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_spring_arms-da8779ffa1ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/cb87c1b0e28d/models/items/storm_spirit/storm_spring_arms/storm_spring_arms_color_tga_2068777f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/storm_spring_arms/storm_spring_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/storm_spring_arms/storm_spring_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8788:raikage-ares-arms",
+      "itemId": 8788,
+      "name": "Pauldrons of the Raikage Warrior",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/6a133f59144e/models/items/storm_spirit/raikage_ares_arms/raikage_ares_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/6a133f59144e/models/items/storm_spirit/raikage_ares_arms/raikage_ares_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/raikage_ares_arms/raikage_ares_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raikage_ares_arms-b95cb15f3a18.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/6a133f59144e/models/items/storm_spirit/raikage_ares_arms/raikage_ares_arms_color_tga_f75b4862.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/raikage_ares_arms/raikage_ares_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/raikage_ares_arms/raikage_ares_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12514:qilin-sorcerer-arms",
+      "itemId": 12514,
+      "name": "Pauldrons of the Storm Dragon Potente",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/efd0c99b02fa/models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/efd0c99b02fa/models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/qilin_sorcerer_arms-28f7747ba48e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/efd0c99b02fa/models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms_color_tga_47dcc393.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9030:tormenta-arms",
+      "itemId": 9030,
+      "name": "Rose of the Corridan Maestro",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/cc6c1f7b48bc/models/items/storm_spirit/tormenta_arms/tormenta_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/cc6c1f7b48bc/models/items/storm_spirit/tormenta_arms/tormenta_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/tormenta_arms/tormenta_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormenta_arms-f42eff40ccbc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/cc6c1f7b48bc/models/items/storm_spirit/tormenta_arms/tormenta_arms_color_psd_5f10f2d3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/tormenta_arms/tormenta_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/tormenta_arms/tormenta_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9800:esl-harmony-arms",
+      "itemId": 9800,
+      "name": "Ruan of Blossoming Harmony",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9fe0327d4116/models/items/storm_spirit/esl_harmony_arms/esl_harmony_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9fe0327d4116/models/items/storm_spirit/esl_harmony_arms/esl_harmony_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/esl_harmony_arms/esl_harmony_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/esl_harmony_arms-f16c329a9a30.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/9fe0327d4116/models/items/storm_spirit/esl_harmony_arms/esl_harmony_arms_color_tga_16281e9e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/esl_harmony_arms/esl_harmony_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/esl_harmony_arms/esl_harmony_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6023:scale-pauldrons-of-good-fortune",
+      "itemId": 6023,
+      "name": "Scale Pauldrons of Good Fortune",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bf4506434919/models/items/storm_spirit/scale_pauldrons_of_good_fortune/scale_pauldrons_of_good_fortune.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bf4506434919/models/items/storm_spirit/scale_pauldrons_of_good_fortune/scale_pauldrons_of_good_fortune.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/scale_pauldrons_of_good_fortune/scale_pauldrons_of_good_fortune.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/scale_pauldrons_of_good_fortune-67011039d980.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bf4506434919/models/items/storm_spirit/scale_pauldrons_of_good_fortune/scale_pauldrons_of_good_fortune_color_tga_29b7b55a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/scale_pauldrons_of_good_fortune/scale_pauldrons_of_good_fortune.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/scale_pauldrons_of_good_fortune/scale_pauldrons_of_good_fortune.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:23184:qilin-sorcerer-arms",
+      "itemId": 23184,
+      "name": "Spring Lineage Pauldrons of the Storm Dragon Potente",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bff7ce3a38cd/models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bff7ce3a38cd/models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/qilin_sorcerer_arms1-f28137bce496.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bff7ce3a38cd/models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms_color_tga_47dcc393.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/qilin_sorcerer_arms/qilin_sorcerer_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:309:storm-shoulder",
+      "itemId": 309,
+      "name": "Storm Spirits Shoulder",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/97d16e214e96/models/heroes/storm_spirit/storm_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/97d16e214e96/models/heroes/storm_spirit/storm_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/storm_spirit/storm_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_shoulder-4a142604d619.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/97d16e214e96/models/heroes/storm_spirit/storm_spirit_arms_color_psd_9a8d7ba3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/storm_spirit/storm_shoulder.vmdl",
+        "modelPaths": [
+          "models/heroes/storm_spirit/storm_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:18849:emperors-robe-arms",
+      "itemId": 18849,
+      "name": "Vestments of the Thunderfold Pauldrons",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b05226c75ee4/models/items/storm_spirit/emperors_robe_arms/emperors_robe_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b05226c75ee4/models/items/storm_spirit/emperors_robe_arms/emperors_robe_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/emperors_robe_arms/emperors_robe_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperors_robe_arms-28b32d7aac27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b05226c75ee4/models/items/storm_spirit/emperors_robe_arms/emperors_robe_arms_color_tga_2294f479.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/emperors_robe_arms/emperors_robe_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/emperors_robe_arms/emperors_robe_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8249:raijins-tools-of-war-arms",
+      "itemId": 8249,
+      "name": "Virtuous Roar Pads",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/42b214dad93c/models/items/storm_spirit/raijins_tools_of_war_arms/raijins_tools_of_war_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/42b214dad93c/models/items/storm_spirit/raijins_tools_of_war_arms/raijins_tools_of_war_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/raijins_tools_of_war_arms/raijins_tools_of_war_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raijins_tools_of_war_arms-2c11645538cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/42b214dad93c/models/items/storm_spirit/raijins_tools_of_war_arms/raijins_tools_of_war_arms_color_tga_1937165d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/raijins_tools_of_war_arms/raijins_tools_of_war_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/raijins_tools_of_war_arms/raijins_tools_of_war_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:26890:frozen-whirlwind-arms",
+      "itemId": 26890,
+      "name": "Whirls of the Winter Wind  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b94737e52e52/models/items/storm_spirit/frozen_whirlwind_arms/frozen_whirlwind_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b94737e52e52/models/items/storm_spirit/frozen_whirlwind_arms/frozen_whirlwind_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/frozen_whirlwind_arms/frozen_whirlwind_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozen_whirlwind_arms-0552d973af00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/b94737e52e52/models/items/storm_spirit/frozen_whirlwind_arms/frozen_whirlwind_arms_color_tga_f3d063cc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/frozen_whirlwind_arms/frozen_whirlwind_arms.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/frozen_whirlwind_arms/frozen_whirlwind_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:27064:beast-of-thunder-head",
+      "itemId": 27064,
+      "name": "Beast of Thunder Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/ec0a70338027/models/items/storm_spirit/beast_of_thunder_head/beast_of_thunder_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/ec0a70338027/models/items/storm_spirit/beast_of_thunder_head/beast_of_thunder_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/beast_of_thunder_head/beast_of_thunder_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/beast_of_thunder_head-b7ddd2bd17a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/ec0a70338027/models/items/storm_spirit/beast_of_thunder_head/beast_of_thunder_head_color_png_614da1b6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/beast_of_thunder_head/beast_of_thunder_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/beast_of_thunder_head/beast_of_thunder_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/beast_of_thunder/beast_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12613:tormenta-head",
+      "itemId": 12613,
+      "name": "Complete Feathered Hat of the Corridan Maestro",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/52c40c6ef32d/models/items/storm_spirit/tormenta_head/tormenta_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/52c40c6ef32d/models/items/storm_spirit/tormenta_head/tormenta_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/tormenta_head/tormenta_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormenta_head-ae879ea46a70.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/52c40c6ef32d/models/items/storm_spirit/tormenta_head/tormenta_head_color_tga_1fde892a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/tormenta_head/tormenta_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/tormenta_head/tormenta_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9029:tormenta-head",
+      "itemId": 9029,
+      "name": "Feathered Hat of the Corridan Maestro",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/c2be0264dadc/models/items/storm_spirit/tormenta_head/tormenta_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/c2be0264dadc/models/items/storm_spirit/tormenta_head/tormenta_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/tormenta_head/tormenta_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormenta_head-ae879ea46a70.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/c2be0264dadc/models/items/storm_spirit/tormenta_head/tormenta_head_color_tga_1fde892a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/tormenta_head/tormenta_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/tormenta_head/tormenta_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:13096:ti9-cache-storm-genie-spirit-head",
+      "itemId": 13096,
+      "name": "Finery of the Storm Djinn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8111a4ce6eb7/models/items/storm_spirit/ti9_cache_storm_genie_spirit_head/ti9_cache_storm_genie_spirit_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8111a4ce6eb7/models/items/storm_spirit/ti9_cache_storm_genie_spirit_head/ti9_cache_storm_genie_spirit_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/ti9_cache_storm_genie_spirit_head/ti9_cache_storm_genie_spirit_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_storm_genie_spirit_head-c8ec17e434b0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8111a4ce6eb7/models/items/storm_spirit/ti9_cache_storm_genie_spirit_head/ti9_cache_storm_genie_spirit_head_color_png_1af58eca.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/ti9_cache_storm_genie_spirit_head/ti9_cache_storm_genie_spirit_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/ti9_cache_storm_genie_spirit_head/ti9_cache_storm_genie_spirit_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6701:thunderbraid-head",
+      "itemId": 6701,
+      "name": "Genuine Thunder Rogues Braid",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5c59e616be71/models/items/storm_spirit/thunderbraid_head/thunderbraid_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5c59e616be71/models/items/storm_spirit/thunderbraid_head/thunderbraid_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/thunderbraid_head/thunderbraid_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thunderbraid_head-205a091645c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/5c59e616be71/models/items/storm_spirit/thunderbraid_head/thunderbraid_head_color_tga_eb99c03c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/thunderbraid_head/thunderbraid_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/thunderbraid_head/thunderbraid_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_sandking/sandking_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8167:storm-spring-head",
+      "itemId": 8167,
+      "name": "Hat of Sizzling Charge",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3921632ad9fd/models/items/storm_spirit/storm_spring_head/storm_spring_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3921632ad9fd/models/items/storm_spirit/storm_spring_head/storm_spring_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/storm_spring_head/storm_spring_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_spring_head-c2f6d3ab9454.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3921632ad9fd/models/items/storm_spirit/storm_spring_head/storm_spring_head_color_tga_93abe91d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/storm_spring_head/storm_spring_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/storm_spring_head/storm_spring_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_sandking/sandking_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6169:heavenlygeneral-hat",
+      "itemId": 6169,
+      "name": "Heavenly General Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/752cd892be5b/models/items/storm_spirit/heavenlygeneral_hat/heavenlygeneral_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/752cd892be5b/models/items/storm_spirit/heavenlygeneral_hat/heavenlygeneral_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/heavenlygeneral_hat/heavenlygeneral_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/heavenlygeneral_hat-b3d5e9feeb23.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/752cd892be5b/models/items/storm_spirit/heavenlygeneral_hat/heavenlygeneral_hat_color_tga_ce2dcd1c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/heavenlygeneral_hat/heavenlygeneral_hat.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/heavenlygeneral_hat/heavenlygeneral_hat.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_sandking/sandking_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8793:raikage-ares-head",
+      "itemId": 8793,
+      "name": "Helm of the Raikage Warrior",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/70d35080ce84/models/items/storm_spirit/raikage_ares_head/raikage_ares_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/70d35080ce84/models/items/storm_spirit/raikage_ares_head/raikage_ares_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/raikage_ares_head/raikage_ares_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raikage_ares_head-9206364a2a0d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/70d35080ce84/models/items/storm_spirit/raikage_ares_head/raikage_ares_head_color_tga_35146cef.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/raikage_ares_head/raikage_ares_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/raikage_ares_head/raikage_ares_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:12516:qilin-sorcerer-head",
+      "itemId": 12516,
+      "name": "Horns of the Storm Dragon Potente",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3b1c2b1c54ce/models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3b1c2b1c54ce/models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/qilin_sorcerer_head-acaaef2a182f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3b1c2b1c54ce/models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head_color_tga_5a9dd171.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6022:ornate-hat-of-good-fortune",
+      "itemId": 6022,
+      "name": "Ornate Hat of Good Fortune",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/537e284da9ce/models/items/storm_spirit/ornate_hat_of_good_fortune/ornate_hat_of_good_fortune.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/537e284da9ce/models/items/storm_spirit/ornate_hat_of_good_fortune/ornate_hat_of_good_fortune.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/ornate_hat_of_good_fortune/ornate_hat_of_good_fortune.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ornate_hat_of_good_fortune-2df68d4436b7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/537e284da9ce/models/items/storm_spirit/ornate_hat_of_good_fortune/ornate_hat_of_good_fortune_color_tga_3f4a9180.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/ornate_hat_of_good_fortune/ornate_hat_of_good_fortune.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/ornate_hat_of_good_fortune/ornate_hat_of_good_fortune.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:4479:anuxi-ring-of-storm",
+      "itemId": 4479,
+      "name": "Ring of the Storm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8c92f73821c3/models/items/storm_spirit/anuxi_ring_of_storm/anuxi_ring_of_storm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8c92f73821c3/models/items/storm_spirit/anuxi_ring_of_storm/anuxi_ring_of_storm.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/anuxi_ring_of_storm/anuxi_ring_of_storm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anuxi_ring_of_storm-efe716eb89f7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8c92f73821c3/models/items/storm_spirit/anuxi_ring_of_storm/anuxi_ring_of_storm_color_tga_5f31c33c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/anuxi_ring_of_storm/anuxi_ring_of_storm.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/anuxi_ring_of_storm/anuxi_ring_of_storm.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:23183:qilin-sorcerer-head",
+      "itemId": 23183,
+      "name": "Spring Lineage Horns of the Storm Dragon Potente",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15cee377733c/models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15cee377733c/models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/qilin_sorcerer_head1-1da099dd0162.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15cee377733c/models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head_color_tga_5a9dd171.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/qilin_sorcerer_head/qilin_sorcerer_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:308:storm-hat",
+      "itemId": 308,
+      "name": "Storm Spirits Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15c163fb9dc6/models/heroes/storm_spirit/storm_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15c163fb9dc6/models/heroes/storm_spirit/storm_hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/storm_spirit/storm_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/storm_hat-356f092d7cf8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/15c163fb9dc6/models/heroes/storm_spirit/storm_spirit_head_color_psd_2e809c7c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/storm_spirit/storm_hat.vmdl",
+        "modelPaths": [
+          "models/heroes/storm_spirit/storm_hat.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9798:esl-harmony-head",
+      "itemId": 9798,
+      "name": "Sun Shade of Blossoming Harmony",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/d80343ed04ed/models/items/storm_spirit/esl_harmony_head/esl_harmony_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/d80343ed04ed/models/items/storm_spirit/esl_harmony_head/esl_harmony_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/esl_harmony_head/esl_harmony_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/esl_harmony_head-4b952d04fa78.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/d80343ed04ed/models/items/storm_spirit/esl_harmony_head/esl_harmony_head_color_tga_77722c6b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/esl_harmony_head/esl_harmony_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/esl_harmony_head/esl_harmony_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_sandking/sandking_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6431:hat-orchid",
+      "itemId": 6431,
+      "name": "The Lightning Orchid",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/1f8210cad76f/models/items/storm_spirit/hat_orchid/hat_orchid.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/1f8210cad76f/models/items/storm_spirit/hat_orchid/hat_orchid.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hat_orchid-97c8317951f1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/1f8210cad76f/models/items/storm_spirit/hat_orchid/hat_orchid_color_psd_34bca815.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/stormspirit_orchid_ball_lightning.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/stormspirit_orchid_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/items2_fx/orchid.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9557:hat-orchid",
+      "itemId": 9557,
+      "name": "The Lightning Orchid of Eminent Revival",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bc605f13b285/models/items/storm_spirit/hat_orchid/hat_orchid.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bc605f13b285/models/items/storm_spirit/hat_orchid/hat_orchid.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hat_orchid_retro-e290dc9fe601.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bc605f13b285/models/items/storm_spirit/hat_orchid/hat_orchid_color_psd_34bca815.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_lvl2_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/stormspirit_orchid_retro_ball_lightning.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/items2_fx/orchid.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "The Lightning Orchid Retro 0",
+            "skin": "1",
+            "icon": "econ/items/storm_spirit/hat_orchid_retro/hat_orchid_retro",
+            "assets": [
+              {
+                "path": "hero_stormspirit.balllightning",
+                "type": "balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "hero_stormspirit.orchid_balllightning",
+                "type": "orchid_balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/stormspirit_orchid_retro_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/items2_fx/orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "The Lightning Orchid Retro 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/storm_spirit/hat_orchid_retro/hat_orchid_retro_style1",
+            "assets": [
+              {
+                "path": "hero_stormspirit.balllightning",
+                "type": "balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "hero_stormspirit.orchid_balllightning",
+                "type": "orchid_balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_lvl2_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/stormspirit_orchid_retro_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/items2_fx/orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:9557:hat-orchid:style-1",
+      "itemId": 9557,
+      "name": "The Lightning Orchid of Eminent Revival - The Lightning Orchid Retro 1",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "modifier:particle",
+        "rarity:immortal",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bc605f13b285/models/items/storm_spirit/hat_orchid/hat_orchid.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bc605f13b285/models/items/storm_spirit/hat_orchid/hat_orchid.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hat_orchid_retro_style1-362a819b1eea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/bc605f13b285/models/items/storm_spirit/hat_orchid/hat_orchid_color_psd_34bca815.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/hat_orchid/hat_orchid.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_lvl2_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/stormspirit_orchid_retro_ball_lightning.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/items2_fx/orchid.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "The Lightning Orchid Retro 0",
+            "skin": "1",
+            "icon": "econ/items/storm_spirit/hat_orchid_retro/hat_orchid_retro",
+            "assets": [
+              {
+                "path": "hero_stormspirit.balllightning",
+                "type": "balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "hero_stormspirit.orchid_balllightning",
+                "type": "orchid_balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/stormspirit_orchid_retro_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/items2_fx/orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "The Lightning Orchid Retro 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/storm_spirit/hat_orchid_retro/hat_orchid_retro_style1",
+            "assets": [
+              {
+                "path": "hero_stormspirit.balllightning",
+                "type": "balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "hero_stormspirit.orchid_balllightning",
+                "type": "orchid_balllightning",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat/storm_spirit_orchid_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/storm_spirit_orchid_head_retro_lvl2_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/storm_spirit/storm_spirit_orchid_hat_retro/stormspirit_orchid_retro_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/items2_fx/orchid.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:6540:thunderbraid-head",
+      "itemId": 6540,
+      "name": "Thunder Rogues Braid",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/7296d53c4ed0/models/items/storm_spirit/thunderbraid_head/thunderbraid_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/7296d53c4ed0/models/items/storm_spirit/thunderbraid_head/thunderbraid_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/thunderbraid_head/thunderbraid_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thunderbraid_head-205a091645c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/7296d53c4ed0/models/items/storm_spirit/thunderbraid_head/thunderbraid_head_color_tga_eb99c03c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/thunderbraid_head/thunderbraid_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/thunderbraid_head/thunderbraid_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_sandking/sandking_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:18848:emperors-robe-head",
+      "itemId": 18848,
+      "name": "Vestments of the Thunderfold Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3cec56f3bed7/models/items/storm_spirit/emperors_robe_head/emperors_robe_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3cec56f3bed7/models/items/storm_spirit/emperors_robe_head/emperors_robe_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/emperors_robe_head/emperors_robe_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emperors_robe_head-6af753735e93.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/3cec56f3bed7/models/items/storm_spirit/emperors_robe_head/emperors_robe_head_color_tga_7b3da0e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/emperors_robe_head/emperors_robe_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/emperors_robe_head/emperors_robe_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:8247:raijins-tools-of-war-head",
+      "itemId": 8247,
+      "name": "Virtuous Roar Hair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8109c30dae8d/models/items/storm_spirit/raijins_tools_of_war_head/raijins_tools_of_war_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8109c30dae8d/models/items/storm_spirit/raijins_tools_of_war_head/raijins_tools_of_war_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/raijins_tools_of_war_head/raijins_tools_of_war_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/raijins_tools_of_war_head-4f0a2380d48e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/8109c30dae8d/models/items/storm_spirit/raijins_tools_of_war_head/raijins_tools_of_war_head_color_tga_669f2bad.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/raijins_tools_of_war_head/raijins_tools_of_war_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/raijins_tools_of_war_head/raijins_tools_of_war_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:item-model:26891:frozen-whirlwind-head",
+      "itemId": 26891,
+      "name": "Whirls of the Winter Wind  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/ce947cfccf02/models/items/storm_spirit/frozen_whirlwind_head/frozen_whirlwind_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_storm_spirit/ce947cfccf02/models/items/storm_spirit/frozen_whirlwind_head/frozen_whirlwind_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/storm_spirit/frozen_whirlwind_head/frozen_whirlwind_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozen_whirlwind_head-35d94ec22259.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_storm_spirit/ce947cfccf02/models/items/storm_spirit/frozen_whirlwind_head/frozen_whirlwind_head_color_tga_ce9bc7b3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/storm_spirit/frozen_whirlwind_head/frozen_whirlwind_head.vmdl",
+        "modelPaths": [
+          "models/items/storm_spirit/frozen_whirlwind_head/frozen_whirlwind_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/storm_spirit_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_stormspirit/stormspirit_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:27049:beast-of-thunder",
+      "name": "Beast of Thunder",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        27050,
+        27051,
+        27064
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/beast_of_thunder_arm-bd159a98ae0b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:20908:blossoming-harmony",
+      "name": "Blossoming Harmony",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        9798,
+        9799,
+        9800
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/esl_blossoming_harmony_loading_screen-8ac96914abca.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:21269:complete-corridan-maestro",
+      "name": "Complete Corridan Maestro",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        12612,
+        12613,
+        12614
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/tormenta_tormenta_loading_screen-a564596e5e0e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:21072:corridan-maestro",
+      "name": "Corridan Maestro",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        9028,
+        9029,
+        9030
+      ],
+      "styleSelections": {
+        "9028": "0"
+      },
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/tormenta_tormenta_loading_screen-a564596e5e0e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:21072:corridan-maestro:style-1",
+      "name": "Corridan Maestro - Tormenta Armor 1",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        9028,
+        9029,
+        9030
+      ],
+      "styleSelections": {
+        "9028": "1"
+      },
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/tormenta_armor_style1-dfb52f73df62.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:20371:gifts-of-fortune-set",
+      "name": "Gifts of Fortune Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        6019,
+        6022,
+        6023
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/festive_dress_of_good_fortune-f006dcd92084.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:20411:heavenly-general",
+      "name": "Heavenly General",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        6168,
+        6169,
+        6170
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/heavenlygeneral-ba90037dd054.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:21345:origins-of-the-storm-djinn",
+      "name": "Origins of the Storm Djinn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        13096,
+        13097,
+        13098
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_storm_genie_spirit_head-c8ec17e434b0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:20976:raikage-warrior",
+      "name": "Raikage Warrior",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        8788,
+        8793,
+        8794
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/raikage_ares_loading_screen-f74a77c18cb4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:20818:sizzling-charge",
+      "name": "Sizzling Charge",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        8166,
+        8167,
+        8180
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/storm_spring_loadingscreen-0396a3b065ab.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:23181:spring-lineage-storm-dragon-potente",
+      "name": "Spring Lineage Storm Dragon Potente",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        23182,
+        23183,
+        23184
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/qilin_sorcerer_armor1-7c0c15a4fa0a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:21251:storm-dragon-potente",
+      "name": "Storm Dragon Potente",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        12514,
+        12516,
+        12517
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/qilin_sorcerer_loadingscreen-bb07500441a7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:21825:vestments-of-the-thunderfold",
+      "name": "Vestments of the Thunderfold",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        18847,
+        18848,
+        18849
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/emperors_robe_ls-22f58483af86.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:20912:virtuous-roar",
+      "name": "Virtuous Roar",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        8247,
+        8249,
+        8251
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/raijins_tools_of_war_loading_screen-8c5a56210a47.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_storm_spirit:core-set:26887:whirls-of-the-winter-wind",
+      "name": "Whirls of the Winter Wind",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        308,
+        309,
+        310
+      ],
+      "sourceItemIds": [
+        26889,
+        26890,
+        26891
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/frozen_whirlwind_frozen_whirlwinds_loadingscreen-ef1e25225fe5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 32346465,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 300
+  }
+}

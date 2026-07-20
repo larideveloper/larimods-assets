@@ -1,0 +1,1611 @@
+{
+  "heroId": "npc_dota_hero_winter_wyvern",
+  "sourceHeroId": "npc_dota_hero_winter_wyvern",
+  "variantId": "default",
+  "heroName": "Winter Wyvern",
+  "heroSlug": "winter_wyvern",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/34df41ee9027/models/heroes/winterwyvern/winterwyvern.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 552,
+      "name": "Winter Wyverns Pelt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6fb9cfb31f57/models/heroes/winterwyvern/winterwyvern_backitem.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6fb9cfb31f57/models/heroes/winterwyvern/winterwyvern_backitem.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/winterwyvern/winterwyvern_backitem.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6fb9cfb31f57/models/heroes/winterwyvern/ww_backitem_color_psd_baece959.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 551,
+      "name": "Winter Wyverns Headdress",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a5e68b34c410/models/heroes/winterwyvern/winterwyvern_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a5e68b34c410/models/heroes/winterwyvern/winterwyvern_crown.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/winterwyvern/winterwyvern_crown.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a5e68b34c410/models/heroes/winterwyvern/ww_headitem_color_psd_f08c312e.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:18507:spring2021-frost-thorn-back",
+      "itemId": 18507,
+      "name": "Auroras Pyre Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a7384d7a12c7/models/items/winter_wyvern/spring2021_frost_thorn_back/spring2021_frost_thorn_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a7384d7a12c7/models/items/winter_wyvern/spring2021_frost_thorn_back/spring2021_frost_thorn_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/spring2021_frost_thorn_back/spring2021_frost_thorn_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_frost_thorn_back-1fd5d448f2cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a7384d7a12c7/models/items/winter_wyvern/spring2021_frost_thorn_back/body2_crystal_color_tga_db273d86.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/spring2021_frost_thorn_back/spring2021_frost_thorn_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/spring2021_frost_thorn_back/spring2021_frost_thorn_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:22876:dusk-of-the-ice-age-back",
+      "itemId": 22876,
+      "name": "Currents of Endless Woe  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/283a32070b87/models/items/winter_wyvern/dusk_of_the_ice_age_back/dusk_of_the_ice_age_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/283a32070b87/models/items/winter_wyvern/dusk_of_the_ice_age_back/dusk_of_the_ice_age_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/dusk_of_the_ice_age_back/dusk_of_the_ice_age_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dusk_of_the_ice_age_back-f1258a70f023.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/283a32070b87/models/items/winter_wyvern/dusk_of_the_ice_age_back/dusk_of_the_ice_age_back_color_tga_7e37d6c1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/dusk_of_the_ice_age_back/dusk_of_the_ice_age_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/dusk_of_the_ice_age_back/dusk_of_the_ice_age_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:14226:chilling-feather-back",
+      "itemId": 14226,
+      "name": "Defender of the Brumal Crest  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/0cb8c75d9991/models/items/winter_wyvern/chilling_feather_back/chilling_feather_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/0cb8c75d9991/models/items/winter_wyvern/chilling_feather_back/chilling_feather_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/chilling_feather_back/chilling_feather_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chilling_feather_back-09b8497fc205.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/0cb8c75d9991/models/items/winter_wyvern/chilling_feather_back/chilling_feather_back_color_tga_c7ba39a4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/chilling_feather_back/chilling_feather_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/chilling_feather_back/chilling_feather_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/winter_wyvern/chilling_feather_back/ww_chilling_feather_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:8517:frostheart-wyvern-back",
+      "itemId": 8517,
+      "name": "Noble Wings of Frostheart",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/1991b5087fc7/models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/1991b5087fc7/models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostheart_wyvern_back1-aa2b0190f2b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/1991b5087fc7/models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back_color_tga_21413e6f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:14777:ww-polar-night-back",
+      "itemId": 14777,
+      "name": "Polar Night Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/768e117d479d/models/items/winter_wyvern/ww_polar_night_back/ww_polar_night_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/768e117d479d/models/items/winter_wyvern/ww_polar_night_back/ww_polar_night_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/ww_polar_night_back/ww_polar_night_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ww_polar_night_back-d8299f2e8e82.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/768e117d479d/models/items/winter_wyvern/ww_polar_night_back/ww_polar_night_back_color_tga_2d56239b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/ww_polar_night_back/ww_polar_night_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/ww_polar_night_back/ww_polar_night_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:29673:crownfall-wyvern-back",
+      "itemId": 29673,
+      "name": "Solitude of the Winter Squall",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f3363abec469/models/items/winter_wyvern/crownfall_wyvern_back/crownfall_wyvern_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f3363abec469/models/items/winter_wyvern/crownfall_wyvern_back/crownfall_wyvern_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/crownfall_wyvern_back/crownfall_wyvern_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_wyvern_crownfall_back-c57eba797bb6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f3363abec469/models/items/winter_wyvern/crownfall_wyvern_back/crownfall_wyvern_armor_color_psd_4057ff75.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/crownfall_wyvern_back/crownfall_wyvern_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/crownfall_wyvern_back/crownfall_wyvern_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/winter_wyvern/winter_wyvern_crownfall_back/winter_wyvern_crownfall_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/winter_wyvern/winter_wyvern_crownfall_back/wyvern_crownfall_immortal_splinter_blast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/wyvern_splinter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/wyvern_splinter_blast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:13438:frozen-ashes-back",
+      "itemId": 13438,
+      "name": "The Wrath of Zaug  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/43273a7f9844/models/items/winter_wyvern/frozen_ashes_back/frozen_ashes_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/43273a7f9844/models/items/winter_wyvern/frozen_ashes_back/frozen_ashes_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/frozen_ashes_back/frozen_ashes_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozen_ashes_back-c5c76c577704.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/43273a7f9844/models/items/winter_wyvern/frozen_ashes_back/frozen_ashes_back_color_tga_88cd8b17.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/frozen_ashes_back/frozen_ashes_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/frozen_ashes_back/frozen_ashes_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:8286:frostheart-wyvern-back",
+      "itemId": 8286,
+      "name": "Wings of Frostheart",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f58af138e6e7/models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f58af138e6e7/models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostheart_wyvern_back-8bf5779fc97c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f58af138e6e7/models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back_color_tga_21413e6f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/frostheart_wyvern_back/frostheart_wyvern_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:9511:wings-of-piercing-winter-back",
+      "itemId": 9511,
+      "name": "Wings of the Arctic Recluse",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/be34a84ee744/models/items/winter_wyvern/wings_of_piercing_winter_back/wings_of_piercing_winter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/be34a84ee744/models/items/winter_wyvern/wings_of_piercing_winter_back/wings_of_piercing_winter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/wings_of_piercing_winter_back/wings_of_piercing_winter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wings_of_piercing_winter_back-97bfe3f15e86.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/be34a84ee744/models/items/winter_wyvern/wings_of_piercing_winter_back/wings_of_piercing_winter_back_color_psd_5072354c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/wings_of_piercing_winter_back/wings_of_piercing_winter_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/wings_of_piercing_winter_back/wings_of_piercing_winter_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:9036:wyvern-of-the-pleiades-back",
+      "itemId": 9036,
+      "name": "Wings of the Elder Myth",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/be9b89305305/models/items/winter_wyvern/wyvern_of_the_pleiades_back/wyvern_of_the_pleiades_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/be9b89305305/models/items/winter_wyvern/wyvern_of_the_pleiades_back/wyvern_of_the_pleiades_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/wyvern_of_the_pleiades_back/wyvern_of_the_pleiades_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wyvern_of_the_pleiades_back-f5405a3afe54.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/be9b89305305/models/items/winter_wyvern/wyvern_of_the_pleiades_back/wyvern_of_the_pleiades_back_color_tga_8a81d4e4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/wyvern_of_the_pleiades_back/wyvern_of_the_pleiades_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/wyvern_of_the_pleiades_back/wyvern_of_the_pleiades_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:7292:ice-splinters-back",
+      "itemId": 7292,
+      "name": "Wings of the Iceburnt Elegy",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/fed253c18c7e/models/items/winter_wyvern/ice_splinters_back/ice_splinters_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/fed253c18c7e/models/items/winter_wyvern/ice_splinters_back/ice_splinters_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/ice_splinters_back/ice_splinters_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ice_splinters_back-6b6d064bcbb4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/fed253c18c7e/models/items/winter_wyvern/ice_splinters_back/ice_splinters_back_color_tga_4c31e973.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/ice_splinters_back/ice_splinters_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/ice_splinters_back/ice_splinters_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:9276:wyvern-of-the-sea-back",
+      "itemId": 9276,
+      "name": "Wings of the Katekhein",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/3f0f081d4504/models/items/winter_wyvern/wyvern_of_the_sea_back/wyvern_of_the_sea_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/3f0f081d4504/models/items/winter_wyvern/wyvern_of_the_sea_back/wyvern_of_the_sea_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/wyvern_of_the_sea_back/wyvern_of_the_sea_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wyvern_of_the_sea_back-478263d283a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/3f0f081d4504/models/items/winter_wyvern/wyvern_of_the_sea_back/wyvern_of_the_sea_back_color_tga_d77e413f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/wyvern_of_the_sea_back/wyvern_of_the_sea_back.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/wyvern_of_the_sea_back/wyvern_of_the_sea_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:552:winterwyvern-backitem",
+      "itemId": 552,
+      "name": "Winter Wyverns Pelt",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6fb9cfb31f57/models/heroes/winterwyvern/winterwyvern_backitem.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6fb9cfb31f57/models/heroes/winterwyvern/winterwyvern_backitem.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/winterwyvern/winterwyvern_backitem.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winterwyvern_backitem-d095ec0d70c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6fb9cfb31f57/models/heroes/winterwyvern/ww_backitem_color_psd_baece959.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/winterwyvern/winterwyvern_backitem.vmdl",
+        "modelPaths": [
+          "models/heroes/winterwyvern/winterwyvern_backitem.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:18506:spring2021-frost-thorn-head",
+      "itemId": 18506,
+      "name": "Auroras Pyre Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a7ed1425e707/models/items/winter_wyvern/spring2021_frost_thorn_head/spring2021_frost_thorn_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a7ed1425e707/models/items/winter_wyvern/spring2021_frost_thorn_head/spring2021_frost_thorn_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/spring2021_frost_thorn_head/spring2021_frost_thorn_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_frost_thorn_head-78c511449177.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a7ed1425e707/models/items/winter_wyvern/spring2021_frost_thorn_head/spring2021_frost_thorn_head_color_tga_b1e66a73.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/spring2021_frost_thorn_head/spring2021_frost_thorn_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/spring2021_frost_thorn_head/spring2021_frost_thorn_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:8281:frostheart-wyvern-head",
+      "itemId": 8281,
+      "name": "Crown of Frostheart",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6c53a6c62efd/models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6c53a6c62efd/models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostheart_wyvern_head-1b2528f27402.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/6c53a6c62efd/models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head_color_tga_1d05fbb0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:9510:wings-of-piercing-winter-head",
+      "itemId": 9510,
+      "name": "Crown of the Arctic Recluse",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/4db625b99bd9/models/items/winter_wyvern/wings_of_piercing_winter_head/wings_of_piercing_winter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/4db625b99bd9/models/items/winter_wyvern/wings_of_piercing_winter_head/wings_of_piercing_winter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/wings_of_piercing_winter_head/wings_of_piercing_winter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wings_of_piercing_winter_head-b4fc1b4fc656.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/4db625b99bd9/models/items/winter_wyvern/wings_of_piercing_winter_head/wings_of_piercing_winter_head_color_psd_75fd71a1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/wings_of_piercing_winter_head/wings_of_piercing_winter_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/wings_of_piercing_winter_head/wings_of_piercing_winter_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:7291:ice-splinters-head",
+      "itemId": 7291,
+      "name": "Crown of the Iceburnt Elegy",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/cf625be606e3/models/items/winter_wyvern/ice_splinters_head/ice_splinters_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/cf625be606e3/models/items/winter_wyvern/ice_splinters_head/ice_splinters_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/ice_splinters_head/ice_splinters_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ice_splinters_head-aad8b1993499.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/cf625be606e3/models/items/winter_wyvern/ice_splinters_head/ice_splinters_head_color_tga_2ddae551.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/ice_splinters_head/ice_splinters_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/ice_splinters_head/ice_splinters_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:22873:dusk-of-the-ice-age-head",
+      "itemId": 22873,
+      "name": "Currents of Endless Woe  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/552ac16d71ce/models/items/winter_wyvern/dusk_of_the_ice_age_head/dusk_of_the_ice_age_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/552ac16d71ce/models/items/winter_wyvern/dusk_of_the_ice_age_head/dusk_of_the_ice_age_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/dusk_of_the_ice_age_head/dusk_of_the_ice_age_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dusk_of_the_ice_age_head-c466d506e681.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/552ac16d71ce/models/items/winter_wyvern/dusk_of_the_ice_age_head/dusk_of_the_ice_age_head_color_tga_b497438b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/dusk_of_the_ice_age_head/dusk_of_the_ice_age_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/dusk_of_the_ice_age_head/dusk_of_the_ice_age_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:14225:chilling-feather-head",
+      "itemId": 14225,
+      "name": "Defender of the Brumal Crest  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/402912d4fa06/models/items/winter_wyvern/chilling_feather_head/chilling_feather_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/402912d4fa06/models/items/winter_wyvern/chilling_feather_head/chilling_feather_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/chilling_feather_head/chilling_feather_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chilling_feather_head-085e927d53b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/402912d4fa06/models/items/winter_wyvern/chilling_feather_head/chilling_feather_head_color_tga_38c0f1ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/chilling_feather_head/chilling_feather_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/chilling_feather_head/chilling_feather_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/winter_wyvern/chilling_feather_head/ww_chilling_feather_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:9035:wyvern-of-the-pleiades-head",
+      "itemId": 9035,
+      "name": "Diadem of the Elder Myth",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/d8952dc676a1/models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/d8952dc676a1/models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wyvern_of_the_pleiades_head-0bb621aaf4b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/d8952dc676a1/models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head_color_tga_be5c6d95.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/winter_wyvern/pleiades/wyvern_pleiades_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "icon": "econ/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "alternateIcon": "1",
+            "icon": "econ/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/winter_wyvern/pleiades/wyvern_pleiades_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:9035:wyvern-of-the-pleiades-head:style-1",
+      "itemId": 9035,
+      "name": "Diadem of the Elder Myth - Infused",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/d8952dc676a1/models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/d8952dc676a1/models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wyvern_of_the_pleiades_head_style1-caefdd7f2bc8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/d8952dc676a1/models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head_color_tga_be5c6d95.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/winter_wyvern/pleiades/wyvern_pleiades_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "icon": "econ/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "alternateIcon": "1",
+            "icon": "econ/items/winter_wyvern/wyvern_of_the_pleiades_head/wyvern_of_the_pleiades_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/winter_wyvern/pleiades/wyvern_pleiades_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:9277:wyvern-of-the-sea-head",
+      "itemId": 9277,
+      "name": "Horn of the Katekhein",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/1b26d6508cdb/models/items/winter_wyvern/wyvern_of_the_sea_head/wyvern_of_the_sea_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/1b26d6508cdb/models/items/winter_wyvern/wyvern_of_the_sea_head/wyvern_of_the_sea_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/wyvern_of_the_sea_head/wyvern_of_the_sea_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wyvern_of_the_sea_head-f020a5f23b75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/1b26d6508cdb/models/items/winter_wyvern/wyvern_of_the_sea_head/wyvern_of_the_sea_head_color_tga_6aee3e6b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/wyvern_of_the_sea_head/wyvern_of_the_sea_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/wyvern_of_the_sea_head/wyvern_of_the_sea_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:8017:winter-wyvern-immortal-ti7",
+      "itemId": 8017,
+      "name": "Iceflight Edifice",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/101a43ed9541/models/items/winter_wyvern/winter_wyvern_ti7_immortal/winter_wyvern_immortal_ti7.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/101a43ed9541/models/items/winter_wyvern/winter_wyvern_ti7_immortal/winter_wyvern_immortal_ti7.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/winter_wyvern_ti7_immortal/winter_wyvern_immortal_ti7.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winter_wyvern_immortal_ti7-9236845cc57e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/101a43ed9541/models/items/winter_wyvern/winter_wyvern_ti7_immortal/winter_wyvern_ti7_immortal_color_psd_64407c4a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/winter_wyvern_ti7_immortal/winter_wyvern_immortal_ti7.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/winter_wyvern_ti7_immortal/winter_wyvern_immortal_ti7.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/winter_wyvern/winter_wyvern_ti7/status_effect_winter_wyvern_cold_embrace_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/winter_wyvern/winter_wyvern_ti7/winter_wyvern_ti7_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/winter_wyvern/winter_wyvern_ti7/wyvern_cold_embrace_ti7buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_wyvern_cold_embrace.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/wyvern_cold_embrace_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:8516:frostheart-wyvern-head",
+      "itemId": 8516,
+      "name": "Noble Crown of Frostheart",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/3440970ea788/models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/3440970ea788/models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostheart_wyvern_head1-9321681f8693.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/3440970ea788/models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head_color_tga_1d05fbb0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/frostheart_wyvern_head/frostheart_wyvern_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:14778:ww-polar-night-head",
+      "itemId": 14778,
+      "name": "Polar Night Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/78083bc85ab6/models/items/winter_wyvern/ww_polar_night_head/ww_polar_night_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/78083bc85ab6/models/items/winter_wyvern/ww_polar_night_head/ww_polar_night_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/ww_polar_night_head/ww_polar_night_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ww_polar_night_head-f3fed6f09c69.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/78083bc85ab6/models/items/winter_wyvern/ww_polar_night_head/ww_polar_night_head_color_tga_50795aeb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/ww_polar_night_head/ww_polar_night_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/ww_polar_night_head/ww_polar_night_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:13451:frozen-ashes-head",
+      "itemId": 13451,
+      "name": "The Wrath of Zaug  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f1e4823c28a5/models/items/winter_wyvern/frozen_ashes_head/frozen_ashes_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f1e4823c28a5/models/items/winter_wyvern/frozen_ashes_head/frozen_ashes_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/winter_wyvern/frozen_ashes_head/frozen_ashes_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozen_ashes_head-02338ec14987.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/f1e4823c28a5/models/items/winter_wyvern/frozen_ashes_head/frozen_ashes_head_color_tga_3e508154.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/winter_wyvern/frozen_ashes_head/frozen_ashes_head.vmdl",
+        "modelPaths": [
+          "models/items/winter_wyvern/frozen_ashes_head/frozen_ashes_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:item-model:551:winterwyvern-crown",
+      "itemId": 551,
+      "name": "Winter Wyverns Headdress",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a5e68b34c410/models/heroes/winterwyvern/winterwyvern_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a5e68b34c410/models/heroes/winterwyvern/winterwyvern_crown.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/winterwyvern/winterwyvern_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winterwyvern_crown-78a0d9f16b22.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_winter_wyvern/a5e68b34c410/models/heroes/winterwyvern/ww_headitem_color_psd_f08c312e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/winterwyvern/winterwyvern_crown.vmdl",
+        "modelPaths": [
+          "models/heroes/winterwyvern/winterwyvern_crown.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_winter_wyvern/portrait_winter_wyvern.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21144:arctic-recluse",
+      "name": "Arctic Recluse",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        9510,
+        9511
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/wings_of_piercing_winter_head-b4fc1b4fc656.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21818:auroras-pyre",
+      "name": "Auroras Pyre",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        18506,
+        18507
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/spring2021_frost_thorn_head-78c511449177.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:22878:currents-of-endless-woe",
+      "name": "Currents of Endless Woe",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        22873,
+        22876
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dusk_of_the_ice_age_ls-b6bca482db25.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21520:defender-of-the-brumal-crest",
+      "name": "Defender of the Brumal Crest",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        14225,
+        14226
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/chilling_feather_head-085e927d53b4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:20963:frostheart",
+      "name": "Frostheart",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        8281,
+        8286
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/frostheart_wyvern_loading_screen-302168be9556.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:20811:iceburnt-elegy",
+      "name": "Iceburnt Elegy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        7291,
+        7292
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/ice_splinters_loading_screen-e48d799194a9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21034:noble-frostheart",
+      "name": "Noble Frostheart",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        8516,
+        8517
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/frostheart_wyvern_loading_screen-302168be9556.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21590:polar-night",
+      "name": "Polar Night",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        14777,
+        14778
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/ww_polar_night_back-d8299f2e8e82.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21074:portents-of-the-elder-myth",
+      "name": "Portents of the Elder Myth",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        9035,
+        9036
+      ],
+      "styleSelections": {
+        "9035": "0"
+      },
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/wyvern_of_the_pleiades_pleiades_loading_screen-33fdf88bca26.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21074:portents-of-the-elder-myth:style-1",
+      "name": "Portents of the Elder Myth - Infused",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        9035,
+        9036
+      ],
+      "styleSelections": {
+        "9035": "1"
+      },
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/wyvern_of_the_pleiades_head_style1-caefdd7f2bc8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21112:secrets-of-the-katekhein",
+      "name": "Secrets of the Katekhein",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        9276,
+        9277
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/wyvern_of_the_sea_wyvern_of_the_sea_loading_screen-655fc4a5b6eb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_winter_wyvern:core-set:21370:the-wrath-of-zaug",
+      "name": "The Wrath of Zaug",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        551,
+        552
+      ],
+      "sourceItemIds": [
+        13438,
+        13451
+      ],
+      "slots": [
+        "back",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/frozen_ashes_ls-f47a4fcb8db7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 98723926,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 156
+  }
+}

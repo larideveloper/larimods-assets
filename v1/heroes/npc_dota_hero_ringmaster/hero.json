@@ -1,0 +1,488 @@
+{
+  "heroId": "npc_dota_hero_ringmaster",
+  "sourceHeroId": "npc_dota_hero_ringmaster",
+  "variantId": "default",
+  "heroName": "Ringmaster",
+  "heroSlug": "ringmaster",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ringmaster.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_ringmaster/5b19b2ab0dec/models/heroes/ringmaster/ringmaster_base.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 815,
+      "name": "Ringmasters Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/df4ddfb1d805/models/heroes/ringmaster/ringmaster_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/df4ddfb1d805/models/heroes/ringmaster/ringmaster_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/df4ddfb1d805/models/heroes/ringmaster/ringmaster_armor_color_psd_2c71e1b9.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 814,
+      "name": "Ringmasters Legs",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/a10634c8d4ed/models/heroes/ringmaster/ringmaster_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/a10634c8d4ed/models/heroes/ringmaster/ringmaster_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/a10634c8d4ed/models/heroes/ringmaster/ringmaster_armor_color_psd_2c71e1b9.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 813,
+      "name": "Ringmasters Hair",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/b546583543f7/models/heroes/ringmaster/ringmaster_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/b546583543f7/models/heroes/ringmaster/ringmaster_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/b546583543f7/models/heroes/ringmaster/ringmaster_hair_color_psd_a0b45e0c.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 812,
+      "name": "Ringmasters Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/3d76c4e11719/models/heroes/ringmaster/ringmaster_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/3d76c4e11719/models/heroes/ringmaster/ringmaster_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/3d76c4e11719/models/heroes/ringmaster/ringmaster_weapon_color_psd_1260b9e3.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33357:fear-harvester-armor",
+      "itemId": 33357,
+      "name": "Harrows Harvest  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/950abf503dad/models/items/ringmaster/fear_harvester_armor/fear_harvester_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/950abf503dad/models/items/ringmaster/fear_harvester_armor/fear_harvester_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/fear_harvester_armor/fear_harvester_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fear_harvester_armor-b09eb93d915e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/950abf503dad/models/items/ringmaster/fear_harvester_armor/fear_harvester_armor_color_tga_d8d7f0c7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ringmaster/fear_harvester_armor/fear_harvester_armor.vmdl",
+        "modelPaths": [
+          "models/items/ringmaster/fear_harvester_armor/fear_harvester_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ringmaster/fear_harvester/fear_harvester_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33317:the-royal-jester-arms",
+      "itemId": 33317,
+      "name": "King of Fools  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/856173a3a9ec/models/items/ringmaster/the_royal_jester_arms/the_royal_jester_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/856173a3a9ec/models/items/ringmaster/the_royal_jester_arms/the_royal_jester_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/the_royal_jester_arms/the_royal_jester_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_royal_jester_arms-f304ec98d113.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/856173a3a9ec/models/items/ringmaster/the_royal_jester_arms/the_royal_jester_arms_color_png_f3bfb9bc.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:815:ringmaster-armor",
+      "itemId": 815,
+      "name": "Ringmasters Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/df4ddfb1d805/models/heroes/ringmaster/ringmaster_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/df4ddfb1d805/models/heroes/ringmaster/ringmaster_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ringmaster_armor-151106240cd4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/df4ddfb1d805/models/heroes/ringmaster/ringmaster_armor_color_psd_2c71e1b9.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33358:fear-harvester-belt",
+      "itemId": 33358,
+      "name": "Harrows Harvest  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/f54320eeb0d1/models/items/ringmaster/fear_harvester_belt/fear_harvester_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/f54320eeb0d1/models/items/ringmaster/fear_harvester_belt/fear_harvester_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/fear_harvester_belt/fear_harvester_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fear_harvester_belt-df3c059f2875.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/f54320eeb0d1/models/items/ringmaster/fear_harvester_belt/fear_harvester_belt_color_tga_e0be37dd.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33316:the-royal-jester-belt",
+      "itemId": 33316,
+      "name": "King of Fools  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/954a35f7dff6/models/items/ringmaster/the_royal_jester_belt/the_royal_jester_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/954a35f7dff6/models/items/ringmaster/the_royal_jester_belt/the_royal_jester_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/the_royal_jester_belt/the_royal_jester_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_royal_jester_belt-06c22939e875.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/954a35f7dff6/models/items/ringmaster/the_royal_jester_belt/the_royal_jester_belt_color_png_344712d8.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:814:ringmaster-belt",
+      "itemId": 814,
+      "name": "Ringmasters Legs",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/a10634c8d4ed/models/heroes/ringmaster/ringmaster_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/a10634c8d4ed/models/heroes/ringmaster/ringmaster_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ringmaster_hands-929c7d2a7fd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/a10634c8d4ed/models/heroes/ringmaster/ringmaster_armor_color_psd_2c71e1b9.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33356:fear-harvester-head",
+      "itemId": 33356,
+      "name": "Harrows Harvest  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/d502657c778b/models/items/ringmaster/fear_harvester_head/fear_harvester_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/d502657c778b/models/items/ringmaster/fear_harvester_head/fear_harvester_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/fear_harvester_head/fear_harvester_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fear_harvester_head-e512914100c5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/d502657c778b/models/items/ringmaster/fear_harvester_head/fear_harvester_head_color_tga_cdc29232.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33318:the-royal-jester-head",
+      "itemId": 33318,
+      "name": "King of Fools  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/16761068a906/models/items/ringmaster/the_royal_jester_head/the_royal_jester_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/16761068a906/models/items/ringmaster/the_royal_jester_head/the_royal_jester_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/the_royal_jester_head/the_royal_jester_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_royal_jester_head-3a1fea2a3e55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/16761068a906/models/items/ringmaster/the_royal_jester_head/the_royal_jester_head_color_png_e42d0e45.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:813:ringmaster-head",
+      "itemId": 813,
+      "name": "Ringmasters Hair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/b546583543f7/models/heroes/ringmaster/ringmaster_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/b546583543f7/models/heroes/ringmaster/ringmaster_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ringmaster_head-f08d11ddbc02.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/b546583543f7/models/heroes/ringmaster/ringmaster_hair_color_psd_a0b45e0c.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:34278:the-royal-jester-head-v2",
+      "itemId": 34278,
+      "name": "The Royal Jester Head V2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/6717d4353a9b/models/items/ringmaster/the_royal_jester_head_v2/the_royal_jester_head_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/6717d4353a9b/models/items/ringmaster/the_royal_jester_head_v2/the_royal_jester_head_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/the_royal_jester_head_v2/the_royal_jester_head_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_royal_jester_head_v2-5891523ac614.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/6717d4353a9b/models/items/ringmaster/the_royal_jester_head_v2/the_royal_jester_head_v2_color_png_f9d9a5ce.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33359:fear-harvester-weapon",
+      "itemId": 33359,
+      "name": "Harrows Harvest  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/41d8554ecf98/models/items/ringmaster/fear_harvester_weapon/fear_harvester_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/41d8554ecf98/models/items/ringmaster/fear_harvester_weapon/fear_harvester_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/fear_harvester_weapon/fear_harvester_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/fear_harvester_weapon-a69f957ef76d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/41d8554ecf98/models/items/ringmaster/fear_harvester_weapon/fear_harvester_weapon_color_tga_23eeff2d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/ringmaster/fear_harvester_weapon/fear_harvester_weapon.vmdl",
+        "modelPaths": [
+          "models/items/ringmaster/fear_harvester_weapon/fear_harvester_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/ringmaster/fear_harvester/fear_harvester_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:33315:the-royal-jester-weapon",
+      "itemId": 33315,
+      "name": "King of Fools  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/9b0cc4f7e280/models/items/ringmaster/the_royal_jester_weapon/the_royal_jester_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/9b0cc4f7e280/models/items/ringmaster/the_royal_jester_weapon/the_royal_jester_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/ringmaster/the_royal_jester_weapon/the_royal_jester_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_royal_jester_weapon-c41c2a8fbf43.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/9b0cc4f7e280/models/items/ringmaster/the_royal_jester_weapon/the_royal_jester_weapon_color_png_b801c106.png"
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:item-model:812:ringmaster-weapon",
+      "itemId": 812,
+      "name": "Ringmasters Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/3d76c4e11719/models/heroes/ringmaster/ringmaster_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_ringmaster/3d76c4e11719/models/heroes/ringmaster/ringmaster_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/ringmaster/ringmaster_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ringmaster_weapon-54d87d052705.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_ringmaster/3d76c4e11719/models/heroes/ringmaster/ringmaster_weapon_color_psd_1260b9e3.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_ringmaster:core-set:33360:harrows-harvest",
+      "name": "Harrows Harvest",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        812,
+        813,
+        814,
+        815
+      ],
+      "sourceItemIds": [
+        33356,
+        33357,
+        33358,
+        33359
+      ],
+      "slots": [
+        "armor",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/fear_harvester_head-e512914100c5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_ringmaster:core-set:33319:king-of-fools",
+      "name": "King of Fools",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        812,
+        813,
+        814,
+        815
+      ],
+      "sourceItemIds": [
+        33315,
+        33316,
+        33317,
+        33318
+      ],
+      "slots": [
+        "armor",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/the_royal_jester_weapon-c41c2a8fbf43.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 40820422,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 74
+  }
+}

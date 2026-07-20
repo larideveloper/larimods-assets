@@ -1,0 +1,3631 @@
+{
+  "heroId": "npc_dota_hero_shadow_shaman",
+  "sourceHeroId": "npc_dota_hero_shadow_shaman",
+  "variantId": "default",
+  "heroName": "Shadow Shaman",
+  "heroSlug": "shadow_shaman",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/31b4e23ce6dd/models/heroes/shadowshaman/shadowshaman.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 249,
+      "name": "Shadow Shamans Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/916073812c52/models/heroes/shadowshaman/armarmor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/916073812c52/models/heroes/shadowshaman/armarmor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/armarmor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/916073812c52/models/heroes/shadowshaman/armarmor_color_psd_46d410b2.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 250,
+      "name": "Shadow Shamans Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/170f6c4326de/models/heroes/shadowshaman/belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/170f6c4326de/models/heroes/shadowshaman/belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/170f6c4326de/models/heroes/shadowshaman/belt_color_psd_56c20a64.png"
+    },
+    {
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 251,
+      "name": "Shadow Shamans Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0a11533031b0/models/heroes/shadowshaman/head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0a11533031b0/models/heroes/shadowshaman/head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0a11533031b0/models/heroes/shadowshaman/head_color_psd_90fb8113.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 248,
+      "name": "Shadow Shamans Headdress",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c32e5f678607/models/heroes/shadowshaman/helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c32e5f678607/models/heroes/shadowshaman/helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/helmet.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c32e5f678607/models/heroes/shadowshaman/helmet_color_psd_f79dc05e.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "itemId": 247,
+      "name": "Shadow Shamans Offhand Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d1e4ea32643/models/heroes/shadowshaman/weapon_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d1e4ea32643/models/heroes/shadowshaman/weapon_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/weapon_offhand.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d1e4ea32643/models/heroes/shadowshaman/weapon_offhand_color_tga_b0d2fa79.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 246,
+      "name": "Shadow Shamans Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/93189fffc9c8/models/heroes/shadowshaman/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/93189fffc9c8/models/heroes/shadowshaman/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/93189fffc9c8/models/heroes/shadowshaman/weapon_color_tga_80df48ce.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6817:tangki-arms",
+      "itemId": 6817,
+      "name": "Accursed Scrolls of TangKi",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/cb0bc942365c/models/items/shadowshaman/tangki_arms/tangki_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/cb0bc942365c/models/items/shadowshaman/tangki_arms/tangki_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/tangki_arms/tangki_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tangki_arms-64798026134c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/cb0bc942365c/models/items/shadowshaman/tangki_arms/tangki_arms_color_tga_10e91693.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7511:dotapit-s3-wild-tempest-arms",
+      "itemId": 7511,
+      "name": "Armbands of Shamanic Light",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8d64c755a898/models/items/shadowshaman/dotapit_s3_wild_tempest_arms/dotapit_s3_wild_tempest_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8d64c755a898/models/items/shadowshaman/dotapit_s3_wild_tempest_arms/dotapit_s3_wild_tempest_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dotapit_s3_wild_tempest_arms/dotapit_s3_wild_tempest_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_wild_tempest_arms-8e5de8627b65.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8d64c755a898/models/items/shadowshaman/dotapit_s3_wild_tempest_arms/dotapit_s3_wild_tempest_arms_color_tga_9b10f9ef.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9909:ti8-ss-mushroomer-arms",
+      "itemId": 9909,
+      "name": "Arms of the Lucent Canopy",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d134083f3778/models/items/shadowshaman/ti8_ss_mushroomer_arms/ti8_ss_mushroomer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d134083f3778/models/items/shadowshaman/ti8_ss_mushroomer_arms/ti8_ss_mushroomer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti8_ss_mushroomer_arms/ti8_ss_mushroomer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_ss_mushroomer_arms-3ecf0b910d4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d134083f3778/models/items/shadowshaman/ti8_ss_mushroomer_arms/ti8_ss_mushroomer_arms_color_tga_ea9e5ebf.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6309:shades-arms",
+      "itemId": 6309,
+      "name": "Armwraps of Shades",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/9e4acefef8c3/models/items/shadowshaman/shades_arms/shades_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/9e4acefef8c3/models/items/shadowshaman/shades_arms/shades_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shades_arms/shades_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shades_arms-f272a218f24b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/9e4acefef8c3/models/items/shadowshaman/shades_arms/shades_arms_color_tga_e3ba2542.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26279:shaman-yin-yang-master-arms",
+      "itemId": 26279,
+      "name": "Bantam Blaze  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2cdbc6b35df4/models/items/shadowshaman/shaman_yin_yang_master_arms/shaman_yin_yang_master_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2cdbc6b35df4/models/items/shadowshaman/shaman_yin_yang_master_arms/shaman_yin_yang_master_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_yin_yang_master_arms/shaman_yin_yang_master_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_yin_yang_master_arms-c6861e2d6f78.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2cdbc6b35df4/models/items/shadowshaman/shaman_yin_yang_master_arms/shaman_yin_yang_master_arms_color_tga_bd67dce.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:13369:ti9-cache-shaman-swamp-shaman-arms",
+      "itemId": 13369,
+      "name": "Bogmarch Garb",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8f77780c816c/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_arms/ti9_cache_shaman_swamp_shaman_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8f77780c816c/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_arms/ti9_cache_shaman_swamp_shaman_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_arms/ti9_cache_shaman_swamp_shaman_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_shaman_swamp_shaman_arms-bc4973f01ffb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8f77780c816c/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_arms/ti9_cache_shaman_swamp_shaman_arms_color_png_24c01559.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:5500:eki-bukaw-bracers",
+      "itemId": 5500,
+      "name": "Eki Bukaw Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/757435cdaeeb/models/items/shadowshaman/eki_bukaw_bracers/eki_bukaw_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/757435cdaeeb/models/items/shadowshaman/eki_bukaw_bracers/eki_bukaw_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eki_bukaw_bracers/eki_bukaw_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eki_bukaw_bracers-b36b31eab161.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/757435cdaeeb/models/items/shadowshaman/eki_bukaw_bracers/eki_bukaw_bracers_color_tga_c3838d39.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26277:shaman-shadow-cultist-arms",
+      "itemId": 26277,
+      "name": "Eyes in the Endless Dark  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0d7a7349fc51/models/items/shadowshaman/shaman_shadow_cultist_arms/shaman_shadow_cultist_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0d7a7349fc51/models/items/shadowshaman/shaman_shadow_cultist_arms/shaman_shadow_cultist_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_shadow_cultist_arms/shaman_shadow_cultist_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_shadow_cultist_arms-4b03921f8796.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0d7a7349fc51/models/items/shadowshaman/shaman_shadow_cultist_arms/shaman_shadow_cultist_arms_color_psd_10da2921.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9885:eyedancer-wrath-arms",
+      "itemId": 9885,
+      "name": "Mantle of the Spiteful Eye",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/5b868cea8878/models/items/shadowshaman/eyedancer_wrath_arms/eyedancer_wrath_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/5b868cea8878/models/items/shadowshaman/eyedancer_wrath_arms/eyedancer_wrath_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eyedancer_wrath_arms/eyedancer_wrath_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eyedancer_wrath_arms-6b006d6cef3a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/5b868cea8878/models/items/shadowshaman/eyedancer_wrath_arms/eyedancer_wrath_arms_color_tga_4891575.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:36146:nether-spikes",
+      "itemId": 36146,
+      "name": "Nether Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/6810adcca662/models/items/shadowshaman/nether_spikes/nether_spikes.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/6810adcca662/models/items/shadowshaman/nether_spikes/nether_spikes.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/nether_spikes/nether_spikes.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_spikes-c3241a1d3627.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/6810adcca662/models/items/shadowshaman/nether_spikes/nether_spikes_color_tga_8654c8e6.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:19874:dragontooth-arms",
+      "itemId": 19874,
+      "name": "Ququmatz Charmer  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/22bddf0a829f/models/items/shadowshaman/dragontooth_arms/dragontooth_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/22bddf0a829f/models/items/shadowshaman/dragontooth_arms/dragontooth_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dragontooth_arms/dragontooth_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragontooth_arms-d844e6c35de9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/22bddf0a829f/models/items/shadowshaman/dragontooth_arms/dragontooth_arms_color_tga_3d35c370.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:14366:shaman-charmer-of-firesnake-arms",
+      "itemId": 14366,
+      "name": "Red Sands Marauder  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f2c8e49efd85/models/items/shadowshaman/shaman_charmer_of_firesnake_arms/shaman_charmer_of_firesnake_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f2c8e49efd85/models/items/shadowshaman/shaman_charmer_of_firesnake_arms/shaman_charmer_of_firesnake_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_charmer_of_firesnake_arms/shaman_charmer_of_firesnake_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_charmer_of_firesnake_arms-fdec3f1282fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f2c8e49efd85/models/items/shadowshaman/shaman_charmer_of_firesnake_arms/shaman_charmer_of_firesnake_arms_color_tga_1feddf38.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:249:armarmor",
+      "itemId": 249,
+      "name": "Shadow Shamans Armor",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/916073812c52/models/heroes/shadowshaman/armarmor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/916073812c52/models/heroes/shadowshaman/armarmor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/armarmor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armarmor-1d2c2ad018bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/916073812c52/models/heroes/shadowshaman/armarmor_color_psd_46d410b2.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7275:true-crow-armbands",
+      "itemId": 7275,
+      "name": "True Crows Wings",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/422a3fc12455/models/items/shadowshaman/true_crow_armbands/true_crow_armbands.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/422a3fc12455/models/items/shadowshaman/true_crow_armbands/true_crow_armbands.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/true_crow_armbands/true_crow_armbands.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/true_crow_armbands-2acd5b1dd3b1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/422a3fc12455/models/items/shadowshaman/true_crow_armbands/true_crow_armbands_color_tga_fbf7fa82.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:18274:the-eagle-of-the-desert-arms",
+      "itemId": 18274,
+      "name": "Vote Only The eagle of the desert Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/75b38ef82959/models/items/shadowshaman/the_eagle_of_the_desert_arms/the_eagle_of_the_desert_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/75b38ef82959/models/items/shadowshaman/the_eagle_of_the_desert_arms/the_eagle_of_the_desert_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/the_eagle_of_the_desert_arms/the_eagle_of_the_desert_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_eagle_of_the_desert_arms-abbba8cb650f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/75b38ef82959/models/items/shadowshaman/the_eagle_of_the_desert_arms/the_eagle_of_the_desert_arms_color_tga_5329d0e9.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26280:shaman-yin-yang-master-belt",
+      "itemId": 26280,
+      "name": "Bantam Blaze  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/355150f8343b/models/items/shadowshaman/shaman_yin_yang_master_belt/shaman_yin_yang_master_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/355150f8343b/models/items/shadowshaman/shaman_yin_yang_master_belt/shaman_yin_yang_master_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_yin_yang_master_belt/shaman_yin_yang_master_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_yin_yang_master_belt-7d95664c0662.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/355150f8343b/models/items/shadowshaman/shaman_yin_yang_master_belt/shaman_yin_yang_master_belt_color_tga_962a4ab8.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:13368:ti9-cache-shaman-swamp-shaman-belt",
+      "itemId": 13368,
+      "name": "Bogmarch Barrel",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/933cac12daf6/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_belt/ti9_cache_shaman_swamp_shaman_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/933cac12daf6/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_belt/ti9_cache_shaman_swamp_shaman_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_belt/ti9_cache_shaman_swamp_shaman_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_shaman_swamp_shaman_belt-719c498c6513.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/933cac12daf6/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_belt/ti9_cache_shaman_swamp_shaman_belt_color_png_7e48a782.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6066:cauldron-of-summons",
+      "itemId": 6066,
+      "name": "Cauldron of Summons",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f4be3c3318e4/models/items/shadowshaman/cauldron_of_summons/cauldron_of_summons.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f4be3c3318e4/models/items/shadowshaman/cauldron_of_summons/cauldron_of_summons.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/cauldron_of_summons/cauldron_of_summons.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cauldron_of_summons-8fce8ac4367e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f4be3c3318e4/models/items/shadowshaman/cauldron_of_summons/cauldron_of_summons_color_tga_aecc437b.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6206:shades-belt",
+      "itemId": 6206,
+      "name": "Cincture of Shades",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8a58daa8cf75/models/items/shadowshaman/shades_belt/shades_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8a58daa8cf75/models/items/shadowshaman/shades_belt/shades_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shades_belt/shades_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shades_belt-d490c8de44ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/8a58daa8cf75/models/items/shadowshaman/shades_belt/shades_belt_color_tga_75520c34.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26275:shaman-shadow-cultist-belt",
+      "itemId": 26275,
+      "name": "Eyes in the Endless Dark  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/fa003fc78abe/models/items/shadowshaman/shaman_shadow_cultist_belt/shaman_shadow_cultist_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/fa003fc78abe/models/items/shadowshaman/shaman_shadow_cultist_belt/shaman_shadow_cultist_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_shadow_cultist_belt/shaman_shadow_cultist_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_shadow_cultist_belt-9dd2d58e850f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/fa003fc78abe/models/items/shadowshaman/shaman_shadow_cultist_belt/shaman_shadow_cultist_belt_color_psd_f6b106d1.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9908:ti8-ss-mushroomer-belt",
+      "itemId": 9908,
+      "name": "Haul of the Lucent Canopy",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2cb811f6b28d/models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2cb811f6b28d/models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_ss_mushroomer_belt-2d83683445ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2cb811f6b28d/models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt_color_tga_63a83fee.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/ti8_ss_mushroomer_belt/ti8_ss_mushroomer_belt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:4412:vagabond-pack",
+      "itemId": 4412,
+      "name": "Mysterious Vagabonds Pack",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/99c07bdc8107/models/items/shadowshaman/vagabond_pack/vagabond_pack.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/99c07bdc8107/models/items/shadowshaman/vagabond_pack/vagabond_pack.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/vagabond_pack/vagabond_pack.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_pack-1406482ba995.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/99c07bdc8107/models/items/shadowshaman/vagabond_pack/vagabond_pack_color_tga_ddeb5c9a.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:36143:nether-beetle",
+      "itemId": 36143,
+      "name": "Nether Shell",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0eb55668ad4b/models/items/shadowshaman/nether_beetle/nether_beetle.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0eb55668ad4b/models/items/shadowshaman/nether_beetle/nether_beetle.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/nether_beetle/nether_beetle.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_beetle-793505c873ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0eb55668ad4b/models/items/shadowshaman/nether_beetle/nether_beetle_color_tga_328a0436.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/nether_beetle/nether_beetle.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/nether_beetle/nether_beetle.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_nether_beetle/shadow_shaman_nether_beetle_cape_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6818:tangki-belt",
+      "itemId": 6818,
+      "name": "Possessed Shrine of TangKi",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/a392c901f261/models/items/shadowshaman/tangki_belt/tangki_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/a392c901f261/models/items/shadowshaman/tangki_belt/tangki_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/tangki_belt/tangki_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tangki_belt-c14faf6a77b0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/a392c901f261/models/items/shadowshaman/tangki_belt/tangki_belt_color_tga_d6f0cbaa.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:19873:dragontooth-belt",
+      "itemId": 19873,
+      "name": "Ququmatz Charmer  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f9e456b93afa/models/items/shadowshaman/dragontooth_belt/dragontooth_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f9e456b93afa/models/items/shadowshaman/dragontooth_belt/dragontooth_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dragontooth_belt/dragontooth_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragontooth_belt-f847b52ecc96.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f9e456b93afa/models/items/shadowshaman/dragontooth_belt/dragontooth_belt_color_tga_293cff47.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:5501:records-of-the-eki-bukaw",
+      "itemId": 5501,
+      "name": "Records of the Eki Bukaw",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/94304862e04e/models/items/shadowshaman/records_of_the_eki_bukaw/records_of_the_eki_bukaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/94304862e04e/models/items/shadowshaman/records_of_the_eki_bukaw/records_of_the_eki_bukaw.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/records_of_the_eki_bukaw/records_of_the_eki_bukaw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/records_of_the_eki_bukaw-07bf4c0aed20.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/94304862e04e/models/items/shadowshaman/records_of_the_eki_bukaw/records_of_the_eki_bukaw_color_tga_ec88fbb7.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:14365:shaman-charmer-of-firesnake-belt",
+      "itemId": 14365,
+      "name": "Red Sands Marauder  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f4450879fe20/models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f4450879fe20/models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_charmer_of_firesnake_belt-12fedc1d671a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f4450879fe20/models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt_color_tga_78e9adc6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_charmer_of_firesnake_belt/shaman_charmer_of_firesnake_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_charmer_firesnake/shadow_shaman_charmer_firesnake_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:250:belt",
+      "itemId": 250,
+      "name": "Shadow Shamans Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/170f6c4326de/models/heroes/shadowshaman/belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/170f6c4326de/models/heroes/shadowshaman/belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/belt-c0b8e091241f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/170f6c4326de/models/heroes/shadowshaman/belt_color_psd_56c20a64.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9886:eyedancer-wrath-belt",
+      "itemId": 9886,
+      "name": "Sigil of the Spiteful Eye",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/fcdb746fe4d2/models/items/shadowshaman/eyedancer_wrath_belt/eyedancer_wrath_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/fcdb746fe4d2/models/items/shadowshaman/eyedancer_wrath_belt/eyedancer_wrath_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eyedancer_wrath_belt/eyedancer_wrath_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eyedancer_wrath_belt-49483c88e6c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/fcdb746fe4d2/models/items/shadowshaman/eyedancer_wrath_belt/eyedancer_wrath_belt_color_tga_4ce93d99.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7512:dotapit-s3-wild-tempest-belt",
+      "itemId": 7512,
+      "name": "Skirt of Shamanic Light",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f8f5dacfa009/models/items/shadowshaman/dotapit_s3_wild_tempest_belt/dotapit_s3_wild_tempest_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f8f5dacfa009/models/items/shadowshaman/dotapit_s3_wild_tempest_belt/dotapit_s3_wild_tempest_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dotapit_s3_wild_tempest_belt/dotapit_s3_wild_tempest_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_wild_tempest_belt-6f400a51b50b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f8f5dacfa009/models/items/shadowshaman/dotapit_s3_wild_tempest_belt/dotapit_s3_wild_tempest_belt_color_tga_76a97e2b.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7384:true-crow-pelt",
+      "itemId": 7384,
+      "name": "True Crows Pelt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/21168a26d653/models/items/shadowshaman/true_crow_pelt/true_crow_pelt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/21168a26d653/models/items/shadowshaman/true_crow_pelt/true_crow_pelt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/true_crow_pelt/true_crow_pelt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/true_crow_pelt-4b8cf6f544c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/21168a26d653/models/items/shadowshaman/true_crow_pelt/true_crow_pelt_color_tga_b96191f1.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:18273:the-eagle-of-the-desert-belt",
+      "itemId": 18273,
+      "name": "Vote Only The eagle of the desert Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/6bbbe7fe7fe6/models/items/shadowshaman/the_eagle_of_the_desert_belt/the_eagle_of_the_desert_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/6bbbe7fe7fe6/models/items/shadowshaman/the_eagle_of_the_desert_belt/the_eagle_of_the_desert_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/the_eagle_of_the_desert_belt/the_eagle_of_the_desert_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_eagle_of_the_desert_belt-01f86ede5d3f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/6bbbe7fe7fe6/models/items/shadowshaman/the_eagle_of_the_desert_belt/the_eagle_of_the_desert_belt_color_tga_bf1e222.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:251:head",
+      "itemId": 251,
+      "name": "Shadow Shamans Head",
+      "slot": "body_head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0a11533031b0/models/heroes/shadowshaman/head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0a11533031b0/models/heroes/shadowshaman/head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0a11533031b0/models/heroes/shadowshaman/head_color_psd_90fb8113.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26281:shaman-yin-yang-master-head",
+      "itemId": 26281,
+      "name": "Bantam Blaze  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/5a09fdc54b91/models/items/shadowshaman/shaman_yin_yang_master_head/shaman_yin_yang_master_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/5a09fdc54b91/models/items/shadowshaman/shaman_yin_yang_master_head/shaman_yin_yang_master_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_yin_yang_master_head/shaman_yin_yang_master_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_yin_yang_master_head-ab0c96bcb173.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/5a09fdc54b91/models/items/shadowshaman/shaman_yin_yang_master_head/shaman_yin_yang_master_head_color_tga_3e1b0426.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:13367:ti9-cache-shaman-swamp-shaman-head",
+      "itemId": 13367,
+      "name": "Bogmarch Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ca46675a4887/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_head/ti9_cache_shaman_swamp_shaman_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ca46675a4887/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_head/ti9_cache_shaman_swamp_shaman_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_head/ti9_cache_shaman_swamp_shaman_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_shaman_swamp_shaman_head-bae426b050f5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ca46675a4887/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_head/ti9_cache_shaman_swamp_shaman_head_color_png_408df7c7.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9907:ti8-ss-mushroomer-head",
+      "itemId": 9907,
+      "name": "Crest of the Lucent Canopy",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c9ef4cdbc128/models/items/shadowshaman/ti8_ss_mushroomer_head/ti8_ss_mushroomer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c9ef4cdbc128/models/items/shadowshaman/ti8_ss_mushroomer_head/ti8_ss_mushroomer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti8_ss_mushroomer_head/ti8_ss_mushroomer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_ss_mushroomer_head-4675faabe9c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c9ef4cdbc128/models/items/shadowshaman/ti8_ss_mushroomer_head/ti8_ss_mushroomer_head_color_tga_976080af.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26276:shaman-shadow-cultist-head",
+      "itemId": 26276,
+      "name": "Eyes in the Endless Dark  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f90a2cbf405e/models/items/shadowshaman/shaman_shadow_cultist_head/shaman_shadow_cultist_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f90a2cbf405e/models/items/shadowshaman/shaman_shadow_cultist_head/shaman_shadow_cultist_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_shadow_cultist_head/shaman_shadow_cultist_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_shadow_cultist_head-17efe1039b2e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f90a2cbf405e/models/items/shadowshaman/shaman_shadow_cultist_head/shaman_shadow_cultist_head_color_psd_8de06aed.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7513:dotapit-s3-wild-tempest-head",
+      "itemId": 7513,
+      "name": "Hood of Shamanic Light",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1984eabddbdf/models/items/shadowshaman/dotapit_s3_wild_tempest_head/dotapit_s3_wild_tempest_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1984eabddbdf/models/items/shadowshaman/dotapit_s3_wild_tempest_head/dotapit_s3_wild_tempest_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dotapit_s3_wild_tempest_head/dotapit_s3_wild_tempest_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_wild_tempest_head-60689653ce9c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1984eabddbdf/models/items/shadowshaman/dotapit_s3_wild_tempest_head/dotapit_s3_wild_tempest_head_color_tga_a85da32f.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:13757:ss-fall20-immortal-head",
+      "itemId": 13757,
+      "name": "Lash of the Lizard Kin",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2970b477ddd0/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2970b477ddd0/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ss_fall20_immortal_head-21789bff9dc1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2970b477ddd0/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head_color_tga_811f252c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_crystal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_eye_b.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_eye_b_left.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_hair.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_mouth_drips.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_shackle_net_fall20.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/status_effect_shaman_shackle_net_fall20.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_shaman_shackle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_shackle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:22269:ss-fall20-immortal-head",
+      "itemId": 22269,
+      "name": "Lash of the Lizard Kin of the Crimson Witness",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/125d52053b10/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/125d52053b10/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ss_fall20_immortal_head1-85ec87e5c178.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/125d52053b10/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head_color_tga_811f252c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_2021_crimson/shadowshaman_2021_crimson_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_2021_crimson/shadowshaman_2021_crimson_ambient_crystal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_2021_crimson/shadowshaman_2021_crimson_ambient_eyes.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_2021_crimson/shadowshaman_2021_crimson_ambient_mouth_drips.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_2021_crimson/shadowshaman_2021_crimson_hair.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_2021_crimson/shadowshaman_crimson_shackle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_2021_crimson/status_effect_shaman_shackle_net_2021_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_shaman_shackle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_shackle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:4417:vagabond-hat",
+      "itemId": 4417,
+      "name": "Mysterious Vagabonds Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c50aee8952b4/models/items/shadowshaman/vagabond_hat/vagabond_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c50aee8952b4/models/items/shadowshaman/vagabond_hat/vagabond_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/vagabond_hat/vagabond_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_hat-f7a5e98114c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c50aee8952b4/models/items/shadowshaman/vagabond_hat/vagabond_hat_color_tga_312d47f0.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:36144:nether-horn",
+      "itemId": 36144,
+      "name": "Nether Horn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d6b1322d959/models/items/shadowshaman/nether_horn/nether_horn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d6b1322d959/models/items/shadowshaman/nether_horn/nether_horn.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/nether_horn/nether_horn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_horn-d4a60b1afd08.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d6b1322d959/models/items/shadowshaman/nether_horn/nether_horn_color_psd_318ecfa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/nether_horn/nether_horn.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/nether_horn/nether_horn.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_nether_beetle/shadow_shaman_nether_beetle_horn_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6819:tangki-head",
+      "itemId": 6819,
+      "name": "Ornate Headdress of TangKi",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ea40e4d01e98/models/items/shadowshaman/tangki_head/tangki_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ea40e4d01e98/models/items/shadowshaman/tangki_head/tangki_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/tangki_head/tangki_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tangki_head-f696df391a2f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ea40e4d01e98/models/items/shadowshaman/tangki_head/tangki_head_color_tga_2c78484f.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:19872:dragontooth-head",
+      "itemId": 19872,
+      "name": "Ququmatz Charmer  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/656ed7e4ddb4/models/items/shadowshaman/dragontooth_head/dragontooth_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/656ed7e4ddb4/models/items/shadowshaman/dragontooth_head/dragontooth_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dragontooth_head/dragontooth_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragontooth_head-0331278e8616.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/656ed7e4ddb4/models/items/shadowshaman/dragontooth_head/dragontooth_head_color_tga_6ee98358.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:14364:shaman-charmer-of-firesnake-head",
+      "itemId": 14364,
+      "name": "Red Sands Marauder  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0b1867d962a1/models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0b1867d962a1/models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_charmer_of_firesnake_head-363822a98621.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/0b1867d962a1/models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head_color_tga_d40d9a99.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_charmer_of_firesnake_head/shaman_charmer_of_firesnake_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_charmer_firesnake/shadow_shaman_charmer_firesnake_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:8341:eyedancer-wrath-head",
+      "itemId": 8341,
+      "name": "Shade of the Spiteful Eye",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/154887488fa9/models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/154887488fa9/models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eyedancer_wrath_head-f57c8c7627f5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/154887488fa9/models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head_color_tga_2bc932d6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_spiteful/shadowshaman_stick_spite_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Shade of the Spiteful Eye Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Shade of the Spiteful Eye Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/shadow_shaman/shadow_shaman_spiteful/shadowshaman_stick_spite_head.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:8341:eyedancer-wrath-head:style-1",
+      "itemId": 8341,
+      "name": "Shade of the Spiteful Eye - Shade of the Spiteful Eye Particle",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/154887488fa9/models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/154887488fa9/models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eyedancer_wrath_head_particle-e9750de75bcb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/154887488fa9/models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head_color_tga_2bc932d6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_spiteful/shadowshaman_stick_spite_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Shade of the Spiteful Eye Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Shade of the Spiteful Eye Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/shadowshaman/eyedancer_wrath_head/eyedancer_wrath_head_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/shadow_shaman/shadow_shaman_spiteful/shadowshaman_stick_spite_head.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:248:helmet",
+      "itemId": 248,
+      "name": "Shadow Shamans Headdress",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c32e5f678607/models/heroes/shadowshaman/helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c32e5f678607/models/heroes/shadowshaman/helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helmet-9a33f82f5243.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c32e5f678607/models/heroes/shadowshaman/helmet_color_psd_f79dc05e.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7386:true-crow-vision",
+      "itemId": 7386,
+      "name": "True Crows Vision",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d7f8f479d0ab/models/items/shadowshaman/true_crow_vision/true_crow_vision.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d7f8f479d0ab/models/items/shadowshaman/true_crow_vision/true_crow_vision.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/true_crow_vision/true_crow_vision.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/true_crow_vision-58a03bac33a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d7f8f479d0ab/models/items/shadowshaman/true_crow_vision/true_crow_vision_color_tga_affe380d.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:35386:ss-fall20-immortal-head",
+      "itemId": 35386,
+      "name": "Tyrian Lash of the Lizard Kin",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/60b0a7a77442/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/60b0a7a77442/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ss_fall20_immortal_head2-0ed3e06b9524.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/60b0a7a77442/models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head_color_tga_811f252c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ss_fall20_immortal_head/ss_fall20_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_crystal_purple.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_eye_purple_b.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_eye_purple_b_left.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_hair_purple.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_mouth_purple_drips.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_fall20_ambient_purple.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/shadowshaman_shackle_net_fall20_purple.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/ss_fall20_tongue/status_effect_shaman_shackle_net_fall20.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_shaman_shackle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_shackle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:5548:visage-of-eki-bukaw",
+      "itemId": 5548,
+      "name": "Visage of Eki Bukaw",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/e3df363ed1ab/models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/e3df363ed1ab/models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/visage_of_eki_bukaw-7cb0000b6b7e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/e3df363ed1ab/models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw_color_tga_8119dd4c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/visage_of_eki_bukaw/visage_of_eki_bukaw.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/lina/lina_head_headflame/portrait_lina_alt1.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6310:shades-head",
+      "itemId": 6310,
+      "name": "Visage of Shades",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1730e809c51c/models/items/shadowshaman/shades_head/shades_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1730e809c51c/models/items/shadowshaman/shades_head/shades_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shades_head/shades_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shades_head-b7b8b6ca43b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1730e809c51c/models/items/shadowshaman/shades_head/shades_head_color_tga_be4c421f.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:18272:the-eagle-of-the-desert-head",
+      "itemId": 18272,
+      "name": "Vote Only The eagle of the desert Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/06ef41628e41/models/items/shadowshaman/the_eagle_of_the_desert_head/the_eagle_of_the_desert_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/06ef41628e41/models/items/shadowshaman/the_eagle_of_the_desert_head/the_eagle_of_the_desert_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/the_eagle_of_the_desert_head/the_eagle_of_the_desert_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_eagle_of_the_desert_head-9d8043c3269b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/06ef41628e41/models/items/shadowshaman/the_eagle_of_the_desert_head/the_eagle_of_the_desert_head_color_tga_a32ea372.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26282:shaman-yin-yang-master-offhand-weapon",
+      "itemId": 26282,
+      "name": "Bantam Blaze  Offhand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/62f4df6b094d/models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/62f4df6b094d/models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_yin_yang_master_offhand_weapon-9ebe1120d270.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/62f4df6b094d/models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon_color_tga_b03aa17d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_yin_yang_master_offhand_weapon/shaman_yin_yang_master_offhand_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:13366:ti9-cache-shaman-swamp-shaman-off-hand",
+      "itemId": 13366,
+      "name": "Bogmarch Charm",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/caccc8327a01/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/caccc8327a01/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_shaman_swamp_shaman_off_hand-1e4d60433400.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/caccc8327a01/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand_color_png_995a8d7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_off_hand/ti9_cache_shaman_swamp_shaman_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7514:dotapit-s3-wild-tempest-offhand",
+      "itemId": 7514,
+      "name": "Candelabra of Shamanic Light",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/de2e3f8aa0df/models/items/shadowshaman/dotapit_s3_wild_tempest_offhand/dotapit_s3_wild_tempest_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/de2e3f8aa0df/models/items/shadowshaman/dotapit_s3_wild_tempest_offhand/dotapit_s3_wild_tempest_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dotapit_s3_wild_tempest_offhand/dotapit_s3_wild_tempest_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_wild_tempest_offhand-48a34bd39e2b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/de2e3f8aa0df/models/items/shadowshaman/dotapit_s3_wild_tempest_offhand/dotapit_s3_wild_tempest_offhand_color_tga_6bf2957f.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9794:ss-ti8-immortal-offhand",
+      "itemId": 9794,
+      "name": "Censer of Gliss",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d0e4b399c7ea/models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d0e4b399c7ea/models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ss_ti8_immortal_offhand-347abeddd9de.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d0e4b399c7ea/models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand03_color_psd_1177b034.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_ti8/shadow_shaman_ti8_ether_shock.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_ti8/shadow_shaman_ti8_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_shadow_shaman_ethershock.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_ether_shock.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:12419:ss-ti8-immortal-offhand",
+      "itemId": 12419,
+      "name": "Crimson Censer of Gliss",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f72c4142e52e/models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f72c4142e52e/models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ss_ti8_immortal_offhand1-24124b584b1c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f72c4142e52e/models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand03_color_psd_1177b034.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ss_ti8_immortal_offhand/ss_ti8_immortal_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_ti8/shadow_shaman_crimson_ti8_ether_shock.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_ti8/shadow_shaman_crimson_ti8_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/status_fx/status_effect_shadow_shaman_ethershock.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_ether_shock.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:5503:eki-bukaw-wand-offhand",
+      "itemId": 5503,
+      "name": "Eki Bukaw Wand  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/795c0d9bfa17/models/items/shadowshaman/eki_bukaw_wand__offhand/eki_bukaw_wand__offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/795c0d9bfa17/models/items/shadowshaman/eki_bukaw_wand__offhand/eki_bukaw_wand__offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eki_bukaw_wand__offhand/eki_bukaw_wand__offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eki_bukaw_wand__offhand-2e33a70c0b6a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/795c0d9bfa17/models/items/shadowshaman/eki_bukaw_wand__offhand/eki_bukaw_wand__offhand_color_tga_8466ca1d.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26274:shaman-shadow-cultist-offhand-weapon",
+      "itemId": 26274,
+      "name": "Eyes in the Endless Dark  Offhand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/859f28a94f09/models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/859f28a94f09/models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_shadow_cultist_offhand_weapon-5f6e45cd22f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/859f28a94f09/models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon_color_psd_e9f0aa16.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_shadow_cultist_offhand_weapon/shaman_shadow_cultist_offhand_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_cultist_weapon/shadowshaman_cultist_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:4419:vagabond-drink",
+      "itemId": 4419,
+      "name": "Mysterious Vagabonds Concoction",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/716ab23c1e22/models/items/shadowshaman/vagabond_drink/vagabond_drink.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/716ab23c1e22/models/items/shadowshaman/vagabond_drink/vagabond_drink.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/vagabond_drink/vagabond_drink.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vagabond_drink-ec76808d2745.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/716ab23c1e22/models/items/shadowshaman/vagabond_drink/vagabond_drink_color_tga_ec3212d9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/vagabond_drink/vagabond_drink.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/vagabond_drink/vagabond_drink.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_vagabond_bottle/shadowshaman_stick_l_vagabond.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9887:eyedancer-wrath-offhand",
+      "itemId": 9887,
+      "name": "OffHand Baton of the Spiteful Eye",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1fcca99cafdb/models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1fcca99cafdb/models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eyedancer_wrath_offhand-91b7372c938e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1fcca99cafdb/models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand_color_tga_c582cfe9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/eyedancer_wrath_offhand/eyedancer_wrath_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_spiteful/shadowshaman_stick_spite_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9906:ti8-ss-mushroomer-off-hand",
+      "itemId": 9906,
+      "name": "OffHand of the Lucent Canopy",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/b040692f1e61/models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/b040692f1e61/models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_ss_mushroomer_off_hand-68cc6160b604.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/b040692f1e61/models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand_color_tga_e72c9ecd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/ti8_ss_mushroomer_off_hand/ti8_ss_mushroomer_off_hand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:36142:nether-shards",
+      "itemId": 36142,
+      "name": "Offhand Nether Wand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/dc2f2de43524/models/items/shadowshaman/nether_shards/nether_shards.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/dc2f2de43524/models/items/shadowshaman/nether_shards/nether_shards.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/nether_shards/nether_shards.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nether_shards-d9c56a0f8be5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/dc2f2de43524/models/items/shadowshaman/nether_shards/nether_shards_color_tga_626b0a58.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/nether_shards/nether_shards.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/nether_shards/nether_shards.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_winter_2025/shadowshaman_winter_2025_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:19871:dragontooth-off-hand",
+      "itemId": 19871,
+      "name": "Ququmatz Charmer  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ad3b8349d1de/models/items/shadowshaman/dragontooth_off_hand/dragontooth_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ad3b8349d1de/models/items/shadowshaman/dragontooth_off_hand/dragontooth_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dragontooth_off_hand/dragontooth_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragontooth_off_hand-34469a58ee3a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ad3b8349d1de/models/items/shadowshaman/dragontooth_off_hand/dragontooth_off_hand_color_tga_f3c79ca.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:14362:shaman-charmer-of-firesnake-off-hand",
+      "itemId": 14362,
+      "name": "Red Sands Marauder  Offhand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ac32676d9702/models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ac32676d9702/models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_charmer_of_firesnake_off_hand-c7d0d5e4a6cc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ac32676d9702/models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand_color_tga_f49ca4a8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_charmer_of_firesnake_off_hand/shaman_charmer_of_firesnake_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_charmer_firesnake/shadow_shaman_charmer_firesnake_offhand.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6198:shades-offhand",
+      "itemId": 6198,
+      "name": "Scepter of Shades  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1abccfbe19c3/models/items/shadowshaman/shades_offhand/shades_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1abccfbe19c3/models/items/shadowshaman/shades_offhand/shades_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shades_offhand/shades_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shades_offhand-3abd9d09168f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/1abccfbe19c3/models/items/shadowshaman/shades_offhand/shades_offhand_color_tga_c41cce31.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shades_offhand/shades_offhand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shades_offhand/shades_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_scepterofshades/shadowshaman_shades_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:247:weapon-offhand",
+      "itemId": 247,
+      "name": "Shadow Shamans Offhand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d1e4ea32643/models/heroes/shadowshaman/weapon_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d1e4ea32643/models/heroes/shadowshaman/weapon_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/weapon_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_offhand-d7d8de634bde.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3d1e4ea32643/models/heroes/shadowshaman/weapon_offhand_color_tga_b0d2fa79.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadowshaman/weapon_offhand.vmdl",
+        "modelPaths": [
+          "models/heroes/shadowshaman/weapon_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6814:tangki-offhand",
+      "itemId": 6814,
+      "name": "TangKi Scepter OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/dbc5a758ff8a/models/items/shadowshaman/tangki_offhand/tangki_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/dbc5a758ff8a/models/items/shadowshaman/tangki_offhand/tangki_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/tangki_offhand/tangki_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tangki_offhand-8a3cdb170dd2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/dbc5a758ff8a/models/items/shadowshaman/tangki_offhand/tangki_offhand_color_tga_2d73a597.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7387:true-crow-talon",
+      "itemId": 7387,
+      "name": "True Crows Talon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2be7f4ba1c7d/models/items/shadowshaman/true_crow_talon/true_crow_talon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2be7f4ba1c7d/models/items/shadowshaman/true_crow_talon/true_crow_talon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/true_crow_talon/true_crow_talon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/true_crow_talon-f294d807f4ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2be7f4ba1c7d/models/items/shadowshaman/true_crow_talon/true_crow_talon_color_tga_6dc2e30b.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:18269:the-eagle-of-the-desert-off-hand",
+      "itemId": 18269,
+      "name": "Vote Only The eagle of the desert OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot OffHand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ddf49e76cb24/models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ddf49e76cb24/models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_eagle_of_the_desert_off_hand-ca4d013b1876.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/ddf49e76cb24/models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand_color_tga_6bb51f53.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/the_eagle_of_the_desert_off_hand/the_eagle_of_the_desert_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_l.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26283:shaman-yin-yang-master-weapon",
+      "itemId": 26283,
+      "name": "Bantam Blaze  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/825cb51cedf8/models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/825cb51cedf8/models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_yin_yang_master_weapon-aee324e0101c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/825cb51cedf8/models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon_color_tga_42989cf7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_yin_yang_master_weapon/shaman_yin_yang_master_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9888:eyedancer-wrath-weapon",
+      "itemId": 9888,
+      "name": "Baton of the Spiteful Eye",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3fd414281568/models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3fd414281568/models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/eyedancer_wrath_weapon-ced959caab40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/3fd414281568/models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon_color_tga_c9512962.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/eyedancer_wrath_weapon/eyedancer_wrath_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_spiteful/shadowshaman_stick_spite_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:13364:ti9-cache-shaman-swamp-shaman-weapon",
+      "itemId": 13364,
+      "name": "Bogmarch Wand",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/97bfd6374535/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/97bfd6374535/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_shaman_swamp_shaman_weapon-a624bdf99ea5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/97bfd6374535/models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon_color_png_a5285b13.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ti9_cache_shaman_swamp_shaman_weapon/ti9_cache_shaman_swamp_shaman_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:9904:ti8-ss-mushroomer-weapon",
+      "itemId": 9904,
+      "name": "Charm of the Lucent Canopy",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/86a35623028a/models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/86a35623028a/models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_ss_mushroomer_weapon-35c7813c4bf7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/86a35623028a/models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon_color_tga_8863ab1b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/ti8_ss_mushroomer_weapon/ti8_ss_mushroomer_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:26273:shaman-shadow-cultist-weapon",
+      "itemId": 26273,
+      "name": "Eyes in the Endless Dark  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c08c2c2d0314/models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c08c2c2d0314/models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_shadow_cultist_weapon-6e02145f5a9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/c08c2c2d0314/models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon_color_psd_a2f52f2e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_shadow_cultist_weapon/shaman_shadow_cultist_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_cultist_weapon/shadowshaman_cultist_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:19870:dragontooth-weapon",
+      "itemId": 19870,
+      "name": "Ququmatz Charmer  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/081a1864bd9c/models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/081a1864bd9c/models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragontooth_weapon-7f35ff63d368.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/081a1864bd9c/models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon_color_tga_4f4ffc33.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/dragontooth_weapon/dragontooth_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:14361:shaman-charmer-of-firesnake-weapon",
+      "itemId": 14361,
+      "name": "Red Sands Marauder  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2165be7fd972/models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2165be7fd972/models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shaman_charmer_of_firesnake_weapon-b31f0e6a749f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/2165be7fd972/models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon_color_tga_1967f97.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shaman_charmer_of_firesnake_weapon/shaman_charmer_of_firesnake_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_charmer_firesnake/shadow_shaman_charmer_firesnake_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6197:shades-weapon",
+      "itemId": 6197,
+      "name": "Scepter of Shades",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/688e7d2aae5a/models/items/shadowshaman/shades_weapon/shades_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/688e7d2aae5a/models/items/shadowshaman/shades_weapon/shades_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/shades_weapon/shades_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shades_weapon-fb1dc37d2f96.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/688e7d2aae5a/models/items/shadowshaman/shades_weapon/shades_weapon_color_tga_11f05916.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/shades_weapon/shades_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/shades_weapon/shades_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/shadow_shaman/shadow_shaman_scepterofshades/shadowshaman_shades_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:246:weapon",
+      "itemId": 246,
+      "name": "Shadow Shamans Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/93189fffc9c8/models/heroes/shadowshaman/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/93189fffc9c8/models/heroes/shadowshaman/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/shadowshaman/weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon-56c214c44630.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/93189fffc9c8/models/heroes/shadowshaman/weapon_color_tga_80df48ce.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/shadowshaman/weapon.vmdl",
+        "modelPaths": [
+          "models/heroes/shadowshaman/weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:6816:tangki-weapon",
+      "itemId": 6816,
+      "name": "TangKi Scepter",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d48428bd3ed3/models/items/shadowshaman/tangki_weapon/tangki_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d48428bd3ed3/models/items/shadowshaman/tangki_weapon/tangki_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/tangki_weapon/tangki_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tangki_weapon-cfd88c0e5037.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/d48428bd3ed3/models/items/shadowshaman/tangki_weapon/tangki_weapon_color_tga_c2804560.png"
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:18270:the-eagle-of-the-desert-weapon",
+      "itemId": 18270,
+      "name": "Vote Only The eagle of the desert Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/60060eaeac8f/models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/60060eaeac8f/models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_eagle_of_the_desert_weapon-a00371e7e00e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/60060eaeac8f/models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon_color_tga_580a2ded.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon.vmdl",
+        "modelPaths": [
+          "models/items/shadowshaman/the_eagle_of_the_desert_weapon/the_eagle_of_the_desert_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_shadowshaman/shadowshaman_stick_r.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:item-model:7516:dotapit-s3-wild-tempest-weapon",
+      "itemId": 7516,
+      "name": "Wand of Shamanic Light",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f905ccc32cce/models/items/shadowshaman/dotapit_s3_wild_tempest_weapon/dotapit_s3_wild_tempest_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f905ccc32cce/models/items/shadowshaman/dotapit_s3_wild_tempest_weapon/dotapit_s3_wild_tempest_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/shadowshaman/dotapit_s3_wild_tempest_weapon/dotapit_s3_wild_tempest_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_wild_tempest_weapon-949146121eff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_shadow_shaman/f905ccc32cce/models/items/shadowshaman/dotapit_s3_wild_tempest_weapon/dotapit_s3_wild_tempest_weapon_color_tga_50d5776c.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:26278:bantam-blaze",
+      "name": "Bantam Blaze",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        19781,
+        26279,
+        26280,
+        26281,
+        26282,
+        26283
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/shaman_yin_yang_master_loading_screen-effdbb337c67.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20922:dancer-of-the-spiteful-eye",
+      "name": "Dancer of the Spiteful Eye",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        8341,
+        9884,
+        9885,
+        9886,
+        9887,
+        9888
+      ],
+      "styleSelections": {
+        "8341": "0"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/eyedancer_wrath_loading_screen-c14ff7a99db3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20922:dancer-of-the-spiteful-eye:style-1",
+      "name": "Dancer of the Spiteful Eye - Shade of the Spiteful Eye Particle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        8341,
+        9884,
+        9885,
+        9886,
+        9887,
+        9888
+      ],
+      "styleSelections": {
+        "8341": "1"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/eyedancer_wrath_head_particle-e9750de75bcb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20438:dota2vo-ability-cup-1",
+      "name": "Dota2VO Ability Cup #1",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "sourceItemIds": [
+        6197,
+        6198,
+        6206,
+        6309,
+        6310
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/shades_weapon-fb1dc37d2f96.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20283:eki-bukaw-wand-pack",
+      "name": "Eki Bukaw Wand Pack",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        247
+      ],
+      "sourceItemIds": [
+        5503
+      ],
+      "slots": [
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 2,
+      "previewUrl": "/larimods-data/v1/icons/eki_bukaw_wand-a7c86dc6a130.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20275:eki-spiritual-implements-set",
+      "name": "Eki Spiritual Implements Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        5500,
+        5501,
+        5503,
+        5507,
+        5548
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/eki_bukaw_bracers-b36b31eab161.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:21201:endowments-of-the-lucent-canopy",
+      "name": "Endowments of the Lucent Canopy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        9904,
+        9905,
+        9906,
+        9907,
+        9908,
+        9909
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/ti8_ss_mushroomer_weapon-35c7813c4bf7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:21395:endurance-of-the-bogmarch",
+      "name": "Endurance of the Bogmarch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        13364,
+        13365,
+        13366,
+        13367,
+        13368,
+        13369
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_shaman_swamp_shaman_weapon-a624bdf99ea5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:26271:eyes-in-the-endless-dark",
+      "name": "Eyes in the Endless Dark",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        26272,
+        26273,
+        26274,
+        26275,
+        26276,
+        26277
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/shaman_shadow_cultist_weapon-6e02145f5a9d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20719:favors-of-the-shamanic-light",
+      "name": "Favors of the Shamanic Light",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        7511,
+        7512,
+        7513,
+        7514,
+        7515,
+        7516
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/dotapit_s3_shadow_shaman-77826eac61a3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20450:garb-of-shades",
+      "name": "Garb of Shades",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "sourceItemIds": [
+        6197,
+        6198,
+        6206,
+        6309,
+        6310
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/shades_weapon-fb1dc37d2f96.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20554:mystic-instruments-of-tangki",
+      "name": "Mystic Instruments of TangKi",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        6814,
+        6815,
+        6816,
+        6817,
+        6818,
+        6819
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/tangki-a0aae60631bc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:36147:nether-beetle",
+      "name": "Nether Beetle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        36142,
+        36143,
+        36144,
+        36146,
+        36148
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/nether_shards-d9c56a0f8be5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20572:promo-mystic-instruments-of-tangki",
+      "name": "Promo Mystic Instruments of TangKi",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        6814,
+        6815,
+        6816,
+        6817,
+        6818,
+        6819
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/tangki-a0aae60631bc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:21970:ququmatz-charmer",
+      "name": "Ququmatz Charmer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "sourceItemIds": [
+        19870,
+        19871,
+        19872,
+        19873,
+        19874
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dragontooth_weapon-7f35ff63d368.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:21547:red-sands-marauder",
+      "name": "Red Sands Marauder",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        14361,
+        14362,
+        14364,
+        14365,
+        14366,
+        14367
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/shaman_charmer_of_firesnake_ls-873a63e75f7d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20100:the-mysterious-vagabond-set",
+      "name": "The Mysterious Vagabond Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        247,
+        248,
+        250
+      ],
+      "sourceItemIds": [
+        4412,
+        4417,
+        4419
+      ],
+      "slots": [
+        "belt",
+        "head",
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/vagabond_pack-1406482ba995.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:20695:the-true-crow",
+      "name": "The True Crow",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        7275,
+        7384,
+        7386,
+        7387,
+        7388
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/true_crow_loading_screen-b25e73523b0d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_shadow_shaman:core-set:21781:vote-only-the-eagle-of-the-desert",
+      "name": "Vote Only The eagle of the desert",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        8370
+      ],
+      "sourceItemIds": [
+        18269,
+        18270,
+        18271,
+        18272,
+        18273,
+        18274
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "summon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 39299420,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 495
+  }
+}

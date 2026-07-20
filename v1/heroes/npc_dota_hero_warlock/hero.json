@@ -1,0 +1,4130 @@
+{
+  "heroId": "npc_dota_hero_warlock",
+  "sourceHeroId": "npc_dota_hero_warlock",
+  "variantId": "default",
+  "heroName": "Warlock",
+  "heroSlug": "warlock",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_warlock/99b17cacbb16/models/heroes/warlock/warlock.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 243,
+      "name": "Warlocks Arms",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f5ca8b0cac0f/models/heroes/warlock/warlock_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f5ca8b0cac0f/models/heroes/warlock/warlock_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f5ca8b0cac0f/models/heroes/warlock/warlock_bracers_color_psd_e5768d52.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 244,
+      "name": "Warlocks Robe",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d51b33755ad7/models/heroes/warlock/warlock_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/d51b33755ad7/models/heroes/warlock/warlock_robe.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_robe.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d51b33755ad7/models/heroes/warlock/warlock_robe_color_psd_43dd7239.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "itemId": 245,
+      "name": "Warlocks Bag",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3b6ea3a81dfb/models/heroes/warlock/warlock_bag.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/3b6ea3a81dfb/models/heroes/warlock/warlock_bag.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_bag.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3b6ea3a81dfb/models/heroes/warlock/warlock_bag_color_psd_382211b4.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 241,
+      "name": "Warlocks Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/60187ea3a8a6/models/heroes/warlock/warlock_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/60187ea3a8a6/models/heroes/warlock/warlock_cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_cape.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/60187ea3a8a6/models/heroes/warlock/warlock_cape_color_psd_88880d7d.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "itemId": 240,
+      "name": "Warlocks Lantern",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f4755c154236/models/heroes/warlock/warlock_lantern.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f4755c154236/models/heroes/warlock/warlock_lantern.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_lantern.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f4755c154236/models/heroes/warlock/warlock_lantern_color_psd_daa4cd52.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 242,
+      "name": "Warlocks Shoulder",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/406d822dcd91/models/heroes/warlock/warlock_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/406d822dcd91/models/heroes/warlock/warlock_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/406d822dcd91/models/heroes/warlock/warlock_shoulder_color_psd_fe971a81.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 239,
+      "name": "Warlocks Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/977f1fd9abe2/models/heroes/warlock/warlock_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/977f1fd9abe2/models/heroes/warlock/warlock_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_staff.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/977f1fd9abe2/models/heroes/warlock/warlock_staff_color_psd_1f96509.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_warlock:item-model:9920:ti-8-warlock-darkness-apostate-arms",
+      "itemId": 9920,
+      "name": "Arms of the Dread Compact",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/334478600370/models/items/warlock/ti_8_warlock_darkness_apostate_arms/ti_8_warlock_darkness_apostate_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/334478600370/models/items/warlock/ti_8_warlock_darkness_apostate_arms/ti_8_warlock_darkness_apostate_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti_8_warlock_darkness_apostate_arms/ti_8_warlock_darkness_apostate_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_arms-f4eca5a0b6d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/334478600370/models/items/warlock/ti_8_warlock_darkness_apostate_arms/ti_8_warlock_darkness_apostate_arms_color_psd_682943be.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14002:puppet-summoner-arms",
+      "itemId": 14002,
+      "name": "Beholden of the Banished Ones  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2d0058f422ea/models/items/warlock/puppet_summoner_arms/puppet_summoner_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/2d0058f422ea/models/items/warlock/puppet_summoner_arms/puppet_summoner_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/puppet_summoner_arms/puppet_summoner_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puppet_summoner_arms-f4e08832eb71.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2d0058f422ea/models/items/warlock/puppet_summoner_arms/puppet_summoner_arms_color_tga_4d77f1df.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4477:archivist-bracers",
+      "itemId": 4477,
+      "name": "Bracers of the Archivist",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/bc6010f206fa/models/items/warlock/archivist_bracers/archivist_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/bc6010f206fa/models/items/warlock/archivist_bracers/archivist_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/archivist_bracers/archivist_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/archivist_bracers-43d67ca047e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/bc6010f206fa/models/items/warlock/archivist_bracers/archivist_bracers_color_tga_57aa0ed9.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5725:bracers-of-the-conjurer",
+      "itemId": 5725,
+      "name": "Bracers of the Conjurer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5c6ae5702142/models/items/warlock/bracers_of_the_conjurer/bracers_of_the_conjurer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5c6ae5702142/models/items/warlock/bracers_of_the_conjurer/bracers_of_the_conjurer.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/bracers_of_the_conjurer/bracers_of_the_conjurer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracers_of_the_conjurer-8c2e78834293.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5c6ae5702142/models/items/warlock/bracers_of_the_conjurer/bracers_of_the_conjurer_color_tga_fc2d411c.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7229:grimoires-arms",
+      "itemId": 7229,
+      "name": "Bracers of the Dark Curator",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/ab2658dfd0b8/models/items/warlock/grimoires_arms/grimoires_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/ab2658dfd0b8/models/items/warlock/grimoires_arms/grimoires_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/grimoires_arms/grimoires_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grimoires_arms-a1744540d013.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/ab2658dfd0b8/models/items/warlock/grimoires_arms/grimoires_arms_color_tga_f14b3ae.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8076:tevent-2-gatekeeper-arms",
+      "itemId": 8076,
+      "name": "Bracers of the Gatekeeper",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/fafe83ca4cfc/models/items/warlock/tevent_2_gatekeeper_arms/tevent_2_gatekeeper_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/fafe83ca4cfc/models/items/warlock/tevent_2_gatekeeper_arms/tevent_2_gatekeeper_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/tevent_2_gatekeeper_arms/tevent_2_gatekeeper_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_arms-025cf0d88d93.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/fafe83ca4cfc/models/items/warlock/tevent_2_gatekeeper_arms/tevent_2_gatekeeper_arms_color_tga_e5ac3aac.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8942:mystery-of-the-lost-ores-arms",
+      "itemId": 8942,
+      "name": "Bracers of the Infernal Maw",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7dfc6d4867cb/models/items/warlock/mystery_of_the_lost_ores_arms/mystery_of_the_lost_ores_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/7dfc6d4867cb/models/items/warlock/mystery_of_the_lost_ores_arms/mystery_of_the_lost_ores_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mystery_of_the_lost_ores_arms/mystery_of_the_lost_ores_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_arms-95cb1f4e3793.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7dfc6d4867cb/models/items/warlock/mystery_of_the_lost_ores_arms/mystery_of_the_lost_ores_arms_color_tga_b48847f8.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14304:warlock-the-infernal-master-arms",
+      "itemId": 14304,
+      "name": "Bracers of the Spiteful Djinn",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8eac075a7267/models/items/warlock/warlock_the_infernal_master_arms/warlock_the_infernal_master_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/8eac075a7267/models/items/warlock/warlock_the_infernal_master_arms/warlock_the_infernal_master_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_the_infernal_master_arms/warlock_the_infernal_master_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_arms-1302c60b8d81.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8eac075a7267/models/items/warlock/warlock_the_infernal_master_arms/warlock_the_infernal_master_arms_color_tga_6229a6b2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_the_infernal_master_arms/warlock_the_infernal_master_arms.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_the_infernal_master_arms/warlock_the_infernal_master_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_infernal_master/warlock_infernal_master_arms.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8358:mdl-warlock-arms",
+      "itemId": 8358,
+      "name": "Bracers of the Wailing Inferno",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8dabb877aa16/models/items/warlock/mdl_warlock_arms/mdl_warlock_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/8dabb877aa16/models/items/warlock/mdl_warlock_arms/mdl_warlock_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mdl_warlock_arms/mdl_warlock_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mdl_warlock_arms-2647ce0a4f18.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8dabb877aa16/models/items/warlock/mdl_warlock_arms/mdl_warlock_arms_color_tga_fabd6823.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9861:hellsworn-arms",
+      "itemId": 9861,
+      "name": "Gauntlets of the Hellsworn",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5761002ef1f7/models/items/warlock/hellsworn_arms/hellsworn_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5761002ef1f7/models/items/warlock/hellsworn_arms/hellsworn_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/hellsworn_arms/hellsworn_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hellsworn_arms-d24190fd0cfb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5761002ef1f7/models/items/warlock/hellsworn_arms/hellsworn_arms_color_tga_218fe438.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:26707:warlock-tailor-of-burning-puppet-arms",
+      "itemId": 26707,
+      "name": "Seam Ripper Snuggle Time  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/afab8f606964/models/items/warlock/warlock_tailor_of_burning_puppet_arms/warlock_tailor_of_burning_puppet_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/afab8f606964/models/items/warlock/warlock_tailor_of_burning_puppet_arms/warlock_tailor_of_burning_puppet_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_tailor_of_burning_puppet_arms/warlock_tailor_of_burning_puppet_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_arms-c0b53f2b21db.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/afab8f606964/models/items/warlock/warlock_tailor_of_burning_puppet_arms/warlock_tailor_of_burning_puppet_arms_color_tga_21ada524.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13280:ti9-cache-warlock-tribal-warlock-arms",
+      "itemId": 13280,
+      "name": "Tribal Pathways Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/6c79e10fb0af/models/items/warlock/ti9_cache_warlock_tribal_warlock_arms/ti9_cache_warlock_tribal_warlock_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/6c79e10fb0af/models/items/warlock/ti9_cache_warlock_tribal_warlock_arms/ti9_cache_warlock_tribal_warlock_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti9_cache_warlock_tribal_warlock_arms/ti9_cache_warlock_tribal_warlock_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_arms-31644dbed814.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/6c79e10fb0af/models/items/warlock/ti9_cache_warlock_tribal_warlock_arms/ti9_cache_warlock_tribal_warlock_arms_color_psd_ec30d7e5.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:19323:greevil-master-arms",
+      "itemId": 19323,
+      "name": "Vote Only Greevil Master Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/75701b9c2bc7/models/items/warlock/greevil_master_arms/greevil_master_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/75701b9c2bc7/models/items/warlock/greevil_master_arms/greevil_master_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/greevil_master_arms/greevil_master_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/greevil_master_arms-3faf642865b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/75701b9c2bc7/models/items/warlock/greevil_master_arms/greevil_master_arms_color_png_e68ebeb.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:243:warlock-bracers",
+      "itemId": 243,
+      "name": "Warlocks Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f5ca8b0cac0f/models/heroes/warlock/warlock_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f5ca8b0cac0f/models/heroes/warlock/warlock_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_bracers-676875414043.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f5ca8b0cac0f/models/heroes/warlock/warlock_bracers_color_psd_e5768d52.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14001:puppet-summoner-back",
+      "itemId": 14001,
+      "name": "Beholden of the Banished Ones  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8c166b7df5b6/models/items/warlock/puppet_summoner_back/puppet_summoner_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/8c166b7df5b6/models/items/warlock/puppet_summoner_back/puppet_summoner_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/puppet_summoner_back/puppet_summoner_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puppet_summoner_back-33f3754a7a4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8c166b7df5b6/models/items/warlock/puppet_summoner_back/puppet_summoner_back_color_tga_46772835.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8077:tevent-2-gatekeeper-belt",
+      "itemId": 8077,
+      "name": "Belt of the Gatekeeper",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/1ee31265aab1/models/items/warlock/tevent_2_gatekeeper_belt/tevent_2_gatekeeper_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/1ee31265aab1/models/items/warlock/tevent_2_gatekeeper_belt/tevent_2_gatekeeper_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/tevent_2_gatekeeper_belt/tevent_2_gatekeeper_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_belt-3e9d49f24053.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/1ee31265aab1/models/items/warlock/tevent_2_gatekeeper_belt/tevent_2_gatekeeper_belt_color_tga_259bb437.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14303:warlock-the-infernal-master-back",
+      "itemId": 14303,
+      "name": "Dress of the Spiteful Djinn",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/dd15c68bf4d2/models/items/warlock/warlock_the_infernal_master_back/warlock_the_infernal_master_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/dd15c68bf4d2/models/items/warlock/warlock_the_infernal_master_back/warlock_the_infernal_master_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_the_infernal_master_back/warlock_the_infernal_master_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_back-ba77da0dea7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/dd15c68bf4d2/models/items/warlock/warlock_the_infernal_master_back/warlock_the_infernal_master_back_color_tga_da887e4e.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8357:mdl-warlock-back",
+      "itemId": 8357,
+      "name": "Garb of the Wailing Inferno",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/37af3f0fa1ad/models/items/warlock/mdl_warlock_back/mdl_warlock_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/37af3f0fa1ad/models/items/warlock/mdl_warlock_back/mdl_warlock_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mdl_warlock_back/mdl_warlock_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mdl_warlock_back-68ac0fb14349.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/37af3f0fa1ad/models/items/warlock/mdl_warlock_back/mdl_warlock_back_color_tga_b6d12842.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5727:garment-of-control",
+      "itemId": 5727,
+      "name": "Garment of Control",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2387d0c5c942/models/items/warlock/garment_of_control/garment_of_control.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/2387d0c5c942/models/items/warlock/garment_of_control/garment_of_control.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/garment_of_control/garment_of_control.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/garment_of_control-a82ed3108f47.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2387d0c5c942/models/items/warlock/garment_of_control/garment_of_control_color_tga_2d2da17c.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8943:mystery-of-the-lost-ores-back",
+      "itemId": 8943,
+      "name": "Garment of the Infernal Maw",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5a30f799131a/models/items/warlock/mystery_of_the_lost_ores_back/mystery_of_the_lost_ores_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5a30f799131a/models/items/warlock/mystery_of_the_lost_ores_back/mystery_of_the_lost_ores_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mystery_of_the_lost_ores_back/mystery_of_the_lost_ores_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_back-7e4be24f8ba7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5a30f799131a/models/items/warlock/mystery_of_the_lost_ores_back/mystery_of_the_lost_ores_back_color_tga_a2352892.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4474:archivists-robe",
+      "itemId": 4474,
+      "name": "Robe of the Archivist",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/109de1ccae28/models/items/warlock/archivists_robe/archivists_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/109de1ccae28/models/items/warlock/archivists_robe/archivists_robe.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/archivists_robe/archivists_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/archivists_robe-5d1ab0693527.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/109de1ccae28/models/items/warlock/archivists_robe/archivists_robe_color_tga_25697caa.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7228:grimoires-back",
+      "itemId": 7228,
+      "name": "Robe of the Dark Curator",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/b5fb727c6937/models/items/warlock/grimoires_back/grimoires_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/b5fb727c6937/models/items/warlock/grimoires_back/grimoires_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/grimoires_back/grimoires_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grimoires_back-54634c84cb6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/b5fb727c6937/models/items/warlock/grimoires_back/grimoires_back_color_tga_c5de6780.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9924:ti-8-warlock-darkness-apostate-back",
+      "itemId": 9924,
+      "name": "Robes of the Dread Compact",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a96616c4c1c5/models/items/warlock/ti_8_warlock_darkness_apostate_back/ti_8_warlock_darkness_apostate_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/a96616c4c1c5/models/items/warlock/ti_8_warlock_darkness_apostate_back/ti_8_warlock_darkness_apostate_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti_8_warlock_darkness_apostate_back/ti_8_warlock_darkness_apostate_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_back-61acebb648ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a96616c4c1c5/models/items/warlock/ti_8_warlock_darkness_apostate_back/ti_8_warlock_darkness_apostate_back_color_psd_3049446e.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:26699:warlock-tailor-of-burning-puppet-back",
+      "itemId": 26699,
+      "name": "Seam Ripper Snuggle Time  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/243707a39150/models/items/warlock/warlock_tailor_of_burning_puppet_back/warlock_tailor_of_burning_puppet_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/243707a39150/models/items/warlock/warlock_tailor_of_burning_puppet_back/warlock_tailor_of_burning_puppet_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_tailor_of_burning_puppet_back/warlock_tailor_of_burning_puppet_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_back-a80f0b27c012.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/243707a39150/models/items/warlock/warlock_tailor_of_burning_puppet_back/warlock_tailor_of_burning_puppet_back_color_tga_82437808.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13281:ti9-cache-warlock-tribal-warlock-back",
+      "itemId": 13281,
+      "name": "Tribal Pathways Robe",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2f23f7857d39/models/items/warlock/ti9_cache_warlock_tribal_warlock_back/ti9_cache_warlock_tribal_warlock_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/2f23f7857d39/models/items/warlock/ti9_cache_warlock_tribal_warlock_back/ti9_cache_warlock_tribal_warlock_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti9_cache_warlock_tribal_warlock_back/ti9_cache_warlock_tribal_warlock_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_back-53866e2cbd67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2f23f7857d39/models/items/warlock/ti9_cache_warlock_tribal_warlock_back/ti9_cache_warlock_tribal_warlock_back_color_psd_9ecb001b.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:19322:greevil-master-back",
+      "itemId": 19322,
+      "name": "Vote Only Greevil Master Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/ed5d165606e6/models/items/warlock/greevil_master_back/greevil_master_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/ed5d165606e6/models/items/warlock/greevil_master_back/greevil_master_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/greevil_master_back/greevil_master_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/greevil_master_back-1d789ffd20dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/ed5d165606e6/models/items/warlock/greevil_master_back/greevil_master_back_color_png_932446f.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:244:warlock-robe",
+      "itemId": 244,
+      "name": "Warlocks Robe",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d51b33755ad7/models/heroes/warlock/warlock_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/d51b33755ad7/models/heroes/warlock/warlock_robe.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_robe-8a731c8b14ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d51b33755ad7/models/heroes/warlock/warlock_robe_color_psd_43dd7239.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7227:grimoires-belt",
+      "itemId": 7227,
+      "name": "Bag of the Dark Curator",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d430be2b664e/models/items/warlock/grimoires_belt/grimoires_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/d430be2b664e/models/items/warlock/grimoires_belt/grimoires_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/grimoires_belt/grimoires_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grimoires_belt-4ea26b1a0e93.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d430be2b664e/models/items/warlock/grimoires_belt/grimoires_belt_color_tga_2aefd535.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8361:mdl-warlock-belt",
+      "itemId": 8361,
+      "name": "Bag of the Wailing Inferno",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9282ebbdbcd9/models/items/warlock/mdl_warlock_belt/mdl_warlock_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/9282ebbdbcd9/models/items/warlock/mdl_warlock_belt/mdl_warlock_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mdl_warlock_belt/mdl_warlock_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mdl_warlock_belt-1517d563dad0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9282ebbdbcd9/models/items/warlock/mdl_warlock_belt/mdl_warlock_belt_color_tga_7844fb7c.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14000:puppet-summoner-belt",
+      "itemId": 14000,
+      "name": "Beholden of the Banished Ones  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9bac00f8846c/models/items/warlock/puppet_summoner_belt/puppet_summoner_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/9bac00f8846c/models/items/warlock/puppet_summoner_belt/puppet_summoner_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/puppet_summoner_belt/puppet_summoner_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puppet_summoner_belt-290ed3232c48.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9bac00f8846c/models/items/warlock/puppet_summoner_belt/puppet_summoner_belt_color_tga_c7c61c1e.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9925:ti-8-warlock-darkness-apostate-belt",
+      "itemId": 9925,
+      "name": "Belt of the Dread Compact",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9d3761633f35/models/items/warlock/ti_8_warlock_darkness_apostate_belt/ti_8_warlock_darkness_apostate_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/9d3761633f35/models/items/warlock/ti_8_warlock_darkness_apostate_belt/ti_8_warlock_darkness_apostate_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti_8_warlock_darkness_apostate_belt/ti_8_warlock_darkness_apostate_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_belt-ae797b43b12c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9d3761633f35/models/items/warlock/ti_8_warlock_darkness_apostate_belt/ti_8_warlock_darkness_apostate_belt_color_psd_79df76ec.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/ti_8_warlock_darkness_apostate_belt/ti_8_warlock_darkness_apostate_belt.vmdl",
+        "modelPaths": [
+          "models/items/warlock/ti_8_warlock_darkness_apostate_belt/ti_8_warlock_darkness_apostate_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_ti8/warlock_ti8_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14302:warlock-the-infernal-master-belt",
+      "itemId": 14302,
+      "name": "Belt of the Spiteful Djinn",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/688234482106/models/items/warlock/warlock_the_infernal_master_belt/warlock_the_infernal_master_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/688234482106/models/items/warlock/warlock_the_infernal_master_belt/warlock_the_infernal_master_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_the_infernal_master_belt/warlock_the_infernal_master_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_belt-8cdca6381a7f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/688234482106/models/items/warlock/warlock_the_infernal_master_belt/warlock_the_infernal_master_belt_color_tga_597bfcc5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_the_infernal_master_belt/warlock_the_infernal_master_belt.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_the_infernal_master_belt/warlock_the_infernal_master_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_infernal_master/warlock_infernal_master_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8946:mystery-of-the-lost-ores-belt",
+      "itemId": 8946,
+      "name": "Book of the Infernal Maw",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/64ec738fc872/models/items/warlock/mystery_of_the_lost_ores_belt/mystery_of_the_lost_ores_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/64ec738fc872/models/items/warlock/mystery_of_the_lost_ores_belt/mystery_of_the_lost_ores_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mystery_of_the_lost_ores_belt/mystery_of_the_lost_ores_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_belt-167370c5af37.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/64ec738fc872/models/items/warlock/mystery_of_the_lost_ores_belt/mystery_of_the_lost_ores_belt_color_tga_f62611a9.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8078:tevent-2-gatekeeper-cloak",
+      "itemId": 8078,
+      "name": "Cloak of the Gatekeeper",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/921da8fb5230/models/items/warlock/tevent_2_gatekeeper_cloak/tevent_2_gatekeeper_cloak.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/921da8fb5230/models/items/warlock/tevent_2_gatekeeper_cloak/tevent_2_gatekeeper_cloak.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/tevent_2_gatekeeper_cloak/tevent_2_gatekeeper_cloak.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_cloak-2f43e87be2ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/921da8fb5230/models/items/warlock/tevent_2_gatekeeper_cloak/tevent_2_gatekeeper_cloak_color_tga_51da5330.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4472:archivist-facebag",
+      "itemId": 4472,
+      "name": "Demonbag of the Archivist",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3cc8cf2ae834/models/items/warlock/archivist_facebag/archivist_facebag.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/3cc8cf2ae834/models/items/warlock/archivist_facebag/archivist_facebag.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/archivist_facebag/archivist_facebag.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/archivist_facebag-d1e44cee9163.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3cc8cf2ae834/models/items/warlock/archivist_facebag/archivist_facebag_color_tga_dc0c32c1.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5726:the-demonomicon",
+      "itemId": 5726,
+      "name": "Demonomicon",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/509666fa345c/models/items/warlock/the_demonomicon/the_demonomicon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/509666fa345c/models/items/warlock/the_demonomicon/the_demonomicon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/the_demonomicon/the_demonomicon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_demonomicon-7bd2981cf7e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/509666fa345c/models/items/warlock/the_demonomicon/the_demonomicon_color_tga_7b1a0c55.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:26700:warlock-tailor-of-burning-puppet-belt",
+      "itemId": 26700,
+      "name": "Seam Ripper Snuggle Time  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9af9127ba291/models/items/warlock/warlock_tailor_of_burning_puppet_belt/warlock_tailor_of_burning_puppet_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/9af9127ba291/models/items/warlock/warlock_tailor_of_burning_puppet_belt/warlock_tailor_of_burning_puppet_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_tailor_of_burning_puppet_belt/warlock_tailor_of_burning_puppet_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_belt-301253a11cb7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9af9127ba291/models/items/warlock/warlock_tailor_of_burning_puppet_belt/warlock_tailor_of_burning_puppet_belt_color_tga_7272f086.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13276:ti9-cache-warlock-tribal-warlock-belt",
+      "itemId": 13276,
+      "name": "Tribal Pathways Necklace",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f4ef1ca9413d/models/items/warlock/ti9_cache_warlock_tribal_warlock_belt/ti9_cache_warlock_tribal_warlock_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f4ef1ca9413d/models/items/warlock/ti9_cache_warlock_tribal_warlock_belt/ti9_cache_warlock_tribal_warlock_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti9_cache_warlock_tribal_warlock_belt/ti9_cache_warlock_tribal_warlock_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_belt-61d2e51772ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f4ef1ca9413d/models/items/warlock/ti9_cache_warlock_tribal_warlock_belt/ti9_cache_warlock_tribal_warlock_belt_color_tga_9b093f08.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:19321:greevil-master-belt",
+      "itemId": 19321,
+      "name": "Vote Only Greevil Master Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/4764d4da2926/models/items/warlock/greevil_master_belt/greevil_master_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/4764d4da2926/models/items/warlock/greevil_master_belt/greevil_master_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/greevil_master_belt/greevil_master_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/greevil_master_belt-307a002a7574.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/4764d4da2926/models/items/warlock/greevil_master_belt/greevil_master_belt_color_png_4e07b3df.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:245:warlock-bag",
+      "itemId": 245,
+      "name": "Warlocks Bag",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Warlock EvilPurse",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3b6ea3a81dfb/models/heroes/warlock/warlock_bag.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/3b6ea3a81dfb/models/heroes/warlock/warlock_bag.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_bag.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_bag-f80eb3410285.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3b6ea3a81dfb/models/heroes/warlock/warlock_bag_color_psd_382211b4.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13999:puppet-summoner-head",
+      "itemId": 13999,
+      "name": "Beholden of the Banished Ones  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/53843b019630/models/items/warlock/puppet_summoner_head/puppet_summoner_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/53843b019630/models/items/warlock/puppet_summoner_head/puppet_summoner_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/puppet_summoner_head/puppet_summoner_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puppet_summoner_head-45f527514adc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/53843b019630/models/items/warlock/puppet_summoner_head/puppet_summoner_head_color_tga_19168d05.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/puppet_summoner_head/puppet_summoner_head.vmdl",
+        "modelPaths": [
+          "models/items/warlock/puppet_summoner_head/puppet_summoner_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/items/warlock/ti10_puppet_summoner_head/ti10_puppet_summoner_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9922:ti-8-warlock-darkness-apostate-head",
+      "itemId": 9922,
+      "name": "Cowl of the Dread Compact",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/dacaf742d99a/models/items/warlock/ti_8_warlock_darkness_apostate_head/ti_8_warlock_darkness_apostate_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/dacaf742d99a/models/items/warlock/ti_8_warlock_darkness_apostate_head/ti_8_warlock_darkness_apostate_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti_8_warlock_darkness_apostate_head/ti_8_warlock_darkness_apostate_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_head-c014ebc01971.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/dacaf742d99a/models/items/warlock/ti_8_warlock_darkness_apostate_head/ti_8_warlock_darkness_apostate_head_color_psd_1f80cb21.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5594:hood-of-the-conjurer",
+      "itemId": 5594,
+      "name": "Hood of the Conjurer",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8d2eb2b6a0a9/models/items/warlock/hood_of_the_conjurer/hood_of_the_conjurer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/8d2eb2b6a0a9/models/items/warlock/hood_of_the_conjurer/hood_of_the_conjurer.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/hood_of_the_conjurer/hood_of_the_conjurer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hood_of_the_conjurer-489f8b788632.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8d2eb2b6a0a9/models/items/warlock/hood_of_the_conjurer/hood_of_the_conjurer_color_tga_b4cc31db.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7252:grimoires-head",
+      "itemId": 7252,
+      "name": "Hood of the Dark Curator",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/04649cc6d169/models/items/warlock/grimoires_head/grimoires_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/04649cc6d169/models/items/warlock/grimoires_head/grimoires_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/grimoires_head/grimoires_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grimoires_head-c57b548f31f7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/04649cc6d169/models/items/warlock/grimoires_head/grimoires_head_color_tga_a93ea173.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8079:tevent-2-gatekeeper-head",
+      "itemId": 8079,
+      "name": "Hood of the Gatekeeper",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/bb06c25b328c/models/items/warlock/tevent_2_gatekeeper_head/tevent_2_gatekeeper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/bb06c25b328c/models/items/warlock/tevent_2_gatekeeper_head/tevent_2_gatekeeper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/tevent_2_gatekeeper_head/tevent_2_gatekeeper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_head-8807d557f6a6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/bb06c25b328c/models/items/warlock/tevent_2_gatekeeper_head/tevent_2_gatekeeper_head_color_tga_22ed8141.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8941:mystery-of-the-lost-ores-head",
+      "itemId": 8941,
+      "name": "Hood of the Infernal Maw",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/88bc30bd277d/models/items/warlock/mystery_of_the_lost_ores_head/mystery_of_the_lost_ores_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/88bc30bd277d/models/items/warlock/mystery_of_the_lost_ores_head/mystery_of_the_lost_ores_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mystery_of_the_lost_ores_head/mystery_of_the_lost_ores_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_head-7844f32c7c0a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/88bc30bd277d/models/items/warlock/mystery_of_the_lost_ores_head/mystery_of_the_lost_ores_head_color_tga_14c793f0.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14300:warlock-the-infernal-master-head",
+      "itemId": 14300,
+      "name": "Hood of the Spiteful Djinn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/45b14df8d365/models/items/warlock/warlock_the_infernal_master_head/warlock_the_infernal_master_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/45b14df8d365/models/items/warlock/warlock_the_infernal_master_head/warlock_the_infernal_master_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_the_infernal_master_head/warlock_the_infernal_master_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_head-58e6a7953424.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/45b14df8d365/models/items/warlock/warlock_the_infernal_master_head/warlock_the_infernal_master_head_color_tga_2b922794.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_the_infernal_master_head/warlock_the_infernal_master_head.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_the_infernal_master_head/warlock_the_infernal_master_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_infernal_master/warlock_infernal_master_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8360:mdl-warlock-head",
+      "itemId": 8360,
+      "name": "Hood of the Wailing Inferno",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5f0affbcddf4/models/items/warlock/mdl_warlock_head/mdl_warlock_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5f0affbcddf4/models/items/warlock/mdl_warlock_head/mdl_warlock_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mdl_warlock_head/mdl_warlock_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mdl_warlock_head-780cdfa5572b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5f0affbcddf4/models/items/warlock/mdl_warlock_head/mdl_warlock_head_color_tga_2ee749dc.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:26702:warlock-tailor-of-burning-puppet-head",
+      "itemId": 26702,
+      "name": "Seam Ripper Snuggle Time  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/97b44bfdc74c/models/items/warlock/warlock_tailor_of_burning_puppet_head/warlock_tailor_of_burning_puppet_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/97b44bfdc74c/models/items/warlock/warlock_tailor_of_burning_puppet_head/warlock_tailor_of_burning_puppet_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_tailor_of_burning_puppet_head/warlock_tailor_of_burning_puppet_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_head-5f3af5c69d0b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/97b44bfdc74c/models/items/warlock/warlock_tailor_of_burning_puppet_head/warlock_tailor_of_burning_puppet_head_color_tga_b9e609e0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_tailor_of_burning_puppet_head/warlock_tailor_of_burning_puppet_head.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_tailor_of_burning_puppet_head/warlock_tailor_of_burning_puppet_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_cc2024_burning_puppet/warlock_cc2024_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4470:archivist-head",
+      "itemId": 4470,
+      "name": "Shroud of the Archivist",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/979757600b7e/models/items/warlock/archivist_head/archivist_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/979757600b7e/models/items/warlock/archivist_head/archivist_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/archivist_head/archivist_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/archivist_head-815b0119e173.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/979757600b7e/models/items/warlock/archivist_head/archivist_head_color_tga_65b7fa6f.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13278:ti9-cache-warlock-tribal-warlock-head",
+      "itemId": 13278,
+      "name": "Tribal Pathways Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/dd6966559df3/models/items/warlock/ti9_cache_warlock_tribal_warlock_head/ti9_cache_warlock_tribal_warlock_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/dd6966559df3/models/items/warlock/ti9_cache_warlock_tribal_warlock_head/ti9_cache_warlock_tribal_warlock_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti9_cache_warlock_tribal_warlock_head/ti9_cache_warlock_tribal_warlock_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_head-e74193005f04.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/dd6966559df3/models/items/warlock/ti9_cache_warlock_tribal_warlock_head/ti9_cache_warlock_tribal_warlock_head_color_psd_29eb2f4f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/ti9_cache_warlock_tribal_warlock_head/ti9_cache_warlock_tribal_warlock_head.vmdl",
+        "modelPaths": [
+          "models/items/warlock/ti9_cache_warlock_tribal_warlock_head/ti9_cache_warlock_tribal_warlock_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_ti9_cache_tribal/warlock_ti9_tribal_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:19320:greevil-master-head",
+      "itemId": 19320,
+      "name": "Vote Only Greevil Master Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/c1fd5cae22f5/models/items/warlock/greevil_master_head/greevil_master_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/c1fd5cae22f5/models/items/warlock/greevil_master_head/greevil_master_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/greevil_master_head/greevil_master_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/greevil_master_head-a6ba01057a0d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/c1fd5cae22f5/models/items/warlock/greevil_master_head/greevil_master_head_color_png_3d3c530c.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13809:warlock-ti10-immortal-head",
+      "itemId": 13809,
+      "name": "Warden of the Hellborn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/317d4e69934d/models/items/warlock/warlock_ti10_immortal_head/warlock_ti10_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/317d4e69934d/models/items/warlock/warlock_ti10_immortal_head/warlock_ti10_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_ti10_immortal_head/warlock_ti10_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_ti10_immortal_head-aa970dd65436.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/317d4e69934d/models/items/warlock/warlock_ti10_immortal_head/warlock_ti10_immortal_head_color_psd_8157837e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_ti10_immortal_head/warlock_ti10_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_ti10_immortal_head/warlock_ti10_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_ti10_head/warlock_ti_10_ambient_glyph.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_ti10_head/warlock_ti_10_ambient_hair.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_ti10_head/warlock_ti_10_fatal_bonds_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_ti10_head/warlock_ti_10_fatal_bonds_icon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_ti10_head/warlock_ti_10_fatal_bonds_pulse.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_ti10_head/warlock_ti_10_fatal_bonds_pulse_flame.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_fatal_bonds_hit.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_fatal_bonds_hit_parent.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_fatal_bonds_icon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_fatal_bonds_pulse.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:241:warlock-cape",
+      "itemId": 241,
+      "name": "Warlocks Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/60187ea3a8a6/models/heroes/warlock/warlock_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/60187ea3a8a6/models/heroes/warlock/warlock_cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_cape-da213cd6e4cc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/60187ea3a8a6/models/heroes/warlock/warlock_cape_color_psd_88880d7d.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:6716:abyssal-watcher-offhand",
+      "itemId": 6716,
+      "name": "Abyssal Watcher",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/c8e48483b119/models/items/warlock/abyssal_watcher_offhand/abyssal_watcher_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/c8e48483b119/models/items/warlock/abyssal_watcher_offhand/abyssal_watcher_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/abyssal_watcher_offhand/abyssal_watcher_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abyssal_watcher_offhand-0acb03eb8b17.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/c8e48483b119/models/items/warlock/abyssal_watcher_offhand/abyssal_watcher_offhand_color_tga_973a60ac.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/abyssal_watcher_offhand/abyssal_watcher_offhand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/abyssal_watcher_offhand/abyssal_watcher_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13998:puppet-summoner-off-hand",
+      "itemId": 13998,
+      "name": "Beholden of the Banished Ones  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5ce3d0834d39/models/items/warlock/puppet_summoner_off_hand/puppet_summoner_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5ce3d0834d39/models/items/warlock/puppet_summoner_off_hand/puppet_summoner_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/puppet_summoner_off_hand/puppet_summoner_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puppet_summoner_off_hand-05d7de8cc837.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5ce3d0834d39/models/items/warlock/puppet_summoner_off_hand/puppet_summoner_off_hand_color_tga_4c91c7f0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/puppet_summoner_off_hand/puppet_summoner_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/puppet_summoner_off_hand/puppet_summoner_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8080:tevent-2-gatekeeper-key",
+      "itemId": 8080,
+      "name": "Key of the Gatekeeper",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2adbe3b10839/models/items/warlock/tevent_2_gatekeeper_key/tevent_2_gatekeeper_key.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/2adbe3b10839/models/items/warlock/tevent_2_gatekeeper_key/tevent_2_gatekeeper_key.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/tevent_2_gatekeeper_key/tevent_2_gatekeeper_key.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_key-65fc771b8800.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2adbe3b10839/models/items/warlock/tevent_2_gatekeeper_key/tevent_2_gatekeeper_key_color_tga_d3215768.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14299:warlock-the-infernal-master-off-hand",
+      "itemId": 14299,
+      "name": "Lamp of the Spiteful Djinn",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/4cbc8cbf9ebf/models/items/warlock/warlock_the_infernal_master_off_hand/warlock_the_infernal_master_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/4cbc8cbf9ebf/models/items/warlock/warlock_the_infernal_master_off_hand/warlock_the_infernal_master_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_the_infernal_master_off_hand/warlock_the_infernal_master_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_off_hand-67f2516fb78a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/4cbc8cbf9ebf/models/items/warlock/warlock_the_infernal_master_off_hand/warlock_the_infernal_master_off_hand_color_tga_df509d83.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_the_infernal_master_off_hand/warlock_the_infernal_master_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_the_infernal_master_off_hand/warlock_the_infernal_master_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_infernal_master/warlock_infernal_master_lamp.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:6068:warlock-lantern-spring2014",
+      "itemId": 6068,
+      "name": "Lantern of Auspicious Days",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5e3c17d0bf6e/models/items/warlock/warlock_lantern_spring2014/warlock_lantern_spring2014.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5e3c17d0bf6e/models/items/warlock/warlock_lantern_spring2014/warlock_lantern_spring2014.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_lantern_spring2014/warlock_lantern_spring2014.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_lantern_spring2014-ffe551036770.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5e3c17d0bf6e/models/items/warlock/warlock_lantern_spring2014/warlock_lantern_spring2014_color_tga_4f273827.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_lantern_spring2014/warlock_lantern_spring2014.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_lantern_spring2014/warlock_lantern_spring2014.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4436:deathly-lantern",
+      "itemId": 4436,
+      "name": "Lantern of Deaths Last Light",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/644ff07e78e2/models/items/warlock/deathly_lantern/deathly_lantern.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/644ff07e78e2/models/items/warlock/deathly_lantern/deathly_lantern.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/deathly_lantern/deathly_lantern.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathly_lantern-cfe392ace68c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/644ff07e78e2/models/items/warlock/deathly_lantern/deathly_lantern_color_tga_f036a0e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/deathly_lantern/deathly_lantern.vmdl",
+        "modelPaths": [
+          "models/items/warlock/deathly_lantern/deathly_lantern.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4475:archivist-lantern",
+      "itemId": 4475,
+      "name": "Lantern of the Archivist",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7dcaa1090b13/models/items/warlock/archivist_lantern/archivist_lantern.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/7dcaa1090b13/models/items/warlock/archivist_lantern/archivist_lantern.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/archivist_lantern/archivist_lantern.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/archivist_lantern-ba836450711d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7dcaa1090b13/models/items/warlock/archivist_lantern/archivist_lantern_color_tga_8c973762.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/archivist_lantern/archivist_lantern.vmdl",
+        "modelPaths": [
+          "models/items/warlock/archivist_lantern/archivist_lantern.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5729:lantern-of-the-conjuring-sigil",
+      "itemId": 5729,
+      "name": "Lantern of the Conjuring Sigil",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/e8c4c7c71034/models/items/warlock/lantern_of_the_conjuring_sigil/lantern_of_the_conjuring_sigil.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/e8c4c7c71034/models/items/warlock/lantern_of_the_conjuring_sigil/lantern_of_the_conjuring_sigil.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/lantern_of_the_conjuring_sigil/lantern_of_the_conjuring_sigil.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lantern_of_the_conjuring_sigil-92faa4deac23.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/e8c4c7c71034/models/items/warlock/lantern_of_the_conjuring_sigil/lantern_of_the_conjuring_sigil_color_tga_eac051aa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/lantern_of_the_conjuring_sigil/lantern_of_the_conjuring_sigil.vmdl",
+        "modelPaths": [
+          "models/items/warlock/lantern_of_the_conjuring_sigil/lantern_of_the_conjuring_sigil.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7253:grimoires-offhand",
+      "itemId": 7253,
+      "name": "Lantern of the Dark Curator",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/140276202cc0/models/items/warlock/grimoires_offhand/grimoires_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/140276202cc0/models/items/warlock/grimoires_offhand/grimoires_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/grimoires_offhand/grimoires_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grimoires_offhand-ba074c9de900.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/140276202cc0/models/items/warlock/grimoires_offhand/grimoires_offhand_color_tga_25ff124e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/grimoires_offhand/grimoires_offhand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/grimoires_offhand/grimoires_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8947:mystery-of-the-lost-ores-off-hand",
+      "itemId": 8947,
+      "name": "Lantern of the Infernal Maw",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2b85827db538/models/items/warlock/mystery_of_the_lost_ores_off_hand/mystery_of_the_lost_ores_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/2b85827db538/models/items/warlock/mystery_of_the_lost_ores_off_hand/mystery_of_the_lost_ores_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mystery_of_the_lost_ores_off_hand/mystery_of_the_lost_ores_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_off_hand-4aeb943b188e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2b85827db538/models/items/warlock/mystery_of_the_lost_ores_off_hand/mystery_of_the_lost_ores_off_hand_color_tga_9f3531fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/mystery_of_the_lost_ores_off_hand/mystery_of_the_lost_ores_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/mystery_of_the_lost_ores_off_hand/mystery_of_the_lost_ores_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_lost_ores/warlock_lost_ores_offhand_glow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8356:mdl-warlock-offhand",
+      "itemId": 8356,
+      "name": "Lantern of the Wailing Inferno",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/0ce689b60b0c/models/items/warlock/mdl_warlock_offhand/mdl_warlock_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/0ce689b60b0c/models/items/warlock/mdl_warlock_offhand/mdl_warlock_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mdl_warlock_offhand/mdl_warlock_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mdl_warlock_offhand-7e81c192f54c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/0ce689b60b0c/models/items/warlock/mdl_warlock_offhand/mdl_warlock_offhand_color_tga_496d99c0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/mdl_warlock_offhand/mdl_warlock_offhand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/mdl_warlock_offhand/mdl_warlock_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:26704:warlock-tailor-of-burning-puppet-offhand-weapon",
+      "itemId": 26704,
+      "name": "Seam Ripper Snuggle Time  Offhand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/4f600b0e30de/models/items/warlock/warlock_tailor_of_burning_puppet_offhand_weapon/warlock_tailor_of_burning_puppet_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/4f600b0e30de/models/items/warlock/warlock_tailor_of_burning_puppet_offhand_weapon/warlock_tailor_of_burning_puppet_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_tailor_of_burning_puppet_offhand_weapon/warlock_tailor_of_burning_puppet_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_offhand_weapon-3b7aaa2b909b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/4f600b0e30de/models/items/warlock/warlock_tailor_of_burning_puppet_offhand_weapon/warlock_tailor_of_burning_puppet_offhand_weapon_color_tga_ab27c323.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_tailor_of_burning_puppet_offhand_weapon/warlock_tailor_of_burning_puppet_offhand_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_tailor_of_burning_puppet_offhand_weapon/warlock_tailor_of_burning_puppet_offhand_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_cc2024_burning_puppet/warlock_cc2024_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9923:ti-8-warlock-darkness-apostate-off-hand",
+      "itemId": 9923,
+      "name": "Tome of the Dread Compact",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/499d08ff9bd0/models/items/warlock/ti_8_warlock_darkness_apostate_off_hand/ti_8_warlock_darkness_apostate_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/499d08ff9bd0/models/items/warlock/ti_8_warlock_darkness_apostate_off_hand/ti_8_warlock_darkness_apostate_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti_8_warlock_darkness_apostate_off_hand/ti_8_warlock_darkness_apostate_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_off_hand-6080fa3ab72a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/499d08ff9bd0/models/items/warlock/ti_8_warlock_darkness_apostate_off_hand/ti_8_warlock_darkness_apostate_off_hand_color_psd_9fb702b0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/ti_8_warlock_darkness_apostate_off_hand/ti_8_warlock_darkness_apostate_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/ti_8_warlock_darkness_apostate_off_hand/ti_8_warlock_darkness_apostate_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13277:ti9-cache-warlock-tribal-warlock-off-hand",
+      "itemId": 13277,
+      "name": "Tribal Pathways Lantern",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/84e62f6d64ac/models/items/warlock/ti9_cache_warlock_tribal_warlock_off_hand/ti9_cache_warlock_tribal_warlock_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/84e62f6d64ac/models/items/warlock/ti9_cache_warlock_tribal_warlock_off_hand/ti9_cache_warlock_tribal_warlock_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti9_cache_warlock_tribal_warlock_off_hand/ti9_cache_warlock_tribal_warlock_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_off_hand-f58fcfe1a9c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/84e62f6d64ac/models/items/warlock/ti9_cache_warlock_tribal_warlock_off_hand/ti9_cache_warlock_tribal_warlock_off_hand_color_psd_da6d4318.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/ti9_cache_warlock_tribal_warlock_off_hand/ti9_cache_warlock_tribal_warlock_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/ti9_cache_warlock_tribal_warlock_off_hand/ti9_cache_warlock_tribal_warlock_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_ti9_cache_tribal/warlock_ti9_lantern_eyes_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4510:twisted-lantern",
+      "itemId": 4510,
+      "name": "Twisted Lightbringer",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/71d00063488f/models/items/warlock/twisted_lantern/twisted_lantern.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/71d00063488f/models/items/warlock/twisted_lantern/twisted_lantern.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/twisted_lantern/twisted_lantern.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/twisted_lantern-5bb09c735603.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/71d00063488f/models/items/warlock/twisted_lantern/twisted_lantern_color_tga_f9338d76.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/twisted_lantern/twisted_lantern.vmdl",
+        "modelPaths": [
+          "models/items/warlock/twisted_lantern/twisted_lantern.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:12956:warlock-ti9-immortal-lantern",
+      "itemId": 12956,
+      "name": "Umbral Glyph",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/ea8e35ea09e9/models/items/warlock/warlock_ti9_immortal_lantern/warlock_ti9_immortal_lantern.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/ea8e35ea09e9/models/items/warlock/warlock_ti9_immortal_lantern/warlock_ti9_immortal_lantern.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_ti9_immortal_lantern/warlock_ti9_immortal_lantern.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_ti9_immortal_lantern-73003da6dc5d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/ea8e35ea09e9/models/items/warlock/warlock_ti9_immortal_lantern/warlock_ti9_immortal_lantern_color_psd_1e631630.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_ti9_immortal_lantern/warlock_ti9_immortal_lantern.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_ti9_immortal_lantern/warlock_ti9_immortal_lantern.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_ti9/warlock_ti9_lantern_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_ti9/warlock_ti9_shadow_word_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_ti9/warlock_ti9_shadow_word_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_shadow_word_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_shadow_word_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:19297:greevil-master-off-hand",
+      "itemId": 19297,
+      "name": "Vote Only Greevil Master OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/324de6abf6e2/models/items/warlock/greevil_master_off_hand/greevil_master_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/324de6abf6e2/models/items/warlock/greevil_master_off_hand/greevil_master_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/greevil_master_off_hand/greevil_master_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/greevil_master_off_hand-89266ab0ee55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/324de6abf6e2/models/items/warlock/greevil_master_off_hand/greevil_master_off_hand_color_png_a0769c03.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/greevil_master_off_hand/greevil_master_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/warlock/greevil_master_off_hand/greevil_master_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:240:warlock-lantern",
+      "itemId": 240,
+      "name": "Warlocks Lantern",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f4755c154236/models/heroes/warlock/warlock_lantern.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f4755c154236/models/heroes/warlock/warlock_lantern.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_lantern.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_lantern-8cd2d750ed98.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f4755c154236/models/heroes/warlock/warlock_lantern_color_psd_daa4cd52.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/warlock/warlock_lantern.vmdl",
+        "modelPaths": [
+          "models/heroes/warlock/warlock_lantern.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5698:warlocks-summoning-scroll",
+      "itemId": 5698,
+      "name": "Warlocks Summoning Scroll",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Warlock Lantern",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/873697fef77d/models/items/warlock/warlocks_summoning_scroll/warlocks_summoning_scroll.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/873697fef77d/models/items/warlock/warlocks_summoning_scroll/warlocks_summoning_scroll.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlocks_summoning_scroll/warlocks_summoning_scroll.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlocks_summoning_scroll-9975ffd6a5c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/873697fef77d/models/items/warlock/warlocks_summoning_scroll/warlocks_summoning_scroll_color_tga_a7d243d8.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14298:warlock-the-infernal-master-shoulder",
+      "itemId": 14298,
+      "name": "Armor of the Spiteful Djinn",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/57cf685729ea/models/items/warlock/warlock_the_infernal_master_shoulder/warlock_the_infernal_master_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/57cf685729ea/models/items/warlock/warlock_the_infernal_master_shoulder/warlock_the_infernal_master_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_the_infernal_master_shoulder/warlock_the_infernal_master_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_shoulder-745c920316a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/57cf685729ea/models/items/warlock/warlock_the_infernal_master_shoulder/warlock_the_infernal_master_shoulder_color_tga_6b7052ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_the_infernal_master_shoulder/warlock_the_infernal_master_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_the_infernal_master_shoulder/warlock_the_infernal_master_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_infernal_master/warlock_infernal_master_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14269:puppet-summoner-shoulder",
+      "itemId": 14269,
+      "name": "Beholden of the Banished Ones  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f5e3cdb16d0d/models/items/warlock/puppet_summoner_shoulder/puppet_summoner_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f5e3cdb16d0d/models/items/warlock/puppet_summoner_shoulder/puppet_summoner_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/puppet_summoner_shoulder/puppet_summoner_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puppet_summoner_shoulder-845386997727.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f5e3cdb16d0d/models/items/warlock/puppet_summoner_shoulder/puppet_summoner_shoulder_color_tga_8392e03.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/puppet_summoner_shoulder/puppet_summoner_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/warlock/puppet_summoner_shoulder/puppet_summoner_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/items/warlock/ti10_puppet_summoner_shoulder/ti10_puppet_summoner_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5730:dark-pauldrons-of-the-conjurer",
+      "itemId": 5730,
+      "name": "Dark Pauldrons of the Conjurer",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8ab7db58a4d8/models/items/warlock/dark_pauldrons_of_the_conjurer/dark_pauldrons_of_the_conjurer.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/8ab7db58a4d8/models/items/warlock/dark_pauldrons_of_the_conjurer/dark_pauldrons_of_the_conjurer.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/dark_pauldrons_of_the_conjurer/dark_pauldrons_of_the_conjurer.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_pauldrons_of_the_conjurer-e5b271b7a2af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/8ab7db58a4d8/models/items/warlock/dark_pauldrons_of_the_conjurer/dark_pauldrons_of_the_conjurer_color_tga_c9cb6d2b.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4478:archivist-shoulders",
+      "itemId": 4478,
+      "name": "Grand Mantle of the Archivist",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/89c66d8c1eb9/models/items/warlock/archivist_shoulders/archivist_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/89c66d8c1eb9/models/items/warlock/archivist_shoulders/archivist_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/archivist_shoulders/archivist_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/archivist_shoulders-88b891505664.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/89c66d8c1eb9/models/items/warlock/archivist_shoulders/archivist_shoulders_color_tga_e4c86123.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9926:ti-8-warlock-darkness-apostate-shoulder",
+      "itemId": 9926,
+      "name": "Mantle of the Dread Compact",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7cc61bd87b81/models/items/warlock/ti_8_warlock_darkness_apostate_shoulder/ti_8_warlock_darkness_apostate_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/7cc61bd87b81/models/items/warlock/ti_8_warlock_darkness_apostate_shoulder/ti_8_warlock_darkness_apostate_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti_8_warlock_darkness_apostate_shoulder/ti_8_warlock_darkness_apostate_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_shoulder-2d6d911aac11.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7cc61bd87b81/models/items/warlock/ti_8_warlock_darkness_apostate_shoulder/ti_8_warlock_darkness_apostate_shoulder_color_psd_fbfebb65.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9862:hellsworn-shoulder",
+      "itemId": 9862,
+      "name": "Pauldron of the Hellsworn",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/17996db1977b/models/items/warlock/hellsworn_shoulder/hellsworn_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/17996db1977b/models/items/warlock/hellsworn_shoulder/hellsworn_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/hellsworn_shoulder/hellsworn_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hellsworn_shoulder-ab3426953a95.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/17996db1977b/models/items/warlock/hellsworn_shoulder/hellsworn_shoulder_color_tga_dc0a7758.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7255:grimoires-shoulder",
+      "itemId": 7255,
+      "name": "Pauldrons of the Dark Curator",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3681ef1cd023/models/items/warlock/grimoires_shoulder/grimoires_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/3681ef1cd023/models/items/warlock/grimoires_shoulder/grimoires_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/grimoires_shoulder/grimoires_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grimoires_shoulder-c58e746289dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3681ef1cd023/models/items/warlock/grimoires_shoulder/grimoires_shoulder_color_tga_67133e08.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8083:tevent-2-gatekeeper-shoulders",
+      "itemId": 8083,
+      "name": "Pauldrons of the Gatekeeper",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/1f696e0a62c6/models/items/warlock/tevent_2_gatekeeper_shoulders/tevent_2_gatekeeper_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/1f696e0a62c6/models/items/warlock/tevent_2_gatekeeper_shoulders/tevent_2_gatekeeper_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/tevent_2_gatekeeper_shoulders/tevent_2_gatekeeper_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_shoulders-9210ba20b57e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/1f696e0a62c6/models/items/warlock/tevent_2_gatekeeper_shoulders/tevent_2_gatekeeper_shoulders_color_tga_500097d9.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8944:mystery-of-the-lost-ores-shoulder",
+      "itemId": 8944,
+      "name": "Pauldrons of the Infernal Maw",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/c5d8e6aff6fc/models/items/warlock/mystery_of_the_lost_ores_shoulder/mystery_of_the_lost_ores_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/c5d8e6aff6fc/models/items/warlock/mystery_of_the_lost_ores_shoulder/mystery_of_the_lost_ores_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mystery_of_the_lost_ores_shoulder/mystery_of_the_lost_ores_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_shoulder-3e6f9e0002c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/c5d8e6aff6fc/models/items/warlock/mystery_of_the_lost_ores_shoulder/mystery_of_the_lost_ores_shoulder_color_tga_f3d55de1.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:26705:warlock-tailor-of-burning-puppet-shoulder",
+      "itemId": 26705,
+      "name": "Seam Ripper Snuggle Time  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9d7e27365dca/models/items/warlock/warlock_tailor_of_burning_puppet_shoulder/warlock_tailor_of_burning_puppet_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/9d7e27365dca/models/items/warlock/warlock_tailor_of_burning_puppet_shoulder/warlock_tailor_of_burning_puppet_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_tailor_of_burning_puppet_shoulder/warlock_tailor_of_burning_puppet_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_shoulder-945210cc1a75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/9d7e27365dca/models/items/warlock/warlock_tailor_of_burning_puppet_shoulder/warlock_tailor_of_burning_puppet_shoulder_color_tga_fe8afa77.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8355:mdl-warlock-shoulder",
+      "itemId": 8355,
+      "name": "Shoulder of the Wailing Inferno",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/eb5fef94a192/models/items/warlock/mdl_warlock_shoulder/mdl_warlock_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/eb5fef94a192/models/items/warlock/mdl_warlock_shoulder/mdl_warlock_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mdl_warlock_shoulder/mdl_warlock_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mdl_warlock_shoulder-170d7f4a8062.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/eb5fef94a192/models/items/warlock/mdl_warlock_shoulder/mdl_warlock_shoulder_color_tga_dd78ef27.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13275:ti9-cache-warlock-tribal-warlock-shoulder",
+      "itemId": 13275,
+      "name": "Tribal Pathways Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/073c2961e993/models/items/warlock/ti9_cache_warlock_tribal_warlock_shoulder/ti9_cache_warlock_tribal_warlock_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/073c2961e993/models/items/warlock/ti9_cache_warlock_tribal_warlock_shoulder/ti9_cache_warlock_tribal_warlock_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti9_cache_warlock_tribal_warlock_shoulder/ti9_cache_warlock_tribal_warlock_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_shoulder-05dbd0cb56bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/073c2961e993/models/items/warlock/ti9_cache_warlock_tribal_warlock_shoulder/ti9_cache_warlock_tribal_warlock_shoulder_color_psd_ab74e0cb.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:19299:greevil-master-shoulder",
+      "itemId": 19299,
+      "name": "Vote Only Greevil Master Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f2fe8a7fa83f/models/items/warlock/greevil_master_shoulder/greevil_master_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f2fe8a7fa83f/models/items/warlock/greevil_master_shoulder/greevil_master_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/greevil_master_shoulder/greevil_master_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/greevil_master_shoulder-1035c4932a33.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f2fe8a7fa83f/models/items/warlock/greevil_master_shoulder/greevil_master_shoulder_color_png_58e870fe.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:242:warlock-shoulder",
+      "itemId": 242,
+      "name": "Warlocks Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/406d822dcd91/models/heroes/warlock/warlock_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/406d822dcd91/models/heroes/warlock/warlock_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_shoulder-9b652454a37a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/406d822dcd91/models/heroes/warlock/warlock_shoulder_color_psd_fe971a81.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13997:puppet-summoner-weapon",
+      "itemId": 13997,
+      "name": "Beholden of the Banished Ones  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/22fdf2829a7e/models/items/warlock/puppet_summoner_weapon/puppet_summoner_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/22fdf2829a7e/models/items/warlock/puppet_summoner_weapon/puppet_summoner_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/puppet_summoner_weapon/puppet_summoner_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/puppet_summoner_weapon-be0541530f6d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/22fdf2829a7e/models/items/warlock/puppet_summoner_weapon/puppet_summoner_weapon_color_tga_14f2f627.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/puppet_summoner_weapon/puppet_summoner_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/puppet_summoner_weapon/puppet_summoner_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/items/warlock/ti10_puppet_summoner_staff/ti10_puppet_summoner_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:6589:breathofdeath-weapon",
+      "itemId": 6589,
+      "name": "Breath of Death",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/b474f283e6df/models/items/warlock/breathofdeath_weapon/breathofdeath_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/b474f283e6df/models/items/warlock/breathofdeath_weapon/breathofdeath_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/breathofdeath_weapon/breathofdeath_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/breathofdeath_weapon-c07548bca78f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/b474f283e6df/models/items/warlock/breathofdeath_weapon/breathofdeath_weapon_color_tga_99987e6c.png"
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7886:ceaseless",
+      "itemId": 7886,
+      "name": "Ceaseless Sorcery",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/65e665f748a3/models/items/warlock/ceaseless/ceaseless.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/65e665f748a3/models/items/warlock/ceaseless/ceaseless.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ceaseless/ceaseless.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ceaseless-9de4443939f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/65e665f748a3/models/items/warlock/ceaseless/ceaseless_color_tga_e52f30f1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/ceaseless/ceaseless.vmdl",
+        "modelPaths": [
+          "models/items/warlock/ceaseless/ceaseless.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_ceaseless_ambient/warlock_ceaseless_ambient_glow.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:6473:warlock-hellborn-grasp-staff",
+      "itemId": 6473,
+      "name": "Hellborn Grasp",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "taunt"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3e678bfdd01e/models/items/warlock/hellborn_grasp/warlock_hellborn_grasp_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/3e678bfdd01e/models/items/warlock/hellborn_grasp/warlock_hellborn_grasp_staff.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/hellborn_grasp/warlock_hellborn_grasp_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_hellborn_grasp_staff-95824c69f8d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3e678bfdd01e/models/items/warlock/hellborn_grasp/hellborn_grasp_color_psd_eaa4c37f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/hellborn_grasp/warlock_hellborn_grasp_staff.vmdl",
+        "modelPaths": [
+          "models/items/warlock/hellborn_grasp/warlock_hellborn_grasp_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_hellborn/war_hlbrn_a_uph.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_hellborn/warlock_hellborn_grasp_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_hellborn/warlock_upheaval_hellborn.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_hellborn/warlock_upheaval_hellborn_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_upheaval.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_upheaval_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_upheval_cast_econ.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4518:gemstaff",
+      "itemId": 4518,
+      "name": "Hellish Gemstaff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a8666b44c89e/models/items/warlock/gemstaff/gemstaff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/a8666b44c89e/models/items/warlock/gemstaff/gemstaff.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/gemstaff/gemstaff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/gemstaff-92a843aabb27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a8666b44c89e/models/items/warlock/gemstaff/gemstaff_color_tga_69f6ea4c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/gemstaff/gemstaff.vmdl",
+        "modelPaths": [
+          "models/items/warlock/gemstaff/gemstaff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:26706:warlock-tailor-of-burning-puppet-weapon",
+      "itemId": 26706,
+      "name": "Seam Ripper Snuggle Time  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7a4a5948c4d8/models/items/warlock/warlock_tailor_of_burning_puppet_weapon/warlock_tailor_of_burning_puppet_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/7a4a5948c4d8/models/items/warlock/warlock_tailor_of_burning_puppet_weapon/warlock_tailor_of_burning_puppet_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_tailor_of_burning_puppet_weapon/warlock_tailor_of_burning_puppet_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_weapon-ac6819e852fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/7a4a5948c4d8/models/items/warlock/warlock_tailor_of_burning_puppet_weapon/warlock_tailor_of_burning_puppet_weapon_color_tga_445a9833.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_tailor_of_burning_puppet_weapon/warlock_tailor_of_burning_puppet_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_tailor_of_burning_puppet_weapon/warlock_tailor_of_burning_puppet_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_cc2024_burning_puppet/warlock_cc2024_burning_puppet_staff_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5424:staff-of-infernal-chaos",
+      "itemId": 5424,
+      "name": "Staff of Infernal Chaos",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5cc8c0703e93/models/items/warlock/staff_of_infernal_chaos/staff_of_infernal_chaos.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5cc8c0703e93/models/items/warlock/staff_of_infernal_chaos/staff_of_infernal_chaos.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/staff_of_infernal_chaos/staff_of_infernal_chaos.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/staff_of_infernal_chaos-647ab61789ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5cc8c0703e93/models/items/warlock/staff_of_infernal_chaos/staff_of_infernal_chaos_color_tga_eb7fe804.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/staff_of_infernal_chaos/staff_of_infernal_chaos.vmdl",
+        "modelPaths": [
+          "models/items/warlock/staff_of_infernal_chaos/staff_of_infernal_chaos.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_infernal/warlock_ambient_staff_infernal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:4468:archiviststaff",
+      "itemId": 4468,
+      "name": "Staff of the Archivist",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d2c3ca82bcda/models/items/warlock/archiviststaff/archiviststaff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/d2c3ca82bcda/models/items/warlock/archiviststaff/archiviststaff.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/archiviststaff/archiviststaff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/archiviststaff-d610a128eebd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/d2c3ca82bcda/models/items/warlock/archiviststaff/archiviststaff_color_tga_bd7cf786.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/archiviststaff/archiviststaff.vmdl",
+        "modelPaths": [
+          "models/items/warlock/archiviststaff/archiviststaff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_archivist/warlock_ambient_staff_archivist.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:7256:grimoires-weapon",
+      "itemId": 7256,
+      "name": "Staff of the Dark Curator",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5e0c2cf7a67e/models/items/warlock/grimoires_weapon/grimoires_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/5e0c2cf7a67e/models/items/warlock/grimoires_weapon/grimoires_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/grimoires_weapon/grimoires_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grimoires_weapon-4ed6b49bc516.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/5e0c2cf7a67e/models/items/warlock/grimoires_weapon/grimoires_weapon_color_tga_c95c0bc0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/grimoires_weapon/grimoires_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/grimoires_weapon/grimoires_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_staff_dark_curator/warlock_dark_curator_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:9919:ti-8-warlock-darkness-apostate-weapon-v2",
+      "itemId": 9919,
+      "name": "Staff of the Dread Compact",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a102b10be328/models/items/warlock/ti_8_warlock_darkness_apostate_weapon_v2/ti_8_warlock_darkness_apostate_weapon_v2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/a102b10be328/models/items/warlock/ti_8_warlock_darkness_apostate_weapon_v2/ti_8_warlock_darkness_apostate_weapon_v2.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti_8_warlock_darkness_apostate_weapon_v2/ti_8_warlock_darkness_apostate_weapon_v2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_weapon_v2-ef88fde19862.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a102b10be328/models/items/warlock/ti_8_warlock_darkness_apostate_weapon_v2/ti_8_warlock_darkness_apostate_weapon_v2_color_psd_2c381da1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/ti_8_warlock_darkness_apostate_weapon_v2/ti_8_warlock_darkness_apostate_weapon_v2.vmdl",
+        "modelPaths": [
+          "models/items/warlock/ti_8_warlock_darkness_apostate_weapon_v2/ti_8_warlock_darkness_apostate_weapon_v2.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_ti8/warlock_ti8_staff_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8082:tevent-2-gatekeeper-scythe",
+      "itemId": 8082,
+      "name": "Staff of the Gatekeeper",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/0daa77972166/models/items/warlock/tevent_2_gatekeeper_scythe/tevent_2_gatekeeper_scythe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/0daa77972166/models/items/warlock/tevent_2_gatekeeper_scythe/tevent_2_gatekeeper_scythe.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/tevent_2_gatekeeper_scythe/tevent_2_gatekeeper_scythe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_scythe-954dfe61255f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/0daa77972166/models/items/warlock/tevent_2_gatekeeper_scythe/tevent_2_gatekeeper_scythe_color_tga_400e1695.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/tevent_2_gatekeeper_scythe/tevent_2_gatekeeper_scythe.vmdl",
+        "modelPaths": [
+          "models/items/warlock/tevent_2_gatekeeper_scythe/tevent_2_gatekeeper_scythe.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8945:mystery-of-the-lost-ores-weapon",
+      "itemId": 8945,
+      "name": "Staff of the Infernal Maw",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/92b48bf9c310/models/items/warlock/mystery_of_the_lost_ores_weapon/mystery_of_the_lost_ores_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/92b48bf9c310/models/items/warlock/mystery_of_the_lost_ores_weapon/mystery_of_the_lost_ores_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mystery_of_the_lost_ores_weapon/mystery_of_the_lost_ores_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_weapon-c68f3f1b1c23.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/92b48bf9c310/models/items/warlock/mystery_of_the_lost_ores_weapon/mystery_of_the_lost_ores_weapon_color_tga_de84b29b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/mystery_of_the_lost_ores_weapon/mystery_of_the_lost_ores_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/mystery_of_the_lost_ores_weapon/mystery_of_the_lost_ores_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5728:staff-of-the-malevolent",
+      "itemId": 5728,
+      "name": "Staff of the Malevolent",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f595f9d9c3b3/models/items/warlock/staff_of_the_malevolent/staff_of_the_malevolent.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/f595f9d9c3b3/models/items/warlock/staff_of_the_malevolent/staff_of_the_malevolent.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/staff_of_the_malevolent/staff_of_the_malevolent.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/staff_of_the_malevolent-62609d13e17b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/f595f9d9c3b3/models/items/warlock/staff_of_the_malevolent/staff_of_the_malevolent_color_tga_ecad21d9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/staff_of_the_malevolent/staff_of_the_malevolent.vmdl",
+        "modelPaths": [
+          "models/items/warlock/staff_of_the_malevolent/staff_of_the_malevolent.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:14297:warlock-the-infernal-master-weapon",
+      "itemId": 14297,
+      "name": "Staff of the Spiteful Djinn",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2315017d2bfc/models/items/warlock/warlock_the_infernal_master_weapon/warlock_the_infernal_master_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/2315017d2bfc/models/items/warlock/warlock_the_infernal_master_weapon/warlock_the_infernal_master_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/warlock_the_infernal_master_weapon/warlock_the_infernal_master_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_weapon-4370aadfb29b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/2315017d2bfc/models/items/warlock/warlock_the_infernal_master_weapon/warlock_the_infernal_master_weapon_color_tga_ee9a6882.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/warlock_the_infernal_master_weapon/warlock_the_infernal_master_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/warlock_the_infernal_master_weapon/warlock_the_infernal_master_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:8359:mdl-warlock-weapon",
+      "itemId": 8359,
+      "name": "Staff of the Wailing Inferno",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a83400960f6e/models/items/warlock/mdl_warlock_weapon/mdl_warlock_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/a83400960f6e/models/items/warlock/mdl_warlock_weapon/mdl_warlock_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/mdl_warlock_weapon/mdl_warlock_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mdl_warlock_weapon-140988d17dad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/a83400960f6e/models/items/warlock/mdl_warlock_weapon/mdl_warlock_weapon_color_tga_bf185acd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/mdl_warlock_weapon/mdl_warlock_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/mdl_warlock_weapon/mdl_warlock_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:13274:ti9-cache-warlock-tribal-warlock-weapon",
+      "itemId": 13274,
+      "name": "Tribal Pathways Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/41d0436b8407/models/items/warlock/ti9_cache_warlock_tribal_warlock_weapon/ti9_cache_warlock_tribal_warlock_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/41d0436b8407/models/items/warlock/ti9_cache_warlock_tribal_warlock_weapon/ti9_cache_warlock_tribal_warlock_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/ti9_cache_warlock_tribal_warlock_weapon/ti9_cache_warlock_tribal_warlock_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_weapon-d65532ca782b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/41d0436b8407/models/items/warlock/ti9_cache_warlock_tribal_warlock_weapon/ti9_cache_warlock_tribal_warlock_weapon_color_psd_c156680.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/ti9_cache_warlock_tribal_warlock_weapon/ti9_cache_warlock_tribal_warlock_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/ti9_cache_warlock_tribal_warlock_weapon/ti9_cache_warlock_tribal_warlock_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/warlock/warlock_ti9_cache_tribal/warlock_ti9_tribal_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:5840:twisted-firekeeper",
+      "itemId": 5840,
+      "name": "Twisted Firekeeper",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/418917464f9e/models/items/warlock/twisted_firekeeper/twisted_firekeeper.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/418917464f9e/models/items/warlock/twisted_firekeeper/twisted_firekeeper.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/twisted_firekeeper/twisted_firekeeper.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/twisted_firekeeper-39150b208125.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/418917464f9e/models/items/warlock/twisted_firekeeper/twisted_firekeeper_color_tga_aec1c220.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/twisted_firekeeper/twisted_firekeeper.vmdl",
+        "modelPaths": [
+          "models/items/warlock/twisted_firekeeper/twisted_firekeeper.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:19298:greevil-master-weapon",
+      "itemId": 19298,
+      "name": "Vote Only Greevil Master Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3c7bb96e9950/models/items/warlock/greevil_master_weapon/greevil_master_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/3c7bb96e9950/models/items/warlock/greevil_master_weapon/greevil_master_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/warlock/greevil_master_weapon/greevil_master_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/greevil_master_weapon-3999812f6341.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/3c7bb96e9950/models/items/warlock/greevil_master_weapon/greevil_master_weapon_color_png_b3b02ff2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/warlock/greevil_master_weapon/greevil_master_weapon.vmdl",
+        "modelPaths": [
+          "models/items/warlock/greevil_master_weapon/greevil_master_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_warlock:item-model:239:warlock-staff",
+      "itemId": 239,
+      "name": "Warlocks Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/977f1fd9abe2/models/heroes/warlock/warlock_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_warlock/977f1fd9abe2/models/heroes/warlock/warlock_staff.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/warlock/warlock_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/warlock_staff-8796d58e534c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_warlock/977f1fd9abe2/models/heroes/warlock/warlock_staff_color_psd_1f96509.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/warlock/warlock_staff.vmdl",
+        "modelPaths": [
+          "models/heroes/warlock/warlock_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_warlock/warlock_ambient_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_warlock:core-set:20735:2015-rescuer-mdl-bundle",
+      "name": "2015 Rescuer MDL Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        8354,
+        8355,
+        8356,
+        8357,
+        8358,
+        8359,
+        8360,
+        8361
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 18,
+      "previewUrl": "/larimods-data/v1/icons/mdl_warlock_shoulder-170d7f4a8062.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:21477:beholden-of-the-banished-ones",
+      "name": "Beholden of the Banished Ones",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        13997,
+        13998,
+        13999,
+        14000,
+        14001,
+        14002,
+        14269,
+        14946
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 21,
+      "previewUrl": "/larimods-data/v1/icons/puppet_summoner_weapon-be0541530f6d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:21534:bindings-of-the-spiteful-djinn",
+      "name": "Bindings of the Spiteful Djinn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        14297,
+        14298,
+        14299,
+        14300,
+        14301,
+        14302,
+        14303,
+        14304
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 22,
+      "previewUrl": "/larimods-data/v1/icons/warlock_the_infernal_master_weapon-4370aadfb29b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:20704:cevo-season-6",
+      "name": "CEVO Season 6",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        7227,
+        7228,
+        7229,
+        7252,
+        7253,
+        7254,
+        7255,
+        7256
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 18,
+      "previewUrl": "/larimods-data/v1/icons/grimoires_belt-4ea26b1a0e93.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:21062:chaos-of-the-infernal-maw",
+      "name": "Chaos of the Infernal Maw",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        8940,
+        8941,
+        8942,
+        8943,
+        8944,
+        8945,
+        8946,
+        8947
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 16,
+      "previewUrl": "/larimods-data/v1/icons/mystery_of_the_lost_ores_loading_screen-74e9192f9ade.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:20759:dark-curator",
+      "name": "Dark Curator",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        7227,
+        7228,
+        7229,
+        7252,
+        7253,
+        7254,
+        7255,
+        7256
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 18,
+      "previewUrl": "/larimods-data/v1/icons/dark_curator_loadingscreen-00b59ee37fec.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:21204:dread-compact",
+      "name": "Dread Compact",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        9919,
+        9920,
+        9921,
+        9922,
+        9923,
+        9924,
+        9925,
+        9926
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 17,
+      "previewUrl": "/larimods-data/v1/icons/ti_8_warlock_darkness_apostate_weapon_v2-ef88fde19862.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:26647:seam-ripper-snuggle-time",
+      "name": "Seam Ripper Snuggle Time",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        26699,
+        26700,
+        26701,
+        26702,
+        26704,
+        26705,
+        26706,
+        26707
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 17,
+      "previewUrl": "/larimods-data/v1/icons/warlock_tailor_of_burning_puppet_loading_screen-7bc5acc640e0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:20770:tevent-dota-2-season-2",
+      "name": "TEvent Dota 2 Season 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        8076,
+        8077,
+        8078,
+        8079,
+        8080,
+        8081,
+        8082,
+        8083
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_arms-025cf0d88d93.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:20109:the-demonic-archivist-set",
+      "name": "The Demonic Archivist Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        4468,
+        4470,
+        4472,
+        4474,
+        4475,
+        4477,
+        4478,
+        4640
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 18,
+      "previewUrl": "/larimods-data/v1/icons/archiviststaff-d610a128eebd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:20319:the-exiled-demonologist-set",
+      "name": "The Exiled Demonologist Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        5594,
+        5725,
+        5726,
+        5727,
+        5728,
+        5729,
+        5730,
+        5731
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/hood_of_the_conjurer-489f8b788632.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:20877:the-gatekeeper",
+      "name": "The Gatekeeper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        8076,
+        8077,
+        8078,
+        8079,
+        8080,
+        8081,
+        8082,
+        8083
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/tevent_2_gatekeeper_loading_screen-dac930b0524a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:20790:tools-of-the-hellsworn",
+      "name": "Tools of the Hellsworn",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        242,
+        243
+      ],
+      "sourceItemIds": [
+        9861,
+        9862,
+        9865
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/hellsworn_tools_bundle-63301935c1af.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:21378:tribal-pathways",
+      "name": "Tribal Pathways",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        13274,
+        13275,
+        13276,
+        13277,
+        13278,
+        13279,
+        13280,
+        13281
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 20,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_warlock_tribal_warlock_weapon-d65532ca782b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_warlock:core-set:21776:vote-only-greevil-master",
+      "name": "Vote Only Greevil Master",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        182,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "sourceItemIds": [
+        19296,
+        19297,
+        19298,
+        19299,
+        19320,
+        19321,
+        19322,
+        19323
+      ],
+      "slots": [
+        "ability_ultimate",
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 18,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_greevil_master-3b1de77bb467.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 34373414,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 607
+  }
+}

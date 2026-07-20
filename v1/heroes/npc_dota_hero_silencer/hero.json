@@ -1,0 +1,3871 @@
+{
+  "heroId": "npc_dota_hero_silencer",
+  "sourceHeroId": "npc_dota_hero_silencer",
+  "variantId": "default",
+  "heroName": "Silencer",
+  "heroSlug": "silencer",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_silencer/f87ea8b5bdfc/models/heroes/silencer/silencer.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 301,
+      "name": "Silencers Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ab6dbb6bba81/models/heroes/silencer/silender_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/ab6dbb6bba81/models/heroes/silencer/silender_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silender_bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ab6dbb6bba81/models/heroes/silencer/silencer_bracers_color_psd_bd59581f.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "itemId": 304,
+      "name": "Silencers Robe",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1684d9560974/models/heroes/silencer/silencer_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/1684d9560974/models/heroes/silencer/silencer_robe.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_robe.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1684d9560974/models/heroes/silencer/silencer_robe_color_psd_beca8da9.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 302,
+      "name": "Silencers Helmet",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7881e2859b58/models/heroes/silencer/silencer_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/7881e2859b58/models/heroes/silencer/silencer_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_helmet.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7881e2859b58/models/heroes/silencer/silencer_helmet_color_psd_a101db8a.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "itemId": 28,
+      "name": "Silencers Shield",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/02d9d3204c5b/models/heroes/silencer/silencer_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/02d9d3204c5b/models/heroes/silencer/silencer_shield.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_shield.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/02d9d3204c5b/models/heroes/silencer/silencer_shield_color_psd_dd48bbe6.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 303,
+      "name": "Silencers Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c1a414c9e718/models/heroes/silencer/silencer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/c1a414c9e718/models/heroes/silencer/silencer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c1a414c9e718/models/heroes/silencer/silencer_shoulder_color_psd_f72b71ff.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 27,
+      "name": "Silencers Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/96d976640ab7/models/heroes/silencer/silencer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/96d976640ab7/models/heroes/silencer/silencer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/96d976640ab7/models/heroes/silencer/silencer_weapon_color_psd_9886f6a0.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_silencer:item-model:9026:silent-guardian-arms",
+      "itemId": 9026,
+      "name": "Armguards of the Silent Edict",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b255ef560a97/models/items/silencer/silent_guardian_arms/silent_guardian_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b255ef560a97/models/items/silencer/silent_guardian_arms/silent_guardian_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_guardian_arms/silent_guardian_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_guardian_arms-45c76436c6c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b255ef560a97/models/items/silencer/silent_guardian_arms/silent_guardian_arms_color_tga_3339e66d.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6159:silentchampion-arms",
+      "itemId": 6159,
+      "name": "Arms of the Silent Champion",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f27c1a5c755e/models/items/silencer/silentchampion_arms/silentchampion_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/f27c1a5c755e/models/items/silencer/silentchampion_arms/silentchampion_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silentchampion_arms/silentchampion_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silentchampion_arms-b3ea74ef47c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f27c1a5c755e/models/items/silencer/silentchampion_arms/silentchampion_arms_color_tga_77dab4fa.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12822:frostivus2018-silencer-silent-paragon-arms",
+      "itemId": 12822,
+      "name": "Bracer of Eternal Night",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/08410760d049/models/items/silencer/frostivus2018_silencer_silent_paragon_arms/frostivus2018_silencer_silent_paragon_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/08410760d049/models/items/silencer/frostivus2018_silencer_silent_paragon_arms/frostivus2018_silencer_silent_paragon_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_silent_paragon_arms/frostivus2018_silencer_silent_paragon_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_silent_paragon_arms-6e9f4bd3d45e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/08410760d049/models/items/silencer/frostivus2018_silencer_silent_paragon_arms/frostivus2018_silencer_silent_paragon_arms_color_tga_3fb547f8.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12910:frostivus2018-silencer-high-priest-arms",
+      "itemId": 12910,
+      "name": "Bracer of the Silvered Talon",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/e633d1795813/models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/e633d1795813/models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_arms-209b2cb66ad4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/e633d1795813/models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms_color_tga_2583691b.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6876:aeol-drias-arms",
+      "itemId": 6876,
+      "name": "Bracers of Aeol Drias",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/9d9f6ccab3e5/models/items/silencer/aeol_drias_arms/aeol_drias_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/9d9f6ccab3e5/models/items/silencer/aeol_drias_arms/aeol_drias_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/aeol_drias_arms/aeol_drias_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aeol_drias_arms-da6f3a4e0fb9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/9d9f6ccab3e5/models/items/silencer/aeol_drias_arms/aeol_drias_arms_color_tga_9e48771b.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9112:the-hazhadal-magebreaker-arms",
+      "itemId": 9112,
+      "name": "Bracers of the Hazhadal Magebreaker",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3395f02840f6/models/items/silencer/the_hazhadal_magebreaker_arms/the_hazhadal_magebreaker_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/3395f02840f6/models/items/silencer/the_hazhadal_magebreaker_arms/the_hazhadal_magebreaker_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/the_hazhadal_magebreaker_arms/the_hazhadal_magebreaker_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_hazhadal_magebreaker_arms-d8dbc8eb9bd0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3395f02840f6/models/items/silencer/the_hazhadal_magebreaker_arms/the_hazhadal_magebreaker_arms_color_tga_19bf1aa3.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:4565:iq-bracers",
+      "itemId": 4565,
+      "name": "Bracers of the Hidden Talent",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/496e77e294f9/models/items/silencer/iq_bracers/iq_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/496e77e294f9/models/items/silencer/iq_bracers/iq_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/iq_bracers/iq_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/iq_bracers-06f142e544bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/496e77e294f9/models/items/silencer/iq_bracers/iq_bracers_color_tga_d2573a62.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:5539:bracers-of-the-silent-guardian",
+      "itemId": 5539,
+      "name": "Bracers of the Silent Guardian",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/40a3b7c20679/models/items/silencer/bracers_of_the_silent_guardian/bracers_of_the_silent_guardian.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/40a3b7c20679/models/items/silencer/bracers_of_the_silent_guardian/bracers_of_the_silent_guardian.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/bracers_of_the_silent_guardian/bracers_of_the_silent_guardian.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracers_of_the_silent_guardian-740942158d6d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/40a3b7c20679/models/items/silencer/bracers_of_the_silent_guardian/bracers_of_the_silent_guardian_color_tga_3d9ceb47.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6387:whispertribunal-arms",
+      "itemId": 6387,
+      "name": "Bracers of the Tribunal",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/5f09450a82b5/models/items/silencer/whispertribunal_arms/whispertribunal_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/5f09450a82b5/models/items/silencer/whispertribunal_arms/whispertribunal_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/whispertribunal_arms/whispertribunal_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispertribunal_arms-1e65037d5c01.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/5f09450a82b5/models/items/silencer/whispertribunal_arms/whispertribunal_arms_color_tga_332bdf97.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:8124:bts-final-utterance-arms",
+      "itemId": 8124,
+      "name": "Gauntlets of the Final Utterance",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1c5176b134ee/models/items/silencer/bts_final_utterance_arms/bts_final_utterance_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/1c5176b134ee/models/items/silencer/bts_final_utterance_arms/bts_final_utterance_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/bts_final_utterance_arms/bts_final_utterance_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_final_utterance_arms-f4f0d355ff03.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1c5176b134ee/models/items/silencer/bts_final_utterance_arms/bts_final_utterance_arms_color_tga_b021f393.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:26317:silencer-grand-archivist-arms",
+      "itemId": 26317,
+      "name": "Grand Suppressor  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d3629a9b417a/models/items/silencer/silencer_grand_archivist_arms/silencer_grand_archivist_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/d3629a9b417a/models/items/silencer/silencer_grand_archivist_arms/silencer_grand_archivist_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_grand_archivist_arms/silencer_grand_archivist_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_grand_archivist_arms-bf61f1416c02.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d3629a9b417a/models/items/silencer/silencer_grand_archivist_arms/silencer_grand_archivist_arms_color_tga_eaf2776c.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:301:silender-bracers",
+      "itemId": 301,
+      "name": "Silencers Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ab6dbb6bba81/models/heroes/silencer/silender_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/ab6dbb6bba81/models/heroes/silencer/silender_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silender_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silender_bracers-a4760191c5c2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ab6dbb6bba81/models/heroes/silencer/silencer_bracers_color_psd_bd59581f.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:13926:silent-huner-arms",
+      "itemId": 13926,
+      "name": "Silent Slayer  Equipment",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/16b63af664f3/models/items/silencer/silent_huner_arms/silent_huner_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/16b63af664f3/models/items/silencer/silent_huner_arms/silent_huner_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_huner_arms/silent_huner_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_huner_arms-6b21fbee7b08.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/16b63af664f3/models/items/silencer/silent_huner_arms/silent_huner_arms_color_tga_4e7ca7d5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silent_huner_arms/silent_huner_arms.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silent_huner_arms/silent_huner_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silent_huner_ti10/silencer_huner_arms_scrolls.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:23206:frostivus2018-silencer-high-priest-arms",
+      "itemId": 23206,
+      "name": "Summer Lineage Bracer of the Silvered Talon",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/4723758c4c04/models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/4723758c4c04/models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_arms1-f52b176ae585.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/4723758c4c04/models/items/silencer/frostivus2018_silencer_high_priest_arms/frostivus2018_silencer_high_priest_arms_color_tga_2583691b.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:28224:silencer-avilliva-arms",
+      "itemId": 28224,
+      "name": "Whispering Wings  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d812613ce27a/models/items/silencer/silencer_avilliva_arms/silencer_avilliva_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/d812613ce27a/models/items/silencer/silencer_avilliva_arms/silencer_avilliva_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_avilliva_arms/silencer_avilliva_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_whispering_wings_arms-70bdfeb26c83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d812613ce27a/models/items/silencer/silencer_avilliva_arms/silencer_avilliva_arms_color_psd_4583302c.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:33121:reapers-envoy-arms",
+      "itemId": 33121,
+      "name": "Worship of the Whispered Wing  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/0712b286cafc/models/items/silencer/reapers_envoy_arms/reapers_envoy_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/0712b286cafc/models/items/silencer/reapers_envoy_arms/reapers_envoy_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/reapers_envoy_arms/reapers_envoy_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reapers_envoy_arms-7f1d66867d46.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/0712b286cafc/models/items/silencer/reapers_envoy_arms/reapers_envoy_arms_color_tga_a5f769b8.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12825:frostivus2018-silencer-silent-paragon-belt",
+      "itemId": 12825,
+      "name": "Belt of Eternal Night",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/67f12aed7d8f/models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/67f12aed7d8f/models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_silent_paragon_belt-89e813b2b152.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/67f12aed7d8f/models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt_color_tga_29cdca10.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt.vmdl",
+        "modelPaths": [
+          "models/items/silencer/frostivus2018_silencer_silent_paragon_belt/frostivus2018_silencer_silent_paragon_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_silent_paragon/silencer_silent_paragon_belt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9111:the-hazhadal-magebreaker-belt",
+      "itemId": 9111,
+      "name": "Belt of the Hazhadal Magebreaker",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/52753e5997d0/models/items/silencer/the_hazhadal_magebreaker_belt/the_hazhadal_magebreaker_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/52753e5997d0/models/items/silencer/the_hazhadal_magebreaker_belt/the_hazhadal_magebreaker_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/the_hazhadal_magebreaker_belt/the_hazhadal_magebreaker_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_hazhadal_magebreaker_belt-f7729ed8e846.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/52753e5997d0/models/items/silencer/the_hazhadal_magebreaker_belt/the_hazhadal_magebreaker_belt_color_psd_8844320d.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12915:frostivus2018-silencer-high-priest-belt",
+      "itemId": 12915,
+      "name": "Belt of the Silvered Talon",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c8a50525eb27/models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/c8a50525eb27/models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_belt-8964cce13eae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c8a50525eb27/models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt_color_tga_110be5f3.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:26318:silencer-grand-archivist-belt",
+      "itemId": 26318,
+      "name": "Grand Suppressor  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/cfaf6a8f53b0/models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/cfaf6a8f53b0/models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_grand_archivist_belt-e8f69e20d038.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/cfaf6a8f53b0/models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt_color_tga_54afe709.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_grand_archivist_belt/silencer_grand_archivist_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_2022_cc/silencer_2022_cc_ambient_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6390:whispertribunal-belt",
+      "itemId": 6390,
+      "name": "Mantle of the Tribunal",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/9585a2dd9bbc/models/items/silencer/whispertribunal_belt/whispertribunal_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/9585a2dd9bbc/models/items/silencer/whispertribunal_belt/whispertribunal_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/whispertribunal_belt/whispertribunal_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispertribunal_belt-c0b788368827.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/9585a2dd9bbc/models/items/silencer/whispertribunal_belt/whispertribunal_belt_color_tga_f9160f9c.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:4569:iq-robe",
+      "itemId": 4569,
+      "name": "Robe of the Hidden Talent",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/39b4ed8abbf1/models/items/silencer/iq_robe/iq_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/39b4ed8abbf1/models/items/silencer/iq_robe/iq_robe.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/iq_robe/iq_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/iq_robe-0cd20a8399fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/39b4ed8abbf1/models/items/silencer/iq_robe/iq_robe_color_tga_fb0ad86.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6163:silentchampion-belt",
+      "itemId": 6163,
+      "name": "Robe of the Silent Champion",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/12bd98f68476/models/items/silencer/silentchampion_belt/silentchampion_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/12bd98f68476/models/items/silencer/silentchampion_belt/silentchampion_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silentchampion_belt/silentchampion_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silentchampion_belt-bb4d9c921106.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/12bd98f68476/models/items/silencer/silentchampion_belt/silentchampion_belt_color_tga_bc532013.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9027:silent-guardian-belt",
+      "itemId": 9027,
+      "name": "Robe of the Silent Edict",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/318726336b29/models/items/silencer/silent_guardian_belt/silent_guardian_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/318726336b29/models/items/silencer/silent_guardian_belt/silent_guardian_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_guardian_belt/silent_guardian_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_guardian_belt-afbb32e9f0d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/318726336b29/models/items/silencer/silent_guardian_belt/silent_guardian_belt_color_tga_75046951.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:5540:shift-of-the-silent-guardian",
+      "itemId": 5540,
+      "name": "Shift of the Silent Guardian",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f3b0964c8581/models/items/silencer/shift_of_the_silent_guardian/shift_of_the_silent_guardian.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/f3b0964c8581/models/items/silencer/shift_of_the_silent_guardian/shift_of_the_silent_guardian.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/shift_of_the_silent_guardian/shift_of_the_silent_guardian.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shift_of_the_silent_guardian-bbf26a6edc60.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f3b0964c8581/models/items/silencer/shift_of_the_silent_guardian/shift_of_the_silent_guardian_color_tga_1634a4bb.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:304:silencer-robe",
+      "itemId": 304,
+      "name": "Silencers Robe",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1684d9560974/models/heroes/silencer/silencer_robe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/1684d9560974/models/heroes/silencer/silencer_robe.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_robe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_robe-56b799e023e5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1684d9560974/models/heroes/silencer/silencer_robe_color_psd_beca8da9.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:13924:silent-huner-belt",
+      "itemId": 13924,
+      "name": "Silent Slayer  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/4c256334ee35/models/items/silencer/silent_huner_belt/silent_huner_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/4c256334ee35/models/items/silencer/silent_huner_belt/silent_huner_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_huner_belt/silent_huner_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_huner_belt-6026823c8e56.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/4c256334ee35/models/items/silencer/silent_huner_belt/silent_huner_belt_color_tga_b39e161a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silent_huner_belt/silent_huner_belt.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silent_huner_belt/silent_huner_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silent_huner_ti10/silent_huner_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:23211:frostivus2018-silencer-high-priest-belt",
+      "itemId": 23211,
+      "name": "Summer Lineage Belt of the Silvered Talon",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/99ec56ab5577/models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/99ec56ab5577/models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_belt1-44cfaa33404d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/99ec56ab5577/models/items/silencer/frostivus2018_silencer_high_priest_belt/frostivus2018_silencer_high_priest_belt_color_tga_110be5f3.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:8125:bts-final-utterance-belt",
+      "itemId": 8125,
+      "name": "Tassets of the Final Utterance",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fbc41f0c3cdc/models/items/silencer/bts_final_utterance_belt/bts_final_utterance_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/fbc41f0c3cdc/models/items/silencer/bts_final_utterance_belt/bts_final_utterance_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/bts_final_utterance_belt/bts_final_utterance_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_final_utterance_belt-ce844cdb0dc4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fbc41f0c3cdc/models/items/silencer/bts_final_utterance_belt/bts_final_utterance_belt_color_tga_ea819f77.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6483:aeol-drias-belt",
+      "itemId": 6483,
+      "name": "Threads of Aeol Drias",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/11d865c2bd07/models/items/silencer/aeol_drias_belt/aeol_drias_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/11d865c2bd07/models/items/silencer/aeol_drias_belt/aeol_drias_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/aeol_drias_belt/aeol_drias_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aeol_drias_belt-60d88c9e67c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/11d865c2bd07/models/items/silencer/aeol_drias_belt/aeol_drias_belt_color_tga_6146d96f.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:28223:silencer-avilliva-belt",
+      "itemId": 28223,
+      "name": "Whispering Wings  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8048cf93cef6/models/items/silencer/silencer_avilliva_belt/silencer_avilliva_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/8048cf93cef6/models/items/silencer/silencer_avilliva_belt/silencer_avilliva_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_avilliva_belt/silencer_avilliva_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_whispering_wings_belt-baaf30e959ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8048cf93cef6/models/items/silencer/silencer_avilliva_belt/silencer_avilliva_belt_color_psd_8c758346.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:33119:reapers-envoy-belt",
+      "itemId": 33119,
+      "name": "Worship of the Whispered Wing  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot Belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b0a05bbb9cfb/models/items/silencer/reapers_envoy_belt/reapers_envoy_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b0a05bbb9cfb/models/items/silencer/reapers_envoy_belt/reapers_envoy_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/reapers_envoy_belt/reapers_envoy_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reapers_envoy_belt-52808e04f7a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b0a05bbb9cfb/models/items/silencer/reapers_envoy_belt/reapers_envoy_belt_color_tga_879686ad.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:7467:ti6-helmet",
+      "itemId": 7467,
+      "name": "Damarakan Muzzle",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/a5e5dc92265e/models/items/silencer/ti6_helmet/mesh/ti6_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/a5e5dc92265e/models/items/silencer/ti6_helmet/mesh/ti6_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_helmet-21067335d0f9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/a5e5dc92265e/models/items/silencer/ti6_helmet/mesh/ti6_silencer_immortal_helmet_color_psd_e97e47ba.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl",
+        "modelPaths": [
+          "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_dmg_ti6.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_status_cast_ti6.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_status_ti6.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_ti6_silence.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_ti6_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/generic_gameplay/generic_silenced.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_last_word_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_last_word_status.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_last_word_status_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:8033:ti6-helmet",
+      "itemId": 8033,
+      "name": "Damarakan Muzzle of the Crimson Witness",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "quality:genuine",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/0edc3fc01de2/models/items/silencer/ti6_helmet/mesh/ti6_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/0edc3fc01de2/models/items/silencer/ti6_helmet/mesh/ti6_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_helmet1-2ac7afe23d00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/0edc3fc01de2/models/items/silencer/ti6_helmet/mesh/ti6_silencer_immortal_helmet_color_psd_e97e47ba.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl",
+        "modelPaths": [
+          "models/items/silencer/ti6_helmet/mesh/ti6_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_dmg_ti6.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_status_cast_ti6.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_status_ti6.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_last_word_ti6_silence.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti6/silencer_ti6_witness_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/generic_gameplay/generic_silenced.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_last_word_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_last_word_status.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_last_word_status_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:26315:silencer-grand-archivist-head",
+      "itemId": 26315,
+      "name": "Grand Suppressor  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1b90be0cef97/models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/1b90be0cef97/models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_grand_archivist_head-c6bfa0e14e17.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1b90be0cef97/models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head_color_tga_56ae33bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_grand_archivist_head/silencer_grand_archivist_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_2022_cc/silencer_2022_cc_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9024:silent-guardian-head",
+      "itemId": 9024,
+      "name": "Hair of the Silent Edict",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ae42754dc4cc/models/items/silencer/silent_guardian_head/silent_guardian_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/ae42754dc4cc/models/items/silencer/silent_guardian_head/silent_guardian_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_guardian_head/silent_guardian_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_guardian_head-b8eaa913ea42.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ae42754dc4cc/models/items/silencer/silent_guardian_head/silent_guardian_head_color_tga_ee83a500.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6862:aeol-drias-head",
+      "itemId": 6862,
+      "name": "Headgear of Aeol Drias",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/cb493620a664/models/items/silencer/aeol_drias_head/aeol_drias_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/cb493620a664/models/items/silencer/aeol_drias_head/aeol_drias_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/aeol_drias_head/aeol_drias_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aeol_drias_head-8e55ca62ea5a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/cb493620a664/models/items/silencer/aeol_drias_head/aeol_drias_head_color_tga_953257a.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:4567:iq-helm",
+      "itemId": 4567,
+      "name": "Helm of the Hidden Talent",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3c045fb44e40/models/items/silencer/iq_helm/iq_helm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/3c045fb44e40/models/items/silencer/iq_helm/iq_helm.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/iq_helm/iq_helm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/iq_helm-af6fd59bbcbb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3c045fb44e40/models/items/silencer/iq_helm/iq_helm_color_tga_81229ecf.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:5547:helm-of-the-silent-guardian",
+      "itemId": 5547,
+      "name": "Helm of the Silent Guardian",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/25eec69feb65/models/items/silencer/helm_of_the_silent_guardian/helm_of_the_silent_guardian.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/25eec69feb65/models/items/silencer/helm_of_the_silent_guardian/helm_of_the_silent_guardian.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/helm_of_the_silent_guardian/helm_of_the_silent_guardian.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helm_of_the_silent_guardian-4e21c60dd0be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/25eec69feb65/models/items/silencer/helm_of_the_silent_guardian/helm_of_the_silent_guardian_color_tga_a7e36121.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12912:frostivus2018-silencer-high-priest-head",
+      "itemId": 12912,
+      "name": "Helm of the Silvered Talon",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/aef7738a1b39/models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/aef7738a1b39/models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_head-c746d1fb88fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/aef7738a1b39/models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head_color_tga_5494d287.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6164:silentchampion-helmet",
+      "itemId": 6164,
+      "name": "Helmet of the Silent Champion",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/69ceedacc3a8/models/items/silencer/silentchampion_helmet/silentchampion_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/69ceedacc3a8/models/items/silencer/silentchampion_helmet/silentchampion_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silentchampion_helmet/silentchampion_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silentchampion_helmet-42a2c734ea48.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/69ceedacc3a8/models/items/silencer/silentchampion_helmet/silentchampion_helmet_color_tga_e60bc783.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6389:whispertribunal-head",
+      "itemId": 6389,
+      "name": "Helmet of the Tribunal",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/6a3ce79f6566/models/items/silencer/whispertribunal_head/whispertribunal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/6a3ce79f6566/models/items/silencer/whispertribunal_head/whispertribunal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/whispertribunal_head/whispertribunal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispertribunal_head-2beb2fc03f57.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/6a3ce79f6566/models/items/silencer/whispertribunal_head/whispertribunal_head_color_tga_f9b0d4c8.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12823:frostivus2018-silencer-silent-paragon-head",
+      "itemId": 12823,
+      "name": "Mask of Eternal Night",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/5ff22a86ce7d/models/items/silencer/frostivus2018_silencer_silent_paragon_head/frostivus2018_silencer_silent_paragon_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/5ff22a86ce7d/models/items/silencer/frostivus2018_silencer_silent_paragon_head/frostivus2018_silencer_silent_paragon_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_silent_paragon_head/frostivus2018_silencer_silent_paragon_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_silent_paragon_head-bede28d81941.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/5ff22a86ce7d/models/items/silencer/frostivus2018_silencer_silent_paragon_head/frostivus2018_silencer_silent_paragon_head_color_tga_cdb5fbcc.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9113:the-hazhadal-magebreaker-head",
+      "itemId": 9113,
+      "name": "Mask of the Hazhadal Magebreaker",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8f292c984270/models/items/silencer/the_hazhadal_magebreaker_head/the_hazhadal_magebreaker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/8f292c984270/models/items/silencer/the_hazhadal_magebreaker_head/the_hazhadal_magebreaker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/the_hazhadal_magebreaker_head/the_hazhadal_magebreaker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_hazhadal_magebreaker_head-839b6e8c9d87.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8f292c984270/models/items/silencer/the_hazhadal_magebreaker_head/the_hazhadal_magebreaker_head_color_psd_23c432cd.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:8122:bts-final-utterance-head",
+      "itemId": 8122,
+      "name": "Prow of the Final Utterance",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/a62a19fad32a/models/items/silencer/bts_final_utterance_head/bts_final_utterance_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/a62a19fad32a/models/items/silencer/bts_final_utterance_head/bts_final_utterance_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/bts_final_utterance_head/bts_final_utterance_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_final_utterance_head-b2c2bcc5392f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/a62a19fad32a/models/items/silencer/bts_final_utterance_head/bts_final_utterance_head_color_tga_5c17928b.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:302:silencer-helmet",
+      "itemId": 302,
+      "name": "Silencers Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7881e2859b58/models/heroes/silencer/silencer_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/7881e2859b58/models/heroes/silencer/silencer_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_helmet-14517e22579e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7881e2859b58/models/heroes/silencer/silencer_helmet_color_psd_a101db8a.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:13923:silent-huner-head",
+      "itemId": 13923,
+      "name": "Silent Slayer  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/168d427eabfe/models/items/silencer/silent_huner_head/silent_huner_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/168d427eabfe/models/items/silencer/silent_huner_head/silent_huner_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_huner_head/silent_huner_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_huner_head-c8f411b703e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/168d427eabfe/models/items/silencer/silent_huner_head/silent_huner_head_color_tga_9a379677.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silent_huner_head/silent_huner_head.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silent_huner_head/silent_huner_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silent_huner_ti10/silencer_silent_huner_hat.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:23208:frostivus2018-silencer-high-priest-head",
+      "itemId": 23208,
+      "name": "Summer Lineage Helm of the Silvered Talon",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8c3d7273279e/models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/8c3d7273279e/models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_head1-b7c75cc8c71a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8c3d7273279e/models/items/silencer/frostivus2018_silencer_high_priest_head/frostivus2018_silencer_high_priest_head_color_tga_5494d287.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:28222:silencer-avilliva-head",
+      "itemId": 28222,
+      "name": "Whispering Wings  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ae07500ed864/models/items/silencer/silencer_avilliva_head/silencer_avilliva_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/ae07500ed864/models/items/silencer/silencer_avilliva_head/silencer_avilliva_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_avilliva_head/silencer_avilliva_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_whispering_wings_head-34dc8f840778.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ae07500ed864/models/items/silencer/silencer_avilliva_head/silencer_avilliva_head_color_psd_863bbcd2.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:33122:reapers-envoy-head",
+      "itemId": 33122,
+      "name": "Worship of the Whispered Wing  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b13f26a4ec79/models/items/silencer/reapers_envoy_head/reapers_envoy_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b13f26a4ec79/models/items/silencer/reapers_envoy_head/reapers_envoy_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/reapers_envoy_head/reapers_envoy_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reapers_envoy_head-47c9c1ed3ced.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b13f26a4ec79/models/items/silencer/reapers_envoy_head/reapers_envoy_head_color_tga_8f26df02.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/reapers_envoy_head/reapers_envoy_head.vmdl",
+        "modelPaths": [
+          "models/items/silencer/reapers_envoy_head/reapers_envoy_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/reapers_envoy/reapers_envoy_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:14962:silencer-ti10-immortal-shield",
+      "itemId": 14962,
+      "name": "Aspect of Oscilla",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8f9d406e09c5/models/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/8f9d406e09c5/models/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_ti10_immortal_shield-3dd0bdc08c1b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8f9d406e09c5/models/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_shield_color_tga_9c9ed482.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_shield.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_shield.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_curse_aoe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_curse_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti10_immortal_shield/silencer_ti10_immortal_curse_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_curse.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_curse_aoe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_curse_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6863:aeol-drias-shield",
+      "itemId": 6863,
+      "name": "Buckler of Aeol Drias",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7764728dbeff/models/items/silencer/aeol_drias_shield/aeol_drias_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/7764728dbeff/models/items/silencer/aeol_drias_shield/aeol_drias_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/aeol_drias_shield/aeol_drias_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aeol_drias_shield-747c03c3cf93.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7764728dbeff/models/items/silencer/aeol_drias_shield/aeol_drias_shield_color_tga_9bf2b79d.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:26320:silencer-grand-archivist-offhand-weapon",
+      "itemId": 26320,
+      "name": "Grand Suppressor  OffHand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b9167b690367/models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b9167b690367/models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_grand_archivist_offhand_weapon-2d79c38a05fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b9167b690367/models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon_color_tga_7423341c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_grand_archivist_offhand_weapon/silencer_grand_archivist_offhand_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_2022_cc/silencer_2022_cc_ambient_offhand_orb.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12826:frostivus2018-silencer-silent-paragon-off-hand",
+      "itemId": 12826,
+      "name": "Shield of Eternal Night",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/628767da777d/models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/628767da777d/models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_silent_paragon_off_hand-102a6ed0e7aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/628767da777d/models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand_color_tga_f071eccd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/silencer/frostivus2018_silencer_silent_paragon_off_hand/frostivus2018_silencer_silent_paragon_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_silent_paragon/silencer_silent_paragon_shield_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:5780:shield-of-stillness",
+      "itemId": 5780,
+      "name": "Shield of Stillness",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b6d60570b6bb/models/items/silencer/shield_of_stillness/shield_of_stillness.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b6d60570b6bb/models/items/silencer/shield_of_stillness/shield_of_stillness.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/shield_of_stillness/shield_of_stillness.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shield_of_stillness-5641307e58fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b6d60570b6bb/models/items/silencer/shield_of_stillness/shield_of_stillness_color_tga_bcbe445d.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:8123:bts-final-utterance-offhand",
+      "itemId": 8123,
+      "name": "Shield of the Final Utterance",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fdb545e65947/models/items/silencer/bts_final_utterance_offhand/bts_final_utterance_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/fdb545e65947/models/items/silencer/bts_final_utterance_offhand/bts_final_utterance_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/bts_final_utterance_offhand/bts_final_utterance_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_final_utterance_offhand-cf8d63b803d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fdb545e65947/models/items/silencer/bts_final_utterance_offhand/bts_final_utterance_offhand_color_tga_cdc3adc8.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9110:the-hazhadal-magebreaker-off-hand",
+      "itemId": 9110,
+      "name": "Shield of the Hazhadal Magebreaker",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/9184668939bb/models/items/silencer/the_hazhadal_magebreaker_off_hand/the_hazhadal_magebreaker_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/9184668939bb/models/items/silencer/the_hazhadal_magebreaker_off_hand/the_hazhadal_magebreaker_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/the_hazhadal_magebreaker_off_hand/the_hazhadal_magebreaker_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_hazhadal_magebreaker_off_hand-c51ba0d750c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/9184668939bb/models/items/silencer/the_hazhadal_magebreaker_off_hand/the_hazhadal_magebreaker_off_hand_color_tga_c46521e.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:4563:iq-shield",
+      "itemId": 4563,
+      "name": "Shield of the Hidden Talent",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/e59d6f5f186d/models/items/silencer/iq_shield/iq_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/e59d6f5f186d/models/items/silencer/iq_shield/iq_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/iq_shield/iq_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/iq_shield-e9a21dae7f5f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/e59d6f5f186d/models/items/silencer/iq_shield/iq_shield_color_tga_9266bee2.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6161:silentchampion-shield",
+      "itemId": 6161,
+      "name": "Shield of the Silent Champion",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/26f4a56b7b49/models/items/silencer/silentchampion_shield/silentchampion_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/26f4a56b7b49/models/items/silencer/silentchampion_shield/silentchampion_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silentchampion_shield/silentchampion_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silentchampion_shield-8a8ebecde6e0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/26f4a56b7b49/models/items/silencer/silentchampion_shield/silentchampion_shield_color_tga_c60b401a.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9023:silent-guardian-off-hand",
+      "itemId": 9023,
+      "name": "Shield of the Silent Edict",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b90f58d2ca50/models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b90f58d2ca50/models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_guardian_off_hand-d5fa9256c291.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b90f58d2ca50/models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand_color_tga_2f03fde2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_guardian/silencer_guardian_shield_base.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Silent Guardian OffHand 0",
+            "icon": "econ/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Silent Guardian OffHand 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/silencer/silencer_guardian/silencer_guardian_shield_base.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9023:silent-guardian-off-hand:style-1",
+      "itemId": 9023,
+      "name": "Shield of the Silent Edict - Silent Guardian OffHand 1",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b90f58d2ca50/models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b90f58d2ca50/models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_guardian_off_hand_style1-47571809c4f1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b90f58d2ca50/models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand_color_tga_2f03fde2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_guardian/silencer_guardian_shield_base.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Silent Guardian OffHand 0",
+            "icon": "econ/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Silent Guardian OffHand 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/silencer/silent_guardian_off_hand/silent_guardian_off_hand_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/silencer/silencer_guardian/silencer_guardian_shield_base.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:5542:shield-of-the-silent-guardian",
+      "itemId": 5542,
+      "name": "Shield of the Silent Guardian",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/102dfbd5d8b4/models/items/silencer/shield_of_the_silent_guardian/shield_of_the_silent_guardian.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/102dfbd5d8b4/models/items/silencer/shield_of_the_silent_guardian/shield_of_the_silent_guardian.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/shield_of_the_silent_guardian/shield_of_the_silent_guardian.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shield_of_the_silent_guardian-c9a2ffef1d21.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/102dfbd5d8b4/models/items/silencer/shield_of_the_silent_guardian/shield_of_the_silent_guardian_color_tga_cd6be03a.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12911:frostivus2018-silencer-high-priest-off-hand",
+      "itemId": 12911,
+      "name": "Shield of the Silvered Talon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fd5ef70606ba/models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/fd5ef70606ba/models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_off_hand-b630e11d9b25.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fd5ef70606ba/models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand_color_tga_3c4a8e50.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6391:whispertribunal-shield",
+      "itemId": 6391,
+      "name": "Shield of the Tribunal",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/85763ac12855/models/items/silencer/whispertribunal_shield/whispertribunal_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/85763ac12855/models/items/silencer/whispertribunal_shield/whispertribunal_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispertribunal_shield-5b3c9a0d2a6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/85763ac12855/models/items/silencer/whispertribunal_shield/whispertribunal_shield_color_tga_3dd45064.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl",
+        "modelPaths": [
+          "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Whisper Tribunal Shield Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/silencer/whispertribunal_shield/whispertribunal_shield",
+            "modelPaths": [
+              "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Whisper Tribunal Shield Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/silencer/whispertribunal_shield_s1/whispertribunal_shield_s1",
+            "modelPaths": [
+              "models/items/silencer/whispertribunal_shield_s1/whispertribunal_shield_s1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6391:whispertribunal-shield:style-1",
+      "itemId": 6391,
+      "name": "Shield of the Tribunal - Style 2",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/85763ac12855/models/items/silencer/whispertribunal_shield/whispertribunal_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/85763ac12855/models/items/silencer/whispertribunal_shield/whispertribunal_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispertribunal_shield_s1-4707d1f9a535.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/85763ac12855/models/items/silencer/whispertribunal_shield/whispertribunal_shield_color_tga_3dd45064.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl",
+        "modelPaths": [
+          "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Whisper Tribunal Shield Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/silencer/whispertribunal_shield/whispertribunal_shield",
+            "modelPaths": [
+              "models/items/silencer/whispertribunal_shield/whispertribunal_shield.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Whisper Tribunal Shield Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/silencer/whispertribunal_shield_s1/whispertribunal_shield_s1",
+            "modelPaths": [
+              "models/items/silencer/whispertribunal_shield_s1/whispertribunal_shield_s1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:28:silencer-shield",
+      "itemId": 28,
+      "name": "Silencers Shield",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/02d9d3204c5b/models/heroes/silencer/silencer_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/02d9d3204c5b/models/heroes/silencer/silencer_shield.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_shield-2c53a0abab75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/02d9d3204c5b/models/heroes/silencer/silencer_shield_color_psd_dd48bbe6.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:13922:silent-huner-off-hand",
+      "itemId": 13922,
+      "name": "Silent Slayer  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ee2068a5efdb/models/items/silencer/silent_huner_off_hand/silent_huner_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/ee2068a5efdb/models/items/silencer/silent_huner_off_hand/silent_huner_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_huner_off_hand/silent_huner_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_huner_off_hand-f661c5cd03e0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ee2068a5efdb/models/items/silencer/silent_huner_off_hand/silent_huner_off_hand_color_tga_8c719b61.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:23207:frostivus2018-silencer-high-priest-off-hand",
+      "itemId": 23207,
+      "name": "Summer Lineage Shield of the Silvered Talon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7db20e363d03/models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/7db20e363d03/models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_off_hand1-42a5faa6e4b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/7db20e363d03/models/items/silencer/frostivus2018_silencer_high_priest_off_hand/frostivus2018_silencer_high_priest_off_hand_color_tga_3c4a8e50.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:28219:silencer-avilliva-shield",
+      "itemId": 28219,
+      "name": "Whispering Wings  Offhand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f4d6a23cc42a/models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/f4d6a23cc42a/models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_whispering_wings_offhand_weapon-7b5173cd4532.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f4d6a23cc42a/models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield_color_psd_9833d309.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_avilliva_shield/silencer_avilliva_shield.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_avilliva/silencer_avilliva_shield_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:33120:reapers-envoy-offhandweapon",
+      "itemId": 33120,
+      "name": "Worship of the Whispered Wing  Offhand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Shield",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/4cc845429b39/models/items/silencer/reapers_envoy_offhandweapon/reapers_envoy_offhandweapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/4cc845429b39/models/items/silencer/reapers_envoy_offhandweapon/reapers_envoy_offhandweapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/reapers_envoy_offhandweapon/reapers_envoy_offhandweapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reapers_envoy_offhandweapon-3de160669418.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/4cc845429b39/models/items/silencer/reapers_envoy_offhandweapon/reapers_envoy_crow_color_tga_b13379a7.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12821:frostivus2018-silencer-silent-paragon-shoulder",
+      "itemId": 12821,
+      "name": "Armor of Eternal Night",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/0f0da935cc43/models/items/silencer/frostivus2018_silencer_silent_paragon_shoulder/frostivus2018_silencer_silent_paragon_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/0f0da935cc43/models/items/silencer/frostivus2018_silencer_silent_paragon_shoulder/frostivus2018_silencer_silent_paragon_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_silent_paragon_shoulder/frostivus2018_silencer_silent_paragon_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_silent_paragon_shoulder-6626dc124cd5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/0f0da935cc43/models/items/silencer/frostivus2018_silencer_silent_paragon_shoulder/frostivus2018_silencer_silent_paragon_shoulder_color_tga_c0aea315.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9114:the-hazhadal-magebreaker-shoulder",
+      "itemId": 9114,
+      "name": "Cape of the Hazhadal Magebreaker",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8e4475feacc9/models/items/silencer/the_hazhadal_magebreaker_shoulder/the_hazhadal_magebreaker_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/8e4475feacc9/models/items/silencer/the_hazhadal_magebreaker_shoulder/the_hazhadal_magebreaker_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/the_hazhadal_magebreaker_shoulder/the_hazhadal_magebreaker_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_hazhadal_magebreaker_shoulder-efee49878356.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8e4475feacc9/models/items/silencer/the_hazhadal_magebreaker_shoulder/the_hazhadal_magebreaker_shoulder_color_psd_3efd29b3.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6393:whispertribunal-shoulder",
+      "itemId": 6393,
+      "name": "Drapes of the Tribunal",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/06d3e60cc301/models/items/silencer/whispertribunal_shoulder/whispertribunal_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/06d3e60cc301/models/items/silencer/whispertribunal_shoulder/whispertribunal_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/whispertribunal_shoulder/whispertribunal_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispertribunal_shoulder-4a39d8ca0b29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/06d3e60cc301/models/items/silencer/whispertribunal_shoulder/whispertribunal_shoulder_color_tga_aba6ae85.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:26316:silencer-grand-archivist-shoulder",
+      "itemId": 26316,
+      "name": "Grand Suppressor  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/dda2864ae7ee/models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/dda2864ae7ee/models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_grand_archivist_shoulder-a5e7a9c0cf68.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/dda2864ae7ee/models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder_color_tga_2f17d11f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_grand_archivist_shoulder/silencer_grand_archivist_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_2022_cc/silencer_2022_cc_ambient_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:5543:pauldron-of-the-silent-guardian",
+      "itemId": 5543,
+      "name": "Pauldron of the Silent Guardian",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/a43f349ff65d/models/items/silencer/pauldron_of_the_silent_guardian/pauldron_of_the_silent_guardian.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/a43f349ff65d/models/items/silencer/pauldron_of_the_silent_guardian/pauldron_of_the_silent_guardian.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/pauldron_of_the_silent_guardian/pauldron_of_the_silent_guardian.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pauldron_of_the_silent_guardian-bfc11fd50703.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/a43f349ff65d/models/items/silencer/pauldron_of_the_silent_guardian/pauldron_of_the_silent_guardian_color_tga_d5660ca2.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:8126:bts-final-utterance-shoulder",
+      "itemId": 8126,
+      "name": "Pauldrons of the Final Utterance",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b3070cd8bbd3/models/items/silencer/bts_final_utterance_shoulder/bts_final_utterance_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/b3070cd8bbd3/models/items/silencer/bts_final_utterance_shoulder/bts_final_utterance_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/bts_final_utterance_shoulder/bts_final_utterance_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_final_utterance_shoulder-b0bc4c528824.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/b3070cd8bbd3/models/items/silencer/bts_final_utterance_shoulder/bts_final_utterance_shoulder_color_tga_725fff97.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:4571:iq-shoulders",
+      "itemId": 4571,
+      "name": "Shoulders of the Hidden Talent",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fc1f45c3c5c0/models/items/silencer/iq_shoulders/iq_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/fc1f45c3c5c0/models/items/silencer/iq_shoulders/iq_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/iq_shoulders/iq_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/iq_shoulders-7881bccc876c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/fc1f45c3c5c0/models/items/silencer/iq_shoulders/iq_shoulders_color_tga_a740b14c.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6162:silentchampion-shoulders",
+      "itemId": 6162,
+      "name": "Shoulders of the Silent Champion",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f6516fdf1e6d/models/items/silencer/silentchampion_shoulders/silentchampion_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/f6516fdf1e6d/models/items/silencer/silentchampion_shoulders/silentchampion_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silentchampion_shoulders/silentchampion_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silentchampion_shoulders-d1e9a6312bd7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f6516fdf1e6d/models/items/silencer/silentchampion_shoulders/silentchampion_shoulders_color_tga_7408e720.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9025:silent-guardian-shoulder",
+      "itemId": 9025,
+      "name": "Shoulders of the Silent Edict",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ad8114c7c0b5/models/items/silencer/silent_guardian_shoulder/silent_guardian_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/ad8114c7c0b5/models/items/silencer/silent_guardian_shoulder/silent_guardian_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_guardian_shoulder/silent_guardian_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_guardian_shoulder-33123dfae839.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ad8114c7c0b5/models/items/silencer/silent_guardian_shoulder/silent_guardian_shoulder_color_tga_5de4a0c6.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:303:silencer-shoulder",
+      "itemId": 303,
+      "name": "Silencers Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c1a414c9e718/models/heroes/silencer/silencer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/c1a414c9e718/models/heroes/silencer/silencer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_shoulder-1d554ec22ca9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c1a414c9e718/models/heroes/silencer/silencer_shoulder_color_psd_f72b71ff.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:13921:silent-huner-shoulder",
+      "itemId": 13921,
+      "name": "Silent Slayer  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8922c875c575/models/items/silencer/silent_huner_shoulder/silent_huner_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/8922c875c575/models/items/silencer/silent_huner_shoulder/silent_huner_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_huner_shoulder/silent_huner_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_huner_shoulder-6299351fae13.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8922c875c575/models/items/silencer/silent_huner_shoulder/silent_huner_shoulder_color_tga_d290a209.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:23210:frostivus2018-silencer-high-priest-shoulder",
+      "itemId": 23210,
+      "name": "Summer Lineage Vestment of the Silvered Talon",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/88b2814f7cb4/models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/88b2814f7cb4/models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_shoulder1-575bcdb7780e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/88b2814f7cb4/models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder_color_tga_55480091.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6864:aeol-drias-shoulder",
+      "itemId": 6864,
+      "name": "Tunic of Aeol Drias",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/83d3406a3d66/models/items/silencer/aeol_drias_shoulder/aeol_drias_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/83d3406a3d66/models/items/silencer/aeol_drias_shoulder/aeol_drias_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/aeol_drias_shoulder/aeol_drias_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aeol_drias_shoulder-3b85d50af21c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/83d3406a3d66/models/items/silencer/aeol_drias_shoulder/aeol_drias_shoulder_color_tga_93bd7c7c.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12914:frostivus2018-silencer-high-priest-shoulder",
+      "itemId": 12914,
+      "name": "Vestment of the Silvered Talon",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/452311ce1591/models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/452311ce1591/models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_shoulder-94e45307ee66.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/452311ce1591/models/items/silencer/frostivus2018_silencer_high_priest_shoulder/frostivus2018_silencer_high_priest_shoulder_color_tga_55480091.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:28225:silencer-avilliva-shoulders",
+      "itemId": 28225,
+      "name": "Whispering Wings  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f6399dbc785a/models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/f6399dbc785a/models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_whispering_wings_shoulder-777f2b250eb4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f6399dbc785a/models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulder_color_psd_b79e7194.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_avilliva_shoulders/silencer_avilliva_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_avilliva/silencer_avilliva_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:33124:reapers-envoy-should",
+      "itemId": 33124,
+      "name": "Worship of the Whispered Wing  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/6605247d7655/models/items/silencer/reapers_envoy_should/reapers_envoy_should.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/6605247d7655/models/items/silencer/reapers_envoy_should/reapers_envoy_should.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/reapers_envoy_should/reapers_envoy_should.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reapers_envoy_should-3793483d92d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/6605247d7655/models/items/silencer/reapers_envoy_should/reapers_envoy_should_color_tga_48e55597.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:5544:blade-of-the-silent-guardian",
+      "itemId": 5544,
+      "name": "Blade of the Silent Guardian",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8a2f22657851/models/items/silencer/blade_of_the_silent_guardian/blade_of_the_silent_guardian.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/8a2f22657851/models/items/silencer/blade_of_the_silent_guardian/blade_of_the_silent_guardian.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/blade_of_the_silent_guardian/blade_of_the_silent_guardian.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blade_of_the_silent_guardian-ca439995ee01.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/8a2f22657851/models/items/silencer/blade_of_the_silent_guardian/blade_of_the_silent_guardian_color_tga_1168dae2.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:8235:bts-silencer-weapon",
+      "itemId": 8235,
+      "name": "Edge of the Final Utterance",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c32acb2ad765/models/items/silencer/bts_silencer_weapon/bts_silencer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/c32acb2ad765/models/items/silencer/bts_silencer_weapon/bts_silencer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/bts_silencer_weapon/bts_silencer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_silencer_weapon-a9bdf19ecc95.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/c32acb2ad765/models/items/silencer/bts_silencer_weapon/bts_silencer_weapon_color_tga_971279fd.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9109:the-hazhadal-magebreaker-weapon",
+      "itemId": 9109,
+      "name": "Edge of the Hazhadal Magebreaker",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/5708ba836a8f/models/items/silencer/the_hazhadal_magebreaker_weapon/the_hazhadal_magebreaker_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/5708ba836a8f/models/items/silencer/the_hazhadal_magebreaker_weapon/the_hazhadal_magebreaker_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/the_hazhadal_magebreaker_weapon/the_hazhadal_magebreaker_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_hazhadal_magebreaker_weapon-e7b1e1bcc218.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/5708ba836a8f/models/items/silencer/the_hazhadal_magebreaker_weapon/the_hazhadal_magebreaker_weapon_color_tga_e9b4c5fc.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6865:aeol-drias-weapon",
+      "itemId": 6865,
+      "name": "Glaive of Aeol Drias",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/735539466d1f/models/items/silencer/aeol_drias_weapon/aeol_drias_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/735539466d1f/models/items/silencer/aeol_drias_weapon/aeol_drias_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/aeol_drias_weapon/aeol_drias_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aeol_drias_weapon-c0bd9792d4e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/735539466d1f/models/items/silencer/aeol_drias_weapon/aeol_drias_weapon_color_tga_b0beb5d7.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12824:frostivus2018-silencer-silent-paragon-weapon",
+      "itemId": 12824,
+      "name": "Glaive of Eternal Night",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/780d028b7876/models/items/silencer/frostivus2018_silencer_silent_paragon_weapon/frostivus2018_silencer_silent_paragon_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/780d028b7876/models/items/silencer/frostivus2018_silencer_silent_paragon_weapon/frostivus2018_silencer_silent_paragon_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_silent_paragon_weapon/frostivus2018_silencer_silent_paragon_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_silent_paragon_weapon-46a7338aa8bb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/780d028b7876/models/items/silencer/frostivus2018_silencer_silent_paragon_weapon/frostivus2018_silencer_silent_paragon_weapon_color_tga_2586329.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12414:silencer-ti8-immortal-weapon",
+      "itemId": 12414,
+      "name": "Glaive of Oscilla",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/18081523a63d/models/items/silencer/silencer_ti8_immortal_weapon/silencer_ti8_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/18081523a63d/models/items/silencer/silencer_ti8_immortal_weapon/silencer_ti8_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_ti8_immortal_weapon/silencer_ti8_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_ti8_immortal_weapon-91b65d51b3e6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/18081523a63d/models/items/silencer/silencer_ti8_immortal_weapon/silencer_ti8_immortal_weapon_color_psd_8c857f36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_ti8_immortal_weapon/silencer_ti8_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_ti8_immortal_weapon/silencer_ti8_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_ti8/silencer_ti8_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti8/silencer_ti8_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/silencer/silencer_ti8/silencer_ti8_glaive.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_silencer/silencer_glaives_of_wisdom.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:4572:iq-weapon",
+      "itemId": 4572,
+      "name": "Glaive of the Hidden Talent",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d0e1f9015fc3/models/items/silencer/iq_weapon/iq_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/d0e1f9015fc3/models/items/silencer/iq_weapon/iq_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/iq_weapon/iq_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/iq_weapon-b912a5e39a9f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d0e1f9015fc3/models/items/silencer/iq_weapon/iq_weapon_color_tga_b87cccb2.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:9022:silent-guardian-weapon",
+      "itemId": 9022,
+      "name": "Glaive of the Silent Edict",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ddf63937c44e/models/items/silencer/silent_guardian_weapon/silent_guardian_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/ddf63937c44e/models/items/silencer/silent_guardian_weapon/silent_guardian_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_guardian_weapon/silent_guardian_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_guardian_weapon-b3ad130fafd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/ddf63937c44e/models/items/silencer/silent_guardian_weapon/silent_guardian_weapon_color_tga_23eadeb8.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:12913:frostivus2018-silencer-high-priest-weapon",
+      "itemId": 12913,
+      "name": "Glaive of the Silvered Talon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/137d0f2c3b08/models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/137d0f2c3b08/models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_weapon-eaf25debea19.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/137d0f2c3b08/models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon_color_tga_32c9dbd6.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6394:whispertribunal-weapon",
+      "itemId": 6394,
+      "name": "Glaive of the Tribunal",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3887a8931aa2/models/items/silencer/whispertribunal__weapon/whispertribunal__weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/3887a8931aa2/models/items/silencer/whispertribunal__weapon/whispertribunal__weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/whispertribunal__weapon/whispertribunal__weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whispertribunal__weapon-58e4fefbf816.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3887a8931aa2/models/items/silencer/whispertribunal__weapon/whispertribunal__weapon_color_tga_b3dece1f.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:26319:silencer-grand-archivist-weapon",
+      "itemId": 26319,
+      "name": "Grand Suppressor  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3dd9aaec75df/models/items/silencer/silencer_grand_archivist_weapon/silencer_grand_archivist_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/3dd9aaec75df/models/items/silencer/silencer_grand_archivist_weapon/silencer_grand_archivist_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_grand_archivist_weapon/silencer_grand_archivist_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_grand_archivist_weapon-4883f49a65a8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/3dd9aaec75df/models/items/silencer/silencer_grand_archivist_weapon/silencer_grand_archivist_weapon_color_tga_e8c7fc00.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:6715:moon-whirl-weapon",
+      "itemId": 6715,
+      "name": "Moon Whirl",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d60efacb9c72/models/items/silencer/moon_whirl_weapon/moon_whirl_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/d60efacb9c72/models/items/silencer/moon_whirl_weapon/moon_whirl_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/moon_whirl_weapon/moon_whirl_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/moon_whirl_weapon-1873bb5539e2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/d60efacb9c72/models/items/silencer/moon_whirl_weapon/moon_whirl_weapon_color_tga_8d1b87f1.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:27:silencer-weapon",
+      "itemId": 27,
+      "name": "Silencers Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/96d976640ab7/models/heroes/silencer/silencer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/96d976640ab7/models/heroes/silencer/silencer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/silencer/silencer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_weapon-940fc19ff7bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/96d976640ab7/models/heroes/silencer/silencer_weapon_color_psd_9886f6a0.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:13920:silent-huner-weapon",
+      "itemId": 13920,
+      "name": "Silent Slayer  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/eaa186ab8438/models/items/silencer/silent_huner_weapon/silent_huner_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/eaa186ab8438/models/items/silencer/silent_huner_weapon/silent_huner_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silent_huner_weapon/silent_huner_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silent_huner_weapon-97f1f16adfca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/eaa186ab8438/models/items/silencer/silent_huner_weapon/silent_huner_weapon_color_tga_269529e9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silent_huner_weapon/silent_huner_weapon.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silent_huner_weapon/silent_huner_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silent_huner_ti10/silencer_silent_huner_weapon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:23209:frostivus2018-silencer-high-priest-weapon",
+      "itemId": 23209,
+      "name": "Summer Lineage Glaive of the Silvered Talon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1877bc48f139/models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/1877bc48f139/models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_weapon1-28ba60695dcf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/1877bc48f139/models/items/silencer/frostivus2018_silencer_high_priest_weapon/frostivus2018_silencer_high_priest_weapon_color_tga_32c9dbd6.png"
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:28220:silencer-avilliva-weapon",
+      "itemId": 28220,
+      "name": "Whispering Wings  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f390367e63c8/models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/f390367e63c8/models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/silencer_whispering_wings_weapon-0fd8c8cdac0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/f390367e63c8/models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon_color_psd_1caab05e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon.vmdl",
+        "modelPaths": [
+          "models/items/silencer/silencer_avilliva_weapon/silencer_avilliva_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/silencer_avilliva/silencer_avilliva_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_silencer:item-model:33125:reapers-envoy-weapon",
+      "itemId": 33125,
+      "name": "Worship of the Whispered Wing  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/238ac550a414/models/items/silencer/reapers_envoy_weapon/reapers_envoy_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_silencer/238ac550a414/models/items/silencer/reapers_envoy_weapon/reapers_envoy_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/silencer/reapers_envoy_weapon/reapers_envoy_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/reapers_envoy_weapon-94e41fa2fbbd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_silencer/238ac550a414/models/items/silencer/reapers_envoy_weapon/reapers_envoy_weapon_color_tga_27699530.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/silencer/reapers_envoy_weapon/reapers_envoy_weapon.vmdl",
+        "modelPaths": [
+          "models/items/silencer/reapers_envoy_weapon/reapers_envoy_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/silencer/reapers_envoy/reapers_envoy_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_silencer:core-set:26314:grand-suppressor",
+      "name": "Grand Suppressor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        26315,
+        26316,
+        26317,
+        26318,
+        26319,
+        26320
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/silencer_grand_archivist_head-c6bfa0e14e17.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:20274:guardian-of-silence-set",
+      "name": "Guardian of Silence Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        5539,
+        5540,
+        5542,
+        5543,
+        5544,
+        5547
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/bracers_of_the_silent_guardian-740942158d6d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:21090:hazhadal-magebreaker",
+      "name": "Hazhadal Magebreaker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        9109,
+        9110,
+        9111,
+        9112,
+        9113,
+        9114
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/the_hazhadal_magebreaker_hazhadal_magebreaker_loading_screen-c16d1c38bbd9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:20600:heirlooms-of-aeol-drias",
+      "name": "Heirlooms of Aeol Drias",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        6483,
+        6862,
+        6863,
+        6864,
+        6865,
+        6876
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_aeol_drias-b4015fa96637.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:21304:hush-of-eternal-night",
+      "name": "Hush of Eternal Night",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        12821,
+        12822,
+        12823,
+        12824,
+        12825,
+        12826
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_silencer_silent_paragon_shoulder-6626dc124cd5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:21320:order-of-the-silvered-talon",
+      "name": "Order of the Silvered Talon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        12910,
+        12911,
+        12912,
+        12913,
+        12914,
+        12915
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_arms-209b2cb66ad4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:20409:silent-champion",
+      "name": "Silent Champion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        6159,
+        6161,
+        6162,
+        6163,
+        6164
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/silentchampion_arms-b3ea74ef47c7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:21071:silent-edict",
+      "name": "Silent Edict",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        9022,
+        9023,
+        9024,
+        9025,
+        9026,
+        9027
+      ],
+      "styleSelections": {
+        "9023": "0"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/silent_guardian_silent_guardian_loadingscreen_new-544d976b78d6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:21071:silent-edict:style-1",
+      "name": "Silent Edict - Silent Guardian OffHand 1",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        9022,
+        9023,
+        9024,
+        9025,
+        9026,
+        9027
+      ],
+      "styleSelections": {
+        "9023": "1"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/silent_guardian_off_hand_style1-47571809c4f1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:21465:silent-slayer",
+      "name": "Silent Slayer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        13920,
+        13921,
+        13922,
+        13923,
+        13924,
+        13926
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/silent_huner_weapon-97f1f16adfca.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:23212:summer-lineage-order-of-the-silvered-talon",
+      "name": "Summer Lineage Order of the Silvered Talon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        23206,
+        23207,
+        23208,
+        23209,
+        23210,
+        23211
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_silencer_high_priest_arms1-f52b176ae585.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:20132:the-hidden-talent-set",
+      "name": "The Hidden Talent Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        4563,
+        4565,
+        4567,
+        4569,
+        4571,
+        4572
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/iq_shield-e9a21dae7f5f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:20776:tools-of-the-final-utterance",
+      "name": "Tools of the Final Utterance",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        8122,
+        8123,
+        8124,
+        8125,
+        8126,
+        8235
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/bts_silencer_loading_screent-bc0314a0a0bf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:20483:whisper-of-the-tribunal",
+      "name": "Whisper of the Tribunal",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        6387,
+        6389,
+        6390,
+        6391,
+        6393,
+        6394
+      ],
+      "styleSelections": {
+        "6391": "0"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/whispertribunal_arms-1e65037d5c01.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:20483:whisper-of-the-tribunal:style-1",
+      "name": "Whisper of the Tribunal - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        6387,
+        6389,
+        6390,
+        6391,
+        6393,
+        6394
+      ],
+      "styleSelections": {
+        "6391": "1"
+      },
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/whispertribunal_shield_s1-4707d1f9a535.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:28221:whispering-wings",
+      "name": "Whispering Wings",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        28219,
+        28220,
+        28222,
+        28223,
+        28224,
+        28225
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/silencer_whispering_wings_offhand_weapon-7b5173cd4532.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_silencer:core-set:33126:worship-of-the-whispered-wing",
+      "name": "Worship of the Whispered Wing",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        27,
+        28,
+        301,
+        302,
+        303,
+        304
+      ],
+      "sourceItemIds": [
+        33119,
+        33120,
+        33121,
+        33122,
+        33124,
+        33125
+      ],
+      "slots": [
+        "arms",
+        "belt",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/reapers_envoy_belt-52808e04f7a1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 84132331,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 589
+  }
+}

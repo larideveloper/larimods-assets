@@ -1,0 +1,2285 @@
+{
+  "heroId": "npc_dota_hero_leshrac",
+  "sourceHeroId": "npc_dota_hero_leshrac",
+  "variantId": "default",
+  "heroName": "Leshrac",
+  "heroSlug": "leshrac",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/leshrac.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_leshrac/6cf9a09caf06/models/heroes/leshrac/leshrac.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 345,
+      "name": "Leshracs Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/9ae004ec5f25/models/heroes/leshrac/leshrac_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/9ae004ec5f25/models/heroes/leshrac/leshrac_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/leshrac/leshrac_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/9ae004ec5f25/models/heroes/leshrac/leshrac_armor_color_psd_cf81555d.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 346,
+      "name": "Leshracs Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8dfa5e8e3147/models/heroes/leshrac/leshrac_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/8dfa5e8e3147/models/heroes/leshrac/leshrac_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/leshrac/leshrac_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8dfa5e8e3147/models/heroes/leshrac/leshrac_head_color_psd_b13f3317.png"
+    },
+    {
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "itemId": 347,
+      "name": "Leshracs Tail",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/65be00186495/models/heroes/leshrac/leshrac_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/65be00186495/models/heroes/leshrac/leshrac_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/leshrac/leshrac_tail.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/65be00186495/models/heroes/leshrac/leshrac_tail_color_psd_7ac4ac88.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4842:armor-of-torment",
+      "itemId": 4842,
+      "name": "Armor of Twisted Wisdom",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/fdd050e4a91a/models/items/leshrac/armor_of_torment/armor_of_torment.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/fdd050e4a91a/models/items/leshrac/armor_of_torment/armor_of_torment.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/armor_of_torment/armor_of_torment.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/armor_of_torment-b52af4e78f6b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/fdd050e4a91a/models/items/leshrac/armor_of_torment/armor_of_torment_color_tga_48692bb.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7448:dc-synthesis-back",
+      "itemId": 7448,
+      "name": "Cluster of Chronoptic Synthesis",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/fcc2c06c2915/models/items/leshrac/dc_synthesis_back/dc_synthesis_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/fcc2c06c2915/models/items/leshrac/dc_synthesis_back/dc_synthesis_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dc_synthesis_back/dc_synthesis_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dc_synthesis_back-6816d5631542.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/fcc2c06c2915/models/items/leshrac/dc_synthesis_back/dc_synthesis_back_color_tga_79eac807.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:17780:force-of-kylin-back",
+      "itemId": 17780,
+      "name": "Force of Kylin Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/7a34c8306c28/models/items/leshrac/force_of_kylin_back/force_of_kylin_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/7a34c8306c28/models/items/leshrac/force_of_kylin_back/force_of_kylin_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/force_of_kylin_back/force_of_kylin_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/force_of_kylin_back-608081295c1c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/7a34c8306c28/models/items/leshrac/force_of_kylin_back/force_of_kylin_back_color_tga_f3b6ab5c.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14216:dark-forest-punisher-back",
+      "itemId": 14216,
+      "name": "Fruits of Wane  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/0f0864f5c48a/models/items/leshrac/dark_forest_punisher_back/dark_forest_punisher_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/0f0864f5c48a/models/items/leshrac/dark_forest_punisher_back/dark_forest_punisher_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dark_forest_punisher_back/dark_forest_punisher_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_forest_punisher_back-f53c46678a2d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/0f0864f5c48a/models/items/leshrac/dark_forest_punisher_back/dark_forest_punisher_back_color_tga_b6cb1918.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12877:frostivus2018-leshrac-frost-unicorn-back",
+      "itemId": 12877,
+      "name": "Ire of the Hinterlands Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/052017c0bdf5/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_back/frostivus2018_leshrac_frost_unicorn_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/052017c0bdf5/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_back/frostivus2018_leshrac_frost_unicorn_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_back/frostivus2018_leshrac_frost_unicorn_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_leshrac_frost_unicorn_back-5045e2f4b8be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/052017c0bdf5/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_back/frostivus2018_leshrac_frost_unicorn_back_color_tga_8390c7f9.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:345:leshrac-armor",
+      "itemId": 345,
+      "name": "Leshracs Armor",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/9ae004ec5f25/models/heroes/leshrac/leshrac_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/9ae004ec5f25/models/heroes/leshrac/leshrac_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/leshrac/leshrac_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_armor-5f36d1cbe325.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/9ae004ec5f25/models/heroes/leshrac/leshrac_armor_color_psd_cf81555d.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7730:darkthorn-regalia-back",
+      "itemId": 7730,
+      "name": "Pauldrons of the Spirethorn",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b0ab6038c8bc/models/items/leshrac/darkthorn_regalia_back/darkthorn_regalia_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/b0ab6038c8bc/models/items/leshrac/darkthorn_regalia_back/darkthorn_regalia_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/darkthorn_regalia_back/darkthorn_regalia_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkthorn_regalia_back-7f0cbebad778.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b0ab6038c8bc/models/items/leshrac/darkthorn_regalia_back/darkthorn_regalia_back_color_tga_e54950b7.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4990:pauldronsofsundering",
+      "itemId": 4990,
+      "name": "Plates of Sundering",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d7815dab1329/models/items/leshrac/pauldronsofsundering/pauldronsofsundering.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/d7815dab1329/models/items/leshrac/pauldronsofsundering/pauldronsofsundering.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/pauldronsofsundering/pauldronsofsundering.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pauldronsofsundering-ae6534270ba3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d7815dab1329/models/items/leshrac/pauldronsofsundering/pauldronsofsundering_color_tga_19cfefda.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:25702:leshrac-keeper-of-the-caves-back",
+      "itemId": 25702,
+      "name": "Seed of Sorrow  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/0a624dbe6328/models/items/leshrac/leshrac_keeper_of_the_caves_back/leshrac_keeper_of_the_caves_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/0a624dbe6328/models/items/leshrac/leshrac_keeper_of_the_caves_back/leshrac_keeper_of_the_caves_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_keeper_of_the_caves_back/leshrac_keeper_of_the_caves_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_keeper_of_the_caves_back-036a216fb0b0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/0a624dbe6328/models/items/leshrac/leshrac_keeper_of_the_caves_back/leshrac_keeper_of_the_caves_back_color_tga_3e6f78b5.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:8113:bts-ethereal-guardian-back",
+      "itemId": 8113,
+      "name": "Spines of the Afflicted Soul",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/55f7578de5bb/models/items/leshrac/bts_ethereal_guardian_back/bts_ethereal_guardian_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/55f7578de5bb/models/items/leshrac/bts_ethereal_guardian_back/bts_ethereal_guardian_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/bts_ethereal_guardian_back/bts_ethereal_guardian_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_ethereal_guardian_back-faae0d929a0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/55f7578de5bb/models/items/leshrac/bts_ethereal_guardian_back/bts_ethereal_guardian_back_color_tga_7aa521d.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14433:leshrac-thunder-griffin-back",
+      "itemId": 14433,
+      "name": "Vote Only Leshrac Thunder Griffin Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/1334c1ccca82/models/items/leshrac/leshrac_thunder_griffin_back/leshrac_thunder_griffin_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/1334c1ccca82/models/items/leshrac/leshrac_thunder_griffin_back/leshrac_thunder_griffin_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_thunder_griffin_back/leshrac_thunder_griffin_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_thunder_griffin_back-b1fe310dc1f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/1334c1ccca82/models/items/leshrac/leshrac_thunder_griffin_back/leshrac_thunder_griffin_back_color_tga_20a6d8cd.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:5576:chronoptic-crown",
+      "itemId": 5576,
+      "name": "Chronoptic Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/db149c5ff2bc/models/items/leshrac/chronoptic_crown/chronoptic_crown.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/db149c5ff2bc/models/items/leshrac/chronoptic_crown/chronoptic_crown.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/chronoptic_crown/chronoptic_crown.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chronoptic_crown-82df3a429945.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/db149c5ff2bc/models/items/leshrac/chronoptic_crown/chronoptic_crown_color_tga_ee447fce.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4453:anuxi-crystilline-sickles",
+      "itemId": 4453,
+      "name": "Crystalline Sickles",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/04a014b7d926/models/items/leshrac/anuxi_crystilline_sickles/anuxi_crystilline_sickles.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/04a014b7d926/models/items/leshrac/anuxi_crystilline_sickles/anuxi_crystilline_sickles.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/anuxi_crystilline_sickles/anuxi_crystilline_sickles.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/anuxi_crystilline_sickles-6b2f5b43b836.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/04a014b7d926/models/items/leshrac/anuxi_crystilline_sickles/anuxi_crystilline_sickles_color_tga_900aa421.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:17779:force-of-kylin-head",
+      "itemId": 17779,
+      "name": "Force of Kylin Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/65cadbe3fb33/models/items/leshrac/force_of_kylin_head/force_of_kylin_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/65cadbe3fb33/models/items/leshrac/force_of_kylin_head/force_of_kylin_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/force_of_kylin_head/force_of_kylin_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/force_of_kylin_head-f6e2059ba065.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/65cadbe3fb33/models/items/leshrac/force_of_kylin_head/force_of_kylin_head_color_tga_2cd282e3.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14212:dark-forest-punisher-head",
+      "itemId": 14212,
+      "name": "Fruits of Wane  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/f4f68b61c180/models/items/leshrac/dark_forest_punisher_head/dark_forest_punisher_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/f4f68b61c180/models/items/leshrac/dark_forest_punisher_head/dark_forest_punisher_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dark_forest_punisher_head/dark_forest_punisher_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_forest_punisher_head-e3357ad87ee9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/f4f68b61c180/models/items/leshrac/dark_forest_punisher_head/dark_forest_punisher_head_color_tga_2130c386.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7449:dc-synthesis-head",
+      "itemId": 7449,
+      "name": "Helm of Chronoptic Synthesis",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b299d8377157/models/items/leshrac/dc_synthesis_head/dc_synthesis_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/b299d8377157/models/items/leshrac/dc_synthesis_head/dc_synthesis_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dc_synthesis_head/dc_synthesis_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dc_synthesis_head-64419ce2c693.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b299d8377157/models/items/leshrac/dc_synthesis_head/dc_synthesis_head_color_tga_361c520a.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4840:horn-of-wisdom",
+      "itemId": 4840,
+      "name": "Horns of Twisted Wisdom",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/e5be84d79529/models/items/leshrac/horn_of_wisdom/horn_of_wisdom.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/e5be84d79529/models/items/leshrac/horn_of_wisdom/horn_of_wisdom.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/horn_of_wisdom/horn_of_wisdom.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horn_of_wisdom-c827bacc2142.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/e5be84d79529/models/items/leshrac/horn_of_wisdom/horn_of_wisdom_color_tga_152cceb3.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7731:darkthorn-regalia-head",
+      "itemId": 7731,
+      "name": "Horns of the Spirethorn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/97a816479afb/models/items/leshrac/darkthorn_regalia_head/darkthorn_regalia_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/97a816479afb/models/items/leshrac/darkthorn_regalia_head/darkthorn_regalia_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/darkthorn_regalia_head/darkthorn_regalia_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkthorn_regalia_head-825f33c4fb32.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/97a816479afb/models/items/leshrac/darkthorn_regalia_head/darkthorn_regalia_head_color_tga_a03a92ee.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12876:frostivus2018-leshrac-frost-unicorn-head",
+      "itemId": 12876,
+      "name": "Ire of the Hinterlands Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/a6cbd5f8d642/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_head/frostivus2018_leshrac_frost_unicorn_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/a6cbd5f8d642/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_head/frostivus2018_leshrac_frost_unicorn_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_head/frostivus2018_leshrac_frost_unicorn_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_leshrac_frost_unicorn_head-9c573c09500f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/a6cbd5f8d642/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_head/frostivus2018_leshrac_frost_unicorn_head_color_tga_4f501e76.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:346:leshrac-head",
+      "itemId": 346,
+      "name": "Leshracs Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8dfa5e8e3147/models/heroes/leshrac/leshrac_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/8dfa5e8e3147/models/heroes/leshrac/leshrac_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/leshrac/leshrac_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_head-e1431ec69f36.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8dfa5e8e3147/models/heroes/leshrac/leshrac_head_color_psd_b13f3317.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:8110:bts-ethereal-guardian-head",
+      "itemId": 8110,
+      "name": "Prongs of the Afflicted Soul",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/ba2504315a32/models/items/leshrac/bts_ethereal_guardian_head/bts_ethereal_guardian_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/ba2504315a32/models/items/leshrac/bts_ethereal_guardian_head/bts_ethereal_guardian_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/bts_ethereal_guardian_head/bts_ethereal_guardian_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_ethereal_guardian_head-fb001ec26311.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/ba2504315a32/models/items/leshrac/bts_ethereal_guardian_head/bts_ethereal_guardian_head_color_tga_d89e8c39.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4993:horns-thornsofsundering",
+      "itemId": 4993,
+      "name": "Rack of Sundering",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/e782e7c92956/models/items/leshrac/horns_thornsofsundering/horns_thornsofsundering.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/e782e7c92956/models/items/leshrac/horns_thornsofsundering/horns_thornsofsundering.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/horns_thornsofsundering/horns_thornsofsundering.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/horns_thornsofsundering-5b4bdf53beb6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/e782e7c92956/models/items/leshrac/horns_thornsofsundering/horns_thornsofsundering_color_tga_b3501258.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:25707:leshrac-keeper-of-the-caves-head",
+      "itemId": 25707,
+      "name": "Seed of Sorrow  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/1d594857160c/models/items/leshrac/leshrac_keeper_of_the_caves_head/leshrac_keeper_of_the_caves_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/1d594857160c/models/items/leshrac/leshrac_keeper_of_the_caves_head/leshrac_keeper_of_the_caves_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_keeper_of_the_caves_head/leshrac_keeper_of_the_caves_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_keeper_of_the_caves_head-f696e963057f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/1d594857160c/models/items/leshrac/leshrac_keeper_of_the_caves_head/leshrac_keeper_of_the_caves_head_color_tga_a449dbd6.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12933:leshrac-ti9-immortal-head",
+      "itemId": 12933,
+      "name": "Tormented Crown",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/63a791902a99/models/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/63a791902a99/models/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_ti9_immortal_head-1452c5543bf9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/63a791902a99/models/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_head_color_psd_3af54145.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_ti9_immortal_head/leshrac_ti9_immortal_edict.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_leshrac/leshrac_diabolic_edict.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14432:leshrac-thunder-griffin-head",
+      "itemId": 14432,
+      "name": "Vote Only Leshrac Thunder Griffin Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8808e27afd61/models/items/leshrac/leshrac_thunder_griffin_head/leshrac_thunder_griffin_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/8808e27afd61/models/items/leshrac/leshrac_thunder_griffin_head/leshrac_thunder_griffin_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_thunder_griffin_head/leshrac_thunder_griffin_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_thunder_griffin_head-ceccfd02d768.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8808e27afd61/models/items/leshrac/leshrac_thunder_griffin_head/leshrac_thunder_griffin_head_color_tga_dd847a18.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7732:darkthorn-regalia-misc",
+      "itemId": 7732,
+      "name": "Dressings of the Spirethorn",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b4cfe35f0d4a/models/items/leshrac/darkthorn_regalia_misc/darkthorn_regalia_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/b4cfe35f0d4a/models/items/leshrac/darkthorn_regalia_misc/darkthorn_regalia_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/darkthorn_regalia_misc/darkthorn_regalia_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkthorn_regalia_misc-3c3510034e34.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b4cfe35f0d4a/models/items/leshrac/darkthorn_regalia_misc/darkthorn_regalia_misc_color_tga_50ed2387.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:17778:force-of-kylin-misc",
+      "itemId": 17778,
+      "name": "Force of Kylin Bracers",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/f1bc2c64f1e1/models/items/leshrac/force_of_kylin_misc/force_of_kylin_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/f1bc2c64f1e1/models/items/leshrac/force_of_kylin_misc/force_of_kylin_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/force_of_kylin_misc/force_of_kylin_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/force_of_kylin_misc-8841980b4c5c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/f1bc2c64f1e1/models/items/leshrac/force_of_kylin_misc/force_of_kylin_misc_color_tga_26637ca0.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14215:dark-forest-punisher-misc",
+      "itemId": 14215,
+      "name": "Fruits of Wane  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/3a24a047146c/models/items/leshrac/dark_forest_punisher_misc/dark_forest_punisher_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/3a24a047146c/models/items/leshrac/dark_forest_punisher_misc/dark_forest_punisher_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dark_forest_punisher_misc/dark_forest_punisher_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_forest_punisher_misc-c765d9cae2be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/3a24a047146c/models/items/leshrac/dark_forest_punisher_misc/dark_forest_punisher_misc_color_tga_3d68a691.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:8111:bts-ethereal-guardian-misc",
+      "itemId": 8111,
+      "name": "Growths of the Afflicted Soul",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/aa8fe36e1190/models/items/leshrac/bts_ethereal_guardian_misc/bts_ethereal_guardian_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/aa8fe36e1190/models/items/leshrac/bts_ethereal_guardian_misc/bts_ethereal_guardian_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/bts_ethereal_guardian_misc/bts_ethereal_guardian_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_ethereal_guardian_misc-a5b3f30c7712.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/aa8fe36e1190/models/items/leshrac/bts_ethereal_guardian_misc/bts_ethereal_guardian_misc_color_tga_e816c9eb.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12875:frostivus2018-leshrac-frost-unicorn-misc",
+      "itemId": 12875,
+      "name": "Ire of the Hinterlands Garb",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b5e03266c8a6/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_misc/frostivus2018_leshrac_frost_unicorn_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/b5e03266c8a6/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_misc/frostivus2018_leshrac_frost_unicorn_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_misc/frostivus2018_leshrac_frost_unicorn_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_leshrac_frost_unicorn_misc-fd48efd4ec83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b5e03266c8a6/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_misc/frostivus2018_leshrac_frost_unicorn_misc_color_tga_b86ff969.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4991:aboundedroots-thornsofsundering",
+      "itemId": 4991,
+      "name": "Roots of Sundering",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/25abac34eef6/models/items/leshrac/aboundedroots_thornsofsundering/aboundedroots_thornsofsundering.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/25abac34eef6/models/items/leshrac/aboundedroots_thornsofsundering/aboundedroots_thornsofsundering.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/aboundedroots_thornsofsundering/aboundedroots_thornsofsundering.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aboundedroots_thornsofsundering-793790ceb385.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/25abac34eef6/models/items/leshrac/aboundedroots_thornsofsundering/aboundedroots_thornsofsundering_color_tga_4d029006.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:25734:leshrac-keeper-of-the-caves-misc",
+      "itemId": 25734,
+      "name": "Seed of Sorrow  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/6bb62d0039c7/models/items/leshrac/leshrac_keeper_of_the_caves_misc/leshrac_keeper_of_the_caves_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/6bb62d0039c7/models/items/leshrac/leshrac_keeper_of_the_caves_misc/leshrac_keeper_of_the_caves_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_keeper_of_the_caves_misc/leshrac_keeper_of_the_caves_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_keeper_of_the_caves_misc-76c9bdc0abcd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/6bb62d0039c7/models/items/leshrac/leshrac_keeper_of_the_caves_misc/leshrac_keeper_of_the_caves_misc_color_tga_d053f0b4.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7450:dc-synthesis-misc",
+      "itemId": 7450,
+      "name": "Shards of Chronoptic Synthesis",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/515f1e48a53f/models/items/leshrac/dc_synthesis_misc/dc_synthesis_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/515f1e48a53f/models/items/leshrac/dc_synthesis_misc/dc_synthesis_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dc_synthesis_misc/dc_synthesis_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dc_synthesis_misc-e47e930f2f55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/515f1e48a53f/models/items/leshrac/dc_synthesis_misc/dc_synthesis_misc_color_tga_5c734503.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4843:vine-of-destruction",
+      "itemId": 4843,
+      "name": "Vines of Twisted Wisdom",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/064992afc889/models/items/leshrac/vine_of_destruction/vine_of_destruction.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/064992afc889/models/items/leshrac/vine_of_destruction/vine_of_destruction.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/vine_of_destruction/vine_of_destruction.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vine_of_destruction-ed396f676ab5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/064992afc889/models/items/leshrac/vine_of_destruction/vine_of_destruction_color_tga_3039fac9.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14431:leshrac-thunder-griffin-misc",
+      "itemId": 14431,
+      "name": "Vote Only Leshrac Thunder Griffin Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b18abc0d21b7/models/items/leshrac/leshrac_thunder_griffin_misc/leshrac_thunder_griffin_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/b18abc0d21b7/models/items/leshrac/leshrac_thunder_griffin_misc/leshrac_thunder_griffin_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_thunder_griffin_misc/leshrac_thunder_griffin_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_thunder_griffin_misc-436798e951c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b18abc0d21b7/models/items/leshrac/leshrac_thunder_griffin_misc/leshrac_thunder_griffin_misc_color_tga_99a97c3.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7733:darkthorn-regalia-tail",
+      "itemId": 7733,
+      "name": "Brush of the Spirethorn",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d6c8939a1086/models/items/leshrac/darkthorn_regalia_tail/darkthorn_regalia_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/d6c8939a1086/models/items/leshrac/darkthorn_regalia_tail/darkthorn_regalia_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/darkthorn_regalia_tail/darkthorn_regalia_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkthorn_regalia_tail-8008d06e83b3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d6c8939a1086/models/items/leshrac/darkthorn_regalia_tail/darkthorn_regalia_tail_color_tga_f6447508.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:8112:bts-ethereal-guardian-tail",
+      "itemId": 8112,
+      "name": "Cord of the Afflicted Soul",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/4b59017dccd7/models/items/leshrac/bts_ethereal_guardian_tail/bts_ethereal_guardian_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/4b59017dccd7/models/items/leshrac/bts_ethereal_guardian_tail/bts_ethereal_guardian_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/bts_ethereal_guardian_tail/bts_ethereal_guardian_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bts_ethereal_guardian_tail-aba1d1411596.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/4b59017dccd7/models/items/leshrac/bts_ethereal_guardian_tail/bts_ethereal_guardian_tail_color_tga_ee7807e6.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:17777:force-of-kylin-tail",
+      "itemId": 17777,
+      "name": "Force of Kylin Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/e98f86b8f051/models/items/leshrac/force_of_kylin_tail/force_of_kylin_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/e98f86b8f051/models/items/leshrac/force_of_kylin_tail/force_of_kylin_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/force_of_kylin_tail/force_of_kylin_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/force_of_kylin_tail-a23b205b8625.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/e98f86b8f051/models/items/leshrac/force_of_kylin_tail/force_of_kylin_tail_color_tga_c563ac40.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14214:dark-forest-punisher-tail",
+      "itemId": 14214,
+      "name": "Fruits of Wane  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/f66d5dad4575/models/items/leshrac/dark_forest_punisher_tail/dark_forest_punisher_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/f66d5dad4575/models/items/leshrac/dark_forest_punisher_tail/dark_forest_punisher_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dark_forest_punisher_tail/dark_forest_punisher_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_forest_punisher_tail-fbad5a441ec8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/f66d5dad4575/models/items/leshrac/dark_forest_punisher_tail/dark_forest_punisher_tail_color_tga_8df9ec44.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12874:frostivus2018-leshrac-frost-unicorn-tail",
+      "itemId": 12874,
+      "name": "Ire of the Hinterlands Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b6e610cc706e/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_tail/frostivus2018_leshrac_frost_unicorn_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/b6e610cc706e/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_tail/frostivus2018_leshrac_frost_unicorn_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_tail/frostivus2018_leshrac_frost_unicorn_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_leshrac_frost_unicorn_tail-17b3cacaa213.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b6e610cc706e/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_tail/frostivus2018_leshrac_frost_unicorn_tail_color_tga_5831b474.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:347:leshrac-tail",
+      "itemId": 347,
+      "name": "Leshracs Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/65be00186495/models/heroes/leshrac/leshrac_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/65be00186495/models/heroes/leshrac/leshrac_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/leshrac/leshrac_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_tail-b3b1315ff095.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/65be00186495/models/heroes/leshrac/leshrac_tail_color_psd_7ac4ac88.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:25735:leshrac-keeper-of-the-caves-tail",
+      "itemId": 25735,
+      "name": "Seed of Sorrow  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/cc2e7d029aa7/models/items/leshrac/leshrac_keeper_of_the_caves_tail/leshrac_keeper_of_the_caves_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/cc2e7d029aa7/models/items/leshrac/leshrac_keeper_of_the_caves_tail/leshrac_keeper_of_the_caves_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_keeper_of_the_caves_tail/leshrac_keeper_of_the_caves_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_keeper_of_the_caves_tail-5f3e0f3cffb7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/cc2e7d029aa7/models/items/leshrac/leshrac_keeper_of_the_caves_tail/leshrac_keeper_of_the_caves_tail_color_tga_1f03cf3a.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7451:dc-synthesis-tail",
+      "itemId": 7451,
+      "name": "Tail of Chronoptic Synthesis",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/53a253b4c323/models/items/leshrac/dc_synthesis_tail/dc_synthesis_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/53a253b4c323/models/items/leshrac/dc_synthesis_tail/dc_synthesis_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dc_synthesis_tail/dc_synthesis_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dc_synthesis_tail-f9d6d23768d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/53a253b4c323/models/items/leshrac/dc_synthesis_tail/dc_synthesis_tail_color_tga_56f595ec.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4992:tailofsundering",
+      "itemId": 4992,
+      "name": "Tail of Sundering",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/0135476a92ea/models/items/leshrac/tailofsundering/tailofsundering.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/0135476a92ea/models/items/leshrac/tailofsundering/tailofsundering.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/tailofsundering/tailofsundering.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tailofsundering-46416597be54.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/0135476a92ea/models/items/leshrac/tailofsundering/tailofsundering_color_tga_cacb12.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:4841:tail-of-fame",
+      "itemId": 4841,
+      "name": "Tail of Twisted Wisdom",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8e5776360694/models/items/leshrac/tail_of_fame/tail_of_fame.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/8e5776360694/models/items/leshrac/tail_of_fame/tail_of_fame.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/tail_of_fame/tail_of_fame.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tail_of_fame-fc7fa03ba42f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/8e5776360694/models/items/leshrac/tail_of_fame/tail_of_fame_color_tga_ef6d4fb0.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14430:leshrac-thunder-griffin-tail",
+      "itemId": 14430,
+      "name": "Vote Only Leshrac Thunder Griffin Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/07d95e20d1db/models/items/leshrac/leshrac_thunder_griffin_tail/leshrac_thunder_griffin_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/07d95e20d1db/models/items/leshrac/leshrac_thunder_griffin_tail/leshrac_thunder_griffin_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_thunder_griffin_tail/leshrac_thunder_griffin_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_thunder_griffin_tail-0372f64853f6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/07d95e20d1db/models/items/leshrac/leshrac_thunder_griffin_tail/leshrac_thunder_griffin_tail_color_tga_ed531925.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:17776:force-of-kylin-weapon",
+      "itemId": 17776,
+      "name": "Force of Kylin Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/213721dfda8a/models/items/leshrac/force_of_kylin_weapon/force_of_kylin_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/213721dfda8a/models/items/leshrac/force_of_kylin_weapon/force_of_kylin_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/force_of_kylin_weapon/force_of_kylin_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/force_of_kylin_weapon-ba6b94c00205.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/213721dfda8a/models/items/leshrac/force_of_kylin_weapon/force_of_kylin_weapon_color_tga_4a4b272a.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:14213:dark-forest-punisher-weapon",
+      "itemId": 14213,
+      "name": "Fruits of Wane  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/c50a0e146717/models/items/leshrac/dark_forest_punisher_weapon/dark_forest_punisher_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/c50a0e146717/models/items/leshrac/dark_forest_punisher_weapon/dark_forest_punisher_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dark_forest_punisher_weapon/dark_forest_punisher_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_forest_punisher_weapon-fe0be56c45a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/c50a0e146717/models/items/leshrac/dark_forest_punisher_weapon/dark_forest_punisher_weapon_color_tga_de94b5f0.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12878:frostivus2018-leshrac-frost-unicorn-weapon",
+      "itemId": 12878,
+      "name": "Ire of the Hinterlands Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/1f922166f87c/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_weapon/frostivus2018_leshrac_frost_unicorn_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/1f922166f87c/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_weapon/frostivus2018_leshrac_frost_unicorn_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/frostivus2018_leshrac_frost_unicorn_weapon/frostivus2018_leshrac_frost_unicorn_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_leshrac_frost_unicorn_weapon-a1fa37c64527.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/1f922166f87c/models/items/leshrac/frostivus2018_leshrac_frost_unicorn_weapon/frostivus2018_leshrac_frost_unicorn_weapon_color_tga_f2e4b272.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7447:dc-synthesis-weapon",
+      "itemId": 7447,
+      "name": "Rod of Chronoptic Synthesis",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/51c463c56355/models/items/leshrac/dc_synthesis_weapon/dc_synthesis_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/51c463c56355/models/items/leshrac/dc_synthesis_weapon/dc_synthesis_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/dc_synthesis_weapon/dc_synthesis_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dc_synthesis_weapon-b0e7a559dd89.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/51c463c56355/models/items/leshrac/dc_synthesis_weapon/dc_synthesis_weapon_color_tga_8be84c3b.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:25736:leshrac-keeper-of-the-caves-weapon",
+      "itemId": 25736,
+      "name": "Seed of Sorrow  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/417efeaf378f/models/items/leshrac/leshrac_keeper_of_the_caves_weapon/leshrac_keeper_of_the_caves_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/417efeaf378f/models/items/leshrac/leshrac_keeper_of_the_caves_weapon/leshrac_keeper_of_the_caves_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/leshrac_keeper_of_the_caves_weapon/leshrac_keeper_of_the_caves_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/leshrac_keeper_of_the_caves_weapon-a03efea23619.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/417efeaf378f/models/items/leshrac/leshrac_keeper_of_the_caves_weapon/leshrac_keeper_of_the_caves_weapon_color_tga_6c395917.png"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7734:darkthorn-regalia-weapon",
+      "itemId": 7734,
+      "name": "Spirethorn",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/06f39df11da6/models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/06f39df11da6/models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkthorn_regalia_weapon-cbdeeb502922.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/06f39df11da6/models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon_color_tga_19b1baa3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl",
+        "modelPaths": [
+          "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/leshrac/leshrac_spirethorn/leshrac_spirethorn_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Spirethorn Weapon Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Spirethorn Weapon Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/leshrac/leshrac_spirethorn/leshrac_spirethorn_staff.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:7734:darkthorn-regalia-weapon:style-1",
+      "itemId": 7734,
+      "name": "Spirethorn - Spirethorn Weapon Particle",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/06f39df11da6/models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/06f39df11da6/models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkthorn_regalia_weapon_particle-e07a1fa05db9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/06f39df11da6/models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon_color_tga_19b1baa3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl",
+        "modelPaths": [
+          "models/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/leshrac/leshrac_spirethorn/leshrac_spirethorn_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Spirethorn Weapon Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Spirethorn Weapon Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/leshrac/darkthorn_regalia_weapon/darkthorn_regalia_weapon_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/leshrac/leshrac_spirethorn/leshrac_spirethorn_staff.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:8612:tormented-staff",
+      "itemId": 8612,
+      "name": "Tormented Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b6d8f2f8fced/models/items/leshrac/tormented_staff/tormented_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/b6d8f2f8fced/models/items/leshrac/tormented_staff/tormented_staff.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/tormented_staff/tormented_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormented_staff1-fe5f5b483002.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/b6d8f2f8fced/models/items/leshrac/tormented_staff/tormented_staff_color_psd_baace7e0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/leshrac/tormented_staff/tormented_staff.vmdl",
+        "modelPaths": [
+          "models/items/leshrac/tormented_staff/tormented_staff.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff/leshrac_base_attack_tormented.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff/leshrac_split_tormented.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff/leshrac_tormented_staff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12308:tormented-staff-ti8-retro",
+      "itemId": 12308,
+      "name": "Tormented Staff of Eminent Revival",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d04a44f2632a/models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/d04a44f2632a/models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormented_staff_ti8_retro1-eb6ecea779e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d04a44f2632a/models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro_color_psd_f0f85b36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.vmdl",
+        "modelPaths": [
+          "models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_base_attack_retro_tormented.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_split_retro_tormented.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro_lvl2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tormented Staff Retro 0",
+            "skin": "0",
+            "icon": "econ/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro1",
+            "assets": [
+              {
+                "path": "hero_leshrac.split_earth",
+                "type": "split_earth",
+                "role": "sound"
+              },
+              {
+                "path": "hero_leshrac.split_earth.tormented",
+                "type": "tormented",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_base_attack_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_split_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:ability_icon",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tormented Staff Retro 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro1_style1",
+            "assets": [
+              {
+                "path": "hero_leshrac.split_earth",
+                "type": "split_earth",
+                "role": "sound"
+              },
+              {
+                "path": "hero_leshrac.split_earth.tormented",
+                "type": "tormented",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_base_attack_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_split_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro_lvl2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:ability_icon",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_leshrac:item-model:12308:tormented-staff-ti8-retro:style-1",
+      "itemId": 12308,
+      "name": "Tormented Staff of Eminent Revival - Tormented Staff Retro 1",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "modifier:ability_icon",
+        "modifier:particle_create",
+        "rarity:immortal",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d04a44f2632a/models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_leshrac/d04a44f2632a/models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.glb"
+      ],
+      "modelPaths": [
+        "models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tormented_staff_ti8_retro1_style1-bf809b069fce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_leshrac/d04a44f2632a/models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro_color_psd_f0f85b36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.vmdl",
+        "modelPaths": [
+          "models/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_base_attack_retro_tormented.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_split_retro_tormented.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro_lvl2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tormented Staff Retro 0",
+            "skin": "0",
+            "icon": "econ/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro1",
+            "assets": [
+              {
+                "path": "hero_leshrac.split_earth",
+                "type": "split_earth",
+                "role": "sound"
+              },
+              {
+                "path": "hero_leshrac.split_earth.tormented",
+                "type": "tormented",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_base_attack_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_split_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:ability_icon",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tormented Staff Retro 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/leshrac/tormented_staff_ti8_retro/tormented_staff_ti8_retro1_style1",
+            "assets": [
+              {
+                "path": "hero_leshrac.split_earth",
+                "type": "split_earth",
+                "role": "sound"
+              },
+              {
+                "path": "hero_leshrac.split_earth.tormented",
+                "type": "tormented",
+                "role": "sound"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_base_attack_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_split_retro_tormented.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/leshrac/leshrac_tormented_staff_retro/leshrac_tormented_staff_retro_lvl2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:ability_icon",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_leshrac:core-set:21691:force-of-kylin",
+      "name": "Force of Kylin",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570,
+        591
+      ],
+      "sourceItemIds": [
+        17776,
+        17777,
+        17778,
+        17779,
+        17780
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/force_of_kylin_ls-7291164c55db.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:21518:fruits-of-wane",
+      "name": "Fruits of Wane",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570,
+        591
+      ],
+      "sourceItemIds": [
+        14212,
+        14213,
+        14214,
+        14215,
+        14216
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/dark_forest_punisher_head-e3357ad87ee9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:21313:ire-of-the-hinterlands",
+      "name": "Ire of the Hinterlands",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570,
+        591
+      ],
+      "sourceItemIds": [
+        12874,
+        12875,
+        12876,
+        12877,
+        12878
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_leshrac_frost_unicorn_tail-17b3cacaa213.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:20988:lord-of-chronoptic-synthesis",
+      "name": "Lord of Chronoptic Synthesis",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570,
+        591
+      ],
+      "sourceItemIds": [
+        7447,
+        7448,
+        7449,
+        7450,
+        7451
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/dc_synthesis_loading_screen-946e8891fdc6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:20778:oath-of-the-afflicted-soul",
+      "name": "Oath of the Afflicted Soul",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570
+      ],
+      "sourceItemIds": [
+        8110,
+        8111,
+        8112,
+        8113
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/bts_leshrac_loadingscreen-b4795c86e914.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:25679:seed-of-sorrow",
+      "name": "Seed of Sorrow",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570,
+        591
+      ],
+      "sourceItemIds": [
+        25702,
+        25707,
+        25734,
+        25735,
+        25736
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/leshrac_keeper_of_the_caves_back-036a216fb0b0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:20892:spirethorn-regalia",
+      "name": "Spirethorn Regalia",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570,
+        591
+      ],
+      "sourceItemIds": [
+        7730,
+        7731,
+        7732,
+        7733,
+        7734
+      ],
+      "styleSelections": {
+        "7734": "0"
+      },
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/regalia_loading_screen-2f5d62179a58.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:20892:spirethorn-regalia:style-1",
+      "name": "Spirethorn Regalia - Spirethorn Weapon Particle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570,
+        591
+      ],
+      "sourceItemIds": [
+        7730,
+        7731,
+        7732,
+        7733,
+        7734
+      ],
+      "styleSelections": {
+        "7734": "1"
+      },
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/darkthorn_regalia_weapon_particle-e07a1fa05db9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:20179:the-thorns-of-sundering-set",
+      "name": "The Thorns of Sundering Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570
+      ],
+      "sourceItemIds": [
+        4990,
+        4991,
+        4992,
+        4993
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/pauldronsofsundering-ae6534270ba3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:20141:twisted-wisdom-set",
+      "name": "Twisted Wisdom Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570
+      ],
+      "sourceItemIds": [
+        4840,
+        4841,
+        4842,
+        4843
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/horn_of_wisdom-c827bacc2142.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_leshrac:core-set:21558:vote-only-leshrac-thunder-griffin",
+      "name": "Vote Only Leshrac Thunder Griffin",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        345,
+        346,
+        347,
+        570
+      ],
+      "sourceItemIds": [
+        14430,
+        14431,
+        14432,
+        14433
+      ],
+      "slots": [
+        "back",
+        "head",
+        "misc",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 30727648,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 318
+  }
+}

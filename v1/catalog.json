@@ -1,22 +1,1462 @@
 {
   "version": 1,
-  "generatedAtIso": "2026-07-19T02:42:32.157954418Z",
+  "generatedAtIso": "2026-07-20T02:13:07.462668151Z",
   "source": {
     "kind": "local-armory-export-go",
     "setFilter": "Dota Local -",
     "sourceCatalogUpdatedAtIso": "2026-07-16T00:00:00Z"
   },
   "totals": {
-    "heroes": 2,
-    "itemRefs": 68,
-    "modelBytes": 70795024,
-    "modelFiles": 152,
+    "heroes": 139,
+    "itemRefs": 10985,
+    "modelBytes": 9679778381,
+    "modelFiles": 62894,
     "packageBytes": 0,
     "previewBytes": 0,
-    "sets": 16
+    "sets": 2293
   },
   "assetBaseUrl": "/larimods-data/v1",
   "heroes": [
+    {
+      "heroId": "npc_dota_hero_abaddon",
+      "sourceHeroId": "npc_dota_hero_abaddon",
+      "variantId": "default",
+      "heroName": "Abaddon",
+      "heroSlug": "abaddon",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png",
+      "heroUrl": "/heroes/npc_dota_hero_abaddon",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_abaddon/hero.json",
+      "setCount": 20,
+      "itemRefCount": 100,
+      "defaultModelCount": 1,
+      "itemModelCount": 117,
+      "stats": {
+        "modelBytes": 18054000,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 118
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_abyssal_underlord",
+      "sourceHeroId": "npc_dota_hero_abyssal_underlord",
+      "variantId": "default",
+      "heroName": "Abyssal Underlord",
+      "heroSlug": "abyssal_underlord",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abyssal_underlord.png",
+      "heroUrl": "/heroes/npc_dota_hero_abyssal_underlord",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_abyssal_underlord/hero.json",
+      "setCount": 6,
+      "itemRefCount": 18,
+      "defaultModelCount": 1,
+      "itemModelCount": 26,
+      "stats": {
+        "modelBytes": 13024708,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 27
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_alchemist",
+      "sourceHeroId": "npc_dota_hero_alchemist",
+      "variantId": "default",
+      "heroName": "Alchemist",
+      "heroSlug": "alchemist",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png",
+      "heroUrl": "/heroes/npc_dota_hero_alchemist",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_alchemist/hero.json",
+      "setCount": 19,
+      "itemRefCount": 134,
+      "defaultModelCount": 1,
+      "itemModelCount": 158,
+      "stats": {
+        "modelBytes": 12608480,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 160
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_ancient_apparition",
+      "sourceHeroId": "npc_dota_hero_ancient_apparition",
+      "variantId": "default",
+      "heroName": "Ancient Apparition",
+      "heroSlug": "ancient_apparition",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ancient_apparition.png",
+      "heroUrl": "/heroes/npc_dota_hero_ancient_apparition",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_ancient_apparition/hero.json",
+      "setCount": 10,
+      "itemRefCount": 40,
+      "defaultModelCount": 1,
+      "itemModelCount": 45,
+      "stats": {
+        "modelBytes": 8344432,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 47
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_antimage",
+      "sourceHeroId": "npc_dota_hero_antimage",
+      "variantId": "default",
+      "heroName": "Antimage",
+      "heroSlug": "antimage",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png",
+      "heroUrl": "/heroes/npc_dota_hero_antimage",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_antimage/hero.json",
+      "setCount": 34,
+      "itemRefCount": 196,
+      "defaultModelCount": 1,
+      "itemModelCount": 174,
+      "stats": {
+        "modelBytes": 110196264,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 210
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_antimage__persona_1",
+      "sourceHeroId": "npc_dota_hero_antimage",
+      "variantId": "persona_1",
+      "heroName": "Antimage Persona 1",
+      "heroSlug": "antimage",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png",
+      "heroUrl": "/heroes/npc_dota_hero_antimage__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_antimage__persona_1/hero.json",
+      "setCount": 12,
+      "itemRefCount": 48,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 110196264,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 210
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_arc_warden",
+      "sourceHeroId": "npc_dota_hero_arc_warden",
+      "variantId": "default",
+      "heroName": "Arc Warden",
+      "heroSlug": "arc_warden",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png",
+      "heroUrl": "/heroes/npc_dota_hero_arc_warden",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_arc_warden/hero.json",
+      "setCount": 10,
+      "itemRefCount": 40,
+      "defaultModelCount": 1,
+      "itemModelCount": 47,
+      "stats": {
+        "modelBytes": 31124772,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 46
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_axe",
+      "sourceHeroId": "npc_dota_hero_axe",
+      "variantId": "default",
+      "heroName": "Axe",
+      "heroSlug": "axe",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png",
+      "heroUrl": "/heroes/npc_dota_hero_axe",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_axe/hero.json",
+      "setCount": 34,
+      "itemRefCount": 155,
+      "defaultModelCount": 1,
+      "itemModelCount": 169,
+      "stats": {
+        "modelBytes": 53496748,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 234
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_axe__persona_1",
+      "sourceHeroId": "npc_dota_hero_axe",
+      "variantId": "persona_1",
+      "heroName": "Axe Persona 1",
+      "heroSlug": "axe",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png",
+      "heroUrl": "/heroes/npc_dota_hero_axe__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_axe__persona_1/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 53496748,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 234
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_bane",
+      "sourceHeroId": "npc_dota_hero_bane",
+      "variantId": "default",
+      "heroName": "Bane",
+      "heroSlug": "bane",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bane.png",
+      "heroUrl": "/heroes/npc_dota_hero_bane",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_bane/hero.json",
+      "setCount": 8,
+      "itemRefCount": 32,
+      "defaultModelCount": 1,
+      "itemModelCount": 36,
+      "stats": {
+        "modelBytes": 12100337,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 43
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_batrider",
+      "sourceHeroId": "npc_dota_hero_batrider",
+      "variantId": "default",
+      "heroName": "Batrider",
+      "heroSlug": "batrider",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/batrider.png",
+      "heroUrl": "/heroes/npc_dota_hero_batrider",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_batrider/hero.json",
+      "setCount": 14,
+      "itemRefCount": 56,
+      "defaultModelCount": 1,
+      "itemModelCount": 67,
+      "stats": {
+        "modelBytes": 13209421,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 97
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_beastmaster",
+      "sourceHeroId": "npc_dota_hero_beastmaster",
+      "variantId": "default",
+      "heroName": "Beastmaster",
+      "heroSlug": "beastmaster",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/beastmaster.png",
+      "heroUrl": "/heroes/npc_dota_hero_beastmaster",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_beastmaster/hero.json",
+      "setCount": 15,
+      "itemRefCount": 89,
+      "defaultModelCount": 1,
+      "itemModelCount": 82,
+      "stats": {
+        "modelBytes": 9590417,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 103
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_bloodseeker",
+      "sourceHeroId": "npc_dota_hero_bloodseeker",
+      "variantId": "default",
+      "heroName": "Bloodseeker",
+      "heroSlug": "bloodseeker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bloodseeker.png",
+      "heroUrl": "/heroes/npc_dota_hero_bloodseeker",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_bloodseeker/hero.json",
+      "setCount": 28,
+      "itemRefCount": 139,
+      "defaultModelCount": 1,
+      "itemModelCount": 136,
+      "stats": {
+        "modelBytes": 14826741,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 305
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_bounty_hunter",
+      "sourceHeroId": "npc_dota_hero_bounty_hunter",
+      "variantId": "default",
+      "heroName": "Bounty Hunter",
+      "heroSlug": "bounty_hunter",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bounty_hunter.png",
+      "heroUrl": "/heroes/npc_dota_hero_bounty_hunter",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_bounty_hunter/hero.json",
+      "setCount": 26,
+      "itemRefCount": 144,
+      "defaultModelCount": 1,
+      "itemModelCount": 137,
+      "stats": {
+        "modelBytes": 20124414,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 161
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_brewmaster",
+      "sourceHeroId": "npc_dota_hero_brewmaster",
+      "variantId": "default",
+      "heroName": "Brewmaster",
+      "heroSlug": "brewmaster",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/brewmaster.png",
+      "heroUrl": "/heroes/npc_dota_hero_brewmaster",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_brewmaster/hero.json",
+      "setCount": 14,
+      "itemRefCount": 77,
+      "defaultModelCount": 1,
+      "itemModelCount": 83,
+      "stats": {
+        "modelBytes": 14853708,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 124
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_bristleback",
+      "sourceHeroId": "npc_dota_hero_bristleback",
+      "variantId": "default",
+      "heroName": "Bristleback",
+      "heroSlug": "bristleback",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bristleback.png",
+      "heroUrl": "/heroes/npc_dota_hero_bristleback",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_bristleback/hero.json",
+      "setCount": 11,
+      "itemRefCount": 51,
+      "defaultModelCount": 1,
+      "itemModelCount": 65,
+      "stats": {
+        "modelBytes": 27293304,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 86
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_bristleback__persona_1",
+      "sourceHeroId": "npc_dota_hero_bristleback",
+      "variantId": "persona_1",
+      "heroName": "Bristleback Persona 1",
+      "heroSlug": "bristleback",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bristleback.png",
+      "heroUrl": "/heroes/npc_dota_hero_bristleback__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_bristleback__persona_1/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 27293304,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 86
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_broodmother",
+      "sourceHeroId": "npc_dota_hero_broodmother",
+      "variantId": "default",
+      "heroName": "Broodmother",
+      "heroSlug": "broodmother",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png",
+      "heroUrl": "/heroes/npc_dota_hero_broodmother",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_broodmother/hero.json",
+      "setCount": 22,
+      "itemRefCount": 100,
+      "defaultModelCount": 1,
+      "itemModelCount": 85,
+      "stats": {
+        "modelBytes": 12894637,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 106
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_centaur",
+      "sourceHeroId": "npc_dota_hero_centaur",
+      "variantId": "default",
+      "heroName": "Centaur",
+      "heroSlug": "centaur",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/centaur.png",
+      "heroUrl": "/heroes/npc_dota_hero_centaur",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_centaur/hero.json",
+      "setCount": 23,
+      "itemRefCount": 155,
+      "defaultModelCount": 1,
+      "itemModelCount": 161,
+      "stats": {
+        "modelBytes": 32688420,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 227
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_chaos_knight",
+      "sourceHeroId": "npc_dota_hero_chaos_knight",
+      "variantId": "default",
+      "heroName": "Chaos Knight",
+      "heroSlug": "chaos_knight",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chaos_knight.png",
+      "heroUrl": "/heroes/npc_dota_hero_chaos_knight",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_chaos_knight/hero.json",
+      "setCount": 21,
+      "itemRefCount": 101,
+      "defaultModelCount": 1,
+      "itemModelCount": 116,
+      "stats": {
+        "modelBytes": 16952750,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 217
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_chen",
+      "sourceHeroId": "npc_dota_hero_chen",
+      "variantId": "default",
+      "heroName": "Chen",
+      "heroSlug": "chen",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chen.png",
+      "heroUrl": "/heroes/npc_dota_hero_chen",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_chen/hero.json",
+      "setCount": 13,
+      "itemRefCount": 68,
+      "defaultModelCount": 1,
+      "itemModelCount": 75,
+      "stats": {
+        "modelBytes": 11575466,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 91
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_clinkz",
+      "sourceHeroId": "npc_dota_hero_clinkz",
+      "variantId": "default",
+      "heroName": "Clinkz",
+      "heroSlug": "clinkz",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/clinkz.png",
+      "heroUrl": "/heroes/npc_dota_hero_clinkz",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_clinkz/hero.json",
+      "setCount": 14,
+      "itemRefCount": 68,
+      "defaultModelCount": 1,
+      "itemModelCount": 83,
+      "stats": {
+        "modelBytes": 23365003,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 390
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_crystal_maiden",
+      "sourceHeroId": "npc_dota_hero_crystal_maiden",
+      "variantId": "default",
+      "heroName": "Crystal Maiden",
+      "heroSlug": "crystal_maiden",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png",
+      "heroUrl": "/heroes/npc_dota_hero_crystal_maiden",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_crystal_maiden/hero.json",
+      "setCount": 32,
+      "itemRefCount": 144,
+      "defaultModelCount": 1,
+      "itemModelCount": 142,
+      "stats": {
+        "modelBytes": 203804359,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 944
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_crystal_maiden__persona_1",
+      "sourceHeroId": "npc_dota_hero_crystal_maiden",
+      "variantId": "persona_1",
+      "heroName": "Crystal Maiden Persona 1",
+      "heroSlug": "crystal_maiden",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png",
+      "heroUrl": "/heroes/npc_dota_hero_crystal_maiden__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_crystal_maiden__persona_1/hero.json",
+      "setCount": 6,
+      "itemRefCount": 24,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 203804359,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 944
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_dark_seer",
+      "sourceHeroId": "npc_dota_hero_dark_seer",
+      "variantId": "default",
+      "heroName": "Dark Seer",
+      "heroSlug": "dark_seer",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_seer.png",
+      "heroUrl": "/heroes/npc_dota_hero_dark_seer",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_dark_seer/hero.json",
+      "setCount": 13,
+      "itemRefCount": 64,
+      "defaultModelCount": 1,
+      "itemModelCount": 67,
+      "stats": {
+        "modelBytes": 28705164,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 370
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_dark_willow",
+      "sourceHeroId": "npc_dota_hero_dark_willow",
+      "variantId": "default",
+      "heroName": "Dark Willow",
+      "heroSlug": "dark_willow",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dark_willow.png",
+      "heroUrl": "/heroes/npc_dota_hero_dark_willow",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_dark_willow/hero.json",
+      "setCount": 14,
+      "itemRefCount": 71,
+      "defaultModelCount": 1,
+      "itemModelCount": 80,
+      "stats": {
+        "modelBytes": 78728231,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 435
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_dawnbreaker",
+      "sourceHeroId": "npc_dota_hero_dawnbreaker",
+      "variantId": "default",
+      "heroName": "Dawnbreaker",
+      "heroSlug": "dawnbreaker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dawnbreaker.png",
+      "heroUrl": "/heroes/npc_dota_hero_dawnbreaker",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_dawnbreaker/hero.json",
+      "setCount": 10,
+      "itemRefCount": 40,
+      "defaultModelCount": 1,
+      "itemModelCount": 39,
+      "stats": {
+        "modelBytes": 62959895,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 202
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_dazzle",
+      "sourceHeroId": "npc_dota_hero_dazzle",
+      "variantId": "default",
+      "heroName": "Dazzle",
+      "heroSlug": "dazzle",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png",
+      "heroUrl": "/heroes/npc_dota_hero_dazzle",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_dazzle/hero.json",
+      "setCount": 17,
+      "itemRefCount": 84,
+      "defaultModelCount": 1,
+      "itemModelCount": 81,
+      "stats": {
+        "modelBytes": 45254762,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 437
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_death_prophet",
+      "sourceHeroId": "npc_dota_hero_death_prophet",
+      "variantId": "default",
+      "heroName": "Death Prophet",
+      "heroSlug": "death_prophet",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/death_prophet.png",
+      "heroUrl": "/heroes/npc_dota_hero_death_prophet",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_death_prophet/hero.json",
+      "setCount": 31,
+      "itemRefCount": 165,
+      "defaultModelCount": 1,
+      "itemModelCount": 150,
+      "stats": {
+        "modelBytes": 70003438,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 1051
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_disruptor",
+      "sourceHeroId": "npc_dota_hero_disruptor",
+      "variantId": "default",
+      "heroName": "Disruptor",
+      "heroSlug": "disruptor",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/disruptor.png",
+      "heroUrl": "/heroes/npc_dota_hero_disruptor",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_disruptor/hero.json",
+      "setCount": 22,
+      "itemRefCount": 131,
+      "defaultModelCount": 1,
+      "itemModelCount": 125,
+      "stats": {
+        "modelBytes": 69726461,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 709
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_doom_bringer",
+      "sourceHeroId": "npc_dota_hero_doom_bringer",
+      "variantId": "default",
+      "heroName": "Doom Bringer",
+      "heroSlug": "doom_bringer",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/doom_bringer.png",
+      "heroUrl": "/heroes/npc_dota_hero_doom_bringer",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_doom_bringer/hero.json",
+      "setCount": 25,
+      "itemRefCount": 169,
+      "defaultModelCount": 1,
+      "itemModelCount": 165,
+      "stats": {
+        "modelBytes": 60709597,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 935
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_dragon_knight",
+      "sourceHeroId": "npc_dota_hero_dragon_knight",
+      "variantId": "default",
+      "heroName": "Dragon Knight",
+      "heroSlug": "dragon_knight",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png",
+      "heroUrl": "/heroes/npc_dota_hero_dragon_knight",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_dragon_knight/hero.json",
+      "setCount": 31,
+      "itemRefCount": 198,
+      "defaultModelCount": 1,
+      "itemModelCount": 190,
+      "stats": {
+        "modelBytes": 86439673,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 1015
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_dragon_knight__persona_1",
+      "sourceHeroId": "npc_dota_hero_dragon_knight",
+      "variantId": "persona_1",
+      "heroName": "Dragon Knight Persona 1",
+      "heroSlug": "dragon_knight",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dragon_knight.png",
+      "heroUrl": "/heroes/npc_dota_hero_dragon_knight__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_dragon_knight__persona_1/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 86439673,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 1015
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_drow_ranger",
+      "sourceHeroId": "npc_dota_hero_drow_ranger",
+      "variantId": "default",
+      "heroName": "Drow Ranger",
+      "heroSlug": "drow_ranger",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/drow_ranger.png",
+      "heroUrl": "/heroes/npc_dota_hero_drow_ranger",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_drow_ranger/hero.json",
+      "setCount": 36,
+      "itemRefCount": 250,
+      "defaultModelCount": 1,
+      "itemModelCount": 242,
+      "stats": {
+        "modelBytes": 376169885,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 1750
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_earth_spirit",
+      "sourceHeroId": "npc_dota_hero_earth_spirit",
+      "variantId": "default",
+      "heroName": "Earth Spirit",
+      "heroSlug": "earth_spirit",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png",
+      "heroUrl": "/heroes/npc_dota_hero_earth_spirit",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_earth_spirit/hero.json",
+      "setCount": 11,
+      "itemRefCount": 58,
+      "defaultModelCount": 1,
+      "itemModelCount": 54,
+      "stats": {
+        "modelBytes": 22835489,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 295
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_earthshaker",
+      "sourceHeroId": "npc_dota_hero_earthshaker",
+      "variantId": "default",
+      "heroName": "Earthshaker",
+      "heroSlug": "earthshaker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png",
+      "heroUrl": "/heroes/npc_dota_hero_earthshaker",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_earthshaker/hero.json",
+      "setCount": 26,
+      "itemRefCount": 78,
+      "defaultModelCount": 1,
+      "itemModelCount": 96,
+      "stats": {
+        "modelBytes": 86001332,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 518
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_elder_titan",
+      "sourceHeroId": "npc_dota_hero_elder_titan",
+      "variantId": "default",
+      "heroName": "Elder Titan",
+      "heroSlug": "elder_titan",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/elder_titan.png",
+      "heroUrl": "/heroes/npc_dota_hero_elder_titan",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_elder_titan/hero.json",
+      "setCount": 9,
+      "itemRefCount": 45,
+      "defaultModelCount": 1,
+      "itemModelCount": 45,
+      "stats": {
+        "modelBytes": 23818642,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 240
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_ember_spirit",
+      "sourceHeroId": "npc_dota_hero_ember_spirit",
+      "variantId": "default",
+      "heroName": "Ember Spirit",
+      "heroSlug": "ember_spirit",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ember_spirit.png",
+      "heroUrl": "/heroes/npc_dota_hero_ember_spirit",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_ember_spirit/hero.json",
+      "setCount": 21,
+      "itemRefCount": 114,
+      "defaultModelCount": 1,
+      "itemModelCount": 107,
+      "stats": {
+        "modelBytes": 38499717,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 611
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_enchantress",
+      "sourceHeroId": "npc_dota_hero_enchantress",
+      "variantId": "default",
+      "heroName": "Enchantress",
+      "heroSlug": "enchantress",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enchantress.png",
+      "heroUrl": "/heroes/npc_dota_hero_enchantress",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_enchantress/hero.json",
+      "setCount": 13,
+      "itemRefCount": 64,
+      "defaultModelCount": 1,
+      "itemModelCount": 76,
+      "stats": {
+        "modelBytes": 41623154,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 448
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_enigma",
+      "sourceHeroId": "npc_dota_hero_enigma",
+      "variantId": "default",
+      "heroName": "Enigma",
+      "heroSlug": "enigma",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enigma.png",
+      "heroUrl": "/heroes/npc_dota_hero_enigma",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_enigma/hero.json",
+      "setCount": 11,
+      "itemRefCount": 42,
+      "defaultModelCount": 1,
+      "itemModelCount": 34,
+      "stats": {
+        "modelBytes": 27035972,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 213
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_faceless_void",
+      "sourceHeroId": "npc_dota_hero_faceless_void",
+      "variantId": "default",
+      "heroName": "Faceless Void",
+      "heroSlug": "faceless_void",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/faceless_void.png",
+      "heroUrl": "/heroes/npc_dota_hero_faceless_void",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_faceless_void/hero.json",
+      "setCount": 18,
+      "itemRefCount": 86,
+      "defaultModelCount": 1,
+      "itemModelCount": 97,
+      "stats": {
+        "modelBytes": 46258323,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 530
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_furion",
+      "sourceHeroId": "npc_dota_hero_furion",
+      "variantId": "default",
+      "heroName": "Furion",
+      "heroSlug": "furion",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/furion.png",
+      "heroUrl": "/heroes/npc_dota_hero_furion",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_furion/hero.json",
+      "setCount": 26,
+      "itemRefCount": 163,
+      "defaultModelCount": 1,
+      "itemModelCount": 145,
+      "stats": {
+        "modelBytes": 49890717,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 769
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_grimstroke",
+      "sourceHeroId": "npc_dota_hero_grimstroke",
+      "variantId": "default",
+      "heroName": "Grimstroke",
+      "heroSlug": "grimstroke",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/grimstroke.png",
+      "heroUrl": "/heroes/npc_dota_hero_grimstroke",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_grimstroke/hero.json",
+      "setCount": 6,
+      "itemRefCount": 24,
+      "defaultModelCount": 1,
+      "itemModelCount": 30,
+      "stats": {
+        "modelBytes": 30485105,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 163
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_gyrocopter",
+      "sourceHeroId": "npc_dota_hero_gyrocopter",
+      "variantId": "default",
+      "heroName": "Gyrocopter",
+      "heroSlug": "gyrocopter",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/gyrocopter.png",
+      "heroUrl": "/heroes/npc_dota_hero_gyrocopter",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_gyrocopter/hero.json",
+      "setCount": 18,
+      "itemRefCount": 68,
+      "defaultModelCount": 1,
+      "itemModelCount": 86,
+      "stats": {
+        "modelBytes": 44970754,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 480
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_hoodwink",
+      "sourceHeroId": "npc_dota_hero_hoodwink",
+      "variantId": "default",
+      "heroName": "Hoodwink",
+      "heroSlug": "hoodwink",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/hoodwink.png",
+      "heroUrl": "/heroes/npc_dota_hero_hoodwink",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_hoodwink/hero.json",
+      "setCount": 8,
+      "itemRefCount": 26,
+      "defaultModelCount": 1,
+      "itemModelCount": 31,
+      "stats": {
+        "modelBytes": 82740840,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 163
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_huskar",
+      "sourceHeroId": "npc_dota_hero_huskar",
+      "variantId": "default",
+      "heroName": "Huskar",
+      "heroSlug": "huskar",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/huskar.png",
+      "heroUrl": "/heroes/npc_dota_hero_huskar",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_huskar/hero.json",
+      "setCount": 16,
+      "itemRefCount": 64,
+      "defaultModelCount": 1,
+      "itemModelCount": 89,
+      "stats": {
+        "modelBytes": 81051722,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 638
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_invoker",
+      "sourceHeroId": "npc_dota_hero_invoker",
+      "variantId": "default",
+      "heroName": "Invoker",
+      "heroSlug": "invoker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png",
+      "heroUrl": "/heroes/npc_dota_hero_invoker",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_invoker/hero.json",
+      "setCount": 37,
+      "itemRefCount": 191,
+      "defaultModelCount": 1,
+      "itemModelCount": 155,
+      "stats": {
+        "modelBytes": 75056331,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 858
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_invoker__persona_1",
+      "sourceHeroId": "npc_dota_hero_invoker",
+      "variantId": "persona_1",
+      "heroName": "Invoker Persona 1",
+      "heroSlug": "invoker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/invoker.png",
+      "heroUrl": "/heroes/npc_dota_hero_invoker__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_invoker__persona_1/hero.json",
+      "setCount": 6,
+      "itemRefCount": 34,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 75056331,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 858
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_jakiro",
+      "sourceHeroId": "npc_dota_hero_jakiro",
+      "variantId": "default",
+      "heroName": "Jakiro",
+      "heroSlug": "jakiro",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/jakiro.png",
+      "heroUrl": "/heroes/npc_dota_hero_jakiro",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_jakiro/hero.json",
+      "setCount": 7,
+      "itemRefCount": 28,
+      "defaultModelCount": 1,
+      "itemModelCount": 32,
+      "stats": {
+        "modelBytes": 53064434,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 190
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_juggernaut",
+      "sourceHeroId": "npc_dota_hero_juggernaut",
+      "variantId": "default",
+      "heroName": "Juggernaut",
+      "heroSlug": "juggernaut",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png",
+      "heroUrl": "/heroes/npc_dota_hero_juggernaut",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_juggernaut/hero.json",
+      "setCount": 37,
+      "itemRefCount": 186,
+      "defaultModelCount": 1,
+      "itemModelCount": 181,
+      "stats": {
+        "modelBytes": 52675534,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 864
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_keeper_of_the_light",
+      "sourceHeroId": "npc_dota_hero_keeper_of_the_light",
+      "variantId": "default",
+      "heroName": "Keeper Of The Light",
+      "heroSlug": "keeper_of_the_light",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/keeper_of_the_light.png",
+      "heroUrl": "/heroes/npc_dota_hero_keeper_of_the_light",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_keeper_of_the_light/hero.json",
+      "setCount": 13,
+      "itemRefCount": 52,
+      "defaultModelCount": 1,
+      "itemModelCount": 68,
+      "stats": {
+        "modelBytes": 43715915,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 376
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_kez",
+      "sourceHeroId": "npc_dota_hero_kez",
+      "variantId": "default",
+      "heroName": "Kez",
+      "heroSlug": "kez",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kez.png",
+      "heroUrl": "/heroes/npc_dota_hero_kez",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_kez/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 5,
+      "stats": {
+        "modelBytes": 29139812,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 6
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_kunkka",
+      "sourceHeroId": "npc_dota_hero_kunkka",
+      "variantId": "default",
+      "heroName": "Kunkka",
+      "heroSlug": "kunkka",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kunkka.png",
+      "heroUrl": "/heroes/npc_dota_hero_kunkka",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_kunkka/hero.json",
+      "setCount": 23,
+      "itemRefCount": 176,
+      "defaultModelCount": 1,
+      "itemModelCount": 175,
+      "stats": {
+        "modelBytes": 47564024,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 992
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_largo",
+      "sourceHeroId": "npc_dota_hero_largo",
+      "variantId": "default",
+      "heroName": "Largo",
+      "heroSlug": "largo",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/largo.png",
+      "heroUrl": "/heroes/npc_dota_hero_largo",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_largo/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 3,
+      "stats": {
+        "modelBytes": 14934604,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 4
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_legion_commander",
+      "sourceHeroId": "npc_dota_hero_legion_commander",
+      "variantId": "default",
+      "heroName": "Legion Commander",
+      "heroSlug": "legion_commander",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/legion_commander.png",
+      "heroUrl": "/heroes/npc_dota_hero_legion_commander",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_legion_commander/hero.json",
+      "setCount": 32,
+      "itemRefCount": 173,
+      "defaultModelCount": 1,
+      "itemModelCount": 170,
+      "stats": {
+        "modelBytes": 94810190,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 941
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_legion_commander__persona_1",
+      "sourceHeroId": "npc_dota_hero_legion_commander",
+      "variantId": "persona_1",
+      "heroName": "Legion Commander Persona 1",
+      "heroSlug": "legion_commander",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/legion_commander.png",
+      "heroUrl": "/heroes/npc_dota_hero_legion_commander__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_legion_commander__persona_1/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 94810190,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 941
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_leshrac",
+      "sourceHeroId": "npc_dota_hero_leshrac",
+      "variantId": "default",
+      "heroName": "Leshrac",
+      "heroSlug": "leshrac",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/leshrac.png",
+      "heroUrl": "/heroes/npc_dota_hero_leshrac",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_leshrac/hero.json",
+      "setCount": 11,
+      "itemRefCount": 51,
+      "defaultModelCount": 1,
+      "itemModelCount": 56,
+      "stats": {
+        "modelBytes": 30727648,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 318
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_lich",
+      "sourceHeroId": "npc_dota_hero_lich",
+      "variantId": "default",
+      "heroName": "Lich",
+      "heroSlug": "lich",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lich.png",
+      "heroUrl": "/heroes/npc_dota_hero_lich",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_lich/hero.json",
+      "setCount": 28,
+      "itemRefCount": 127,
+      "defaultModelCount": 1,
+      "itemModelCount": 100,
+      "stats": {
+        "modelBytes": 48353164,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 528
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_life_stealer",
+      "sourceHeroId": "npc_dota_hero_life_stealer",
+      "variantId": "default",
+      "heroName": "Life Stealer",
+      "heroSlug": "life_stealer",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/life_stealer.png",
+      "heroUrl": "/heroes/npc_dota_hero_life_stealer",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_life_stealer/hero.json",
+      "setCount": 14,
+      "itemRefCount": 55,
+      "defaultModelCount": 1,
+      "itemModelCount": 57,
+      "stats": {
+        "modelBytes": 29004045,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 303
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_lina",
+      "sourceHeroId": "npc_dota_hero_lina",
+      "variantId": "default",
+      "heroName": "Lina",
+      "heroSlug": "lina",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lina.png",
+      "heroUrl": "/heroes/npc_dota_hero_lina",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_lina/hero.json",
+      "setCount": 30,
+      "itemRefCount": 120,
+      "defaultModelCount": 1,
+      "itemModelCount": 122,
+      "stats": {
+        "modelBytes": 51081550,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 641
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_lion",
+      "sourceHeroId": "npc_dota_hero_lion",
+      "variantId": "default",
+      "heroName": "Lion",
+      "heroSlug": "lion",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png",
+      "heroUrl": "/heroes/npc_dota_hero_lion",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_lion/hero.json",
+      "setCount": 13,
+      "itemRefCount": 61,
+      "defaultModelCount": 1,
+      "itemModelCount": 71,
+      "stats": {
+        "modelBytes": 41489947,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 423
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_lone_druid",
+      "sourceHeroId": "npc_dota_hero_lone_druid",
+      "variantId": "default",
+      "heroName": "Lone Druid",
+      "heroSlug": "lone_druid",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lone_druid.png",
+      "heroUrl": "/heroes/npc_dota_hero_lone_druid",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_lone_druid/hero.json",
+      "setCount": 10,
+      "itemRefCount": 64,
+      "defaultModelCount": 1,
+      "itemModelCount": 42,
+      "stats": {
+        "modelBytes": 16039760,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 229
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_luna",
+      "sourceHeroId": "npc_dota_hero_luna",
+      "variantId": "default",
+      "heroName": "Luna",
+      "heroSlug": "luna",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png",
+      "heroUrl": "/heroes/npc_dota_hero_luna",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_luna/hero.json",
+      "setCount": 32,
+      "itemRefCount": 156,
+      "defaultModelCount": 1,
+      "itemModelCount": 152,
+      "stats": {
+        "modelBytes": 134962219,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 841
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_lycan",
+      "sourceHeroId": "npc_dota_hero_lycan",
+      "variantId": "default",
+      "heroName": "Lycan",
+      "heroSlug": "lycan",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lycan.png",
+      "heroUrl": "/heroes/npc_dota_hero_lycan",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_lycan/hero.json",
+      "setCount": 13,
+      "itemRefCount": 76,
+      "defaultModelCount": 1,
+      "itemModelCount": 61,
+      "stats": {
+        "modelBytes": 25958618,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 344
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_magnataur",
+      "sourceHeroId": "npc_dota_hero_magnataur",
+      "variantId": "default",
+      "heroName": "Magnataur",
+      "heroSlug": "magnataur",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/magnataur.png",
+      "heroUrl": "/heroes/npc_dota_hero_magnataur",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_magnataur/hero.json",
+      "setCount": 17,
+      "itemRefCount": 86,
+      "defaultModelCount": 1,
+      "itemModelCount": 80,
+      "stats": {
+        "modelBytes": 48591632,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 444
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_marci",
+      "sourceHeroId": "npc_dota_hero_marci",
+      "variantId": "default",
+      "heroName": "Marci",
+      "heroSlug": "marci",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/marci.png",
+      "heroUrl": "/heroes/npc_dota_hero_marci",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_marci/hero.json",
+      "setCount": 9,
+      "itemRefCount": 38,
+      "defaultModelCount": 1,
+      "itemModelCount": 36,
+      "stats": {
+        "modelBytes": 52682723,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 202
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_mars",
+      "sourceHeroId": "npc_dota_hero_mars",
+      "variantId": "default",
+      "heroName": "Mars",
+      "heroSlug": "mars",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mars.png",
+      "heroUrl": "/heroes/npc_dota_hero_mars",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_mars/hero.json",
+      "setCount": 10,
+      "itemRefCount": 31,
+      "defaultModelCount": 1,
+      "itemModelCount": 47,
+      "stats": {
+        "modelBytes": 77831712,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 278
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_medusa",
+      "sourceHeroId": "npc_dota_hero_medusa",
+      "variantId": "default",
+      "heroName": "Medusa",
+      "heroSlug": "medusa",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/medusa.png",
+      "heroUrl": "/heroes/npc_dota_hero_medusa",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_medusa/hero.json",
+      "setCount": 13,
+      "itemRefCount": 65,
+      "defaultModelCount": 1,
+      "itemModelCount": 66,
+      "stats": {
+        "modelBytes": 43392561,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 372
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_meepo",
+      "sourceHeroId": "npc_dota_hero_meepo",
+      "variantId": "default",
+      "heroName": "Meepo",
+      "heroSlug": "meepo",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/meepo.png",
+      "heroUrl": "/heroes/npc_dota_hero_meepo",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_meepo/hero.json",
+      "setCount": 15,
+      "itemRefCount": 86,
+      "defaultModelCount": 1,
+      "itemModelCount": 91,
+      "stats": {
+        "modelBytes": 32374326,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 515
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_mirana",
+      "sourceHeroId": "npc_dota_hero_mirana",
+      "variantId": "default",
+      "heroName": "Mirana",
+      "heroSlug": "mirana",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png",
+      "heroUrl": "/heroes/npc_dota_hero_mirana",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_mirana/hero.json",
+      "setCount": 21,
+      "itemRefCount": 141,
+      "defaultModelCount": 1,
+      "itemModelCount": 135,
+      "stats": {
+        "modelBytes": 112787722,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 817
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_mirana__persona_1",
+      "sourceHeroId": "npc_dota_hero_mirana",
+      "variantId": "persona_1",
+      "heroName": "Mirana Persona 1",
+      "heroSlug": "mirana",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png",
+      "heroUrl": "/heroes/npc_dota_hero_mirana__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_mirana__persona_1/hero.json",
+      "setCount": 2,
+      "itemRefCount": 4,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 112787722,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 817
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_monkey_king",
+      "sourceHeroId": "npc_dota_hero_monkey_king",
+      "variantId": "default",
+      "heroName": "Monkey King",
+      "heroSlug": "monkey_king",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/monkey_king.png",
+      "heroUrl": "/heroes/npc_dota_hero_monkey_king",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_monkey_king/hero.json",
+      "setCount": 17,
+      "itemRefCount": 60,
+      "defaultModelCount": 1,
+      "itemModelCount": 52,
+      "stats": {
+        "modelBytes": 168897750,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 319
+      }
+    },
     {
       "heroId": "npc_dota_hero_morphling",
       "sourceHeroId": "npc_dota_hero_morphling",
@@ -55,6 +1495,1306 @@
         "packageBytes": 0,
         "previewBytes": 0,
         "modelFiles": 76
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_muerta",
+      "sourceHeroId": "npc_dota_hero_muerta",
+      "variantId": "default",
+      "heroName": "Muerta",
+      "heroSlug": "muerta",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/muerta.png",
+      "heroUrl": "/heroes/npc_dota_hero_muerta",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_muerta/hero.json",
+      "setCount": 3,
+      "itemRefCount": 14,
+      "defaultModelCount": 1,
+      "itemModelCount": 15,
+      "stats": {
+        "modelBytes": 36792109,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 71
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_naga_siren",
+      "sourceHeroId": "npc_dota_hero_naga_siren",
+      "variantId": "default",
+      "heroName": "Naga Siren",
+      "heroSlug": "naga_siren",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/naga_siren.png",
+      "heroUrl": "/heroes/npc_dota_hero_naga_siren",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_naga_siren/hero.json",
+      "setCount": 27,
+      "itemRefCount": 118,
+      "defaultModelCount": 1,
+      "itemModelCount": 121,
+      "stats": {
+        "modelBytes": 55958543,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 669
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_necrolyte",
+      "sourceHeroId": "npc_dota_hero_necrolyte",
+      "variantId": "default",
+      "heroName": "Necrolyte",
+      "heroSlug": "necrolyte",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/necrolyte.png",
+      "heroUrl": "/heroes/npc_dota_hero_necrolyte",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_necrolyte/hero.json",
+      "setCount": 23,
+      "itemRefCount": 74,
+      "defaultModelCount": 1,
+      "itemModelCount": 93,
+      "stats": {
+        "modelBytes": 72452129,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 512
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_nevermore",
+      "sourceHeroId": "npc_dota_hero_nevermore",
+      "variantId": "default",
+      "heroName": "Nevermore",
+      "heroSlug": "nevermore",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nevermore.png",
+      "heroUrl": "/heroes/npc_dota_hero_nevermore",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_nevermore/hero.json",
+      "setCount": 15,
+      "itemRefCount": 46,
+      "defaultModelCount": 1,
+      "itemModelCount": 49,
+      "stats": {
+        "modelBytes": 43174751,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 244
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_night_stalker",
+      "sourceHeroId": "npc_dota_hero_night_stalker",
+      "variantId": "default",
+      "heroName": "Night Stalker",
+      "heroSlug": "night_stalker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/night_stalker.png",
+      "heroUrl": "/heroes/npc_dota_hero_night_stalker",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_night_stalker/hero.json",
+      "setCount": 14,
+      "itemRefCount": 69,
+      "defaultModelCount": 1,
+      "itemModelCount": 71,
+      "stats": {
+        "modelBytes": 36932166,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 386
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_nyx_assassin",
+      "sourceHeroId": "npc_dota_hero_nyx_assassin",
+      "variantId": "default",
+      "heroName": "Nyx Assassin",
+      "heroSlug": "nyx_assassin",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nyx_assassin.png",
+      "heroUrl": "/heroes/npc_dota_hero_nyx_assassin",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_nyx_assassin/hero.json",
+      "setCount": 33,
+      "itemRefCount": 123,
+      "defaultModelCount": 1,
+      "itemModelCount": 129,
+      "stats": {
+        "modelBytes": 42065309,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 588
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_obsidian_destroyer",
+      "sourceHeroId": "npc_dota_hero_obsidian_destroyer",
+      "variantId": "default",
+      "heroName": "Obsidian Destroyer",
+      "heroSlug": "obsidian_destroyer",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/obsidian_destroyer.png",
+      "heroUrl": "/heroes/npc_dota_hero_obsidian_destroyer",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_obsidian_destroyer/hero.json",
+      "setCount": 9,
+      "itemRefCount": 36,
+      "defaultModelCount": 1,
+      "itemModelCount": 45,
+      "stats": {
+        "modelBytes": 20504599,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 253
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_ogre_magi",
+      "sourceHeroId": "npc_dota_hero_ogre_magi",
+      "variantId": "default",
+      "heroName": "Ogre Magi",
+      "heroSlug": "ogre_magi",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ogre_magi.png",
+      "heroUrl": "/heroes/npc_dota_hero_ogre_magi",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_ogre_magi/hero.json",
+      "setCount": 14,
+      "itemRefCount": 66,
+      "defaultModelCount": 1,
+      "itemModelCount": 66,
+      "stats": {
+        "modelBytes": 90482460,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 383
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_omniknight",
+      "sourceHeroId": "npc_dota_hero_omniknight",
+      "variantId": "default",
+      "heroName": "Omniknight",
+      "heroSlug": "omniknight",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/omniknight.png",
+      "heroUrl": "/heroes/npc_dota_hero_omniknight",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_omniknight/hero.json",
+      "setCount": 18,
+      "itemRefCount": 80,
+      "defaultModelCount": 1,
+      "itemModelCount": 87,
+      "stats": {
+        "modelBytes": 31244743,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 479
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_oracle",
+      "sourceHeroId": "npc_dota_hero_oracle",
+      "variantId": "default",
+      "heroName": "Oracle",
+      "heroSlug": "oracle",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/oracle.png",
+      "heroUrl": "/heroes/npc_dota_hero_oracle",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_oracle/hero.json",
+      "setCount": 10,
+      "itemRefCount": 40,
+      "defaultModelCount": 1,
+      "itemModelCount": 46,
+      "stats": {
+        "modelBytes": 45516119,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 265
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_oracle__persona_1",
+      "sourceHeroId": "npc_dota_hero_oracle",
+      "variantId": "persona_1",
+      "heroName": "Oracle Persona 1",
+      "heroSlug": "oracle",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/oracle.png",
+      "heroUrl": "/heroes/npc_dota_hero_oracle__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_oracle__persona_1/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 45516119,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 265
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_pangolier",
+      "sourceHeroId": "npc_dota_hero_pangolier",
+      "variantId": "default",
+      "heroName": "Pangolier",
+      "heroSlug": "pangolier",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pangolier.png",
+      "heroUrl": "/heroes/npc_dota_hero_pangolier",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_pangolier/hero.json",
+      "setCount": 7,
+      "itemRefCount": 27,
+      "defaultModelCount": 1,
+      "itemModelCount": 32,
+      "stats": {
+        "modelBytes": 39009457,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 175
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_phantom_assassin",
+      "sourceHeroId": "npc_dota_hero_phantom_assassin",
+      "variantId": "default",
+      "heroName": "Phantom Assassin",
+      "heroSlug": "phantom_assassin",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_assassin.png",
+      "heroUrl": "/heroes/npc_dota_hero_phantom_assassin",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_phantom_assassin/hero.json",
+      "setCount": 30,
+      "itemRefCount": 137,
+      "defaultModelCount": 1,
+      "itemModelCount": 147,
+      "stats": {
+        "modelBytes": 105588456,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 911
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_phantom_assassin__persona_1",
+      "sourceHeroId": "npc_dota_hero_phantom_assassin",
+      "variantId": "persona_1",
+      "heroName": "Phantom Assassin Persona 1",
+      "heroSlug": "phantom_assassin",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_assassin.png",
+      "heroUrl": "/heroes/npc_dota_hero_phantom_assassin__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_phantom_assassin__persona_1/hero.json",
+      "setCount": 3,
+      "itemRefCount": 12,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 105588456,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 911
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_phantom_lancer",
+      "sourceHeroId": "npc_dota_hero_phantom_lancer",
+      "variantId": "default",
+      "heroName": "Phantom Lancer",
+      "heroSlug": "phantom_lancer",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phantom_lancer.png",
+      "heroUrl": "/heroes/npc_dota_hero_phantom_lancer",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_phantom_lancer/hero.json",
+      "setCount": 21,
+      "itemRefCount": 86,
+      "defaultModelCount": 1,
+      "itemModelCount": 83,
+      "stats": {
+        "modelBytes": 45044192,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 496
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_phoenix",
+      "sourceHeroId": "npc_dota_hero_phoenix",
+      "variantId": "default",
+      "heroName": "Phoenix",
+      "heroSlug": "phoenix",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phoenix.png",
+      "heroUrl": "/heroes/npc_dota_hero_phoenix",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_phoenix/hero.json",
+      "setCount": 9,
+      "itemRefCount": 27,
+      "defaultModelCount": 1,
+      "itemModelCount": 23,
+      "stats": {
+        "modelBytes": 31693822,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 200
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_primal_beast",
+      "sourceHeroId": "npc_dota_hero_primal_beast",
+      "variantId": "default",
+      "heroName": "Primal Beast",
+      "heroSlug": "primal_beast",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/primal_beast.png",
+      "heroUrl": "/heroes/npc_dota_hero_primal_beast",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_primal_beast/hero.json",
+      "setCount": 9,
+      "itemRefCount": 36,
+      "defaultModelCount": 1,
+      "itemModelCount": 36,
+      "stats": {
+        "modelBytes": 175600033,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 207
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_puck",
+      "sourceHeroId": "npc_dota_hero_puck",
+      "variantId": "default",
+      "heroName": "Puck",
+      "heroSlug": "puck",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png",
+      "heroUrl": "/heroes/npc_dota_hero_puck",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_puck/hero.json",
+      "setCount": 18,
+      "itemRefCount": 52,
+      "defaultModelCount": 1,
+      "itemModelCount": 51,
+      "stats": {
+        "modelBytes": 29862166,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 296
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_pudge",
+      "sourceHeroId": "npc_dota_hero_pudge",
+      "variantId": "default",
+      "heroName": "Pudge",
+      "heroSlug": "pudge",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png",
+      "heroUrl": "/heroes/npc_dota_hero_pudge",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_pudge/hero.json",
+      "setCount": 39,
+      "itemRefCount": 205,
+      "defaultModelCount": 1,
+      "itemModelCount": 212,
+      "stats": {
+        "modelBytes": 160721283,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 1409
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_pudge__persona_1",
+      "sourceHeroId": "npc_dota_hero_pudge",
+      "variantId": "persona_1",
+      "heroName": "Pudge Persona 1",
+      "heroSlug": "pudge",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png",
+      "heroUrl": "/heroes/npc_dota_hero_pudge__persona_1",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_pudge__persona_1/hero.json",
+      "setCount": 6,
+      "itemRefCount": 24,
+      "defaultModelCount": 1,
+      "itemModelCount": 0,
+      "stats": {
+        "modelBytes": 160721283,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 1409
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_pugna",
+      "sourceHeroId": "npc_dota_hero_pugna",
+      "variantId": "default",
+      "heroName": "Pugna",
+      "heroSlug": "pugna",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png",
+      "heroUrl": "/heroes/npc_dota_hero_pugna",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_pugna/hero.json",
+      "setCount": 9,
+      "itemRefCount": 55,
+      "defaultModelCount": 1,
+      "itemModelCount": 57,
+      "stats": {
+        "modelBytes": 20668201,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 328
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_queenofpain",
+      "sourceHeroId": "npc_dota_hero_queenofpain",
+      "variantId": "default",
+      "heroName": "Queenofpain",
+      "heroSlug": "queenofpain",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/queenofpain.png",
+      "heroUrl": "/heroes/npc_dota_hero_queenofpain",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_queenofpain/hero.json",
+      "setCount": 28,
+      "itemRefCount": 103,
+      "defaultModelCount": 1,
+      "itemModelCount": 113,
+      "stats": {
+        "modelBytes": 315051029,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 948
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_rattletrap",
+      "sourceHeroId": "npc_dota_hero_rattletrap",
+      "variantId": "default",
+      "heroName": "Rattletrap",
+      "heroSlug": "rattletrap",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rattletrap.png",
+      "heroUrl": "/heroes/npc_dota_hero_rattletrap",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_rattletrap/hero.json",
+      "setCount": 34,
+      "itemRefCount": 141,
+      "defaultModelCount": 1,
+      "itemModelCount": 107,
+      "stats": {
+        "modelBytes": 61022699,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 606
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_razor",
+      "sourceHeroId": "npc_dota_hero_razor",
+      "variantId": "default",
+      "heroName": "Razor",
+      "heroSlug": "razor",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/razor.png",
+      "heroUrl": "/heroes/npc_dota_hero_razor",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_razor/hero.json",
+      "setCount": 17,
+      "itemRefCount": 85,
+      "defaultModelCount": 1,
+      "itemModelCount": 89,
+      "stats": {
+        "modelBytes": 235092089,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 552
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_riki",
+      "sourceHeroId": "npc_dota_hero_riki",
+      "variantId": "default",
+      "heroName": "Riki",
+      "heroSlug": "riki",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/riki.png",
+      "heroUrl": "/heroes/npc_dota_hero_riki",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_riki/hero.json",
+      "setCount": 25,
+      "itemRefCount": 108,
+      "defaultModelCount": 1,
+      "itemModelCount": 113,
+      "stats": {
+        "modelBytes": 40726304,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 661
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_ringmaster",
+      "sourceHeroId": "npc_dota_hero_ringmaster",
+      "variantId": "default",
+      "heroName": "Ringmaster",
+      "heroSlug": "ringmaster",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ringmaster.png",
+      "heroUrl": "/heroes/npc_dota_hero_ringmaster",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_ringmaster/hero.json",
+      "setCount": 2,
+      "itemRefCount": 8,
+      "defaultModelCount": 1,
+      "itemModelCount": 13,
+      "stats": {
+        "modelBytes": 40820422,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 74
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_rubick",
+      "sourceHeroId": "npc_dota_hero_rubick",
+      "variantId": "default",
+      "heroName": "Rubick",
+      "heroSlug": "rubick",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rubick.png",
+      "heroUrl": "/heroes/npc_dota_hero_rubick",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_rubick/hero.json",
+      "setCount": 53,
+      "itemRefCount": 159,
+      "defaultModelCount": 1,
+      "itemModelCount": 142,
+      "stats": {
+        "modelBytes": 174722041,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 644
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_sand_king",
+      "sourceHeroId": "npc_dota_hero_sand_king",
+      "variantId": "default",
+      "heroName": "Sand King",
+      "heroSlug": "sand_king",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sand_king.png",
+      "heroUrl": "/heroes/npc_dota_hero_sand_king",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_sand_king/hero.json",
+      "setCount": 15,
+      "itemRefCount": 75,
+      "defaultModelCount": 1,
+      "itemModelCount": 84,
+      "stats": {
+        "modelBytes": 42422039,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 496
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_shadow_demon",
+      "sourceHeroId": "npc_dota_hero_shadow_demon",
+      "variantId": "default",
+      "heroName": "Shadow Demon",
+      "heroSlug": "shadow_demon",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_demon.png",
+      "heroUrl": "/heroes/npc_dota_hero_shadow_demon",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_shadow_demon/hero.json",
+      "setCount": 9,
+      "itemRefCount": 36,
+      "defaultModelCount": 1,
+      "itemModelCount": 43,
+      "stats": {
+        "modelBytes": 21673918,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 239
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_shadow_shaman",
+      "sourceHeroId": "npc_dota_hero_shadow_shaman",
+      "variantId": "default",
+      "heroName": "Shadow Shaman",
+      "heroSlug": "shadow_shaman",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_shaman.png",
+      "heroUrl": "/heroes/npc_dota_hero_shadow_shaman",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_shadow_shaman/hero.json",
+      "setCount": 19,
+      "itemRefCount": 100,
+      "defaultModelCount": 1,
+      "itemModelCount": 83,
+      "stats": {
+        "modelBytes": 39299420,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 495
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_shredder",
+      "sourceHeroId": "npc_dota_hero_shredder",
+      "variantId": "default",
+      "heroName": "Shredder",
+      "heroSlug": "shredder",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shredder.png",
+      "heroUrl": "/heroes/npc_dota_hero_shredder",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_shredder/hero.json",
+      "setCount": 17,
+      "itemRefCount": 101,
+      "defaultModelCount": 1,
+      "itemModelCount": 104,
+      "stats": {
+        "modelBytes": 36480825,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 604
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_silencer",
+      "sourceHeroId": "npc_dota_hero_silencer",
+      "variantId": "default",
+      "heroName": "Silencer",
+      "heroSlug": "silencer",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png",
+      "heroUrl": "/heroes/npc_dota_hero_silencer",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_silencer/hero.json",
+      "setCount": 17,
+      "itemRefCount": 101,
+      "defaultModelCount": 1,
+      "itemModelCount": 103,
+      "stats": {
+        "modelBytes": 84132331,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 589
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_skeleton_king",
+      "sourceHeroId": "npc_dota_hero_skeleton_king",
+      "variantId": "default",
+      "heroName": "Skeleton King",
+      "heroSlug": "skeleton_king",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png",
+      "heroUrl": "/heroes/npc_dota_hero_skeleton_king",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_skeleton_king/hero.json",
+      "setCount": 25,
+      "itemRefCount": 144,
+      "defaultModelCount": 1,
+      "itemModelCount": 149,
+      "stats": {
+        "modelBytes": 128126054,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 892
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_skywrath_mage",
+      "sourceHeroId": "npc_dota_hero_skywrath_mage",
+      "variantId": "default",
+      "heroName": "Skywrath Mage",
+      "heroSlug": "skywrath_mage",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skywrath_mage.png",
+      "heroUrl": "/heroes/npc_dota_hero_skywrath_mage",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_skywrath_mage/hero.json",
+      "setCount": 24,
+      "itemRefCount": 144,
+      "defaultModelCount": 1,
+      "itemModelCount": 144,
+      "stats": {
+        "modelBytes": 193738193,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 827
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_slardar",
+      "sourceHeroId": "npc_dota_hero_slardar",
+      "variantId": "default",
+      "heroName": "Slardar",
+      "heroSlug": "slardar",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png",
+      "heroUrl": "/heroes/npc_dota_hero_slardar",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_slardar/hero.json",
+      "setCount": 14,
+      "itemRefCount": 56,
+      "defaultModelCount": 1,
+      "itemModelCount": 62,
+      "stats": {
+        "modelBytes": 40031597,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 290
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_slark",
+      "sourceHeroId": "npc_dota_hero_slark",
+      "variantId": "default",
+      "heroName": "Slark",
+      "heroSlug": "slark",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slark.png",
+      "heroUrl": "/heroes/npc_dota_hero_slark",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_slark/hero.json",
+      "setCount": 15,
+      "itemRefCount": 75,
+      "defaultModelCount": 1,
+      "itemModelCount": 79,
+      "stats": {
+        "modelBytes": 25836143,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 386
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_snapfire",
+      "sourceHeroId": "npc_dota_hero_snapfire",
+      "variantId": "default",
+      "heroName": "Snapfire",
+      "heroSlug": "snapfire",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/snapfire.png",
+      "heroUrl": "/heroes/npc_dota_hero_snapfire",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_snapfire/hero.json",
+      "setCount": 8,
+      "itemRefCount": 40,
+      "defaultModelCount": 1,
+      "itemModelCount": 45,
+      "stats": {
+        "modelBytes": 63150621,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 253
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_sniper",
+      "sourceHeroId": "npc_dota_hero_sniper",
+      "variantId": "default",
+      "heroName": "Sniper",
+      "heroSlug": "sniper",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sniper.png",
+      "heroUrl": "/heroes/npc_dota_hero_sniper",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_sniper/hero.json",
+      "setCount": 30,
+      "itemRefCount": 135,
+      "defaultModelCount": 1,
+      "itemModelCount": 141,
+      "stats": {
+        "modelBytes": 169019042,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 860
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_spectre",
+      "sourceHeroId": "npc_dota_hero_spectre",
+      "variantId": "default",
+      "heroName": "Spectre",
+      "heroSlug": "spectre",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spectre.png",
+      "heroUrl": "/heroes/npc_dota_hero_spectre",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_spectre/hero.json",
+      "setCount": 17,
+      "itemRefCount": 84,
+      "defaultModelCount": 1,
+      "itemModelCount": 90,
+      "stats": {
+        "modelBytes": 180342618,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 558
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_spirit_breaker",
+      "sourceHeroId": "npc_dota_hero_spirit_breaker",
+      "variantId": "default",
+      "heroName": "Spirit Breaker",
+      "heroSlug": "spirit_breaker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spirit_breaker.png",
+      "heroUrl": "/heroes/npc_dota_hero_spirit_breaker",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_spirit_breaker/hero.json",
+      "setCount": 23,
+      "itemRefCount": 134,
+      "defaultModelCount": 1,
+      "itemModelCount": 146,
+      "stats": {
+        "modelBytes": 49151975,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 780
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_storm_spirit",
+      "sourceHeroId": "npc_dota_hero_storm_spirit",
+      "variantId": "default",
+      "heroName": "Storm Spirit",
+      "heroSlug": "storm_spirit",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png",
+      "heroUrl": "/heroes/npc_dota_hero_storm_spirit",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_storm_spirit/hero.json",
+      "setCount": 15,
+      "itemRefCount": 45,
+      "defaultModelCount": 1,
+      "itemModelCount": 54,
+      "stats": {
+        "modelBytes": 32346465,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 300
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_sven",
+      "sourceHeroId": "npc_dota_hero_sven",
+      "variantId": "default",
+      "heroName": "Sven",
+      "heroSlug": "sven",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png",
+      "heroUrl": "/heroes/npc_dota_hero_sven",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_sven/hero.json",
+      "setCount": 34,
+      "itemRefCount": 194,
+      "defaultModelCount": 1,
+      "itemModelCount": 203,
+      "stats": {
+        "modelBytes": 66165000,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 1063
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_techies",
+      "sourceHeroId": "npc_dota_hero_techies",
+      "variantId": "default",
+      "heroName": "Techies",
+      "heroSlug": "techies",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png",
+      "heroUrl": "/heroes/npc_dota_hero_techies",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_techies/hero.json",
+      "setCount": 13,
+      "itemRefCount": 91,
+      "defaultModelCount": 1,
+      "itemModelCount": 68,
+      "stats": {
+        "modelBytes": 163798651,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 456
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_templar_assassin",
+      "sourceHeroId": "npc_dota_hero_templar_assassin",
+      "variantId": "default",
+      "heroName": "Templar Assassin",
+      "heroSlug": "templar_assassin",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/templar_assassin.png",
+      "heroUrl": "/heroes/npc_dota_hero_templar_assassin",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_templar_assassin/hero.json",
+      "setCount": 29,
+      "itemRefCount": 94,
+      "defaultModelCount": 1,
+      "itemModelCount": 102,
+      "stats": {
+        "modelBytes": 65786015,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 584
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_terrorblade",
+      "sourceHeroId": "npc_dota_hero_terrorblade",
+      "variantId": "default",
+      "heroName": "Terrorblade",
+      "heroSlug": "terrorblade",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/terrorblade.png",
+      "heroUrl": "/heroes/npc_dota_hero_terrorblade",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_terrorblade/hero.json",
+      "setCount": 6,
+      "itemRefCount": 30,
+      "defaultModelCount": 1,
+      "itemModelCount": 31,
+      "stats": {
+        "modelBytes": 25641274,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 178
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_tidehunter",
+      "sourceHeroId": "npc_dota_hero_tidehunter",
+      "variantId": "default",
+      "heroName": "Tidehunter",
+      "heroSlug": "tidehunter",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tidehunter.png",
+      "heroUrl": "/heroes/npc_dota_hero_tidehunter",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_tidehunter/hero.json",
+      "setCount": 16,
+      "itemRefCount": 73,
+      "defaultModelCount": 1,
+      "itemModelCount": 101,
+      "stats": {
+        "modelBytes": 54432305,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 584
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_tinker",
+      "sourceHeroId": "npc_dota_hero_tinker",
+      "variantId": "default",
+      "heroName": "Tinker",
+      "heroSlug": "tinker",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png",
+      "heroUrl": "/heroes/npc_dota_hero_tinker",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_tinker/hero.json",
+      "setCount": 5,
+      "itemRefCount": 20,
+      "defaultModelCount": 1,
+      "itemModelCount": 33,
+      "stats": {
+        "modelBytes": 26037476,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 178
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_tiny",
+      "sourceHeroId": "npc_dota_hero_tiny",
+      "variantId": "default",
+      "heroName": "Tiny",
+      "heroSlug": "tiny",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png",
+      "heroUrl": "/heroes/npc_dota_hero_tiny",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_tiny/hero.json",
+      "setCount": 12,
+      "itemRefCount": 48,
+      "defaultModelCount": 1,
+      "itemModelCount": 26,
+      "stats": {
+        "modelBytes": 20818077,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 141
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_treant",
+      "sourceHeroId": "npc_dota_hero_treant",
+      "variantId": "default",
+      "heroName": "Treant",
+      "heroSlug": "treant",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/treant.png",
+      "heroUrl": "/heroes/npc_dota_hero_treant",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_treant/hero.json",
+      "setCount": 21,
+      "itemRefCount": 85,
+      "defaultModelCount": 1,
+      "itemModelCount": 84,
+      "stats": {
+        "modelBytes": 76393669,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 446
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_troll_warlord",
+      "sourceHeroId": "npc_dota_hero_troll_warlord",
+      "variantId": "default",
+      "heroName": "Troll Warlord",
+      "heroSlug": "troll_warlord",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/troll_warlord.png",
+      "heroUrl": "/heroes/npc_dota_hero_troll_warlord",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_troll_warlord/hero.json",
+      "setCount": 6,
+      "itemRefCount": 23,
+      "defaultModelCount": 1,
+      "itemModelCount": 34,
+      "stats": {
+        "modelBytes": 25908603,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 166
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_tusk",
+      "sourceHeroId": "npc_dota_hero_tusk",
+      "variantId": "default",
+      "heroName": "Tusk",
+      "heroSlug": "tusk",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tusk.png",
+      "heroUrl": "/heroes/npc_dota_hero_tusk",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_tusk/hero.json",
+      "setCount": 14,
+      "itemRefCount": 82,
+      "defaultModelCount": 1,
+      "itemModelCount": 85,
+      "stats": {
+        "modelBytes": 30381142,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 480
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_undying",
+      "sourceHeroId": "npc_dota_hero_undying",
+      "variantId": "default",
+      "heroName": "Undying",
+      "heroSlug": "undying",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/undying.png",
+      "heroUrl": "/heroes/npc_dota_hero_undying",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_undying/hero.json",
+      "setCount": 16,
+      "itemRefCount": 59,
+      "defaultModelCount": 1,
+      "itemModelCount": 49,
+      "stats": {
+        "modelBytes": 46245743,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 286
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_ursa",
+      "sourceHeroId": "npc_dota_hero_ursa",
+      "variantId": "default",
+      "heroName": "Ursa",
+      "heroSlug": "ursa",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ursa.png",
+      "heroUrl": "/heroes/npc_dota_hero_ursa",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_ursa/hero.json",
+      "setCount": 22,
+      "itemRefCount": 85,
+      "defaultModelCount": 1,
+      "itemModelCount": 87,
+      "stats": {
+        "modelBytes": 50240746,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 430
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_vengefulspirit",
+      "sourceHeroId": "npc_dota_hero_vengefulspirit",
+      "variantId": "default",
+      "heroName": "Vengefulspirit",
+      "heroSlug": "vengefulspirit",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengefulspirit.png",
+      "heroUrl": "/heroes/npc_dota_hero_vengefulspirit",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_vengefulspirit/hero.json",
+      "setCount": 28,
+      "itemRefCount": 112,
+      "defaultModelCount": 1,
+      "itemModelCount": 96,
+      "stats": {
+        "modelBytes": 345678397,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 831
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_venomancer",
+      "sourceHeroId": "npc_dota_hero_venomancer",
+      "variantId": "default",
+      "heroName": "Venomancer",
+      "heroSlug": "venomancer",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/venomancer.png",
+      "heroUrl": "/heroes/npc_dota_hero_venomancer",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_venomancer/hero.json",
+      "setCount": 18,
+      "itemRefCount": 84,
+      "defaultModelCount": 1,
+      "itemModelCount": 66,
+      "stats": {
+        "modelBytes": 113245572,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 343
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_viper",
+      "sourceHeroId": "npc_dota_hero_viper",
+      "variantId": "default",
+      "heroName": "Viper",
+      "heroSlug": "viper",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/viper.png",
+      "heroUrl": "/heroes/npc_dota_hero_viper",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_viper/hero.json",
+      "setCount": 9,
+      "itemRefCount": 26,
+      "defaultModelCount": 1,
+      "itemModelCount": 30,
+      "stats": {
+        "modelBytes": 51831063,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 181
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_visage",
+      "sourceHeroId": "npc_dota_hero_visage",
+      "variantId": "default",
+      "heroName": "Visage",
+      "heroSlug": "visage",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/visage.png",
+      "heroUrl": "/heroes/npc_dota_hero_visage",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_visage/hero.json",
+      "setCount": 7,
+      "itemRefCount": 21,
+      "defaultModelCount": 1,
+      "itemModelCount": 16,
+      "stats": {
+        "modelBytes": 17755333,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 87
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_void_spirit",
+      "sourceHeroId": "npc_dota_hero_void_spirit",
+      "variantId": "default",
+      "heroName": "Void Spirit",
+      "heroSlug": "void_spirit",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/void_spirit.png",
+      "heroUrl": "/heroes/npc_dota_hero_void_spirit",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_void_spirit/hero.json",
+      "setCount": 5,
+      "itemRefCount": 20,
+      "defaultModelCount": 1,
+      "itemModelCount": 30,
+      "stats": {
+        "modelBytes": 46980046,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 156
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_warlock",
+      "sourceHeroId": "npc_dota_hero_warlock",
+      "variantId": "default",
+      "heroName": "Warlock",
+      "heroSlug": "warlock",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png",
+      "heroUrl": "/heroes/npc_dota_hero_warlock",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_warlock/hero.json",
+      "setCount": 15,
+      "itemRefCount": 115,
+      "defaultModelCount": 1,
+      "itemModelCount": 106,
+      "stats": {
+        "modelBytes": 34373414,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 607
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_weaver",
+      "sourceHeroId": "npc_dota_hero_weaver",
+      "variantId": "default",
+      "heroName": "Weaver",
+      "heroSlug": "weaver",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/weaver.png",
+      "heroUrl": "/heroes/npc_dota_hero_weaver",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_weaver/hero.json",
+      "setCount": 15,
+      "itemRefCount": 73,
+      "defaultModelCount": 1,
+      "itemModelCount": 65,
+      "stats": {
+        "modelBytes": 21156186,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 333
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_windrunner",
+      "sourceHeroId": "npc_dota_hero_windrunner",
+      "variantId": "default",
+      "heroName": "Windrunner",
+      "heroSlug": "windrunner",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windrunner.png",
+      "heroUrl": "/heroes/npc_dota_hero_windrunner",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_windrunner/hero.json",
+      "setCount": 31,
+      "itemRefCount": 151,
+      "defaultModelCount": 1,
+      "itemModelCount": 143,
+      "stats": {
+        "modelBytes": 436881558,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 886
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_winter_wyvern",
+      "sourceHeroId": "npc_dota_hero_winter_wyvern",
+      "variantId": "default",
+      "heroName": "Winter Wyvern",
+      "heroSlug": "winter_wyvern",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/winter_wyvern.png",
+      "heroUrl": "/heroes/npc_dota_hero_winter_wyvern",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_winter_wyvern/hero.json",
+      "setCount": 12,
+      "itemRefCount": 24,
+      "defaultModelCount": 1,
+      "itemModelCount": 27,
+      "stats": {
+        "modelBytes": 98723926,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 156
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_wisp",
+      "sourceHeroId": "npc_dota_hero_wisp",
+      "variantId": "default",
+      "heroName": "Wisp",
+      "heroSlug": "wisp",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/wisp.png",
+      "heroUrl": "/heroes/npc_dota_hero_wisp",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_wisp/hero.json",
+      "setCount": 0,
+      "itemRefCount": 0,
+      "defaultModelCount": 1,
+      "itemModelCount": 3,
+      "stats": {
+        "modelBytes": 15527408,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 24
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_witch_doctor",
+      "sourceHeroId": "npc_dota_hero_witch_doctor",
+      "variantId": "default",
+      "heroName": "Witch Doctor",
+      "heroSlug": "witch_doctor",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/witch_doctor.png",
+      "heroUrl": "/heroes/npc_dota_hero_witch_doctor",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_witch_doctor/hero.json",
+      "setCount": 23,
+      "itemRefCount": 115,
+      "defaultModelCount": 1,
+      "itemModelCount": 124,
+      "stats": {
+        "modelBytes": 58207164,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 701
+      }
+    },
+    {
+      "heroId": "npc_dota_hero_zuus",
+      "sourceHeroId": "npc_dota_hero_zuus",
+      "variantId": "default",
+      "heroName": "Zuus",
+      "heroSlug": "zuus",
+      "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png",
+      "heroUrl": "/heroes/npc_dota_hero_zuus",
+      "dataUrl": "/larimods-data/v1/heroes/npc_dota_hero_zuus/hero.json",
+      "setCount": 12,
+      "itemRefCount": 47,
+      "defaultModelCount": 1,
+      "itemModelCount": 56,
+      "stats": {
+        "modelBytes": 145394302,
+        "packageBytes": 0,
+        "previewBytes": 0,
+        "modelFiles": 316
       }
     }
   ]

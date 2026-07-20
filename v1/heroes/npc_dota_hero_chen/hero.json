@@ -1,0 +1,3498 @@
+{
+  "heroId": "npc_dota_hero_chen",
+  "sourceHeroId": "npc_dota_hero_chen",
+  "variantId": "default",
+  "heroName": "Chen",
+  "heroSlug": "chen",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chen.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_chen/1d610224c656/models/heroes/chen/chen.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 223,
+      "name": "Chens Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/3bd832dbdc31/models/heroes/chen/bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/3bd832dbdc31/models/heroes/chen/bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/3bd832dbdc31/models/heroes/chen/chen_arms_color_tga_ec32e37e.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 222,
+      "name": "Chens Helmet",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a5d7fa0badf9/models/heroes/chen/helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/a5d7fa0badf9/models/heroes/chen/helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/helmet.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a5d7fa0badf9/models/heroes/chen/chen_head_color_tga_2cd42170.png"
+    },
+    {
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "itemId": 221,
+      "name": "Chens Mount",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ee087330888c/models/heroes/chen/mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/ee087330888c/models/heroes/chen/mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/mount.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ee087330888c/models/heroes/chen/chen_mount_color_psd_973810b5.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 224,
+      "name": "Chens Shoulder Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/b02ea13b343c/models/heroes/chen/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/b02ea13b343c/models/heroes/chen/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/b02ea13b343c/models/heroes/chen/chen_shoulder_color_psd_6ef8b5ee.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 220,
+      "name": "Chens Staff",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5561ba6e71b6/models/heroes/chen/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/5561ba6e71b6/models/heroes/chen/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5561ba6e71b6/models/heroes/chen/chen_weapon_color_psd_fd0e2094.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_chen:item-model:4772:arms-nomad",
+      "itemId": 4772,
+      "name": "Armguards of the Penitent Nomad",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/1623ec1dc024/models/items/chen/arms_nomad/arms_nomad.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/1623ec1dc024/models/items/chen/arms_nomad/arms_nomad.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/arms_nomad/arms_nomad.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_nomad-3ea239a4ec18.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/1623ec1dc024/models/items/chen/arms_nomad/arms_nomad_color_tga_ae65b9cb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/arms_nomad/arms_nomad.vmdl",
+        "modelPaths": [
+          "models/items/chen/arms_nomad/arms_nomad.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9466:desert-wanderer-arms",
+      "itemId": 9466,
+      "name": "Arms of the Barren Survivor",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e60ef00ce168/models/items/chen/desert_wanderer_arms/desert_wanderer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/e60ef00ce168/models/items/chen/desert_wanderer_arms/desert_wanderer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_wanderer_arms/desert_wanderer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_wanderer_arms-7852e4a994a9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e60ef00ce168/models/items/chen/desert_wanderer_arms/desert_wanderer_arms_color_png_5fcad40a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_wanderer_arms/desert_wanderer_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_wanderer_arms/desert_wanderer_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:13251:ti9-cache-chen-emperor-of-the-sun-arms",
+      "itemId": 13251,
+      "name": "Bracer of the Proudsilver Clan",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/cf8824e01b08/models/items/chen/ti9_cache_chen_emperor_of_the_sun_arms/ti9_cache_chen_emperor_of_the_sun_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/cf8824e01b08/models/items/chen/ti9_cache_chen_emperor_of_the_sun_arms/ti9_cache_chen_emperor_of_the_sun_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti9_cache_chen_emperor_of_the_sun_arms/ti9_cache_chen_emperor_of_the_sun_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_chen_emperor_of_the_sun_arms-de2f80acd772.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/cf8824e01b08/models/items/chen/ti9_cache_chen_emperor_of_the_sun_arms/ti9_cache_chen_emperor_of_the_sun_arms_color_tga_a5710403.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti9_cache_chen_emperor_of_the_sun_arms/ti9_cache_chen_emperor_of_the_sun_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti9_cache_chen_emperor_of_the_sun_arms/ti9_cache_chen_emperor_of_the_sun_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9954:ti8-chen-the-rat-king-arms",
+      "itemId": 9954,
+      "name": "Bracers of the Rat King",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/90c098a0efbe/models/items/chen/ti8_chen_the_rat_king_arms/ti8_chen_the_rat_king_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/90c098a0efbe/models/items/chen/ti8_chen_the_rat_king_arms/ti8_chen_the_rat_king_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti8_chen_the_rat_king_arms/ti8_chen_the_rat_king_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_chen_the_rat_king_arms-ed71e0f6fea5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/90c098a0efbe/models/items/chen/ti8_chen_the_rat_king_arms/ti8_chen_the_rat_king_arms_color_png_2015a72d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti8_chen_the_rat_king_arms/ti8_chen_the_rat_king_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti8_chen_the_rat_king_arms/ti8_chen_the_rat_king_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:223:bracers",
+      "itemId": 223,
+      "name": "Chens Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/3bd832dbdc31/models/heroes/chen/bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/3bd832dbdc31/models/heroes/chen/bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracers-b0624f42437f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/3bd832dbdc31/models/heroes/chen/chen_arms_color_tga_ec32e37e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/chen/bracers.vmdl",
+        "modelPaths": [
+          "models/heroes/chen/bracers.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5991:desert-gale-arms",
+      "itemId": 5991,
+      "name": "Desert Gale Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e01b4a5d1dac/models/items/chen/desert_gale_arms/desert_gale_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/e01b4a5d1dac/models/items/chen/desert_gale_arms/desert_gale_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_gale_arms/desert_gale_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_gale_arms-ba5400026e19.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e01b4a5d1dac/models/items/chen/desert_gale_arms/desert_gale_arms_color_tga_8eb67de7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_gale_arms/desert_gale_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_gale_arms/desert_gale_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5035:arms-desert",
+      "itemId": 5035,
+      "name": "Gemmed Bracers of the Priest Kings",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f7afdf85349d/models/items/chen/arms_desert/arms_desert.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/f7afdf85349d/models/items/chen/arms_desert/arms_desert.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/arms_desert/arms_desert.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_desert-1bf369d47eb0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f7afdf85349d/models/items/chen/arms_desert/arms_desert_color_tga_2f6e273e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/arms_desert/arms_desert.vmdl",
+        "modelPaths": [
+          "models/items/chen/arms_desert/arms_desert.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:26834:chen-infernal-psychic-arms",
+      "itemId": 26834,
+      "name": "Hounds of Obsession  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/aaf87103612e/models/items/chen/chen_infernal_psychic_arms/chen_infernal_psychic_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/aaf87103612e/models/items/chen/chen_infernal_psychic_arms/chen_infernal_psychic_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_infernal_psychic_arms/chen_infernal_psychic_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_infernal_psychic_arms-f796b1c049f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/aaf87103612e/models/items/chen/chen_infernal_psychic_arms/chen_infernal_psychic_arms_color_tga_2ddeb995.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_infernal_psychic_arms/chen_infernal_psychic_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_infernal_psychic_arms/chen_infernal_psychic_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:19351:chen-sobek-arms",
+      "itemId": 19351,
+      "name": "Perils of the Red Banks  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/189d8080e685/models/items/chen/chen_sobek_arms/chen_sobek_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/189d8080e685/models/items/chen/chen_sobek_arms/chen_sobek_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_sobek_arms/chen_sobek_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_sobek_arms-ef0bbc0f21d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/189d8080e685/models/items/chen/chen_sobek_arms/chen_sobek_arms_color_tga_1c18b459.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_sobek_arms/chen_sobek_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_sobek_arms/chen_sobek_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:33454:law-of-nature-arms",
+      "itemId": 33454,
+      "name": "Seed of Strife  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/c4b793707bd6/models/items/chen/law_of_nature_arms/law_of_nature_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/c4b793707bd6/models/items/chen/law_of_nature_arms/law_of_nature_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/law_of_nature_arms/law_of_nature_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/law_of_nature_arms-b1b4e4462df3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/c4b793707bd6/models/items/chen/law_of_nature_arms/law_of_nature_arms_color_tga_b99f513b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/law_of_nature_arms/law_of_nature_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/law_of_nature_arms/law_of_nature_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9156:chen-eye-of-power-arms",
+      "itemId": 9156,
+      "name": "Sleeves of the Progenitors Gaze",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6786c0596313/models/items/chen/chen_eye_of_power_arms/chen_eye_of_power_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/6786c0596313/models/items/chen/chen_eye_of_power_arms/chen_eye_of_power_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_eye_of_power_arms/chen_eye_of_power_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_eye_of_power_arms-7f14fc16431a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6786c0596313/models/items/chen/chen_eye_of_power_arms/chen_eye_of_power_arms_color_tga_9d7e1b00.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_eye_of_power_arms/chen_eye_of_power_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_eye_of_power_arms/chen_eye_of_power_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:14136:humble-knight-arms",
+      "itemId": 14136,
+      "name": "Vote Only Humble Knight Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/88f8a160d78e/models/items/chen/humble_knight_arms/humble_knight_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/88f8a160d78e/models/items/chen/humble_knight_arms/humble_knight_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/humble_knight_arms/humble_knight_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/humble_knight_arms-8af05507f866.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/88f8a160d78e/models/items/chen/humble_knight_arms/humble_knight_arms_color_tga_69344dae.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/humble_knight_arms/humble_knight_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/humble_knight_arms/humble_knight_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:18781:pilgrim-of-the-snowy-shrine-arms",
+      "itemId": 18781,
+      "name": "Vote Only Pilgrim of the Snowy Shrine Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/d8cda1f836c9/models/items/chen/pilgrim_of_the_snowy_shrine_arms/pilgrim_of_the_snowy_shrine_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/d8cda1f836c9/models/items/chen/pilgrim_of_the_snowy_shrine_arms/pilgrim_of_the_snowy_shrine_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/pilgrim_of_the_snowy_shrine_arms/pilgrim_of_the_snowy_shrine_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pilgrim_of_the_snowy_shrine_arms-52d906198f6d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/d8cda1f836c9/models/items/chen/pilgrim_of_the_snowy_shrine_arms/pilgrim_of_the_snowy_shrine_arms_color_tga_39ba71f3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/pilgrim_of_the_snowy_shrine_arms/pilgrim_of_the_snowy_shrine_arms.vmdl",
+        "modelPaths": [
+          "models/items/chen/pilgrim_of_the_snowy_shrine_arms/pilgrim_of_the_snowy_shrine_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5663:arms-navi",
+      "itemId": 5663,
+      "name": "Wings of Obelis Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e1d07efc9114/models/items/chen/arms_navi/arms_navi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/e1d07efc9114/models/items/chen/arms_navi/arms_navi.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/arms_navi/arms_navi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arms_navi-7a348de8de95.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e1d07efc9114/models/items/chen/arms_navi/arms_navi_color_tga_af38b59f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/arms_navi/arms_navi.vmdl",
+        "modelPaths": [
+          "models/items/chen/arms_navi/arms_navi.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:222:helmet",
+      "itemId": 222,
+      "name": "Chens Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a5d7fa0badf9/models/heroes/chen/helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/a5d7fa0badf9/models/heroes/chen/helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helmet-9aa587751cb9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a5d7fa0badf9/models/heroes/chen/chen_head_color_tga_2cd42170.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/chen/helmet.vmdl",
+        "modelPaths": [
+          "models/heroes/chen/helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9155:chen-eye-of-power-head",
+      "itemId": 9155,
+      "name": "Crown of the Progenitors Gaze",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/38ef563dc45e/models/items/chen/chen_eye_of_power_head/chen_eye_of_power_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/38ef563dc45e/models/items/chen/chen_eye_of_power_head/chen_eye_of_power_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_eye_of_power_head/chen_eye_of_power_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_eye_of_power_head-114fc71e39c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/38ef563dc45e/models/items/chen/chen_eye_of_power_head/chen_eye_of_power_head_color_tga_b5372e8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_eye_of_power_head/chen_eye_of_power_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_eye_of_power_head/chen_eye_of_power_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:13250:ti9-cache-chen-emperor-of-the-sun-head",
+      "itemId": 13250,
+      "name": "Crown of the Proudsilver Clan",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8ac3a4ef266e/models/items/chen/ti9_cache_chen_emperor_of_the_sun_head/ti9_cache_chen_emperor_of_the_sun_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/8ac3a4ef266e/models/items/chen/ti9_cache_chen_emperor_of_the_sun_head/ti9_cache_chen_emperor_of_the_sun_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti9_cache_chen_emperor_of_the_sun_head/ti9_cache_chen_emperor_of_the_sun_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_chen_emperor_of_the_sun_head-fcf0ae712db1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8ac3a4ef266e/models/items/chen/ti9_cache_chen_emperor_of_the_sun_head/ti9_cache_chen_emperor_of_the_sun_head_color_tga_cc447cdf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti9_cache_chen_emperor_of_the_sun_head/ti9_cache_chen_emperor_of_the_sun_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti9_cache_chen_emperor_of_the_sun_head/ti9_cache_chen_emperor_of_the_sun_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/ti9_emperor_of_the_sun/chen_ti9_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9950:ti8-chen-the-rat-king-head",
+      "itemId": 9950,
+      "name": "Crown of the Rat King",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e256e9091be1/models/items/chen/ti8_chen_the_rat_king_head/ti8_chen_the_rat_king_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/e256e9091be1/models/items/chen/ti8_chen_the_rat_king_head/ti8_chen_the_rat_king_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti8_chen_the_rat_king_head/ti8_chen_the_rat_king_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_chen_the_rat_king_head-e1d4704e3eef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e256e9091be1/models/items/chen/ti8_chen_the_rat_king_head/ti8_chen_the_rat_king_head_color_png_abb7aa3e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti8_chen_the_rat_king_head/ti8_chen_the_rat_king_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti8_chen_the_rat_king_head/ti8_chen_the_rat_king_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5993:desert-gale-helmet",
+      "itemId": 5993,
+      "name": "Desert Gale Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f7e54181dda4/models/items/chen/desert_gale_helmet/desert_gale_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/f7e54181dda4/models/items/chen/desert_gale_helmet/desert_gale_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_gale_helmet/desert_gale_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_gale_helmet-13af30e2c44e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f7e54181dda4/models/items/chen/desert_gale_helmet/desert_gale_helmet_color_tga_dd19dfea.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_gale_helmet/desert_gale_helmet.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_gale_helmet/desert_gale_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5034:head-desert",
+      "itemId": 5034,
+      "name": "Gemmed Mitre of the Priest Kings",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2dab71c4ea57/models/items/chen/head_desert/head_desert.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/2dab71c4ea57/models/items/chen/head_desert/head_desert.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/head_desert/head_desert.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_desert-df798a3468fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2dab71c4ea57/models/items/chen/head_desert/head_desert_color_tga_84415df.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/head_desert/head_desert.vmdl",
+        "modelPaths": [
+          "models/items/chen/head_desert/head_desert.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9470:desert-wanderer-head",
+      "itemId": 9470,
+      "name": "Head of the Barren Survivor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6575b17ce51d/models/items/chen/desert_wanderer_head/desert_wanderer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/6575b17ce51d/models/items/chen/desert_wanderer_head/desert_wanderer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_wanderer_head/desert_wanderer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_wanderer_head-8291a6a0e24c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6575b17ce51d/models/items/chen/desert_wanderer_head/desert_wanderer_head_color_png_7a1f5834.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_wanderer_head/desert_wanderer_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_wanderer_head/desert_wanderer_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:26835:chen-infernal-psychic-head",
+      "itemId": 26835,
+      "name": "Hounds of Obsession  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e874c0af1b06/models/items/chen/chen_infernal_psychic_head/chen_infernal_psychic_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/e874c0af1b06/models/items/chen/chen_infernal_psychic_head/chen_infernal_psychic_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_infernal_psychic_head/chen_infernal_psychic_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_infernal_psychic_head-6be50cad2dac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/e874c0af1b06/models/items/chen/chen_infernal_psychic_head/chen_infernal_psychic_head_color_tga_eb261266.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_infernal_psychic_head/chen_infernal_psychic_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_infernal_psychic_head/chen_infernal_psychic_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/chen_2022_winter_cc_01_head/chen_2022_winter_cc_01_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:19350:chen-sobek-head",
+      "itemId": 19350,
+      "name": "Perils of the Red Banks  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/515d19f84c3b/models/items/chen/chen_sobek_head/chen_sobek_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/515d19f84c3b/models/items/chen/chen_sobek_head/chen_sobek_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_sobek_head/chen_sobek_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_sobek_head-e8a7c6dc2b9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/515d19f84c3b/models/items/chen/chen_sobek_head/chen_sobek_head_color_tga_a350e10c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_sobek_head/chen_sobek_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_sobek_head/chen_sobek_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/chen_2022_cc_head/chen_2022_cc_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:33455:law-of-nature-head",
+      "itemId": 33455,
+      "name": "Seed of Strife  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/343571b9618a/models/items/chen/law_of_nature_head/law_of_nature_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/343571b9618a/models/items/chen/law_of_nature_head/law_of_nature_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/law_of_nature_head/law_of_nature_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/law_of_nature_head-655fde9d8a28.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/343571b9618a/models/items/chen/law_of_nature_head/law_of_nature_head_color_tga_8f384865.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/law_of_nature_head/law_of_nature_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/law_of_nature_head/law_of_nature_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:4774:head-nomad",
+      "itemId": 4774,
+      "name": "Turban of the Penitent Nomad",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/67c0e6a3cb47/models/items/chen/head_nomad/head_nomad.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/67c0e6a3cb47/models/items/chen/head_nomad/head_nomad.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/head_nomad/head_nomad.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_nomad-b4a5d38739c7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/67c0e6a3cb47/models/items/chen/head_nomad/head_nomad_color_tga_d81d4e3c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/head_nomad/head_nomad.vmdl",
+        "modelPaths": [
+          "models/items/chen/head_nomad/head_nomad.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:14135:humble-knight-head",
+      "itemId": 14135,
+      "name": "Vote Only Humble Knight Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8b1be896d7b2/models/items/chen/humble_knight_head/humble_knight_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/8b1be896d7b2/models/items/chen/humble_knight_head/humble_knight_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/humble_knight_head/humble_knight_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/humble_knight_head-e9068a0eda92.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8b1be896d7b2/models/items/chen/humble_knight_head/humble_knight_head_color_tga_71ad604c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/humble_knight_head/humble_knight_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/humble_knight_head/humble_knight_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:18780:pilgrim-of-the-snowy-shrine-head",
+      "itemId": 18780,
+      "name": "Vote Only Pilgrim of the Snowy Shrine Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/4d85baa5e2d3/models/items/chen/pilgrim_of_the_snowy_shrine_head/pilgrim_of_the_snowy_shrine_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/4d85baa5e2d3/models/items/chen/pilgrim_of_the_snowy_shrine_head/pilgrim_of_the_snowy_shrine_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/pilgrim_of_the_snowy_shrine_head/pilgrim_of_the_snowy_shrine_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pilgrim_of_the_snowy_shrine_head-6f1882e61f61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/4d85baa5e2d3/models/items/chen/pilgrim_of_the_snowy_shrine_head/pilgrim_of_the_snowy_shrine_head_color_tga_3e6d76a7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/pilgrim_of_the_snowy_shrine_head/pilgrim_of_the_snowy_shrine_head.vmdl",
+        "modelPaths": [
+          "models/items/chen/pilgrim_of_the_snowy_shrine_head/pilgrim_of_the_snowy_shrine_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5664:head-navi",
+      "itemId": 5664,
+      "name": "Wings of Obelis Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/cbb61f40672e/models/items/chen/head_navi/head_navi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/cbb61f40672e/models/items/chen/head_navi/head_navi.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/head_navi/head_navi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_navi-5b94e4bce818.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/cbb61f40672e/models/items/chen/head_navi/head_navi_color_tga_4d6041b1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/head_navi/head_navi.vmdl",
+        "modelPaths": [
+          "models/items/chen/head_navi/head_navi.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5995:desert-gale-moustache",
+      "itemId": 5995,
+      "name": "Desert Gale Moustache",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8a2ae5e1fe11/models/items/chen/desert_gale_moustache/desert_gale_moustache.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/8a2ae5e1fe11/models/items/chen/desert_gale_moustache/desert_gale_moustache.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_gale_moustache/desert_gale_moustache.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_gale_moustache-ee3dccdee15f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8a2ae5e1fe11/models/items/chen/desert_gale_moustache/desert_gale_moustache_color_tga_3e9005b9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_gale_moustache/desert_gale_moustache.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_gale_moustache/desert_gale_moustache.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9154:chen-eye-of-power-misc",
+      "itemId": 9154,
+      "name": "Drape of the Progenitors Gaze",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a9ba069bb59d/models/items/chen/chen_eye_of_power_misc/chen_eye_of_power_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/a9ba069bb59d/models/items/chen/chen_eye_of_power_misc/chen_eye_of_power_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_eye_of_power_misc/chen_eye_of_power_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_eye_of_power_misc-9773f139acd1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a9ba069bb59d/models/items/chen/chen_eye_of_power_misc/chen_eye_of_power_misc_color_tga_d15063c3.png"
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5036:neck-desert",
+      "itemId": 5036,
+      "name": "Scarab Pendant of the Priest Kings",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/c6c12f900ea8/models/items/chen/neck_desert/neck_desert.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/c6c12f900ea8/models/items/chen/neck_desert/neck_desert.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/neck_desert/neck_desert.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/neck_desert-347de823dc23.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/c6c12f900ea8/models/items/chen/neck_desert/neck_desert_color_tga_b45489e3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/neck_desert/neck_desert.vmdl",
+        "modelPaths": [
+          "models/items/chen/neck_desert/neck_desert.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9157:buttercup-new",
+      "itemId": 9157,
+      "name": "Buttercup",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f608e83c6049/models/items/chen/buttercup_new/buttercup_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/f608e83c6049/models/items/chen/buttercup_new/buttercup_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/buttercup_new/buttercup_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/buttercup_new-a322b806c86c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f608e83c6049/models/items/chen/buttercup_new/buttercup_new_color_tga_5076bfd8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/buttercup_new/buttercup_new.vmdl",
+        "modelPaths": [
+          "models/items/chen/buttercup_new/buttercup_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:221:mount",
+      "itemId": 221,
+      "name": "Chens Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ee087330888c/models/heroes/chen/mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/ee087330888c/models/heroes/chen/mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mount-fbeb953a355a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ee087330888c/models/heroes/chen/chen_mount_color_psd_973810b5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/chen/mount.vmdl",
+        "modelPaths": [
+          "models/heroes/chen/mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9161:desert-gale-mount",
+      "itemId": 9161,
+      "name": "Desert Gale Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/c9e0c85393ef/models/items/chen/desert_gale_mount/desert_gale_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/c9e0c85393ef/models/items/chen/desert_gale_mount/desert_gale_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_gale_mount/desert_gale_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_gale_mount-f3db3dc17802.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/c9e0c85393ef/models/items/chen/desert_gale_mount/desert_gale_mount_color_tga_3a1024fe.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_gale_mount/desert_gale_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_gale_mount/desert_gale_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:26836:chen-infernal-psychic-mount",
+      "itemId": 26836,
+      "name": "Hounds of Obsession  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/504ea6e59d22/models/items/chen/chen_infernal_psychic_mount/chen_infernal_psychic_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/504ea6e59d22/models/items/chen/chen_infernal_psychic_mount/chen_infernal_psychic_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_infernal_psychic_mount/chen_infernal_psychic_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_infernal_psychic_mount-8471397bbc95.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/504ea6e59d22/models/items/chen/chen_infernal_psychic_mount/chen_infernal_psychic_mount_color_psd_12f6f5c8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_infernal_psychic_mount/chen_infernal_psychic_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_infernal_psychic_mount/chen_infernal_psychic_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_chen_infernal_psychic.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/chen/chen_2022_winter_cc_01_mount/chen_2022_winter_cc_01_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9160:nomad-mount",
+      "itemId": 9160,
+      "name": "Locuthi Mount of the Penitent Nomad",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ee767a3055b1/models/items/chen/nomad_mount/nomad_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/ee767a3055b1/models/items/chen/nomad_mount/nomad_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/nomad_mount/nomad_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nomad_mount-0f057c0da391.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ee767a3055b1/models/items/chen/nomad_mount/nomad_mount_color_psd_42fed3df.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/nomad_mount/nomad_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/nomad_mount/nomad_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9465:desert-wanderer-mount",
+      "itemId": 9465,
+      "name": "Mount of the Barren Survivor",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/52581ebf2cd0/models/items/chen/desert_wanderer_mount/desert_wanderer_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/52581ebf2cd0/models/items/chen/desert_wanderer_mount/desert_wanderer_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_wanderer_mount/desert_wanderer_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_wanderer_mount-cbea18d0ddad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/52581ebf2cd0/models/items/chen/desert_wanderer_mount/desert_wanderer_mount_color_png_d498f96b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_wanderer_mount/desert_wanderer_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_wanderer_mount/desert_wanderer_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:13252:ti9-cache-chen-emperor-of-the-sun-mount",
+      "itemId": 13252,
+      "name": "Mount of the Proudsilver Clan",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/515ac178eae1/models/items/chen/ti9_cache_chen_emperor_of_the_sun_mount/ti9_cache_chen_emperor_of_the_sun_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/515ac178eae1/models/items/chen/ti9_cache_chen_emperor_of_the_sun_mount/ti9_cache_chen_emperor_of_the_sun_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti9_cache_chen_emperor_of_the_sun_mount/ti9_cache_chen_emperor_of_the_sun_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_chen_emperor_of_the_sun_mount-884e05e3a3ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/515ac178eae1/models/items/chen/ti9_cache_chen_emperor_of_the_sun_mount/ti9_cache_chen_emperor_of_the_sun_mount_color_psd_55d14dfa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti9_cache_chen_emperor_of_the_sun_mount/ti9_cache_chen_emperor_of_the_sun_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti9_cache_chen_emperor_of_the_sun_mount/ti9_cache_chen_emperor_of_the_sun_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/ti9_emperor_of_the_sun/chen_ti9_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:19348:chen-sobek-mount",
+      "itemId": 19348,
+      "name": "Perils of the Red Banks  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8160c4b793df/models/items/chen/chen_sobek_mount/chen_sobek_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/8160c4b793df/models/items/chen/chen_sobek_mount/chen_sobek_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_sobek_mount/chen_sobek_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_sobek_mount-4274f93abb61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8160c4b793df/models/items/chen/chen_sobek_mount/chen_sobek_mount_color_tga_29e01521.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_sobek_mount/chen_sobek_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_sobek_mount/chen_sobek_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/chen_2022_cc_mount/chen_2022_cc_mount.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9151:chen-eye-of-power-mount",
+      "itemId": 9151,
+      "name": "Pilgrim",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7cbadeaf3590/models/items/chen/chen_eye_of_power_mount/chen_eye_of_power_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/7cbadeaf3590/models/items/chen/chen_eye_of_power_mount/chen_eye_of_power_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_eye_of_power_mount/chen_eye_of_power_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_eye_of_power_mount-78b6f280a1a2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7cbadeaf3590/models/items/chen/chen_eye_of_power_mount/chen_eye_of_power_mount_color_tga_7416805e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_eye_of_power_mount/chen_eye_of_power_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_eye_of_power_mount/chen_eye_of_power_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9952:ti8-chen-the-rat-king-mount",
+      "itemId": 9952,
+      "name": "Royal Mount of the Rat King",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/175458844d39/models/items/chen/ti8_chen_the_rat_king_mount/ti8_chen_the_rat_king_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/175458844d39/models/items/chen/ti8_chen_the_rat_king_mount/ti8_chen_the_rat_king_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti8_chen_the_rat_king_mount/ti8_chen_the_rat_king_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_chen_the_rat_king_mount-2439780acd29.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/175458844d39/models/items/chen/ti8_chen_the_rat_king_mount/ti8_chen_the_rat_king_mount_color_png_dd03051.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti8_chen_the_rat_king_mount/ti8_chen_the_rat_king_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti8_chen_the_rat_king_mount/ti8_chen_the_rat_king_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9158:mount-desert-new",
+      "itemId": 9158,
+      "name": "Sanurok the Ever Able",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5359f96795fc/models/items/chen/mount_desert_new/mount_desert_new.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/5359f96795fc/models/items/chen/mount_desert_new/mount_desert_new.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/mount_desert_new/mount_desert_new.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mount_desert_new-9efd5e516051.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5359f96795fc/models/items/chen/mount_desert_new/mount_desert_new_color_tga_6c538566.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/mount_desert_new/mount_desert_new.vmdl",
+        "modelPaths": [
+          "models/items/chen/mount_desert_new/mount_desert_new.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:33456:law-of-nature-mount",
+      "itemId": 33456,
+      "name": "Seed of Strife  Red Panda",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a0b9ccbd5e0b/models/items/chen/law_of_nature_mount/law_of_nature_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/a0b9ccbd5e0b/models/items/chen/law_of_nature_mount/law_of_nature_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/law_of_nature_mount/law_of_nature_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/law_of_nature_mount-a4297198d37d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/a0b9ccbd5e0b/models/items/chen/law_of_nature_mount/law_of_nature_mount_color_tga_2fc36be5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/law_of_nature_mount/law_of_nature_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/law_of_nature_mount/law_of_nature_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:14134:humble-knight-mount",
+      "itemId": 14134,
+      "name": "Vote Only Humble Knight Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5919a5c977aa/models/items/chen/humble_knight_mount/humble_knight_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/5919a5c977aa/models/items/chen/humble_knight_mount/humble_knight_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/humble_knight_mount/humble_knight_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/humble_knight_mount-bc64ea5ed37f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5919a5c977aa/models/items/chen/humble_knight_mount/humble_knight_mount_color_tga_885ddc4a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/humble_knight_mount/humble_knight_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/humble_knight_mount/humble_knight_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:18782:pilgrim-of-the-snowy-shrine-mount",
+      "itemId": 18782,
+      "name": "Vote Only Pilgrim of the Snowy Shrine Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/b2c1f93a939a/models/items/chen/pilgrim_of_the_snowy_shrine_mount/pilgrim_of_the_snowy_shrine_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/b2c1f93a939a/models/items/chen/pilgrim_of_the_snowy_shrine_mount/pilgrim_of_the_snowy_shrine_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/pilgrim_of_the_snowy_shrine_mount/pilgrim_of_the_snowy_shrine_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pilgrim_of_the_snowy_shrine_mount-96374fddfee5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/b2c1f93a939a/models/items/chen/pilgrim_of_the_snowy_shrine_mount/pilgrim_of_the_snowy_shrine_mount_color_tga_f2282e0b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/pilgrim_of_the_snowy_shrine_mount/pilgrim_of_the_snowy_shrine_mount.vmdl",
+        "modelPaths": [
+          "models/items/chen/pilgrim_of_the_snowy_shrine_mount/pilgrim_of_the_snowy_shrine_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9159:mount-navi-combined",
+      "itemId": 9159,
+      "name": "Wings of Obelis Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6f75e0d5e6cb/models/items/chen/mount_navi_combined/mount_navi_combined.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/6f75e0d5e6cb/models/items/chen/mount_navi_combined/mount_navi_combined.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/mount_navi_combined/mount_navi_combined.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mount_navi_combined-6abfe002577b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6f75e0d5e6cb/models/items/chen/mount_navi_combined/mount_navi_combined_color_tga_51e5a45a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/mount_navi_combined/mount_navi_combined.vmdl",
+        "modelPaths": [
+          "models/items/chen/mount_navi_combined/mount_navi_combined.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9153:chen-eye-of-power-shoulder",
+      "itemId": 9153,
+      "name": "Armor of the Progenitors Gaze",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7e75a8e80d99/models/items/chen/chen_eye_of_power_shoulder/chen_eye_of_power_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/7e75a8e80d99/models/items/chen/chen_eye_of_power_shoulder/chen_eye_of_power_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_eye_of_power_shoulder/chen_eye_of_power_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_eye_of_power_shoulder-d905164a3c2a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7e75a8e80d99/models/items/chen/chen_eye_of_power_shoulder/chen_eye_of_power_shoulder_color_tga_7d009da5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_eye_of_power_shoulder/chen_eye_of_power_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_eye_of_power_shoulder/chen_eye_of_power_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:13249:ti9-cache-chen-emperor-of-the-sun-shoulder",
+      "itemId": 13249,
+      "name": "Cape of the Proudsilver Clan",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2f8734769331/models/items/chen/ti9_cache_chen_emperor_of_the_sun_shoulder/ti9_cache_chen_emperor_of_the_sun_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/2f8734769331/models/items/chen/ti9_cache_chen_emperor_of_the_sun_shoulder/ti9_cache_chen_emperor_of_the_sun_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti9_cache_chen_emperor_of_the_sun_shoulder/ti9_cache_chen_emperor_of_the_sun_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_chen_emperor_of_the_sun_shoulder-a66438e6d3d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2f8734769331/models/items/chen/ti9_cache_chen_emperor_of_the_sun_shoulder/ti9_cache_chen_emperor_of_the_sun_shoulder_color_psd_7d26afc8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti9_cache_chen_emperor_of_the_sun_shoulder/ti9_cache_chen_emperor_of_the_sun_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti9_cache_chen_emperor_of_the_sun_shoulder/ti9_cache_chen_emperor_of_the_sun_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:224:shoulders",
+      "itemId": 224,
+      "name": "Chens Shoulder Armor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/b02ea13b343c/models/heroes/chen/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/b02ea13b343c/models/heroes/chen/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders-4eff186312ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/b02ea13b343c/models/heroes/chen/chen_shoulder_color_psd_6ef8b5ee.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/chen/shoulders.vmdl",
+        "modelPaths": [
+          "models/heroes/chen/shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5998:desert-gale-shoulder-plate",
+      "itemId": 5998,
+      "name": "Desert Gale Shoulder Plate",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/0bbb0fbafc72/models/items/chen/desert_gale_shoulder_plate/desert_gale_shoulder_plate.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/0bbb0fbafc72/models/items/chen/desert_gale_shoulder_plate/desert_gale_shoulder_plate.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_gale_shoulder_plate/desert_gale_shoulder_plate.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_gale_shoulder_plate-0349dc17e7a6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/0bbb0fbafc72/models/items/chen/desert_gale_shoulder_plate/desert_gale_shoulder_plate_color_tga_c5af6af9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_gale_shoulder_plate/desert_gale_shoulder_plate.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_gale_shoulder_plate/desert_gale_shoulder_plate.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5032:shoulder-desert",
+      "itemId": 5032,
+      "name": "Gemmed Pauldrons of the Priest Kings",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6a48bde4f3bc/models/items/chen/shoulder_desert/shoulder_desert.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/6a48bde4f3bc/models/items/chen/shoulder_desert/shoulder_desert.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/shoulder_desert/shoulder_desert.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_desert-8b01ac144c9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/6a48bde4f3bc/models/items/chen/shoulder_desert/shoulder_desert_color_tga_b0f46ce2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/shoulder_desert/shoulder_desert.vmdl",
+        "modelPaths": [
+          "models/items/chen/shoulder_desert/shoulder_desert.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:26837:chen-infernal-psychic-shoulder",
+      "itemId": 26837,
+      "name": "Hounds of Obsession  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2aba7fa87923/models/items/chen/chen_infernal_psychic_shoulder/chen_infernal_psychic_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/2aba7fa87923/models/items/chen/chen_infernal_psychic_shoulder/chen_infernal_psychic_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_infernal_psychic_shoulder/chen_infernal_psychic_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_infernal_psychic_shoulder-c2397142cd6d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2aba7fa87923/models/items/chen/chen_infernal_psychic_shoulder/chen_infernal_psychic_shoulder_color_tga_87f957ba.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_infernal_psychic_shoulder/chen_infernal_psychic_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_infernal_psychic_shoulder/chen_infernal_psychic_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:19349:chen-sobek-shoulder",
+      "itemId": 19349,
+      "name": "Perils of the Red Banks  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ebce79daa2bb/models/items/chen/chen_sobek_shoulder/chen_sobek_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/ebce79daa2bb/models/items/chen/chen_sobek_shoulder/chen_sobek_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_sobek_shoulder/chen_sobek_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_sobek_shoulder-1b5b598fbdc2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ebce79daa2bb/models/items/chen/chen_sobek_shoulder/chen_sobek_shoulder_color_tga_2894806e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_sobek_shoulder/chen_sobek_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_sobek_shoulder/chen_sobek_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/chen_2022_cc_shoulder/chen_2022_cc_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:33457:law-of-nature-shoulders",
+      "itemId": 33457,
+      "name": "Seed of Strife  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/006fd9fca284/models/items/chen/law_of_nature_shoulders/law_of_nature_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/006fd9fca284/models/items/chen/law_of_nature_shoulders/law_of_nature_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/law_of_nature_shoulders/law_of_nature_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/law_of_nature_shoulders-8b81e0beb446.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/006fd9fca284/models/items/chen/law_of_nature_shoulders/law_of_nature_shoulders_color_tga_6cbb760e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/law_of_nature_shoulders/law_of_nature_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/chen/law_of_nature_shoulders/law_of_nature_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9467:desert-wanderer-shoulder",
+      "itemId": 9467,
+      "name": "Shoulder of the Barren Survivor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/d0fe4a50c764/models/items/chen/desert_wanderer_shoulder/desert_wanderer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/d0fe4a50c764/models/items/chen/desert_wanderer_shoulder/desert_wanderer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_wanderer_shoulder/desert_wanderer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_wanderer_shoulder-251aacf5f36b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/d0fe4a50c764/models/items/chen/desert_wanderer_shoulder/desert_wanderer_shoulder_color_png_339770c4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_wanderer_shoulder/desert_wanderer_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_wanderer_shoulder/desert_wanderer_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:4773:shoulders-nomad",
+      "itemId": 4773,
+      "name": "Shoulderguards of the Penitent Nomad",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f0aaa854ff2c/models/items/chen/shoulders_nomad/shoulders_nomad.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/f0aaa854ff2c/models/items/chen/shoulders_nomad/shoulders_nomad.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/shoulders_nomad/shoulders_nomad.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders_nomad-014379f1ac01.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f0aaa854ff2c/models/items/chen/shoulders_nomad/shoulders_nomad_color_tga_b5c290e1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/shoulders_nomad/shoulders_nomad.vmdl",
+        "modelPaths": [
+          "models/items/chen/shoulders_nomad/shoulders_nomad.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9953:ti8-chen-the-rat-king-shoulder",
+      "itemId": 9953,
+      "name": "Vest of the Rat King",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8fb069094e0c/models/items/chen/ti8_chen_the_rat_king_shoulder/ti8_chen_the_rat_king_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/8fb069094e0c/models/items/chen/ti8_chen_the_rat_king_shoulder/ti8_chen_the_rat_king_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti8_chen_the_rat_king_shoulder/ti8_chen_the_rat_king_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_chen_the_rat_king_shoulder-da3cf495bed9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8fb069094e0c/models/items/chen/ti8_chen_the_rat_king_shoulder/ti8_chen_the_rat_king_shoulder_color_png_d82afbd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti8_chen_the_rat_king_shoulder/ti8_chen_the_rat_king_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti8_chen_the_rat_king_shoulder/ti8_chen_the_rat_king_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:14137:humble-knight-shoulder",
+      "itemId": 14137,
+      "name": "Vote Only Humble Knight Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ae1cbe822a0c/models/items/chen/humble_knight_shoulder/humble_knight_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/ae1cbe822a0c/models/items/chen/humble_knight_shoulder/humble_knight_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/humble_knight_shoulder/humble_knight_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/humble_knight_shoulder-49765869a7af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/ae1cbe822a0c/models/items/chen/humble_knight_shoulder/humble_knight_shoulder_color_tga_4f90db9f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/humble_knight_shoulder/humble_knight_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/humble_knight_shoulder/humble_knight_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:18779:pilgrim-of-the-snowy-shrine-shoulder",
+      "itemId": 18779,
+      "name": "Vote Only Pilgrim of the Snowy Shrine Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/bfcf8f424fe5/models/items/chen/pilgrim_of_the_snowy_shrine_shoulder/pilgrim_of_the_snowy_shrine_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/bfcf8f424fe5/models/items/chen/pilgrim_of_the_snowy_shrine_shoulder/pilgrim_of_the_snowy_shrine_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/pilgrim_of_the_snowy_shrine_shoulder/pilgrim_of_the_snowy_shrine_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pilgrim_of_the_snowy_shrine_shoulder-fdb477285b6b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/bfcf8f424fe5/models/items/chen/pilgrim_of_the_snowy_shrine_shoulder/pilgrim_of_the_snowy_shrine_shoulder_color_tga_4e0cc732.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/pilgrim_of_the_snowy_shrine_shoulder/pilgrim_of_the_snowy_shrine_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/chen/pilgrim_of_the_snowy_shrine_shoulder/pilgrim_of_the_snowy_shrine_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5732:shoulder-navi",
+      "itemId": 5732,
+      "name": "Wings of Obelis Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2b70c59e709f/models/items/chen/shoulder_navi/shoulder_navi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/2b70c59e709f/models/items/chen/shoulder_navi/shoulder_navi.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/shoulder_navi/shoulder_navi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_navi-682bdeaba8ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2b70c59e709f/models/items/chen/shoulder_navi/shoulder_navi_color_tga_dd3ae7d7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/shoulder_navi/shoulder_navi.vmdl",
+        "modelPaths": [
+          "models/items/chen/shoulder_navi/shoulder_navi.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:220:weapon",
+      "itemId": 220,
+      "name": "Chens Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5561ba6e71b6/models/heroes/chen/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/5561ba6e71b6/models/heroes/chen/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/chen/weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon-abdb2d989b0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5561ba6e71b6/models/heroes/chen/chen_weapon_color_psd_fd0e2094.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/chen/weapon.vmdl",
+        "modelPaths": [
+          "models/heroes/chen/weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:4777:weapon-nomad",
+      "itemId": 4777,
+      "name": "Commanding Rod of the Penitent Nomad",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/49062e501995/models/items/chen/weapon_nomad/weapon_nomad.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/49062e501995/models/items/chen/weapon_nomad/weapon_nomad.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/weapon_nomad/weapon_nomad.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_nomad-83d9dc2df208.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/49062e501995/models/items/chen/weapon_nomad/weapon_nomad_color_tga_5d76e2b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/weapon_nomad/weapon_nomad.vmdl",
+        "modelPaths": [
+          "models/items/chen/weapon_nomad/weapon_nomad.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5999:desert-gale-staff",
+      "itemId": 5999,
+      "name": "Desert Gale Fouchard",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2bd98af21531/models/items/chen/desert_gale_staff/desert_gale_staff.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/2bd98af21531/models/items/chen/desert_gale_staff/desert_gale_staff.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_gale_staff/desert_gale_staff.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_gale_staff-39ab9124f7a0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/2bd98af21531/models/items/chen/desert_gale_staff/desert_gale_staff_color_tga_77417074.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_gale_staff/desert_gale_staff.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_gale_staff/desert_gale_staff.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9152:chen-eye-of-power-weapon",
+      "itemId": 9152,
+      "name": "Eye of the Progenitors Gaze",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/4ad267a76d94/models/items/chen/chen_eye_of_power_weapon/chen_eye_of_power_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/4ad267a76d94/models/items/chen/chen_eye_of_power_weapon/chen_eye_of_power_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_eye_of_power_weapon/chen_eye_of_power_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_eye_of_power_weapon-a3ab0288777c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/4ad267a76d94/models/items/chen/chen_eye_of_power_weapon/chen_eye_of_power_weapon_color_tga_61251f5f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_eye_of_power_weapon/chen_eye_of_power_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_eye_of_power_weapon/chen_eye_of_power_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:26838:chen-infernal-psychic-weapon",
+      "itemId": 26838,
+      "name": "Hounds of Obsession  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7fb53fcdf313/models/items/chen/chen_infernal_psychic_weapon/chen_infernal_psychic_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/7fb53fcdf313/models/items/chen/chen_infernal_psychic_weapon/chen_infernal_psychic_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_infernal_psychic_weapon/chen_infernal_psychic_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_infernal_psychic_weapon-aa75bf1c1198.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7fb53fcdf313/models/items/chen/chen_infernal_psychic_weapon/chen_infernal_psychic_weapon_color_tga_307b270a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_infernal_psychic_weapon/chen_infernal_psychic_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_infernal_psychic_weapon/chen_infernal_psychic_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/chen_2022_winter_cc_01_weapon/chen_winter_cc_01_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:19347:chen-sobek-weapon",
+      "itemId": 19347,
+      "name": "Perils of the Red Banks  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/d92b7b8ce43c/models/items/chen/chen_sobek_weapon/chen_sobek_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/d92b7b8ce43c/models/items/chen/chen_sobek_weapon/chen_sobek_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/chen_sobek_weapon/chen_sobek_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/chen_sobek_weapon-6b2b95f5e1f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/d92b7b8ce43c/models/items/chen/chen_sobek_weapon/chen_sobek_weapon_color_tga_3de8a4ea.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/chen_sobek_weapon/chen_sobek_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/chen_sobek_weapon/chen_sobek_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5037:weapon-desert",
+      "itemId": 5037,
+      "name": "Ruling Staff of the Priest Kings",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7f1d9525ccbc/models/items/chen/weapon_desert/weapon_desert.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/7f1d9525ccbc/models/items/chen/weapon_desert/weapon_desert.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/weapon_desert/weapon_desert.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_desert-40ab53743444.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/7f1d9525ccbc/models/items/chen/weapon_desert/weapon_desert_color_tga_dd014981.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/weapon_desert/weapon_desert.vmdl",
+        "modelPaths": [
+          "models/items/chen/weapon_desert/weapon_desert.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9951:ti8-chen-the-rat-king-weapon",
+      "itemId": 9951,
+      "name": "Scepter of the Rat King",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/dba1d67bf243/models/items/chen/ti8_chen_the_rat_king_weapon/ti8_chen_the_rat_king_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/dba1d67bf243/models/items/chen/ti8_chen_the_rat_king_weapon/ti8_chen_the_rat_king_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti8_chen_the_rat_king_weapon/ti8_chen_the_rat_king_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_chen_the_rat_king_weapon-dca3aacbc46d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/dba1d67bf243/models/items/chen/ti8_chen_the_rat_king_weapon/ti8_chen_the_rat_king_weapon_color_png_5c208e70.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti8_chen_the_rat_king_weapon/ti8_chen_the_rat_king_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti8_chen_the_rat_king_weapon/ti8_chen_the_rat_king_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:33458:law-of-nature-weapon",
+      "itemId": 33458,
+      "name": "Seed of Strife  The Seed",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/27e93aa5c89d/models/items/chen/law_of_nature_weapon/law_of_nature_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/27e93aa5c89d/models/items/chen/law_of_nature_weapon/law_of_nature_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/law_of_nature_weapon/law_of_nature_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/law_of_nature_weapon-7fbb407be56e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/27e93aa5c89d/models/items/chen/law_of_nature_weapon/law_of_nature_weapon_color_tga_c2c36ae9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/law_of_nature_weapon/law_of_nature_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/law_of_nature_weapon/law_of_nature_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/chen/law_nature/law_nature_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/chen_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:6588:squareskystaff-weapon",
+      "itemId": 6588,
+      "name": "Square Sky Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f87c6a85cf95/models/items/chen/squareskystaff_weapon/squareskystaff_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/f87c6a85cf95/models/items/chen/squareskystaff_weapon/squareskystaff_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/squareskystaff_weapon/squareskystaff_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/squareskystaff_weapon-89b59297e101.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f87c6a85cf95/models/items/chen/squareskystaff_weapon/squareskystaff_weapon_color_tga_2938eb19.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/squareskystaff_weapon/squareskystaff_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/squareskystaff_weapon/squareskystaff_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:13248:ti9-cache-chen-emperor-of-the-sun-weapon",
+      "itemId": 13248,
+      "name": "Staff of the Proudsilver Clan",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/3bc40523fdab/models/items/chen/ti9_cache_chen_emperor_of_the_sun_weapon/ti9_cache_chen_emperor_of_the_sun_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/3bc40523fdab/models/items/chen/ti9_cache_chen_emperor_of_the_sun_weapon/ti9_cache_chen_emperor_of_the_sun_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/ti9_cache_chen_emperor_of_the_sun_weapon/ti9_cache_chen_emperor_of_the_sun_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_chen_emperor_of_the_sun_weapon-8220abdbe122.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/3bc40523fdab/models/items/chen/ti9_cache_chen_emperor_of_the_sun_weapon/ti9_cache_chen_emperor_of_the_sun_weapon_color_tga_ed3655c3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/ti9_cache_chen_emperor_of_the_sun_weapon/ti9_cache_chen_emperor_of_the_sun_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/ti9_cache_chen_emperor_of_the_sun_weapon/ti9_cache_chen_emperor_of_the_sun_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:14133:humble-knight-weapon",
+      "itemId": 14133,
+      "name": "Vote Only Humble Knight Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5198aef7c879/models/items/chen/humble_knight_weapon/humble_knight_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/5198aef7c879/models/items/chen/humble_knight_weapon/humble_knight_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/humble_knight_weapon/humble_knight_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/humble_knight_weapon-dc2c2bb8c296.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5198aef7c879/models/items/chen/humble_knight_weapon/humble_knight_weapon_color_tga_946d7c6a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/humble_knight_weapon/humble_knight_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/humble_knight_weapon/humble_knight_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:18778:pilgrim-of-the-snowy-shrine-weapon",
+      "itemId": 18778,
+      "name": "Vote Only Pilgrim of the Snowy Shrine Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5c90609fee54/models/items/chen/pilgrim_of_the_snowy_shrine_weapon/pilgrim_of_the_snowy_shrine_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/5c90609fee54/models/items/chen/pilgrim_of_the_snowy_shrine_weapon/pilgrim_of_the_snowy_shrine_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/pilgrim_of_the_snowy_shrine_weapon/pilgrim_of_the_snowy_shrine_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pilgrim_of_the_snowy_shrine_weapon-68fd632cd00a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/5c90609fee54/models/items/chen/pilgrim_of_the_snowy_shrine_weapon/pilgrim_of_the_snowy_shrine_weapon_color_tga_37298b7a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/pilgrim_of_the_snowy_shrine_weapon/pilgrim_of_the_snowy_shrine_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/pilgrim_of_the_snowy_shrine_weapon/pilgrim_of_the_snowy_shrine_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:9469:desert-wanderer-weapon",
+      "itemId": 9469,
+      "name": "Weapon of the Barren Survivor",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f0fcd9ecb0ed/models/items/chen/desert_wanderer_weapon/desert_wanderer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/f0fcd9ecb0ed/models/items/chen/desert_wanderer_weapon/desert_wanderer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/desert_wanderer_weapon/desert_wanderer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/desert_wanderer_weapon-d0996a9427e2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/f0fcd9ecb0ed/models/items/chen/desert_wanderer_weapon/desert_wanderer_weapon_color_png_4b32cbb9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/desert_wanderer_weapon/desert_wanderer_weapon.vmdl",
+        "modelPaths": [
+          "models/items/chen/desert_wanderer_weapon/desert_wanderer_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_chen:item-model:5733:weapon-navi",
+      "itemId": 5733,
+      "name": "Wings of Obelis Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8c81d5780778/models/items/chen/weapon_navi/weapon_navi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_chen/8c81d5780778/models/items/chen/weapon_navi/weapon_navi.glb"
+      ],
+      "modelPaths": [
+        "models/items/chen/weapon_navi/weapon_navi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_navi-e8380fd6bd5e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_chen/8c81d5780778/models/items/chen/weapon_navi/weapon_navi_color_tga_1b95013e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/chen/weapon_navi/weapon_navi.vmdl",
+        "modelPaths": [
+          "models/items/chen/weapon_navi/weapon_navi.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_chen/portrait_chen.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_chen:core-set:20110:arms-of-the-penitent-nomad-set",
+      "name": "Arms of the Penitent Nomad Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        4772,
+        4773,
+        4774,
+        4777,
+        9160
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/arms_nomad-3ea239a4ec18.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:21117:barren-survivor",
+      "name": "Barren Survivor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        9465,
+        9466,
+        9467,
+        9469,
+        9470
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/desert_wanderer_desert_wanderer_loading_screen-0eaae866f11b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:20363:desert-gale-set",
+      "name": "Desert Gale Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        567
+      ],
+      "sourceItemIds": [
+        5991,
+        5993,
+        5995,
+        5998,
+        5999,
+        9161
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/desert_gale_arms-ba5400026e19.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:20185:gemmed-armor-of-the-priest-kings-set",
+      "name": "Gemmed Armor of the Priest Kings Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        567
+      ],
+      "sourceItemIds": [
+        5032,
+        5034,
+        5035,
+        5036,
+        5037,
+        9158
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/shoulder_desert-8b01ac144c9e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:26815:hounds-of-obsession",
+      "name": "Hounds of Obsession",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        26834,
+        26835,
+        26836,
+        26837,
+        26838
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/chen_infernal_psychic_arms-f796b1c049f2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:21875:perils-of-the-red-banks",
+      "name": "Perils of the Red Banks",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        19347,
+        19348,
+        19349,
+        19350,
+        19351
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/chen_sobek_weapon-6b2b95f5e1f4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:21372:priest-of-the-proudsilver-clan",
+      "name": "Priest of the Proudsilver Clan",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        13248,
+        13249,
+        13250,
+        13251,
+        13252
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_chen_emperor_of_the_sun_weapon-8220abdbe122.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:20965:prospect-of-the-progenitors-gaze",
+      "name": "Prospect of the Progenitors Gaze",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        567
+      ],
+      "sourceItemIds": [
+        9151,
+        9152,
+        9153,
+        9154,
+        9155,
+        9156
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/chen_eye_of_power_chen_eye_of_power_anubis_loadingscreen-e93c3d3c968c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:33459:seed-of-strife",
+      "name": "Seed of Strife",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        33454,
+        33455,
+        33456,
+        33457,
+        33458
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/law_of_nature_arms-b1b4e4462df3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:21209:the-rat-king",
+      "name": "The Rat King",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        9950,
+        9951,
+        9952,
+        9953,
+        9954
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/ti8_chen_the_rat_king_head-e1d4704e3eef.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:21502:vote-only-humble-knight",
+      "name": "Vote Only Humble Knight",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        14133,
+        14134,
+        14135,
+        14136,
+        14137
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:21762:vote-only-pilgrim-of-the-snowy-shrine",
+      "name": "Vote Only Pilgrim of the Snowy Shrine",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        18778,
+        18779,
+        18780,
+        18781,
+        18782
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_chen:core-set:20305:wings-of-obelis-set",
+      "name": "Wings of Obelis Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "sourceItemIds": [
+        5663,
+        5664,
+        5732,
+        5733,
+        9159
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/arms_navi-7a348de8de95.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 11575466,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 91
+  }
+}

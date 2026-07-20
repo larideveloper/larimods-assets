@@ -1,0 +1,401 @@
+{
+  "heroId": "npc_dota_hero_wisp",
+  "sourceHeroId": "npc_dota_hero_wisp",
+  "variantId": "default",
+  "heroName": "Wisp",
+  "heroSlug": "wisp",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/wisp.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_wisp/25d2cbbb64f6/models/heroes/wisp/wisp.glb"
+  ],
+  "defaultSlots": [],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_wisp:item-model:23768:io-calavera",
+      "itemId": 23768,
+      "name": "Altar Ball",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_wisp/6838ca5ce6f1/models/items/io/io_calavera/io_calavera.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_wisp/6838ca5ce6f1/models/items/io/io_calavera/io_calavera.glb"
+      ],
+      "modelPaths": [
+        "models/items/io/io_calavera/io_calavera.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/io_calavera-dd551fb80a15.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_wisp/6838ca5ce6f1/models/items/io/io_calavera/io_calavera_jade_color_psd_8a1e4165.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/io/io_calavera/io_calavera.vmdl",
+        "modelPaths": [
+          "models/items/io/io_calavera/io_calavera.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_death.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_guardian.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_guardian_explosion.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_relocate_channel.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_relocate_marker.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_relocate_teleport.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_relocate_teleport_out.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/calavera/io_calavera_tether.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_death.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_guardian.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_guardian_explosion.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_channel.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_marker.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_teleport.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_teleport_out.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_tether.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_wisp:item-model:9235:io-ti7",
+      "itemId": 9235,
+      "name": "Benevolent Companion",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:arcana",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_wisp/bf1cf6dd41ef/models/items/io/io_ti7/io_ti7.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_wisp/bf1cf6dd41ef/models/items/io/io_ti7/io_ti7.glb"
+      ],
+      "modelPaths": [
+        "models/items/io/io_ti7/io_ti7.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/io_ti7-58fd67137628.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_wisp/bf1cf6dd41ef/models/items/io/io_ti7/io_ti7_color_png_78b4ee7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/io/io_ti7/io_ti7.vmdl",
+        "modelPaths": [
+          "models/items/io/io_ti7/io_ti7.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana",
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/wisp/wisp_ambient_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_death_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_guardian_explosion_small_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_guardian_explosion_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_guardian_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_overcharge_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_relocate_channel_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_relocate_marker_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_relocate_marker_ti7_endpoint.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_relocate_teleport_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_relocate_teleport_ti7_out.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_relocate_timer_buff_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/wisp_tether_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_death.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_guardian.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_guardian_explosion.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_guardian_explosion_small.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_overcharge.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_channel.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_marker.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_marker_endpoint.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_teleport.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_teleport_out.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_relocate_timer_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_tether.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_wisp:item-model:34398:dark-carnival-io",
+      "itemId": 34398,
+      "name": "Madame Scrio",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_wisp/fe323a896314/models/items/io/dark_carnival_io/dark_carnival_io.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_wisp/fe323a896314/models/items/io/dark_carnival_io/dark_carnival_io.glb"
+      ],
+      "modelPaths": [
+        "models/items/io/dark_carnival_io/dark_carnival_io.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dark_carnival_io-fd1c18c7bf12.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_wisp/fe323a896314/models/items/io/dark_carnival_io/dark_carnival_io_color_psd_2c8c7889.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/io/dark_carnival_io/dark_carnival_io.vmdl",
+        "modelPaths": [
+          "models/items/io/dark_carnival_io/dark_carnival_io.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/wisp/io_carnival/io_carnival_guardian.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/wisp/io_carnival/io_carnival_guardian_explosion.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_ambient_entity_tentacles.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_guardian.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_guardian_explosion.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_wisp/wisp_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [],
+  "stats": {
+    "modelBytes": 15527408,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 24
+  }
+}

@@ -1,0 +1,4265 @@
+{
+  "heroId": "npc_dota_hero_tusk",
+  "sourceHeroId": "npc_dota_hero_tusk",
+  "variantId": "default",
+  "heroName": "Tusk",
+  "heroSlug": "tusk",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tusk.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_tusk/854c6487bd4c/models/heroes/tuskarr/tuskarr.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "itemId": 413,
+      "name": "Tusks Armored Glove",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3c3d1670dd62/models/heroes/tuskarr/tusk_armor_glove.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3c3d1670dd62/models/heroes/tuskarr/tusk_armor_glove.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_armor_glove.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3c3d1670dd62/models/heroes/tuskarr/tusk_armor_glove_color_psd_1fe32aae.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 418,
+      "name": "Tusks Fish Basket",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/57df36ddbbe9/models/heroes/tuskarr/tusk_fish_basket.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/57df36ddbbe9/models/heroes/tuskarr/tusk_fish_basket.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_fish_basket.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/57df36ddbbe9/models/heroes/tuskarr/tusk_basket_color_psd_8ea019b0.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 415,
+      "name": "Tusks Hat",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a9ec3d4d8dbf/models/heroes/tuskarr/tusk_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/a9ec3d4d8dbf/models/heroes/tuskarr/tusk_hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_hat.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a9ec3d4d8dbf/models/heroes/tuskarr/tusk_hat_color_psd_c5064d12.png"
+    },
+    {
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "itemId": 416,
+      "name": "Tusks Tusks",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ba12ddd04e0e/models/heroes/tuskarr/tusk_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/ba12ddd04e0e/models/heroes/tuskarr/tusk_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_horns.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ba12ddd04e0e/models/heroes/tuskarr/tusk_horns_color_psd_555eacc4.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 414,
+      "name": "Tusks Cowl",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e5aa58688cba/models/heroes/tuskarr/tusk_cowl.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/e5aa58688cba/models/heroes/tuskarr/tusk_cowl.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_cowl.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e5aa58688cba/models/heroes/tuskarr/tusk_cowl_color_psd_fc2453b9.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 417,
+      "name": "Tusks Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5d63d92b68af/models/heroes/tuskarr/tusk_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/5d63d92b68af/models/heroes/tuskarr/tusk_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5d63d92b68af/models/heroes/tuskarr/tusk_weapon_color_psd_a08273e3.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_tusk:item-model:4499:onizaphk-ahunter-armsv2",
+      "itemId": 4499,
+      "name": "Arctic Hunters Glove",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/bfa4c5d93284/models/items/tuskarr/onizaphk_ahunter_armsv2/onizaphk_ahunter_armsv2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/bfa4c5d93284/models/items/tuskarr/onizaphk_ahunter_armsv2/onizaphk_ahunter_armsv2.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/onizaphk_ahunter_armsv2/onizaphk_ahunter_armsv2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/onizaphk_ahunter_armsv2-a4113100cd6d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/bfa4c5d93284/models/items/tuskarr/onizaphk_ahunter_armsv2/onizaphk_ahunter_armsv2_color_tga_926095ab.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/onizaphk_ahunter_armsv2/onizaphk_ahunter_armsv2.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/onizaphk_ahunter_armsv2/onizaphk_ahunter_armsv2.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9609:terror-from-the-barrier-arms",
+      "itemId": 9609,
+      "name": "Armor of the Weathered Storm",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fd0f2e2c76e8/models/items/tuskarr/terror_from_the_barrier_arms/terror_from_the_barrier_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/fd0f2e2c76e8/models/items/tuskarr/terror_from_the_barrier_arms/terror_from_the_barrier_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/terror_from_the_barrier_arms/terror_from_the_barrier_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/terror_from_the_barrier_arms-c11c79a36789.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fd0f2e2c76e8/models/items/tuskarr/terror_from_the_barrier_arms/terror_from_the_barrier_arms_color_psd_57cd83e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/terror_from_the_barrier_arms/terror_from_the_barrier_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/terror_from_the_barrier_arms/terror_from_the_barrier_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5937:bobusangs-owl",
+      "itemId": 5937,
+      "name": "Bobusangs Fist of the Predator Owl",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/689e10cab4a8/models/items/tuskarr/bobusangs_owl/bobusangs_owl.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/689e10cab4a8/models/items/tuskarr/bobusangs_owl/bobusangs_owl.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/bobusangs_owl/bobusangs_owl.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bobusangs_owl-bc798bb1e108.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/689e10cab4a8/models/items/tuskarr/bobusangs_owl/bobusangs_owl_color_tga_6cd167c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/bobusangs_owl/bobusangs_owl.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/bobusangs_owl/bobusangs_owl.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9825:barrierrogue-tusk-arns",
+      "itemId": 9825,
+      "name": "Cannon Punch of the Barrier Rogue",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ea5020d4260c/models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/ea5020d4260c/models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrierrogue_tusk_arns-6dde42a83d58.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ea5020d4260c/models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns_color_tga_84e3ea6d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient_fx.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Cannon Punch Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns",
+            "assets": [
+              {
+                "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Cannon Punch Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient_fx.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9825:barrierrogue-tusk-arns:style-1",
+      "itemId": 9825,
+      "name": "Cannon Punch of the Barrier Rogue - Cannon Punch Particle",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ea5020d4260c/models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/ea5020d4260c/models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrierrogue_tusk_arns_particle-9686f2e6ea44.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ea5020d4260c/models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns_color_tga_84e3ea6d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient_fx.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Cannon Punch Default",
+            "alternateIcon": "0",
+            "icon": "econ/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns",
+            "assets": [
+              {
+                "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Cannon Punch Particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/tuskarr/barrierrogue_tusk_arns/barrierrogue_tusk_arns_particle",
+            "assets": [
+              {
+                "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/tuskarr/barrier_rogue/barrier_rogue_ambient_fx.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9703:harmful-iron-fist-arms",
+      "itemId": 9703,
+      "name": "Clawhammer of the Guarded Word",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/935f0a38b058/models/items/tuskarr/harmful_iron_fist_arms/harmful_iron_fist_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/935f0a38b058/models/items/tuskarr/harmful_iron_fist_arms/harmful_iron_fist_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/harmful_iron_fist_arms/harmful_iron_fist_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harmful_iron_fist_arms-cd3dfd24cd2a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/935f0a38b058/models/items/tuskarr/harmful_iron_fist_arms/harmful_iron_fist_arms_color_tga_bca45284.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/harmful_iron_fist_arms/harmful_iron_fist_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/harmful_iron_fist_arms/harmful_iron_fist_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19258:glacial-squad-commander-set-arms",
+      "itemId": 19258,
+      "name": "Conscript of the Frost Brigade  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3f7fdc8f0371/models/items/tuskarr/glacial_squad_commander_set_arms/glacial_squad_commander_set_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3f7fdc8f0371/models/items/tuskarr/glacial_squad_commander_set_arms/glacial_squad_commander_set_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glacial_squad_commander_set_arms/glacial_squad_commander_set_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glacial_squad_commander_set_arms-349001d4b72a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3f7fdc8f0371/models/items/tuskarr/glacial_squad_commander_set_arms/glacial_squad_commander_set_arms_color_tga_e101eab3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glacial_squad_commander_set_arms/glacial_squad_commander_set_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glacial_squad_commander_set_arms/glacial_squad_commander_set_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18884:king-of-the-frozen-sea-arms",
+      "itemId": 18884,
+      "name": "Eternal Icebreaker  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2e26b5a293e5/models/items/tuskarr/king_of_the_frozen_sea_arms/king_of_the_frozen_sea_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/2e26b5a293e5/models/items/tuskarr/king_of_the_frozen_sea_arms/king_of_the_frozen_sea_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/king_of_the_frozen_sea_arms/king_of_the_frozen_sea_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_the_frozen_sea_arms-3b9da72166ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2e26b5a293e5/models/items/tuskarr/king_of_the_frozen_sea_arms/king_of_the_frozen_sea_arms_color_psd_373d1a82.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/king_of_the_frozen_sea_arms/king_of_the_frozen_sea_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/king_of_the_frozen_sea_arms/king_of_the_frozen_sea_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13092:ti-9-cache-tusk-jungle-explorer-arms",
+      "itemId": 13092,
+      "name": "Fist of Distinguished Expeditionary",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/41265cbf27af/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_arms/ti_9_cache_tusk_jungle_explorer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/41265cbf27af/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_arms/ti_9_cache_tusk_jungle_explorer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_arms/ti_9_cache_tusk_jungle_explorer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tusk_jungle_explorer_arms-59151b04bc24.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/41265cbf27af/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_arms/ti_9_cache_tusk_jungle_explorer_arms_color_png_daa1fdc9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_arms/ti_9_cache_tusk_jungle_explorer_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_arms/ti_9_cache_tusk_jungle_explorer_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/ti9_tusk_jungle_arms/ti9_tusk_jungle_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18288:icelord-arms",
+      "itemId": 18288,
+      "name": "Frost Brigadier Puncher",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/f237ef958c18/models/items/tuskarr/icelord_arms/icelord_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/f237ef958c18/models/items/tuskarr/icelord_arms/icelord_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/icelord_arms/icelord_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icelord_arms-901e307db44f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/f237ef958c18/models/items/tuskarr/icelord_arms/icelord_arms_color_tga_7d0415f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/icelord_arms/icelord_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/icelord_arms/icelord_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5011:frostiron-raider-fist",
+      "itemId": 5011,
+      "name": "Frostiron Raider Fist",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7a05ba20d013/models/items/tuskarr/frostiron_raider_fist/frostiron_raider_fist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/7a05ba20d013/models/items/tuskarr/frostiron_raider_fist/frostiron_raider_fist.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/frostiron_raider_fist/frostiron_raider_fist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostiron_raider_fist-a59c6a7cc7da.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7a05ba20d013/models/items/tuskarr/frostiron_raider_fist/frostiron_raider_fist_color_tga_57ce15d1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/frostiron_raider_fist/frostiron_raider_fist.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/frostiron_raider_fist/frostiron_raider_fist.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5425:frozen-stein-of-the-bar-brawler",
+      "itemId": 5425,
+      "name": "Frozen Stein of the Bar Brawler",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/0aac5ed34b55/models/items/tuskarr/frozen_stein_of_the_bar_brawler/frozen_stein_of_the_bar_brawler.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/0aac5ed34b55/models/items/tuskarr/frozen_stein_of_the_bar_brawler/frozen_stein_of_the_bar_brawler.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/frozen_stein_of_the_bar_brawler/frozen_stein_of_the_bar_brawler.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozen_stein_of_the_bar_brawler-814e8b96b620.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/0aac5ed34b55/models/items/tuskarr/frozen_stein_of_the_bar_brawler/frozen_stein_of_the_bar_brawler_color_tga_1e1e9937.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/frozen_stein_of_the_bar_brawler/frozen_stein_of_the_bar_brawler.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/frozen_stein_of_the_bar_brawler/frozen_stein_of_the_bar_brawler.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13668:tusk-ti9-immortal-fist",
+      "itemId": 13668,
+      "name": "Golden Piscean Pulverizer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7ade922583d5/models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/7ade922583d5/models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_ti9_immortal_fist1-8710e3f9c867.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7ade922583d5/models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist_color_psd_5386bc42.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_golden_walruspunch_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_golden_walruspunch_txt_ult.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_immortal_golden_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_walruspunch_tgt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_walruspunch_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_walruspunch_tgt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_walruspunch_txt_ult.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9010:glaciomarine-arm",
+      "itemId": 9010,
+      "name": "Hook of the Glacier Sea",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/18497dd902d0/models/items/tuskarr/glaciomarine_arm/glaciomarine_arm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/18497dd902d0/models/items/tuskarr/glaciomarine_arm/glaciomarine_arm.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glaciomarine_arm/glaciomarine_arm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glaciomarine_arm-55330d37dfef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/18497dd902d0/models/items/tuskarr/glaciomarine_arm/glaciomarine_arm_color_tga_c3ff540c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glaciomarine_arm/glaciomarine_arm.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glaciomarine_arm/glaciomarine_arm.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:6806:icewracksfist-arms",
+      "itemId": 6806,
+      "name": "Icewracks Fist",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/67aa73429e7e/models/items/tuskarr/icewracksfist_arms/icewracksfist_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/67aa73429e7e/models/items/tuskarr/icewracksfist_arms/icewracksfist_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/icewracksfist_arms/icewracksfist_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icewracksfist_arms-63b1014d75f7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/67aa73429e7e/models/items/tuskarr/icewracksfist_arms/icewracksfist_arms_color_tga_605d5ff7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/icewracksfist_arms/icewracksfist_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/icewracksfist_arms/icewracksfist_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:30357:tusk-2023-winter-glove",
+      "itemId": 30357,
+      "name": "Jingle Fist",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e022ddac5d26/models/items/tuskarr/tusk_2023_winter_glove/tusk_2023_winter_glove.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/e022ddac5d26/models/items/tuskarr/tusk_2023_winter_glove/tusk_2023_winter_glove.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/tusk_2023_winter_glove/tusk_2023_winter_glove.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_2023_winter_glove-e6fb0a1b4fc9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e022ddac5d26/models/items/tuskarr/tusk_2023_winter_glove/tusk_2023_winter_glove_color_psd_a75f936b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/tusk_2023_winter_glove/tusk_2023_winter_glove.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/tusk_2023_winter_glove/tusk_2023_winter_glove.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_frostivus_2023/tusk_frostivus_2023_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_frostivuspunch_txt_ult.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_walruspunch_txt_ult.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13537:tusk-ti9-immortal-fist",
+      "itemId": 13537,
+      "name": "Piscean Pulverizer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fb1f3f2ea63f/models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/fb1f3f2ea63f/models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_ti9_immortal_fist-fe134780f846.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fb1f3f2ea63f/models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist_color_psd_5386bc42.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/tusk_ti9_immortal_fist/tusk_ti9_immortal_fist.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_walruspunch_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_walruspunch_tgt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti9_immortal/tusk_ti9_walruspunch_txt_ult.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_walruspunch_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_walruspunch_tgt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_walruspunch_txt_ult.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5713:snowball-stinger",
+      "itemId": 5713,
+      "name": "Snowball Stinger",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/997031b1e7ad/models/items/tuskarr/snowball_stinger/snowball_stinger.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/997031b1e7ad/models/items/tuskarr/snowball_stinger/snowball_stinger.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/snowball_stinger/snowball_stinger.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/snowball_stinger-870fa08f3b99.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/997031b1e7ad/models/items/tuskarr/snowball_stinger/snowball_stinger_color_tga_3b5fa02a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/snowball_stinger/snowball_stinger.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/snowball_stinger/snowball_stinger.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:413:tusk-armor-glove",
+      "itemId": 413,
+      "name": "Tusks Armored Glove",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3c3d1670dd62/models/heroes/tuskarr/tusk_armor_glove.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3c3d1670dd62/models/heroes/tuskarr/tusk_armor_glove.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_armor_glove.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_armor_glove-1bd74e73cfad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3c3d1670dd62/models/heroes/tuskarr/tusk_armor_glove_color_psd_1fe32aae.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tuskarr/tusk_armor_glove.vmdl",
+        "modelPaths": [
+          "models/heroes/tuskarr/tusk_armor_glove.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19840:lobodon-tusk-arms",
+      "itemId": 19840,
+      "name": "Vote Only Lobodon Tusk Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Tusk Fist",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3b05bda59054/models/items/tuskarr/lobodon_tusk_arms/lobodon_tusk_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3b05bda59054/models/items/tuskarr/lobodon_tusk_arms/lobodon_tusk_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/lobodon_tusk_arms/lobodon_tusk_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lobodon_tusk_arms-5955c49e1dba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3b05bda59054/models/items/tuskarr/lobodon_tusk_arms/lobodon_tusk_arms_color_tga_431a867f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/lobodon_tusk_arms/lobodon_tusk_arms.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/lobodon_tusk_arms/lobodon_tusk_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:4498:onizaphk-ahunter-back",
+      "itemId": 4498,
+      "name": "Arctic Hunters Snack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/13d1480f3b6a/models/items/tuskarr/onizaphk_ahunter_back/onizaphk_ahunter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/13d1480f3b6a/models/items/tuskarr/onizaphk_ahunter_back/onizaphk_ahunter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/onizaphk_ahunter_back/onizaphk_ahunter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/onizaphk_ahunter_back-c04a66414721.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/13d1480f3b6a/models/items/tuskarr/onizaphk_ahunter_back/onizaphk_ahunter_back_color_tga_26428292.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/onizaphk_ahunter_back/onizaphk_ahunter_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/onizaphk_ahunter_back/onizaphk_ahunter_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13091:ti-9-cache-tusk-jungle-explorer-back",
+      "itemId": 13091,
+      "name": "Back of Distinguished Expeditionary",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/dda5da62ac8f/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_back/ti_9_cache_tusk_jungle_explorer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/dda5da62ac8f/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_back/ti_9_cache_tusk_jungle_explorer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_back/ti_9_cache_tusk_jungle_explorer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tusk_jungle_explorer_back-1f4ae7c16104.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/dda5da62ac8f/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_back/ti_9_cache_tusk_jungle_explorer_back_color_png_b7976c58.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_back/ti_9_cache_tusk_jungle_explorer_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_back/ti_9_cache_tusk_jungle_explorer_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/ti9_tusk_jungle_back/ti9_tusk_jungle_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5699:barrel-of-whale-ale",
+      "itemId": 5699,
+      "name": "Barrel of Whale Ale",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/0988e634435e/models/items/tuskarr/barrel_of_whale_ale/barrel_of_whale_ale.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/0988e634435e/models/items/tuskarr/barrel_of_whale_ale/barrel_of_whale_ale.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrel_of_whale_ale/barrel_of_whale_ale.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrel_of_whale_ale-a6f68b85b932.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/0988e634435e/models/items/tuskarr/barrel_of_whale_ale/barrel_of_whale_ale_color_tga_eb18245c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrel_of_whale_ale/barrel_of_whale_ale.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrel_of_whale_ale/barrel_of_whale_ale.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5935:bobusangs-botjim",
+      "itemId": 5935,
+      "name": "Bobusangs Merchandise",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/8a4fc1d83400/models/items/tuskarr/bobusangs_botjim/bobusangs_botjim.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/8a4fc1d83400/models/items/tuskarr/bobusangs_botjim/bobusangs_botjim.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/bobusangs_botjim/bobusangs_botjim.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bobusangs_botjim-9965864fa993.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/8a4fc1d83400/models/items/tuskarr/bobusangs_botjim/bobusangs_botjim_color_tga_1d55a50a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/bobusangs_botjim/bobusangs_botjim.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/bobusangs_botjim/bobusangs_botjim.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9612:terror-from-the-barrier-back",
+      "itemId": 9612,
+      "name": "Cape of the Weathered Storm",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3ef0acf81328/models/items/tuskarr/terror_from_the_barrier_back/terror_from_the_barrier_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3ef0acf81328/models/items/tuskarr/terror_from_the_barrier_back/terror_from_the_barrier_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/terror_from_the_barrier_back/terror_from_the_barrier_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/terror_from_the_barrier_back-b5ec29c9b3dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3ef0acf81328/models/items/tuskarr/terror_from_the_barrier_back/terror_from_the_barrier_back_color_psd_61c7e06d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/terror_from_the_barrier_back/terror_from_the_barrier_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/terror_from_the_barrier_back/terror_from_the_barrier_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19255:glacial-squad-commander-set-back",
+      "itemId": 19255,
+      "name": "Conscript of the Frost Brigade  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/86dde691ebfc/models/items/tuskarr/glacial_squad_commander_set_back/glacial_squad_commander_set_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/86dde691ebfc/models/items/tuskarr/glacial_squad_commander_set_back/glacial_squad_commander_set_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glacial_squad_commander_set_back/glacial_squad_commander_set_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glacial_squad_commander_set_back-47d7a49caac2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/86dde691ebfc/models/items/tuskarr/glacial_squad_commander_set_back/glacial_squad_commander_set_back_color_tga_ab1097f9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glacial_squad_commander_set_back/glacial_squad_commander_set_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glacial_squad_commander_set_back/glacial_squad_commander_set_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18885:king-of-the-frozen-sea-back",
+      "itemId": 18885,
+      "name": "Eternal Icebreaker  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7f8b7d770584/models/items/tuskarr/king_of_the_frozen_sea_back/king_of_the_frozen_sea_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/7f8b7d770584/models/items/tuskarr/king_of_the_frozen_sea_back/king_of_the_frozen_sea_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/king_of_the_frozen_sea_back/king_of_the_frozen_sea_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_the_frozen_sea_back-0cef5c468d0d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7f8b7d770584/models/items/tuskarr/king_of_the_frozen_sea_back/king_of_the_frozen_sea_back_color_psd_e788de11.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/king_of_the_frozen_sea_back/king_of_the_frozen_sea_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/king_of_the_frozen_sea_back/king_of_the_frozen_sea_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18286:icelord-back",
+      "itemId": 18286,
+      "name": "Frost Brigadier Pack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/1a9ded948b1a/models/items/tuskarr/icelord_back/icelord_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/1a9ded948b1a/models/items/tuskarr/icelord_back/icelord_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/icelord_back/icelord_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icelord_back-7cf06fb67e00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/1a9ded948b1a/models/items/tuskarr/icelord_back/icelord_back_color_tga_31e1ac1b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/icelord_back/icelord_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/icelord_back/icelord_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5012:frostiron-raider-back",
+      "itemId": 5012,
+      "name": "Frostiron Raider Shield",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7de2161d7076/models/items/tuskarr/frostiron_raider_back/frostiron_raider_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/7de2161d7076/models/items/tuskarr/frostiron_raider_back/frostiron_raider_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/frostiron_raider_back/frostiron_raider_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostiron_raider_back-9e9975977cf0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7de2161d7076/models/items/tuskarr/frostiron_raider_back/frostiron_raider_back_color_tga_2240caf0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/frostiron_raider_back/frostiron_raider_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/frostiron_raider_back/frostiron_raider_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:8200:barrierrogue-tusk-back",
+      "itemId": 8200,
+      "name": "Pack of the Barrier Rogue",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/c8de08a1ea7d/models/items/tuskarr/barrierrogue_tusk_back/barrierrogue_tusk_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/c8de08a1ea7d/models/items/tuskarr/barrierrogue_tusk_back/barrierrogue_tusk_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrierrogue_tusk_back/barrierrogue_tusk_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrierrogue_tusk_back-35d1de514b71.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/c8de08a1ea7d/models/items/tuskarr/barrierrogue_tusk_back/barrierrogue_tusk_back_color_tga_40c72910.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrierrogue_tusk_back/barrierrogue_tusk_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrierrogue_tusk_back/barrierrogue_tusk_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9011:glaciomarine-back",
+      "itemId": 9011,
+      "name": "Rudder of the Glacier Sea",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3fa712139ef1/models/items/tuskarr/glaciomarine_back/glaciomarine_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3fa712139ef1/models/items/tuskarr/glaciomarine_back/glaciomarine_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glaciomarine_back/glaciomarine_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glaciomarine_back-9cb169ae2715.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3fa712139ef1/models/items/tuskarr/glaciomarine_back/glaciomarine_back_color_tga_21d585d7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glaciomarine_back/glaciomarine_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glaciomarine_back/glaciomarine_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9702:harmful-iron-fist-back",
+      "itemId": 9702,
+      "name": "Tome of the Guarded Word",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/efc7ba76c0fa/models/items/tuskarr/harmful_iron_fist_back/harmful_iron_fist_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/efc7ba76c0fa/models/items/tuskarr/harmful_iron_fist_back/harmful_iron_fist_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/harmful_iron_fist_back/harmful_iron_fist_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harmful_iron_fist_back-6fcd5895d6d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/efc7ba76c0fa/models/items/tuskarr/harmful_iron_fist_back/harmful_iron_fist_back_color_psd_74f01fdc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/harmful_iron_fist_back/harmful_iron_fist_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/harmful_iron_fist_back/harmful_iron_fist_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_harmful_fist/tuskar_ironfist_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:418:tusk-fish-basket",
+      "itemId": 418,
+      "name": "Tusks Fish Basket",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/57df36ddbbe9/models/heroes/tuskarr/tusk_fish_basket.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/57df36ddbbe9/models/heroes/tuskarr/tusk_fish_basket.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_fish_basket.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_fish_basket-913772aa0ca3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/57df36ddbbe9/models/heroes/tuskarr/tusk_basket_color_psd_8ea019b0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tuskarr/tusk_fish_basket.vmdl",
+        "modelPaths": [
+          "models/heroes/tuskarr/tusk_fish_basket.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19839:lobodon-tusk-back",
+      "itemId": 19839,
+      "name": "Vote Only Lobodon Tusk Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5307c41c9fa4/models/items/tuskarr/lobodon_tusk_back/lobodon_tusk_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/5307c41c9fa4/models/items/tuskarr/lobodon_tusk_back/lobodon_tusk_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/lobodon_tusk_back/lobodon_tusk_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lobodon_tusk_back-904c482c4176.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5307c41c9fa4/models/items/tuskarr/lobodon_tusk_back/lobodon_tusk_back_color_tga_36834456.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/lobodon_tusk_back/lobodon_tusk_back.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/lobodon_tusk_back/lobodon_tusk_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:7375:whiskey-the-stout",
+      "itemId": 7375,
+      "name": "Whisky the Stout Artifact",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/bba6b3f40c0e/models/items/tuskarr/whiskey_the_stout/whiskey_the_stout.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/bba6b3f40c0e/models/items/tuskarr/whiskey_the_stout/whiskey_the_stout.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/whiskey_the_stout/whiskey_the_stout.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whiskey_the_stout-dad531605ad2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/bba6b3f40c0e/models/items/tuskarr/whiskey_the_stout/whiskey_the_stout_color_psd_a363c9bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/whiskey_the_stout/whiskey_the_stout.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/whiskey_the_stout/whiskey_the_stout.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti5_immortal/tusk_ice_shards_projectile_stout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti5_immortal/tusk_ice_shards_stout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/tuskarr/tusk_ti5_immortal/tusk_ice_shards_stout_upgraded.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_ice_shards.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_ice_shards_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_ice_shards_shard_upgrade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:4460:onizaphk-ahunter-head",
+      "itemId": 4460,
+      "name": "Arctic Hunters Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7a76d9fde8dc/models/items/tuskarr/onizaphk_ahunter_head/onizaphk_ahunter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/7a76d9fde8dc/models/items/tuskarr/onizaphk_ahunter_head/onizaphk_ahunter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/onizaphk_ahunter_head/onizaphk_ahunter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/onizaphk_ahunter_head-84fb2550bae8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7a76d9fde8dc/models/items/tuskarr/onizaphk_ahunter_head/onizaphk_ahunter_head_color_tga_31023466.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/onizaphk_ahunter_head/onizaphk_ahunter_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/onizaphk_ahunter_head/onizaphk_ahunter_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5939:bobusangs-paeraengyi",
+      "itemId": 5939,
+      "name": "Bobusangs Sunshade",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e1c85340f6fa/models/items/tuskarr/bobusangs_paeraengyi/bobusangs_paeraengyi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/e1c85340f6fa/models/items/tuskarr/bobusangs_paeraengyi/bobusangs_paeraengyi.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/bobusangs_paeraengyi/bobusangs_paeraengyi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bobusangs_paeraengyi-f6222b5e127d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e1c85340f6fa/models/items/tuskarr/bobusangs_paeraengyi/bobusangs_paeraengyi_color_tga_f5eaa634.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/bobusangs_paeraengyi/bobusangs_paeraengyi.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/bobusangs_paeraengyi/bobusangs_paeraengyi.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9007:glaciomarine-head",
+      "itemId": 9007,
+      "name": "Cap of the Glacier Sea",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/20ffa237d8e4/models/items/tuskarr/glaciomarine_head/glaciomarine_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/20ffa237d8e4/models/items/tuskarr/glaciomarine_head/glaciomarine_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glaciomarine_head/glaciomarine_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glaciomarine_head-a56510185467.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/20ffa237d8e4/models/items/tuskarr/glaciomarine_head/glaciomarine_head_color_tga_7abbc5e0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glaciomarine_head/glaciomarine_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glaciomarine_head/glaciomarine_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19256:glacial-squad-commander-set-head",
+      "itemId": 19256,
+      "name": "Conscript of the Frost Brigade  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/b9cdd39a0794/models/items/tuskarr/glacial_squad_commander_set_head/glacial_squad_commander_set_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/b9cdd39a0794/models/items/tuskarr/glacial_squad_commander_set_head/glacial_squad_commander_set_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glacial_squad_commander_set_head/glacial_squad_commander_set_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glacial_squad_commander_set_head-6b6011a8425b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/b9cdd39a0794/models/items/tuskarr/glacial_squad_commander_set_head/glacial_squad_commander_set_head_color_tga_83c6da1f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glacial_squad_commander_set_head/glacial_squad_commander_set_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glacial_squad_commander_set_head/glacial_squad_commander_set_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18715:king-of-the-frozen-sea-head",
+      "itemId": 18715,
+      "name": "Eternal Icebreaker  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/af54bd418eef/models/items/tuskarr/king_of_the_frozen_sea_head/king_of_the_frozen_sea_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/af54bd418eef/models/items/tuskarr/king_of_the_frozen_sea_head/king_of_the_frozen_sea_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/king_of_the_frozen_sea_head/king_of_the_frozen_sea_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_the_frozen_sea_head-ffa00063491f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/af54bd418eef/models/items/tuskarr/king_of_the_frozen_sea_head/king_of_the_frozen_sea_head_color_psd_7d5fe6d7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/king_of_the_frozen_sea_head/king_of_the_frozen_sea_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/king_of_the_frozen_sea_head/king_of_the_frozen_sea_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18291:icelord-head",
+      "itemId": 18291,
+      "name": "Frost Brigadier Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/f0eca63f4f9c/models/items/tuskarr/icelord_head/icelord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/f0eca63f4f9c/models/items/tuskarr/icelord_head/icelord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/icelord_head/icelord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icelord_head-70d000e6a480.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/f0eca63f4f9c/models/items/tuskarr/icelord_head/icelord_head_color_tga_91414a8e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/icelord_head/icelord_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/icelord_head/icelord_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5009:frostiron-raider-helm",
+      "itemId": 5009,
+      "name": "Frostiron Raider Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a3bfa02460cc/models/items/tuskarr/frostiron_raider_helm/frostiron_raider_helm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/a3bfa02460cc/models/items/tuskarr/frostiron_raider_helm/frostiron_raider_helm.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/frostiron_raider_helm/frostiron_raider_helm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostiron_raider_helm-12dd27836395.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a3bfa02460cc/models/items/tuskarr/frostiron_raider_helm/frostiron_raider_helm_color_tga_d27bd5f5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/frostiron_raider_helm/frostiron_raider_helm.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/frostiron_raider_helm/frostiron_raider_helm.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13093:ti-9-cache-tusk-jungle-explorer-head",
+      "itemId": 13093,
+      "name": "Hat of Distinguished Expeditionary",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a0883e632e1c/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_head/ti_9_cache_tusk_jungle_explorer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/a0883e632e1c/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_head/ti_9_cache_tusk_jungle_explorer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_head/ti_9_cache_tusk_jungle_explorer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tusk_jungle_explorer_head-ca148c449ea6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a0883e632e1c/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_head/ti_9_cache_tusk_jungle_explorer_head_color_png_167f5914.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_head/ti_9_cache_tusk_jungle_explorer_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_head/ti_9_cache_tusk_jungle_explorer_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9701:harmful-iron-fist-head",
+      "itemId": 9701,
+      "name": "Helm of the Guarded Word",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/04e3b2b5f52f/models/items/tuskarr/harmful_iron_fist_head/harmful_iron_fist_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/04e3b2b5f52f/models/items/tuskarr/harmful_iron_fist_head/harmful_iron_fist_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/harmful_iron_fist_head/harmful_iron_fist_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harmful_iron_fist_head-5a2c0f925864.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/04e3b2b5f52f/models/items/tuskarr/harmful_iron_fist_head/harmful_iron_fist_head_color_psd_fd60a592.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/harmful_iron_fist_head/harmful_iron_fist_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/harmful_iron_fist_head/harmful_iron_fist_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_harmful_fist/tuskar_ironfist_helmet_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9611:terror-from-the-barrier-head",
+      "itemId": 9611,
+      "name": "Helm of the Weathered Storm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/c9340216c064/models/items/tuskarr/terror_from_the_barrier_head/terror_from_the_barrier_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/c9340216c064/models/items/tuskarr/terror_from_the_barrier_head/terror_from_the_barrier_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/terror_from_the_barrier_head/terror_from_the_barrier_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/terror_from_the_barrier_head-316586c323f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/c9340216c064/models/items/tuskarr/terror_from_the_barrier_head/terror_from_the_barrier_head_color_psd_6eb19c77.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/terror_from_the_barrier_head/terror_from_the_barrier_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/terror_from_the_barrier_head/terror_from_the_barrier_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_barrier_head/tusk_barrier_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/tusk_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9824:barrierrogue-tusk-head",
+      "itemId": 9824,
+      "name": "Scar of the Barrier Rogue",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/1ed80c250a6b/models/items/tuskarr/barrierrogue_tusk_head/barrierrogue_tusk_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/1ed80c250a6b/models/items/tuskarr/barrierrogue_tusk_head/barrierrogue_tusk_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrierrogue_tusk_head/barrierrogue_tusk_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrierrogue_tusk_head-40bf498000b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/1ed80c250a6b/models/items/tuskarr/barrierrogue_tusk_head/barrierrogue_tusk_head_color_tga_1c832475.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrierrogue_tusk_head/barrierrogue_tusk_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrierrogue_tusk_head/barrierrogue_tusk_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:415:tusk-hat",
+      "itemId": 415,
+      "name": "Tusks Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a9ec3d4d8dbf/models/heroes/tuskarr/tusk_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/a9ec3d4d8dbf/models/heroes/tuskarr/tusk_hat.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_hat-1c033ba7c363.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a9ec3d4d8dbf/models/heroes/tuskarr/tusk_hat_color_psd_c5064d12.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tuskarr/tusk_hat.vmdl",
+        "modelPaths": [
+          "models/heroes/tuskarr/tusk_hat.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19838:lobodon-tusk-head",
+      "itemId": 19838,
+      "name": "Vote Only Lobodon Tusk Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3312feb2a5e7/models/items/tuskarr/lobodon_tusk_head/lobodon_tusk_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3312feb2a5e7/models/items/tuskarr/lobodon_tusk_head/lobodon_tusk_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/lobodon_tusk_head/lobodon_tusk_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lobodon_tusk_head-c0a45c36b55e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3312feb2a5e7/models/items/tuskarr/lobodon_tusk_head/lobodon_tusk_head_color_tga_73992a1e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/lobodon_tusk_head/lobodon_tusk_head.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/lobodon_tusk_head/lobodon_tusk_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:4441:onizaphk-ahunter-neck",
+      "itemId": 4441,
+      "name": "Arctic Hunters Tusks",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/63abcd59a564/models/items/tuskarr/onizaphk_ahunter_neck/onizaphk_ahunter_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/63abcd59a564/models/items/tuskarr/onizaphk_ahunter_neck/onizaphk_ahunter_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/onizaphk_ahunter_neck/onizaphk_ahunter_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/onizaphk_ahunter_neck-14e508d1fba8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/63abcd59a564/models/items/tuskarr/onizaphk_ahunter_neck/onizaphk_ahunter_neck_color_tga_8015dcb3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/onizaphk_ahunter_neck/onizaphk_ahunter_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/onizaphk_ahunter_neck/onizaphk_ahunter_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5938:bobusangs-pipe",
+      "itemId": 5938,
+      "name": "Bobusangs Tobacco Fix",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2a7a6a2969ea/models/items/tuskarr/bobusangs_pipe/bobusangs_pipe.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/2a7a6a2969ea/models/items/tuskarr/bobusangs_pipe/bobusangs_pipe.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/bobusangs_pipe/bobusangs_pipe.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bobusangs_pipe-c61c07f66392.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2a7a6a2969ea/models/items/tuskarr/bobusangs_pipe/bobusangs_pipe_color_tga_fdebf678.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/bobusangs_pipe/bobusangs_pipe.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/bobusangs_pipe/bobusangs_pipe.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_bobusang_pipe/tusk_bobusang_pipe.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:8185:barrierrogue-tusk-neck",
+      "itemId": 8185,
+      "name": "Broken Tusk of the Barrier Rogue",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7c73404ac5ff/models/items/tuskarr/barrierrogue_tusk_neck/barrierrogue_tusk_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/7c73404ac5ff/models/items/tuskarr/barrierrogue_tusk_neck/barrierrogue_tusk_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrierrogue_tusk_neck/barrierrogue_tusk_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrierrogue_tusk_neck-c8312f0f6b17.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/7c73404ac5ff/models/items/tuskarr/barrierrogue_tusk_neck/barrierrogue_tusk_neck_color_tga_1e87911e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrierrogue_tusk_neck/barrierrogue_tusk_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrierrogue_tusk_neck/barrierrogue_tusk_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19254:glacial-squad-commander-set-neck",
+      "itemId": 19254,
+      "name": "Conscript of the Frost Brigade  Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/56d5d054fa11/models/items/tuskarr/glacial_squad_commander_set_neck/glacial_squad_commander_set_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/56d5d054fa11/models/items/tuskarr/glacial_squad_commander_set_neck/glacial_squad_commander_set_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glacial_squad_commander_set_neck/glacial_squad_commander_set_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glacial_squad_commander_set_neck-ec441031ea19.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/56d5d054fa11/models/items/tuskarr/glacial_squad_commander_set_neck/glacial_squad_commander_set_neck_color_tga_7f44bece.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glacial_squad_commander_set_neck/glacial_squad_commander_set_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glacial_squad_commander_set_neck/glacial_squad_commander_set_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18954:king-of-the-frozen-sea-neck",
+      "itemId": 18954,
+      "name": "Eternal Icebreaker  Tusks",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/8d4b2bbf11f0/models/items/tuskarr/king_of_the_frozen_sea_neck/king_of_the_frozen_sea_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/8d4b2bbf11f0/models/items/tuskarr/king_of_the_frozen_sea_neck/king_of_the_frozen_sea_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/king_of_the_frozen_sea_neck/king_of_the_frozen_sea_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_the_frozen_sea_neck-322da8ba6c83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/8d4b2bbf11f0/models/items/tuskarr/king_of_the_frozen_sea_neck/king_of_the_frozen_sea_neck_color_psd_704b72c4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/king_of_the_frozen_sea_neck/king_of_the_frozen_sea_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/king_of_the_frozen_sea_neck/king_of_the_frozen_sea_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18290:icelord-neck",
+      "itemId": 18290,
+      "name": "Frost Brigadier Tusks",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/1252ffa3afd2/models/items/tuskarr/icelord_neck/icelord_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/1252ffa3afd2/models/items/tuskarr/icelord_neck/icelord_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/icelord_neck/icelord_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icelord_neck-2cf898f0ece0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/1252ffa3afd2/models/items/tuskarr/icelord_neck/icelord_neck_color_tga_323cfa20.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/icelord_neck/icelord_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/icelord_neck/icelord_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5013:frostiron-raider-tusks",
+      "itemId": 5013,
+      "name": "Frostiron Raider Tusks",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/81a7ef0a229e/models/items/tuskarr/frostiron_raider_tusks/frostiron_raider_tusks.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/81a7ef0a229e/models/items/tuskarr/frostiron_raider_tusks/frostiron_raider_tusks.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/frostiron_raider_tusks/frostiron_raider_tusks.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostiron_raider_tusks-bc49469e7b0f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/81a7ef0a229e/models/items/tuskarr/frostiron_raider_tusks/frostiron_raider_tusks_color_tga_c2fc3bd7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/frostiron_raider_tusks/frostiron_raider_tusks.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/frostiron_raider_tusks/frostiron_raider_tusks.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:416:tusk-horns",
+      "itemId": 416,
+      "name": "Tusks Tusks",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ba12ddd04e0e/models/heroes/tuskarr/tusk_horns.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/ba12ddd04e0e/models/heroes/tuskarr/tusk_horns.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_horns.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_horns-d61c4df52a8e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ba12ddd04e0e/models/heroes/tuskarr/tusk_horns_color_psd_555eacc4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tuskarr/tusk_horns.vmdl",
+        "modelPaths": [
+          "models/heroes/tuskarr/tusk_horns.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13094:ti-9-cache-tusk-jungle-explorer-neck",
+      "itemId": 13094,
+      "name": "Tusks of Distinguished Expeditionary",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/6659b1daa3ce/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_neck/ti_9_cache_tusk_jungle_explorer_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/6659b1daa3ce/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_neck/ti_9_cache_tusk_jungle_explorer_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_neck/ti_9_cache_tusk_jungle_explorer_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tusk_jungle_explorer_neck-8a05658dfbc6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/6659b1daa3ce/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_neck/ti_9_cache_tusk_jungle_explorer_neck_color_png_678ed50e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_neck/ti_9_cache_tusk_jungle_explorer_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_neck/ti_9_cache_tusk_jungle_explorer_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/ti9_tusk_jungle_neck/ti9_tusk_jungle_neck_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9008:glaciomarine-neck",
+      "itemId": 9008,
+      "name": "Tusks of the Glacier Sea",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/18f1ccf6ab87/models/items/tuskarr/glaciomarine_neck/glaciomarine_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/18f1ccf6ab87/models/items/tuskarr/glaciomarine_neck/glaciomarine_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glaciomarine_neck/glaciomarine_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glaciomarine_neck-56f1c2914517.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/18f1ccf6ab87/models/items/tuskarr/glaciomarine_neck/glaciomarine_neck_color_tga_b7b8e0b7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glaciomarine_neck/glaciomarine_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glaciomarine_neck/glaciomarine_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9699:harmful-iron-fist-neck",
+      "itemId": 9699,
+      "name": "Tusks of the Guarded Word",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/89588a0aa103/models/items/tuskarr/harmful_iron_fist_neck/harmful_iron_fist_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/89588a0aa103/models/items/tuskarr/harmful_iron_fist_neck/harmful_iron_fist_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/harmful_iron_fist_neck/harmful_iron_fist_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harmful_iron_fist_neck-2e8311ebf3e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/89588a0aa103/models/items/tuskarr/harmful_iron_fist_neck/harmful_iron_fist_neck_color_tga_d6e5c20b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/harmful_iron_fist_neck/harmful_iron_fist_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/harmful_iron_fist_neck/harmful_iron_fist_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_harmful_fist/tuskar_ironfist_tusk_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9613:terror-from-the-barrier-neck",
+      "itemId": 9613,
+      "name": "Tusks of the Weathered Storm",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a14e0d64eeb6/models/items/tuskarr/terror_from_the_barrier_neck/terror_from_the_barrier_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/a14e0d64eeb6/models/items/tuskarr/terror_from_the_barrier_neck/terror_from_the_barrier_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/terror_from_the_barrier_neck/terror_from_the_barrier_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/terror_from_the_barrier_neck-a2b6ccf21047.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/a14e0d64eeb6/models/items/tuskarr/terror_from_the_barrier_neck/terror_from_the_barrier_neck_color_psd_376ec388.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/terror_from_the_barrier_neck/terror_from_the_barrier_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/terror_from_the_barrier_neck/terror_from_the_barrier_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19837:lobodon-tusk-neck",
+      "itemId": 19837,
+      "name": "Vote Only Lobodon Tusk Neck",
+      "slot": "neck",
+      "slotDisplayName": "LoadoutSlot Tusk Tusks",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e81e8e455c67/models/items/tuskarr/lobodon_tusk_neck/lobodon_tusk_neck.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/e81e8e455c67/models/items/tuskarr/lobodon_tusk_neck/lobodon_tusk_neck.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/lobodon_tusk_neck/lobodon_tusk_neck.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lobodon_tusk_neck-c343ee1e438a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e81e8e455c67/models/items/tuskarr/lobodon_tusk_neck/lobodon_tusk_neck_color_tga_145fce3b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/lobodon_tusk_neck/lobodon_tusk_neck.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/lobodon_tusk_neck/lobodon_tusk_neck.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:4123:onizaphk-ahunter-shoulder",
+      "itemId": 4123,
+      "name": "Arctic Hunters Parka",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fb7a124e4106/models/items/tuskarr/onizaphk_ahunter_shoulder/onizaphk_ahunter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/fb7a124e4106/models/items/tuskarr/onizaphk_ahunter_shoulder/onizaphk_ahunter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/onizaphk_ahunter_shoulder/onizaphk_ahunter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/onizaphk_ahunter_shoulder-7075eeb1d309.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fb7a124e4106/models/items/tuskarr/onizaphk_ahunter_shoulder/onizaphk_ahunter_shoulder_color_tga_62daf62f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/onizaphk_ahunter_shoulder/onizaphk_ahunter_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/onizaphk_ahunter_shoulder/onizaphk_ahunter_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9700:harmful-iron-fist-shoulder",
+      "itemId": 9700,
+      "name": "Armor of the Guarded Word",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/6d48567db888/models/items/tuskarr/harmful_iron_fist_shoulder/harmful_iron_fist_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/6d48567db888/models/items/tuskarr/harmful_iron_fist_shoulder/harmful_iron_fist_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/harmful_iron_fist_shoulder/harmful_iron_fist_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harmful_iron_fist_shoulder-832195e170a0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/6d48567db888/models/items/tuskarr/harmful_iron_fist_shoulder/harmful_iron_fist_shoulder_color_tga_1ab531b3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/harmful_iron_fist_shoulder/harmful_iron_fist_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/harmful_iron_fist_shoulder/harmful_iron_fist_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5936:bobusangs-jacket",
+      "itemId": 5936,
+      "name": "Bobusangs Jacket",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/913b9aa9d3d8/models/items/tuskarr/bobusangs_jacket/bobusangs_jacket.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/913b9aa9d3d8/models/items/tuskarr/bobusangs_jacket/bobusangs_jacket.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/bobusangs_jacket/bobusangs_jacket.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bobusangs_jacket-2f356aefb902.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/913b9aa9d3d8/models/items/tuskarr/bobusangs_jacket/bobusangs_jacket_color_tga_c15477d7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/bobusangs_jacket/bobusangs_jacket.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/bobusangs_jacket/bobusangs_jacket.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13095:ti-9-cache-tusk-jungle-explorer-shoulder",
+      "itemId": 13095,
+      "name": "Coat of Distinguished Expeditionary",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2f8748b6b9db/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_shoulder/ti_9_cache_tusk_jungle_explorer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/2f8748b6b9db/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_shoulder/ti_9_cache_tusk_jungle_explorer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_shoulder/ti_9_cache_tusk_jungle_explorer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tusk_jungle_explorer_shoulder-bcd568be8135.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2f8748b6b9db/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_shoulder/ti_9_cache_tusk_jungle_explorer_shoulder_color_png_ae91e2b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_shoulder/ti_9_cache_tusk_jungle_explorer_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_shoulder/ti_9_cache_tusk_jungle_explorer_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9012:glaciomarine-shoulder",
+      "itemId": 9012,
+      "name": "Coat of the Glacier Sea",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2b038c724e50/models/items/tuskarr/glaciomarine_shoulder/glaciomarine_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/2b038c724e50/models/items/tuskarr/glaciomarine_shoulder/glaciomarine_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glaciomarine_shoulder/glaciomarine_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glaciomarine_shoulder-9c976934a566.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2b038c724e50/models/items/tuskarr/glaciomarine_shoulder/glaciomarine_shoulder_color_tga_ba6cade2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glaciomarine_shoulder/glaciomarine_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glaciomarine_shoulder/glaciomarine_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19253:glacial-squad-commander-set-shoulder",
+      "itemId": 19253,
+      "name": "Conscript of the Frost Brigade  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3812937c09d0/models/items/tuskarr/glacial_squad_commander_set_shoulder/glacial_squad_commander_set_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/3812937c09d0/models/items/tuskarr/glacial_squad_commander_set_shoulder/glacial_squad_commander_set_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glacial_squad_commander_set_shoulder/glacial_squad_commander_set_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glacial_squad_commander_set_shoulder-3ff9419da75e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/3812937c09d0/models/items/tuskarr/glacial_squad_commander_set_shoulder/glacial_squad_commander_set_shoulder_color_tga_3039cf74.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glacial_squad_commander_set_shoulder/glacial_squad_commander_set_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glacial_squad_commander_set_shoulder/glacial_squad_commander_set_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:22289:king-of-the-frozen-sea-shoulder",
+      "itemId": 22289,
+      "name": "Eternal Icebreaker  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ccfac0c99f3d/models/items/tuskarr/king_of_the_frozen_sea_shoulder/king_of_the_frozen_sea_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/ccfac0c99f3d/models/items/tuskarr/king_of_the_frozen_sea_shoulder/king_of_the_frozen_sea_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/king_of_the_frozen_sea_shoulder/king_of_the_frozen_sea_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_the_frozen_sea_shoulder-dad84956fe58.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ccfac0c99f3d/models/items/tuskarr/king_of_the_frozen_sea_shoulder/king_of_the_frozen_sea_shoulder_color_psd_6f537632.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/king_of_the_frozen_sea_shoulder/king_of_the_frozen_sea_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/king_of_the_frozen_sea_shoulder/king_of_the_frozen_sea_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18289:icelord-shoulder",
+      "itemId": 18289,
+      "name": "Frost Brigadier Vestments",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/9b5bcae3853d/models/items/tuskarr/icelord_shoulder/icelord_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/9b5bcae3853d/models/items/tuskarr/icelord_shoulder/icelord_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/icelord_shoulder/icelord_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icelord_shoulder-7b1f7ca20e62.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/9b5bcae3853d/models/items/tuskarr/icelord_shoulder/icelord_shoulder_color_tga_e4437de4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/icelord_shoulder/icelord_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/icelord_shoulder/icelord_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:5014:frostiron-raider-cape",
+      "itemId": 5014,
+      "name": "Frostiron Raider Wrap",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/6721cf0ab89c/models/items/tuskarr/frostiron_raider_cape/frostiron_raider_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/6721cf0ab89c/models/items/tuskarr/frostiron_raider_cape/frostiron_raider_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/frostiron_raider_cape/frostiron_raider_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostiron_raider_cape-a7d6f2c130c0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/6721cf0ab89c/models/items/tuskarr/frostiron_raider_cape/frostiron_raider_cape_color_tga_809f48e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/frostiron_raider_cape/frostiron_raider_cape.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/frostiron_raider_cape/frostiron_raider_cape.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9608:terror-from-the-barrier-shoulder",
+      "itemId": 9608,
+      "name": "Harness of the Weathered Storm",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/da9461b40f1f/models/items/tuskarr/terror_from_the_barrier_shoulder/terror_from_the_barrier_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/da9461b40f1f/models/items/tuskarr/terror_from_the_barrier_shoulder/terror_from_the_barrier_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/terror_from_the_barrier_shoulder/terror_from_the_barrier_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/terror_from_the_barrier_shoulder-66883f8e62de.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/da9461b40f1f/models/items/tuskarr/terror_from_the_barrier_shoulder/terror_from_the_barrier_shoulder_color_psd_787f5190.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/terror_from_the_barrier_shoulder/terror_from_the_barrier_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/terror_from_the_barrier_shoulder/terror_from_the_barrier_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9823:barrierrogue-tusk-shoulder",
+      "itemId": 9823,
+      "name": "Pauldron of the Barrier Rogue",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/cd8f279435c2/models/items/tuskarr/barrierrogue_tusk_shoulder/barrierrogue_tusk_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/cd8f279435c2/models/items/tuskarr/barrierrogue_tusk_shoulder/barrierrogue_tusk_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrierrogue_tusk_shoulder/barrierrogue_tusk_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrierrogue_tusk_shoulder-4fa85b8de41e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/cd8f279435c2/models/items/tuskarr/barrierrogue_tusk_shoulder/barrierrogue_tusk_shoulder_color_tga_654c9f61.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrierrogue_tusk_shoulder/barrierrogue_tusk_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrierrogue_tusk_shoulder/barrierrogue_tusk_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:414:tusk-cowl",
+      "itemId": 414,
+      "name": "Tusks Cowl",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e5aa58688cba/models/heroes/tuskarr/tusk_cowl.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/e5aa58688cba/models/heroes/tuskarr/tusk_cowl.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_cowl.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_cowl-c3a667043af4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/e5aa58688cba/models/heroes/tuskarr/tusk_cowl_color_psd_fc2453b9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tuskarr/tusk_cowl.vmdl",
+        "modelPaths": [
+          "models/heroes/tuskarr/tusk_cowl.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19836:lobodon-tusk-shoulder",
+      "itemId": 19836,
+      "name": "Vote Only Lobodon Tusk Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/746b5d3e616a/models/items/tuskarr/lobodon_tusk_shoulder/lobodon_tusk_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/746b5d3e616a/models/items/tuskarr/lobodon_tusk_shoulder/lobodon_tusk_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/lobodon_tusk_shoulder/lobodon_tusk_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lobodon_tusk_shoulder-c912fc229dac.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/746b5d3e616a/models/items/tuskarr/lobodon_tusk_shoulder/lobodon_tusk_shoulder_color_tga_62cc0664.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/lobodon_tusk_shoulder/lobodon_tusk_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/lobodon_tusk_shoulder/lobodon_tusk_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9009:glaciomarine-weapon",
+      "itemId": 9009,
+      "name": "Anchor of the Glacier Sea",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ceda5fcb391a/models/items/tuskarr/glaciomarine_weapon/glaciomarine_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/ceda5fcb391a/models/items/tuskarr/glaciomarine_weapon/glaciomarine_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glaciomarine_weapon/glaciomarine_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glaciomarine_weapon-beb37d5abbba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/ceda5fcb391a/models/items/tuskarr/glaciomarine_weapon/glaciomarine_weapon_color_tga_b907f71.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glaciomarine_weapon/glaciomarine_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glaciomarine_weapon/glaciomarine_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:4097:onizaphk-ahunter-weapon",
+      "itemId": 4097,
+      "name": "Arctic Hunters Ice Axe",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2fe5deb0de2e/models/items/tuskarr/onizaphk_ahunter_weapon/onizaphk_ahunter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/2fe5deb0de2e/models/items/tuskarr/onizaphk_ahunter_weapon/onizaphk_ahunter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/onizaphk_ahunter_weapon/onizaphk_ahunter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/onizaphk_ahunter_weapon-e9482703c983.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2fe5deb0de2e/models/items/tuskarr/onizaphk_ahunter_weapon/onizaphk_ahunter_weapon_color_tga_bb2ab0f2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/onizaphk_ahunter_weapon/onizaphk_ahunter_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/onizaphk_ahunter_weapon/onizaphk_ahunter_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19257:glacial-squad-commander-set-weapon",
+      "itemId": 19257,
+      "name": "Conscript of the Frost Brigade  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/c558b4a518cb/models/items/tuskarr/glacial_squad_commander_set_weapon/glacial_squad_commander_set_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/c558b4a518cb/models/items/tuskarr/glacial_squad_commander_set_weapon/glacial_squad_commander_set_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/glacial_squad_commander_set_weapon/glacial_squad_commander_set_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/glacial_squad_commander_set_weapon-a053dbaa1872.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/c558b4a518cb/models/items/tuskarr/glacial_squad_commander_set_weapon/glacial_squad_commander_set_weapon_color_tga_6cab9e2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/glacial_squad_commander_set_weapon/glacial_squad_commander_set_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/glacial_squad_commander_set_weapon/glacial_squad_commander_set_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:22290:king-of-the-frozen-sea-weapon",
+      "itemId": 22290,
+      "name": "Eternal Icebreaker  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/4db0f46e44f5/models/items/tuskarr/king_of_the_frozen_sea_weapon/king_of_the_frozen_sea_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/4db0f46e44f5/models/items/tuskarr/king_of_the_frozen_sea_weapon/king_of_the_frozen_sea_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/king_of_the_frozen_sea_weapon/king_of_the_frozen_sea_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/king_of_the_frozen_sea_weapon-b4e3d50db10c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/4db0f46e44f5/models/items/tuskarr/king_of_the_frozen_sea_weapon/king_of_the_frozen_sea_weapon_color_psd_12899a2c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/king_of_the_frozen_sea_weapon/king_of_the_frozen_sea_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/king_of_the_frozen_sea_weapon/king_of_the_frozen_sea_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:18287:icelord-weapon",
+      "itemId": 18287,
+      "name": "Frost Brigadier Axe",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fa128805199b/models/items/tuskarr/icelord_weapon/icelord_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/fa128805199b/models/items/tuskarr/icelord_weapon/icelord_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/icelord_weapon/icelord_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/icelord_weapon-5d39e4db0ad2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/fa128805199b/models/items/tuskarr/icelord_weapon/icelord_weapon_color_tga_9964c7ae.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/icelord_weapon/icelord_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/icelord_weapon/icelord_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9698:harmful-iron-fist-weapon",
+      "itemId": 9698,
+      "name": "Hatchet of the Guarded Word",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/87e4713b9f3a/models/items/tuskarr/harmful_iron_fist_weapon/harmful_iron_fist_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/87e4713b9f3a/models/items/tuskarr/harmful_iron_fist_weapon/harmful_iron_fist_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/harmful_iron_fist_weapon/harmful_iron_fist_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/harmful_iron_fist_weapon-fff3e66f7357.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/87e4713b9f3a/models/items/tuskarr/harmful_iron_fist_weapon/harmful_iron_fist_weapon_color_tga_32f15169.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/harmful_iron_fist_weapon/harmful_iron_fist_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/harmful_iron_fist_weapon/harmful_iron_fist_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/tusk_harmful_fist/tuskar_ironfist_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:13090:ti-9-cache-tusk-jungle-explorer-weapon",
+      "itemId": 13090,
+      "name": "Knife of Distinguished Expeditionary",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/48a2da57533b/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_weapon/ti_9_cache_tusk_jungle_explorer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/48a2da57533b/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_weapon/ti_9_cache_tusk_jungle_explorer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_weapon/ti_9_cache_tusk_jungle_explorer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti_9_cache_tusk_jungle_explorer_weapon-4cb1bc9fbca5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/48a2da57533b/models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_weapon/ti_9_cache_tusk_jungle_explorer_weapon_color_png_e61495c0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_weapon/ti_9_cache_tusk_jungle_explorer_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/ti_9_cache_tusk_jungle_explorer_weapon/ti_9_cache_tusk_jungle_explorer_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/tuskarr/ti9_tusk_jungle_weapon/ti9_tusk_jungle_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9610:terror-from-the-barrier-weapon",
+      "itemId": 9610,
+      "name": "Mace of the Weathered Storm",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5f9e6460235a/models/items/tuskarr/terror_from_the_barrier_weapon/terror_from_the_barrier_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/5f9e6460235a/models/items/tuskarr/terror_from_the_barrier_weapon/terror_from_the_barrier_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/terror_from_the_barrier_weapon/terror_from_the_barrier_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/terror_from_the_barrier_weapon-de10c400e0cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5f9e6460235a/models/items/tuskarr/terror_from_the_barrier_weapon/terror_from_the_barrier_weapon_color_psd_3e040ba8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/terror_from_the_barrier_weapon/terror_from_the_barrier_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/terror_from_the_barrier_weapon/terror_from_the_barrier_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:9826:barrierrogue-tusk-weapon",
+      "itemId": 9826,
+      "name": "Maul of the Barrier Rogue",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/12f06c0d17ec/models/items/tuskarr/barrierrogue_tusk_weapon/barrierrogue_tusk_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/12f06c0d17ec/models/items/tuskarr/barrierrogue_tusk_weapon/barrierrogue_tusk_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/barrierrogue_tusk_weapon/barrierrogue_tusk_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/barrierrogue_tusk_weapon-5e1144572468.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/12f06c0d17ec/models/items/tuskarr/barrierrogue_tusk_weapon/barrierrogue_tusk_weapon_color_tga_fd515acb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/barrierrogue_tusk_weapon/barrierrogue_tusk_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/barrierrogue_tusk_weapon/barrierrogue_tusk_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:417:tusk-weapon",
+      "itemId": 417,
+      "name": "Tusks Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5d63d92b68af/models/heroes/tuskarr/tusk_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/5d63d92b68af/models/heroes/tuskarr/tusk_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/tuskarr/tusk_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tusk_weapon-164bcb33c464.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/5d63d92b68af/models/heroes/tuskarr/tusk_weapon_color_psd_a08273e3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/tuskarr/tusk_weapon.vmdl",
+        "modelPaths": [
+          "models/heroes/tuskarr/tusk_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_tusk:item-model:19834:lobodon-tusk-weapon",
+      "itemId": 19834,
+      "name": "Vote Only Lobodon Tusk Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2a7c23401bb5/models/items/tuskarr/lobodon_tusk_weapon/lobodon_tusk_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_tusk/2a7c23401bb5/models/items/tuskarr/lobodon_tusk_weapon/lobodon_tusk_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/tuskarr/lobodon_tusk_weapon/lobodon_tusk_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lobodon_tusk_weapon-30479841c158.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_tusk/2a7c23401bb5/models/items/tuskarr/lobodon_tusk_weapon/lobodon_tusk_weapon_color_tga_65fb15bb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/tuskarr/lobodon_tusk_weapon/lobodon_tusk_weapon.vmdl",
+        "modelPaths": [
+          "models/items/tuskarr/lobodon_tusk_weapon/lobodon_tusk_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_tusk/portrait_tusk.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_tusk:core-set:20168:arctic-hunter-set",
+      "name": "Arctic Hunter Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "sourceItemIds": [
+        4097,
+        4123,
+        4441,
+        4460,
+        4498,
+        4499
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/onizaphk_ahunter_weapon-e9482703c983.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:20903:barrier-rogue",
+      "name": "Barrier Rogue",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        8639
+      ],
+      "sourceItemIds": [
+        8185,
+        8200,
+        9822,
+        9823,
+        9824,
+        9825,
+        9826
+      ],
+      "styleSelections": {
+        "9825": "0"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/barrier_rogue_loading_screen-35f6da5f768f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:20903:barrier-rogue:style-1",
+      "name": "Barrier Rogue - Cannon Punch Particle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        8639
+      ],
+      "sourceItemIds": [
+        8185,
+        8200,
+        9822,
+        9823,
+        9824,
+        9825,
+        9826
+      ],
+      "styleSelections": {
+        "9825": "1"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/barrierrogue_tusk_arns_particle-9686f2e6ea44.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:20358:bobusangs-traveling-necessities-set",
+      "name": "Bobusangs Traveling Necessities Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        418
+      ],
+      "sourceItemIds": [
+        5935,
+        5936,
+        5937,
+        5938,
+        5939
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/bobusangs_botjim-9965864fa993.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:20834:brawler-of-the-glacier-sea",
+      "name": "Brawler of the Glacier Sea",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        8639
+      ],
+      "sourceItemIds": [
+        9006,
+        9007,
+        9008,
+        9009,
+        9010,
+        9011,
+        9012
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/glaciomarine_loading_screen-e2405058346a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:21859:conscript-of-the-frost-brigade",
+      "name": "Conscript of the Frost Brigade",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "sourceItemIds": [
+        19253,
+        19254,
+        19255,
+        19256,
+        19257,
+        19258
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/glacial_squad_commander_set_shoulder-3ff9419da75e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:21344:distinguished-expeditionary",
+      "name": "Distinguished Expeditionary",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "sourceItemIds": [
+        13090,
+        13091,
+        13092,
+        13093,
+        13094,
+        13095
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/ti_9_cache_tusk_jungle_explorer_weapon-4cb1bc9fbca5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:22345:eternal-icebreaker",
+      "name": "Eternal Icebreaker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "sourceItemIds": [
+        18715,
+        18884,
+        18885,
+        18954,
+        22289,
+        22290
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/king_of_the_frozen_sea_ls-819142de9311.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:21169:eye-of-the-weathered-storm",
+      "name": "Eye of the Weathered Storm",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        8639
+      ],
+      "sourceItemIds": [
+        9607,
+        9608,
+        9609,
+        9610,
+        9611,
+        9612,
+        9613
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/terror_from_the_barrier_shoulder-66883f8e62de.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:21786:frost-brigadier",
+      "name": "Frost Brigadier",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "sourceItemIds": [
+        18286,
+        18287,
+        18288,
+        18289,
+        18290,
+        18291
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/icelord_loadingscreen-2e22a4427187.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:20183:frostiron-raider-set",
+      "name": "Frostiron Raider Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        418
+      ],
+      "sourceItemIds": [
+        5009,
+        5011,
+        5012,
+        5013,
+        5014
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/frostiron_raider_helm-12dd27836395.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:21181:hammer-of-the-guarded-word",
+      "name": "Hammer of the Guarded Word",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "sourceItemIds": [
+        9698,
+        9699,
+        9700,
+        9701,
+        9702,
+        9703
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/harmful_iron_fist_iron_fist_loading_screen-d0f6cf0eb6ef.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:30377:jingle-fist-bundle",
+      "name": "Jingle Fist Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413
+      ],
+      "sourceItemIds": [
+        30357
+      ],
+      "slots": [
+        "arms"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2023_tusk-f4e256cda5f2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_tusk:core-set:21963:vote-only-lobodon-tusk",
+      "name": "Vote Only Lobodon Tusk",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        8639
+      ],
+      "sourceItemIds": [
+        19834,
+        19835,
+        19836,
+        19837,
+        19838,
+        19839,
+        19840
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "back",
+        "head",
+        "neck",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 30381142,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 480
+  }
+}

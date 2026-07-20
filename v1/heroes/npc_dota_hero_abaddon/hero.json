@@ -1,0 +1,4581 @@
+{
+  "heroId": "npc_dota_hero_abaddon",
+  "sourceHeroId": "npc_dota_hero_abaddon",
+  "variantId": "default",
+  "heroName": "Abaddon",
+  "heroSlug": "abaddon",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_abaddon/377c353319e0/models/heroes/abaddon/abaddon.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 456,
+      "name": "Abaddons Cape",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f1b10cb2a313/models/heroes/abaddon/cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f1b10cb2a313/models/heroes/abaddon/cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/cape.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f1b10cb2a313/models/heroes/abaddon/abaddon_cape_color_psd_d0237d3d.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 455,
+      "name": "Abaddons Helmet",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca9077b610de/models/heroes/abaddon/helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ca9077b610de/models/heroes/abaddon/helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/helmet.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca9077b610de/models/heroes/abaddon/abaddon_helm_color_psd_eb17e6a9.png"
+    },
+    {
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "itemId": 458,
+      "name": "Abaddons Mount",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c36f42831314/models/heroes/abaddon/mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/c36f42831314/models/heroes/abaddon/mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/mount.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c36f42831314/models/heroes/abaddon/abaddon_mount_color_psd_5bc59729.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 457,
+      "name": "Abaddons Shoulder Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ed90e1f87ef3/models/heroes/abaddon/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ed90e1f87ef3/models/heroes/abaddon/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ed90e1f87ef3/models/heroes/abaddon/abaddon_shoulders_color_psd_4004187b.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 454,
+      "name": "Abaddons Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/e128ef34d212/models/heroes/abaddon/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/e128ef34d212/models/heroes/abaddon/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/e128ef34d212/models/heroes/abaddon/abaddon_weapon_color_psd_d12b0725.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_abaddon:item-model:456:cape",
+      "itemId": 456,
+      "name": "Abaddons Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f1b10cb2a313/models/heroes/abaddon/cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f1b10cb2a313/models/heroes/abaddon/cape.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cape-a99ff5483143.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f1b10cb2a313/models/heroes/abaddon/abaddon_cape_color_psd_d0237d3d.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19415:soul-of-darkness-back",
+      "itemId": 19415,
+      "name": "Blightfall  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/889f215162f7/models/items/abaddon/soul_of_darkness_back/soul_of_darkness_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/889f215162f7/models/items/abaddon/soul_of_darkness_back/soul_of_darkness_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/soul_of_darkness_back/soul_of_darkness_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_of_darkness_back-68b64c39c222.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/889f215162f7/models/items/abaddon/soul_of_darkness_back/soul_of_darkness_back_color_psd_e48c89e2.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7457:haze-whisperer-back",
+      "itemId": 7457,
+      "name": "Cape of Enveloping Despair",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/b146c70a3d0f/models/items/abaddon/haze_whisperer_back/haze_whisperer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/b146c70a3d0f/models/items/abaddon/haze_whisperer_back/haze_whisperer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/haze_whisperer_back/haze_whisperer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_whisperer_back-c5dca5c08a38.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/b146c70a3d0f/models/items/abaddon/haze_whisperer_back/haze_whisperer_back_color_tga_3b9eac0c.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:9203:the-sunken-horseman-abaddon-back",
+      "itemId": 9203,
+      "name": "Cape of the Brinebred Cavalier",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d79880289857/models/items/abaddon/the_sunken_horseman_abaddon_back/the_sunken_horseman_abaddon_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/d79880289857/models/items/abaddon/the_sunken_horseman_abaddon_back/the_sunken_horseman_abaddon_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/the_sunken_horseman_abaddon_back/the_sunken_horseman_abaddon_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_sunken_horseman_abaddon_back-d924f51d2221.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d79880289857/models/items/abaddon/the_sunken_horseman_abaddon_back/the_sunken_horseman_abaddon_back_color_tga_a32f00b5.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13460:ti9-cache-abbaddon-everblack-back",
+      "itemId": 13460,
+      "name": "Cape of the Everblack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/43acb39a25d8/models/items/abaddon/ti9_cache_abbaddon_everblack_back/ti9_cache_abbaddon_everblack_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/43acb39a25d8/models/items/abaddon/ti9_cache_abbaddon_everblack_back/ti9_cache_abbaddon_everblack_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/ti9_cache_abbaddon_everblack_back/ti9_cache_abbaddon_everblack_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_abbaddon_everblack_back-bf078b4e494f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/43acb39a25d8/models/items/abaddon/ti9_cache_abbaddon_everblack_back/ti9_cache_abbaddon_everblack_back_color_tga_30555bf8.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7411:mark-of-the-mistral-fiend-back",
+      "itemId": 7411,
+      "name": "Cape of the Mistral Fiend",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d515b486914a/models/items/abaddon/mark_of_the_mistral_fiend_back/mark_of_the_mistral_fiend_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/d515b486914a/models/items/abaddon/mark_of_the_mistral_fiend_back/mark_of_the_mistral_fiend_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mark_of_the_mistral_fiend_back/mark_of_the_mistral_fiend_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mark_of_the_mistral_fiend_back-998c18826496.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d515b486914a/models/items/abaddon/mark_of_the_mistral_fiend_back/mark_of_the_mistral_fiend_back_color_tga_c29b6149.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6408:alliance-abba-back",
+      "itemId": 6408,
+      "name": "Cloak of the Demonic Vessel",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7e333212580a/models/items/abaddon/alliance_abba_back/alliance_abba_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/7e333212580a/models/items/abaddon/alliance_abba_back/alliance_abba_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/alliance_abba_back/alliance_abba_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/alliance_abba_back-1ed7b03cbe3f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7e333212580a/models/items/abaddon/alliance_abba_back/alliance_abba_back_color_tga_4ceb2e82.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5801:cloak-of-the-resentful-spectre",
+      "itemId": 5801,
+      "name": "Cloak of the Resentful Spectre",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7a9fe67c65c6/models/items/abaddon/cloak_of_the_resentful_spectre/cloak_of_the_resentful_spectre.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/7a9fe67c65c6/models/items/abaddon/cloak_of_the_resentful_spectre/cloak_of_the_resentful_spectre.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/cloak_of_the_resentful_spectre/cloak_of_the_resentful_spectre.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cloak_of_the_resentful_spectre-34554d320f0a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7a9fe67c65c6/models/items/abaddon/cloak_of_the_resentful_spectre/cloak_of_the_resentful_spectre_color_tga_c1d5d6af.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7364:promo-gilded-cape",
+      "itemId": 7364,
+      "name": "Compendium Rider of Avarice Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/34933fccccda/models/items/abaddon/promo_gilded_cape/promo_gilded_cape.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/34933fccccda/models/items/abaddon/promo_gilded_cape/promo_gilded_cape.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/promo_gilded_cape/promo_gilded_cape.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/promo_gilded_cape-19c6bfdd1b6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/34933fccccda/models/items/abaddon/promo_gilded_cape/promo_gilded_cape_color_tga_61dd236.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5813:cape-drake-evercold",
+      "itemId": 5813,
+      "name": "Death Shroud of the Frozen Apostle",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d65da15133ab/models/items/abaddon/cape_drake_evercold/cape_drake_evercold.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/d65da15133ab/models/items/abaddon/cape_drake_evercold/cape_drake_evercold.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/cape_drake_evercold/cape_drake_evercold.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cape_drake_evercold-39990e46c829.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d65da15133ab/models/items/abaddon/cape_drake_evercold/cape_drake_evercold_color_tga_3a27fe96.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28472:abaddon-blackmist-reaper-back",
+      "itemId": 28472,
+      "name": "Dreadmist Dragoon  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/6e3abd14ae4b/models/items/abaddon/abaddon_blackmist_reaper_back/abaddon_blackmist_reaper_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/6e3abd14ae4b/models/items/abaddon/abaddon_blackmist_reaper_back/abaddon_blackmist_reaper_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_blackmist_reaper_back/abaddon_blackmist_reaper_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_blackmist_reaper_back-1caa4ec285ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/6e3abd14ae4b/models/items/abaddon/abaddon_blackmist_reaper_back/abaddon_blackmist_reaper_back_color_tga_1c1200d2.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7496:dotapit-s3-drowned-rider-back",
+      "itemId": 7496,
+      "name": "Drowned Horsemans Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5bf867bfe0e6/models/items/abaddon/dotapit_s3_drowned_rider_back/dotapit_s3_drowned_rider_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/5bf867bfe0e6/models/items/abaddon/dotapit_s3_drowned_rider_back/dotapit_s3_drowned_rider_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/dotapit_s3_drowned_rider_back/dotapit_s3_drowned_rider_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_drowned_rider_back-6b3c668b87f8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5bf867bfe0e6/models/items/abaddon/dotapit_s3_drowned_rider_back/dotapit_s3_drowned_rider_back_color_tga_e6d38874.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13262:abaddon-endless-night-back",
+      "itemId": 13262,
+      "name": "Endless Night Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/6e14d574da11/models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/6e14d574da11/models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_endless_night_back-1aae87a7458f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/6e14d574da11/models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back_color_tga_a8290d34.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/abaddon_endless_night_back/abaddon_endless_night_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_endless/abaddon_endless_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:31230:breached-mist-lord-back",
+      "itemId": 31230,
+      "name": "Mantle of the Blackmist  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/286331d31729/models/items/abaddon/breached_mist_lord_back/breached_mist_lord_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/286331d31729/models/items/abaddon/breached_mist_lord_back/breached_mist_lord_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/breached_mist_lord_back/breached_mist_lord_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/breached_mist_lord_back-fb4312b318d3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/286331d31729/models/items/abaddon/breached_mist_lord_back/breached_mist_lord_back_color_psd_3f36618b.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19244:merciless-king-back",
+      "itemId": 19244,
+      "name": "Merciless Mists  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/59e49f798053/models/items/abaddon/merciless_king_back/merciless_king_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/59e49f798053/models/items/abaddon/merciless_king_back/merciless_king_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/merciless_king_back/merciless_king_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/merciless_king_back-0ed24d479dd5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/59e49f798053/models/items/abaddon/merciless_king_back/merciless_king_back_color_tga_f3b1a2fb.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28358:wandering-poet-back",
+      "itemId": 28358,
+      "name": "Phantom Balladeer  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/497132141ead/models/items/abaddon/wandering_poet_back/wandering_poet_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/497132141ead/models/items/abaddon/wandering_poet_back/wandering_poet_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/wandering_poet_back/wandering_poet_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wandering_poet_back-b42d6a2176c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/497132141ead/models/items/abaddon/wandering_poet_back/wandering_poet_back_color_tga_8d43e4ed.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/wandering_poet_back/wandering_poet_back.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/wandering_poet_back/wandering_poet_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_2024_cc_wandering_poet_back/abaddon_2024_cc_wandering_poet_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7337:avarice-back",
+      "itemId": 7337,
+      "name": "Rider of Avarice Cape",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/827d972c1446/models/items/abaddon/avarice_back/avarice_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/827d972c1446/models/items/abaddon/avarice_back/avarice_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/avarice_back/avarice_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/avarice_back-b34ac4ea3197.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/827d972c1446/models/items/abaddon/avarice_back/avarice_back_color_tga_25ea72e4.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28602:abaddon-curse-of-demonic-crown-back",
+      "itemId": 28602,
+      "name": "Spectral Shadow Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/cca31f051708/models/items/abaddon/abaddon_curse_of_demonic_crown_back/abaddon_curse_of_demonic_crown_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/cca31f051708/models/items/abaddon/abaddon_curse_of_demonic_crown_back/abaddon_curse_of_demonic_crown_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_curse_of_demonic_crown_back/abaddon_curse_of_demonic_crown_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_curse_of_demonic_crown_back-29d7b5b9dd9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/cca31f051708/models/items/abaddon/abaddon_curse_of_demonic_crown_back/abaddon_curse_of_demonic_crown_back_color_psd_dc90a676.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:22341:knight-of-the-abyss-back",
+      "itemId": 22341,
+      "name": "Trenchknight  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/80b41e007ce7/models/items/abaddon/knight_of_the_abyss_back/knight_of_the_abyss_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/80b41e007ce7/models/items/abaddon/knight_of_the_abyss_back/knight_of_the_abyss_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/knight_of_the_abyss_back/knight_of_the_abyss_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/knight_of_the_abyss_back-9d4cf7c7d442.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/80b41e007ce7/models/items/abaddon/knight_of_the_abyss_back/knight_of_the_abyss_back_color_tga_190d3a41.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7314:vespertine-guard-cloak",
+      "itemId": 7314,
+      "name": "Vespertine Guard Cloak",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/11938bd5bcc1/models/items/abaddon/vespertine_guard_cloak/vespertine_guard_cloak.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/11938bd5bcc1/models/items/abaddon/vespertine_guard_cloak/vespertine_guard_cloak.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/vespertine_guard_cloak/vespertine_guard_cloak.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespertine_guard_cloak-18363ccff914.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/11938bd5bcc1/models/items/abaddon/vespertine_guard_cloak/vespertine_guard_cloak_color_tga_70c9b3b1.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5694:winged-shroud-of-ruin",
+      "itemId": 5694,
+      "name": "Winged Shroud of Ruin",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/15629d167f32/models/items/abaddon/winged_shroud_of_ruin/winged_shroud_of_ruin.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/15629d167f32/models/items/abaddon/winged_shroud_of_ruin/winged_shroud_of_ruin.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/winged_shroud_of_ruin/winged_shroud_of_ruin.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/winged_shroud_of_ruin-570891f72249.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/15629d167f32/models/items/abaddon/winged_shroud_of_ruin/winged_shroud_of_ruin_color_tga_2537beb4.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:455:helmet",
+      "itemId": 455,
+      "name": "Abaddons Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca9077b610de/models/heroes/abaddon/helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ca9077b610de/models/heroes/abaddon/helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/helmet-38058596baca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca9077b610de/models/heroes/abaddon/abaddon_helm_color_psd_eb17e6a9.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19416:soul-of-darkness-head",
+      "itemId": 19416,
+      "name": "Blightfall  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0a5a624272d3/models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/0a5a624272d3/models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_of_darkness_head-90f0906e3c0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0a5a624272d3/models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head_color_psd_a3e5540a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/soul_of_darkness_head/soul_of_darkness_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_soul_of_darkness/abaddon_soul_of_darkness_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7365:promo-gilded-helmet",
+      "itemId": 7365,
+      "name": "Compendium Rider of Avarice Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0cf16b5d2f8c/models/items/abaddon/promo_gilded_helmet/promo_gilded_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/0cf16b5d2f8c/models/items/abaddon/promo_gilded_helmet/promo_gilded_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/promo_gilded_helmet/promo_gilded_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/promo_gilded_helmet-7a06ba27b64f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0cf16b5d2f8c/models/items/abaddon/promo_gilded_helmet/promo_gilded_helmet_color_tga_36c91c76.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:9490:the-sunken-horseman-abaddon-head",
+      "itemId": 9490,
+      "name": "Crown of the Brinebred Cavalier",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d0be3c168066/models/items/abaddon/the_sunken_horseman_abaddon_head/the_sunken_horseman_abaddon_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/d0be3c168066/models/items/abaddon/the_sunken_horseman_abaddon_head/the_sunken_horseman_abaddon_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/the_sunken_horseman_abaddon_head/the_sunken_horseman_abaddon_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_sunken_horseman_abaddon_head-215bf861b5cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d0be3c168066/models/items/abaddon/the_sunken_horseman_abaddon_head/the_sunken_horseman_abaddon_head_color_tga_ee09c676.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28473:abaddon-blackmist-reaper-head",
+      "itemId": 28473,
+      "name": "Dreadmist Dragoon  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f34aa5a2776d/models/items/abaddon/abaddon_blackmist_reaper_head/abaddon_blackmist_reaper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f34aa5a2776d/models/items/abaddon/abaddon_blackmist_reaper_head/abaddon_blackmist_reaper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_blackmist_reaper_head/abaddon_blackmist_reaper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_blackmist_reaper_head-d77341601d00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f34aa5a2776d/models/items/abaddon/abaddon_blackmist_reaper_head/abaddon_blackmist_reaper_head_color_tga_8f33dc19.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7497:dotapit-s3-drowned-rider-head",
+      "itemId": 7497,
+      "name": "Drowned Horsemans Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f8da91c59b83/models/items/abaddon/dotapit_s3_drowned_rider_head/dotapit_s3_drowned_rider_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f8da91c59b83/models/items/abaddon/dotapit_s3_drowned_rider_head/dotapit_s3_drowned_rider_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/dotapit_s3_drowned_rider_head/dotapit_s3_drowned_rider_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_drowned_rider_head-47ea38030b47.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f8da91c59b83/models/items/abaddon/dotapit_s3_drowned_rider_head/dotapit_s3_drowned_rider_head_color_tga_89d01bec.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13236:abaddon-endless-night-head",
+      "itemId": 13236,
+      "name": "Endless Night Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ba9181fd90dd/models/items/abaddon/abaddon_endless_night_head/abaddon_endless_night_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ba9181fd90dd/models/items/abaddon/abaddon_endless_night_head/abaddon_endless_night_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_endless_night_head/abaddon_endless_night_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_endless_night_head-8a47363f0cd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ba9181fd90dd/models/items/abaddon/abaddon_endless_night_head/abaddon_endless_night_head_color_tga_8e402c0f.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7464:haze-whisperer-head",
+      "itemId": 7464,
+      "name": "Helm of Enveloping Despair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/bbe6247b99ba/models/items/abaddon/haze_whisperer_head/haze_whisperer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/bbe6247b99ba/models/items/abaddon/haze_whisperer_head/haze_whisperer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/haze_whisperer_head/haze_whisperer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_whisperer_head-3c32537d9c71.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/bbe6247b99ba/models/items/abaddon/haze_whisperer_head/haze_whisperer_head_color_tga_cf1c1e95.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7412:mark-of-the-mistral-fiend-head",
+      "itemId": 7412,
+      "name": "Helm of the Mistral Fiend",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5527aa5069a5/models/items/abaddon/mark_of_the_mistral_fiend_head/mark_of_the_mistral_fiend_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/5527aa5069a5/models/items/abaddon/mark_of_the_mistral_fiend_head/mark_of_the_mistral_fiend_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mark_of_the_mistral_fiend_head/mark_of_the_mistral_fiend_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mark_of_the_mistral_fiend_head-7bc00a135ee1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5527aa5069a5/models/items/abaddon/mark_of_the_mistral_fiend_head/mark_of_the_mistral_fiend_head_color_tga_224f83f8.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6409:alliance-abba-head",
+      "itemId": 6409,
+      "name": "Hood of the Demonic Vessel",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/843313a7d01e/models/items/abaddon/alliance_abba_head/alliance_abba_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/843313a7d01e/models/items/abaddon/alliance_abba_head/alliance_abba_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/alliance_abba_head/alliance_abba_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/alliance_abba_head-4fad39336321.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/843313a7d01e/models/items/abaddon/alliance_abba_head/alliance_abba_head_color_tga_42dbde9e.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13458:ti9-cache-abbaddon-everblack-head",
+      "itemId": 13458,
+      "name": "Hood of the Everblack",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/25a8a86fc5de/models/items/abaddon/ti9_cache_abbaddon_everblack_head/ti9_cache_abbaddon_everblack_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/25a8a86fc5de/models/items/abaddon/ti9_cache_abbaddon_everblack_head/ti9_cache_abbaddon_everblack_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/ti9_cache_abbaddon_everblack_head/ti9_cache_abbaddon_everblack_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_abbaddon_everblack_head-3951b94040bc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/25a8a86fc5de/models/items/abaddon/ti9_cache_abbaddon_everblack_head/ti9_cache_abbaddon_everblack_head_color_tga_7dc0f8bb.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5821:hood-of-the-font-guard",
+      "itemId": 5821,
+      "name": "Hood of the Font Guard",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fa75a2e1a091/models/items/abaddon/hood_of_the_font_guard/hood_of_the_font_guard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/fa75a2e1a091/models/items/abaddon/hood_of_the_font_guard/hood_of_the_font_guard.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/hood_of_the_font_guard/hood_of_the_font_guard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hood_of_the_font_guard-b50a7d56c511.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fa75a2e1a091/models/items/abaddon/hood_of_the_font_guard/hood_of_the_font_guard_color_tga_c74aa258.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5814:head-drake-evercold",
+      "itemId": 5814,
+      "name": "Horned Helm of the Frozen Apostle",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/4fb1905fe3c9/models/items/abaddon/head_drake_evercold/head_drake_evercold.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/4fb1905fe3c9/models/items/abaddon/head_drake_evercold/head_drake_evercold.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/head_drake_evercold/head_drake_evercold.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/head_drake_evercold-9f2f76a760f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/4fb1905fe3c9/models/items/abaddon/head_drake_evercold/head_drake_evercold_color_tga_a560fb2.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:31229:breached-mist-lord-head",
+      "itemId": 31229,
+      "name": "Mantle of the Blackmist  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/a281c11f9a05/models/items/abaddon/breached_mist_lord_head/breached_mist_lord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/a281c11f9a05/models/items/abaddon/breached_mist_lord_head/breached_mist_lord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/breached_mist_lord_head/breached_mist_lord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/breached_mist_lord_head-dad52ebbf0eb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/a281c11f9a05/models/items/abaddon/breached_mist_lord_head/breached_mist_lord_head_color_psd_e853f09.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19246:merciless-king-head",
+      "itemId": 19246,
+      "name": "Merciless Mists  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/eef3be1423c7/models/items/abaddon/merciless_king_head/merciless_king_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/eef3be1423c7/models/items/abaddon/merciless_king_head/merciless_king_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/merciless_king_head/merciless_king_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/merciless_king_head-3a82c60ddbc8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/eef3be1423c7/models/items/abaddon/merciless_king_head/merciless_king_head_color_tga_720f450b.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28357:wandering-poet-head",
+      "itemId": 28357,
+      "name": "Phantom Balladeer  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0a72b93f8493/models/items/abaddon/wandering_poet_head/wandering_poet_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/0a72b93f8493/models/items/abaddon/wandering_poet_head/wandering_poet_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/wandering_poet_head/wandering_poet_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wandering_poet_head-3fd006536eec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0a72b93f8493/models/items/abaddon/wandering_poet_head/wandering_poet_head_color_tga_9c344825.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/wandering_poet_head/wandering_poet_head.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/wandering_poet_head/wandering_poet_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_2024_cc_wandering_poet_head/abaddon_2024_cc_wandering_poet_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7334:avarice-head",
+      "itemId": 7334,
+      "name": "Rider of Avarice Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0cd8d8546b0b/models/items/abaddon/avarice_head/avarice_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/0cd8d8546b0b/models/items/abaddon/avarice_head/avarice_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/avarice_head/avarice_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/avarice_head-99308acb1166.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0cd8d8546b0b/models/items/abaddon/avarice_head/avarice_head_color_tga_7b753303.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28600:abaddon-curse-of-demonic-crown-head",
+      "itemId": 28600,
+      "name": "Spectral Shadow Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0ed949a1bdb3/models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/0ed949a1bdb3/models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_curse_of_demonic_crown_head-27ea4ea75f24.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0ed949a1bdb3/models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head_color_psd_7e4b7e00.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/abaddon_curse_of_demonic_crown_head/abaddon_curse_of_demonic_crown_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_demonic_crown/abaddon_demonic_crown_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5693:tarnhelm-of-ruin",
+      "itemId": 5693,
+      "name": "Tarnhelm of Ruin",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/bf5f88f19a78/models/items/abaddon/tarnhelm_of_ruin/tarnhelm_of_ruin.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/bf5f88f19a78/models/items/abaddon/tarnhelm_of_ruin/tarnhelm_of_ruin.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/tarnhelm_of_ruin/tarnhelm_of_ruin.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tarnhelm_of_ruin-65d6c2c60fe8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/bf5f88f19a78/models/items/abaddon/tarnhelm_of_ruin/tarnhelm_of_ruin_color_tga_a2403633.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:22340:knight-of-the-abyss-head",
+      "itemId": 22340,
+      "name": "Trenchknight  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/904da15634db/models/items/abaddon/knight_of_the_abyss_head/knight_of_the_abyss_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/904da15634db/models/items/abaddon/knight_of_the_abyss_head/knight_of_the_abyss_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/knight_of_the_abyss_head/knight_of_the_abyss_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/knight_of_the_abyss_head-2403a194b455.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/904da15634db/models/items/abaddon/knight_of_the_abyss_head/knight_of_the_abyss_head_color_tga_53ffac55.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7312:vespertine-guard-helmet",
+      "itemId": 7312,
+      "name": "Vespertine Guard Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fa97594936f6/models/items/abaddon/vespertine_guard_helmet/vespertine_guard_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/fa97594936f6/models/items/abaddon/vespertine_guard_helmet/vespertine_guard_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/vespertine_guard_helmet/vespertine_guard_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespertine_guard_helmet-be5c3edd47e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fa97594936f6/models/items/abaddon/vespertine_guard_helmet/vespertine_guard_helmet_color_tga_6ce408b4.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:458:mount",
+      "itemId": 458,
+      "name": "Abaddons Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c36f42831314/models/heroes/abaddon/mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/c36f42831314/models/heroes/abaddon/mount.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mount-1fcae511f364.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c36f42831314/models/heroes/abaddon/abaddon_mount_color_psd_5bc59729.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19417:soul-of-darkness-mount",
+      "itemId": 19417,
+      "name": "Blightfall  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5925455114ce/models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/5925455114ce/models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_of_darkness_mount-69d8e4e5ee21.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5925455114ce/models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount_color_psd_f8ee5d9f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/soul_of_darkness_mount/soul_of_darkness_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_soul_of_darkness/abaddon_soul_of_darkness_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7366:promo-gilded-mount",
+      "itemId": 7366,
+      "name": "Compendium Rider of Avarice Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca3c0909b0d9/models/items/abaddon/promo_gilded_mount/promo_gilded_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ca3c0909b0d9/models/items/abaddon/promo_gilded_mount/promo_gilded_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/promo_gilded_mount/promo_gilded_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/promo_gilded_mount-5585b43ef007.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca3c0909b0d9/models/items/abaddon/promo_gilded_mount/promo_gilded_mount_color_tga_b4f59767.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28477:abaddon-blackmist-reaper-mount",
+      "itemId": 28477,
+      "name": "Dreadmist Dragoon  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/74f8f08ed74d/models/items/abaddon/abaddon_blackmist_reaper_mount/abaddon_blackmist_reaper_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/74f8f08ed74d/models/items/abaddon/abaddon_blackmist_reaper_mount/abaddon_blackmist_reaper_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_blackmist_reaper_mount/abaddon_blackmist_reaper_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_blackmist_reaper_mount-0f7af0ca1853.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/74f8f08ed74d/models/items/abaddon/abaddon_blackmist_reaper_mount/abaddon_blackmist_reaper_mount_color_tga_936f8bb1.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5904:abamount",
+      "itemId": 5904,
+      "name": "Dreadsteed of Avernus",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9b761e9334dd/models/items/abaddon/abamount/abamount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9b761e9334dd/models/items/abaddon/abamount/abamount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abamount/abamount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abamount-c8882a6a84b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9b761e9334dd/models/items/abaddon/abamount/abamount_color_tga_85f43899.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7498:dotapit-s3-drowned-rider-mount",
+      "itemId": 7498,
+      "name": "Drowned Horsemans Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0ab4be5e10a4/models/items/abaddon/dotapit_s3_drowned_rider_mount/dotapit_s3_drowned_rider_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/0ab4be5e10a4/models/items/abaddon/dotapit_s3_drowned_rider_mount/dotapit_s3_drowned_rider_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/dotapit_s3_drowned_rider_mount/dotapit_s3_drowned_rider_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_drowned_rider_mount-660c31489b4a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0ab4be5e10a4/models/items/abaddon/dotapit_s3_drowned_rider_mount/dotapit_s3_drowned_rider_mount_color_tga_8b07b722.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13264:abaddon-endless-night-mount",
+      "itemId": 13264,
+      "name": "Endless Night Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5616cc8d4cb7/models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/5616cc8d4cb7/models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_endless_night_mount-2535c3d7d62d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/5616cc8d4cb7/models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount_color_tga_d6f504ae.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/abaddon_endless_night_mount/abaddon_endless_night_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_endless/abaddon_endless_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5804:grudge-in-the-mist",
+      "itemId": 5804,
+      "name": "Grudge in the Mist",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d273cc4c2826/models/items/abaddon/grudge_in_the_mist/grudge_in_the_mist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/d273cc4c2826/models/items/abaddon/grudge_in_the_mist/grudge_in_the_mist.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/grudge_in_the_mist/grudge_in_the_mist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/grudge_in_the_mist-1aac4ad7e2ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d273cc4c2826/models/items/abaddon/grudge_in_the_mist/grudge_in_the_mist_color_tga_29063f21.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:8741:weta-hallgul-war-mount",
+      "itemId": 8741,
+      "name": "Hallgul the War Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/36b4c527b2fa/models/items/abaddon/weta_hallgul_war_mount/weta_hallgul_war_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/36b4c527b2fa/models/items/abaddon/weta_hallgul_war_mount/weta_hallgul_war_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/weta_hallgul_war_mount/weta_hallgul_war_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weta_hallgul_war_mount-cee1f2a9c8fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/36b4c527b2fa/models/items/abaddon/weta_hallgul_war_mount/weta_hallgul_war_mount_color_tga_318cde0c.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:31228:breached-mist-lord-mount",
+      "itemId": 31228,
+      "name": "Mantle of the Blackmist  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/72e0855b8c4d/models/items/abaddon/breached_mist_lord_mount/breached_mist_lord_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/72e0855b8c4d/models/items/abaddon/breached_mist_lord_mount/breached_mist_lord_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/breached_mist_lord_mount/breached_mist_lord_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/breached_mist_lord_mount-e36ad291bbf1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/72e0855b8c4d/models/items/abaddon/breached_mist_lord_mount/breached_mist_lord_mount_color_psd_314e25ab.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19243:merciless-king-mount",
+      "itemId": 19243,
+      "name": "Merciless Mists  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/a0ae2a6913d9/models/items/abaddon/merciless_king_mount/merciless_king_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/a0ae2a6913d9/models/items/abaddon/merciless_king_mount/merciless_king_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/merciless_king_mount/merciless_king_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/merciless_king_mount-73931ff9e9fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/a0ae2a6913d9/models/items/abaddon/merciless_king_mount/merciless_king_mount_color_tga_56f47301.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7413:mark-of-the-mistral-fiend-mount",
+      "itemId": 7413,
+      "name": "Mistral",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/847ac023ec81/models/items/abaddon/mark_of_the_mistral_fiend_mount/mark_of_the_mistral_fiend_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/847ac023ec81/models/items/abaddon/mark_of_the_mistral_fiend_mount/mark_of_the_mistral_fiend_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mark_of_the_mistral_fiend_mount/mark_of_the_mistral_fiend_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mark_of_the_mistral_fiend_mount-a39cec8ea067.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/847ac023ec81/models/items/abaddon/mark_of_the_mistral_fiend_mount/mark_of_the_mistral_fiend_mount_color_tga_7b327b4c.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13461:ti9-cache-abbaddon-everblack-mount",
+      "itemId": 13461,
+      "name": "Mount of the Everblack",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9b09e1b38d53/models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9b09e1b38d53/models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_abbaddon_everblack_mount-3507711a4409.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9b09e1b38d53/models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount_color_psd_26d3e022.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/ti9_cache_abbaddon_everblack_mount/ti9_cache_abbaddon_everblack_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_everblack/abaddon_everblack_horse_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5691:netherax-nightmare-of-the-mist",
+      "itemId": 5691,
+      "name": "Netherax Nightmare of the Mist",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/de4e62f08038/models/items/abaddon/netherax_nightmare_of_the_mist/netherax_nightmare_of_the_mist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/de4e62f08038/models/items/abaddon/netherax_nightmare_of_the_mist/netherax_nightmare_of_the_mist.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/netherax_nightmare_of_the_mist/netherax_nightmare_of_the_mist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/netherax_nightmare_of_the_mist-c3842cb24d35.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/de4e62f08038/models/items/abaddon/netherax_nightmare_of_the_mist/netherax_nightmare_of_the_mist_color_tga_89c6b1fe.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7315:vespertine-guard-mount",
+      "itemId": 7315,
+      "name": "Nightsbane",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/daecfdbd1d2a/models/items/abaddon/vespertine_guard_mount/vespertine_guard_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/daecfdbd1d2a/models/items/abaddon/vespertine_guard_mount/vespertine_guard_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/vespertine_guard_mount/vespertine_guard_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespertine_guard_mount-9e03d56fdcf8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/daecfdbd1d2a/models/items/abaddon/vespertine_guard_mount/vespertine_guard_mount_color_tga_1fc0d285.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28360:wandering-poet-mount",
+      "itemId": 28360,
+      "name": "Phantom Balladeer  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/180a2aaa87b2/models/items/abaddon/wandering_poet_mount/wandering_poet_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/180a2aaa87b2/models/items/abaddon/wandering_poet_mount/wandering_poet_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/wandering_poet_mount/wandering_poet_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wandering_poet_mount-fdf7e3190ba2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/180a2aaa87b2/models/items/abaddon/wandering_poet_mount/wandering_poet_mount_color_tga_16a59dde.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/wandering_poet_mount/wandering_poet_mount.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/wandering_poet_mount/wandering_poet_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_2024_cc_wandering_poet_mount/abaddon_2024_cc_wandering_poet_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:8747:haze-whisperer-mount",
+      "itemId": 8747,
+      "name": "Ram of Enveloping Despair",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fbe1f3948bde/models/items/abaddon/haze_whisperer_mount/haze_whisperer_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/fbe1f3948bde/models/items/abaddon/haze_whisperer_mount/haze_whisperer_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/haze_whisperer_mount/haze_whisperer_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_whisperer_mount-2d6e7082a1dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fbe1f3948bde/models/items/abaddon/haze_whisperer_mount/haze_whisperer_mount_color_tga_ab923f1a.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7338:avarice-mount",
+      "itemId": 7338,
+      "name": "Rider of Avarice Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/098185375e50/models/items/abaddon/avarice_mount/avarice_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/098185375e50/models/items/abaddon/avarice_mount/avarice_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/avarice_mount/avarice_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/avarice_mount-2b12a64f7a85.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/098185375e50/models/items/abaddon/avarice_mount/avarice_mount_color_tga_c2b56b77.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5812:mount-drake-evercold",
+      "itemId": 5812,
+      "name": "Rimeheart the Doom Stallion",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c2e4af0d9398/models/items/abaddon/mount_drake_evercold/mount_drake_evercold.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/c2e4af0d9398/models/items/abaddon/mount_drake_evercold/mount_drake_evercold.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mount_drake_evercold/mount_drake_evercold.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mount_drake_evercold-08c03ad86795.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c2e4af0d9398/models/items/abaddon/mount_drake_evercold/mount_drake_evercold_color_tga_51831206.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6360:soulhoof",
+      "itemId": 6360,
+      "name": "Soulhoof",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/97cd0e8fc8ad/models/items/abaddon/soulhoof/soulhoof.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/97cd0e8fc8ad/models/items/abaddon/soulhoof/soulhoof.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/soulhoof/soulhoof.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soulhoof-1a5edc8d0ac9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/97cd0e8fc8ad/models/items/abaddon/soulhoof/soulhoof_color_tga_38e38ed2.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28625:abaddon-curse-of-demonic-crown-mount",
+      "itemId": 28625,
+      "name": "Spectral Shadow Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/3e34bf34e4eb/models/items/abaddon/abaddon_curse_of_demonic_crown_mount/abaddon_curse_of_demonic_crown_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/3e34bf34e4eb/models/items/abaddon/abaddon_curse_of_demonic_crown_mount/abaddon_curse_of_demonic_crown_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_curse_of_demonic_crown_mount/abaddon_curse_of_demonic_crown_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_curse_of_demonic_crown_mount-a1dfdb689d19.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/3e34bf34e4eb/models/items/abaddon/abaddon_curse_of_demonic_crown_mount/abaddon_curse_of_demonic_crown_mount_color_psd_75d957a1.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:9491:the-sunken-horseman-abaddon-mount",
+      "itemId": 9491,
+      "name": "Steed of the Brinebred Cavalier",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/b22efa3a987b/models/items/abaddon/the_sunken_horseman_abaddon_mount/the_sunken_horseman_abaddon_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/b22efa3a987b/models/items/abaddon/the_sunken_horseman_abaddon_mount/the_sunken_horseman_abaddon_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/the_sunken_horseman_abaddon_mount/the_sunken_horseman_abaddon_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_sunken_horseman_abaddon_mount-62a1e15fe919.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/b22efa3a987b/models/items/abaddon/the_sunken_horseman_abaddon_mount/the_sunken_horseman_abaddon_mount_color_tga_c774b9c8.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:22338:knight-of-the-abyss-mount",
+      "itemId": 22338,
+      "name": "Trenchknight  Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/b4b63af9d9be/models/items/abaddon/knight_of_the_abyss_mount/knight_of_the_abyss_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/b4b63af9d9be/models/items/abaddon/knight_of_the_abyss_mount/knight_of_the_abyss_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/knight_of_the_abyss_mount/knight_of_the_abyss_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/knight_of_the_abyss_mount-37722a5f6a49.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/b4b63af9d9be/models/items/abaddon/knight_of_the_abyss_mount/knight_of_the_abyss_mount_color_tga_b7170ffe.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6410:alliance-abba-mount",
+      "itemId": 6410,
+      "name": "Warhorse of the Demonic Vessel",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Mount",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9a963d0eb7f3/models/items/abaddon/alliance_abba_mount/alliance_abba_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9a963d0eb7f3/models/items/abaddon/alliance_abba_mount/alliance_abba_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/alliance_abba_mount/alliance_abba_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/alliance_abba_mount-e343bc319f9b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9a963d0eb7f3/models/items/abaddon/alliance_abba_mount/alliance_abba_mount_color_tga_cadc3ee.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:457:shoulders",
+      "itemId": 457,
+      "name": "Abaddons Shoulder Armor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ed90e1f87ef3/models/heroes/abaddon/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ed90e1f87ef3/models/heroes/abaddon/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders-a7517a394b67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ed90e1f87ef3/models/heroes/abaddon/abaddon_shoulders_color_psd_4004187b.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19418:soul-of-darkness-shoulder",
+      "itemId": 19418,
+      "name": "Blightfall  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/31c6522b7da5/models/items/abaddon/soul_of_darkness_shoulder/soul_of_darkness_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/31c6522b7da5/models/items/abaddon/soul_of_darkness_shoulder/soul_of_darkness_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/soul_of_darkness_shoulder/soul_of_darkness_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_of_darkness_shoulder-bc2150593deb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/31c6522b7da5/models/items/abaddon/soul_of_darkness_shoulder/soul_of_darkness_shoulder_color_tga_dd4fc6a5.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7367:promo-gilded-shoulder",
+      "itemId": 7367,
+      "name": "Compendium Rider of Avarice Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/a6dd0831f392/models/items/abaddon/promo_gilded_shoulder/promo_gilded_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/a6dd0831f392/models/items/abaddon/promo_gilded_shoulder/promo_gilded_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/promo_gilded_shoulder/promo_gilded_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/promo_gilded_shoulder-7fe200d2fdb2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/a6dd0831f392/models/items/abaddon/promo_gilded_shoulder/promo_gilded_shoulder_color_tga_c17b83af.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5815:shoulder-drake-evercold",
+      "itemId": 5815,
+      "name": "Drake Guard of the Frozen Apostle",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/431d44dfce84/models/items/abaddon/shoulder_drake_evercold/shoulder_drake_evercold.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/431d44dfce84/models/items/abaddon/shoulder_drake_evercold/shoulder_drake_evercold.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/shoulder_drake_evercold/shoulder_drake_evercold.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulder_drake_evercold-5e6a657fb6cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/431d44dfce84/models/items/abaddon/shoulder_drake_evercold/shoulder_drake_evercold_color_tga_43ebb017.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28487:abaddon-blackmist-reaper-shoulder",
+      "itemId": 28487,
+      "name": "Dreadmist Dragoon  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/71cbe9bd3d01/models/items/abaddon/abaddon_blackmist_reaper_shoulder/abaddon_blackmist_reaper_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/71cbe9bd3d01/models/items/abaddon/abaddon_blackmist_reaper_shoulder/abaddon_blackmist_reaper_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_blackmist_reaper_shoulder/abaddon_blackmist_reaper_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_blackmist_reaper_shoulder-469f7f07e473.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/71cbe9bd3d01/models/items/abaddon/abaddon_blackmist_reaper_shoulder/abaddon_blackmist_reaper_shoulder_color_tga_df98dafa.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7499:dotapit-s3-drowned-rider-shoulder",
+      "itemId": 7499,
+      "name": "Drowned Horsemans Pauldrons",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d060b148f350/models/items/abaddon/dotapit_s3_drowned_rider_shoulder/dotapit_s3_drowned_rider_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/d060b148f350/models/items/abaddon/dotapit_s3_drowned_rider_shoulder/dotapit_s3_drowned_rider_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/dotapit_s3_drowned_rider_shoulder/dotapit_s3_drowned_rider_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_drowned_rider_shoulder-47d8912a5832.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d060b148f350/models/items/abaddon/dotapit_s3_drowned_rider_shoulder/dotapit_s3_drowned_rider_shoulder_color_tga_5510dc84.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13263:abaddon-endless-night-shoulder",
+      "itemId": 13263,
+      "name": "Endless Night Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9f7f0e72dcb5/models/items/abaddon/abaddon_endless_night_shoulder/abaddon_endless_night_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9f7f0e72dcb5/models/items/abaddon/abaddon_endless_night_shoulder/abaddon_endless_night_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_endless_night_shoulder/abaddon_endless_night_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_endless_night_shoulder-4ff574213cee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9f7f0e72dcb5/models/items/abaddon/abaddon_endless_night_shoulder/abaddon_endless_night_shoulder_color_tga_59957c89.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:31227:breached-mist-lord-shoulder",
+      "itemId": 31227,
+      "name": "Mantle of the Blackmist  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f9233fff31f2/models/items/abaddon/breached_mist_lord_shoulder/breached_mist_lord_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f9233fff31f2/models/items/abaddon/breached_mist_lord_shoulder/breached_mist_lord_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/breached_mist_lord_shoulder/breached_mist_lord_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/breached_mist_lord_shoulder-a78fb3e65697.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f9233fff31f2/models/items/abaddon/breached_mist_lord_shoulder/breached_mist_lord_shoulder_color_psd_4f54583e.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19245:merciless-king-shoulder",
+      "itemId": 19245,
+      "name": "Merciless Mists  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca4d3bb8b44a/models/items/abaddon/merciless_king_shoulder/merciless_king_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ca4d3bb8b44a/models/items/abaddon/merciless_king_shoulder/merciless_king_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/merciless_king_shoulder/merciless_king_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/merciless_king_shoulder-0e4780d78ac0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ca4d3bb8b44a/models/items/abaddon/merciless_king_shoulder/merciless_king_shoulder_color_tga_ae34bb45.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5692:mistplates-of-ruin",
+      "itemId": 5692,
+      "name": "Mistplates of Ruin",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/45fa4de7c2ed/models/items/abaddon/mistplates_of_ruin/mistplates_of_ruin.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/45fa4de7c2ed/models/items/abaddon/mistplates_of_ruin/mistplates_of_ruin.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mistplates_of_ruin/mistplates_of_ruin.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mistplates_of_ruin-72531dd5f1ab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/45fa4de7c2ed/models/items/abaddon/mistplates_of_ruin/mistplates_of_ruin_color_tga_c9c01ce9.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:9493:the-sunken-horseman-abaddon-shoulder",
+      "itemId": 9493,
+      "name": "Pauldrons of the Brinebred Cavalier",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9210fd72c707/models/items/abaddon/the_sunken_horseman_abaddon_shoulder/the_sunken_horseman_abaddon_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9210fd72c707/models/items/abaddon/the_sunken_horseman_abaddon_shoulder/the_sunken_horseman_abaddon_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/the_sunken_horseman_abaddon_shoulder/the_sunken_horseman_abaddon_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_sunken_horseman_abaddon_shoulder-8bc29d66e86b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9210fd72c707/models/items/abaddon/the_sunken_horseman_abaddon_shoulder/the_sunken_horseman_abaddon_shoulder_color_tga_94610ad.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13459:ti9-cache-abbaddon-everblack-shoulder",
+      "itemId": 13459,
+      "name": "Pauldrons of the Everblack",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/dbd7e7f8d37f/models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/dbd7e7f8d37f/models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_abbaddon_everblack_shoulder-fb88b1d2f171.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/dbd7e7f8d37f/models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder_color_tga_6361f9ee.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/ti9_cache_abbaddon_everblack_shoulder/ti9_cache_abbaddon_everblack_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_everblack/abaddon_everblack_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7414:mark-of-the-mistral-fiend-shoulder",
+      "itemId": 7414,
+      "name": "Pauldrons of the Mistral Fiend",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/16f14c6120f4/models/items/abaddon/mark_of_the_mistral_fiend_shoulder/mark_of_the_mistral_fiend_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/16f14c6120f4/models/items/abaddon/mark_of_the_mistral_fiend_shoulder/mark_of_the_mistral_fiend_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mark_of_the_mistral_fiend_shoulder/mark_of_the_mistral_fiend_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mark_of_the_mistral_fiend_shoulder-7b60ba8946fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/16f14c6120f4/models/items/abaddon/mark_of_the_mistral_fiend_shoulder/mark_of_the_mistral_fiend_shoulder_color_tga_706834d0.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28359:wandering-poet-shoulders",
+      "itemId": 28359,
+      "name": "Phantom Balladeer  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7a27ad216eaf/models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/7a27ad216eaf/models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wandering_poet_shoulders-206ce324391a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7a27ad216eaf/models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders_color_tga_260b3f23.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/wandering_poet_shoulders/wandering_poet_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_2024_cc_wandering_poet_shoulder/abaddon_2024_cc_wandering_poet_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6411:alliance-abba-shoulder",
+      "itemId": 6411,
+      "name": "Prey of the Demonic Vessel",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/54c91012e81f/models/items/abaddon/alliance_abba_shoulder/alliance_abba_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/54c91012e81f/models/items/abaddon/alliance_abba_shoulder/alliance_abba_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/alliance_abba_shoulder/alliance_abba_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/alliance_abba_shoulder-8c4fb36ca6fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/54c91012e81f/models/items/abaddon/alliance_abba_shoulder/alliance_abba_shoulder_color_tga_655e4d0a.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7335:avarice-shoulders",
+      "itemId": 7335,
+      "name": "Rider of Avarice Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f6e090f572ee/models/items/abaddon/avarice_shoulders/avarice_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f6e090f572ee/models/items/abaddon/avarice_shoulders/avarice_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/avarice_shoulders/avarice_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/avarice_shoulders-cdf4559fc4bf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f6e090f572ee/models/items/abaddon/avarice_shoulders/avarice_shoulders_color_tga_c05b1339.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5829:shoulderplates-of-evil-spirit",
+      "itemId": 5829,
+      "name": "Shoulderplates of Evil Spirit",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/8951e321f25d/models/items/abaddon/shoulderplates_of_evil_spirit/shoulderplates_of_evil_spirit.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/8951e321f25d/models/items/abaddon/shoulderplates_of_evil_spirit/shoulderplates_of_evil_spirit.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/shoulderplates_of_evil_spirit/shoulderplates_of_evil_spirit.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulderplates_of_evil_spirit-5bb6ea53d91c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/8951e321f25d/models/items/abaddon/shoulderplates_of_evil_spirit/shoulderplates_of_evil_spirit_color_tga_1fbe3606.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:8748:haze-whisperer-shoulder",
+      "itemId": 8748,
+      "name": "Spaulders of Enveloping Despair",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/22beda709a1a/models/items/abaddon/haze_whisperer_shoulder/haze_whisperer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/22beda709a1a/models/items/abaddon/haze_whisperer_shoulder/haze_whisperer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/haze_whisperer_shoulder/haze_whisperer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_whisperer_shoulder-3dfb2d6ee560.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/22beda709a1a/models/items/abaddon/haze_whisperer_shoulder/haze_whisperer_shoulder_color_tga_3dd36f1a.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28601:abaddon-curse-of-demonic-crown-shoulder",
+      "itemId": 28601,
+      "name": "Spectral Shadow Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/02220e8a11b7/models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/02220e8a11b7/models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_curse_of_demonic_crown_shoulder-7775e0af9286.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/02220e8a11b7/models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder_color_psd_d552770c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/abaddon_curse_of_demonic_crown_shoulder/abaddon_curse_of_demonic_crown_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_demonic_crown/abaddon_demonic_crown_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:22337:knight-of-the-abyss-shoulder",
+      "itemId": 22337,
+      "name": "Trenchknight  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/69211cd82ef8/models/items/abaddon/knight_of_the_abyss_shoulder/knight_of_the_abyss_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/69211cd82ef8/models/items/abaddon/knight_of_the_abyss_shoulder/knight_of_the_abyss_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/knight_of_the_abyss_shoulder/knight_of_the_abyss_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/knight_of_the_abyss_shoulder-b9726d78a0ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/69211cd82ef8/models/items/abaddon/knight_of_the_abyss_shoulder/knight_of_the_abyss_shoulder_color_tga_9c63a3d2.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7316:vespertine-guard-shoulder",
+      "itemId": 7316,
+      "name": "Vespertine Guard Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f1fc0954d0b8/models/items/abaddon/vespertine_guard_shoulder/vespertine_guard_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f1fc0954d0b8/models/items/abaddon/vespertine_guard_shoulder/vespertine_guard_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/vespertine_guard_shoulder/vespertine_guard_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespertine_guard_shoulder-6cabebe83b33.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f1fc0954d0b8/models/items/abaddon/vespertine_guard_shoulder/vespertine_guard_shoulder_color_tga_769480eb.png"
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:454:weapon",
+      "itemId": 454,
+      "name": "Abaddons Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/e128ef34d212/models/heroes/abaddon/weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/e128ef34d212/models/heroes/abaddon/weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/abaddon/weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon-57e54de83e2d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/e128ef34d212/models/heroes/abaddon/abaddon_weapon_color_psd_d12b0725.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/abaddon/weapon.vmdl",
+        "modelPaths": [
+          "models/heroes/abaddon/weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7564:blackmist-blade",
+      "itemId": 7564,
+      "name": "Blackmist Blade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f36ae50b95be/models/items/abaddon/blackmist_blade/blackmist_blade.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/f36ae50b95be/models/items/abaddon/blackmist_blade/blackmist_blade.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/blackmist_blade/blackmist_blade.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/blackmist_blade-5228c9b355bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/f36ae50b95be/models/items/abaddon/blackmist_blade/blackmist_blade_color_tga_5ad13671.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/blackmist_blade/blackmist_blade.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/blackmist_blade/blackmist_blade.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/blackmist_blade/blackmist_blade.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6412:alliance-abba-weapon",
+      "itemId": 6412,
+      "name": "Blade of the Demonic Vessel",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7fe99eab0fc6/models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/7fe99eab0fc6/models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/alliance_abba_weapon-7ad45810bec3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7fe99eab0fc6/models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon_color_tga_820e8584.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/alliance_abba_weapon/alliance_abba_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_alliance/abaddon_aphotic_shield_alliance.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/abaddon/abaddon_alliance/abaddon_death_coil_alliance.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_death_coil.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19419:soul-of-darkness-weapon",
+      "itemId": 19419,
+      "name": "Blightfall  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9d5a9f289633/models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9d5a9f289633/models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/soul_of_darkness_weapon-d93184e79c9f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9d5a9f289633/models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon_color_psd_b6a63d64.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/soul_of_darkness_weapon/soul_of_darkness_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_soul_of_darkness/abaddon_soul_of_darkness_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7415:mark-of-the-mistral-fiend-weapon",
+      "itemId": 7415,
+      "name": "Call of the Mistral Fiend",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/34d34783785e/models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/34d34783785e/models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mark_of_the_mistral_fiend_weapon-ad3fb61deaa2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/34d34783785e/models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon_color_tga_e60ac32.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/mark_of_the_mistral_fiend_weapon/mark_of_the_mistral_fiend_weapon.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5830:cold-light-of-the-mist",
+      "itemId": 5830,
+      "name": "Cold Light of the Mist",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/815ddc12523e/models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/815ddc12523e/models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/cold_light_of_the_mist-5b4e4e06b89d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/815ddc12523e/models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist_color_tga_7e6cc110.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/cold_light_of_the_mist/cold_light_of_the_mist.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7368:promo-gilded-sword",
+      "itemId": 7368,
+      "name": "Compendium Rider of Avarice Sword",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9836075e226c/models/items/abaddon/promo_gilded_sword/promo_gilded_sword.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9836075e226c/models/items/abaddon/promo_gilded_sword/promo_gilded_sword.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/promo_gilded_sword/promo_gilded_sword.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/promo_gilded_sword-c9ce80a7ea70.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9836075e226c/models/items/abaddon/promo_gilded_sword/promo_gilded_sword_color_tga_9a9d45ab.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/promo_gilded_sword/promo_gilded_sword.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/promo_gilded_sword/promo_gilded_sword.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/promo_gilded_sword/promo_gilded_sword.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5690:darkstar-the-mistforged",
+      "itemId": 5690,
+      "name": "Darkstar the Mistforged",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/76624f8640d6/models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/76624f8640d6/models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/darkstar_the_mistforged-798df457d6c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/76624f8640d6/models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged_color_tga_2fa33879.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/darkstar_the_mistforged/darkstar_the_mistforged.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6793:demonedge-weapon",
+      "itemId": 6793,
+      "name": "Demon Edge",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/8f4dd6ba673a/models/items/abaddon/demonedge_weapon/demonedge_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/8f4dd6ba673a/models/items/abaddon/demonedge_weapon/demonedge_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/demonedge_weapon/demonedge_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/demonedge_weapon-86f581eef830.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/8f4dd6ba673a/models/items/abaddon/demonedge_weapon/demonedge_weapon_color_tga_de851841.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/demonedge_weapon/demonedge_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/demonedge_weapon/demonedge_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/demonedge_weapon/demonedge_weapon.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28497:abaddon-blackmist-reaper-weapon",
+      "itemId": 28497,
+      "name": "Dreadmist Dragoon  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/3fb6efc33d0f/models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/3fb6efc33d0f/models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_blackmist_reaper_weapon-106e3ff3d5df.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/3fb6efc33d0f/models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon_color_tga_8e7ef9a5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/abaddon_blackmist_reaper_weapon/abaddon_blackmist_reaper_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7500:dotapit-s3-drowned-rider-weapon",
+      "itemId": 7500,
+      "name": "Drowned Horsemans Axe and Buckler",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c9ba22348482/models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/c9ba22348482/models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dotapit_s3_drowned_rider_weapon-145697854798.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c9ba22348482/models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon_color_tga_34c2df7f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/dotapit_s3_drowned_rider_weapon/dotapit_s3_drowned_rider_weapon.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:6812:emissaryblade-weapon",
+      "itemId": 6812,
+      "name": "Emissarys Blade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fffb10cdb6cc/models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/fffb10cdb6cc/models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/emissaryblade_weapon-abf440652fc0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/fffb10cdb6cc/models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon_color_tga_5e8baf63.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/emissaryblade_weapon/emissaryblade_weapon.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13235:abaddon-endless-night-weapon",
+      "itemId": 13235,
+      "name": "Endless Night Sword",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/53c749f3f162/models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/53c749f3f162/models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_endless_night_weapon-b2118d725e60.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/53c749f3f162/models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon_color_tga_3676a77e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/abaddon_endless_night_weapon/abaddon_endless_night_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_endless/abaddon_endless_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:8742:weta-fractured-sword-of-eternity-weapon",
+      "itemId": 8742,
+      "name": "Fractured Sword",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/4df393e9e6a5/models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/4df393e9e6a5/models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weta_fractured_sword_of_eternity_weapon-29ae2f755e2b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/4df393e9e6a5/models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon_color_tga_48f6726c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/weta_fractured_sword_of_eternity_weapon/weta_fractured_sword_of_eternity_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:8749:haze-whisperer-weapon",
+      "itemId": 8749,
+      "name": "Halberd of Enveloping Despair",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/560f3ad326b5/models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/560f3ad326b5/models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_whisperer_weapon-33459b6bbb66.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/560f3ad326b5/models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon_color_tga_f53006c2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/haze_whisperer_weapon/haze_whisperer_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5792:hollow-ripper",
+      "itemId": 5792,
+      "name": "Hollow Ripper",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/665e37351d59/models/items/abaddon/hollow_ripper/hollow_ripper.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/665e37351d59/models/items/abaddon/hollow_ripper/hollow_ripper.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/hollow_ripper/hollow_ripper.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hollow_ripper-394e4187b5a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/665e37351d59/models/items/abaddon/hollow_ripper/hollow_ripper_color_tga_dbd60f6b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/hollow_ripper/hollow_ripper.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/hollow_ripper/hollow_ripper.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/hollow_ripper/hollow_ripper.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5837:sword-iceshard",
+      "itemId": 5837,
+      "name": "Iceshard",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0f0a492fdaa6/models/items/abaddon/sword_iceshard/sword_iceshard.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/0f0a492fdaa6/models/items/abaddon/sword_iceshard/sword_iceshard.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/sword_iceshard/sword_iceshard.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sword_iceshard-99fe6d29f70c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/0f0a492fdaa6/models/items/abaddon/sword_iceshard/sword_iceshard_color_tga_e8056d71.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/sword_iceshard/sword_iceshard.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/sword_iceshard/sword_iceshard.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/sword_iceshard/sword_iceshard.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5168:feathers-weapon",
+      "itemId": 5168,
+      "name": "Mace of the Chosen",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d5c58d00148c/models/items/abaddon/feathers/feathers_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/d5c58d00148c/models/items/abaddon/feathers/feathers_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/feathers/feathers_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/feathers_weapon-4a511d9b66b1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/d5c58d00148c/models/items/abaddon/feathers/abaddon_weapon_mace_color_psd_70eef551.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/feathers/feathers_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/feathers/feathers_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_feathers_mace/abaddon_aphotic_shield_mace.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/abaddon/abaddon_feathers_mace/abaddon_weapon_feathers_mace_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/feathers/abaddon_feather_mace_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_aphotic_shield.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:31226:breached-mist-lord-weapon",
+      "itemId": 31226,
+      "name": "Mantle of the Blackmist  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ae2f16907494/models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ae2f16907494/models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/breached_mist_lord_weapon-672157d2c0a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ae2f16907494/models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon_color_psd_b636c2fa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/breached_mist_lord_weapon/breached_mist_lord_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:19247:merciless-king-weapon",
+      "itemId": 19247,
+      "name": "Merciless Mists  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/3a3a808061f1/models/items/abaddon/merciless_king_weapon/merciless_king_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/3a3a808061f1/models/items/abaddon/merciless_king_weapon/merciless_king_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/merciless_king_weapon/merciless_king_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/merciless_king_weapon-0e62b1bf6fb0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/3a3a808061f1/models/items/abaddon/merciless_king_weapon/merciless_king_weapon_color_tga_7e110de5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/merciless_king_weapon/merciless_king_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/merciless_king_weapon/merciless_king_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/merciless_king_weapon/merciless_king_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5398:mistblade",
+      "itemId": 5398,
+      "name": "Mistblade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/e92cddeab4aa/models/items/abaddon/mistblade/mistblade.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/e92cddeab4aa/models/items/abaddon/mistblade/mistblade.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/mistblade/mistblade.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mistblade-4201c258dc76.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/e92cddeab4aa/models/items/abaddon/mistblade/mistblade_color_tga_1ea3db98.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/mistblade/mistblade.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/mistblade/mistblade.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/mistblade/mistblade.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5902:weapon-foxc",
+      "itemId": 5902,
+      "name": "Mistbreaker",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9d797980e312/models/items/abaddon/weapon_foxc/weapon_foxc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/9d797980e312/models/items/abaddon/weapon_foxc/weapon_foxc.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/weapon_foxc/weapon_foxc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_foxc-0ed985b61715.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/9d797980e312/models/items/abaddon/weapon_foxc/weapon_foxc_color_tga_4bc0a7ae.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/weapon_foxc/weapon_foxc.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/weapon_foxc/weapon_foxc.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/weapon_foxc/weapon_foxc.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28356:wandering-poet-weapon",
+      "itemId": 28356,
+      "name": "Phantom Balladeer  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/8bfff2204c5e/models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/8bfff2204c5e/models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wandering_poet_weapon-6cacd326f1da.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/8bfff2204c5e/models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon_color_tga_e00c07d4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/wandering_poet_weapon/wandering_poet_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7336:avarice-weapon",
+      "itemId": 7336,
+      "name": "Rider of Avarice Sword",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ddd6019c1313/models/items/abaddon/avarice_weapon/avarice_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/ddd6019c1313/models/items/abaddon/avarice_weapon/avarice_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/avarice_weapon/avarice_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/avarice_weapon-5f1bbcac7d3a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/ddd6019c1313/models/items/abaddon/avarice_weapon/avarice_weapon_color_tga_1455a882.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/avarice_weapon/avarice_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/avarice_weapon/avarice_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/avarice_weapon/avarice_weapon.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:13457:ti9-cache-abbaddon-everblack-weapon",
+      "itemId": 13457,
+      "name": "Scythe of the Everblack",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7f71a7bb423b/models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/7f71a7bb423b/models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_abbaddon_everblack_weapon-9ce88f2f7802.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/7f71a7bb423b/models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon_color_tga_8a5e474a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_everblack/abaddon_everblack_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/ti9_cache_abbaddon_everblack_weapon/ti9_cache_abbaddon_everblack_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:28603:abaddon-curse-of-demonic-crown-weapon",
+      "itemId": 28603,
+      "name": "Spectral Shadow Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c2bf03039a75/models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/c2bf03039a75/models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abaddon_curse_of_demonic_crown_weapon-45a4e92cac7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/c2bf03039a75/models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon_color_psd_2e6fabf7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/abaddon/abaddon_demonic_crown/abaddon_demonic_crown_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/abaddon_curse_of_demonic_crown_weapon/abaddon_curse_of_demonic_crown_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:9492:the-sunken-horseman-abaddon-weapon",
+      "itemId": 9492,
+      "name": "Sword of the Brinebred Cavalier",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/4b2b8563b2c1/models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/4b2b8563b2c1/models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_sunken_horseman_abaddon_weapon-5825e75fb664.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/4b2b8563b2c1/models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon_color_tga_c9eb7fc7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/the_sunken_horseman_abaddon_weapon/the_sunken_horseman_abaddon_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:22336:knight-of-the-abyss-weapon",
+      "itemId": 22336,
+      "name": "Trenchknight  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/01f1b8fc7d0f/models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/01f1b8fc7d0f/models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/knight_of_the_abyss_weapon-ad93969d6793.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/01f1b8fc7d0f/models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon_color_tga_5b97f3d2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/knight_of_the_abyss_weapon/knight_of_the_abyss_weapon_fx.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:5816:weapon-ravelord",
+      "itemId": 5816,
+      "name": "Twisted Ghostblade of the Frozen Apostle",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/81ee50bb68e9/models/items/abaddon/weapon_ravelord/weapon_ravelord.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/81ee50bb68e9/models/items/abaddon/weapon_ravelord/weapon_ravelord.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/weapon_ravelord/weapon_ravelord.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_ravelord-bfe5a768487a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/81ee50bb68e9/models/items/abaddon/weapon_ravelord/weapon_ravelord_color_tga_9566d506.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/weapon_ravelord/weapon_ravelord.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/weapon_ravelord/weapon_ravelord.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/weapon_ravelord/weapon_ravelord.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_abaddon:item-model:7313:vespertine-guard-blade",
+      "itemId": 7313,
+      "name": "Vespertine Guard Blade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/52827423e2f4/models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_abaddon/52827423e2f4/models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.glb"
+      ],
+      "modelPaths": [
+        "models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespertine_guard_blade-e623b17e5f4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_abaddon/52827423e2f4/models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade_color_tga_cacd4f9a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.vmdl",
+        "modelPaths": [
+          "models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/heroes/abaddon/abaddon_sword_default.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/models/items/abaddon/vespertine_guard_blade/vespertine_guard_blade.vsnap",
+            "type": "vsnap",
+            "role": "modifier:particle_snapshot"
+          },
+          {
+            "path": "particles/units/heroes/hero_abaddon/abaddon_blade.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20315:anointed-armor-of-ruination",
+      "name": "Anointed Armor of Ruination",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        5690,
+        5691,
+        5692,
+        5693,
+        5694
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/darkstar_the_mistforged-798df457d6c6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20486:arsenal-of-the-demonic-vessel",
+      "name": "Arsenal of the Demonic Vessel",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        6408,
+        6409,
+        6410,
+        6411,
+        6412
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/alliance_abbadon_loadingscreen-ea7e76fdcac0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:21884:blightfall",
+      "name": "Blightfall",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        19415,
+        19416,
+        19417,
+        19418,
+        19419
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/soul_of_darkness_back-68b64c39c222.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20691:compendium-rider-of-avarice",
+      "name": "Compendium Rider of Avarice",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        7364,
+        7365,
+        7366,
+        7367,
+        7368
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/promo_gilded_loading_screen-180ab93db25c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20344:darkness-wanderers-armor-set",
+      "name": "Darkness Wanderers Armor Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        5801,
+        5804,
+        5821,
+        5829,
+        5830
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/cloak_of_the_resentful_spectre-34554d320f0a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:29116:dreadmist-dragoon",
+      "name": "Dreadmist Dragoon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        28472,
+        28473,
+        28477,
+        28487,
+        28497
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/newbloom_2024_abaddon-1031b97c3ba8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20722:drowned-horseman",
+      "name": "Drowned Horseman",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        7496,
+        7497,
+        7498,
+        7499,
+        7500
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dotapit_s3_abaddon-3161d59d0c74.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:21413:echoes-of-the-everblack",
+      "name": "Echoes of the Everblack",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        13457,
+        13458,
+        13459,
+        13460,
+        13461
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_abbaddon_everblack_weapon-9ce88f2f7802.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:21369:endless-night",
+      "name": "Endless Night",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        13235,
+        13236,
+        13262,
+        13263,
+        13264
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/abaddon_endless_night_ls-2efe57fd21f6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20990:enveloping-despair",
+      "name": "Enveloping Despair",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        7457,
+        7464,
+        8747,
+        8748,
+        8749
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/haze_whisperer_loading_screen-d90a807e458c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:31213:mantle-of-the-blackmist",
+      "name": "Mantle of the Blackmist",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        31226,
+        31227,
+        31228,
+        31229,
+        31230
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/breached_mist_lord_weapon-672157d2c0a4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20864:mark-of-the-mistral-fiend",
+      "name": "Mark of the Mistral Fiend",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        7411,
+        7412,
+        7413,
+        7414,
+        7415
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/mark_of_the_mistral_fiend_loading_screen-ffbd6b2f8456.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:21856:merciless-mists",
+      "name": "Merciless Mists",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        19243,
+        19244,
+        19245,
+        19246,
+        19247
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/merciless_king_mount-73931ff9e9fa.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:30388:phantom-balladeer",
+      "name": "Phantom Balladeer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        28356,
+        28357,
+        28358,
+        28359,
+        28360
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/wandering_poet-5da154c9f42d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20692:rider-of-avarice",
+      "name": "Rider of Avarice",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        7334,
+        7335,
+        7336,
+        7337,
+        7338
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/avarice_rider_loading_screen-f62484d800f8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20333:sermon-of-the-frozen-apostle-set",
+      "name": "Sermon of the Frozen Apostle Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        5812,
+        5813,
+        5814,
+        5815,
+        5816
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/mount_drake_evercold-08c03ad86795.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:29117:spectral-shadow",
+      "name": "Spectral Shadow",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        28600,
+        28601,
+        28602,
+        28603,
+        28625
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/abaddon_curse_of_demonic_crown_head-27ea4ea75f24.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:21137:the-brinebred-cavalier",
+      "name": "The Brinebred Cavalier",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        9203,
+        9490,
+        9491,
+        9492,
+        9493
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/the_sunken_horseman_abaddon_back-d924f51d2221.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:22346:trenchknight",
+      "name": "Trenchknight",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        22336,
+        22337,
+        22338,
+        22340,
+        22341
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/knight_of_the_abyss_weapon-ad93969d6793.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_abaddon:core-set:20687:vespertine-guard",
+      "name": "Vespertine Guard",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "sourceItemIds": [
+        7312,
+        7313,
+        7314,
+        7315,
+        7316
+      ],
+      "slots": [
+        "back",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/vespertine_guard_helmet-be5c3edd47e3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 18054000,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 118
+  }
+}

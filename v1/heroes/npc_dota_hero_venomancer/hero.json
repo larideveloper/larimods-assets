@@ -1,0 +1,3451 @@
+{
+  "heroId": "npc_dota_hero_venomancer",
+  "sourceHeroId": "npc_dota_hero_venomancer",
+  "variantId": "default",
+  "heroName": "Venomancer",
+  "heroSlug": "venomancer",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/venomancer.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_venomancer/c6ab95e60ff0/models/heroes/venomancer/venomancer.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "itemId": 293,
+      "name": "Venomancers Arms",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3e276c810ef2/models/heroes/venomancer/venomancer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3e276c810ef2/models/heroes/venomancer/venomancer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_arms.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3e276c810ef2/models/heroes/venomancer/venomancer_arm_color_psd_e3c85703.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 291,
+      "name": "Venomancers Jaw",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/54e6e9d9b9fd/models/heroes/venomancer/venomancer_jaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/54e6e9d9b9fd/models/heroes/venomancer/venomancer_jaw.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_jaw.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/54e6e9d9b9fd/models/heroes/venomancer/venomancer_jaw_color_psd_c95f5ac8.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 292,
+      "name": "Venomancers Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3df10f9e8efe/models/heroes/venomancer/venomancer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3df10f9e8efe/models/heroes/venomancer/venomancer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3df10f9e8efe/models/heroes/venomancer/venomancer_wing_color_psd_525d77.png"
+    },
+    {
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "itemId": 294,
+      "name": "Venomancers Tail",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/158daddaae89/models/heroes/venomancer/venomancer_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/158daddaae89/models/heroes/venomancer/venomancer_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_tail.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/158daddaae89/models/heroes/venomancer/venomancer_tail_color_psd_9b1fb412.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6940:acidflytrap-tenticles",
+      "itemId": 6940,
+      "name": "Acidic Tentacles of the Hydra",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acidflytrap_tenticles-05f3adce32a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles_color_tga_7f27d340.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_tentacles/acid_hunterstyle_tentacles",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_tentacles/acid_poisonstyle_tentacles",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6940:acidflytrap-tenticles:style-1",
+      "itemId": 6940,
+      "name": "Acidic Tentacles of the Hydra - Style 2",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_hunterstyle_tentacles-c2d2a7c0b7df.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles_color_tga_7f27d340.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_tentacles/acid_hunterstyle_tentacles",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_tentacles/acid_poisonstyle_tentacles",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6940:acidflytrap-tenticles:style-2",
+      "itemId": 6940,
+      "name": "Acidic Tentacles of the Hydra - Style 3",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_poisonstyle_tentacles-c127c1b04cb1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d863510d02e6/models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles_color_tga_7f27d340.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_tenticles/acidflytrap_tenticles",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_tentacles/acid_hunterstyle_tentacles",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Tentacles of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_tentacles/acid_poisonstyle_tentacles",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:5533:veno-2021-immortal-arms",
+      "itemId": 5533,
+      "name": "Aktoks Emissaries",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/735ae5508843/models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/735ae5508843/models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/veno_2021_immortal_arms-59e7edb5b91a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/735ae5508843/models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms_color_psd_56558300.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_venomancer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/events/anniversary_10th/anniversary_10th_hat_ambient_npc_dota_hero_venomancer_2021_immortal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/veno_2021_immortal_arms/veno_2021_immortal_poison_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_poison_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9917:ti8-veno-stalagmite-crawler-arms",
+      "itemId": 9917,
+      "name": "Appendages of the Molokau Stalker",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/7be3b0a78533/models/items/venomancer/ti8_veno_stalagmite_crawler_arms/ti8_veno_stalagmite_crawler_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/7be3b0a78533/models/items/venomancer/ti8_veno_stalagmite_crawler_arms/ti8_veno_stalagmite_crawler_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_veno_stalagmite_crawler_arms/ti8_veno_stalagmite_crawler_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_veno_stalagmite_crawler_arms-1fb8e818eb79.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/7be3b0a78533/models/items/venomancer/ti8_veno_stalagmite_crawler_arms/ti8_veno_stalagmite_crawler_arms_color_tga_5af559bc.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30328:mechamancer-arms",
+      "itemId": 30328,
+      "name": "Mechamancer  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/36c83ce97d0f/models/items/venomancer/mechamancer/mechamancer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/36c83ce97d0f/models/items/venomancer/mechamancer/mechamancer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/mechamancer/mechamancer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mechamancer_arms-76be0dce8a36.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/36c83ce97d0f/models/items/venomancer/mechamancer/mechamancer_arms_color_tga_d191eb38.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/mechamancer/mechamancer_arms.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/mechamancer/mechamancer_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/mechamancer/mechamancer_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:13084:venomancer-millipede-arms",
+      "itemId": 13084,
+      "name": "Nacreous Stag Claws",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/4adfa2f328b6/models/items/venomancer/venomancer_millipede_arms/venomancer_millipede_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/4adfa2f328b6/models/items/venomancer/venomancer_millipede_arms/venomancer_millipede_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_millipede_arms/venomancer_millipede_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_millipede_arms-8946627d1e28.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/4adfa2f328b6/models/items/venomancer/venomancer_millipede_arms/venomancer_millipede_arms_color_tga_502a5be8.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9896:ferocious-toxicants-embrace-arms",
+      "itemId": 9896,
+      "name": "Spitters of the Ferocious Toxicant",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/bfbc51a27cf3/models/items/venomancer/ferocious_toxicants_embrace_arms/ferocious_toxicants_embrace_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/bfbc51a27cf3/models/items/venomancer/ferocious_toxicants_embrace_arms/ferocious_toxicants_embrace_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ferocious_toxicants_embrace_arms/ferocious_toxicants_embrace_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferocious_toxicants_embrace_arms-22dcc5ff033a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/bfbc51a27cf3/models/items/venomancer/ferocious_toxicants_embrace_arms/ferocious_toxicants_embrace_arms_color_tga_23f43787.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9334:venomancer-hydra-switch-color-arms",
+      "itemId": 9334,
+      "name": "Spitters of the Virulent Krait",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/84fff64ce785/models/items/venomancer/venomancer_hydra_switch_color_arms/venomancer_hydra_switch_color_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/84fff64ce785/models/items/venomancer/venomancer_hydra_switch_color_arms/venomancer_hydra_switch_color_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_hydra_switch_color_arms/venomancer_hydra_switch_color_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_hydra_switch_color_arms-8f8708922d25.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/84fff64ce785/models/items/venomancer/venomancer_hydra_switch_color_arms/venomancer_hydra_switch_color_arms_color_tga_bbc6c2b6.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:8699:poison-touch-arms",
+      "itemId": 8699,
+      "name": "Stingers of the Fatal Bloom",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/62ee58b1e074/models/items/venomancer/poison_touch_arms/poison_touch_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/62ee58b1e074/models/items/venomancer/poison_touch_arms/poison_touch_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/poison_touch_arms/poison_touch_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/poison_touch_arms-62ca40be46c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/62ee58b1e074/models/items/venomancer/poison_touch_arms/poison_touch_arms_color_tga_d98494de.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:36253:venomancer-poisonous-assassin-arms-alt",
+      "itemId": 36253,
+      "name": "The Toxic Tribunal",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/88a7ebf3fbc8/models/items/venomancer/venomancer_poisonous_assassin_arms_alt/venomancer_poisonous_assassin_arms_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/88a7ebf3fbc8/models/items/venomancer/venomancer_poisonous_assassin_arms_alt/venomancer_poisonous_assassin_arms_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_arms_alt/venomancer_poisonous_assassin_arms_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_poisonous_assassin_arms_alt-a8a452e3ec5b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/88a7ebf3fbc8/models/items/venomancer/venomancer_poisonous_assassin_arms_alt/venomancer_poisonous_assassin_arms_alt_color_psd_580b6d7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/venomancer_poisonous_assassin_arms_alt/venomancer_poisonous_assassin_arms_alt.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/venomancer_poisonous_assassin_arms_alt/venomancer_poisonous_assassin_arms_alt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/venomancer_poisonous_assassin_alt/venomancer_poisonous_assassin_alt_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30671:venomancer-poisonous-assassin-arms",
+      "itemId": 30671,
+      "name": "The Venomous Verdicts",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/b79debf6bbcc/models/items/venomancer/venomancer_poisonous_assassin_arms/venomancer_poisonous_assassin_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/b79debf6bbcc/models/items/venomancer/venomancer_poisonous_assassin_arms/venomancer_poisonous_assassin_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_arms/venomancer_poisonous_assassin_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/2023poisonous_assassin-6b521b949048.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/b79debf6bbcc/models/items/venomancer/venomancer_poisonous_assassin_arms/venomancer_poisonous_assassin_arms_color_psd_9c3f050.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/venomancer_poisonous_assassin_arms/venomancer_poisonous_assassin_arms.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/venomancer_poisonous_assassin_arms/venomancer_poisonous_assassin_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/venomancer_poisonous_assassin/venomancer_poisonous_assassin_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:293:venomancer-arms",
+      "itemId": 293,
+      "name": "Venomancers Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3e276c810ef2/models/heroes/venomancer/venomancer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3e276c810ef2/models/heroes/venomancer/venomancer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_arms-b37bf1a34dd1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3e276c810ef2/models/heroes/venomancer/venomancer_arm_color_psd_e3c85703.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6642:deathbringer-arms",
+      "itemId": 6642,
+      "name": "Venomous Deathbringer Stingers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/fcdb955d7e04/models/items/venomancer/deathbringer_arms/deathbringer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/fcdb955d7e04/models/items/venomancer/deathbringer_arms/deathbringer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/deathbringer_arms/deathbringer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathbringer_arms-94b1ef316684.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/fcdb955d7e04/models/items/venomancer/deathbringer_arms/deathbringer_arms_color_tga_f77e1309.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:12505:ti8-venomancer-chomper-arms",
+      "itemId": 12505,
+      "name": "Verdant Predator Spitters",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/244afee29ae5/models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/244afee29ae5/models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_venomancer_chomper_arms-09dca2fd5dff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/244afee29ae5/models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms_color_tga_d94106da.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/ti8_venomancer_chomper_arms/ti8_venomancer_chomper_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/veno_chomper/veno_chomper_spitter_mouth_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:19735:venomancer-slime-arms",
+      "itemId": 19735,
+      "name": "Vote Only Venomancer Slime Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Venomancer StingerLimbs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/dc1cf0e973e4/models/items/venomancer/venomancer_slime_arms/venomancer_slime_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/dc1cf0e973e4/models/items/venomancer/venomancer_slime_arms/venomancer_slime_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_slime_arms/venomancer_slime_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_slime_arms-b0db98a1b70a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/dc1cf0e973e4/models/items/venomancer/venomancer_slime_arms/venomancer_slime_arms_color_tga_32903783.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6933:acidicflytrap-head",
+      "itemId": 6933,
+      "name": "Acidic Mandible of the Hydra",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acidicflytrap_head-b823cb88943a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head_color_tga_8bdd4da7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Mandible of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidicflytrap_head/acidicflytrap_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Mandible of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_head/acid_hunterstyle_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Mandible of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_head/acid_poisonstyle_head",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6933:acidicflytrap-head:style-1",
+      "itemId": 6933,
+      "name": "Acidic Mandible of the Hydra - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_hunterstyle_head-4320b70aa510.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head_color_tga_8bdd4da7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Mandible of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidicflytrap_head/acidicflytrap_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Mandible of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_head/acid_hunterstyle_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Mandible of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_head/acid_poisonstyle_head",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6933:acidicflytrap-head:style-2",
+      "itemId": 6933,
+      "name": "Acidic Mandible of the Hydra - Style 3",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_poisonstyle_head-a1966af8a882.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/db70ed39007c/models/items/venomancer/acidicflytrap_head/acidicflytrap_head_color_tga_8bdd4da7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidicflytrap_head/acidicflytrap_head.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Mandible of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidicflytrap_head/acidicflytrap_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Mandible of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_head/acid_hunterstyle_head",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Mandible of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_head/acid_poisonstyle_head",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:8690:poison-touch-head",
+      "itemId": 8690,
+      "name": "Crest of the Fatal Bloom",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/68d683811019/models/items/venomancer/poison_touch_head/poison_touch_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/68d683811019/models/items/venomancer/poison_touch_head/poison_touch_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/poison_touch_head/poison_touch_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/poison_touch_head-0c057dbb5471.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/68d683811019/models/items/venomancer/poison_touch_head/poison_touch_head_color_tga_eea0f7ec.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9894:ferocious-toxicants-embrace-head",
+      "itemId": 9894,
+      "name": "Crest of the Ferocious Toxicant",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/e31e8d72c935/models/items/venomancer/ferocious_toxicants_embrace_head/ferocious_toxicants_embrace_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/e31e8d72c935/models/items/venomancer/ferocious_toxicants_embrace_head/ferocious_toxicants_embrace_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ferocious_toxicants_embrace_head/ferocious_toxicants_embrace_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferocious_toxicants_embrace_head-d1db8f9bb2c6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/e31e8d72c935/models/items/venomancer/ferocious_toxicants_embrace_head/ferocious_toxicants_embrace_head_color_tga_2cc7f3c0.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9558:veno-ti8-immortal-head",
+      "itemId": 9558,
+      "name": "Cult of Aktok",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/1762cd8e2f4b/models/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/1762cd8e2f4b/models/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/veno_ti8_immortal_head-4a0866bf2482.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/1762cd8e2f4b/models/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_head_color_psd_1826a25e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_gale.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_gale_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/veno_ti8_immortal_head/veno_ti8_immortal_gale_mouth.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_gale_poison_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_venomous_gale.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_venomous_gale_mouth.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9916:ti8-veno-stalagmite-crawler-head",
+      "itemId": 9916,
+      "name": "Head of the Molokau Stalker",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/4d8bff473ab2/models/items/venomancer/ti8_veno_stalagmite_crawler_head/ti8_veno_stalagmite_crawler_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/4d8bff473ab2/models/items/venomancer/ti8_veno_stalagmite_crawler_head/ti8_veno_stalagmite_crawler_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_veno_stalagmite_crawler_head/ti8_veno_stalagmite_crawler_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_veno_stalagmite_crawler_head-5b22d56c6834.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/4d8bff473ab2/models/items/venomancer/ti8_veno_stalagmite_crawler_head/ti8_veno_stalagmite_crawler_head_color_tga_761da753.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9336:venomancer-hydra-switch-color-head",
+      "itemId": 9336,
+      "name": "Jaws of the Virulent Krait",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/29bc1ffd6afb/models/items/venomancer/venomancer_hydra_switch_color_head/venomancer_hydra_switch_color_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/29bc1ffd6afb/models/items/venomancer/venomancer_hydra_switch_color_head/venomancer_hydra_switch_color_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_hydra_switch_color_head/venomancer_hydra_switch_color_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_hydra_switch_color_head-209fd5757cdb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/29bc1ffd6afb/models/items/venomancer/venomancer_hydra_switch_color_head/venomancer_hydra_switch_color_head_color_tga_92cf4c24.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30325:mechamancer-head",
+      "itemId": 30325,
+      "name": "Mechamancer  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/94bc0b9aaaf4/models/items/venomancer/mechamancer/mechamancer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/94bc0b9aaaf4/models/items/venomancer/mechamancer/mechamancer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/mechamancer/mechamancer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mechamancer_head-73cef3dd7c61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/94bc0b9aaaf4/models/items/venomancer/mechamancer/mechamancer_head_color_tga_be1ae4cf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/mechamancer/mechamancer_head.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/mechamancer/mechamancer_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/mechamancer/mechamancer_gale.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/mechamancer/mechamancer_gale_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/mechamancer/mechamancer_gale_mouth.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/mechamancer/mechamancer_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_gale_poison_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_venomous_gale.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_venomous_gale_mouth.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:13106:venomancer-millipede-head",
+      "itemId": 13106,
+      "name": "Nacreous Stag Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/673655b5b833/models/items/venomancer/venomancer_millipede_head/venomancer_millipede_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/673655b5b833/models/items/venomancer/venomancer_millipede_head/venomancer_millipede_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_millipede_head/venomancer_millipede_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_millipede_head-95d63b4d1f8c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/673655b5b833/models/items/venomancer/venomancer_millipede_head/venomancer_millipede_head_color_tga_7ef28ce4.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30672:venomancer-poisonous-assassin-head",
+      "itemId": 30672,
+      "name": "The Venomous Vizard",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f3a150f40df2/models/items/venomancer/venomancer_poisonous_assassin_head/venomancer_poisonous_assassin_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/f3a150f40df2/models/items/venomancer/venomancer_poisonous_assassin_head/venomancer_poisonous_assassin_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_head/venomancer_poisonous_assassin_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/2023poisonous_assassin_head-e25995de28dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f3a150f40df2/models/items/venomancer/venomancer_poisonous_assassin_head/venomancer_poisonous_assassin_head_color_psd_54106087.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/venomancer_poisonous_assassin_head/venomancer_poisonous_assassin_head.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/venomancer_poisonous_assassin_head/venomancer_poisonous_assassin_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/venomancer_poisonous_assassin/venomancer_poisonous_assassin_head_eyes_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:36248:venomancer-poisonous-assassin-head-alt",
+      "itemId": 36248,
+      "name": "The Virulent Vizard",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3846d86aef44/models/items/venomancer/venomancer_poisonous_assassin_head_alt/venomancer_poisonous_assassin_head_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3846d86aef44/models/items/venomancer/venomancer_poisonous_assassin_head_alt/venomancer_poisonous_assassin_head_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_head_alt/venomancer_poisonous_assassin_head_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_poisonous_assassin_head_alt-b1f52d226cd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3846d86aef44/models/items/venomancer/venomancer_poisonous_assassin_head_alt/2023poisonous_assassin_head_alt_color_psd_8084ecd5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/venomancer_poisonous_assassin_head_alt/venomancer_poisonous_assassin_head_alt.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/venomancer_poisonous_assassin_head_alt/venomancer_poisonous_assassin_head_alt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/venomancer_poisonous_assassin_alt/venomancer_poisonous_assassin_alt_head_eyes_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:291:venomancer-jaw",
+      "itemId": 291,
+      "name": "Venomancers Jaw",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/54e6e9d9b9fd/models/heroes/venomancer/venomancer_jaw.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/54e6e9d9b9fd/models/heroes/venomancer/venomancer_jaw.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_jaw.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_jaw-b14c19b71142.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/54e6e9d9b9fd/models/heroes/venomancer/venomancer_jaw_color_psd_c95f5ac8.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6643:deathbringer-head",
+      "itemId": 6643,
+      "name": "Venomous Deathbringer Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f632099b7009/models/items/venomancer/deathbringer_head/deathbringer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/f632099b7009/models/items/venomancer/deathbringer_head/deathbringer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/deathbringer_head/deathbringer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathbringer_head-908eb86b3a85.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f632099b7009/models/items/venomancer/deathbringer_head/deathbringer_head_color_tga_65b5be8b.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:12504:ti8-venomancer-chomper-head",
+      "itemId": 12504,
+      "name": "Verdant Predator Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d34406394308/models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/d34406394308/models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_venomancer_chomper_head-2f562a3d352d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d34406394308/models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head_color_tga_224f91eb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/ti8_venomancer_chomper_head/ti8_venomancer_chomper_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/veno_chomper/veno_chomper_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:19734:venomancer-slime-head",
+      "itemId": 19734,
+      "name": "Vote Only Venomancer Slime Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/9f8de2f2b58d/models/items/venomancer/venomancer_slime_head/venomancer_slime_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/9f8de2f2b58d/models/items/venomancer/venomancer_slime_head/venomancer_slime_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_slime_head/venomancer_slime_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_slime_head-0d0329a88303.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/9f8de2f2b58d/models/items/venomancer/venomancer_slime_head/venomancer_slime_head_color_tga_c84408d9.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6943:acidflytrap-shoulders",
+      "itemId": 6943,
+      "name": "Acidic Wings of the Hydra",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acidflytrap_shoulders-3ea3a7084f87.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders_color_tga_f862c4f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Wings of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Wings of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_shoulders/acid_hunterstyle_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Wings of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_shoulders/acid_poisonstyle_shoulders",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6943:acidflytrap-shoulders:style-1",
+      "itemId": 6943,
+      "name": "Acidic Wings of the Hydra - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_hunterstyle_shoulders-aaa2efacb04b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders_color_tga_f862c4f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Wings of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Wings of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_shoulders/acid_hunterstyle_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Wings of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_shoulders/acid_poisonstyle_shoulders",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6943:acidflytrap-shoulders:style-2",
+      "itemId": 6943,
+      "name": "Acidic Wings of the Hydra - Style 3",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_poisonstyle_shoulders-c38f92f37ef6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a88a66465012/models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders_color_tga_f862c4f8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Wings of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_shoulders/acidflytrap_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Wings of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_shoulders/acid_hunterstyle_shoulders",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Wings of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_shoulders/acid_poisonstyle_shoulders",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:5534:veno-2021-immortal-shoulders",
+      "itemId": 5534,
+      "name": "Aktoks Armor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/432444dc2d3a/models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/432444dc2d3a/models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/veno_2021_immortal_shoulders-66cfbd5ab480.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/432444dc2d3a/models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders_color_tga_dea56beb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/veno_2021_immortal_shoulders/veno_2021_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/veno_2021_immortal_back/veno_2021_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30326:mechamancer-shoulders",
+      "itemId": 30326,
+      "name": "Mechamancer  Back",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a481a91f2401/models/items/venomancer/mechamancer/mechamancer_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/a481a91f2401/models/items/venomancer/mechamancer/mechamancer_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/mechamancer/mechamancer_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mechamancer_shoulders-e82a74b07817.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a481a91f2401/models/items/venomancer/mechamancer/mechamancer_shoulders_color_tga_cea40456.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/mechamancer/mechamancer_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/mechamancer/mechamancer_shoulders.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/mechamancer/mechamancer_shoulders_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:13107:venomancer-millipede-shoulder",
+      "itemId": 13107,
+      "name": "Nacreous Stag Back",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/c6a0b64ccaba/models/items/venomancer/venomancer_millipede_shoulder/venomancer_millipede_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/c6a0b64ccaba/models/items/venomancer/venomancer_millipede_shoulder/venomancer_millipede_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_millipede_shoulder/venomancer_millipede_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_millipede_shoulder-8472e4e44da4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/c6a0b64ccaba/models/items/venomancer/venomancer_millipede_shoulder/venomancer_abyssworm_shoulders_meterorite_crystals_color_tga_874102c3.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9915:ti8-veno-stalagmite-crawler-shoulder",
+      "itemId": 9915,
+      "name": "Plates of the Molokau Stalker",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3f7f99dc166c/models/items/venomancer/ti8_veno_stalagmite_crawler_shoulder/ti8_veno_stalagmite_crawler_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3f7f99dc166c/models/items/venomancer/ti8_veno_stalagmite_crawler_shoulder/ti8_veno_stalagmite_crawler_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_veno_stalagmite_crawler_shoulder/ti8_veno_stalagmite_crawler_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_veno_stalagmite_crawler_shoulder-b483ff3b05a5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3f7f99dc166c/models/items/venomancer/ti8_veno_stalagmite_crawler_shoulder/ti8_veno_stalagmite_crawler_shoulder_color_tga_f8a76fb2.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9895:ferocious-toxicants-embrace-shoulder",
+      "itemId": 9895,
+      "name": "Spines of the Ferocious Toxicant",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/ca11d928aea5/models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/ca11d928aea5/models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferocious_toxicants_embrace_shoulder-c07ec1d7c680.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/ca11d928aea5/models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder_color_tga_bb10e9d9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/ferocious_toxicants_embrace_shoulder/ferocious_toxicants_embrace_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/toxicant/venomancter_toxicant_belly.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/toxicant/venomancter_toxicant_shoulder_master.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9335:venomancer-hydra-switch-color-shoulder",
+      "itemId": 9335,
+      "name": "Spines of the Virulent Krait",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/debcc2c371d7/models/items/venomancer/venomancer_hydra_switch_color_shoulder/venomancer_hydra_switch_color_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/debcc2c371d7/models/items/venomancer/venomancer_hydra_switch_color_shoulder/venomancer_hydra_switch_color_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_hydra_switch_color_shoulder/venomancer_hydra_switch_color_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_hydra_switch_color_shoulder-c147708b9f57.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/debcc2c371d7/models/items/venomancer/venomancer_hydra_switch_color_shoulder/venomancer_hydra_switch_color_shoulder_color_tga_3e581eb7.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30599:venomancer-poisonous-assassin-shoulder",
+      "itemId": 30599,
+      "name": "The Venomous Vestments",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/ee2475cdf028/models/items/venomancer/venomancer_poisonous_assassin_shoulder/venomancer_poisonous_assassin_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/ee2475cdf028/models/items/venomancer/venomancer_poisonous_assassin_shoulder/venomancer_poisonous_assassin_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_shoulder/venomancer_poisonous_assassin_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/2023poisonous_assassin_should-b38cfab27201.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/ee2475cdf028/models/items/venomancer/venomancer_poisonous_assassin_shoulder/venomancer_poisonous_assassin_shoulders_color_psd_4f99f49c.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:36251:venomancer-poisonous-assassin-shoulder-alt",
+      "itemId": 36251,
+      "name": "The Virulent Vestments",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/7605aa7026e6/models/items/venomancer/venomancer_poisonous_assassin_shoulder_alt/venomancer_poisonous_assassin_shoulder_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/7605aa7026e6/models/items/venomancer/venomancer_poisonous_assassin_shoulder_alt/venomancer_poisonous_assassin_shoulder_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_shoulder_alt/venomancer_poisonous_assassin_shoulder_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_poisonous_assassin_shoulder_alt-6782e099cda6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/7605aa7026e6/models/items/venomancer/venomancer_poisonous_assassin_shoulder_alt/2023poisonous_assassin_shoulders_alt_color_psd_52d1600d.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:292:venomancer-shoulder",
+      "itemId": 292,
+      "name": "Venomancers Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3df10f9e8efe/models/heroes/venomancer/venomancer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3df10f9e8efe/models/heroes/venomancer/venomancer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_shoulder-be896dd99690.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3df10f9e8efe/models/heroes/venomancer/venomancer_wing_color_psd_525d77.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6645:deathbringer-shoulders",
+      "itemId": 6645,
+      "name": "Venomous Deathbringer Hood",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f3dbe808e670/models/items/venomancer/deathbringer_shoulders/deathbringer_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/f3dbe808e670/models/items/venomancer/deathbringer_shoulders/deathbringer_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/deathbringer_shoulders/deathbringer_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathbringer_shoulders-87417ae1aa04.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f3dbe808e670/models/items/venomancer/deathbringer_shoulders/deathbringer_shoulders_color_tga_49d481fa.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:12506:ti8-venomancer-chomper-shoulder",
+      "itemId": 12506,
+      "name": "Verdant Predator Back",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/e9afcec08855/models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/e9afcec08855/models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_venomancer_chomper_shoulder-6ff900e6442c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/e9afcec08855/models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder_color_tga_188d342e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/ti8_venomancer_chomper_shoulder/ti8_venomancer_chomper_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/veno_ti8_chomper/veno_ti8_chomper_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:19733:venomancer-slime-shoulder",
+      "itemId": 19733,
+      "name": "Vote Only Venomancer Slime Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/cecc6ffcb4b9/models/items/venomancer/venomancer_slime_shoulder/venomancer_slime_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/cecc6ffcb4b9/models/items/venomancer/venomancer_slime_shoulder/venomancer_slime_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_slime_shoulder/venomancer_slime_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_slime_shoulder-d2d4acd6c1c2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/cecc6ffcb4b9/models/items/venomancer/venomancer_slime_shoulder/venomancer_slime_shoulder_color_tga_4fd873df.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:8700:poison-touch-shoulder",
+      "itemId": 8700,
+      "name": "Wings of the Fatal Bloom",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/5bb9b51b34c7/models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/5bb9b51b34c7/models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/poison_touch_shoulder_style0-835e5549de7d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/5bb9b51b34c7/models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder_color_tga_8de40fc8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/poison_touch_shoulder/venon_ambient_poison_touch_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Death Poison Shoulder 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/poison_touch_shoulder/poison_touch_shoulder_style0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Death Poison Shoulder 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/poison_touch_shoulder/poison_touch_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/venomancer/poison_touch_shoulder/venon_ambient_poison_touch_shoulder.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:8700:poison-touch-shoulder:style-1",
+      "itemId": 8700,
+      "name": "Wings of the Fatal Bloom - Style 2",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/5bb9b51b34c7/models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/5bb9b51b34c7/models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/poison_touch_shoulder_style1-c50274cc5d07.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/5bb9b51b34c7/models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder_color_tga_8de40fc8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/poison_touch_shoulder/poison_touch_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/poison_touch_shoulder/venon_ambient_poison_touch_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Death Poison Shoulder 0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/poison_touch_shoulder/poison_touch_shoulder_style0",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Death Poison Shoulder 1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/poison_touch_shoulder/poison_touch_shoulder_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/venomancer/poison_touch_shoulder/venon_ambient_poison_touch_shoulder.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6942:acidflytrap-tail",
+      "itemId": 6942,
+      "name": "Acidic Tail of the Hydra",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acidflytrap_tail-0948cb8c3b9a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail_color_tga_46469fcc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Tail of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_tail/acidflytrap_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Tail of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_tail/acid_hunterstyle_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Tail of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_tail/acid_poisonstyle_tail",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6942:acidflytrap-tail:style-1",
+      "itemId": 6942,
+      "name": "Acidic Tail of the Hydra - Style 2",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_hunterstyle_tail-1a276a97bb7c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail_color_tga_46469fcc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Tail of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_tail/acidflytrap_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Tail of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_tail/acid_hunterstyle_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Tail of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_tail/acid_poisonstyle_tail",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6942:acidflytrap-tail:style-2",
+      "itemId": 6942,
+      "name": "Acidic Tail of the Hydra - Style 3",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/acid_poisonstyle_tail-8b950c51ecfa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/2952b3940997/models/items/venomancer/acidflytrap_tail/acidflytrap_tail_color_tga_46469fcc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/acidflytrap_tail/acidflytrap_tail.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Dota Item Acidic Tail of the Hydra Style0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/acidflytrap_tail/acidflytrap_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Dota Item Acidic Tail of the Hydra Style1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/acid_hunterstyle_tail/acid_hunterstyle_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Dota Item Acidic Tail of the Hydra Style2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/items/venomancer/acid_poisonstyle_tail/acid_poisonstyle_tail",
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30327:mechamancer-tail",
+      "itemId": 30327,
+      "name": "Mechamancer  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a7e7a94d4ef8/models/items/venomancer/mechamancer/mechamancer_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/a7e7a94d4ef8/models/items/venomancer/mechamancer/mechamancer_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/mechamancer/mechamancer_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mechamancer_tail-5d5050520b27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/a7e7a94d4ef8/models/items/venomancer/mechamancer/mechamancer_tail_color_tga_ade399a6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/mechamancer/mechamancer_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/mechamancer/mechamancer_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/mechamancer/mechamancer_tail_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:13108:venomancer-millipede-tail",
+      "itemId": 13108,
+      "name": "Nacreous Stag Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d73a72d670f3/models/items/venomancer/venomancer_millipede_tail/venomancer_millipede_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/d73a72d670f3/models/items/venomancer/venomancer_millipede_tail/venomancer_millipede_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_millipede_tail/venomancer_millipede_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_millipede_tail-73da509a2049.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/d73a72d670f3/models/items/venomancer/venomancer_millipede_tail/venomancer_millipede_tail_color_tga_8cb373cd.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:8691:poison-touch-tail",
+      "itemId": 8691,
+      "name": "Tail of the Fatal Bloom",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/03b86a295979/models/items/venomancer/poison_touch_tail/poison_touch_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/03b86a295979/models/items/venomancer/poison_touch_tail/poison_touch_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/poison_touch_tail/poison_touch_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/poison_touch_tail-beaa2ce65036.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/03b86a295979/models/items/venomancer/poison_touch_tail/poison_touch_tail_color_tga_4608fc3a.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9897:ferocious-toxicants-embrace-tail",
+      "itemId": 9897,
+      "name": "Tail of the Ferocious Toxicant",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f9c983f0ec11/models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/f9c983f0ec11/models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferocious_toxicants_embrace_tail-e485d451cb13.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f9c983f0ec11/models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail_color_tga_b3538ec1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/toxicant/veno_toxicant_tail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tail of the Ferocious Toxicant default",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tail of the Ferocious Toxicant particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/venomancer/toxicant/veno_toxicant_tail.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9897:ferocious-toxicants-embrace-tail:style-1",
+      "itemId": 9897,
+      "name": "Tail of the Ferocious Toxicant - Tail of the Ferocious Toxicant particle",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f9c983f0ec11/models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/f9c983f0ec11/models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ferocious_toxicants_embrace_tail_style1-c7bb1d023b67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f9c983f0ec11/models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail_color_tga_b3538ec1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/toxicant/veno_toxicant_tail.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Tail of the Ferocious Toxicant default",
+            "alternateIcon": "0",
+            "icon": "econ/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Tail of the Ferocious Toxicant particle",
+            "alternateIcon": "1",
+            "icon": "econ/items/venomancer/ferocious_toxicants_embrace_tail/ferocious_toxicants_embrace_tail_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/venomancer/toxicant/veno_toxicant_tail.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9918:ti8-veno-stalagmite-crawler-tail",
+      "itemId": 9918,
+      "name": "Tail of the Molokau Stalker",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f45c60c253ba/models/items/venomancer/ti8_veno_stalagmite_crawler_tail/ti8_veno_stalagmite_crawler_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/f45c60c253ba/models/items/venomancer/ti8_veno_stalagmite_crawler_tail/ti8_veno_stalagmite_crawler_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_veno_stalagmite_crawler_tail/ti8_veno_stalagmite_crawler_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_veno_stalagmite_crawler_tail-3807401bfe21.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/f45c60c253ba/models/items/venomancer/ti8_veno_stalagmite_crawler_tail/ti8_veno_stalagmite_crawler_tail_color_tga_56917487.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:9338:venomancer-hydra-switch-color-tail",
+      "itemId": 9338,
+      "name": "Tail of the Virulent Krait",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3bae3ba08b2a/models/items/venomancer/venomancer_hydra_switch_color_tail/venomancer_hydra_switch_color_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3bae3ba08b2a/models/items/venomancer/venomancer_hydra_switch_color_tail/venomancer_hydra_switch_color_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_hydra_switch_color_tail/venomancer_hydra_switch_color_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_hydra_switch_color_tail-624c78c4e229.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3bae3ba08b2a/models/items/venomancer/venomancer_hydra_switch_color_tail/venomancer_hydra_switch_color_tail_color_tga_504139ef.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:22847:veno-2022-immortal-tail",
+      "itemId": 22847,
+      "name": "The Orb of Aktok",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/32601e014fa6/models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/32601e014fa6/models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/veno_2022_immortal_tail-a6da87189571.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/32601e014fa6/models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail_color_tga_561f1263.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_poison_nova.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/venomancer/veno_2022_immortal_tail/veno_2022_immortal_tail_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_venomancer/venomancer_poison_nova.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:30600:venomancer-poisonous-assassin-tail",
+      "itemId": 30600,
+      "name": "The Venomous Varn",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3e3fb0eb2dec/models/items/venomancer/venomancer_poisonous_assassin_tail/venomancer_poisonous_assassin_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/3e3fb0eb2dec/models/items/venomancer/venomancer_poisonous_assassin_tail/venomancer_poisonous_assassin_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_tail/venomancer_poisonous_assassin_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/2023poisonous_assassin_tail-1ca879111a5c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/3e3fb0eb2dec/models/items/venomancer/venomancer_poisonous_assassin_tail/venomancer_poisonous_assassin_tail_color_psd_230c5017.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:36252:venomancer-poisonous-assassin-tail-alt",
+      "itemId": 36252,
+      "name": "The Virulent Varn",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/78d269e40888/models/items/venomancer/venomancer_poisonous_assassin_tail_alt/venomancer_poisonous_assassin_tail_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/78d269e40888/models/items/venomancer/venomancer_poisonous_assassin_tail_alt/venomancer_poisonous_assassin_tail_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_poisonous_assassin_tail_alt/venomancer_poisonous_assassin_tail_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_poisonous_assassin_tail_alt-2a1133b5bb30.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/78d269e40888/models/items/venomancer/venomancer_poisonous_assassin_tail_alt/venomancer_poisonous_assassin_tail_alt_color_psd_a8955ab3.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:294:venomancer-tail",
+      "itemId": 294,
+      "name": "Venomancers Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/158daddaae89/models/heroes/venomancer/venomancer_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/158daddaae89/models/heroes/venomancer/venomancer_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/venomancer/venomancer_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_tail-75a1b7035d99.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/158daddaae89/models/heroes/venomancer/venomancer_tail_color_psd_9b1fb412.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:6644:deathbringer-tail",
+      "itemId": 6644,
+      "name": "Venomous Deathbringer Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/767c88f562cb/models/items/venomancer/deathbringer_tail/deathbringer_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/767c88f562cb/models/items/venomancer/deathbringer_tail/deathbringer_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/deathbringer_tail/deathbringer_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathbringer_tail-d011a99415db.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/767c88f562cb/models/items/venomancer/deathbringer_tail/deathbringer_tail_color_tga_8e294277.png"
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:12507:ti8-venomancer-chomper-tail",
+      "itemId": 12507,
+      "name": "Verdant Predator Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/660c59f7398c/models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/660c59f7398c/models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_venomancer_chomper_tail-d91f975ea3d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/660c59f7398c/models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail_color_tga_cebe98e7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail.vmdl",
+        "modelPaths": [
+          "models/items/venomancer/ti8_venomancer_chomper_tail/ti8_venomancer_chomper_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/venomancer/veno_ti8_chomper/veno_ti8_chomper_tail_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_venomancer:item-model:19732:venomancer-slime-tail",
+      "itemId": 19732,
+      "name": "Vote Only Venomancer Slime Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/280bcc4430be/models/items/venomancer/venomancer_slime_tail/venomancer_slime_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_venomancer/280bcc4430be/models/items/venomancer/venomancer_slime_tail/venomancer_slime_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/venomancer/venomancer_slime_tail/venomancer_slime_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/venomancer_slime_tail-2110a763297b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_venomancer/280bcc4430be/models/items/venomancer/venomancer_slime_tail/venomancer_slime_tail_color_tga_ff09d122.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_venomancer:core-set:20660:acid-hydra",
+      "name": "Acid Hydra",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        6933,
+        6940,
+        6942,
+        6943,
+        7078
+      ],
+      "styleSelections": {
+        "6933": "0",
+        "6940": "0",
+        "6942": "0",
+        "6943": "0",
+        "7078": "0"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/poison_flytrap_ls-02dffd1563b5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:20660:acid-hydra:style-1",
+      "name": "Acid Hydra - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        6933,
+        6940,
+        6942,
+        6943,
+        7078
+      ],
+      "styleSelections": {
+        "6933": "1",
+        "6940": "1",
+        "6942": "1",
+        "6943": "1",
+        "7078": "1"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/acid_hunterstyle_head-4320b70aa510.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:20660:acid-hydra:style-2",
+      "name": "Acid Hydra - Style 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        6933,
+        6940,
+        6942,
+        6943,
+        7078
+      ],
+      "styleSelections": {
+        "6933": "2",
+        "6940": "2",
+        "6942": "2",
+        "6943": "2",
+        "7078": "2"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/acid_poisonstyle_head-a1966af8a882.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:22271:aktoks-domain",
+      "name": "Aktoks Domain",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        292,
+        293
+      ],
+      "sourceItemIds": [
+        5533,
+        5534
+      ],
+      "slots": [
+        "arms",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/veno_2021_immortal_arms-59e7edb5b91a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:23716:aktoks-glory",
+      "name": "Aktoks Glory",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        19264,
+        22847
+      ],
+      "slots": [
+        "ability3",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/veno_2022_immortal_tail-a6da87189571.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:21119:corruption-of-the-virulent-krait",
+      "name": "Corruption of the Virulent Krait",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        9334,
+        9335,
+        9336,
+        9337,
+        9338
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/venomancer_hydra_switch_color_venomancer_gahz_loadingscreen-19f8fa3f794b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:21047:fatal-bloom",
+      "name": "Fatal Bloom",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        8690,
+        8691,
+        8699,
+        8700,
+        8711
+      ],
+      "styleSelections": {
+        "8700": "0"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/venomancer_death_poison_venomancerloadingscreen-4b30268a0cfe.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:21047:fatal-bloom:style-1",
+      "name": "Fatal Bloom - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        8690,
+        8691,
+        8699,
+        8700,
+        8711
+      ],
+      "styleSelections": {
+        "8700": "1"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/poison_touch_shoulder_style1-c50274cc5d07.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:20924:ferocious-toxicant",
+      "name": "Ferocious Toxicant",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        9893,
+        9894,
+        9895,
+        9896,
+        9897
+      ],
+      "styleSelections": {
+        "9897": "0"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/ferocious_toxicants_embrace_loading_screen-3b5f08969f83.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:20924:ferocious-toxicant:style-1",
+      "name": "Ferocious Toxicant - Tail of the Ferocious Toxicant particle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        9893,
+        9894,
+        9895,
+        9896,
+        9897
+      ],
+      "styleSelections": {
+        "9897": "1"
+      },
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/ferocious_toxicants_embrace_tail_style1-c7bb1d023b67.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:31295:mechamancer",
+      "name": "Mechamancer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        30325,
+        30326,
+        30327,
+        30328,
+        31297
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "rarity:mythical",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 19,
+      "previewUrl": "/larimods-data/v1/icons/mechamancer_head-73cef3dd7c61.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:21203:molokau-stalker",
+      "name": "Molokau Stalker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        9914,
+        9915,
+        9916,
+        9917,
+        9918
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_ti8__veno_stalagmite_crawler-9150144d9bb3.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:21335:nacreous-stag",
+      "name": "Nacreous Stag",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        13084,
+        13106,
+        13107,
+        13108,
+        13109
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/venomancer_millipede_arms-8946627d1e28.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:36249:poisonous-prelate",
+      "name": "Poisonous Prelate",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        36248,
+        36250,
+        36251,
+        36252,
+        36253
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/venomancer_poisonous_assassin_head_alt-b1f52d226cd8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:30719:the-venomous-vizier",
+      "name": "The Venomous Vizier",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        29636,
+        30599,
+        30600,
+        30671,
+        30672
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/2023poisonous_assassin_should-b38cfab27201.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:20522:venomous-deathbringer",
+      "name": "Venomous Deathbringer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        6642,
+        6643,
+        6644,
+        6645,
+        6682
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_venomous_deathbringer-319fad57db9b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:21249:verdant-predator",
+      "name": "Verdant Predator",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        12504,
+        12505,
+        12506,
+        12507,
+        12508
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/ti8_venomancer_chomper_head-2f562a3d352d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_venomancer:core-set:21943:vote-only-venomancer-slime",
+      "name": "Vote Only Venomancer Slime",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "sourceItemIds": [
+        19731,
+        19732,
+        19733,
+        19734,
+        19735
+      ],
+      "slots": [
+        "ability3",
+        "arms",
+        "head",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 113245572,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 343
+  }
+}

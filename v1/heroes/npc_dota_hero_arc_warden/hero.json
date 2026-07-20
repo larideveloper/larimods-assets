@@ -1,0 +1,2174 @@
+{
+  "heroId": "npc_dota_hero_arc_warden",
+  "sourceHeroId": "npc_dota_hero_arc_warden",
+  "variantId": "default",
+  "heroName": "Arc Warden",
+  "heroSlug": "arc_warden",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_arc_warden/892e4bbb429a/models/heroes/arc_warden/arc_warden.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "itemId": 556,
+      "name": "Arc Wardens Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/57d9477da33b/models/heroes/arc_warden/arc_warden_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/57d9477da33b/models/heroes/arc_warden/arc_warden_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/arc_warden/arc_warden_bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/57d9477da33b/models/heroes/arc_warden/arc_warden_bracer_color_psd_92295093.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 598,
+      "name": "Arc Wardens Back",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/2cc347569c48/models/heroes/arc_warden/arc_warden_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/2cc347569c48/models/heroes/arc_warden/arc_warden_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/arc_warden/arc_warden_back.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/2cc347569c48/models/heroes/arc_warden/arc_warden_back_color_psd_d3a97ddc.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "itemId": 557,
+      "name": "Arc Wardens Shoulders",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3c392e564978/models/heroes/arc_warden/arc_warden_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/3c392e564978/models/heroes/arc_warden/arc_warden_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/arc_warden/arc_warden_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3c392e564978/models/heroes/arc_warden/arc_warden_shoulder_color_psd_c52eb373.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:31352:magnetite-abyss-watcher-arm",
+      "itemId": 31352,
+      "name": "Ancient Annihilator  Arm",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/4b138f4cbb2f/models/items/arc_warden/magnetite_abyss_watcher_arm/magnetite_abyss_watcher_arm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/4b138f4cbb2f/models/items/arc_warden/magnetite_abyss_watcher_arm/magnetite_abyss_watcher_arm.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/magnetite_abyss_watcher_arm/magnetite_abyss_watcher_arm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/magnetite_abyss_watcher_arm-3012caf824cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/4b138f4cbb2f/models/items/arc_warden/magnetite_abyss_watcher_arm/magnetite_abyss_watcher_arm_color_psd_3d458fa3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/magnetite_abyss_watcher_arm/magnetite_abyss_watcher_arm.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/magnetite_abyss_watcher_arm/magnetite_abyss_watcher_arm.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:556:arc-warden-bracers",
+      "itemId": 556,
+      "name": "Arc Wardens Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/57d9477da33b/models/heroes/arc_warden/arc_warden_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/57d9477da33b/models/heroes/arc_warden/arc_warden_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/arc_warden/arc_warden_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_bracers-2393b0b047d4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/57d9477da33b/models/heroes/arc_warden/arc_warden_bracer_color_psd_92295093.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/arc_warden/arc_warden_bracers.vmdl",
+        "modelPaths": [
+          "models/heroes/arc_warden/arc_warden_bracers.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13358:ti9-cache-aw-ancient-mechanism-arms",
+      "itemId": 13358,
+      "name": "Arms of Dormant Oblivion",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/a5bf292de56b/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_arms/ti9_cache_aw_ancient_mechanism_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/a5bf292de56b/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_arms/ti9_cache_aw_ancient_mechanism_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/ti9_cache_aw_ancient_mechanism_arms/ti9_cache_aw_ancient_mechanism_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_aw_ancient_mechanism_arms-2e3a7321dfc0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/a5bf292de56b/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_arms/ti9_cache_aw_ancient_mechanism_arms_color_png_8dd41acf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/ti9_cache_aw_ancient_mechanism_arms/ti9_cache_aw_ancient_mechanism_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/ti9_cache_aw_ancient_mechanism_arms/ti9_cache_aw_ancient_mechanism_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:9622:arctic-warden-arms",
+      "itemId": 9622,
+      "name": "Arms of the First Ways",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/873fb64357fc/models/items/arc_warden/arctic_warden_arms/arctic_warden_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/873fb64357fc/models/items/arc_warden/arctic_warden_arms/arctic_warden_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arctic_warden_arms/arctic_warden_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arctic_warden_arms-1b15a1e7b9ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/873fb64357fc/models/items/arc_warden/arctic_warden_arms/arctic_warden_arms_color_tga_bc60c58b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/arctic_warden_arms/arctic_warden_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/arctic_warden_arms/arctic_warden_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:7296:broken-envoy-arms",
+      "itemId": 7296,
+      "name": "Bracers of the Fractured Envoy",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/6661e4d2dcd6/models/items/arc_warden/broken_envoy_arms/broken_envoy_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/6661e4d2dcd6/models/items/arc_warden/broken_envoy_arms/broken_envoy_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/broken_envoy_arms/broken_envoy_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broken_envoy_arms-a30d021fddf2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/6661e4d2dcd6/models/items/arc_warden/broken_envoy_arms/broken_envoy_arms_color_tga_a6d1c6d9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/broken_envoy_arms/broken_envoy_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/broken_envoy_arms/broken_envoy_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:23318:galactic-sentinel-arms",
+      "itemId": 23318,
+      "name": "Convergence of Distant Fates Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/e879a5a3abe0/models/items/arc_warden/galactic_sentinel_arms/galactic_sentinel_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/e879a5a3abe0/models/items/arc_warden/galactic_sentinel_arms/galactic_sentinel_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_sentinel_arms/galactic_sentinel_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/convergence_of_distant_fates_bracers-5c65c33366a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/e879a5a3abe0/models/items/arc_warden/galactic_sentinel_arms/galactic_sentinel_arms_color_png_e0d236b8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/galactic_sentinel_arms/galactic_sentinel_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/galactic_sentinel_arms/galactic_sentinel_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:19423:galactic-wanderer-arms",
+      "itemId": 19423,
+      "name": "Cosmic Wanderer  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/55d7600fd98c/models/items/arc_warden/galactic_wanderer_arms/galactic_wanderer_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/55d7600fd98c/models/items/arc_warden/galactic_wanderer_arms/galactic_wanderer_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_wanderer_arms/galactic_wanderer_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/galactic_wanderer_arms-0090debe27b8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/55d7600fd98c/models/items/arc_warden/galactic_wanderer_arms/galactic_wanderer_arms_color_png_b0d88971.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/galactic_wanderer_arms/galactic_wanderer_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/galactic_wanderer_arms/galactic_wanderer_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13828:wicked-space-knight-arms",
+      "itemId": 13828,
+      "name": "Ire of the Ancient Gaoler Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/ed8acfdd60df/models/items/arc_warden/wicked_space_knight_arms/wicked_space_knight_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/ed8acfdd60df/models/items/arc_warden/wicked_space_knight_arms/wicked_space_knight_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/wicked_space_knight_arms/wicked_space_knight_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wicked_space_knight_arms-fcdf81b15e4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/ed8acfdd60df/models/items/arc_warden/wicked_space_knight_arms/wicked_space_knight_arms_color_tga_fc8a73c6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/wicked_space_knight_arms/wicked_space_knight_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/wicked_space_knight_arms/wicked_space_knight_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti10_cache/arc_warden_ti10_cache_arms.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:36027:arc-warden-dark-carnival-arms",
+      "itemId": 36027,
+      "name": "Palms of Prophecy  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/15cba645cc07/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/15cba645cc07/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_dark_carnival_arms-32b8f234788c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/15cba645cc07/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_arms_color_psd_25e001f3.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:18075:arc-warden-magician-arms",
+      "itemId": 18075,
+      "name": "Vote Only Arc Warden Magician Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/0e29ffbd2b06/models/items/arc_warden/arc_warden_magician_arms/arc_warden_magician_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/0e29ffbd2b06/models/items/arc_warden/arc_warden_magician_arms/arc_warden_magician_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_magician_arms/arc_warden_magician_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_magician_arms-5f75d2e723f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/0e29ffbd2b06/models/items/arc_warden/arc_warden_magician_arms/arc_warden_magician_arms_color_tga_4fa8271a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/arc_warden_magician_arms/arc_warden_magician_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/arc_warden_magician_arms/arc_warden_magician_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13852:time-wanderer-arcwarden-arms",
+      "itemId": 13852,
+      "name": "Vote Only Time wanderer Arcwarden Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3543abdf9481/models/items/arc_warden/time_wanderer_arcwarden_arms/time_wanderer_arcwarden_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/3543abdf9481/models/items/arc_warden/time_wanderer_arcwarden_arms/time_wanderer_arcwarden_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/time_wanderer_arcwarden_arms/time_wanderer_arcwarden_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/time_wanderer_arcwarden_arms-f2a0eb931df9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3543abdf9481/models/items/arc_warden/time_wanderer_arcwarden_arms/time_wanderer_arcwarden_arms_color_tga_84d7fe45.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/time_wanderer_arcwarden_arms/time_wanderer_arcwarden_arms.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/time_wanderer_arcwarden_arms/time_wanderer_arcwarden_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_bracer_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:31351:magnetite-abyss-watcher-back",
+      "itemId": 31351,
+      "name": "Ancient Annihilator  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/211e334d72bf/models/items/arc_warden/magnetite_abyss_watcher_back/magnetite_abyss_watcher_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/211e334d72bf/models/items/arc_warden/magnetite_abyss_watcher_back/magnetite_abyss_watcher_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/magnetite_abyss_watcher_back/magnetite_abyss_watcher_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/magnetite_abyss_watcher_back-f96e0c999687.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/211e334d72bf/models/items/arc_warden/magnetite_abyss_watcher_back/magnetite_abyss_watcher_back_color_psd_c20ab2a6.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:598:arc-warden-back",
+      "itemId": 598,
+      "name": "Arc Wardens Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/2cc347569c48/models/heroes/arc_warden/arc_warden_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/2cc347569c48/models/heroes/arc_warden/arc_warden_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/arc_warden/arc_warden_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_back-0a184ccf64f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/2cc347569c48/models/heroes/arc_warden/arc_warden_back_color_psd_d3a97ddc.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:7294:broken-envoy-back",
+      "itemId": 7294,
+      "name": "Cape of the Fractured Envoy",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/210dcbb2a635/models/items/arc_warden/broken_envoy_back/broken_envoy_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/210dcbb2a635/models/items/arc_warden/broken_envoy_back/broken_envoy_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/broken_envoy_back/broken_envoy_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broken_envoy_back-677e0b088466.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/210dcbb2a635/models/items/arc_warden/broken_envoy_back/broken_envoy_back_color_tga_cb4b76c6.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13357:ti9-cache-aw-ancient-mechanism-back",
+      "itemId": 13357,
+      "name": "Cloak of Dormant Oblivion",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8c69fdecbf6a/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_back/ti9_cache_aw_ancient_mechanism_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/8c69fdecbf6a/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_back/ti9_cache_aw_ancient_mechanism_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/ti9_cache_aw_ancient_mechanism_back/ti9_cache_aw_ancient_mechanism_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_aw_ancient_mechanism_back-e94d21b4506d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8c69fdecbf6a/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_back/ti9_cache_aw_ancient_mechanism_back_color_png_cbed6568.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:23320:galactic-sentinel-back",
+      "itemId": 23320,
+      "name": "Convergence of Distant Fates Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/4d0abb5f6010/models/items/arc_warden/galactic_sentinel_back/galactic_sentinel_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/4d0abb5f6010/models/items/arc_warden/galactic_sentinel_back/galactic_sentinel_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_sentinel_back/galactic_sentinel_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/convergence_of_distant_fates_back-a71eb015d34e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/4d0abb5f6010/models/items/arc_warden/galactic_sentinel_back/galactic_sentinel_back_color_png_eef1fdc0.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:19421:galactic-wanderer-back",
+      "itemId": 19421,
+      "name": "Cosmic Wanderer  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/22c62335f97d/models/items/arc_warden/galactic_wanderer_back/galactic_wanderer_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/22c62335f97d/models/items/arc_warden/galactic_wanderer_back/galactic_wanderer_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_wanderer_back/galactic_wanderer_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/galactic_wanderer_back-e872d1793a11.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/22c62335f97d/models/items/arc_warden/galactic_wanderer_back/galactic_wanderer_back_color_png_875d674a.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:9623:arctic-warden-back",
+      "itemId": 9623,
+      "name": "Garb of the First Ways",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3a595d915d64/models/items/arc_warden/arctic_warden_back/arctic_warden_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/3a595d915d64/models/items/arc_warden/arctic_warden_back/arctic_warden_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arctic_warden_back/arctic_warden_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arctic_warden_back-2f0996bd1dfc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3a595d915d64/models/items/arc_warden/arctic_warden_back/arctic_warden_back_color_tga_65f6e032.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13827:wicked-space-knight-back",
+      "itemId": 13827,
+      "name": "Ire of the Ancient Gaoler Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/c34dafb55967/models/items/arc_warden/wicked_space_knight_back/wicked_space_knight_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/c34dafb55967/models/items/arc_warden/wicked_space_knight_back/wicked_space_knight_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/wicked_space_knight_back/wicked_space_knight_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wicked_space_knight_back-6e5a01ca0bf2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/c34dafb55967/models/items/arc_warden/wicked_space_knight_back/wicked_space_knight_back_color_tga_2b1c1513.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/wicked_space_knight_back/wicked_space_knight_back.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/wicked_space_knight_back/wicked_space_knight_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti10_cache/arc_warden_ti10_cache_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:36026:arc-warden-dark-carnival-back",
+      "itemId": 36026,
+      "name": "Palms of Prophecy  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8082f6b39a38/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/8082f6b39a38/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_dark_carnival_back-1bb04bb03680.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8082f6b39a38/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_back_color_psd_3af67666.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:18076:arc-warden-magician-back",
+      "itemId": 18076,
+      "name": "Vote Only Arc Warden Magician Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/093a77c66027/models/items/arc_warden/arc_warden_magician_back/arc_warden_magician_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/093a77c66027/models/items/arc_warden/arc_warden_magician_back/arc_warden_magician_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_magician_back/arc_warden_magician_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_magician_back-26ee829c07c8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/093a77c66027/models/items/arc_warden/arc_warden_magician_back/arc_warden_magician_back_color_tga_2d3e385c.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13851:time-wanderer-arcwarden-back",
+      "itemId": 13851,
+      "name": "Vote Only Time wanderer Arcwarden Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/74d5bb01ccc7/models/items/arc_warden/time_wanderer_arcwarden_back/time_wanderer_arcwarden_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/74d5bb01ccc7/models/items/arc_warden/time_wanderer_arcwarden_back/time_wanderer_arcwarden_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/time_wanderer_arcwarden_back/time_wanderer_arcwarden_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/time_wanderer_arcwarden_back-7c4cce621856.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/74d5bb01ccc7/models/items/arc_warden/time_wanderer_arcwarden_back/time_wanderer_arcwarden_back_color_tga_7646ac90.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:31354:magnetite-abyss-watcher-head",
+      "itemId": 31354,
+      "name": "Ancient Annihilator  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/f264b2a473ca/models/items/arc_warden/magnetite_abyss_watcher_head/magnetite_abyss_watcher_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/f264b2a473ca/models/items/arc_warden/magnetite_abyss_watcher_head/magnetite_abyss_watcher_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/magnetite_abyss_watcher_head/magnetite_abyss_watcher_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/magnetite_abyss_watcher_head-e6312e49c9dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/f264b2a473ca/models/items/arc_warden/magnetite_abyss_watcher_head/magnetite_abyss_watcher_head_color_psd_b041d217.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/magnetite_abyss_watcher_head/magnetite_abyss_watcher_head.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/magnetite_abyss_watcher_head/magnetite_abyss_watcher_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_magnetite_artifact_of_abyss_watcher/arc_warden_magnetite_artifact_of_abyss_watcher_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:23321:galactic-sentinel-head",
+      "itemId": 23321,
+      "name": "Convergence of Distant Fates Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/d75b23f99c26/models/items/arc_warden/galactic_sentinel_head/galactic_sentinel_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/d75b23f99c26/models/items/arc_warden/galactic_sentinel_head/galactic_sentinel_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_sentinel_head/galactic_sentinel_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/convergence_of_distant_fates_head-1945b4345132.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/d75b23f99c26/models/items/arc_warden/galactic_sentinel_head/galactic_sentinel_head_color_png_9cf47de5.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:18601:galactic-wanderer-head",
+      "itemId": 18601,
+      "name": "Cosmic Wanderer  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/2557c0aa61a0/models/items/arc_warden/galactic_wanderer_head/galactic_wanderer_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/2557c0aa61a0/models/items/arc_warden/galactic_wanderer_head/galactic_wanderer_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_wanderer_head/galactic_wanderer_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/galactic_wanderer_head-c3bd99a4d290.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/2557c0aa61a0/models/items/arc_warden/galactic_wanderer_head/galactic_wanderer_back_color_png_875d674a.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:9671:arctic-warden-head",
+      "itemId": 9671,
+      "name": "Cowl of the First Ways",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/ee2d196f0e2d/models/items/arc_warden/arctic_warden_shoulder/arctic_warden_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/ee2d196f0e2d/models/items/arc_warden/arctic_warden_shoulder/arctic_warden_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arctic_warden_shoulder/arctic_warden_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arctic_warden_head-72a0586a7be5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/ee2d196f0e2d/models/items/arc_warden/arctic_warden_shoulder/arctic_warden_shoulder_color_tga_ceebe96d.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:9672:broken-envoy-head",
+      "itemId": 9672,
+      "name": "Helmet of the Fractured Envoy",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8c47bb53d5a7/models/items/arc_warden/broken_envoy_shoulder/broken_envoy_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/8c47bb53d5a7/models/items/arc_warden/broken_envoy_shoulder/broken_envoy_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/broken_envoy_shoulder/broken_envoy_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broken_envoy_head-5efc5af0f376.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8c47bb53d5a7/models/items/arc_warden/broken_envoy_shoulder/broken_envoy_shoulder_color_tga_b6d296b.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13826:wicked-space-knight-head",
+      "itemId": 13826,
+      "name": "Ire of the Ancient Gaoler Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/b8d160834ff9/models/items/arc_warden/wicked_space_knight_head/wicked_space_knight_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/b8d160834ff9/models/items/arc_warden/wicked_space_knight_head/wicked_space_knight_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/wicked_space_knight_head/wicked_space_knight_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wicked_space_knight_head-a0b42f53190e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/b8d160834ff9/models/items/arc_warden/wicked_space_knight_head/wicked_space_knight_head_color_tga_7f9045fe.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/wicked_space_knight_head/wicked_space_knight_head.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/wicked_space_knight_head/wicked_space_knight_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti10_cache/arc_warden_ti10_cache_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13356:ti9-cache-aw-ancient-mechanism-head",
+      "itemId": 13356,
+      "name": "Mask of Dormant Oblivion",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/840d6e4ee392/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_head/ti9_cache_aw_ancient_mechanism_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/840d6e4ee392/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_head/ti9_cache_aw_ancient_mechanism_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/ti9_cache_aw_ancient_mechanism_head/ti9_cache_aw_ancient_mechanism_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_aw_ancient_mechanism_head-73284631af1d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/840d6e4ee392/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_head/ti9_cache_aw_ancient_mechanism_head_color_png_ab1af823.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:24762:arc-warden-frostivus-head",
+      "itemId": 24762,
+      "name": "Orbuculum Equinox",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_arc_warden_head-cc2d4527fd47.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head_glass_color_vmat_g_tcolor_447955bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Orbuculum Equinox 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Orbuculum Equinox 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Orbuculum Equinox 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head_style2",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:24762:arc-warden-frostivus-head:style-1",
+      "itemId": 24762,
+      "name": "Orbuculum Equinox - Orbuculum Equinox 1",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "unusual",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_arc_warden_head_style1-b20328e4a960.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head_glass_color_vmat_g_tcolor_447955bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Orbuculum Equinox 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Orbuculum Equinox 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Orbuculum Equinox 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head_style2",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:24762:arc-warden-frostivus-head:style-2",
+      "itemId": 24762,
+      "name": "Orbuculum Equinox - Orbuculum Equinox 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "unusual",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_arc_warden_head_style2-003f2c058b83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/271ca75f18b7/models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head_glass_color_vmat_g_tcolor_447955bd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/arc_warden_frostivus/arc_warden_frostivus_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Orbuculum Equinox 0",
+            "skin": "0",
+            "alternateIcon": "0",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Orbuculum Equinox 1",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Orbuculum Equinox 2",
+            "skin": "2",
+            "alternateIcon": "2",
+            "icon": "econ/heroes/arc_warden/frostivus_arc_warden_head_style2",
+            "assets": [
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_frostivus_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/econ/items/arc_warden/arc_warden_frostivus_2023/arc_warden_magnetic_frostivus.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_arc_warden/arc_warden_magnetic.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:36029:arc-warden-dark-carnival-head",
+      "itemId": 36029,
+      "name": "Palms of Prophecy  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/c1505e97a32a/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/c1505e97a32a/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_dark_carnival_head-e9812fe3a148.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/c1505e97a32a/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_head_color_psd_f886b90e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_head.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:18118:arc-warden-magician-head",
+      "itemId": 18118,
+      "name": "Vote Only Arc Warden Magician Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/7595fb238f48/models/items/arc_warden/arc_warden_magician_head/arc_warden_magician_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/7595fb238f48/models/items/arc_warden/arc_warden_magician_head/arc_warden_magician_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_magician_head/arc_warden_magician_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_magician_head-8d38fdaeee31.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/7595fb238f48/models/items/arc_warden/arc_warden_magician_head/arc_warden_magician_head_color_tga_2fc3dfac.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13848:time-wanderer-arcwarden-head",
+      "itemId": 13848,
+      "name": "Vote Only Time wanderer Arcwarden Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/5f5057b52843/models/items/arc_warden/time_wanderer_arcwarden_head/time_wanderer_arcwarden_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/5f5057b52843/models/items/arc_warden/time_wanderer_arcwarden_head/time_wanderer_arcwarden_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/time_wanderer_arcwarden_head/time_wanderer_arcwarden_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/time_wanderer_arcwarden_head-bb63b2b2e574.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/5f5057b52843/models/items/arc_warden/time_wanderer_arcwarden_head/time_wanderer_arcwarden_head_color_tga_b2980f2a.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:31353:magnetite-abyss-watcher-shoulders",
+      "itemId": 31353,
+      "name": "Ancient Annihilator  Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/fc597f3a251f/models/items/arc_warden/magnetite_abyss_watcher_shoulders/magnetite_abyss_watcher_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/fc597f3a251f/models/items/arc_warden/magnetite_abyss_watcher_shoulders/magnetite_abyss_watcher_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/magnetite_abyss_watcher_shoulders/magnetite_abyss_watcher_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/magnetite_abyss_watcher_shoulders-1714c7079b04.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/fc597f3a251f/models/items/arc_warden/magnetite_abyss_watcher_shoulders/magnetite_abyss_watcher_shoulders_color_psd_6dd2c130.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:557:arc-warden-shoulder",
+      "itemId": 557,
+      "name": "Arc Wardens Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3c392e564978/models/heroes/arc_warden/arc_warden_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/3c392e564978/models/heroes/arc_warden/arc_warden_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/arc_warden/arc_warden_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_shoulder-a8e7ba479978.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/3c392e564978/models/heroes/arc_warden/arc_warden_shoulder_color_psd_c52eb373.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:23319:galactic-sentinel-shoulder",
+      "itemId": 23319,
+      "name": "Convergence of Distant Fates Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/165488714721/models/items/arc_warden/galactic_sentinel_shoulder/galactic_sentinel_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/165488714721/models/items/arc_warden/galactic_sentinel_shoulder/galactic_sentinel_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_sentinel_shoulder/galactic_sentinel_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/convergence_of_distant_fates_shoulder-06bc7c023430.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/165488714721/models/items/arc_warden/galactic_sentinel_shoulder/galactic_sentinel_shoulder_color_png_a72fc139.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:19422:galactic-wanderer-shoulder",
+      "itemId": 19422,
+      "name": "Cosmic Wanderer  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/0f6afd8b7544/models/items/arc_warden/galactic_wanderer_shoulder/galactic_wanderer_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/0f6afd8b7544/models/items/arc_warden/galactic_wanderer_shoulder/galactic_wanderer_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/galactic_wanderer_shoulder/galactic_wanderer_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/galactic_wanderer_shoulder-80b25e268c24.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/0f6afd8b7544/models/items/arc_warden/galactic_wanderer_shoulder/galactic_wanderer_shoulder_color_png_164e5d97.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13825:wicked-space-knight-shoulder",
+      "itemId": 13825,
+      "name": "Ire of the Ancient Gaoler Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/25acffcb1a6f/models/items/arc_warden/wicked_space_knight_shoulder/wicked_space_knight_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/25acffcb1a6f/models/items/arc_warden/wicked_space_knight_shoulder/wicked_space_knight_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/wicked_space_knight_shoulder/wicked_space_knight_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wicked_space_knight_shoulder-d3e22cd8a484.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/25acffcb1a6f/models/items/arc_warden/wicked_space_knight_shoulder/wicked_space_knight_shoulder_color_tga_5a94c397.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/wicked_space_knight_shoulder/wicked_space_knight_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/wicked_space_knight_shoulder/wicked_space_knight_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti10_cache/arc_warden_ti10_cache_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:36028:arc-warden-dark-carnival-shoulders",
+      "itemId": 36028,
+      "name": "Palms of Prophecy  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/b69a018e1126/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/b69a018e1126/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_dark_carnival_shoulders-fda4fa99faea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/b69a018e1126/models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_shoulders_color_psd_2b54930e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_dark_carnival/arc_warden_dark_carnival_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13355:ti9-cache-aw-ancient-mechanism-shoulder",
+      "itemId": 13355,
+      "name": "Pauldrons of Dormant Oblivion",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/cd1e8badd943/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_shoulder/ti9_cache_aw_ancient_mechanism_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/cd1e8badd943/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_shoulder/ti9_cache_aw_ancient_mechanism_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/ti9_cache_aw_ancient_mechanism_shoulder/ti9_cache_aw_ancient_mechanism_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_aw_ancient_mechanism_shoulder-41943acf0db4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/cd1e8badd943/models/items/arc_warden/ti9_cache_aw_ancient_mechanism_shoulder/ti9_cache_aw_ancient_mechanism_shoulder_color_png_be4899d.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:7295:broken-envoy-shoulder",
+      "itemId": 7295,
+      "name": "Pauldrons of the Fractured Envoy",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/217da77ae802/models/items/arc_warden/broken_envoy_shoulder/broken_envoy_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/217da77ae802/models/items/arc_warden/broken_envoy_shoulder/broken_envoy_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/broken_envoy_shoulder/broken_envoy_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broken_envoy_shoulder-4c5d99710e9c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/217da77ae802/models/items/arc_warden/broken_envoy_shoulder/broken_envoy_shoulder_color_tga_b6d296b.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:9621:arctic-warden-shoulder",
+      "itemId": 9621,
+      "name": "Shoulder of the First Ways",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/b712b0b577ef/models/items/arc_warden/arctic_warden_shoulder/arctic_warden_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/b712b0b577ef/models/items/arc_warden/arctic_warden_shoulder/arctic_warden_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arctic_warden_shoulder/arctic_warden_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arctic_warden_shoulder-9fcb09eb9026.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/b712b0b577ef/models/items/arc_warden/arctic_warden_shoulder/arctic_warden_shoulder_color_tga_ceebe96d.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:18120:arc-warden-magician-shoulder",
+      "itemId": 18120,
+      "name": "Vote Only Arc Warden Magician Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8082aef36a39/models/items/arc_warden/arc_warden_magician_shoulder/arc_warden_magician_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/8082aef36a39/models/items/arc_warden/arc_warden_magician_shoulder/arc_warden_magician_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/arc_warden_magician_shoulder/arc_warden_magician_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/arc_warden_magician_shoulder-13fcf10a83be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/8082aef36a39/models/items/arc_warden/arc_warden_magician_shoulder/arc_warden_magician_shoulder_color_tga_b6c4e4f2.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13849:time-wanderer-arcwarden-shoulder",
+      "itemId": 13849,
+      "name": "Vote Only Time wanderer Arcwarden Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/276e878ca3cc/models/items/arc_warden/time_wanderer_arcwarden_shoulder/time_wanderer_arcwarden_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/276e878ca3cc/models/items/arc_warden/time_wanderer_arcwarden_shoulder/time_wanderer_arcwarden_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/time_wanderer_arcwarden_shoulder/time_wanderer_arcwarden_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/time_wanderer_arcwarden_shoulder-f8c1516fe525.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/276e878ca3cc/models/items/arc_warden/time_wanderer_arcwarden_shoulder/time_wanderer_arcwarden_shoulder_color_tga_ae42073a.png"
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:item-model:13535:aw-ti9-immortal-shoulders",
+      "itemId": 13535,
+      "name": "Wraithbinder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/4cd4fd2a872e/models/items/arc_warden/aw_ti9_immortal_shoulders/aw_ti9_immortal_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_arc_warden/4cd4fd2a872e/models/items/arc_warden/aw_ti9_immortal_shoulders/aw_ti9_immortal_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/arc_warden/aw_ti9_immortal_shoulders/aw_ti9_immortal_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/aw_ti9_immortal_shoulders-0bf14c3b88e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_arc_warden/4cd4fd2a872e/models/items/arc_warden/aw_ti9_immortal_shoulders/aw_ti9_immortal_shoulders_color_psd_d4493eba.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/arc_warden/aw_ti9_immortal_shoulders/aw_ti9_immortal_shoulders.vmdl",
+        "modelPaths": [
+          "models/items/arc_warden/aw_ti9_immortal_shoulders/aw_ti9_immortal_shoulders.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti9_immortal/arc_warden_ti9_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti9_immortal/arc_warden_ti9_wraith.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti9_immortal/arc_warden_ti9_wraith_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/arc_warden/arc_warden_ti9_immortal/arc_warden_ti9_wraith_prj.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_wraith.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_wraith_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_wraith_prj.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_arc_warden/arc_warden_wraith_tempest.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:31217:ancient-annihilator",
+      "name": "Ancient Annihilator",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        31351,
+        31352,
+        31353,
+        31354
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/magnetite_abyss_watcher_back-f96e0c999687.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:23322:convergence-of-distant-fates",
+      "name": "Convergence of Distant Fates",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        23318,
+        23319,
+        23320,
+        23321
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_convergence_of_distant_fates-246f4d7bf241.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:21885:cosmic-wanderer",
+      "name": "Cosmic Wanderer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        18601,
+        19421,
+        19422,
+        19423
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/galactic_wanderer_head-c3bd99a4d290.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:21393:dormant-oblivion",
+      "name": "Dormant Oblivion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        13355,
+        13356,
+        13357,
+        13358
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_aw_ancient_mechanism_shoulder-41943acf0db4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:20814:fractured-envoy",
+      "name": "Fractured Envoy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        7294,
+        7295,
+        7296,
+        9672
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/broken_envoyarc_warden_broken_envoyarc_warden_loadingscreen-f155c33f0853.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:21446:ire-of-the-ancient-gaoler",
+      "name": "Ire of the Ancient Gaoler",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        13825,
+        13826,
+        13827,
+        13828
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/wicked_space_knight_shoulder-d3e22cd8a484.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:36025:palms-of-prophecy",
+      "name": "Palms of Prophecy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        36026,
+        36027,
+        36028,
+        36029
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/arc_warden_dark_carnival-586110dfc727.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:21170:purveyor-of-the-first-ways",
+      "name": "Purveyor of the First Ways",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        9621,
+        9622,
+        9623,
+        9671
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/arctic_warden_shoulder-9fcb09eb9026.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:21684:vote-only-arc-warden-magician",
+      "name": "Vote Only Arc Warden Magician",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        18075,
+        18076,
+        18118,
+        18120
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_arc_warden:core-set:21451:vote-only-time-wanderer",
+      "name": "Vote Only Time wanderer",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        556,
+        557,
+        598,
+        656
+      ],
+      "sourceItemIds": [
+        13848,
+        13849,
+        13851,
+        13852
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 31124772,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 46
+  }
+}

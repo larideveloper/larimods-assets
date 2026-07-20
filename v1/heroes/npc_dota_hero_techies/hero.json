@@ -1,0 +1,2941 @@
+{
+  "heroId": "npc_dota_hero_techies",
+  "sourceHeroId": "npc_dota_hero_techies",
+  "variantId": "default",
+  "heroName": "Techies",
+  "heroSlug": "techies",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_techies/6bb685231457/models/heroes/techies/techies.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "itemId": 487,
+      "name": "Techies Spoon Costume",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/7a7e739c934e/models/heroes/techies/techies_barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/7a7e739c934e/models/heroes/techies/techies_barrel.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_barrel.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/7a7e739c934e/models/heroes/techies/techies_barrel_color_psd_e69a0005.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "itemId": 491,
+      "name": "Techies Spleen Costume",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/655d152fc6ed/models/heroes/techies/techies_squee_costume.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/655d152fc6ed/models/heroes/techies/techies_squee_costume.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_squee_costume.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/655d152fc6ed/models/heroes/techies/techies_bigcostume_color_psd_dff63887.png"
+    },
+    {
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "itemId": 490,
+      "name": "Techies Cart",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c4b14fe01e82/models/heroes/techies/techies_cart.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/c4b14fe01e82/models/heroes/techies/techies_cart.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_cart.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c4b14fe01e82/models/heroes/techies/techies_cart_color_psd_94ebacb8.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "itemId": 492,
+      "name": "Techies Squee Costume",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/e02f77760d0d/models/heroes/techies/techies_spleen_costume.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/e02f77760d0d/models/heroes/techies/techies_spleen_costume.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_spleen_costume.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/e02f77760d0d/models/heroes/techies/techies_smallcostume_color_psd_a05d377d.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "itemId": 489,
+      "name": "Techies Slingshot",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/119abef145a2/models/heroes/techies/techies_spleen_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/119abef145a2/models/heroes/techies/techies_spleen_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_spleen_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/119abef145a2/models/heroes/techies/techies_bazooka_color_psd_af087f7c.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_techies:item-model:34345:mh-techies-palico-barrel",
+      "itemId": 34345,
+      "name": "Barrel Disguise Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/27b93dcfcedf/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/27b93dcfcedf/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/palico_barrel-5c6208b8f798.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/27b93dcfcedf/models/items/techies/mh_palico_techies/mesh/techies_palico_spoon_color_psd_2843217c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_barrel_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:6043:crazy-night-of-magic-back",
+      "itemId": 6043,
+      "name": "Bombtrails and Boomsticks Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/dd158ef366d5/models/items/techies/crazy_night_of_magic_back/crazy_night_of_magic_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/dd158ef366d5/models/items/techies/crazy_night_of_magic_back/crazy_night_of_magic_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/crazy_night_of_magic_back/crazy_night_of_magic_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crazy_night_of_magic_back-9d0510897dcf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/dd158ef366d5/models/items/techies/crazy_night_of_magic_back/crazy_night_of_magic_back_color_tga_ae91ed0f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/crazy_night_of_magic_back/crazy_night_of_magic_back.vmdl",
+        "modelPaths": [
+          "models/items/techies/crazy_night_of_magic_back/crazy_night_of_magic_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_fall_crazy_night_of_magic_back/techies_crazy_night_ambient_candle.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:35861:mh-techies-palico-barrel",
+      "itemId": 35861,
+      "name": "Dire Barrel Disguise Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/875eccf25380/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/875eccf25380/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/palico_barrel_alt-06f875087dba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/875eccf25380/models/items/techies/mh_palico_techies/mesh/techies_palico_spoon_color_psd_2843217c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_barre_alt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12842:frostivus2018-techies-team-nutcracker-back",
+      "itemId": 12842,
+      "name": "Keg of the Powderkeg Patrol",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/702ad99da9df/models/items/techies/frostivus2018_techies_team_nutcracker_back/frostivus2018_techies_team_nutcracker_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/702ad99da9df/models/items/techies/frostivus2018_techies_team_nutcracker_back/frostivus2018_techies_team_nutcracker_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_team_nutcracker_back/frostivus2018_techies_team_nutcracker_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_team_nutcracker_back-ef2fac98bbd4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/702ad99da9df/models/items/techies/frostivus2018_techies_team_nutcracker_back/frostivus2018_techies_team_nutcracker_back_color_tga_67d15934.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:13530:techies-ti9-immortal-spoon",
+      "itemId": 13530,
+      "name": "Pachyderm Powderwagon Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/268604a017aa/models/items/techies/techies_ti9_immortal_spoon/techies_ti9_immortal_spoon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/268604a017aa/models/items/techies/techies_ti9_immortal_spoon/techies_ti9_immortal_spoon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_ti9_immortal_spoon/techies_ti9_immortal_spoon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_ti9_immortal_spoon-e4c450fd97e7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/268604a017aa/models/items/techies/techies_ti9_immortal_spoon/techies_ti9_immortal_spoon_color_psd_b6b47806.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36183:mh-techies-palico-barrel",
+      "itemId": 36183,
+      "name": "Poison Barrel Disguise Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/aa313dcac30b/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/aa313dcac30b/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_barrel_poison-c292ec0f4020.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/aa313dcac30b/models/items/techies/mh_palico_techies/mesh/techies_palico_spoon_color_psd_2843217c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_barrel_poison_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12840:frostivus2018-techies-squad-penguins-back",
+      "itemId": 12840,
+      "name": "Powdersled Rookery Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c5cac103ffa3/models/items/techies/frostivus2018_techies_squad_penguins_back/frostivus2018_techies_squad_penguins_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/c5cac103ffa3/models/items/techies/frostivus2018_techies_squad_penguins_back/frostivus2018_techies_squad_penguins_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_squad_penguins_back/frostivus2018_techies_squad_penguins_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_squad_penguins_back-57cee631332c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c5cac103ffa3/models/items/techies/frostivus2018_techies_squad_penguins_back/frostivus2018_techies_squad_penguins_back_color_tga_fdbfd784.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:35862:mh-techies-palico-barrel-rainbow",
+      "itemId": 35862,
+      "name": "Prismatic Barrel Disguise Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/216ad025f540/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel_rainbow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/216ad025f540/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel_rainbow.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel_rainbow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/palico_barrel_rainbow-4ca98525dd6f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/216ad025f540/models/items/techies/mh_palico_techies/mesh/techies_palico_spoon_color_psd_2843217c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel_rainbow.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_barrel_rainbow.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_barrel_rainbow_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:9964:ti8-techies-subterranean-sapper-squad-back",
+      "itemId": 9964,
+      "name": "Sack of the Sappers Guile",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/56f4ed5072ac/models/items/techies/ti8_techies_subterranean_sapper_squad_back/ti8_techies_subterranean_sapper_squad_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/56f4ed5072ac/models/items/techies/ti8_techies_subterranean_sapper_squad_back/ti8_techies_subterranean_sapper_squad_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/ti8_techies_subterranean_sapper_squad_back/ti8_techies_subterranean_sapper_squad_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_techies_subterranean_sapper_squad_back-0af9a74abbd6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/56f4ed5072ac/models/items/techies/ti8_techies_subterranean_sapper_squad_back/ti8_techies_subterranean_sapper_squad_back_color_png_702f62b1.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:33053:farming-techies-spoon",
+      "itemId": 33053,
+      "name": "Sodbustin Saboteurs  Succulent Spoon",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/ca7afab0c803/models/items/techies/farming_techies_spoon/farming_techies_spoon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/ca7afab0c803/models/items/techies/farming_techies_spoon/farming_techies_spoon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/farming_techies_spoon/farming_techies_spoon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/farming_techies_spoon-3af45c015a2c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/ca7afab0c803/models/items/techies/farming_techies_spoon/farming_techies_spoon_color_tga_da12e030.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/farming_techies_spoon/farming_techies_spoon.vmdl",
+        "modelPaths": [
+          "models/items/techies/farming_techies_spoon/farming_techies_spoon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/farming/farming_spoon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:7011:bigshot-barrel",
+      "itemId": 7011,
+      "name": "Swine Powder Barrel",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/895385e25853/models/items/techies/bigshot/bigshot_barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/895385e25853/models/items/techies/bigshot/bigshot_barrel.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/bigshot/bigshot_barrel.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bigshot_barrel-038aa4214126.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/895385e25853/models/items/techies/bigshot/bigshot_barrel_color_psd_71a6cdb2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/bigshot/bigshot_barrel.vmdl",
+        "modelPaths": [
+          "models/items/techies/bigshot/bigshot_barrel.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana"
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:487:techies-barrel",
+      "itemId": 487,
+      "name": "Techies Spoon Costume",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/7a7e739c934e/models/heroes/techies/techies_barrel.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/7a7e739c934e/models/heroes/techies/techies_barrel.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_barrel.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_barrel-d3e261e9a28c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/7a7e739c934e/models/heroes/techies/techies_barrel_color_psd_e69a0005.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:14866:pirate-of-treasures-bight-back",
+      "itemId": 14866,
+      "name": "Vote Only Pirate of Treasures Bight Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/5ebbb6661cf7/models/items/techies/pirate_of_treasures_bight_back/pirate_of_treasures_bight_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/5ebbb6661cf7/models/items/techies/pirate_of_treasures_bight_back/pirate_of_treasures_bight_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/pirate_of_treasures_bight_back/pirate_of_treasures_bight_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_of_treasures_bight_back-1dc2892365d5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/5ebbb6661cf7/models/items/techies/pirate_of_treasures_bight_back/pirate_of_treasures_bight_back_color_tga_f3905018.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:26176:techies-mad-tex-back",
+      "itemId": 26176,
+      "name": "War Rig Eradicators  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Techies Spoon",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/39058e32f9ac/models/items/techies/techies_mad_tex_back/techies_mad_tex_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/39058e32f9ac/models/items/techies/techies_mad_tex_back/techies_mad_tex_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_mad_tex_back/techies_mad_tex_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_mad_tex_back-70b0c45044a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/39058e32f9ac/models/items/techies/techies_mad_tex_back/techies_mad_tex_back_color_png_598d45a0.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:6042:crazy-night-of-magic-head",
+      "itemId": 6042,
+      "name": "Bombtrails and Boomsticks Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/520bd59521e6/models/items/techies/crazy_night_of_magic_head/crazy_night_of_magic_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/520bd59521e6/models/items/techies/crazy_night_of_magic_head/crazy_night_of_magic_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/crazy_night_of_magic_head/crazy_night_of_magic_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crazy_night_of_magic_head-6e212ba60c7b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/520bd59521e6/models/items/techies/crazy_night_of_magic_head/crazy_night_of_magic_head_color_tga_6b2cb3d5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/crazy_night_of_magic_head/crazy_night_of_magic_head.vmdl",
+        "modelPaths": [
+          "models/items/techies/crazy_night_of_magic_head/crazy_night_of_magic_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_fall_crazy_night_of_magic_head/techies_fall_crazy_night_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12841:frostivus2018-techies-team-nutcracker-head",
+      "itemId": 12841,
+      "name": "Coat of the Powderkeg Patrol",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f21da3dc3feb/models/items/techies/frostivus2018_techies_team_nutcracker_head/frostivus2018_techies_team_nutcracker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/f21da3dc3feb/models/items/techies/frostivus2018_techies_team_nutcracker_head/frostivus2018_techies_team_nutcracker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_team_nutcracker_head/frostivus2018_techies_team_nutcracker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_team_nutcracker_head-29ebfd81fd9b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f21da3dc3feb/models/items/techies/frostivus2018_techies_team_nutcracker_head/frostivus2018_techies_team_nutcracker_head_color_tga_7ff277e2.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:35859:mh-techies-palico-spleen",
+      "itemId": 35859,
+      "name": "Dire Palico Disguise Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/467eb79840c4/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/467eb79840c4/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_spleen_alt-d1881d521a35.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/467eb79840c4/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:9965:ti8-techies-subterranean-sapper-squad-shoulder",
+      "itemId": 9965,
+      "name": "Helm of the Sappers Guile",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/1be083d3d8dd/models/items/techies/ti8_techies_subterranean_sapper_squad_shoulder/ti8_techies_subterranean_sapper_squad_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/1be083d3d8dd/models/items/techies/ti8_techies_subterranean_sapper_squad_shoulder/ti8_techies_subterranean_sapper_squad_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/ti8_techies_subterranean_sapper_squad_shoulder/ti8_techies_subterranean_sapper_squad_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_techies_subterranean_sapper_squad_shoulder-00e9068dd13b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/1be083d3d8dd/models/items/techies/ti8_techies_subterranean_sapper_squad_shoulder/ti8_techies_subterranean_sapper_squad_shoulder_color_png_1496d623.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:13526:techies-ti9-immortal-squee",
+      "itemId": 13526,
+      "name": "Pachyderm Powderwagon Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/b2ca0544edea/models/items/techies/techies_ti9_immortal_squee/techies_ti9_immortal_squee.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/b2ca0544edea/models/items/techies/techies_ti9_immortal_squee/techies_ti9_immortal_squee.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_ti9_immortal_squee/techies_ti9_immortal_squee.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_ti9_immortal_squee-35104085beb9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/b2ca0544edea/models/items/techies/techies_ti9_immortal_squee/techies_ti9_immortal_squee_color_psd_404337be.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/techies_ti9_immortal_squee/techies_ti9_immortal_squee.vmdl",
+        "modelPaths": [
+          "models/items/techies/techies_ti9_immortal_squee/techies_ti9_immortal_squee.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_ti9/techies_ti9_squee_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:34341:mh-techies-palico-spleen",
+      "itemId": 34341,
+      "name": "Palico Disguise Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/5036a1ba8203/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/5036a1ba8203/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_spleen-9f8d24c81c5a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/5036a1ba8203/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36186:mh-techies-palico-spleen",
+      "itemId": 36186,
+      "name": "Poison Palico Disguise Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/2dacb87ffc99/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/2dacb87ffc99/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_spleen_poison-4efa5379f268.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/2dacb87ffc99/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12833:frostivus2018-techies-squad-penguins-head",
+      "itemId": 12833,
+      "name": "Powdersled Rookery Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0fb30d664581/models/items/techies/frostivus2018_techies_squad_penguins_head/frostivus2018_techies_squad_penguins_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/0fb30d664581/models/items/techies/frostivus2018_techies_squad_penguins_head/frostivus2018_techies_squad_penguins_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_squad_penguins_head/frostivus2018_techies_squad_penguins_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_squad_penguins_head-d3cf506bef6e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0fb30d664581/models/items/techies/frostivus2018_techies_squad_penguins_head/frostivus2018_techies_squad_penguins_head_color_tga_536aaacc.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:35855:mh-techies-palico-spleen-rainbow",
+      "itemId": 35855,
+      "name": "Prismatic Palico Disguise Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f47a177cceeb/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen_rainbow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/f47a177cceeb/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen_rainbow.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_spleen_rainbow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_spleen_rainbow-77e801949ab1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f47a177cceeb/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:33052:farming-techies-squee",
+      "itemId": 33052,
+      "name": "Sodbustin Saboteurs  Farmer Spleen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f88041027d1a/models/items/techies/farming_techies_squee/farming_techies_squee.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/f88041027d1a/models/items/techies/farming_techies_squee/farming_techies_squee.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/farming_techies_squee/farming_techies_squee.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/farming_techies_squee-ea17db9e9e6b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f88041027d1a/models/items/techies/farming_techies_squee/farming_techies_squee_color_tga_575ec7cd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:7009:bigshot-squee-costume",
+      "itemId": 7009,
+      "name": "Swine Visor",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/3b24874b19df/models/items/techies/bigshot/bigshot_squee_costume.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/3b24874b19df/models/items/techies/bigshot/bigshot_squee_costume.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/bigshot/bigshot_squee_costume.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bigshot_squee_costume-bfe3f8d81c9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/3b24874b19df/models/items/techies/bigshot/bigshot_bigcostume_color_psd_a7b04a49.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:491:techies-squee-costume",
+      "itemId": 491,
+      "name": "Techies Spleen Costume",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/655d152fc6ed/models/heroes/techies/techies_squee_costume.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/655d152fc6ed/models/heroes/techies/techies_squee_costume.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_squee_costume.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_squee_costume-94e921257472.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/655d152fc6ed/models/heroes/techies/techies_bigcostume_color_psd_dff63887.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:14865:pirate-of-treasures-bight-head",
+      "itemId": 14865,
+      "name": "Vote Only Pirate of Treasures Bight Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0f198b784b85/models/items/techies/pirate_of_treasures_bight_head/pirate_of_treasures_bight_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/0f198b784b85/models/items/techies/pirate_of_treasures_bight_head/pirate_of_treasures_bight_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/pirate_of_treasures_bight_head/pirate_of_treasures_bight_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_of_treasures_bight_head-2f60f44457dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0f198b784b85/models/items/techies/pirate_of_treasures_bight_head/pirate_of_treasures_bight_head_color_tga_db56981a.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:26177:techies-mad-tex-head",
+      "itemId": 26177,
+      "name": "War Rig Eradicators  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Techies Spleen",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0c98fd82df48/models/items/techies/techies_mad_tex_head/techies_mad_tex_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/0c98fd82df48/models/items/techies/techies_mad_tex_head/techies_mad_tex_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_mad_tex_head/techies_mad_tex_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_mad_tex_head-af3fc4d7fc9c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0c98fd82df48/models/items/techies/techies_mad_tex_head/techies_mad_tex_head_color_png_9e1e802f.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:6046:crazy-night-of-magic-mount",
+      "itemId": 6046,
+      "name": "Bombtrails and Boomsticks Cart",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/2b91a294ffc7/models/items/techies/crazy_night_of_magic_mount/crazy_night_of_magic_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/2b91a294ffc7/models/items/techies/crazy_night_of_magic_mount/crazy_night_of_magic_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/crazy_night_of_magic_mount/crazy_night_of_magic_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crazy_night_of_magic_mount-9337d8e68f7a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/2b91a294ffc7/models/items/techies/crazy_night_of_magic_mount/crazy_night_of_magic_mount_color_tga_a83a46b7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/crazy_night_of_magic_mount/crazy_night_of_magic_mount.vmdl",
+        "modelPaths": [
+          "models/items/techies/crazy_night_of_magic_mount/crazy_night_of_magic_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_fall_crazy_night_of_magic_mount/techies_fall_crazy_night_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12846:frostivus2018-techies-team-nutcracker-mount",
+      "itemId": 12846,
+      "name": "Cart of the Powderkeg Patrol",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/048c9d5e8d6c/models/items/techies/frostivus2018_techies_team_nutcracker_mount/frostivus2018_techies_team_nutcracker_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/048c9d5e8d6c/models/items/techies/frostivus2018_techies_team_nutcracker_mount/frostivus2018_techies_team_nutcracker_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_team_nutcracker_mount/frostivus2018_techies_team_nutcracker_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_team_nutcracker_mount-0deb9307a188.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/048c9d5e8d6c/models/items/techies/frostivus2018_techies_team_nutcracker_mount/frostivus2018_techies_team_nutcracker_mount_color_tga_4d8dcc6f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/frostivus2018_techies_team_nutcracker_mount/frostivus2018_techies_team_nutcracker_mount.vmdl",
+        "modelPaths": [
+          "models/items/techies/frostivus2018_techies_team_nutcracker_mount/frostivus2018_techies_team_nutcracker_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_techies/techies_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36154:mh-techies-palico-tank",
+      "itemId": 36154,
+      "name": "Dire Palico Tank",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/4251a91df450/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/4251a91df450/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_dire_tank-ac2e64c77373.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/4251a91df450/models/items/techies/mh_palico_techies/mesh/techies_palico_tank_color_psd_5c06b732.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana",
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_tank_alt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_tank_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_base_attack_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_suicide_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_suicide.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:13527:techies-ti9-immortal-cart",
+      "itemId": 13527,
+      "name": "Pachyderm Powderwagon Elephant",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/cb13277656c3/models/items/techies/techies_ti9_immortal_cart/techies_ti9_immortal_cart.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/cb13277656c3/models/items/techies/techies_ti9_immortal_cart/techies_ti9_immortal_cart.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_ti9_immortal_cart/techies_ti9_immortal_cart.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_ti9_immortal_cart-ed80c5330f43.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/cb13277656c3/models/items/techies/techies_ti9_immortal_cart/techies_ti9_immortal_cart_color_psd_30b6d845.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/techies_ti9_immortal_cart/techies_ti9_immortal_cart.vmdl",
+        "modelPaths": [
+          "models/items/techies/techies_ti9_immortal_cart/techies_ti9_immortal_cart.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_ti9/techies_ti9_cart_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:34340:mh-techies-palico-tank",
+      "itemId": 34340,
+      "name": "Palico Tank",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/fa297af9ec75/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/fa297af9ec75/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_tank-0934346f208d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/fa297af9ec75/models/items/techies/mh_palico_techies/mesh/techies_palico_tank_color_psd_5c06b732.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana",
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_tank_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_tank_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_suicide_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_suicide.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36182:mh-techies-palico-tank",
+      "itemId": 36182,
+      "name": "Poison Palico Tank",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f33f86f89974/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/f33f86f89974/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_tank_poison-f0985b0d5347.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f33f86f89974/models/items/techies/mh_palico_techies/mesh/techies_palico_tank_color_psd_5c06b732.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana",
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_tank_alt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_tank_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_base_attack_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_suicide_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_suicide.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12836:frostivus2018-techies-squad-penguins-mount",
+      "itemId": 12836,
+      "name": "Powdersled Rookery Sled",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/5dd0c596d57b/models/items/techies/frostivus2018_techies_squad_penguins_mount/frostivus2018_techies_squad_penguins_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/5dd0c596d57b/models/items/techies/frostivus2018_techies_squad_penguins_mount/frostivus2018_techies_squad_penguins_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_squad_penguins_mount/frostivus2018_techies_squad_penguins_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_squad_penguins_mount-5d564b0a3604.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/5dd0c596d57b/models/items/techies/frostivus2018_techies_squad_penguins_mount/frostivus2018_techies_squad_penguins_mount_color_psd_a86cfbb1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/frostivus2018_techies_squad_penguins_mount/frostivus2018_techies_squad_penguins_mount.vmdl",
+        "modelPaths": [
+          "models/items/techies/frostivus2018_techies_squad_penguins_mount/frostivus2018_techies_squad_penguins_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_squad_penguins/techies_squad_penguins_mount_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36155:mh-techies-palico-tank-rainbow",
+      "itemId": 36155,
+      "name": "Prismatic Palico Tank",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/68676e76ab87/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank_rainbow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/68676e76ab87/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank_rainbow.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank_rainbow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_rainbow_tank-4ee48181b678.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/68676e76ab87/models/items/techies/mh_palico_techies/mesh/techies_palico_tank_color_psd_5c06b732.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank_rainbow.vmdl",
+        "modelPaths": [
+          "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_tank_rainbow.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana",
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/mh_palico_techies/mh_techies_palico_tank_rainbow_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_base_attack_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_suicide_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_suicide.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:9966:ti8-techies-subterranean-sapper-squad-mount",
+      "itemId": 9966,
+      "name": "Skip of the Sappers Guile",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f74a28b27a72/models/items/techies/ti8_techies_subterranean_sapper_squad_mount/ti8_techies_subterranean_sapper_squad_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/f74a28b27a72/models/items/techies/ti8_techies_subterranean_sapper_squad_mount/ti8_techies_subterranean_sapper_squad_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/ti8_techies_subterranean_sapper_squad_mount/ti8_techies_subterranean_sapper_squad_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_techies_subterranean_sapper_squad_mount-d39cfccd7a81.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f74a28b27a72/models/items/techies/ti8_techies_subterranean_sapper_squad_mount/ti8_techies_subterranean_sapper_squad_mount_color_png_bd40a393.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/ti8_techies_subterranean_sapper_squad_mount/ti8_techies_subterranean_sapper_squad_mount.vmdl",
+        "modelPaths": [
+          "models/items/techies/ti8_techies_subterranean_sapper_squad_mount/ti8_techies_subterranean_sapper_squad_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_techies/techies_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:33055:farming-techies-cart",
+      "itemId": 33055,
+      "name": "Sodbustin Saboteurs  Sodbusteur",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/b0b5c6e48423/models/items/techies/farming_techies_cart/farming_techies_cart.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/b0b5c6e48423/models/items/techies/farming_techies_cart/farming_techies_cart.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/farming_techies_cart/farming_techies_cart.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/farming_techies_cart-9fb584584963.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/b0b5c6e48423/models/items/techies/farming_techies_cart/farming_techies_cart_color_tga_3f237109.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/farming_techies_cart/farming_techies_cart.vmdl",
+        "modelPaths": [
+          "models/items/techies/farming_techies_cart/farming_techies_cart.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/farming/farming_cart_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:6879:bigshot",
+      "itemId": 6879,
+      "name": "Swine of the Sunken Galley",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "arcana",
+        "hero",
+        "rarity:arcana"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/b266f4799d82/models/items/techies/bigshot/bigshot.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/b266f4799d82/models/items/techies/bigshot/bigshot.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/bigshot/bigshot.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bigshot-36ebacc23154.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/b266f4799d82/models/items/techies/bigshot/bigshot_color_psd_a25832cd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/bigshot/bigshot.vmdl",
+        "modelPaths": [
+          "models/items/techies/bigshot/bigshot.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "arcana",
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_ambient_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_base_attack_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_bigshot_fuse.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_loadout_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_remote_mine_plant_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_remote_mines_detonate_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_arcana/techies_suicide_arcana.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_loadout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_mad_explode.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_remote_mine_plant.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_suicide.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:490:techies-cart",
+      "itemId": 490,
+      "name": "Techies Cart",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c4b14fe01e82/models/heroes/techies/techies_cart.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/c4b14fe01e82/models/heroes/techies/techies_cart.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_cart.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_cart-6bd875280311.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c4b14fe01e82/models/heroes/techies/techies_cart_color_psd_94ebacb8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/techies/techies_cart.vmdl",
+        "modelPaths": [
+          "models/heroes/techies/techies_cart.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_techies/techies_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:14864:pirate-of-treasures-bight-mount",
+      "itemId": 14864,
+      "name": "Vote Only Pirate of Treasures Bight Mount",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/a05be96d1403/models/items/techies/pirate_of_treasures_bight_mount/pirate_of_treasures_bight_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/a05be96d1403/models/items/techies/pirate_of_treasures_bight_mount/pirate_of_treasures_bight_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/pirate_of_treasures_bight_mount/pirate_of_treasures_bight_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_of_treasures_bight_mount-3f44fbfed17f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/a05be96d1403/models/items/techies/pirate_of_treasures_bight_mount/pirate_of_treasures_bight_mount_color_tga_a16b69a9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/pirate_of_treasures_bight_mount/pirate_of_treasures_bight_mount.vmdl",
+        "modelPaths": [
+          "models/items/techies/pirate_of_treasures_bight_mount/pirate_of_treasures_bight_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_techies/techies_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:26423:techies-mad-tex-mount",
+      "itemId": 26423,
+      "name": "War Rig Eradicators  Rig",
+      "slot": "mount",
+      "slotDisplayName": "LoadoutSlot Techies Cart",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f09d452cd01a/models/items/techies/techies_mad_tex_mount/techies_mad_tex_mount.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/f09d452cd01a/models/items/techies/techies_mad_tex_mount/techies_mad_tex_mount.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_mad_tex_mount/techies_mad_tex_mount.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_mad_tex_mount-95b6a543e9e7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f09d452cd01a/models/items/techies/techies_mad_tex_mount/techies_mad_tex_mount_color_psd_f232583b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/techies_mad_tex_mount/techies_mad_tex_mount.vmdl",
+        "modelPaths": [
+          "models/items/techies/techies_mad_tex_mount/techies_mad_tex_mount.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_mad_tex/techies_mad_tex_2022_mount.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:6045:crazy-night-of-magic-shoulder",
+      "itemId": 6045,
+      "name": "Bombtrails and Boomsticks Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/af43d1e7d409/models/items/techies/crazy_night_of_magic_shoulder/crazy_night_of_magic_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/af43d1e7d409/models/items/techies/crazy_night_of_magic_shoulder/crazy_night_of_magic_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/crazy_night_of_magic_shoulder/crazy_night_of_magic_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crazy_night_of_magic_shoulder-b10752802e9c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/af43d1e7d409/models/items/techies/crazy_night_of_magic_shoulder/crazy_night_of_magic_shoulder_color_tga_93ea5f40.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/crazy_night_of_magic_shoulder/crazy_night_of_magic_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/techies/crazy_night_of_magic_shoulder/crazy_night_of_magic_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_fall_crazy_night_of_magic_shoulders/techies_fall_crazy_night_shoulders_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12843:frostivus2018-techies-team-nutcracker-shoulder",
+      "itemId": 12843,
+      "name": "Colors of the Powderkeg Patrol",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0557108fe65f/models/items/techies/frostivus2018_techies_team_nutcracker_shoulder/frostivus2018_techies_team_nutcracker_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/0557108fe65f/models/items/techies/frostivus2018_techies_team_nutcracker_shoulder/frostivus2018_techies_team_nutcracker_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_team_nutcracker_shoulder/frostivus2018_techies_team_nutcracker_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_team_nutcracker_shoulder-41a71f5d229e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/0557108fe65f/models/items/techies/frostivus2018_techies_team_nutcracker_shoulder/frostivus2018_techies_team_nutcracker_shoulder_color_tga_8cad6eb.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:35860:mh-techies-palico-squee",
+      "itemId": 35860,
+      "name": "Dire Palico Disguise Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "taunt"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/eab45f37ba5d/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/eab45f37ba5d/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_squee_alt-b86024757706.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/eab45f37ba5d/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:9963:ti8-techies-subterranean-sapper-squad-head",
+      "itemId": 9963,
+      "name": "Implements of the Sappers Guile",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/2984e356bf6d/models/items/techies/ti8_techies_subterranean_sapper_squad_head/ti8_techies_subterranean_sapper_squad_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/2984e356bf6d/models/items/techies/ti8_techies_subterranean_sapper_squad_head/ti8_techies_subterranean_sapper_squad_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/ti8_techies_subterranean_sapper_squad_head/ti8_techies_subterranean_sapper_squad_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_techies_subterranean_sapper_squad_head-7676398b596c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/2984e356bf6d/models/items/techies/ti8_techies_subterranean_sapper_squad_head/ti8_techies_subterranean_sapper_squad_head_color_png_3314d015.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/ti8_techies_subterranean_sapper_squad_head/ti8_techies_subterranean_sapper_squad_head.vmdl",
+        "modelPaths": [
+          "models/items/techies/ti8_techies_subterranean_sapper_squad_head/ti8_techies_subterranean_sapper_squad_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_ti8/techies_ti8_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:13528:techies-ti9-immortal-spleen",
+      "itemId": 13528,
+      "name": "Pachyderm Powderwagon Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/1d909c841642/models/items/techies/techies_ti9_immortal_spleen/techies_ti9_immortal_spleen.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/1d909c841642/models/items/techies/techies_ti9_immortal_spleen/techies_ti9_immortal_spleen.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_ti9_immortal_spleen/techies_ti9_immortal_spleen.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_ti9_immortal_spleen-0aa13b76fc8e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/1d909c841642/models/items/techies/techies_ti9_immortal_spleen/techies_ti9_immortal_spleen_color_psd_488badb0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/techies_ti9_immortal_spleen/techies_ti9_immortal_spleen.vmdl",
+        "modelPaths": [
+          "models/items/techies/techies_ti9_immortal_spleen/techies_ti9_immortal_spleen.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_ti9/techies_ti9_spleen_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:34342:mh-techies-palico-squee",
+      "itemId": 34342,
+      "name": "Palico Disguise Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "taunt"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/043218afcca7/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/043218afcca7/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_squee-7e120500276f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/043218afcca7/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36185:mh-techies-palico-squee",
+      "itemId": 36185,
+      "name": "Poison Palico Disguise Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "taunt"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/da9bea5c7372/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/da9bea5c7372/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_squee_poison-ec09b834c342.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/da9bea5c7372/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12839:frostivus2018-techies-squad-penguins-shoulder",
+      "itemId": 12839,
+      "name": "Powdersled Rookery Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/10867f206a2c/models/items/techies/frostivus2018_techies_squad_penguins_shoulder/frostivus2018_techies_squad_penguins_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/10867f206a2c/models/items/techies/frostivus2018_techies_squad_penguins_shoulder/frostivus2018_techies_squad_penguins_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_squad_penguins_shoulder/frostivus2018_techies_squad_penguins_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_squad_penguins_shoulder-b8c26cb0be04.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/10867f206a2c/models/items/techies/frostivus2018_techies_squad_penguins_shoulder/frostivus2018_techies_squad_penguins_shoulder_color_tga_3d9b20c5.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:35856:mh-techies-palico-squee-rainbow",
+      "itemId": 35856,
+      "name": "Prismatic Palico Disguise Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "taunt"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c8d7bd94ba88/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee_rainbow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/c8d7bd94ba88/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee_rainbow.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_squee_rainbow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_squee_rainbow-37571b669415.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c8d7bd94ba88/models/items/techies/mh_palico_techies/mesh/techies_palico_fluff_color_psd_7e4317fd.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:33054:farming-techies-spleen",
+      "itemId": 33054,
+      "name": "Sodbustin Saboteurs  Farmer Squee",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/05e00a31b6fe/models/items/techies/farming_techies_spleen/farming_techies_spleen.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/05e00a31b6fe/models/items/techies/farming_techies_spleen/farming_techies_spleen.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/farming_techies_spleen/farming_techies_spleen.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/farming_techies_spleen-dbdf867ac7c2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/05e00a31b6fe/models/items/techies/farming_techies_spleen/farming_techies_spleen_color_tga_5af8a127.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:6911:bigshot-spleen-costume",
+      "itemId": 6911,
+      "name": "Swine Helmet",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/70da94a79fa5/models/items/techies/bigshot/bigshot_spleen_costume.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/70da94a79fa5/models/items/techies/bigshot/bigshot_spleen_costume.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/bigshot/bigshot_spleen_costume.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bigshot_spleen_costume-64d97a948a0b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/70da94a79fa5/models/items/techies/bigshot/bigshot_smallcostume_color_psd_fd6876d8.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:492:techies-spleen-costume",
+      "itemId": 492,
+      "name": "Techies Squee Costume",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/e02f77760d0d/models/heroes/techies/techies_spleen_costume.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/e02f77760d0d/models/heroes/techies/techies_spleen_costume.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_spleen_costume.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_spleen_costume-95aa53f624f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/e02f77760d0d/models/heroes/techies/techies_smallcostume_color_psd_a05d377d.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:14867:pirate-of-treasures-bight-shoulder",
+      "itemId": 14867,
+      "name": "Vote Only Pirate of Treasures Bight Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/228b7151937b/models/items/techies/pirate_of_treasures_bight_shoulder/pirate_of_treasures_bight_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/228b7151937b/models/items/techies/pirate_of_treasures_bight_shoulder/pirate_of_treasures_bight_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/pirate_of_treasures_bight_shoulder/pirate_of_treasures_bight_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_of_treasures_bight_shoulder-586601636300.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/228b7151937b/models/items/techies/pirate_of_treasures_bight_shoulder/pirate_of_treasures_bight_shoulder_color_tga_f7006896.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:26373:techies-mad-tex-shoulder",
+      "itemId": 26373,
+      "name": "War Rig Eradicators  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Techies Squee",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/d1a18c1cfc2e/models/items/techies/techies_mad_tex_shoulder/techies_mad_tex_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/d1a18c1cfc2e/models/items/techies/techies_mad_tex_shoulder/techies_mad_tex_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_mad_tex_shoulder/techies_mad_tex_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_mad_tex_shoulder-66c17445c847.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/d1a18c1cfc2e/models/items/techies/techies_mad_tex_shoulder/techies_mad_tex_shoulder_color_png_d9491b55.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:9962:ti8-techies-subterranean-sapper-squad-weapon",
+      "itemId": 9962,
+      "name": "Auxiliary of the Sappers Guile",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c91fc75866f3/models/items/techies/ti8_techies_subterranean_sapper_squad_weapon/ti8_techies_subterranean_sapper_squad_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/c91fc75866f3/models/items/techies/ti8_techies_subterranean_sapper_squad_weapon/ti8_techies_subterranean_sapper_squad_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/ti8_techies_subterranean_sapper_squad_weapon/ti8_techies_subterranean_sapper_squad_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_techies_subterranean_sapper_squad_weapon-8c851b13dd47.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/c91fc75866f3/models/items/techies/ti8_techies_subterranean_sapper_squad_weapon/ti8_techies_subterranean_sapper_squad_weapon_color_png_e582e2ac.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:6288:crazy-night-of-magic-weapon",
+      "itemId": 6288,
+      "name": "Bombtrails and Boomsticks Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/aa92f0d12452/models/items/techies/crazy_night_of_magic_weapon/crazy_night_of_magic_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/aa92f0d12452/models/items/techies/crazy_night_of_magic_weapon/crazy_night_of_magic_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/crazy_night_of_magic_weapon/crazy_night_of_magic_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crazy_night_of_magic_weapon-278e76541d5e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/aa92f0d12452/models/items/techies/crazy_night_of_magic_weapon/crazy_night_of_magic_weapon_color_tga_a2a191e4.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36114:mh-techies-palico-weapon",
+      "itemId": 36114,
+      "name": "Dire Palico Acorn Cannon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/38adeedbe2cc/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/38adeedbe2cc/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_weapon_alt-c601d1d68ed4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/38adeedbe2cc/models/items/techies/mh_palico_techies/mesh/techies_palico_weapon_color_psd_5e336f0a.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12847:frostivus2018-techies-team-nutcracker-weapon",
+      "itemId": 12847,
+      "name": "Munitions of the Powderkeg Patrol",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/8c8c2b32928c/models/items/techies/frostivus2018_techies_team_nutcracker_weapon/frostivus2018_techies_team_nutcracker_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/8c8c2b32928c/models/items/techies/frostivus2018_techies_team_nutcracker_weapon/frostivus2018_techies_team_nutcracker_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_team_nutcracker_weapon/frostivus2018_techies_team_nutcracker_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_team_nutcracker_weapon-13bf6ce006d4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/8c8c2b32928c/models/items/techies/frostivus2018_techies_team_nutcracker_weapon/frostivus2018_techies_team_nutcracker_weapon_color_tga_16b5a817.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:13529:techies-ti9-immortal-bazooka",
+      "itemId": 13529,
+      "name": "Pachyderm Powderwagon Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/ee91a80e22be/models/items/techies/techies_ti9_immortal_bazooka/techies_ti9_immortal_bazooka.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/ee91a80e22be/models/items/techies/techies_ti9_immortal_bazooka/techies_ti9_immortal_bazooka.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_ti9_immortal_bazooka/techies_ti9_immortal_bazooka.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_ti9_immortal_bazooka-36d16a9fce0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/ee91a80e22be/models/items/techies/techies_ti9_immortal_bazooka/techies_ti9_immortal_bazooka_color_psd_4eb6841e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/techies_ti9_immortal_bazooka/techies_ti9_immortal_bazooka.vmdl",
+        "modelPaths": [
+          "models/items/techies/techies_ti9_immortal_bazooka/techies_ti9_immortal_bazooka.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_ti9/techies_ti9_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/techies/techies_ti9/techies_ti9_bazooka_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:34343:mh-techies-palico-weapon",
+      "itemId": 34343,
+      "name": "Palico Acorn Cannon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/51f4329895e8/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/51f4329895e8/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_weapon-96021aa4a4a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/51f4329895e8/models/items/techies/mh_palico_techies/mesh/techies_palico_weapon_color_psd_5e336f0a.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36184:mh-techies-palico-weapon",
+      "itemId": 36184,
+      "name": "Poison Palico Acorn Cannon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/242e44036eec/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/242e44036eec/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_weapon_poison-d3860aee1f0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/242e44036eec/models/items/techies/mh_palico_techies/mesh/techies_palico_weapon_color_psd_5e336f0a.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:12834:frostivus2018-techies-squad-penguins-weapon",
+      "itemId": 12834,
+      "name": "Powdersled Rookery Cannon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/615b17fbfefc/models/items/techies/frostivus2018_techies_squad_penguins_weapon/frostivus2018_techies_squad_penguins_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/615b17fbfefc/models/items/techies/frostivus2018_techies_squad_penguins_weapon/frostivus2018_techies_squad_penguins_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/frostivus2018_techies_squad_penguins_weapon/frostivus2018_techies_squad_penguins_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus2018_techies_squad_penguins_weapon-0deeff25bf07.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/615b17fbfefc/models/items/techies/frostivus2018_techies_squad_penguins_weapon/frostivus2018_techies_squad_penguins_weapon_color_tga_80b95264.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/frostivus2018_techies_squad_penguins_weapon/frostivus2018_techies_squad_penguins_weapon.vmdl",
+        "modelPaths": [
+          "models/items/techies/frostivus2018_techies_squad_penguins_weapon/frostivus2018_techies_squad_penguins_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_squad_penguins/techies_squad_penguins_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:36115:mh-techies-palico-weapon-rainbow",
+      "itemId": 36115,
+      "name": "Prismatic Palico Acorn Cannon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f7b8f8283cb6/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon_rainbow.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/f7b8f8283cb6/models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon_rainbow.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/mh_palico_techies/mesh/mh_techies_palico_weapon_rainbow.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mh_techies_palico_weapon_rainbow-b03b4b563e31.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/f7b8f8283cb6/models/items/techies/mh_palico_techies/mesh/techies_palico_weapon_color_psd_5e336f0a.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:489:techies-spleen-weapon",
+      "itemId": 489,
+      "name": "Techies Slingshot",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/119abef145a2/models/heroes/techies/techies_spleen_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/119abef145a2/models/heroes/techies/techies_spleen_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/techies/techies_spleen_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_spleen_weapon-5618906964b7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/119abef145a2/models/heroes/techies/techies_bazooka_color_psd_af087f7c.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:14861:pirate-of-treasures-bight-weapon",
+      "itemId": 14861,
+      "name": "Vote Only Pirate of Treasures Bight Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/ad27a6515b02/models/items/techies/pirate_of_treasures_bight_weapon/pirate_of_treasures_bight_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/ad27a6515b02/models/items/techies/pirate_of_treasures_bight_weapon/pirate_of_treasures_bight_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/pirate_of_treasures_bight_weapon/pirate_of_treasures_bight_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pirate_of_treasures_bight_weapon-e65c09275d1d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/ad27a6515b02/models/items/techies/pirate_of_treasures_bight_weapon/pirate_of_treasures_bight_weapon_color_tga_add97483.png"
+    },
+    {
+      "id": "npc_dota_hero_techies:item-model:26422:techies-mad-tex-weapon",
+      "itemId": 26422,
+      "name": "War Rig Eradicators  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Techies Bazooka",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_techies/fe842959c86f/models/items/techies/techies_mad_tex_weapon/techies_mad_tex_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_techies/fe842959c86f/models/items/techies/techies_mad_tex_weapon/techies_mad_tex_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/techies/techies_mad_tex_weapon/techies_mad_tex_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/techies_mad_tex_weapon-62c76feffecf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_techies/fe842959c86f/models/items/techies/techies_mad_tex_weapon/techies_mad_tex_weapon_color_png_312e7ab0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/techies/techies_mad_tex_weapon/techies_mad_tex_weapon.vmdl",
+        "modelPaths": [
+          "models/items/techies/techies_mad_tex_weapon/techies_mad_tex_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/techies/techies_mad_tex/techies_mad_tex_2022_bazooka.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_techies:core-set:20374:bombtrails-and-boomsticks",
+      "name": "Bombtrails and Boomsticks",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        6042,
+        6043,
+        6044,
+        6045,
+        6046,
+        6288,
+        6289
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/crazy_night_of_magic_head-6e212ba60c7b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:35857:dire-palico-disguise-bomb-unit",
+      "name": "Dire Palico Disguise Bomb Unit",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        34237,
+        34347,
+        35859,
+        35860,
+        35861,
+        36114,
+        36154
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "rarity:mythical",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 23,
+      "previewUrl": "/larimods-data/v1/icons/mh_techies_palico_set_alt-2a105193c064.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:21307:march-of-the-powderkeg-patrol",
+      "name": "March of the Powderkeg Patrol",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        12841,
+        12842,
+        12843,
+        12844,
+        12845,
+        12846,
+        12847
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_techies_team_nutcracker_head-29ebfd81fd9b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:21424:pachyderm-powderwagon",
+      "name": "Pachyderm Powderwagon",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499,
+        827
+      ],
+      "sourceItemIds": [
+        13526,
+        13527,
+        13528,
+        13529,
+        13530,
+        13548,
+        13666,
+        34188
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "misc",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 8,
+      "assetFiles": 18,
+      "previewUrl": "/larimods-data/v1/icons/techies_ti9_immortal_squee-35104085beb9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:34277:palico-disguise-bomb-unit",
+      "name": "Palico Disguise Bomb Unit",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        34237,
+        34340,
+        34341,
+        34342,
+        34343,
+        34345,
+        34347
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "rarity:mythical",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 22,
+      "previewUrl": "/larimods-data/v1/icons/mh_techies_palico_set-14b30a4534f9.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:36187:poison-palico-disguise-bomb-unit",
+      "name": "Poison Palico Disguise Bomb Unit",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        34237,
+        34347,
+        36182,
+        36183,
+        36184,
+        36185,
+        36186
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "rarity:mythical",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 23,
+      "previewUrl": "/larimods-data/v1/icons/mh_techies_palico_tank_poison-f0985b0d5347.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:21306:powdersled-rookery",
+      "name": "Powdersled Rookery",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        12833,
+        12834,
+        12835,
+        12836,
+        12837,
+        12839,
+        12840
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2018_techies_squad_penguins_ls-4f35b41c288d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:21211:primer-of-the-sappers-guile",
+      "name": "Primer of the Sappers Guile",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        9960,
+        9961,
+        9962,
+        9963,
+        9964,
+        9965,
+        9966
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti8_techies_subterranean_sapper_squad_weapon-8c851b13dd47.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:35853:prismatic-palico-disguise-bomb-unit",
+      "name": "Prismatic Palico Disguise Bomb Unit",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        34237,
+        34347,
+        35855,
+        35856,
+        35862,
+        36115,
+        36155
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "rarity:mythical",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 22,
+      "previewUrl": "/larimods-data/v1/icons/mh_techies_palico_set_rainbow-b66f916e69bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:33057:sodbustin-saboteurs",
+      "name": "Sodbustin Saboteurs",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        490,
+        491,
+        492,
+        499,
+        827
+      ],
+      "sourceItemIds": [
+        33052,
+        33053,
+        33054,
+        33055,
+        34187,
+        34276,
+        36120
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "misc",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/farming_techies_squee-ea17db9e9e6b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:20610:swine-of-the-sunken-galley-bundle",
+      "name": "Swine of the Sunken Galley Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        6879,
+        6908,
+        6911,
+        6946,
+        7009,
+        7011
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "arcana",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:arcana",
+        "rarity:legendary",
+        "style",
+        "taunt",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 36,
+      "previewUrl": "/larimods-data/v1/icons/bigshot_bundle-645a29904a7f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:21607:vote-only-pirate-of-treasures-bight",
+      "name": "Vote Only Pirate of Treasures Bight",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        14861,
+        14862,
+        14863,
+        14864,
+        14865,
+        14866,
+        14867
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_techies:core-set:26537:war-rig-eradicators",
+      "name": "War Rig Eradicators",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        394,
+        487,
+        489,
+        490,
+        491,
+        492,
+        499
+      ],
+      "sourceItemIds": [
+        26158,
+        26176,
+        26177,
+        26372,
+        26373,
+        26422,
+        26423
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "belt",
+        "head",
+        "mount",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/techies_mad_tex_loading_screen-8eb56fffaf95.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 163798651,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 456
+  }
+}

@@ -1,0 +1,2488 @@
+{
+  "heroId": "npc_dota_hero_undying",
+  "sourceHeroId": "npc_dota_hero_undying",
+  "variantId": "default",
+  "heroName": "Undying",
+  "heroSlug": "undying",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/undying.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_undying/68c5d0fe7a75/models/heroes/undying/undying.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 393,
+      "name": "Undyings Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/3b163a332857/models/heroes/undying/undying_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/3b163a332857/models/heroes/undying/undying_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/undying/undying_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/3b163a332857/models/heroes/undying/undying_armor_color_psd_c87c0f87.png"
+    },
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 616,
+      "name": "Undyings Arm Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/70076fa3be8b/models/heroes/undying/mesh/undying_arm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/70076fa3be8b/models/heroes/undying/mesh/undying_arm.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/undying/mesh/undying_arm.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/70076fa3be8b/models/heroes/undying/mesh/undying_arm_color_psd_a0d4c854.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "itemId": 392,
+      "name": "Undyings Helmet",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7ab7449e1ecb/models/heroes/undying/undying_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/7ab7449e1ecb/models/heroes/undying/undying_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/undying/undying_helmet.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7ab7449e1ecb/models/heroes/undying/undying_helmet_color_psd_7e132eb.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_undying:item-model:12497:ti8-the-elegy-of-abyssal-samurai-armor",
+      "itemId": 12497,
+      "name": "Armor of Dirgesworn Dynasty",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/4922166bd289/models/items/undying/ti8_the_elegy_of_abyssal_samurai_armor/ti8_the_elegy_of_abyssal_samurai_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/4922166bd289/models/items/undying/ti8_the_elegy_of_abyssal_samurai_armor/ti8_the_elegy_of_abyssal_samurai_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti8_the_elegy_of_abyssal_samurai_armor/ti8_the_elegy_of_abyssal_samurai_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_the_elegy_of_abyssal_samurai_armor-f39f8a7b0b4a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/4922166bd289/models/items/undying/ti8_the_elegy_of_abyssal_samurai_armor/ti8_the_elegy_of_abyssal_samurai_armor_color_tga_62ddba76.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti8_the_elegy_of_abyssal_samurai_armor/ti8_the_elegy_of_abyssal_samurai_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti8_the_elegy_of_abyssal_samurai_armor/ti8_the_elegy_of_abyssal_samurai_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9032:corrupted-scourge-armor",
+      "itemId": 9032,
+      "name": "Armor of Grim Reformation",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/ee25710fde87/models/items/undying/corrupted_scourge_armor/corrupted_scourge_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/ee25710fde87/models/items/undying/corrupted_scourge_armor/corrupted_scourge_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/corrupted_scourge_armor/corrupted_scourge_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/corrupted_scourge_armor-76fddf054d5d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/ee25710fde87/models/items/undying/corrupted_scourge_armor/corrupted_scourge_armor_color_tga_80eccc66.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/corrupted_scourge_armor/corrupted_scourge_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/corrupted_scourge_armor/corrupted_scourge_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_scourge/undying_scourge_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9332:davy-jones-set-armor",
+      "itemId": 9332,
+      "name": "Armor of Seablight Procession",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/b26d162d642a/models/items/undying/davy_jones_set_armor/davy_jones_set_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/b26d162d642a/models/items/undying/davy_jones_set_armor/davy_jones_set_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/davy_jones_set_armor/davy_jones_set_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/davy_jones_set_armor-604902a9e1e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/b26d162d642a/models/items/undying/davy_jones_set_armor/davy_jones_set_armor_color_tga_13623d08.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/davy_jones_set_armor/davy_jones_set_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/davy_jones_set_armor/davy_jones_set_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_davy_jones/undying_davy_jones_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:13483:ti9-cache-undying-carnivorous-parasitism-armor",
+      "itemId": 13483,
+      "name": "Armor of the Creeping Vine",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/cd2b2b9a5d03/models/items/undying/ti9_cache_undying_carnivorous_parasitism_armor/ti9_cache_undying_carnivorous_parasitism_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/cd2b2b9a5d03/models/items/undying/ti9_cache_undying_carnivorous_parasitism_armor/ti9_cache_undying_carnivorous_parasitism_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti9_cache_undying_carnivorous_parasitism_armor/ti9_cache_undying_carnivorous_parasitism_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_undying_carnivorous_parasitism_armor-8e36e6b77e5e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/cd2b2b9a5d03/models/items/undying/ti9_cache_undying_carnivorous_parasitism_armor/ti9_cache_undying_carnivorous_parasitism_armor_color_tga_55e20318.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti9_cache_undying_carnivorous_parasitism_armor/ti9_cache_undying_carnivorous_parasitism_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti9_cache_undying_carnivorous_parasitism_armor/ti9_cache_undying_carnivorous_parasitism_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/ti9_cache_undying_carnivorous_parasitism/ti9_cache_undying_carnivorous_parasitism_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:7960:undying-tomb-overlord-armor",
+      "itemId": 7960,
+      "name": "Armor of the Dirgeful Overlord",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/6e3b1a685d16/models/items/undying/undying_tomb_overlord_armor/undying_tomb_overlord_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/6e3b1a685d16/models/items/undying/undying_tomb_overlord_armor/undying_tomb_overlord_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_tomb_overlord_armor/undying_tomb_overlord_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_tomb_overlord_armor-12e44843afb7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/6e3b1a685d16/models/items/undying/undying_tomb_overlord_armor/undying_tomb_overlord_armor_color_psd_9e6f7c14.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_tomb_overlord_armor/undying_tomb_overlord_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_tomb_overlord_armor/undying_tomb_overlord_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:12860:frostivus-2018-undying-accursed-draugr-armor",
+      "itemId": 12860,
+      "name": "Armor of the Shambling Draug",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/8f052b83a4cf/models/items/undying/frostivus_2018_undying_accursed_draugr_armor/frostivus_2018_undying_accursed_draugr_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/8f052b83a4cf/models/items/undying/frostivus_2018_undying_accursed_draugr_armor/frostivus_2018_undying_accursed_draugr_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/frostivus_2018_undying_accursed_draugr_armor/frostivus_2018_undying_accursed_draugr_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_2018_undying_accursed_draugr_armor-e29052055ef4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/8f052b83a4cf/models/items/undying/frostivus_2018_undying_accursed_draugr_armor/frostivus_2018_undying_accursed_draugr_armor_color_tga_3c6fb213.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/frostivus_2018_undying_accursed_draugr_armor/frostivus_2018_undying_accursed_draugr_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/frostivus_2018_undying_accursed_draugr_armor/frostivus_2018_undying_accursed_draugr_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9910:ti8-undying-miner-armor",
+      "itemId": 9910,
+      "name": "Coat of Forlorn Descent",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/f686c2c037d4/models/items/undying/ti8_undying_miner_armor/ti8_undying_miner_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/f686c2c037d4/models/items/undying/ti8_undying_miner_armor/ti8_undying_miner_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti8_undying_miner_armor/ti8_undying_miner_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_undying_miner_armor-52e7021c146e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/f686c2c037d4/models/items/undying/ti8_undying_miner_armor/ti8_undying_miner_armor_color_tga_cf899027.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti8_undying_miner_armor/ti8_undying_miner_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti8_undying_miner_armor/ti8_undying_miner_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/ti8_undying_miner_head/ti8_undying_miner_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:36087:undying-dark-carnival-armor",
+      "itemId": 36087,
+      "name": "Court Fester  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/b84d65a75db5/models/items/undying/undying_dark_carnival/undying_dark_carnival_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/b84d65a75db5/models/items/undying/undying_dark_carnival/undying_dark_carnival_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_dark_carnival/undying_dark_carnival_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_dark_carnival_armor-e307ed1197f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/b84d65a75db5/models/items/undying/undying_dark_carnival/dark_carnival_undying_armor_color_png_94998c04.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_dark_carnival/undying_dark_carnival_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_dark_carnival/undying_dark_carnival_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:17957:watchmen-of-wheat-field-armor",
+      "itemId": 17957,
+      "name": "Dark Meadow Massacre Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/5f1445e481e8/models/items/undying/watchmen_of_wheat_field_armor/watchmen_of_wheat_field_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/5f1445e481e8/models/items/undying/watchmen_of_wheat_field_armor/watchmen_of_wheat_field_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/watchmen_of_wheat_field_armor/watchmen_of_wheat_field_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/watchmen_of_wheat_field_armor-684120b35e44.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/5f1445e481e8/models/items/undying/watchmen_of_wheat_field_armor/watchmen_of_wheat_field_armor_color_tga_b396b567.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/watchmen_of_wheat_field_armor/watchmen_of_wheat_field_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/watchmen_of_wheat_field_armor/watchmen_of_wheat_field_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:26155:undying-frankenstein-armor",
+      "itemId": 26155,
+      "name": "Dirge Amplifier  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/e7b9f59b4b38/models/items/undying/undying_frankenstein_armor/undying_frankenstein_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/e7b9f59b4b38/models/items/undying/undying_frankenstein_armor/undying_frankenstein_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_frankenstein_armor/undying_frankenstein_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_frankenstein_armor-436d4df77bf5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/e7b9f59b4b38/models/items/undying/undying_frankenstein_armor/undying_frankenstein_armor_color_tga_cbc0c981.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_frankenstein_armor/undying_frankenstein_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_frankenstein_armor/undying_frankenstein_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_2022_cc/undying_2022_cc_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:18959:renegade-guard-armor",
+      "itemId": 18959,
+      "name": "Fallen Rule  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/d2595f8ad672/models/items/undying/renegade_guard_armor/renegade_guard_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/d2595f8ad672/models/items/undying/renegade_guard_armor/renegade_guard_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/renegade_guard_armor/renegade_guard_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/renegade_guard_armor-4a2aceec8f61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/d2595f8ad672/models/items/undying/renegade_guard_armor/renegade_guard_armor_color_tga_c18544ac.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/renegade_guard_armor/renegade_guard_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/renegade_guard_armor/renegade_guard_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:18498:spring2021-bristleback-paganism-pope-armor",
+      "itemId": 18498,
+      "name": "Hymn of the Pious Plague Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/84f88caded55/models/items/undying/spring2021_bristleback_paganism_pope_armor/spring2021_bristleback_paganism_pope_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/84f88caded55/models/items/undying/spring2021_bristleback_paganism_pope_armor/spring2021_bristleback_paganism_pope_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/spring2021_bristleback_paganism_pope_armor/spring2021_bristleback_paganism_pope_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_bristleback_paganism_pope_armor-5464fb727124.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/84f88caded55/models/items/undying/spring2021_bristleback_paganism_pope_armor/spring2021_bristleback_paganism_pope_armor_color_tga_2bfb1bd3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/spring2021_bristleback_paganism_pope_armor/spring2021_bristleback_paganism_pope_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/spring2021_bristleback_paganism_pope_armor/spring2021_bristleback_paganism_pope_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9718:deathmatch-dominator-armor",
+      "itemId": 9718,
+      "name": "Phalanx of the Fallen Spear Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/394392804719/models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/394392804719/models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathmatch_dominator_armor-68f93122ddeb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/394392804719/models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor_color_tga_3a4a1a27.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:19287:deathmatch-dominator-armor",
+      "itemId": 19287,
+      "name": "Spring Lineage Phalanx of the Fallen Spear Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/97db7d98b210/models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/97db7d98b210/models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathmatch_dominator_armor1-45ad546347f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/97db7d98b210/models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor_color_tga_3a4a1a27.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/deathmatch_dominator_armor/deathmatch_dominator_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:28250:undying-love-armor",
+      "itemId": 28250,
+      "name": "Undying Love  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/4f04fbc63b8f/models/items/undying/undying_love_armor/undying_love_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/4f04fbc63b8f/models/items/undying/undying_love_armor/undying_love_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_love_armor/undying_love_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_love_armor-117fbc3b4e8b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/4f04fbc63b8f/models/items/undying/undying_love_armor/undying_love_armor_color_tga_54b40dfc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_love_armor/undying_love_armor.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_love_armor/undying_love_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_cc_2024_love_armor/undying_cc_2024_love_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:393:undying-armor",
+      "itemId": 393,
+      "name": "Undyings Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/3b163a332857/models/heroes/undying/undying_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/3b163a332857/models/heroes/undying/undying_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/undying/undying_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_armor-c7ee8a51e746.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/3b163a332857/models/heroes/undying/undying_armor_color_psd_c87c0f87.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/undying/undying_armor.vmdl",
+        "modelPaths": [
+          "models/heroes/undying/undying_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9911:ti8-undying-miner-arms",
+      "itemId": 9911,
+      "name": "Arms of Forlorn Descent",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/6abc9bd12fe9/models/items/undying/ti8_undying_miner_arms/ti8_undying_miner_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/6abc9bd12fe9/models/items/undying/ti8_undying_miner_arms/ti8_undying_miner_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti8_undying_miner_arms/ti8_undying_miner_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_undying_miner_arms-aeffe6876d4e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/6abc9bd12fe9/models/items/undying/ti8_undying_miner_arms/ti8_undying_miner_arms_color_tga_6b43bba1.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:13482:ti9-cache-undying-carnivorous-parasitism-arms",
+      "itemId": 13482,
+      "name": "Arms of the Creeping Vine",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/d24b572d5fd2/models/items/undying/ti9_cache_undying_carnivorous_parasitism_arms/ti9_cache_undying_carnivorous_parasitism_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/d24b572d5fd2/models/items/undying/ti9_cache_undying_carnivorous_parasitism_arms/ti9_cache_undying_carnivorous_parasitism_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti9_cache_undying_carnivorous_parasitism_arms/ti9_cache_undying_carnivorous_parasitism_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_undying_carnivorous_parasitism_arms-c399a18b42cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/d24b572d5fd2/models/items/undying/ti9_cache_undying_carnivorous_parasitism_arms/ti9_cache_undying_carnivorous_parasitism_arms_color_tga_afe2cdb5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti9_cache_undying_carnivorous_parasitism_arms/ti9_cache_undying_carnivorous_parasitism_arms.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti9_cache_undying_carnivorous_parasitism_arms/ti9_cache_undying_carnivorous_parasitism_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/ti9_cache_undying_carnivorous_parasitism/ti9_cache_undying_carnivorous_parasitism_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:12861:frostivus-2018-undying-accursed-draugr-arms",
+      "itemId": 12861,
+      "name": "Arms of the Shambling Draug",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7390df084503/models/items/undying/frostivus_2018_undying_accursed_draugr_arms/frostivus_2018_undying_accursed_draugr_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/7390df084503/models/items/undying/frostivus_2018_undying_accursed_draugr_arms/frostivus_2018_undying_accursed_draugr_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/frostivus_2018_undying_accursed_draugr_arms/frostivus_2018_undying_accursed_draugr_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_2018_undying_accursed_draugr_arms-a41283c2b605.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7390df084503/models/items/undying/frostivus_2018_undying_accursed_draugr_arms/frostivus_2018_undying_accursed_draugr_arms_color_tga_c1f7e79.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:12498:ti8-the-elegy-of-abyssal-samurai-arms",
+      "itemId": 12498,
+      "name": "Bracers of Dirgesworn Dynasty",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/6b08deb7276e/models/items/undying/ti8_the_elegy_of_abyssal_samurai_arms/ti8_the_elegy_of_abyssal_samurai_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/6b08deb7276e/models/items/undying/ti8_the_elegy_of_abyssal_samurai_arms/ti8_the_elegy_of_abyssal_samurai_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti8_the_elegy_of_abyssal_samurai_arms/ti8_the_elegy_of_abyssal_samurai_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_the_elegy_of_abyssal_samurai_arms-8c402450fd5c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/6b08deb7276e/models/items/undying/ti8_the_elegy_of_abyssal_samurai_arms/ti8_the_elegy_of_abyssal_samurai_arms_color_tga_2782559b.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9333:davy-jones-set-arms",
+      "itemId": 9333,
+      "name": "Bracers of Seablight Procession",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/0682150c2ad1/models/items/undying/davy_jones_set_arms/davy_jones_set_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/0682150c2ad1/models/items/undying/davy_jones_set_arms/davy_jones_set_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/davy_jones_set_arms/davy_jones_set_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/davy_jones_set_arms-474246e17b5f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/0682150c2ad1/models/items/undying/davy_jones_set_arms/davy_jones_set_arms_color_tga_fa9bd37e.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:7973:undying-tomb-overlord-arms",
+      "itemId": 7973,
+      "name": "Bracers of the Dirgeful Overlord",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/4ab1b629857c/models/items/undying/undying_tomb_overlord_arms/undying_tomb_overlord_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/4ab1b629857c/models/items/undying/undying_tomb_overlord_arms/undying_tomb_overlord_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_tomb_overlord_arms/undying_tomb_overlord_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_tomb_overlord_arms-00857c44c9b8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/4ab1b629857c/models/items/undying/undying_tomb_overlord_arms/undying_tomb_overlord_arms_color_psd_b174e401.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:36088:undying-dark-carnival-arms",
+      "itemId": 36088,
+      "name": "Court Fester  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/3903b4f7f54a/models/items/undying/undying_dark_carnival/undying_dark_carnival_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/3903b4f7f54a/models/items/undying/undying_dark_carnival/undying_dark_carnival_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_dark_carnival/undying_dark_carnival_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_dark_carnival_arms-230d78910958.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/3903b4f7f54a/models/items/undying/undying_dark_carnival/dark_carnival_undying_arms_color_png_bd34ef5.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:17958:watchmen-of-wheat-field-arms",
+      "itemId": 17958,
+      "name": "Dark Meadow Massacre Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/146ba6bc9062/models/items/undying/watchmen_of_wheat_field_arms/watchmen_of_wheat_field_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/146ba6bc9062/models/items/undying/watchmen_of_wheat_field_arms/watchmen_of_wheat_field_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/watchmen_of_wheat_field_arms/watchmen_of_wheat_field_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/watchmen_of_wheat_field_arms-7296c574300a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/146ba6bc9062/models/items/undying/watchmen_of_wheat_field_arms/watchmen_of_wheat_field_arms_color_tga_6f6c3979.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:26157:undying-frankenstein-arms",
+      "itemId": 26157,
+      "name": "Dirge Amplifier  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/11aade067f8d/models/items/undying/undying_frankenstein_arms/undying_frankenstein_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/11aade067f8d/models/items/undying/undying_frankenstein_arms/undying_frankenstein_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_frankenstein_arms/undying_frankenstein_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_frankenstein_arms-2c155d5ae82e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/11aade067f8d/models/items/undying/undying_frankenstein_arms/undying_frankenstein_arms_color_tga_600dcc2a.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9033:corrupted-scourge-arms",
+      "itemId": 9033,
+      "name": "Gauntlets of Grim Reformation",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/b59fd4425ee9/models/items/undying/corrupted_scourge_arms/corrupted_scourge_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/b59fd4425ee9/models/items/undying/corrupted_scourge_arms/corrupted_scourge_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/corrupted_scourge_arms/corrupted_scourge_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/corrupted_scourge_arms-2eda8f96a1f4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/b59fd4425ee9/models/items/undying/corrupted_scourge_arms/corrupted_scourge_arms_color_tga_a9c195b2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/corrupted_scourge_arms/corrupted_scourge_arms.vmdl",
+        "modelPaths": [
+          "models/items/undying/corrupted_scourge_arms/corrupted_scourge_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_scourge/undying_scourge_arm_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:18497:spring2021-bristleback-paganism-pope-arms",
+      "itemId": 18497,
+      "name": "Hymn of the Pious Plague Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/fb07c2bb9c04/models/items/undying/spring2021_bristleback_paganism_pope_arms/spring2021_bristleback_paganism_pope_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/fb07c2bb9c04/models/items/undying/spring2021_bristleback_paganism_pope_arms/spring2021_bristleback_paganism_pope_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/spring2021_bristleback_paganism_pope_arms/spring2021_bristleback_paganism_pope_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_bristleback_paganism_pope_arms-7eac3487c305.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/fb07c2bb9c04/models/items/undying/spring2021_bristleback_paganism_pope_arms/spring2021_bristleback_paganism_pope_arms_color_tga_4644a36.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:7938:ti6-immortal-arm-model",
+      "itemId": 7938,
+      "name": "Pale Augur",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/c4c8fca8f51b/models/items/undying/ti6_immortal_arm/mesh/ti6_immortal_arm_model.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/c4c8fca8f51b/models/items/undying/ti6_immortal_arm/mesh/ti6_immortal_arm_model.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti6_immortal_arm/mesh/ti6_immortal_arm_model.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti6_immortal_arm_model-06ee35384cf5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/c4c8fca8f51b/models/items/undying/ti6_immortal_arm/mesh/ti6_immortal_arm_color_psd_441ab7e3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti6_immortal_arm/mesh/ti6_immortal_arm_model.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti6_immortal_arm/mesh/ti6_immortal_arm_model.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_pale_augur/undying_pale_augur_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/undying/undying_pale_augur/undying_pale_augur_decay.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/undying/undying_pale_augur/undying_pale_augur_decay_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/undying/undying_pale_augur/undying_pale_augur_decay_strength_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/undying/undying_pale_augur/undying_pale_augur_decay_strength_xfer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_decay.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_decay_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_decay_strength_buff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_decay_strength_xfer.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9716:deathmatch-dominator-arms",
+      "itemId": 9716,
+      "name": "Phalanx of the Fallen Spear Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/2bab28b42bf2/models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/2bab28b42bf2/models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathmatch_dominator_arms-96b1e0ad5b55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/2bab28b42bf2/models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms_color_tga_f17cbcc6.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:19285:deathmatch-dominator-arms",
+      "itemId": 19285,
+      "name": "Spring Lineage Phalanx of the Fallen Spear Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/183d7fe25947/models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/183d7fe25947/models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathmatch_dominator_arms1-e58accd14e97.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/183d7fe25947/models/items/undying/deathmatch_dominator_arms/deathmatch_dominator_arms_color_tga_f17cbcc6.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:28251:undying-love-arms",
+      "itemId": 28251,
+      "name": "Undying Love  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/35c28bbba646/models/items/undying/undying_love_arms/undying_love_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/35c28bbba646/models/items/undying/undying_love_arms/undying_love_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_love_arms/undying_love_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_love_arms-3bd10a744245.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/35c28bbba646/models/items/undying/undying_love_arms/undying_love_arms_color_tga_eac51772.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:616:undying-arm",
+      "itemId": 616,
+      "name": "Undyings Arm Armor",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/70076fa3be8b/models/heroes/undying/mesh/undying_arm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/70076fa3be8b/models/heroes/undying/mesh/undying_arm.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/undying/mesh/undying_arm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_arm-d850771346a0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/70076fa3be8b/models/heroes/undying/mesh/undying_arm_color_psd_a0d4c854.png"
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:36089:undying-dark-carnival-head",
+      "itemId": 36089,
+      "name": "Court Fester  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/03e33f20f5b5/models/items/undying/undying_dark_carnival/undying_dark_carnival_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/03e33f20f5b5/models/items/undying/undying_dark_carnival/undying_dark_carnival_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_dark_carnival/undying_dark_carnival_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_dark_carnival_head-aa4d71b2b2c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/03e33f20f5b5/models/items/undying/undying_dark_carnival/dark_carnival_undying_head_color_png_ed1f6242.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_dark_carnival/undying_dark_carnival_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_dark_carnival/undying_dark_carnival_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:7961:undying-tomb-overlord-head",
+      "itemId": 7961,
+      "name": "Crown of the Dirgeful Overlord",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/89ae28eb5e4a/models/items/undying/undying_tomb_overlord_head/undying_tomb_overlord_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/89ae28eb5e4a/models/items/undying/undying_tomb_overlord_head/undying_tomb_overlord_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_tomb_overlord_head/undying_tomb_overlord_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_tomb_overlord_head-ab1ce236493b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/89ae28eb5e4a/models/items/undying/undying_tomb_overlord_head/undying_tomb_overlord_head_color_psd_64b38bba.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_tomb_overlord_head/undying_tomb_overlord_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_tomb_overlord_head/undying_tomb_overlord_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:17956:watchmen-of-wheat-field-head",
+      "itemId": 17956,
+      "name": "Dark Meadow Massacre Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/31f2e8061839/models/items/undying/watchmen_of_wheat_field_head/watchmen_of_wheat_field_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/31f2e8061839/models/items/undying/watchmen_of_wheat_field_head/watchmen_of_wheat_field_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/watchmen_of_wheat_field_head/watchmen_of_wheat_field_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/watchmen_of_wheat_field_head-370b333c575f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/31f2e8061839/models/items/undying/watchmen_of_wheat_field_head/watchmen_of_wheat_field_head_color_tga_4a67b7d6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/watchmen_of_wheat_field_head/watchmen_of_wheat_field_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/watchmen_of_wheat_field_head/watchmen_of_wheat_field_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:19783:undying-frankenstein-head",
+      "itemId": 19783,
+      "name": "Dirge Amplifier  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/61d85983034d/models/items/undying/undying_frankenstein_head/undying_frankenstein_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/61d85983034d/models/items/undying/undying_frankenstein_head/undying_frankenstein_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_frankenstein_head/undying_frankenstein_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_frankenstein_head-9fd600f860c5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/61d85983034d/models/items/undying/undying_frankenstein_head/undying_frankenstein_head_color_tga_fe7da81.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_frankenstein_head/undying_frankenstein_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_frankenstein_head/undying_frankenstein_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_2022_cc/undying_2022_cc_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:18960:renegade-guard-head",
+      "itemId": 18960,
+      "name": "Fallen Rule  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/54f538474151/models/items/undying/renegade_guard_head/renegade_guard_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/54f538474151/models/items/undying/renegade_guard_head/renegade_guard_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/renegade_guard_head/renegade_guard_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/renegade_guard_head-76b29433c066.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/54f538474151/models/items/undying/renegade_guard_head/renegade_guard_head_color_tga_f574c8a4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/renegade_guard_head/renegade_guard_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/renegade_guard_head/renegade_guard_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:13484:ti9-cache-undying-carnivorous-parasitism-head",
+      "itemId": 13484,
+      "name": "Head of the Creeping Vine",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/557516185052/models/items/undying/ti9_cache_undying_carnivorous_parasitism_head/ti9_cache_undying_carnivorous_parasitism_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/557516185052/models/items/undying/ti9_cache_undying_carnivorous_parasitism_head/ti9_cache_undying_carnivorous_parasitism_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti9_cache_undying_carnivorous_parasitism_head/ti9_cache_undying_carnivorous_parasitism_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_undying_carnivorous_parasitism_head-1307ce016c87.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/557516185052/models/items/undying/ti9_cache_undying_carnivorous_parasitism_head/ti9_cache_undying_carnivorous_parasitism_head_color_tga_2d07fc7f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti9_cache_undying_carnivorous_parasitism_head/ti9_cache_undying_carnivorous_parasitism_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti9_cache_undying_carnivorous_parasitism_head/ti9_cache_undying_carnivorous_parasitism_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/ti9_cache_undying_carnivorous_parasitism/ti9_cache_undying_carnivorous_parasitism_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:12499:ti8-the-elegy-of-abyssal-samurai-head",
+      "itemId": 12499,
+      "name": "Helm of Dirgesworn Dynasty",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7b6bdb3c31fd/models/items/undying/ti8_the_elegy_of_abyssal_samurai_head/ti8_the_elegy_of_abyssal_samurai_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/7b6bdb3c31fd/models/items/undying/ti8_the_elegy_of_abyssal_samurai_head/ti8_the_elegy_of_abyssal_samurai_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti8_the_elegy_of_abyssal_samurai_head/ti8_the_elegy_of_abyssal_samurai_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_the_elegy_of_abyssal_samurai_head-d29c4022dcad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7b6bdb3c31fd/models/items/undying/ti8_the_elegy_of_abyssal_samurai_head/ti8_the_elegy_of_abyssal_samurai_head_color_tga_1c010aad.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti8_the_elegy_of_abyssal_samurai_head/ti8_the_elegy_of_abyssal_samurai_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti8_the_elegy_of_abyssal_samurai_head/ti8_the_elegy_of_abyssal_samurai_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9913:ti8-undying-miner-head",
+      "itemId": 9913,
+      "name": "Helm of Forlorn Descent",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/8f48242cbf6a/models/items/undying/ti8_undying_miner_head/ti8_undying_miner_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/8f48242cbf6a/models/items/undying/ti8_undying_miner_head/ti8_undying_miner_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/ti8_undying_miner_head/ti8_undying_miner_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_undying_miner_head-3566a15f84d5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/8f48242cbf6a/models/items/undying/ti8_undying_miner_head/ti8_undying_miner_head_color_tga_ad105ade.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/ti8_undying_miner_head/ti8_undying_miner_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/ti8_undying_miner_head/ti8_undying_miner_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/ti8_undying_miner_head/ti8_undying_miner_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9031:corrupted-scourge-head",
+      "itemId": 9031,
+      "name": "Helm of Grim Reformation",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/21e8458c0695/models/items/undying/corrupted_scourge_head/corrupted_scourge_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/21e8458c0695/models/items/undying/corrupted_scourge_head/corrupted_scourge_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/corrupted_scourge_head/corrupted_scourge_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/corrupted_scourge_head-3217998fc137.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/21e8458c0695/models/items/undying/corrupted_scourge_head/corrupted_scourge_head_color_tga_d9cf1ab9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/corrupted_scourge_head/corrupted_scourge_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/corrupted_scourge_head/corrupted_scourge_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/undying_scourge/undying_scourge_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:12859:frostivus-2018-undying-accursed-draugr-head",
+      "itemId": 12859,
+      "name": "Helm of the Shambling Draug",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/106aa689566f/models/items/undying/frostivus_2018_undying_accursed_draugr_head/frostivus_2018_undying_accursed_draugr_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/106aa689566f/models/items/undying/frostivus_2018_undying_accursed_draugr_head/frostivus_2018_undying_accursed_draugr_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/frostivus_2018_undying_accursed_draugr_head/frostivus_2018_undying_accursed_draugr_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_2018_undying_accursed_draugr_head-836cc64d88aa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/106aa689566f/models/items/undying/frostivus_2018_undying_accursed_draugr_head/frostivus_2018_undying_accursed_draugr_head_color_tga_c53c4718.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/frostivus_2018_undying_accursed_draugr_head/frostivus_2018_undying_accursed_draugr_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/frostivus_2018_undying_accursed_draugr_head/frostivus_2018_undying_accursed_draugr_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:18496:spring2021-bristleback-paganism-pope-head",
+      "itemId": 18496,
+      "name": "Hymn of the Pious Plague Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/dfd0e7c0d719/models/items/undying/spring2021_bristleback_paganism_pope_head/spring2021_bristleback_paganism_pope_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/dfd0e7c0d719/models/items/undying/spring2021_bristleback_paganism_pope_head/spring2021_bristleback_paganism_pope_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/spring2021_bristleback_paganism_pope_head/spring2021_bristleback_paganism_pope_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_bristleback_paganism_pope_head-d587dd660737.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/dfd0e7c0d719/models/items/undying/spring2021_bristleback_paganism_pope_head/crystals_color_psd_f870305.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/spring2021_bristleback_paganism_pope_head/spring2021_bristleback_paganism_pope_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/spring2021_bristleback_paganism_pope_head/spring2021_bristleback_paganism_pope_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9717:deathmatch-dominator-head",
+      "itemId": 9717,
+      "name": "Phalanx of the Fallen Spear Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/772bed6be187/models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/772bed6be187/models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathmatch_dominator_head-208be625da70.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/772bed6be187/models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head_color_tga_f84616c4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:19286:deathmatch-dominator-head",
+      "itemId": 19286,
+      "name": "Spring Lineage Phalanx of the Fallen Spear Helm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/a5c88c17fb53/models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/a5c88c17fb53/models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/deathmatch_dominator_head1-e7889e7db202.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/a5c88c17fb53/models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head_color_tga_f84616c4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/deathmatch_dominator_head/deathmatch_dominator_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:14963:undying-fall20-immortal-head",
+      "itemId": 14963,
+      "name": "The Hallows Within",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/0ba9d07ce537/models/items/undying/undying_fall20_immortal_head/undying_fall20_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/0ba9d07ce537/models/items/undying/undying_fall20_immortal_head/undying_fall20_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_fall20_immortal_head/undying_fall20_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_fall20_immortal_head-b180eb3ce19e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/0ba9d07ce537/models/items/undying/undying_fall20_immortal_head/undying_fall20_immortal_head_color_psd_69d074c8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_fall20_immortal_head/undying_fall20_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_fall20_immortal_head/undying_fall20_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/undying/fall20_undying_head/fall20_undying_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/undying/fall20_undying_head/fall20_undying_soul_rip_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/undying/fall20_undying_head/fall20_undying_soul_rip_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_soul_rip_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_undying/undying_soul_rip_heal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:28252:undying-love-head",
+      "itemId": 28252,
+      "name": "Undying Love  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/8fe73a50beb0/models/items/undying/undying_love_head/undying_love_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/8fe73a50beb0/models/items/undying/undying_love_head/undying_love_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/undying_love_head/undying_love_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_love_head-9cdc43d3e4e8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/8fe73a50beb0/models/items/undying/undying_love_head/undying_love_head_color_tga_825518e1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/undying_love_head/undying_love_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/undying_love_head/undying_love_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:392:undying-helmet",
+      "itemId": 392,
+      "name": "Undyings Helmet",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7ab7449e1ecb/models/heroes/undying/undying_helmet.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/7ab7449e1ecb/models/heroes/undying/undying_helmet.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/undying/undying_helmet.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/undying_helmet-1cd6346a47d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7ab7449e1ecb/models/heroes/undying/undying_helmet_color_psd_7e132eb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/undying/undying_helmet.vmdl",
+        "modelPaths": [
+          "models/heroes/undying/undying_helmet.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_undying:item-model:9331:davy-jones-set-head",
+      "itemId": 9331,
+      "name": "Wraps of Seablight Procession",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7884beee053f/models/items/undying/davy_jones_set_head/davy_jones_set_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_undying/7884beee053f/models/items/undying/davy_jones_set_head/davy_jones_set_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/undying/davy_jones_set_head/davy_jones_set_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/davy_jones_set_head-8368e285bf2c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_undying/7884beee053f/models/items/undying/davy_jones_set_head/davy_jones_set_head_color_tga_ca34d77c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/undying/davy_jones_set_head/davy_jones_set_head.vmdl",
+        "modelPaths": [
+          "models/items/undying/davy_jones_set_head/davy_jones_set_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_undying/undying_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_undying:core-set:36086:court-fester",
+      "name": "Court Fester",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        36087,
+        36088,
+        36089,
+        36090
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/undying_dark_carnival_armor-e307ed1197f4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21418:curse-of-the-creeping-vine",
+      "name": "Curse of the Creeping Vine",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        13482,
+        13483,
+        13484,
+        13485
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_undying_carnivorous_parasitism_arms-c399a18b42cb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21759:dark-meadow-massacre",
+      "name": "Dark Meadow Massacre",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        17956,
+        17957,
+        17958,
+        18127
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/watchmen_of_wheat_field_head-370b333c575f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:26529:dirge-amplifier",
+      "name": "Dirge Amplifier",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        19783,
+        26154,
+        26155,
+        26157
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/undying_frankenstein_head-9fd600f860c5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:20840:dirgeful-overlord",
+      "name": "Dirgeful Overlord",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        616
+      ],
+      "sourceItemIds": [
+        7960,
+        7961,
+        7973
+      ],
+      "slots": [
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/undying_tomb_overlord_loading_screen-9dedabd5774c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21247:dirgesworn-dynasty",
+      "name": "Dirgesworn Dynasty",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        12496,
+        12497,
+        12498,
+        12499
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/elegy_of_abyssal_samurai_loadingscreen-2687b91fb76c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21827:fallen-rule",
+      "name": "Fallen Rule",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393
+      ],
+      "sourceItemIds": [
+        18959,
+        18960
+      ],
+      "slots": [
+        "armor",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/renegade_guard_undying_ls-89b09ca3a761.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21202:forlorn-descent",
+      "name": "Forlorn Descent",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        9910,
+        9911,
+        9912,
+        9913
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/ti8_undying_miner_loading_screen_v1-06a5d2565140.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21073:grim-reformation",
+      "name": "Grim Reformation",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        9031,
+        9032,
+        9033,
+        9034
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/corrupted_scourge_loading_screen-bfa8232c108b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21816:hymn-of-the-pious-plague",
+      "name": "Hymn of the Pious Plague",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        18496,
+        18497,
+        18498,
+        18499
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/spring2021_bristleback_paganism_pope_head-d587dd660737.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21184:phalanx-of-the-fallen-spear",
+      "name": "Phalanx of the Fallen Spear",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        9714,
+        9716,
+        9717,
+        9718
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/deathmatch_dominator_ls-986f3067d555.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21118:seablight-procession",
+      "name": "Seablight Procession",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        9330,
+        9331,
+        9332,
+        9333
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/davy_jones_set_davy_jones_set_loading-1df6bcc44222.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21310:shambling-draug",
+      "name": "Shambling Draug",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        12859,
+        12860,
+        12861,
+        12862
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/frostivus_2018_undying_accursed_draugr_head-836cc64d88aa.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:22833:spring-lineage-phalanx-of-the-fallen-spear",
+      "name": "Spring Lineage Phalanx of the Fallen Spear",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        19284,
+        19285,
+        19286,
+        19287
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/deathmatch_dominator_arms1-e58accd14e97.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:21800:the-hallows-within-bundle",
+      "name": "The Hallows Within Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        8629
+      ],
+      "sourceItemIds": [
+        14963,
+        14994
+      ],
+      "slots": [
+        "ability3",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 26,
+      "previewUrl": "/larimods-data/v1/icons/undying_fall20_immortal_head-b180eb3ce19e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_undying:core-set:28276:undying-love",
+      "name": "Undying Love",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        392,
+        393,
+        554,
+        616
+      ],
+      "sourceItemIds": [
+        28250,
+        28251,
+        28252,
+        29468
+      ],
+      "slots": [
+        "ability4",
+        "armor",
+        "arms",
+        "head"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/undying_love_armor-117fbc3b4e8b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 46245743,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 286
+  }
+}

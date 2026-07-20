@@ -1,0 +1,1872 @@
+{
+  "heroId": "npc_dota_hero_void_spirit",
+  "sourceHeroId": "npc_dota_hero_void_spirit",
+  "variantId": "default",
+  "heroName": "Void Spirit",
+  "heroSlug": "void_spirit",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/void_spirit.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_void_spirit/f38b655b96e5/models/heroes/void_spirit/void_spirit.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 688,
+      "name": "Void Spirits Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/7f868d3b9e8d/models/heroes/void_spirit/void_spirit_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/7f868d3b9e8d/models/heroes/void_spirit/void_spirit_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/7f868d3b9e8d/models/heroes/void_spirit/void_spirit_armor_color_psd_8f9e4621.png"
+    },
+    {
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "itemId": 689,
+      "name": "Void Spirits Belt",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/238a99efcfb1/models/heroes/void_spirit/void_spirit_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/238a99efcfb1/models/heroes/void_spirit/void_spirit_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_belt.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/238a99efcfb1/models/heroes/void_spirit/void_spirit_belt_color_psd_ed8318f7.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 687,
+      "name": "Void Spirits Head",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/0b26b567fa05/models/heroes/void_spirit/void_spirit_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/0b26b567fa05/models/heroes/void_spirit/void_spirit_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/0b26b567fa05/models/heroes/void_spirit/void_spirit_hair_color_psd_6c7f6651.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 686,
+      "name": "Void Spirits Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/9bf831f8f7c4/models/heroes/void_spirit/void_spirit_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/9bf831f8f7c4/models/heroes/void_spirit/void_spirit_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/9bf831f8f7c4/models/heroes/void_spirit/void_spirit_weapon_additive_color_psd_6f723fcf.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:27127:void-spirit-fall20-immortal-armor",
+      "itemId": 27127,
+      "name": "10th Anniversary Hidden Vector  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/abf50b26c9a6/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/abf50b26c9a6/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_armor1-0ce915673339.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/abf50b26c9a6/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor_color_psd_6cf92486.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_ambient_arms.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26666:void-spirit-ascetic-guardian-armor",
+      "itemId": 26666,
+      "name": "Fascinations of Flight  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/5229fb1695a2/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/5229fb1695a2/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_armor-7ba49ebd3fda.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/5229fb1695a2/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor_color_tga_18d3064e.png"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:29799:void-spirit-ascetic-guardian-armor",
+      "itemId": 29799,
+      "name": "Fascinations of Flight  Vector Variant Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/c8c8391f9d6e/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/c8c8391f9d6e/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_armor_alt1-59c9f919370b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/c8c8391f9d6e/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor_color_tga_18d3064e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt1.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Void Spirit Ascetic Guardian  Armor Alt 0",
+            "skin": "1",
+            "alternateIcon": "0",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor_alt1",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt1.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Void Spirit Ascetic Guardian  Armor Alt 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor_alt2",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:29799:void-spirit-ascetic-guardian-armor:style-1",
+      "itemId": 29799,
+      "name": "Fascinations of Flight  Vector Variant Armor - Void Spirit Ascetic Guardian Armor Alt 1",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/c8c8391f9d6e/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/c8c8391f9d6e/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_armor_alt2-71d6f87b40ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/c8c8391f9d6e/models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor_color_tga_18d3064e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt1.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Void Spirit Ascetic Guardian  Armor Alt 0",
+            "skin": "1",
+            "alternateIcon": "0",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor_alt1",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt1.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Void Spirit Ascetic Guardian  Armor Alt 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_armor/void_spirit_ascetic_guardian_armor_alt2",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_wings_alt2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:18365:void-spirit-fall20-immortal-armor",
+      "itemId": 18365,
+      "name": "Hidden Vector  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/8e68e8ecfe15/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/8e68e8ecfe15/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_armor-00fe0c1eaefb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/8e68e8ecfe15/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor_color_psd_6cf92486.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_ambient_arms.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26661:void-spirit-taiji-koi-armor",
+      "itemId": 26661,
+      "name": "Sublime Equilibrium  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/dce183a51dea/models/items/void_spirit/void_spirit_taiji_koi_armor/void_spirit_taiji_koi_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/dce183a51dea/models/items/void_spirit/void_spirit_taiji_koi_armor/void_spirit_taiji_koi_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_taiji_koi_armor/void_spirit_taiji_koi_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_taiji_koi_armor-20e044f5933c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/dce183a51dea/models/items/void_spirit/void_spirit_taiji_koi_armor/void_spirit_taiji_koi_armor_color_tga_f195a6ff.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_taiji_koi_armor/void_spirit_taiji_koi_armor.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_taiji_koi_armor/void_spirit_taiji_koi_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_cache_2022/void_spirit_cache_2022_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:34321:vs-cosmic-armor",
+      "itemId": 34321,
+      "name": "Umbral Expanse  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/9d59abf789f2/models/items/void_spirit/vs_cosmic/vs_cosmic_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/9d59abf789f2/models/items/void_spirit/vs_cosmic/vs_cosmic_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/vs_cosmic/vs_cosmic_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vs_cosmic_armor-927c27d3639c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/9d59abf789f2/models/items/void_spirit/vs_cosmic/vs_cosmic_armor_color_tga_c2746bb6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/vs_cosmic/vs_cosmic_armor.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/vs_cosmic/vs_cosmic_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/vs_cosmic/vs_cosmic_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:688:void-spirit-armor",
+      "itemId": 688,
+      "name": "Void Spirits Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/7f868d3b9e8d/models/heroes/void_spirit/void_spirit_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/7f868d3b9e8d/models/heroes/void_spirit/void_spirit_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_armor-0d6111a1615e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/7f868d3b9e8d/models/heroes/void_spirit/void_spirit_armor_color_psd_8f9e4621.png"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:27128:void-spirit-fall20-immortal-belt",
+      "itemId": 27128,
+      "name": "10th Anniversary Hidden Vector  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/67e515d6132b/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/67e515d6132b/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_belt1-7b6b27cc62ed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/67e515d6132b/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt_color_psd_a99419d0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_ambient_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26668:void-spirit-ascetic-guardian-belt",
+      "itemId": 26668,
+      "name": "Fascinations of Flight  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/583a4af4d9e5/models/items/void_spirit/void_spirit_ascetic_guardian_belt/void_spirit_ascetic_guardian_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/583a4af4d9e5/models/items/void_spirit/void_spirit_ascetic_guardian_belt/void_spirit_ascetic_guardian_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_belt/void_spirit_ascetic_guardian_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_belt-b838197c0c0d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/583a4af4d9e5/models/items/void_spirit/void_spirit_ascetic_guardian_belt/void_spirit_ascetic_guardian_belt_color_tga_6205845.png"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:18366:void-spirit-fall20-immortal-belt",
+      "itemId": 18366,
+      "name": "Hidden Vector  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/95b1bf2c20bd/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/95b1bf2c20bd/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_belt-6ea575893043.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/95b1bf2c20bd/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt_color_psd_a99419d0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_ambient_belt.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26659:void-spirit-taiji-koi-belt",
+      "itemId": 26659,
+      "name": "Sublime Equilibrium  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/f2c726313377/models/items/void_spirit/void_spirit_taiji_koi_belt/void_spirit_taiji_koi_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/f2c726313377/models/items/void_spirit/void_spirit_taiji_koi_belt/void_spirit_taiji_koi_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_taiji_koi_belt/void_spirit_taiji_koi_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_taiji_koi_belt-73cce3ed7613.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/f2c726313377/models/items/void_spirit/void_spirit_taiji_koi_belt/void_spirit_taiji_koi_belt_color_tga_9cae8304.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_taiji_koi_belt/void_spirit_taiji_koi_belt.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_taiji_koi_belt/void_spirit_taiji_koi_belt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_cache_2022/void_spirit_cache_2022_belt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:34322:vs-cosmic-belt",
+      "itemId": 34322,
+      "name": "Umbral Expanse  Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/4ea8a8221f2a/models/items/void_spirit/vs_cosmic/vs_cosmic_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/4ea8a8221f2a/models/items/void_spirit/vs_cosmic/vs_cosmic_belt.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/vs_cosmic/vs_cosmic_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vs_cosmic_belt-c2a9b13df79f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/4ea8a8221f2a/models/items/void_spirit/vs_cosmic/vs_cosmic_belt_color_tga_f0f81343.png"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:689:void-spirit-belt",
+      "itemId": 689,
+      "name": "Void Spirits Belt",
+      "slot": "belt",
+      "slotDisplayName": "LoadoutSlot belt",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/238a99efcfb1/models/heroes/void_spirit/void_spirit_belt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/238a99efcfb1/models/heroes/void_spirit/void_spirit_belt.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_belt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_belt-98ad8477c630.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/238a99efcfb1/models/heroes/void_spirit/void_spirit_belt_color_psd_ed8318f7.png"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:24612:void-spirit-fall20-immortal-head",
+      "itemId": 24612,
+      "name": "10th Anniversary Hidden Vector  Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/8a079c2e63a1/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/8a079c2e63a1/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_head1-c734392b992e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/8a079c2e63a1/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head_color_psd_5b35462b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26665:void-spirit-ascetic-guardian-head",
+      "itemId": 26665,
+      "name": "Fascinations of Flight  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/199b7add974e/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/199b7add974e/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_head-0d5aa9927697.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/199b7add974e/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head_color_tga_7880c570.png"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:29689:void-spirit-ascetic-guardian-head",
+      "itemId": 29689,
+      "name": "Fascinations of Flight  Vector Variant Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/beb5b914ce4b/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/beb5b914ce4b/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_head_alt1-f41fbaa22fc8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/beb5b914ce4b/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head_color_tga_7880c570.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt1.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Void Spirit Ascetic Guardian  Head Alt 0",
+            "skin": "1",
+            "alternateIcon": "0",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head_alt1",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt1.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Void Spirit Ascetic Guardian  Head Alt 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head_alt2",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:29689:void-spirit-ascetic-guardian-head:style-1",
+      "itemId": 29689,
+      "name": "Fascinations of Flight  Vector Variant Head - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/beb5b914ce4b/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/beb5b914ce4b/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_head_alt2-eae97c892aee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/beb5b914ce4b/models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head_color_tga_7880c570.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt1.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt2.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Void Spirit Ascetic Guardian  Head Alt 0",
+            "skin": "1",
+            "alternateIcon": "0",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head_alt1",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt1.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Void Spirit Ascetic Guardian  Head Alt 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_head/void_spirit_ascetic_guardian_head_alt2",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_ascetic_guardian_ambient_head_alt2.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:18364:void-spirit-fall20-immortal-head",
+      "itemId": 18364,
+      "name": "Hidden Vector  Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/82ceba75a738/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/82ceba75a738/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_head-aef73a203cab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/82ceba75a738/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head_color_psd_5b35462b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26595:void-spirit-taiji-koi-head",
+      "itemId": 26595,
+      "name": "Sublime Equilibrium  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/0ab43872ca24/models/items/void_spirit/void_spirit_taiji_koi_head/void_spirit_taiji_koi_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/0ab43872ca24/models/items/void_spirit/void_spirit_taiji_koi_head/void_spirit_taiji_koi_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_taiji_koi_head/void_spirit_taiji_koi_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_taiji_koi_head-f15f90982719.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/0ab43872ca24/models/items/void_spirit/void_spirit_taiji_koi_head/void_spirit_taiji_koi_head_color_tga_3e510127.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_taiji_koi_head/void_spirit_taiji_koi_head.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_taiji_koi_head/void_spirit_taiji_koi_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_cache_2022/void_spirit_cache_2022_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:34323:vs-cosmic-head",
+      "itemId": 34323,
+      "name": "Umbral Expanse  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/bb9bf471a862/models/items/void_spirit/vs_cosmic/vs_cosmic_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/bb9bf471a862/models/items/void_spirit/vs_cosmic/vs_cosmic_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/vs_cosmic/vs_cosmic_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vs_cosmic_head-6c2402dd25f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/bb9bf471a862/models/items/void_spirit/vs_cosmic/vs_cosmic_base_upper_color_tga_f3bf9914.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/vs_cosmic/vs_cosmic_head.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/vs_cosmic/vs_cosmic_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/vs_cosmic/vs_cosmic_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:687:void-spirit-head",
+      "itemId": 687,
+      "name": "Void Spirits Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/0b26b567fa05/models/heroes/void_spirit/void_spirit_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/0b26b567fa05/models/heroes/void_spirit/void_spirit_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_head-b9cb81ab85fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/0b26b567fa05/models/heroes/void_spirit/void_spirit_hair_color_psd_6c7f6651.png"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:27126:void-spirit-fall20-immortal-weapon",
+      "itemId": 27126,
+      "name": "10th Anniversary Hidden Vector  Blade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/a1bcff5b4cd1/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/a1bcff5b4cd1/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_weapon1-5ddace27a128.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/a1bcff5b4cd1/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon_additive_color_psd_bba5f2a9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_aniversary_attack_02_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_ambient_weapon_loadout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_astral_step.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_astral_step_travel_strike_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_attack_01_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_10th_anniversary_attack_alt_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_01_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_alt_02_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_alt_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_travel_strike_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:29688:void-spirit-ascetic-guardian-weapon",
+      "itemId": 29688,
+      "name": "Fascinations of Flight  Vector Variant Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/442ef257dcfa/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/442ef257dcfa/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_weapon_alt1-d22c979f66c9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/442ef257dcfa/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon_color_tga_803caed8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt1_weapon_ascetic_guardian_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt2_weapon_ascetic_guardian_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Void Spirit Ascetic Guardian  Weapon Alt 0",
+            "skin": "1",
+            "alternateIcon": "0",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon_alt1",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt2_weapon_ascetic_guardian_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/error/null.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Void Spirit Ascetic Guardian  Weapon Alt 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon_salt2",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt1_weapon_ascetic_guardian_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/error/null.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:29688:void-spirit-ascetic-guardian-weapon:style-1",
+      "itemId": 29688,
+      "name": "Fascinations of Flight  Vector Variant Weapon - Style 2",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/442ef257dcfa/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/442ef257dcfa/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_weapon_salt2-71129e564f19.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/442ef257dcfa/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon_color_tga_803caed8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt1_weapon_ascetic_guardian_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt2_weapon_ascetic_guardian_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Void Spirit Ascetic Guardian  Weapon Alt 0",
+            "skin": "1",
+            "alternateIcon": "0",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon_alt1",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt2_weapon_ascetic_guardian_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/error/null.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Void Spirit Ascetic Guardian  Weapon Alt 1",
+            "skin": "2",
+            "alternateIcon": "1",
+            "icon": "econ/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon_salt2",
+            "assets": [
+              {
+                "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_alt1_weapon_ascetic_guardian_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/error/null.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              },
+              {
+                "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26577:void-spirit-ascetic-guardian-weapon",
+      "itemId": 26577,
+      "name": "Fascinations of Flight  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/e72f394fd1d4/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/e72f394fd1d4/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_weapon-a73ff2ebc21c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/e72f394fd1d4/models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon_color_tga_803caed8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_ascetic_guardian_weapon/void_spirit_ascetic_guardian_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_ascetic_guardian/void_spirit_weapon_ascetic_guardian_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:18363:void-spirit-fall20-immortal-weapon",
+      "itemId": 18363,
+      "name": "Hidden Vector  Blade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/69a15a2de678/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/69a15a2de678/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_weapon-82931ac4f347.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/69a15a2de678/models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon_additive_color_psd_bba5f2a9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_fall20_immortal/void_spirit_fall20_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_ambient_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_astral_step_travel_strike_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_attack_01_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_attack_02_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_immortal_2021/void_spirit_immortal_2021_attack_alt_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_dmg.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_01_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_alt_02_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_alt_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_attack_travel_strike_blur.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:26597:void-spirit-taiji-koi-weapon",
+      "itemId": 26597,
+      "name": "Sublime Equilibrium  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/c5bb64f1ee66/models/items/void_spirit/void_spirit_taiji_koi_weapon/void_spirit_taiji_koi_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/c5bb64f1ee66/models/items/void_spirit/void_spirit_taiji_koi_weapon/void_spirit_taiji_koi_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/void_spirit_taiji_koi_weapon/void_spirit_taiji_koi_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_taiji_koi_weapon-a9c8b0328825.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/c5bb64f1ee66/models/items/void_spirit/void_spirit_taiji_koi_weapon/void_spirit_taiji_koi_weapon_color_tga_3381b13d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/void_spirit_taiji_koi_weapon/void_spirit_taiji_koi_weapon.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/void_spirit_taiji_koi_weapon/void_spirit_taiji_koi_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/void_spirit_cache_2022/void_spirit_cache_2022_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:34324:vs-cosmic-weapon",
+      "itemId": 34324,
+      "name": "Umbral Expanse  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/95d3ade872dd/models/items/void_spirit/vs_cosmic/vs_cosmic_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/95d3ade872dd/models/items/void_spirit/vs_cosmic/vs_cosmic_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/void_spirit/vs_cosmic/vs_cosmic_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vs_cosmic_weapon-1d88d0695938.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/95d3ade872dd/models/items/void_spirit/vs_cosmic/vs_cosmic_weapon_color_tga_334cf30d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/void_spirit/vs_cosmic/vs_cosmic_weapon.vmdl",
+        "modelPaths": [
+          "models/items/void_spirit/vs_cosmic/vs_cosmic_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/void_spirit/vs_cosmic/vs_cosmic_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_void_spirit/void_spirit_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:item-model:686:void-spirit-weapon",
+      "itemId": 686,
+      "name": "Void Spirits Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/9bf831f8f7c4/models/heroes/void_spirit/void_spirit_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_void_spirit/9bf831f8f7c4/models/heroes/void_spirit/void_spirit_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/void_spirit/void_spirit_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/void_spirit_weapon-aa61c19db0b7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_void_spirit/9bf831f8f7c4/models/heroes/void_spirit/void_spirit_weapon_additive_color_psd_6f723fcf.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_void_spirit:core-set:27129:10th-anniversary-hidden-vector",
+      "name": "10th Anniversary Hidden Vector",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        686,
+        687,
+        688,
+        689
+      ],
+      "sourceItemIds": [
+        24612,
+        27126,
+        27127,
+        27128
+      ],
+      "slots": [
+        "armor",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 28,
+      "previewUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_head1-c734392b992e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:core-set:26664:fascinations-of-flight",
+      "name": "Fascinations of Flight",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        686,
+        687,
+        688,
+        689
+      ],
+      "sourceItemIds": [
+        26577,
+        26665,
+        26666,
+        26668
+      ],
+      "slots": [
+        "armor",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/void_spirit_ascetic_guardian_weapon-a73ff2ebc21c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:core-set:21797:hidden-vector",
+      "name": "Hidden Vector",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        686,
+        687,
+        688,
+        689
+      ],
+      "sourceItemIds": [
+        18363,
+        18364,
+        18365,
+        18366
+      ],
+      "slots": [
+        "armor",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 27,
+      "previewUrl": "/larimods-data/v1/icons/void_spirit_fall20_immortal_weapon-82931ac4f347.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:core-set:26593:sublime-equilibrium",
+      "name": "Sublime Equilibrium",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        686,
+        687,
+        688,
+        689
+      ],
+      "sourceItemIds": [
+        26595,
+        26597,
+        26659,
+        26661
+      ],
+      "slots": [
+        "armor",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/void_spirit_taiji_koi_head-f15f90982719.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_void_spirit:core-set:34320:umbral-expanse",
+      "name": "Umbral Expanse",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        686,
+        687,
+        688,
+        689
+      ],
+      "sourceItemIds": [
+        34321,
+        34322,
+        34323,
+        34324
+      ],
+      "slots": [
+        "armor",
+        "belt",
+        "head",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/vs_cosmic_armor-927c27d3639c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 46980046,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 156
+  }
+}

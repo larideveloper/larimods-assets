@@ -1,0 +1,3066 @@
+{
+  "heroId": "npc_dota_hero_weaver",
+  "sourceHeroId": "npc_dota_hero_weaver",
+  "variantId": "default",
+  "heroName": "Weaver",
+  "heroSlug": "weaver",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/weaver.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_weaver/5b74b6db3371/models/heroes/weaver/weaver.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 279,
+      "name": "Weavers Arms",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/0024251cf477/models/heroes/weaver/weaver_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/0024251cf477/models/heroes/weaver/weaver_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_arms.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/0024251cf477/models/heroes/weaver/weaver_arms_color_psd_f3ad2250.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 280,
+      "name": "Weavers Back",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/29d51c46bc17/models/heroes/weaver/weaver_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/29d51c46bc17/models/heroes/weaver/weaver_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/29d51c46bc17/models/heroes/weaver/weaver_head_color_psd_66dc6653.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "itemId": 277,
+      "name": "Weavers Antennae",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/b6e066860948/models/heroes/weaver/weaver_antlers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/b6e066860948/models/heroes/weaver/weaver_antlers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_antlers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/b6e066860948/models/heroes/weaver/weaver_antlers_color_psd_344d5b61.png"
+    },
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 278,
+      "name": "Weavers Legs",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a6e114620b09/models/heroes/weaver/weaver_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a6e114620b09/models/heroes/weaver/weaver_legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_legs.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a6e114620b09/models/heroes/weaver/weaver_legs_color_psd_6ffde37f.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_weaver:item-model:4570:stalkers-exoskeleton-arms-low",
+      "itemId": 4570,
+      "name": "Armored Exoskeleton Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/958d6d729982/models/items/weaver/stalkers_exoskeleton_arms_low/stalkers_exoskeleton_arms_low.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/958d6d729982/models/items/weaver/stalkers_exoskeleton_arms_low/stalkers_exoskeleton_arms_low.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/stalkers_exoskeleton_arms_low/stalkers_exoskeleton_arms_low.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalkers_exoskeleton_arms_low-fe5e2feb41d1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/958d6d729982/models/items/weaver/stalkers_exoskeleton_arms_low/stalkers_exoskeleton_arms_low_color_tga_f53d68de.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5606:master-weaver-arms",
+      "itemId": 5606,
+      "name": "Arms of the Master Weaver",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/d62464fafbc8/models/items/weaver/master_weaver_arms/master_weaver_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/d62464fafbc8/models/items/weaver/master_weaver_arms/master_weaver_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/master_weaver_arms/master_weaver_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_weaver_arms-ff7178220c35.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/d62464fafbc8/models/items/weaver/master_weaver_arms/master_weaver_arms_color_tga_7ac7e160.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9068:the-dusk-crawler-arms",
+      "itemId": 9068,
+      "name": "Claws of the Loomkeeper",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/38b5c5499a5c/models/items/weaver/the_dusk_crawler_arms/the_dusk_crawler_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/38b5c5499a5c/models/items/weaver/the_dusk_crawler_arms/the_dusk_crawler_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/the_dusk_crawler_arms/the_dusk_crawler_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dusk_crawler_arms-54be38087daa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/38b5c5499a5c/models/items/weaver/the_dusk_crawler_arms/the_dusk_crawler_arms_color_png_cdd1bf83.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:18469:spring2021-dimension-ripper-arms",
+      "itemId": 18469,
+      "name": "Dimension Ripper Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/fd6497242640/models/items/weaver/spring2021_dimension_ripper_arms/spring2021_dimension_ripper_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/fd6497242640/models/items/weaver/spring2021_dimension_ripper_arms/spring2021_dimension_ripper_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/spring2021_dimension_ripper_arms/spring2021_dimension_ripper_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_dimension_ripper_arms-8b0ab4aabb45.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/fd6497242640/models/items/weaver/spring2021_dimension_ripper_arms/spring2021_dimension_ripper_arms_color_tga_ff3e8d61.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:4821:etc-arms",
+      "itemId": 4821,
+      "name": "Ember Tipped Manipulators",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/1b1fbb140572/models/items/weaver/etc_arms/etc_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/1b1fbb140572/models/items/weaver/etc_arms/etc_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/etc_arms/etc_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/etc_arms-cc6ec0171267.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/1b1fbb140572/models/items/weaver/etc_arms/etc_arms_color_tga_8d6f8e6.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5682:starl-arms-t1",
+      "itemId": 5682,
+      "name": "Feelers of Entwined Fate",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_arms_t1-8cfa1a07ef88.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1_color_tga_4cf2c4d2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Feelers of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_arms_t1/starl_arms_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Feelers of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_arms_t2/starl_arms_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t2/starl_arms_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Feelers of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_arms_t3/starl_arms_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t3/starl_arms_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5682:starl-arms-t1:style-1",
+      "itemId": 5682,
+      "name": "Feelers of Entwined Fate - Style 2",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_arms_t2-883ad54728e5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1_color_tga_4cf2c4d2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Feelers of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_arms_t1/starl_arms_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Feelers of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_arms_t2/starl_arms_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t2/starl_arms_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Feelers of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_arms_t3/starl_arms_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t3/starl_arms_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5682:starl-arms-t1:style-2",
+      "itemId": 5682,
+      "name": "Feelers of Entwined Fate - Style 3",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_arms_t3-a4eaa41692cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a5676a280634/models/items/weaver/starl_arms_t1/starl_arms_t1_color_tga_4cf2c4d2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Feelers of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_arms_t1/starl_arms_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t1/starl_arms_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Feelers of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_arms_t2/starl_arms_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t2/starl_arms_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Feelers of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_arms_t3/starl_arms_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_arms_t3/starl_arms_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:13224:weaver-devil-ripper-arms",
+      "itemId": 13224,
+      "name": "Hands of Inerrant Eminence",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/651230c98e44/models/items/weaver/weaver_devil_ripper_arms/weaver_devil_ripper_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/651230c98e44/models/items/weaver/weaver_devil_ripper_arms/weaver_devil_ripper_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/weaver_devil_ripper_arms/weaver_devil_ripper_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_devil_ripper_arms-7653fb73d072.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/651230c98e44/models/items/weaver/weaver_devil_ripper_arms/weaver_devil_ripper_arms_color_tga_b1b19674.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:6133:infesting-claws",
+      "itemId": 6133,
+      "name": "Infesting Claws",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3f4d4a87f2ce/models/items/weaver/infesting_claws/infesting_claws.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/3f4d4a87f2ce/models/items/weaver/infesting_claws/infesting_claws.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/infesting_claws/infesting_claws.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infesting_claws-1f09720dfdf1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3f4d4a87f2ce/models/items/weaver/infesting_claws/infesting_claws_color_tga_3bffcbe7.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:7468:skittering-desolation-arms",
+      "itemId": 7468,
+      "name": "Skittering Desolation",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "quality:genuine",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/8d91bcc96992/models/items/weaver/skittering_desolation_arms/skittering_desolation_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/8d91bcc96992/models/items/weaver/skittering_desolation_arms/skittering_desolation_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/skittering_desolation_arms/skittering_desolation_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/skittering_desolation_arms-098cec785352.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/8d91bcc96992/models/items/weaver/skittering_desolation_arms/skittering_desolation_arms_color_tga_1002d9e3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/skittering_desolation_arms/skittering_desolation_arms.vmdl",
+        "modelPaths": [
+          "models/items/weaver/skittering_desolation_arms/skittering_desolation_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/weaver/weaver_skittering/weaver_skittering_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9928:ti8-weaver-brood-crawler-arms",
+      "itemId": 9928,
+      "name": "Spurs of the Riven Exile",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/2aaa5e9ca170/models/items/weaver/ti8_weaver_brood_crawler_arms/ti8_weaver_brood_crawler_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/2aaa5e9ca170/models/items/weaver/ti8_weaver_brood_crawler_arms/ti8_weaver_brood_crawler_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/ti8_weaver_brood_crawler_arms/ti8_weaver_brood_crawler_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_weaver_brood_crawler_arms-13ed26256add.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/2aaa5e9ca170/models/items/weaver/ti8_weaver_brood_crawler_arms/ti8_weaver_brood_crawler_arms_color_psd_184d70a5.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:17890:vespoid-stalker-arms",
+      "itemId": 17890,
+      "name": "Vespoid Stalker Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5684085f8b18/models/items/weaver/vespoid_stalker_arms/vespoid_stalker_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/5684085f8b18/models/items/weaver/vespoid_stalker_arms/vespoid_stalker_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/vespoid_stalker_arms/vespoid_stalker_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespoid_stalker_arms-809515d1e0d8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5684085f8b18/models/items/weaver/vespoid_stalker_arms/vespoid_stalker_arms_color_tga_146fd57c.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:279:weaver-arms",
+      "itemId": 279,
+      "name": "Weavers Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/0024251cf477/models/heroes/weaver/weaver_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/0024251cf477/models/heroes/weaver/weaver_arms.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_arms-65946362bfe4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/0024251cf477/models/heroes/weaver/weaver_arms_color_psd_f3ad2250.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:4635:stalkers-exoskeleton-back-low",
+      "itemId": 4635,
+      "name": "Armored Exoskeleton Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/60e758a27b7e/models/items/weaver/stalkers_exoskeleton_back_low/stalkers_exoskeleton_back_low.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/60e758a27b7e/models/items/weaver/stalkers_exoskeleton_back_low/stalkers_exoskeleton_back_low.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/stalkers_exoskeleton_back_low/stalkers_exoskeleton_back_low.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalkers_exoskeleton_back_low-a38b6e7796ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/60e758a27b7e/models/items/weaver/stalkers_exoskeleton_back_low/stalkers_exoskeleton_back_low_color_tga_d2ed907c.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5635:master-weaver-back",
+      "itemId": 5635,
+      "name": "Back of the Master Weaver",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/1b761f9cb81f/models/items/weaver/master_weaver_back/master_weaver_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/1b761f9cb81f/models/items/weaver/master_weaver_back/master_weaver_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/master_weaver_back/master_weaver_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_weaver_back-c681697c379c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/1b761f9cb81f/models/items/weaver/master_weaver_back/master_weaver_back_color_tga_8ccc297d.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9929:ti8-weaver-brood-crawler-back",
+      "itemId": 9929,
+      "name": "Crest of the Riven Exile",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a72713867c3b/models/items/weaver/ti8_weaver_brood_crawler_back/ti8_weaver_brood_crawler_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a72713867c3b/models/items/weaver/ti8_weaver_brood_crawler_back/ti8_weaver_brood_crawler_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/ti8_weaver_brood_crawler_back/ti8_weaver_brood_crawler_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_weaver_brood_crawler_back-67adf996fcbc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a72713867c3b/models/items/weaver/ti8_weaver_brood_crawler_back/ti8_weaver_brood_crawler_back_color_psd_f0ee1891.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:7578:crimson-pique-model",
+      "itemId": 7578,
+      "name": "Crimson Pique",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/352eed15d53b/models/items/weaver/crimson_pique/mesh/crimson_pique_model.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/352eed15d53b/models/items/weaver/crimson_pique/mesh/crimson_pique_model.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/crimson_pique/mesh/crimson_pique_model.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crimson_pique_model-147d387c4c67.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/352eed15d53b/models/items/weaver/crimson_pique/mesh/crimson_pique_color_psd_2e67feb6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/crimson_pique/mesh/crimson_pique_model.vmdl",
+        "modelPaths": [
+          "models/items/weaver/crimson_pique/mesh/crimson_pique_model.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti6/weaver_immortal_ti6_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti6/weaver_immortal_ti6_shukuchi.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti6/weaver_immortal_ti6_shukuchi_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti6/weaver_immortal_ti6_shukuchi_portal.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_weaver/weaver_shukuchi.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_weaver/weaver_shukuchi_damage.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_weaver/weaver_shukuchi_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5680:starl-back-t1",
+      "itemId": 5680,
+      "name": "Crown of Entwined Fate",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_back_t1-85bd58028a36.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1_color_tga_5f3568b5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_back_t1/starl_back_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Crown of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_back_t1/starl_back_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Crown of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_back_t2/starl_back_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t2/starl_back_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Crown of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_back_t3/starl_back_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t3/starl_back_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5680:starl-back-t1:style-1",
+      "itemId": 5680,
+      "name": "Crown of Entwined Fate - Style 2",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_back_t2-b8b74e53cac9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1_color_tga_5f3568b5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_back_t1/starl_back_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Crown of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_back_t1/starl_back_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Crown of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_back_t2/starl_back_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t2/starl_back_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Crown of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_back_t3/starl_back_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t3/starl_back_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5680:starl-back-t1:style-2",
+      "itemId": 5680,
+      "name": "Crown of Entwined Fate - Style 3",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_back_t3-00869617ea2a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90e78049aba1/models/items/weaver/starl_back_t1/starl_back_t1_color_tga_5f3568b5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_back_t1/starl_back_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Crown of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_back_t1/starl_back_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t1/starl_back_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Crown of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_back_t2/starl_back_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t2/starl_back_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Crown of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_back_t3/starl_back_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_back_t3/starl_back_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:18470:spring2021-dimension-ripper-back",
+      "itemId": 18470,
+      "name": "Dimension Ripper Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/61bde6e18c36/models/items/weaver/spring2021_dimension_ripper_back/spring2021_dimension_ripper_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/61bde6e18c36/models/items/weaver/spring2021_dimension_ripper_back/spring2021_dimension_ripper_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/spring2021_dimension_ripper_back/spring2021_dimension_ripper_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_dimension_ripper_back-b24b8bb9c470.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/61bde6e18c36/models/items/weaver/spring2021_dimension_ripper_back/spring2021_dimension_ripper_back_color_tga_276183e7.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:4819:etc-back",
+      "itemId": 4819,
+      "name": "Ember Tipped Carapace",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a1a127f9be3a/models/items/weaver/etc_back/etc_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a1a127f9be3a/models/items/weaver/etc_back/etc_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/etc_back/etc_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/etc_back-fd19394a70fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a1a127f9be3a/models/items/weaver/etc_back/etc_back_color_tga_c4553949.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:13222:weaver-devil-ripper-back",
+      "itemId": 13222,
+      "name": "Face of Inerrant Eminence",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/6756bce95f86/models/items/weaver/weaver_devil_ripper_back/weaver_devil_ripper_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/6756bce95f86/models/items/weaver/weaver_devil_ripper_back/weaver_devil_ripper_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/weaver_devil_ripper_back/weaver_devil_ripper_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_devil_ripper_back-2c9eff523ecd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/6756bce95f86/models/items/weaver/weaver_devil_ripper_back/weaver_devil_ripper_back_color_tga_679a40bb.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:6130:infesting-cranium",
+      "itemId": 6130,
+      "name": "Infesting Cranium",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/52cdb47cf52a/models/items/weaver/infesting_cranium/infesting_cranium.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/52cdb47cf52a/models/items/weaver/infesting_cranium/infesting_cranium.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/infesting_cranium/infesting_cranium.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infesting_cranium-8bff7c6126e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/52cdb47cf52a/models/items/weaver/infesting_cranium/infesting_cranium_color_tga_22475551.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9067:the-dusk-crawler-back",
+      "itemId": 9067,
+      "name": "Thorax of the Loomkeeper",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/6d83946d4bee/models/items/weaver/the_dusk_crawler_back/the_dusk_crawler_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/6d83946d4bee/models/items/weaver/the_dusk_crawler_back/the_dusk_crawler_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/the_dusk_crawler_back/the_dusk_crawler_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dusk_crawler_back-37f3a74ce9be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/6d83946d4bee/models/items/weaver/the_dusk_crawler_back/the_dusk_crawler_back_color_psd_94e15ca0.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:17889:vespoid-stalker-back",
+      "itemId": 17889,
+      "name": "Vespoid Stalker Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/d90d3cf9fc84/models/items/weaver/vespoid_stalker_back/vespoid_stalker_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/d90d3cf9fc84/models/items/weaver/vespoid_stalker_back/vespoid_stalker_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/vespoid_stalker_back/vespoid_stalker_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespoid_stalker_back-f89d9a3d7067.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/d90d3cf9fc84/models/items/weaver/vespoid_stalker_back/vespoid_stalker_back_color_tga_58c06444.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:280:weaver-head",
+      "itemId": 280,
+      "name": "Weavers Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/29d51c46bc17/models/heroes/weaver/weaver_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/29d51c46bc17/models/heroes/weaver/weaver_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_head-63af85c74c53.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/29d51c46bc17/models/heroes/weaver/weaver_head_color_psd_66dc6653.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9066:the-dusk-crawler-head",
+      "itemId": 9066,
+      "name": "Antennae of the Loomkeeper",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/f9736aa658ef/models/items/weaver/the_dusk_crawler_head/the_dusk_crawler_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/f9736aa658ef/models/items/weaver/the_dusk_crawler_head/the_dusk_crawler_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/the_dusk_crawler_head/the_dusk_crawler_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dusk_crawler_head-c718e6ae7d52.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/f9736aa658ef/models/items/weaver/the_dusk_crawler_head/the_dusk_crawler_head_color_psd_78628e56.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5660:master-weaver-head",
+      "itemId": 5660,
+      "name": "Antennae of the Master Weaver",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/69f69bbc645d/models/items/weaver/master_weaver_head/master_weaver_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/69f69bbc645d/models/items/weaver/master_weaver_head/master_weaver_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/master_weaver_head/master_weaver_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_weaver_head-88074aa312fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/69f69bbc645d/models/items/weaver/master_weaver_head/master_weaver_head_color_tga_6c1dd252.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:4636:stalkers-exoskeleton-head-low",
+      "itemId": 4636,
+      "name": "Armored Exoskeleton Wings",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/0d6dc2eae959/models/items/weaver/stalkers_exoskeleton_head_low/stalkers_exoskeleton_head_low.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/0d6dc2eae959/models/items/weaver/stalkers_exoskeleton_head_low/stalkers_exoskeleton_head_low.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/stalkers_exoskeleton_head_low/stalkers_exoskeleton_head_low.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalkers_exoskeleton_head_low-be25b4e120bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/0d6dc2eae959/models/items/weaver/stalkers_exoskeleton_head_low/stalkers_exoskeleton_head_low_color_tga_274704e4.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:7810:weaver-immortal-head-ti7",
+      "itemId": 7810,
+      "name": "Crimson Cyrridae",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/42dd8491cc84/models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/42dd8491cc84/models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_immortal_head_ti7-da406bc80e49.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/42dd8491cc84/models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7_color_psd_b789deaf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl",
+        "modelPaths": [
+          "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl"
+        ],
+        "abilityModels": [
+          {
+            "path": "models/items/weaver/weaver_immortal_head_ti7/weaver_bug_ti7.vmdl",
+            "type": "vmdl",
+            "role": "ability_entity_model",
+            "target": "npc_dota_weaver_swarm"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti7/weaver_immortal_ti7_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti7/weaver_swarm_infected_debuff_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti7/weaver_swarm_projectile_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_weaver/weaver_swarm_infected_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_weaver/weaver_swarm_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:18471:spring2021-dimension-ripper-head",
+      "itemId": 18471,
+      "name": "Dimension Ripper Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/2a8d98fa7348/models/items/weaver/spring2021_dimension_ripper_head/spring2021_dimension_ripper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/2a8d98fa7348/models/items/weaver/spring2021_dimension_ripper_head/spring2021_dimension_ripper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/spring2021_dimension_ripper_head/spring2021_dimension_ripper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_dimension_ripper_head-4f982049002a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/2a8d98fa7348/models/items/weaver/spring2021_dimension_ripper_head/spring2021_dimension_ripper_head_color_tga_9eadf363.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:4822:etc-head",
+      "itemId": 4822,
+      "name": "Ember Tipped Antennae",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3e59d26f861d/models/items/weaver/etc_head/etc_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/3e59d26f861d/models/items/weaver/etc_head/etc_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/etc_head/etc_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/etc_head-5186d804b20d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3e59d26f861d/models/items/weaver/etc_head/etc_head_color_tga_e5d5d5ce.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:7813:weaver-immortal-head-ti7",
+      "itemId": 7813,
+      "name": "Golden Cyrridae",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3cab03d8c9fa/models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/3cab03d8c9fa/models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_ti7_immortal_head_gold-ec1e99fe164b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3cab03d8c9fa/models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7_color_psd_b789deaf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl",
+        "modelPaths": [
+          "models/items/weaver/weaver_immortal_head_ti7/weaver_immortal_head_ti7.vmdl"
+        ],
+        "abilityModels": [
+          {
+            "path": "models/items/weaver/weaver_immortal_head_ti7/weaver_bug_ti7.vmdl",
+            "type": "vmdl",
+            "role": "ability_entity_model",
+            "target": "npc_dota_weaver_swarm"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/weaver/weaver_golden_immortal_ti7/weaver_golden_swarm_infected_debuff_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/weaver/weaver_golden_immortal_ti7/weaver_golden_swarm_projectile_ti7.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/weaver/weaver_immortal_ti7/weaver_ti7_golden_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_weaver/weaver_swarm_infected_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_weaver/weaver_swarm_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:13223:weaver-devil-ripper-head",
+      "itemId": 13223,
+      "name": "Horns of Eminence",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/f58a6c44e86c/models/items/weaver/weaver_devil_ripper_head/weaver_devil_ripper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/f58a6c44e86c/models/items/weaver/weaver_devil_ripper_head/weaver_devil_ripper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/weaver_devil_ripper_head/weaver_devil_ripper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_devil_ripper_head-510c139bd050.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/f58a6c44e86c/models/items/weaver/weaver_devil_ripper_head/weaver_devil_ripper_head_color_tga_4d7e5461.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:6132:infesting-receptors",
+      "itemId": 6132,
+      "name": "Infesting Receptors",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/ecc7de151a3d/models/items/weaver/infesting_receptors/infesting_receptors.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/ecc7de151a3d/models/items/weaver/infesting_receptors/infesting_receptors.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/infesting_receptors/infesting_receptors.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infesting_receptors-015e5ae4f97f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/ecc7de151a3d/models/items/weaver/infesting_receptors/infesting_receptors_color_tga_2d213f93.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9930:ti8-weaver-brood-crawler-head",
+      "itemId": 9930,
+      "name": "Mandibles of the Riven Exile",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/62fd3412e467/models/items/weaver/ti8_weaver_brood_crawler_head/ti8_weaver_brood_crawler_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/62fd3412e467/models/items/weaver/ti8_weaver_brood_crawler_head/ti8_weaver_brood_crawler_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/ti8_weaver_brood_crawler_head/ti8_weaver_brood_crawler_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_weaver_brood_crawler_head-8399f2151330.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/62fd3412e467/models/items/weaver/ti8_weaver_brood_crawler_head/ti8_weaver_brood_crawler_head_color_psd_7202ce0e.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:17888:vespoid-stalker-head",
+      "itemId": 17888,
+      "name": "Vespoid Stalker Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/bca5370aa0ce/models/items/weaver/vespoid_stalker_head/vespoid_stalker_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/bca5370aa0ce/models/items/weaver/vespoid_stalker_head/vespoid_stalker_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/vespoid_stalker_head/vespoid_stalker_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespoid_stalker_head-cbb0a57cdc83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/bca5370aa0ce/models/items/weaver/vespoid_stalker_head/vespoid_stalker_head_color_tga_2ee802fc.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:277:weaver-antlers",
+      "itemId": 277,
+      "name": "Weavers Antennae",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/b6e066860948/models/heroes/weaver/weaver_antlers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/b6e066860948/models/heroes/weaver/weaver_antlers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_antlers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_antlers-08fb234af1ce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/b6e066860948/models/heroes/weaver/weaver_antlers_color_psd_344d5b61.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5679:starl-head-t1",
+      "itemId": 5679,
+      "name": "Whiskers of Entwined Fate",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_head_t1-c3148bb18c1f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1_color_tga_f6e47e56.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_head_t1/starl_head_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Whiskers of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_head_t1/starl_head_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Whiskers of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_head_t2/starl_head_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t2/starl_head_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Whiskers of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_head_t3/starl_head_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t3/starl_head_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5679:starl-head-t1:style-1",
+      "itemId": 5679,
+      "name": "Whiskers of Entwined Fate - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_head_t2-f4590cd76ea0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1_color_tga_f6e47e56.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_head_t1/starl_head_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Whiskers of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_head_t1/starl_head_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Whiskers of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_head_t2/starl_head_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t2/starl_head_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Whiskers of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_head_t3/starl_head_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t3/starl_head_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5679:starl-head-t1:style-2",
+      "itemId": 5679,
+      "name": "Whiskers of Entwined Fate - Style 3",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Weaver Antennae",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_head_t3-13a4446b1a1a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5f90e0502471/models/items/weaver/starl_head_t1/starl_head_t1_color_tga_f6e47e56.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_head_t1/starl_head_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Whiskers of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_head_t1/starl_head_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t1/starl_head_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Whiskers of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_head_t2/starl_head_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t2/starl_head_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Whiskers of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_head_t3/starl_head_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_head_t3/starl_head_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:4637:stalkers-exoskeleton-legs-low",
+      "itemId": 4637,
+      "name": "Armored Exoskeleton Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/4cadd86d90b6/models/items/weaver/stalkers_exoskeleton_legs_low/stalkers_exoskeleton_legs_low.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/4cadd86d90b6/models/items/weaver/stalkers_exoskeleton_legs_low/stalkers_exoskeleton_legs_low.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/stalkers_exoskeleton_legs_low/stalkers_exoskeleton_legs_low.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/stalkers_exoskeleton_legs_low-2a9be5d560b8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/4cadd86d90b6/models/items/weaver/stalkers_exoskeleton_legs_low/stalkers_exoskeleton_legs_low_color_tga_2c3f3639.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:18472:spring2021-dimension-ripper-legs",
+      "itemId": 18472,
+      "name": "Dimension Ripper Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/7e9519c3cd3c/models/items/weaver/spring2021_dimension_ripper_legs/spring2021_dimension_ripper_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/7e9519c3cd3c/models/items/weaver/spring2021_dimension_ripper_legs/spring2021_dimension_ripper_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/spring2021_dimension_ripper_legs/spring2021_dimension_ripper_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_dimension_ripper_legs-838f0a012f63.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/7e9519c3cd3c/models/items/weaver/spring2021_dimension_ripper_legs/spring2021_dimension_ripper_legs_color_tga_6c7c3d9.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:4820:etc-legs",
+      "itemId": 4820,
+      "name": "Ember Tipped Striders",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/96f31a1e3b97/models/items/weaver/etc_legs/etc_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/96f31a1e3b97/models/items/weaver/etc_legs/etc_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/etc_legs/etc_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/etc_legs-3b9db5275a26.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/96f31a1e3b97/models/items/weaver/etc_legs/etc_legs_color_tga_e559f11c.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:6131:infesting-legs",
+      "itemId": 6131,
+      "name": "Infesting Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/753f98f0321a/models/items/weaver/infesting_legs/infesting_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/753f98f0321a/models/items/weaver/infesting_legs/infesting_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/infesting_legs/infesting_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infesting_legs-91336769e2af.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/753f98f0321a/models/items/weaver/infesting_legs/infesting_legs_color_tga_747a9f5.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:13225:weaver-devil-ripper-legs",
+      "itemId": 13225,
+      "name": "Legs of Inerrant Eminence",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a9dc093c33cf/models/items/weaver/weaver_devil_ripper_legs/weaver_devil_ripper_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a9dc093c33cf/models/items/weaver/weaver_devil_ripper_legs/weaver_devil_ripper_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/weaver_devil_ripper_legs/weaver_devil_ripper_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_devil_ripper_legs-2bfee7670257.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a9dc093c33cf/models/items/weaver/weaver_devil_ripper_legs/weaver_devil_ripper_legs_color_tga_12a397b6.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9069:the-dusk-crawler-legs",
+      "itemId": 9069,
+      "name": "Legs of the Loomkeeper",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/049dc10bfdea/models/items/weaver/the_dusk_crawler_legs/the_dusk_crawler_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/049dc10bfdea/models/items/weaver/the_dusk_crawler_legs/the_dusk_crawler_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/the_dusk_crawler_legs/the_dusk_crawler_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dusk_crawler_legs-262efd0a4426.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/049dc10bfdea/models/items/weaver/the_dusk_crawler_legs/the_dusk_crawler_legs_color_png_b0697827.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5633:master-weaver-legs",
+      "itemId": 5633,
+      "name": "Legs of the Master Weaver",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/691fbe47028e/models/items/weaver/master_weaver_legs/master_weaver_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/691fbe47028e/models/items/weaver/master_weaver_legs/master_weaver_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/master_weaver_legs/master_weaver_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/master_weaver_legs-6af6654ef158.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/691fbe47028e/models/items/weaver/master_weaver_legs/master_weaver_legs_color_tga_abc9c64d.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9931:ti8-weaver-brood-crawler-legs",
+      "itemId": 9931,
+      "name": "Legs of the Riven Exile",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5232839fa7de/models/items/weaver/ti8_weaver_brood_crawler_legs/ti8_weaver_brood_crawler_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/5232839fa7de/models/items/weaver/ti8_weaver_brood_crawler_legs/ti8_weaver_brood_crawler_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/ti8_weaver_brood_crawler_legs/ti8_weaver_brood_crawler_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_weaver_brood_crawler_legs-2075e7444f4f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5232839fa7de/models/items/weaver/ti8_weaver_brood_crawler_legs/ti8_weaver_brood_crawler_legs_color_psd_d240a9c6.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5676:starl-legs-t1",
+      "itemId": 5676,
+      "name": "Limbs of Entwined Fate",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_legs_t1-6177ec09064b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1_color_tga_d6c5a728.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Limbs of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_legs_t1/starl_legs_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Limbs of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_legs_t2/starl_legs_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t2/starl_legs_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Limbs of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_legs_t3/starl_legs_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t3/starl_legs_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5676:starl-legs-t1:style-1",
+      "itemId": 5676,
+      "name": "Limbs of Entwined Fate - Style 2",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_legs_t2-e40fee5848ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1_color_tga_d6c5a728.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Limbs of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_legs_t1/starl_legs_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Limbs of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_legs_t2/starl_legs_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t2/starl_legs_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Limbs of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_legs_t3/starl_legs_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t3/starl_legs_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5676:starl-legs-t1:style-2",
+      "itemId": 5676,
+      "name": "Limbs of Entwined Fate - Style 3",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_legs_t3-a5f3c4e1960d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/54a0d824abe8/models/items/weaver/starl_legs_t1/starl_legs_t1_color_tga_d6c5a728.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Limbs of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_legs_t1/starl_legs_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t1/starl_legs_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Limbs of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_legs_t2/starl_legs_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t2/starl_legs_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "2",
+            "name": "Limbs of Entwined Fate Style2",
+            "alternateIcon": "2",
+            "icon": "econ/items/weaver/starl_legs_t3/starl_legs_t3",
+            "modelPaths": [
+              "models/items/weaver/starl_legs_t3/starl_legs_t3.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "2"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:17887:vespoid-stalker-legs",
+      "itemId": 17887,
+      "name": "Vespoid Stalker Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/78d587fd18a7/models/items/weaver/vespoid_stalker_legs/vespoid_stalker_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/78d587fd18a7/models/items/weaver/vespoid_stalker_legs/vespoid_stalker_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/vespoid_stalker_legs/vespoid_stalker_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespoid_stalker_legs-3e509e04f4a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/78d587fd18a7/models/items/weaver/vespoid_stalker_legs/vespoid_stalker_legs_color_tga_517ef6da.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:278:weaver-legs",
+      "itemId": 278,
+      "name": "Weavers Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a6e114620b09/models/heroes/weaver/weaver_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/a6e114620b09/models/heroes/weaver/weaver_legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/weaver/weaver_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_legs-150c3553fe03.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/a6e114620b09/models/heroes/weaver/weaver_legs_color_psd_6ffde37f.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9070:the-dusk-crawler-misc",
+      "itemId": 9070,
+      "name": "Abdomen of the Loomkeeper",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/53dfe948d2bd/models/items/weaver/the_dusk_crawler_misc/the_dusk_crawler_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/53dfe948d2bd/models/items/weaver/the_dusk_crawler_misc/the_dusk_crawler_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/the_dusk_crawler_misc/the_dusk_crawler_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dusk_crawler_misc-e0f74d4f8cdc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/53dfe948d2bd/models/items/weaver/the_dusk_crawler_misc/the_dusk_crawler_misc_color_png_93457a68.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:9927:ti8-weaver-brood-crawler-misc",
+      "itemId": 9927,
+      "name": "Abdomen of the Riven Exile",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/6d79db2ee19a/models/items/weaver/ti8_weaver_brood_crawler_misc/ti8_weaver_brood_crawler_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/6d79db2ee19a/models/items/weaver/ti8_weaver_brood_crawler_misc/ti8_weaver_brood_crawler_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/ti8_weaver_brood_crawler_misc/ti8_weaver_brood_crawler_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_weaver_brood_crawler_misc-3bf8ede933e1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/6d79db2ee19a/models/items/weaver/ti8_weaver_brood_crawler_misc/ti8_weaver_brood_crawler_misc_color_psd_7ffdbda6.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:18473:spring2021-dimension-ripper-misc",
+      "itemId": 18473,
+      "name": "Dimension Ripper Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/bc5abe0002c9/models/items/weaver/spring2021_dimension_ripper_misc/spring2021_dimension_ripper_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/bc5abe0002c9/models/items/weaver/spring2021_dimension_ripper_misc/spring2021_dimension_ripper_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/spring2021_dimension_ripper_misc/spring2021_dimension_ripper_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spring2021_dimension_ripper_misc-1b114fa30b0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/bc5abe0002c9/models/items/weaver/spring2021_dimension_ripper_misc/spring2021_dimension_ripper_misc_color_tga_a9be4381.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:6134:infesting-incubator",
+      "itemId": 6134,
+      "name": "Infesting Incubator",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5d43fc3cdd8a/models/items/weaver/infesting_incubator/infesting_incubator.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/5d43fc3cdd8a/models/items/weaver/infesting_incubator/infesting_incubator.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/infesting_incubator/infesting_incubator.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/infesting_incubator-5b5ba4d1991a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/5d43fc3cdd8a/models/items/weaver/infesting_incubator/infesting_incubator_color_tga_f94db3b0.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5632:spikes-master-weaver",
+      "itemId": 5632,
+      "name": "Spikes of the Master Weaver",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90d9ac164e91/models/items/weaver/spikes_master_weaver/spikes_master_weaver.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/90d9ac164e91/models/items/weaver/spikes_master_weaver/spikes_master_weaver.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/spikes_master_weaver/spikes_master_weaver.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/spikes_master_weaver-2ab872a1e788.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/90d9ac164e91/models/items/weaver/spikes_master_weaver/spikes_master_weaver_color_tga_850f2ffd.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:13238:weaver-devil-ripper-misc",
+      "itemId": 13238,
+      "name": "Sting of Inerrant Eminence",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/896e1a209ad6/models/items/weaver/weaver_devil_ripper_misc/weaver_devil_ripper_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/896e1a209ad6/models/items/weaver/weaver_devil_ripper_misc/weaver_devil_ripper_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/weaver_devil_ripper_misc/weaver_devil_ripper_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weaver_devil_ripper_misc-91c0b13de43c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/896e1a209ad6/models/items/weaver/weaver_devil_ripper_misc/weaver_devil_ripper_misc_color_tga_64df46a8.png"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5566:starl-misc-t1",
+      "itemId": 5566,
+      "name": "Stinger of Entwined Fate",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3f5878fdb073/models/items/weaver/starl_misc_t1/starl_misc_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/3f5878fdb073/models/items/weaver/starl_misc_t1/starl_misc_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_misc_t1-8538ad6dac2d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3f5878fdb073/models/items/weaver/starl_misc_t1/starl_misc_t1_color_tga_ec1ee235.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Stinger of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_misc_t1/starl_misc_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Stinger of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_misc_t2/starl_misc_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_misc_t2/starl_misc_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:5566:starl-misc-t1:style-1",
+      "itemId": 5566,
+      "name": "Stinger of Entwined Fate - Style 2",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3f5878fdb073/models/items/weaver/starl_misc_t1/starl_misc_t1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/3f5878fdb073/models/items/weaver/starl_misc_t1/starl_misc_t1.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/starl_misc_t2-e6956d082075.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/3f5878fdb073/models/items/weaver/starl_misc_t1/starl_misc_t1_color_tga_ec1ee235.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl",
+        "modelPaths": [
+          "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Stinger of Entwined Fate Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/weaver/starl_misc_t1/starl_misc_t1",
+            "modelPaths": [
+              "models/items/weaver/starl_misc_t1/starl_misc_t1.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Stinger of Entwined Fate Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/weaver/starl_misc_t2/starl_misc_t2",
+            "modelPaths": [
+              "models/items/weaver/starl_misc_t2/starl_misc_t2.vmdl"
+            ],
+            "tags": [
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_weaver:item-model:17886:vespoid-stalker-misc",
+      "itemId": 17886,
+      "name": "Vespoid Stalker Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/24c608479982/models/items/weaver/vespoid_stalker_misc/vespoid_stalker_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_weaver/24c608479982/models/items/weaver/vespoid_stalker_misc/vespoid_stalker_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/weaver/vespoid_stalker_misc/vespoid_stalker_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/vespoid_stalker_misc-d0f94d8bf4ba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_weaver/24c608479982/models/items/weaver/vespoid_stalker_misc/vespoid_stalker_misc_color_tga_69afbf1c.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_weaver:core-set:20171:armored-exoskeleton-set",
+      "name": "Armored Exoskeleton Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280
+      ],
+      "sourceItemIds": [
+        4570,
+        4635,
+        4636,
+        4637
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/stalkers_exoskeleton_arms_low-fe5e2feb41d1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:21082:combine-of-the-loomkeeper",
+      "name": "Combine of the Loomkeeper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        9066,
+        9067,
+        9068,
+        9069,
+        9070
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/the_dusk_crawler_loading_screen-bf8cee0c9ae8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:21811:dimension-ripper",
+      "name": "Dimension Ripper",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        18469,
+        18470,
+        18471,
+        18472,
+        18473
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/spring2021_dimension_ripper_loadingscreen-ce834483b73f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20398:dimensional-infestation-set",
+      "name": "Dimensional Infestation Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        6130,
+        6131,
+        6132,
+        6133,
+        6134
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/infesting_cranium-8bff7c6126e4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20136:ember-tipped-carapace-set",
+      "name": "Ember Tipped Carapace Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280
+      ],
+      "sourceItemIds": [
+        4819,
+        4820,
+        4821,
+        4822
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/etc_back-fd19394a70fb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:21205:grasp-of-the-riven-exile",
+      "name": "Grasp of the Riven Exile",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        9927,
+        9928,
+        9929,
+        9930,
+        9931
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/ti8_weaver_brood_crawler_misc-3bf8ede933e1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:21360:inerrant-eminence",
+      "name": "Inerrant Eminence",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        13222,
+        13223,
+        13224,
+        13225,
+        13238
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/weaver_devil_ripper_ls-2ef052817121.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20304:master-weaver-set",
+      "name": "Master Weaver Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        5606,
+        5632,
+        5633,
+        5635,
+        5660
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/master_weaver_arms-ff7178220c35.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20541:star-series-8",
+      "name": "Star Series 8",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        5566,
+        5676,
+        5679,
+        5680,
+        5682
+      ],
+      "styleSelections": {
+        "5566": "0",
+        "5676": "0",
+        "5679": "0",
+        "5680": "0",
+        "5682": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/starl_misc_t1-8538ad6dac2d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20541:star-series-8:style-1",
+      "name": "Star Series 8 - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        5566,
+        5676,
+        5679,
+        5680,
+        5682
+      ],
+      "styleSelections": {
+        "5566": "1",
+        "5676": "1",
+        "5679": "1",
+        "5680": "1",
+        "5682": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/starl_misc_t2-e6956d082075.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20541:star-series-8:style-2",
+      "name": "Star Series 8 - Style 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        5566,
+        5676,
+        5679,
+        5680,
+        5682
+      ],
+      "styleSelections": {
+        "5676": "2",
+        "5679": "2",
+        "5680": "2",
+        "5682": "2"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/starl_legs_t3-a5f3c4e1960d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20314:threads-of-entwined-fate-star-series-8-bundle",
+      "name": "Threads of Entwined Fate  Star Series 8 Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        5566,
+        5676,
+        5679,
+        5680,
+        5682
+      ],
+      "styleSelections": {
+        "5566": "0",
+        "5676": "0",
+        "5679": "0",
+        "5680": "0",
+        "5682": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/starl_misc_t1-8538ad6dac2d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20314:threads-of-entwined-fate-star-series-8-bundle:style-1",
+      "name": "Threads of Entwined Fate  Star Series 8 Bundle - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        5566,
+        5676,
+        5679,
+        5680,
+        5682
+      ],
+      "styleSelections": {
+        "5566": "1",
+        "5676": "1",
+        "5679": "1",
+        "5680": "1",
+        "5682": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/starl_misc_t2-e6956d082075.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:20314:threads-of-entwined-fate-star-series-8-bundle:style-2",
+      "name": "Threads of Entwined Fate  Star Series 8 Bundle - Style 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        5566,
+        5676,
+        5679,
+        5680,
+        5682
+      ],
+      "styleSelections": {
+        "5676": "2",
+        "5679": "2",
+        "5680": "2",
+        "5682": "2"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 15,
+      "previewUrl": "/larimods-data/v1/icons/starl_legs_t3-a5f3c4e1960d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_weaver:core-set:21714:vespoid-stalker",
+      "name": "Vespoid Stalker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        277,
+        278,
+        279,
+        280,
+        585
+      ],
+      "sourceItemIds": [
+        17886,
+        17887,
+        17888,
+        17889,
+        17890
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/vespoid_stalker_misc-d0f94d8bf4ba.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 21156186,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 333
+  }
+}

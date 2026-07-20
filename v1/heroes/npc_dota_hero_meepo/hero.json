@@ -1,0 +1,3277 @@
+{
+  "heroId": "npc_dota_hero_meepo",
+  "sourceHeroId": "npc_dota_hero_meepo",
+  "variantId": "default",
+  "heroName": "Meepo",
+  "heroSlug": "meepo",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/meepo.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_meepo/b795a87bcbf9/models/heroes/meepo/meepo.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 299,
+      "name": "Meepos Bracers",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/bb536361bbc7/models/heroes/meepo/bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/bb536361bbc7/models/heroes/meepo/bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/bracers.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/bb536361bbc7/models/heroes/meepo/meepo_glove_color_psd_2050447f.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 297,
+      "name": "Meepos Backpack",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5dc1ad0c7f40/models/heroes/meepo/pack.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5dc1ad0c7f40/models/heroes/meepo/pack.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/pack.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5dc1ad0c7f40/models/heroes/meepo/meepo_pack_color_psd_15ef1121.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 296,
+      "name": "Meepos Hood",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/64b6ba2dba70/models/heroes/meepo/hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/64b6ba2dba70/models/heroes/meepo/hood.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/hood.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/64b6ba2dba70/models/heroes/meepo/meepo_hood_color_psd_404d6ee3.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 298,
+      "name": "Meepos Shoulderpads",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2393943d1fe4/models/heroes/meepo/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2393943d1fe4/models/heroes/meepo/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/shoulders.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2393943d1fe4/models/heroes/meepo/meepo_pads_color_psd_5b4c060c.png"
+    },
+    {
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "itemId": 300,
+      "name": "Meepos Tail",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f31a29f01e83/models/heroes/meepo/tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/f31a29f01e83/models/heroes/meepo/tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/tail.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f31a29f01e83/models/heroes/meepo/meepo_tail_color_psd_76a22779.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 104,
+      "name": "Meepos Weapon",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5f83a02e69d2/models/heroes/meepo/meepo_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5f83a02e69d2/models/heroes/meepo/meepo_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/meepo_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5f83a02e69d2/models/heroes/meepo/meepo_weapon_color_psd_8461e45b.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_meepo:item-model:7698:sir-meepalot-arms",
+      "itemId": 7698,
+      "name": "Armguards of the Fractured Order",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/4582bc494375/models/items/meepo/sir_meepalot_arms/sir_meepalot_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/4582bc494375/models/items/meepo/sir_meepalot_arms/sir_meepalot_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/sir_meepalot_arms/sir_meepalot_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sir_meepalot_arms-fe1409431732.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/4582bc494375/models/items/meepo/sir_meepalot_arms/sir_meepalot_arms_color_tga_8c227cb9.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6342:crystal-scavenger-arms",
+      "itemId": 6342,
+      "name": "Crystal Scavengers Digging Gloves",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/02f08d454870/models/items/meepo/crystal_scavenger_arms/crystal_scavenger_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/02f08d454870/models/items/meepo/crystal_scavenger_arms/crystal_scavenger_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/crystal_scavenger_arms/crystal_scavenger_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crystal_scavenger_arms-2bb1a262437f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/02f08d454870/models/items/meepo/crystal_scavenger_arms/crystal_scavenger_arms_color_tga_908d2527.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6227:dosa-arms",
+      "itemId": 6227,
+      "name": "Dosa Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/273d804db4bf/models/items/meepo/dosa_arms/dosa_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/273d804db4bf/models/items/meepo/dosa_arms/dosa_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/dosa_arms/dosa_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dosa_arms-8b916cfa730b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/273d804db4bf/models/items/meepo/dosa_arms/dosa_arms_color_tga_295ba205.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7201:profitable-adventure-arms",
+      "itemId": 7201,
+      "name": "Gloves of the Spelunker",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/58860d342e48/models/items/meepo/profitable_adventure_arms/profitable_adventure_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/58860d342e48/models/items/meepo/profitable_adventure_arms/profitable_adventure_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/profitable_adventure_arms/profitable_adventure_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/profitable_adventure_arms-e785804753a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/58860d342e48/models/items/meepo/profitable_adventure_arms/profitable_adventure_arms_color_tga_8c22d20c.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13736:jester-king-arms",
+      "itemId": 13736,
+      "name": "Jester King Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/88b6afa1d2c6/models/items/meepo/jester_king_arms/jester_king_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/88b6afa1d2c6/models/items/meepo/jester_king_arms/jester_king_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/jester_king_arms/jester_king_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jester_king_arms-5e3bdd3a01e0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/88b6afa1d2c6/models/items/meepo/jester_king_arms/jester_king_arms_color_png_12586377.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13033:ti9-cache-meepo-voodoo-meepo-arms",
+      "itemId": 13033,
+      "name": "Kindred of the Cursed Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/88c038f814b8/models/items/meepo/ti9_cache_meepo_voodoo_meepo_arms/ti9_cache_meepo_voodoo_meepo_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/88c038f814b8/models/items/meepo/ti9_cache_meepo_voodoo_meepo_arms/ti9_cache_meepo_voodoo_meepo_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_voodoo_meepo_arms/ti9_cache_meepo_voodoo_meepo_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_voodoo_meepo_arms-294bfd19ddf3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/88c038f814b8/models/items/meepo/ti9_cache_meepo_voodoo_meepo_arms/ti9_cache_meepo_voodoo_meepo_arms_color_png_c8b05ed8.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:28254:loong-recluse-arms",
+      "itemId": 28254,
+      "name": "Lotus of the Mountain Bear Clan  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/4b7161be2a85/models/items/meepo/loong_recluse_arms/loong_recluse_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/4b7161be2a85/models/items/meepo/loong_recluse_arms/loong_recluse_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/loong_recluse_arms/loong_recluse_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/loong_recluse_arms-a5f8bd8c3571.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/4b7161be2a85/models/items/meepo/loong_recluse_arms/loong_recluse_arms_color_psd_163cb01d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/loong_recluse_arms/loong_recluse_arms.vmdl",
+        "modelPaths": [
+          "models/items/meepo/loong_recluse_arms/loong_recluse_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_2024_loong_recluse/meepo_2024_loong_recluse_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:299:bracers",
+      "itemId": 299,
+      "name": "Meepos Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/bb536361bbc7/models/heroes/meepo/bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/bb536361bbc7/models/heroes/meepo/bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracers-de9ca7ecb737.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/bb536361bbc7/models/heroes/meepo/meepo_glove_color_psd_2050447f.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:17818:bracers",
+      "itemId": 17818,
+      "name": "Meepos Diretide Shimmer Bracers",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/30411f14592c/models/heroes/meepo/bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/30411f14592c/models/heroes/meepo/bracers.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bracers1-e6bfa3aff464.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/30411f14592c/models/heroes/meepo/meepo_glove_color_psd_2050447f.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:30273:meepo-farm-arms",
+      "itemId": 30273,
+      "name": "Mocking Bird  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/41dc91ebb400/models/items/meepo/meepo_farm_arms/meepo_farm_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/41dc91ebb400/models/items/meepo/meepo_farm_arms/meepo_farm_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_farm_arms/meepo_farm_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_farm_arms-699c22029504.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/41dc91ebb400/models/items/meepo/meepo_farm_arms/meepo_farm_arms_color_psd_a01539e4.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:9832:ti8-meepo-pitmouse-fraternity-arms",
+      "itemId": 9832,
+      "name": "Pitmouse Fraternity Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2af77902ce68/models/items/meepo/ti8_meepo_pitmouse_fraternity_arms/ti8_meepo_pitmouse_fraternity_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2af77902ce68/models/items/meepo/ti8_meepo_pitmouse_fraternity_arms/ti8_meepo_pitmouse_fraternity_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti8_meepo_pitmouse_fraternity_arms/ti8_meepo_pitmouse_fraternity_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_meepo_pitmouse_fraternity_arms-06e2fa7fd921.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2af77902ce68/models/items/meepo/ti8_meepo_pitmouse_fraternity_arms/ti8_meepo_pitmouse_fraternity_arms_color_psd_bcbb18c3.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4434:riftshadow-roamer-gloves",
+      "itemId": 4434,
+      "name": "Riftshadow Roamers Grabbin Wraps",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/699ef8134b67/models/items/meepo/riftshadow_roamer_gloves/riftshadow_roamer_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/699ef8134b67/models/items/meepo/riftshadow_roamer_gloves/riftshadow_roamer_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/riftshadow_roamer_gloves/riftshadow_roamer_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riftshadow_roamer_gloves-6c64c4f3bcc9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/699ef8134b67/models/items/meepo/riftshadow_roamer_gloves/riftshadow_roamer_gloves_color_tga_a24fecc7.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7686:the-family-values-arms",
+      "itemId": 7686,
+      "name": "The Family Values Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/04d794f3ca87/models/items/meepo/the_family_values_arms/the_family_values_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/04d794f3ca87/models/items/meepo/the_family_values_arms/the_family_values_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/the_family_values_arms/the_family_values_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_family_values_arms-57b7239cb5fe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/04d794f3ca87/models/items/meepo/the_family_values_arms/the_family_values_arms_color_tga_2a476104.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13139:ti9-cache-meepo-jungle-babysitter-arms",
+      "itemId": 13139,
+      "name": "Vote Only TI9 Cache Meepo Jungle babysitter Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/996e35a587ba/models/items/meepo/ti9_cache_meepo_jungle_babysitter_arms/ti9_cache_meepo_jungle_babysitter_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/996e35a587ba/models/items/meepo/ti9_cache_meepo_jungle_babysitter_arms/ti9_cache_meepo_jungle_babysitter_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_jungle_babysitter_arms/ti9_cache_meepo_jungle_babysitter_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_jungle_babysitter_arms-831e0b53ca7a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/996e35a587ba/models/items/meepo/ti9_cache_meepo_jungle_babysitter_arms/ti9_cache_meepo_jungle_babysitter_arms_color_tga_ca588d3f.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4913:meeposkback",
+      "itemId": 4913,
+      "name": "Bone Ruin Excavator Pack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5e5df9d24722/models/items/meepo/meeposkback/meeposkback.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5e5df9d24722/models/items/meepo/meeposkback/meeposkback.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meeposkback/meeposkback.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meeposkback-55d66dc22f75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5e5df9d24722/models/items/meepo/meeposkback/meeposkback_color_tga_5e0c6826.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:9075:colossal-crystal-chorus",
+      "itemId": 9075,
+      "name": "Colossal Crystal Chorus",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/66dfd892a180/models/items/meepo/colossal_crystal_chorus/colossal_crystal_chorus.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/66dfd892a180/models/items/meepo/colossal_crystal_chorus/colossal_crystal_chorus.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/colossal_crystal_chorus/colossal_crystal_chorus.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/colossal_crystal_chorus-a7313f0a7f95.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/66dfd892a180/models/items/meepo/colossal_crystal_chorus/colossal_crystal_chorus_color_psd_5db4d6c3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/colossal_crystal_chorus/colossal_crystal_chorus.vmdl",
+        "modelPaths": [
+          "models/items/meepo/colossal_crystal_chorus/colossal_crystal_chorus.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_colossal_crystal_chorus/meepo_divining_rod_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_colossal_crystal_chorus/meepo_divining_rod_loadout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_colossal_crystal_chorus/meepo_divining_rod_poof_end.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_colossal_crystal_chorus/meepo_divining_rod_poof_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_colossal_crystal_chorus/meepo_poof_digger_ch.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_loadout.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_poof_digger.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_poof_end.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_poof_start.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7203:profitable-adventure-back",
+      "itemId": 7203,
+      "name": "Crate of the Spelunker",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/891be606e894/models/items/meepo/profitable_adventure_back/profitable_adventure_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/891be606e894/models/items/meepo/profitable_adventure_back/profitable_adventure_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/profitable_adventure_back/profitable_adventure_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/profitable_adventure_back-e9e49b8f20b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/891be606e894/models/items/meepo/profitable_adventure_back/profitable_adventure_back_color_tga_a1e7067d.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6562:crystal-scavenger-back",
+      "itemId": 6562,
+      "name": "Crystal Scavengers Transducing Contraption",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/6748bf435ef5/models/items/meepo/crystal_scavenger_back/crystal_scavenger_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/6748bf435ef5/models/items/meepo/crystal_scavenger_back/crystal_scavenger_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/crystal_scavenger_back/crystal_scavenger_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crystal_scavenger_back-2d77e0253076.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/6748bf435ef5/models/items/meepo/crystal_scavenger_back/crystal_scavenger_back_color_tga_f742ab0d.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6237:dosa-back",
+      "itemId": 6237,
+      "name": "Dosa Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/c7e1b77107f6/models/items/meepo/dosa_back/dosa_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/c7e1b77107f6/models/items/meepo/dosa_back/dosa_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/dosa_back/dosa_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dosa_back-f0ba0c845c43.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/c7e1b77107f6/models/items/meepo/dosa_back/dosa_back_color_tga_faa85eaf.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13740:jester-king-back",
+      "itemId": 13740,
+      "name": "Jester King Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/8cfea087dfff/models/items/meepo/jester_king_back/jester_king_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/8cfea087dfff/models/items/meepo/jester_king_back/jester_king_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/jester_king_back/jester_king_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jester_king_back-a5b247a8c01f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/8cfea087dfff/models/items/meepo/jester_king_back/jester_king_back_color_png_2146d6d2.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13032:ti9-cache-meepo-voodoo-meepo-back",
+      "itemId": 13032,
+      "name": "Kindred of the Cursed Drum",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/244345f1ab83/models/items/meepo/ti9_cache_meepo_voodoo_meepo_back/ti9_cache_meepo_voodoo_meepo_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/244345f1ab83/models/items/meepo/ti9_cache_meepo_voodoo_meepo_back/ti9_cache_meepo_voodoo_meepo_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_voodoo_meepo_back/ti9_cache_meepo_voodoo_meepo_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_voodoo_meepo_back-efa6ef97bcf6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/244345f1ab83/models/items/meepo/ti9_cache_meepo_voodoo_meepo_back/ti9_cache_meepo_voodoo_meepo_back_color_png_4947609.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:28256:loong-recluse-back",
+      "itemId": 28256,
+      "name": "Lotus of the Mountain Bear Clan  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/d28e948a5c01/models/items/meepo/loong_recluse_back/loong_recluse_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/d28e948a5c01/models/items/meepo/loong_recluse_back/loong_recluse_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/loong_recluse_back/loong_recluse_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/loong_recluse_back-3255358294b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/d28e948a5c01/models/items/meepo/loong_recluse_back/loong_recluse_back_color_psd_7eb8c7b1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/loong_recluse_back/loong_recluse_back.vmdl",
+        "modelPaths": [
+          "models/items/meepo/loong_recluse_back/loong_recluse_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_2024_loong_recluse/meepo_2024_loong_recluse_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:297:pack",
+      "itemId": 297,
+      "name": "Meepos Backpack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5dc1ad0c7f40/models/heroes/meepo/pack.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5dc1ad0c7f40/models/heroes/meepo/pack.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/pack.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pack-1613a1f15b2c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5dc1ad0c7f40/models/heroes/meepo/meepo_pack_color_psd_15ef1121.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:17817:pack",
+      "itemId": 17817,
+      "name": "Meepos Diretide Shimmer Backpack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/df8f277476aa/models/heroes/meepo/pack.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/df8f277476aa/models/heroes/meepo/pack.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/pack.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pack1-3070d02357b1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/df8f277476aa/models/heroes/meepo/meepo_pack_color_psd_15ef1121.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:30271:meepo-farm-back",
+      "itemId": 30271,
+      "name": "Mocking Bird  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1f50fdee67cf/models/items/meepo/meepo_farm_back/meepo_farm_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/1f50fdee67cf/models/items/meepo/meepo_farm_back/meepo_farm_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_farm_back/meepo_farm_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_farm_back-41b751b7e6f6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1f50fdee67cf/models/items/meepo/meepo_farm_back/meepo_farm_back_color_psd_c4f55fc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/meepo_farm_back/meepo_farm_back.vmdl",
+        "modelPaths": [
+          "models/items/meepo/meepo_farm_back/meepo_farm_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/avilliva_meepo/avilliva_meepo_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:5572:mr-depth-driller",
+      "itemId": 5572,
+      "name": "Mr Depth Driller",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/6c1b9a3d284e/models/items/meepo/mr_depth_driller/mr_depth_driller.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/6c1b9a3d284e/models/items/meepo/mr_depth_driller/mr_depth_driller.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/mr_depth_driller/mr_depth_driller.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mr_depth_driller-8d4b457e9a88.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/6c1b9a3d284e/models/items/meepo/mr_depth_driller/mr_depth_driller_color_tga_4c7dd646.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:9837:ti8-meepo-pitmouse-fraternity-back",
+      "itemId": 9837,
+      "name": "Pitmouse Fraternity Pack",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1abaed9637ef/models/items/meepo/ti8_meepo_pitmouse_fraternity_back/ti8_meepo_pitmouse_fraternity_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/1abaed9637ef/models/items/meepo/ti8_meepo_pitmouse_fraternity_back/ti8_meepo_pitmouse_fraternity_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti8_meepo_pitmouse_fraternity_back/ti8_meepo_pitmouse_fraternity_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_meepo_pitmouse_fraternity_back-714f81f7afb8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1abaed9637ef/models/items/meepo/ti8_meepo_pitmouse_fraternity_back/ti8_meepo_pitmouse_fraternity_back_color_psd_41246aaf.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4646:meepo-cratepack",
+      "itemId": 4646,
+      "name": "Radiant Crystal Haul",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/078f8596e6ea/models/items/meepo/meepo_cratepack/meepo_cratepack.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/078f8596e6ea/models/items/meepo/meepo_cratepack/meepo_cratepack.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_cratepack/meepo_cratepack.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_cratepack-cd17efa5e495.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/078f8596e6ea/models/items/meepo/meepo_cratepack/meepo_cratepack_color_tga_61af1394.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4344:riftshadow-roamer-pack",
+      "itemId": 4344,
+      "name": "Riftshadow Roamers Pluckin Fiddle",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/ec50862ef242/models/items/meepo/riftshadow_roamer_pack/riftshadow_roamer_pack.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/ec50862ef242/models/items/meepo/riftshadow_roamer_pack/riftshadow_roamer_pack.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/riftshadow_roamer_pack/riftshadow_roamer_pack.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riftshadow_roamer_pack-dcf9bf304a33.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/ec50862ef242/models/items/meepo/riftshadow_roamer_pack/riftshadow_roamer_pack_color_tga_75d33d6a.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7697:sir-meepalot-back",
+      "itemId": 7697,
+      "name": "Shield of the Fractured Order",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/325bf73b5fba/models/items/meepo/sir_meepalot_back/sir_meepalot_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/325bf73b5fba/models/items/meepo/sir_meepalot_back/sir_meepalot_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/sir_meepalot_back/sir_meepalot_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sir_meepalot_back-d8a723887e39.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/325bf73b5fba/models/items/meepo/sir_meepalot_back/sir_meepalot_back_color_tga_338a00d5.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7669:the-family-values-back",
+      "itemId": 7669,
+      "name": "The Family Values Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/188435d56447/models/items/meepo/the_family_values_back/the_family_values_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/188435d56447/models/items/meepo/the_family_values_back/the_family_values_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/the_family_values_back/the_family_values_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_family_values_back-91b679a5d0d6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/188435d56447/models/items/meepo/the_family_values_back/the_family_values_back_color_tga_6a03ca9b.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13136:ti9-cache-meepo-jungle-babysitter-back",
+      "itemId": 13136,
+      "name": "Vote Only TI9 Cache Meepo Jungle babysitter Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f5b4e034b7ff/models/items/meepo/ti9_cache_meepo_jungle_babysitter_back/ti9_cache_meepo_jungle_babysitter_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/f5b4e034b7ff/models/items/meepo/ti9_cache_meepo_jungle_babysitter_back/ti9_cache_meepo_jungle_babysitter_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_jungle_babysitter_back/ti9_cache_meepo_jungle_babysitter_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_jungle_babysitter_back-c760b6412357.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f5b4e034b7ff/models/items/meepo/ti9_cache_meepo_jungle_babysitter_back/ti9_cache_meepo_jungle_babysitter_back_color_tga_3be4129f.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4911:meepo-skeletonkey-bandana",
+      "itemId": 4911,
+      "name": "Bandana of the Bone Ruin Bandits",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/9885c326fa89/models/items/meepo/meepo_skeletonkey_bandana/meepo_skeletonkey_bandana.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/9885c326fa89/models/items/meepo/meepo_skeletonkey_bandana/meepo_skeletonkey_bandana.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_skeletonkey_bandana/meepo_skeletonkey_bandana.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_skeletonkey_bandana-6d892368aa94.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/9885c326fa89/models/items/meepo/meepo_skeletonkey_bandana/meepo_skeletonkey_bandana_color_tga_b1684864.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6563:crystal-scavenger-head",
+      "itemId": 6563,
+      "name": "Crystal Scavengers Galvanic Mining Headware",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/336ff8483911/models/items/meepo/crystal_scavenger_head/crystal_scavenger_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/336ff8483911/models/items/meepo/crystal_scavenger_head/crystal_scavenger_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/crystal_scavenger_head/crystal_scavenger_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crystal_scavenger_head-2d495c741e83.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/336ff8483911/models/items/meepo/crystal_scavenger_head/crystal_scavenger_head_color_tga_9717bf7d.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6238:dosa-hat",
+      "itemId": 6238,
+      "name": "Dosa Hat",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/75b9da3c9b30/models/items/meepo/dosa_hat/dosa_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/75b9da3c9b30/models/items/meepo/dosa_hat/dosa_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/dosa_hat/dosa_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dosa_hat-e5bebbd93e92.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/75b9da3c9b30/models/items/meepo/dosa_hat/dosa_hat_color_tga_381a2d18.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:14241:meepo-2021-immortal",
+      "itemId": 14241,
+      "name": "Everglyph Goggles",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2c93f8a78def/models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2c93f8a78def/models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_2021_immortal-75f8bdab602b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2c93f8a78def/models/items/meepo/meepo_2021_immortal/meepo_2021_immortal_color_tga_2496b6bb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_2022_immortal/meepo_2022_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_2022_immortal/meepo_2022_earthbind.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_2022_immortal/meepo_2022_earthbind_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_earthbind.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_earthbind_projectile_fx.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:32607:meepo-2021-immortal",
+      "itemId": 32607,
+      "name": "Everglyph Goggles of the Crimson Witness",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/84a2d46cacd9/models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/84a2d46cacd9/models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_2021_immortal1-03db232b5386.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/84a2d46cacd9/models/items/meepo/meepo_2021_immortal/meepo_2021_immortal_color_tga_2496b6bb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl",
+        "modelPaths": [
+          "models/items/meepo/meepo_2021_immortal/meepo_2021_immortal.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_2022_immortal/meepo_2022_ambient_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_2022_immortal/meepo_2022_crimson_earthbind_projectile.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/meepo/meepo_2022_immortal/meepo_2022_earthbind_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_earthbind.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_meepo/meepo_earthbind_projectile_fx.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7704:sir-meepalot-head",
+      "itemId": 7704,
+      "name": "Helmet of the Fractured Order",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/a9f8ee7471f1/models/items/meepo/sir_meepalot_head/sir_meepalot_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/a9f8ee7471f1/models/items/meepo/sir_meepalot_head/sir_meepalot_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/sir_meepalot_head/sir_meepalot_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sir_meepalot_head-e7dd6db437cf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/a9f8ee7471f1/models/items/meepo/sir_meepalot_head/sir_meepalot_head_color_tga_e44be61f.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13737:jester-king-head",
+      "itemId": 13737,
+      "name": "Jester King Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1d16fd151fbc/models/items/meepo/jester_king_head/jester_king_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/1d16fd151fbc/models/items/meepo/jester_king_head/jester_king_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/jester_king_head/jester_king_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jester_king_head-83671b233eee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1d16fd151fbc/models/items/meepo/jester_king_head/jester_king_head_color_png_a4f00359.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13031:ti9-cache-meepo-voodoo-meepo-head",
+      "itemId": 13031,
+      "name": "Kindred of the Cursed Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/67cc1098c8be/models/items/meepo/ti9_cache_meepo_voodoo_meepo_head/ti9_cache_meepo_voodoo_meepo_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/67cc1098c8be/models/items/meepo/ti9_cache_meepo_voodoo_meepo_head/ti9_cache_meepo_voodoo_meepo_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_voodoo_meepo_head/ti9_cache_meepo_voodoo_meepo_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_voodoo_meepo_head-2e46eeff71be.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/67cc1098c8be/models/items/meepo/ti9_cache_meepo_voodoo_meepo_head/ti9_cache_meepo_voodoo_meepo_head_color_png_dffdbb16.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:28255:loong-recluse-head",
+      "itemId": 28255,
+      "name": "Lotus of the Mountain Bear Clan  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/0e8f1ddc8d89/models/items/meepo/loong_recluse_head/loong_recluse_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/0e8f1ddc8d89/models/items/meepo/loong_recluse_head/loong_recluse_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/loong_recluse_head/loong_recluse_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/loong_recluse_head-d4310522f9b0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/0e8f1ddc8d89/models/items/meepo/loong_recluse_head/loong_recluse_head_color_psd_4f745131.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/loong_recluse_head/loong_recluse_head.vmdl",
+        "modelPaths": [
+          "models/items/meepo/loong_recluse_head/loong_recluse_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_2024_loong_recluse/meepo_2024_loong_recluse_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:17815:hood",
+      "itemId": 17815,
+      "name": "Meepos Diretide Shimmer Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2d9186062389/models/heroes/meepo/hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2d9186062389/models/heroes/meepo/hood.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hood1-dddc83f365b4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2d9186062389/models/heroes/meepo/meepo_hood_color_psd_404d6ee3.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:296:hood",
+      "itemId": 296,
+      "name": "Meepos Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/64b6ba2dba70/models/heroes/meepo/hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/64b6ba2dba70/models/heroes/meepo/hood.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/hood-0af32a86f257.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/64b6ba2dba70/models/heroes/meepo/meepo_hood_color_psd_404d6ee3.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:30270:meepo-farm-head",
+      "itemId": 30270,
+      "name": "Mocking Bird  Beak",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/b20dcb3bc06e/models/items/meepo/meepo_farm_head/meepo_farm_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/b20dcb3bc06e/models/items/meepo/meepo_farm_head/meepo_farm_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_farm_head/meepo_farm_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_farm_head-cbf313d36feb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/b20dcb3bc06e/models/items/meepo/meepo_farm_head/meepo_farm_head_color_psd_aae4caa.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:9836:ti8-meepo-pitmouse-fraternity-head",
+      "itemId": 9836,
+      "name": "Pitmouse Fraternity Goggles",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f1575f765040/models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/f1575f765040/models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_meepo_pitmouse_fraternity_head-284daad315e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f1575f765040/models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head_color_psd_88706cfa.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head.vmdl",
+        "modelPaths": [
+          "models/items/meepo/ti8_meepo_pitmouse_fraternity_head/ti8_meepo_pitmouse_fraternity_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_ti8_pitmouse/meepo_ti8_pitmouse_candle_flame.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4427:riftshadow-roamer-hat",
+      "itemId": 4427,
+      "name": "Riftshadow Roamers Fine n Fancy",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/c2a82fb69a1e/models/items/meepo/riftshadow_roamer_hat/riftshadow_roamer_hat.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/c2a82fb69a1e/models/items/meepo/riftshadow_roamer_hat/riftshadow_roamer_hat.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/riftshadow_roamer_hat/riftshadow_roamer_hat.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riftshadow_roamer_hat-49ee271a9c4b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/c2a82fb69a1e/models/items/meepo/riftshadow_roamer_hat/riftshadow_roamer_hat_color_tga_86877c51.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7200:profitable-adventure-head",
+      "itemId": 7200,
+      "name": "Spelunkers Fedora",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/15936b238cc3/models/items/meepo/profitable_adventure_head/profitable_adventure_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/15936b238cc3/models/items/meepo/profitable_adventure_head/profitable_adventure_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/profitable_adventure_head/profitable_adventure_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/profitable_adventure_head-3a81c220131e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/15936b238cc3/models/items/meepo/profitable_adventure_head/profitable_adventure_head_color_tga_8666b69d.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7683:the-family-values-head",
+      "itemId": 7683,
+      "name": "The Family Values Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/afc2b9a37908/models/items/meepo/the_family_values_head/the_family_values_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/afc2b9a37908/models/items/meepo/the_family_values_head/the_family_values_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/the_family_values_head/the_family_values_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_family_values_head-414edf02b958.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/afc2b9a37908/models/items/meepo/the_family_values_head/the_family_values_head_color_tga_fcef2d85.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13138:ti9-cache-meepo-jungle-babysitter-head",
+      "itemId": 13138,
+      "name": "Vote Only TI9 Cache Meepo Jungle babysitter Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1a9ea3f25bdc/models/items/meepo/ti9_cache_meepo_jungle_babysitter_head/ti9_cache_meepo_jungle_babysitter_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/1a9ea3f25bdc/models/items/meepo/ti9_cache_meepo_jungle_babysitter_head/ti9_cache_meepo_jungle_babysitter_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_jungle_babysitter_head/ti9_cache_meepo_jungle_babysitter_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_jungle_babysitter_head-6eabd54c1bf4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/1a9ea3f25bdc/models/items/meepo/ti9_cache_meepo_jungle_babysitter_head/ti9_cache_meepo_jungle_babysitter_head_color_tga_fe252022.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7199:profitable-adventure-shoulder",
+      "itemId": 7199,
+      "name": "Armband of the Spelunker",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/871011885810/models/items/meepo/profitable_adventure_shoulder/profitable_adventure_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/871011885810/models/items/meepo/profitable_adventure_shoulder/profitable_adventure_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/profitable_adventure_shoulder/profitable_adventure_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/profitable_adventure_shoulder-e7e0d799a5fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/871011885810/models/items/meepo/profitable_adventure_shoulder/profitable_adventure_shoulder_color_tga_8710a3ae.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6564:crystal-scavenger-shoulders",
+      "itemId": 6564,
+      "name": "Crystal Scavengers Reinforced Pads",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/848f5d9238bb/models/items/meepo/crystal_scavenger_shoulders/crystal_scavenger_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/848f5d9238bb/models/items/meepo/crystal_scavenger_shoulders/crystal_scavenger_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/crystal_scavenger_shoulders/crystal_scavenger_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crystal_scavenger_shoulders-9e95d7749f3b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/848f5d9238bb/models/items/meepo/crystal_scavenger_shoulders/crystal_scavenger_shoulders_color_tga_ab911a1a.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6228:dosa-shoulder",
+      "itemId": 6228,
+      "name": "Dosa Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5245b55542d0/models/items/meepo/dosa_shoulder/dosa_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5245b55542d0/models/items/meepo/dosa_shoulder/dosa_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/dosa_shoulder/dosa_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dosa_shoulder-16fbd5728065.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5245b55542d0/models/items/meepo/dosa_shoulder/dosa_shoulder_color_tga_69fcdb1a.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13738:jester-king-shoulder",
+      "itemId": 13738,
+      "name": "Jester King Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2833f9992a31/models/items/meepo/jester_king_shoulder/jester_king_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2833f9992a31/models/items/meepo/jester_king_shoulder/jester_king_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/jester_king_shoulder/jester_king_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jester_king_shoulder-19366a0ed2a2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2833f9992a31/models/items/meepo/jester_king_shoulder/jester_king_shoulder_color_png_e811d355.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13029:ti9-cache-meepo-voodoo-meepo-shoulder",
+      "itemId": 13029,
+      "name": "Kindred of the Cursed Raiments",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/c6aae1e75547/models/items/meepo/ti9_cache_meepo_voodoo_meepo_shoulder/ti9_cache_meepo_voodoo_meepo_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/c6aae1e75547/models/items/meepo/ti9_cache_meepo_voodoo_meepo_shoulder/ti9_cache_meepo_voodoo_meepo_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_voodoo_meepo_shoulder/ti9_cache_meepo_voodoo_meepo_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_voodoo_meepo_shoulder-79518f962fef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/c6aae1e75547/models/items/meepo/ti9_cache_meepo_voodoo_meepo_shoulder/ti9_cache_meepo_voodoo_meepo_shoulder_color_png_16839e3.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:28257:loong-recluse-shoudler",
+      "itemId": 28257,
+      "name": "Lotus of the Mountain Bear Clan  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/30d5252fff52/models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/30d5252fff52/models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/loong_recluse_shoudler-e2eb8ddd3a0e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/30d5252fff52/models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler_color_psd_39592df2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler.vmdl",
+        "modelPaths": [
+          "models/items/meepo/loong_recluse_shoudler/loong_recluse_shoudler.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_2024_loong_recluse/meepo_2024_loong_recluse_shoulder_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:17816:shoulders",
+      "itemId": 17816,
+      "name": "Meepos Diretide Shimmer Shoulderpads",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/61e46343ca1d/models/heroes/meepo/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/61e46343ca1d/models/heroes/meepo/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders1-f0213b459400.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/61e46343ca1d/models/heroes/meepo/meepo_pads_color_psd_5b4c060c.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:298:shoulders",
+      "itemId": 298,
+      "name": "Meepos Shoulderpads",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2393943d1fe4/models/heroes/meepo/shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2393943d1fe4/models/heroes/meepo/shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shoulders-9f3246d3d22a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2393943d1fe4/models/heroes/meepo/meepo_pads_color_psd_5b4c060c.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:30269:meepo-farm-shoulder",
+      "itemId": 30269,
+      "name": "Mocking Bird  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/25046be23768/models/items/meepo/meepo_farm_shoulder/meepo_farm_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/25046be23768/models/items/meepo/meepo_farm_shoulder/meepo_farm_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_farm_shoulder/meepo_farm_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_farm_shoulder-5fd74b33fc78.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/25046be23768/models/items/meepo/meepo_farm_shoulder/meepo_farm_shoulder_color_psd_4e55ede6.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:9835:ti8-meepo-pitmouse-fraternity-shoulder",
+      "itemId": 9835,
+      "name": "Pitmouse Fraternity Pauldron",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2c1f72f4fb72/models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2c1f72f4fb72/models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_meepo_pitmouse_fraternity_shoulder-5b8bae8d2fec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2c1f72f4fb72/models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder_color_psd_70ce840c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/meepo/ti8_meepo_pitmouse_fraternity_shoulder/ti8_meepo_pitmouse_fraternity_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_ti8_pitmouse/meepo_ti8_pitmouse_candle_flame_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4421:riftshadow-roamer-vest",
+      "itemId": 4421,
+      "name": "Riftshadow Roamers Wearin Vest",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/9e8a2d002a05/models/items/meepo/riftshadow_roamer_vest/riftshadow_roamer_vest.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/9e8a2d002a05/models/items/meepo/riftshadow_roamer_vest/riftshadow_roamer_vest.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/riftshadow_roamer_vest/riftshadow_roamer_vest.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riftshadow_roamer_vest-24b3b78c3114.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/9e8a2d002a05/models/items/meepo/riftshadow_roamer_vest/riftshadow_roamer_vest_color_tga_70e8d9e8.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4914:meeposksh",
+      "itemId": 4914,
+      "name": "Skull of the Bone Ruins",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/dc89ecf10822/models/items/meepo/meeposksh/meeposksh.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/dc89ecf10822/models/items/meepo/meeposksh/meeposksh.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meeposksh/meeposksh.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meeposksh-9f81729b9218.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/dc89ecf10822/models/items/meepo/meeposksh/meeposksh_color_tga_b911751c.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7705:sir-meepalot-shoulder",
+      "itemId": 7705,
+      "name": "Spaulders of the Fractured Order",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/b737f2932925/models/items/meepo/sir_meepalot_shoulder/sir_meepalot_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/b737f2932925/models/items/meepo/sir_meepalot_shoulder/sir_meepalot_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/sir_meepalot_shoulder/sir_meepalot_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sir_meepalot_shoulder-3541308d38eb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/b737f2932925/models/items/meepo/sir_meepalot_shoulder/sir_meepalot_shoulder_color_tga_5258f786.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7670:the-family-values-shoulders",
+      "itemId": 7670,
+      "name": "The Family Values Shoulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/36939c7450a3/models/items/meepo/the_family_values_shoulders/the_family_values_shoulders.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/36939c7450a3/models/items/meepo/the_family_values_shoulders/the_family_values_shoulders.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/the_family_values_shoulders/the_family_values_shoulders.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_family_values_shoulders-b01c1f4717eb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/36939c7450a3/models/items/meepo/the_family_values_shoulders/the_family_values_shoulders_color_tga_1a6148ef.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13140:ti9-cache-meepo-jungle-babysitter-shoulder",
+      "itemId": 13140,
+      "name": "Vote Only TI9 Cache Meepo Jungle babysitter Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/e0e99348cbfb/models/items/meepo/ti9_cache_meepo_jungle_babysitter_shoulder/ti9_cache_meepo_jungle_babysitter_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/e0e99348cbfb/models/items/meepo/ti9_cache_meepo_jungle_babysitter_shoulder/ti9_cache_meepo_jungle_babysitter_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_jungle_babysitter_shoulder/ti9_cache_meepo_jungle_babysitter_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_jungle_babysitter_shoulder-f3c234aec10e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/e0e99348cbfb/models/items/meepo/ti9_cache_meepo_jungle_babysitter_shoulder/ti9_cache_meepo_jungle_babysitter_shoulder_color_tga_2940ebee.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6229:dosa-tail",
+      "itemId": 6229,
+      "name": "Dosa Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/ddca7523065a/models/items/meepo/dosa_tail/dosa_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/ddca7523065a/models/items/meepo/dosa_tail/dosa_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/dosa_tail/dosa_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dosa_tail-54b781402205.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/ddca7523065a/models/items/meepo/dosa_tail/dosa_tail_color_tga_67b336ae.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13739:jester-king-tail",
+      "itemId": 13739,
+      "name": "Jester King Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/cd80f80456cf/models/items/meepo/jester_king_tail/jester_king_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/cd80f80456cf/models/items/meepo/jester_king_tail/jester_king_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/jester_king_tail/jester_king_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jester_king_tail-996ef7c6a692.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/cd80f80456cf/models/items/meepo/jester_king_tail/jester_king_tail_color_png_ec5c48c9.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13030:ti9-cache-meepo-voodoo-meepo-tail",
+      "itemId": 13030,
+      "name": "Kindred of the Cursed Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/150cc4cab03b/models/items/meepo/ti9_cache_meepo_voodoo_meepo_tail/ti9_cache_meepo_voodoo_meepo_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/150cc4cab03b/models/items/meepo/ti9_cache_meepo_voodoo_meepo_tail/ti9_cache_meepo_voodoo_meepo_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_voodoo_meepo_tail/ti9_cache_meepo_voodoo_meepo_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_voodoo_meepo_tail-460d6a14fc6a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/150cc4cab03b/models/items/meepo/ti9_cache_meepo_voodoo_meepo_tail/ti9_cache_meepo_voodoo_meepo_tail_color_png_eec31d1e.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:28258:loong-recluse-tail",
+      "itemId": 28258,
+      "name": "Lotus of the Mountain Bear Clan  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/a638229100a2/models/items/meepo/loong_recluse_tail/loong_recluse_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/a638229100a2/models/items/meepo/loong_recluse_tail/loong_recluse_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/loong_recluse_tail/loong_recluse_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/loong_recluse_tail-025c539498f1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/a638229100a2/models/items/meepo/loong_recluse_tail/loong_recluse_tail_color_psd_fa5b0f1a.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:17819:tail",
+      "itemId": 17819,
+      "name": "Meepos Diretide Shimmer Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/cd09244600b8/models/heroes/meepo/tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/cd09244600b8/models/heroes/meepo/tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tail1-7c2ba3b182fb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/cd09244600b8/models/heroes/meepo/meepo_tail_color_psd_76a22779.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:300:tail",
+      "itemId": 300,
+      "name": "Meepos Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f31a29f01e83/models/heroes/meepo/tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/f31a29f01e83/models/heroes/meepo/tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tail-3499c1aa39d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/f31a29f01e83/models/heroes/meepo/meepo_tail_color_psd_76a22779.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:30272:meepo-farm-tail",
+      "itemId": 30272,
+      "name": "Mocking Bird  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5c34420f5921/models/items/meepo/meepo_farm_tail/meepo_farm_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5c34420f5921/models/items/meepo/meepo_farm_tail/meepo_farm_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_farm_tail/meepo_farm_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_farm_tail-161d571da1ee.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5c34420f5921/models/items/meepo/meepo_farm_tail/meepo_farm_tail_color_psd_95029aa6.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:9834:ti8-meepo-pitmouse-fraternity-tail",
+      "itemId": 9834,
+      "name": "Pitmouse Fraternity Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/9e23208c3c1d/models/items/meepo/ti8_meepo_pitmouse_fraternity_tail/ti8_meepo_pitmouse_fraternity_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/9e23208c3c1d/models/items/meepo/ti8_meepo_pitmouse_fraternity_tail/ti8_meepo_pitmouse_fraternity_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti8_meepo_pitmouse_fraternity_tail/ti8_meepo_pitmouse_fraternity_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_meepo_pitmouse_fraternity_tail-46caf5dd1d45.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/9e23208c3c1d/models/items/meepo/ti8_meepo_pitmouse_fraternity_tail/ti8_meepo_pitmouse_fraternity_tail_color_psd_787137aa.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7715:sir-meepalot-tail",
+      "itemId": 7715,
+      "name": "Tail of the Fractured Order",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/bb9b84ac5617/models/items/meepo/sir_meepalot_tail/sir_meepalot_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/bb9b84ac5617/models/items/meepo/sir_meepalot_tail/sir_meepalot_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/sir_meepalot_tail/sir_meepalot_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sir_meepalot_tail-e0661c014234.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/bb9b84ac5617/models/items/meepo/sir_meepalot_tail/sir_meepalot_tail_color_tga_4999003e.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7202:profitable-adventure-tail",
+      "itemId": 7202,
+      "name": "Tail of the Spelunker",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/41e503bcd3b1/models/items/meepo/profitable_adventure_tail/profitable_adventure_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/41e503bcd3b1/models/items/meepo/profitable_adventure_tail/profitable_adventure_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/profitable_adventure_tail/profitable_adventure_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/profitable_adventure_tail-3c99618829a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/41e503bcd3b1/models/items/meepo/profitable_adventure_tail/profitable_adventure_tail_color_tga_e2309126.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7685:the-family-values-tail",
+      "itemId": 7685,
+      "name": "The Family Values Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/7722ba89ded9/models/items/meepo/the_family_values_tail/the_family_values_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/7722ba89ded9/models/items/meepo/the_family_values_tail/the_family_values_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/the_family_values_tail/the_family_values_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_family_values_tail-8e90d66312ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/7722ba89ded9/models/items/meepo/the_family_values_tail/the_family_values_tail_color_tga_ebb11cf.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13137:ti9-cache-meepo-jungle-babysitter-tail",
+      "itemId": 13137,
+      "name": "Vote Only TI9 Cache Meepo Jungle babysitter Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5eccf5ac9382/models/items/meepo/ti9_cache_meepo_jungle_babysitter_tail/ti9_cache_meepo_jungle_babysitter_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5eccf5ac9382/models/items/meepo/ti9_cache_meepo_jungle_babysitter_tail/ti9_cache_meepo_jungle_babysitter_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_jungle_babysitter_tail/ti9_cache_meepo_jungle_babysitter_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_jungle_babysitter_tail-9e256d481a15.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5eccf5ac9382/models/items/meepo/ti9_cache_meepo_jungle_babysitter_tail/ti9_cache_meepo_jungle_babysitter_tail_color_tga_789c0f8.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7719:sir-meepalot-weapon",
+      "itemId": 7719,
+      "name": "Blade of the Fractured Order",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/796c45755370/models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/796c45755370/models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sir_meepalot_weapon-cbb7e13b77c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/796c45755370/models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon_color_tga_f9c75e36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl",
+        "modelPaths": [
+          "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_meepalot/meepo_meepalot_sword_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "skin": "0",
+            "icon": "econ/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/meepo/meepo_meepalot/meepo_meepalot_sword_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7719:sir-meepalot-weapon:style-1",
+      "itemId": 7719,
+      "name": "Blade of the Fractured Order - Infused",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/796c45755370/models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/796c45755370/models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/sir_meepalot_weapon_style1-8aec11801663.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/796c45755370/models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon_color_tga_f9c75e36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl",
+        "modelPaths": [
+          "models/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_meepalot/meepo_meepalot_sword_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Default",
+            "skin": "0",
+            "icon": "econ/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon",
+            "tags": [
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Infused",
+            "skin": "1",
+            "alternateIcon": "1",
+            "icon": "econ/items/meepo/sir_meepalot_weapon/sir_meepalot_weapon_style1",
+            "assets": [
+              {
+                "path": "particles/econ/items/meepo/meepo_meepalot/meepo_meepalot_sword_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:particle_create",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6565:crystal-scavenger-weapon",
+      "itemId": 6565,
+      "name": "Crystal Scavengers Augmented Mace",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/b87a7bba35b2/models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/b87a7bba35b2/models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crystal_scavenger_weapon-4950c27fa6ef.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/b87a7bba35b2/models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon_color_tga_82f81ccb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon.vmdl",
+        "modelPaths": [
+          "models/items/meepo/crystal_scavenger_weapon/crystal_scavenger_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/crystal_scavenger/crystal_scavenger.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:6230:dosa-weapon",
+      "itemId": 6230,
+      "name": "Dosa Staff",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2a37edd7ebe9/models/items/meepo/dosa_weapon/dosa_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/2a37edd7ebe9/models/items/meepo/dosa_weapon/dosa_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/dosa_weapon/dosa_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dosa_weapon-8020847fffe6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/2a37edd7ebe9/models/items/meepo/dosa_weapon/dosa_weapon_color_tga_f04af7ca.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13741:jester-king-weapon",
+      "itemId": 13741,
+      "name": "Jester King Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/67d5bdc62416/models/items/meepo/jester_king_weapon/jester_king_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/67d5bdc62416/models/items/meepo/jester_king_weapon/jester_king_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/jester_king_weapon/jester_king_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/jester_king_weapon-f7718ce0f80f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/67d5bdc62416/models/items/meepo/jester_king_weapon/jester_king_weapon_color_png_ad8b0882.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:4912:meepo-skeletonkey-sword",
+      "itemId": 4912,
+      "name": "Key to the Bone Ruins",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5065cc210321/models/items/meepo/meepo_skeletonkey_sword/meepo_skeletonkey_sword.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5065cc210321/models/items/meepo/meepo_skeletonkey_sword/meepo_skeletonkey_sword.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_skeletonkey_sword/meepo_skeletonkey_sword.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_skeletonkey_sword-e914dad76561.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5065cc210321/models/items/meepo/meepo_skeletonkey_sword/meepo_skeletonkey_sword_color_tga_ea550f69.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13028:ti9-cache-meepo-voodoo-meepo-weapon",
+      "itemId": 13028,
+      "name": "Kindred of the Cursed Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/0d86a4713c3e/models/items/meepo/ti9_cache_meepo_voodoo_meepo_weapon/ti9_cache_meepo_voodoo_meepo_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/0d86a4713c3e/models/items/meepo/ti9_cache_meepo_voodoo_meepo_weapon/ti9_cache_meepo_voodoo_meepo_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_voodoo_meepo_weapon/ti9_cache_meepo_voodoo_meepo_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_voodoo_meepo_weapon-013dfe34bd75.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/0d86a4713c3e/models/items/meepo/ti9_cache_meepo_voodoo_meepo_weapon/ti9_cache_meepo_voodoo_meepo_weapon_color_png_b65d3e9.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:28259:loong-recluse-weapon",
+      "itemId": 28259,
+      "name": "Lotus of the Mountain Bear Clan  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/872d6ec1dcc1/models/items/meepo/loong_recluse_weapon/loong_recluse_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/872d6ec1dcc1/models/items/meepo/loong_recluse_weapon/loong_recluse_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/loong_recluse_weapon/loong_recluse_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/loong_recluse_weapon-a22f8e83027e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/872d6ec1dcc1/models/items/meepo/loong_recluse_weapon/loong_recluse_weapon_color_psd_17f0b6c3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/meepo/loong_recluse_weapon/loong_recluse_weapon.vmdl",
+        "modelPaths": [
+          "models/items/meepo/loong_recluse_weapon/loong_recluse_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/meepo/meepo_2024_loong_recluse/meepo_2024_loong_recluse_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:17814:meepo-weapon",
+      "itemId": 17814,
+      "name": "Meepos Diretide Shimmer Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/6e31e071c1f4/models/heroes/meepo/meepo_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/6e31e071c1f4/models/heroes/meepo/meepo_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/meepo_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_weapon1-4fc82fc1df69.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/6e31e071c1f4/models/heroes/meepo/meepo_weapon_color_psd_8461e45b.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:104:meepo-weapon",
+      "itemId": 104,
+      "name": "Meepos Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5f83a02e69d2/models/heroes/meepo/meepo_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/5f83a02e69d2/models/heroes/meepo/meepo_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/meepo/meepo_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_weapon-4aa1118e7f6e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/5f83a02e69d2/models/heroes/meepo/meepo_weapon_color_psd_8461e45b.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:30274:meepo-farm-weapon",
+      "itemId": 30274,
+      "name": "Mocking Bird  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/58fb6caa129d/models/items/meepo/meepo_farm_weapon/meepo_farm_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/58fb6caa129d/models/items/meepo/meepo_farm_weapon/meepo_farm_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/meepo_farm_weapon/meepo_farm_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/meepo_farm_weapon-d02a787c6b9b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/58fb6caa129d/models/items/meepo/meepo_farm_weapon/meepo_farm_weapon_color_psd_bbe634b1.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:9833:ti8-meepo-pitmouse-fraternity-weapon",
+      "itemId": 9833,
+      "name": "Pitmouse Fraternity Axe",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/225f547cdbfa/models/items/meepo/ti8_meepo_pitmouse_fraternity_weapon/ti8_meepo_pitmouse_fraternity_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/225f547cdbfa/models/items/meepo/ti8_meepo_pitmouse_fraternity_weapon/ti8_meepo_pitmouse_fraternity_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti8_meepo_pitmouse_fraternity_weapon/ti8_meepo_pitmouse_fraternity_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_meepo_pitmouse_fraternity_weapon-acac336613e3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/225f547cdbfa/models/items/meepo/ti8_meepo_pitmouse_fraternity_weapon/ti8_meepo_pitmouse_fraternity_weapon_color_psd_f5227953.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7684:the-family-values-weapon",
+      "itemId": 7684,
+      "name": "The Family Values Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/78e9ae41e537/models/items/meepo/the_family_values_weapon/the_family_values_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/78e9ae41e537/models/items/meepo/the_family_values_weapon/the_family_values_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/the_family_values_weapon/the_family_values_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_family_values_weapon-a9922fc9d4b3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/78e9ae41e537/models/items/meepo/the_family_values_weapon/the_family_values_weapon_color_tga_f5876379.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:7204:profitable-adventure-weapon",
+      "itemId": 7204,
+      "name": "The Spelunkers Torch",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/52a6990216a6/models/items/meepo/profitable_adventure_weapon/profitable_adventure_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/52a6990216a6/models/items/meepo/profitable_adventure_weapon/profitable_adventure_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/profitable_adventure_weapon/profitable_adventure_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/profitable_adventure_weapon-0ca65ffe2e06.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/52a6990216a6/models/items/meepo/profitable_adventure_weapon/profitable_adventure_weapon_color_tga_833a89d1.png"
+    },
+    {
+      "id": "npc_dota_hero_meepo:item-model:13135:ti9-cache-meepo-jungle-babysitter-weapon",
+      "itemId": 13135,
+      "name": "Vote Only TI9 Cache Meepo Jungle babysitter Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/853bda7bae32/models/items/meepo/ti9_cache_meepo_jungle_babysitter_weapon/ti9_cache_meepo_jungle_babysitter_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_meepo/853bda7bae32/models/items/meepo/ti9_cache_meepo_jungle_babysitter_weapon/ti9_cache_meepo_jungle_babysitter_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/meepo/ti9_cache_meepo_jungle_babysitter_weapon/ti9_cache_meepo_jungle_babysitter_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_meepo_jungle_babysitter_weapon-2ffdcb99d54a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_meepo/853bda7bae32/models/items/meepo/ti9_cache_meepo_jungle_babysitter_weapon/ti9_cache_meepo_jungle_babysitter_weapon_color_tga_353a402.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_meepo:core-set:20680:battle-of-central-europe-season-3",
+      "name": "Battle of Central Europe Season 3",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        7199,
+        7200,
+        7201,
+        7202,
+        7203,
+        7204
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/profitable_adventure_shoulder-e7e0d799a5fb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:20509:crystal-scavenger",
+      "name": "Crystal Scavenger",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299
+      ],
+      "sourceItemIds": [
+        6342,
+        6562,
+        6563,
+        6564,
+        6565
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_crystal_scavenger-27bea46eebf8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:20424:dosa",
+      "name": "Dosa",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        6227,
+        6228,
+        6229,
+        6230,
+        6237,
+        6238
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/dosa_arms-8b916cfa730b.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:21434:jester-king",
+      "name": "Jester King",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        13736,
+        13737,
+        13738,
+        13739,
+        13740,
+        13741
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/jester_king_arms-5e3bdd3a01e0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:21333:kindred-of-the-cursed",
+      "name": "Kindred of the Cursed",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        13028,
+        13029,
+        13030,
+        13031,
+        13032,
+        13033
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_meepo_voodoo_meepo_weapon-013dfe34bd75.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:28277:lotus-of-the-mountain-bear-clan",
+      "name": "Lotus of the Mountain Bear Clan",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        28254,
+        28255,
+        28256,
+        28257,
+        28258,
+        28259
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/loong_recluse_arms-a5f8bd8c3571.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:21699:meepos-diretide-shimmer-bundle",
+      "name": "Meepos Diretide Shimmer Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300,
+        734
+      ],
+      "sourceItemIds": [
+        17813,
+        17814,
+        17815,
+        17816,
+        17817,
+        17818,
+        17819
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "costume",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:seasonal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 7,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/meepo_weapon1-4fc82fc1df69.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:30275:mocking-bird",
+      "name": "Mocking Bird",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        30269,
+        30270,
+        30271,
+        30272,
+        30273,
+        30274
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "taunt",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/meepo_farm_shoulder-5fd74b33fc78.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:21194:pitmouse-fraternity",
+      "name": "Pitmouse Fraternity",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        9832,
+        9833,
+        9834,
+        9835,
+        9836,
+        9837
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/ti8_meepo_pitmouse_fraternity_arms-06e2fa7fd921.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:20160:spoils-of-the-bone-ruins-set",
+      "name": "Spoils of the Bone Ruins Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298
+      ],
+      "sourceItemIds": [
+        4911,
+        4912,
+        4913,
+        4914
+      ],
+      "slots": [
+        "back",
+        "head",
+        "shoulder",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/meepo_skeletonkey_bandana-6d892368aa94.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:20888:the-family-values-bundle",
+      "name": "The Family Values Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        7669,
+        7670,
+        7683,
+        7684,
+        7685,
+        7686
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/the_family_values_loadscreen-755be02227ee.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:20893:the-fractured-order",
+      "name": "The Fractured Order",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        7697,
+        7698,
+        7704,
+        7705,
+        7715,
+        7719
+      ],
+      "styleSelections": {
+        "7719": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/sir_meepalot_loading_screen-aac0d291e982.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:20893:the-fractured-order:style-1",
+      "name": "The Fractured Order - Infused",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        7697,
+        7698,
+        7704,
+        7705,
+        7715,
+        7719
+      ],
+      "styleSelections": {
+        "7719": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:particle_create",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/sir_meepalot_weapon_style1-8aec11801663.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:20086:the-riftshadow-roamers-set",
+      "name": "The Riftshadow Roamers Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        296,
+        297,
+        298,
+        299
+      ],
+      "sourceItemIds": [
+        4344,
+        4421,
+        4427,
+        4434
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/riftshadow_roamer_pack-dcf9bf304a33.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_meepo:core-set:21353:vote-only-ti9-cache-meepo-jungle-babysitter",
+      "name": "Vote Only TI9 Cache Meepo Jungle babysitter",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        104,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "sourceItemIds": [
+        13135,
+        13136,
+        13137,
+        13138,
+        13139,
+        13140
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 32374326,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 515
+  }
+}

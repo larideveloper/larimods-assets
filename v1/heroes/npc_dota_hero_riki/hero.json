@@ -1,0 +1,4571 @@
+{
+  "heroId": "npc_dota_hero_riki",
+  "sourceHeroId": "npc_dota_hero_riki",
+  "variantId": "default",
+  "heroName": "Riki",
+  "heroSlug": "riki",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/riki.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_riki/146578c3a654/models/heroes/rikimaru/rikimaru.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 166,
+      "name": "Rikis Gloves",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9a53c711bee5/models/heroes/rikimaru/rikimaru_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/9a53c711bee5/models/heroes/rikimaru/rikimaru_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_gloves.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9a53c711bee5/models/heroes/rikimaru/rikimaru_gloves_color_psd_179a150f.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 163,
+      "name": "Rikis Horns",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ed442ffe8a7e/models/heroes/rikimaru/rikimaru_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/ed442ffe8a7e/models/heroes/rikimaru/rikimaru_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ed442ffe8a7e/models/heroes/rikimaru/rikimaru_head_color_psd_6208bfef.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "itemId": 322,
+      "name": "Rikis Offhand Dagger",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/731397d9db89/models/heroes/rikimaru/rikimaru__offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/731397d9db89/models/heroes/rikimaru/rikimaru__offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru__offhand_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/731397d9db89/models/heroes/rikimaru/rikimaru_weapon_color_psd_4f51946b.png"
+    },
+    {
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "itemId": 164,
+      "name": "Rikis Shoulder Armor",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e5914a999294/models/heroes/rikimaru/rikimaru_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e5914a999294/models/heroes/rikimaru/rikimaru_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_shoulder.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e5914a999294/models/heroes/rikimaru/rikimaru_shoulder_color_psd_294abd14.png"
+    },
+    {
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "itemId": 165,
+      "name": "Rikis Tail",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/33e41806bdfd/models/heroes/rikimaru/rikimaru_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/33e41806bdfd/models/heroes/rikimaru/rikimaru_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_tail.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/33e41806bdfd/models/heroes/rikimaru/rikimaru_tail_color_psd_701177ba.png"
+    },
+    {
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "itemId": 561,
+      "name": "Rikis Dagger",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/6a1c16e9615e/models/heroes/rikimaru/rikimaru_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/6a1c16e9615e/models/heroes/rikimaru/rikimaru_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_weapon.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/6a1c16e9615e/models/heroes/rikimaru/rikimaru_weapon_color_psd_4f51946b.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_riki:item-model:5266:bladearmorgloves",
+      "itemId": 5266,
+      "name": "Bladebreaker Armguards",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b84c9f8ad317/models/items/rikimaru/bladearmorgloves/bladearmorgloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/b84c9f8ad317/models/items/rikimaru/bladearmorgloves/bladearmorgloves.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/bladearmorgloves/bladearmorgloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bladearmorgloves-ab181a2aecc5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b84c9f8ad317/models/items/rikimaru/bladearmorgloves/bladearmorgloves_color_tga_732bc5ac.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/bladearmorgloves/bladearmorgloves.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/bladearmorgloves/bladearmorgloves.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4715:masquerade-bracers",
+      "itemId": 4715,
+      "name": "Bracer of the Tahlin Watch",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/941d072b458e/models/items/rikimaru/masquerade_bracers/masquerade_bracers.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/941d072b458e/models/items/rikimaru/masquerade_bracers/masquerade_bracers.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/masquerade_bracers/masquerade_bracers.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/masquerade_bracers-658599d94938.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/941d072b458e/models/items/rikimaru/masquerade_bracers/masquerade_bracers_color_tga_a125f718.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7154:haze-atrocity-arms",
+      "itemId": 7154,
+      "name": "Bracers of Monstrous Reprisal",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/299d6c8caff3/models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/299d6c8caff3/models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_arms-a800aaefdc9e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/299d6c8caff3/models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms_color_tga_40937890.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6365:frozenblood-arms",
+      "itemId": 6365,
+      "name": "Bracers of the Frozen Blood",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9bfe9f5338cc/models/items/rikimaru/frozenblood_arms/frozenblood_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/9bfe9f5338cc/models/items/rikimaru/frozenblood_arms/frozenblood_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frozenblood_arms/frozenblood_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozenblood_arms-bb52c2c0996c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9bfe9f5338cc/models/items/rikimaru/frozenblood_arms/frozenblood_arms_color_tga_1bdb27e9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/frozenblood_arms/frozenblood_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/frozenblood_arms/frozenblood_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7332:frosty-blow-arms",
+      "itemId": 7332,
+      "name": "Bracers of the Gelid Touch",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a0d8a160b891/models/items/rikimaru/frosty_blow_arms/frosty_blow_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a0d8a160b891/models/items/rikimaru/frosty_blow_arms/frosty_blow_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frosty_blow_arms/frosty_blow_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frosty_blow_arms-ff381158aa66.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a0d8a160b891/models/items/rikimaru/frosty_blow_arms/frosty_blow_arms_color_tga_6659a8e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/frosty_blow_arms/frosty_blow_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/frosty_blow_arms/frosty_blow_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:8444:riki-golden-saboteur-arms",
+      "itemId": 8444,
+      "name": "Cuffs of the Covert Saboteur",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/06de587d7c7f/models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/06de587d7c7f/models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_golden_saboteur__arms-a8f3a0e2b4ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/06de587d7c7f/models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms_color_tga_e88361ef.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_golden_saboteur__arms/riki_golden_saboteur__arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9435:riki-cunning-corsair-ti-2017-arms",
+      "itemId": 9435,
+      "name": "Cuffs of the Cunning Corsair",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/613119954c05/models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/613119954c05/models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_cunning_corsair_ti_2017_arms-0828850c12b1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/613119954c05/models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms_color_png_340c435f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_cunning_corsair_ti_2017_arms/riki_cunning_corsair_ti_2017_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5499:curse-of-the-highborn",
+      "itemId": 5499,
+      "name": "Curse of the Highborn",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/0353f360a8c4/models/items/rikimaru/curse_of_the_highborn/curse_of_the_highborn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/0353f360a8c4/models/items/rikimaru/curse_of_the_highborn/curse_of_the_highborn.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/curse_of_the_highborn/curse_of_the_highborn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/curse_of_the_highborn-df76f2c55a6c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/0353f360a8c4/models/items/rikimaru/curse_of_the_highborn/curse_of_the_highborn_color_tga_9718e2c3.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6546:rightful-heir-arms",
+      "itemId": 6546,
+      "name": "Heirs Gift",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/580e97fac14a/models/items/rikimaru/rightful_heir_arms/rightful_heir_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/580e97fac14a/models/items/rikimaru/rightful_heir_arms/rightful_heir_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/rightful_heir_arms/rightful_heir_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rightful_heir_arms-c5f76426b2d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/580e97fac14a/models/items/rikimaru/rightful_heir_arms/rightful_heir_arms_color_tga_5f349adf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/rightful_heir_arms/rightful_heir_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/rightful_heir_arms/rightful_heir_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14776:riki-killer-of-purple-smoke-arms",
+      "itemId": 14776,
+      "name": "Hunger of the Howling Wilds Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/93689218244e/models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/93689218244e/models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_killer_of_purple_smoke_arms-7e222959dfa6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/93689218244e/models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms_color_tga_53da644b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_killer_of_purple_smoke_arms/riki_killer_of_purple_smoke_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_arms.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14853:riki-junk-rat-arms",
+      "itemId": 14853,
+      "name": "Junktown Avenger  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/dfc6fcafb9a4/models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/dfc6fcafb9a4/models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_junk_rat_arms-dd4df718deff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/dfc6fcafb9a4/models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms_color_tga_86de948.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_junk_rat_arms/riki_junk_rat_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:166:rikimaru-gloves",
+      "itemId": 166,
+      "name": "Rikis Gloves",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9a53c711bee5/models/heroes/rikimaru/rikimaru_gloves.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/9a53c711bee5/models/heroes/rikimaru/rikimaru_gloves.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_gloves.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rikimaru_gloves-124ae4ed7d32.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9a53c711bee5/models/heroes/rikimaru/rikimaru_gloves_color_psd_179a150f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/rikimaru/rikimaru_gloves.vmdl",
+        "modelPaths": [
+          "models/heroes/rikimaru/rikimaru_gloves.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:26806:riki-scarlet-fox-arms",
+      "itemId": 26806,
+      "name": "Scarlet Subversion  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/30c83943a9bf/models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/30c83943a9bf/models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_scarlet_fox_arms-d3805a0d7e84.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/30c83943a9bf/models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms_color_tga_143e2fbc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_scarlet_fox_arms/riki_scarlet_fox_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:23241:haze-atrocity-arms",
+      "itemId": 23241,
+      "name": "Summer Lineage Bracers of Monstrous Reprisal",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/97380440a739/models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/97380440a739/models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_arms1-71c11414cf0d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/97380440a739/models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms_color_tga_40937890.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/haze_atrocity_arms/haze_atrocity_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:18276:whirling-claws-arms",
+      "itemId": 18276,
+      "name": "Whirling Talons Bracer",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/de261d486e5c/models/items/rikimaru/whirling_claws_arms/whirling_claws_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/de261d486e5c/models/items/rikimaru/whirling_claws_arms/whirling_claws_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/whirling_claws_arms/whirling_claws_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whirling_claws_arms-fe0742718350.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/de261d486e5c/models/items/rikimaru/whirling_claws_arms/whirling_claws_arms_color_tga_345516a8.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/whirling_claws_arms/whirling_claws_arms.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/whirling_claws_arms/whirling_claws_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4877:riki-shadow-wraps-of-the-last-shinobi",
+      "itemId": 4877,
+      "name": "Wraps of the Subtle Demon",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a1d19dcdf1a9/models/items/rikimaru/riki_shadow_wraps_of_the_last_shinobi/riki_shadow_wraps_of_the_last_shinobi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a1d19dcdf1a9/models/items/rikimaru/riki_shadow_wraps_of_the_last_shinobi/riki_shadow_wraps_of_the_last_shinobi.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_shadow_wraps_of_the_last_shinobi/riki_shadow_wraps_of_the_last_shinobi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_shadow_wraps_of_the_last_shinobi-18ab3a198f27.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a1d19dcdf1a9/models/items/rikimaru/riki_shadow_wraps_of_the_last_shinobi/riki_shadow_wraps_of_the_last_shinobi_color_tga_f73e28eb.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5267:bladearmorhelm",
+      "itemId": 5267,
+      "name": "Bladebreaker Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/13ac3684acf4/models/items/rikimaru/bladearmorhelm/bladearmorhelm.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/13ac3684acf4/models/items/rikimaru/bladearmorhelm/bladearmorhelm.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/bladearmorhelm/bladearmorhelm.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bladearmorhelm-d046e51f7dbe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/13ac3684acf4/models/items/rikimaru/bladearmorhelm/bladearmorhelm_color_tga_f6a9ad68.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/bladearmorhelm/bladearmorhelm.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/bladearmorhelm/bladearmorhelm.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:12418:riki-ti8-immortal-head",
+      "itemId": 12418,
+      "name": "Crimson Edict of Shadows",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ee131c0def94/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/ee131c0def94/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_ti8_immortal_head2-99976683d6b6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ee131c0def94/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head_color_tga_7985dc5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_head_ti8/riki_smokebomb_ti8_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_head_ti8_crimson/riki_head_ambient_ti8_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_smokebomb.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9739:riki-ti8-immortal-head",
+      "itemId": 9739,
+      "name": "Edict of Shadows",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/3115f7b68101/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/3115f7b68101/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_ti8_immortal_head-8309ae153444.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/3115f7b68101/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head_color_tga_7985dc5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_head_ti8/riki_head_ambient_ti8.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_head_ti8/riki_smokebomb_ti8.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_smokebomb.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7328:frosty-blow-head",
+      "itemId": 7328,
+      "name": "Goatee of the Gelid Touch",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1e44806f791e/models/items/rikimaru/frosty_blow_head/frosty_blow_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/1e44806f791e/models/items/rikimaru/frosty_blow_head/frosty_blow_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frosty_blow_head/frosty_blow_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frosty_blow_head-89bb7b070354.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1e44806f791e/models/items/rikimaru/frosty_blow_head/frosty_blow_head_color_tga_f45a4a8b.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9773:riki-ti8-immortal-head",
+      "itemId": 9773,
+      "name": "Golden Edict of Shadows",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a4666d5ed0cb/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a4666d5ed0cb/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_ti8_immortal_head1-31f11badd599.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a4666d5ed0cb/models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head_color_tga_7985dc5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_ti8_immortal_head/riki_ti8_immortal_head.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_head_ti8_gold/riki_head_ambient_ti8_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_head_ti8_gold/riki_smokebomb_ti8_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_smokebomb.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9434:riki-cunning-corsair-ti-2017-head",
+      "itemId": 9434,
+      "name": "Hat of the Cunning Corsair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/3e9220116d46/models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/3e9220116d46/models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_cunning_corsair_ti_2017_head-90a7e566743c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/3e9220116d46/models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head_color_png_ef30017f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_cunning_corsair_ti_2017_head/riki_cunning_corsair_ti_2017_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_cunning_crosair/riki_cunning_crosair_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6549:rightful-heir-head",
+      "itemId": 6549,
+      "name": "Heirs Glance",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e6b797b66161/models/items/rikimaru/rightful_heir_head/rightful_heir_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e6b797b66161/models/items/rikimaru/rightful_heir_head/rightful_heir_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/rightful_heir_head/rightful_heir_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rightful_heir_head-c7cbc0b94445.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e6b797b66161/models/items/rikimaru/rightful_heir_head/rightful_heir_head_color_tga_7fe6334e.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:8446:riki-golden-saboteur-head-alt",
+      "itemId": 8446,
+      "name": "Helm of the Covert Saboteur",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/593200e89edf/models/items/rikimaru/riki_golden_saboteur__head_alt/riki_golden_saboteur__head_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/593200e89edf/models/items/rikimaru/riki_golden_saboteur__head_alt/riki_golden_saboteur__head_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_golden_saboteur__head_alt/riki_golden_saboteur__head_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_golden_saboteur__head_alt-ea950562ac05.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/593200e89edf/models/items/rikimaru/riki_golden_saboteur__head_alt/riki_golden_saboteur__head_alt_color_tga_788365c8.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7159:haze-atrocity-head",
+      "itemId": 7159,
+      "name": "Horns of Monstrous Reprisal",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e41004ef01a6/models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e41004ef01a6/models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_head-b7171ff37092.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e41004ef01a6/models/items/rikimaru/haze_atrocity_head/haze_atrocity_head_color_tga_27524948.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_haze_atrocity/riki_versuta_eye_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6368:frozenblood-head",
+      "itemId": 6368,
+      "name": "Horns of the Frozen Blood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/cd0e9d3012e6/models/items/rikimaru/frozenblood_head/frozenblood_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/cd0e9d3012e6/models/items/rikimaru/frozenblood_head/frozenblood_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frozenblood_head/frozenblood_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozenblood_head-ab5704566980.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/cd0e9d3012e6/models/items/rikimaru/frozenblood_head/frozenblood_head_color_tga_e15031ca.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14775:riki-killer-of-purple-smoke-head",
+      "itemId": 14775,
+      "name": "Hunger of the Howling Wilds Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b9365f3b6cf0/models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/b9365f3b6cf0/models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_killer_of_purple_smoke_head-c21d3781bc0c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b9365f3b6cf0/models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head_color_tga_421056cc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_killer_of_purple_smoke_head/riki_killer_of_purple_smoke_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14852:riki-junk-rat-head",
+      "itemId": 14852,
+      "name": "Junktown Avenger  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/3b58e93e4e76/models/items/rikimaru/riki_junk_rat_head/riki_junk_rat_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/3b58e93e4e76/models/items/rikimaru/riki_junk_rat_head/riki_junk_rat_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_junk_rat_head/riki_junk_rat_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_junk_rat_head-6ab3ec170c22.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/3b58e93e4e76/models/items/rikimaru/riki_junk_rat_head/riki_junk_rat_head_color_tga_9494fafe.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4703:masquerade-mask",
+      "itemId": 4703,
+      "name": "Mask of the Tahlin Watch",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/91bbea48667a/models/items/rikimaru/masquerade_mask/masquerade_mask.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/91bbea48667a/models/items/rikimaru/masquerade_mask/masquerade_mask.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/masquerade_mask/masquerade_mask.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/masquerade_mask-5318d8e14ad6.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/91bbea48667a/models/items/rikimaru/masquerade_mask/masquerade_mask_color_tga_d2da96c8.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:163:rikimaru-head",
+      "itemId": 163,
+      "name": "Rikis Horns",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ed442ffe8a7e/models/heroes/rikimaru/rikimaru_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/ed442ffe8a7e/models/heroes/rikimaru/rikimaru_head.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rikimaru_head-ad94a402d5ff.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ed442ffe8a7e/models/heroes/rikimaru/rikimaru_head_color_psd_6208bfef.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:26807:riki-scarlet-fox-head",
+      "itemId": 26807,
+      "name": "Scarlet Subversion  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/af776b091b06/models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/af776b091b06/models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_scarlet_fox_head-eded88833e91.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/af776b091b06/models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head_color_tga_bae81c54.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_scarlet_fox_head/riki_scarlet_fox_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_2022_fox_head/riki_2022_fox_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:23242:haze-atrocity-head",
+      "itemId": 23242,
+      "name": "Summer Lineage Horns of Monstrous Reprisal",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f1946e39d594/models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/f1946e39d594/models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_head1-f83b96793afe.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f1946e39d594/models/items/rikimaru/haze_atrocity_head/haze_atrocity_head_color_tga_27524948.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/haze_atrocity_head/haze_atrocity_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_haze_atrocity/riki_versuta_eye_smoke_dpc.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5327:tahlin-occult-hood",
+      "itemId": 5327,
+      "name": "Tahlin Occult Hood",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9bcff17c992d/models/items/rikimaru/tahlin_occult_hood/tahlin_occult_hood.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/9bcff17c992d/models/items/rikimaru/tahlin_occult_hood/tahlin_occult_hood.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/tahlin_occult_hood/tahlin_occult_hood.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tahlin_occult_hood-0c6dd58a81a8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9bcff17c992d/models/items/rikimaru/tahlin_occult_hood/tahlin_occult_hood_color_tga_3842e95a.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5523:thorns-of-the-highborn",
+      "itemId": 5523,
+      "name": "Thorns of the Highborn",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/76484f8de73e/models/items/rikimaru/thorns_of_the_highborn/thorns_of_the_highborn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/76484f8de73e/models/items/rikimaru/thorns_of_the_highborn/thorns_of_the_highborn.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/thorns_of_the_highborn/thorns_of_the_highborn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thorns_of_the_highborn-c28902110ac5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/76484f8de73e/models/items/rikimaru/thorns_of_the_highborn/thorns_of_the_highborn_color_tga_f50d4ba1.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4876:riki-mask-of-the-last-shinobi",
+      "itemId": 4876,
+      "name": "Veil of the Subtle Demon",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e294ed868d12/models/items/rikimaru/riki_mask_of_the_last_shinobi/riki_mask_of_the_last_shinobi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e294ed868d12/models/items/rikimaru/riki_mask_of_the_last_shinobi/riki_mask_of_the_last_shinobi.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_mask_of_the_last_shinobi/riki_mask_of_the_last_shinobi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_mask_of_the_last_shinobi-6a2554362c56.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e294ed868d12/models/items/rikimaru/riki_mask_of_the_last_shinobi/riki_mask_of_the_last_shinobi_color_tga_283c51a2.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:18275:whirling-claws-head",
+      "itemId": 18275,
+      "name": "Whirling Talons Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/7202382fd92d/models/items/rikimaru/whirling_claws_head/whirling_claws_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/7202382fd92d/models/items/rikimaru/whirling_claws_head/whirling_claws_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/whirling_claws_head/whirling_claws_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whirling_claws_head-b95bfaca5a03.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/7202382fd92d/models/items/rikimaru/whirling_claws_head/whirling_claws_head_color_tga_bd38c83f.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:30322:riki-crownfall-immortal-offhand",
+      "itemId": 30322,
+      "name": "Assassins Edge",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/d6cc9edd7142/models/items/rikimaru/riki_crownfall_offhand/riki_crownfall_immortal_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/d6cc9edd7142/models/items/rikimaru/riki_crownfall_offhand/riki_crownfall_immortal_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_crownfall_offhand/riki_crownfall_immortal_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_crownfall_immortal_offhand-232b2a546463.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/d6cc9edd7142/models/items/rikimaru/riki_crownfall_offhand/riki_crownfall_immortal_color_psd_950d43dd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_crownfall_offhand/riki_crownfall_immortal_offhand.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_crownfall_offhand/riki_crownfall_immortal_offhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_crownfall_offhand/riki_crownfall_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4875:riki-grandfathers-blades-offhand",
+      "itemId": 4875,
+      "name": "Blade of the Subtle Demon  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a6a44597fb65/models/items/rikimaru/riki_grandfathers_blades_offhand/riki_grandfathers_blades_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a6a44597fb65/models/items/rikimaru/riki_grandfathers_blades_offhand/riki_grandfathers_blades_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_grandfathers_blades_offhand/riki_grandfathers_blades_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_grandfathers_blades_offhand-d68f5d8c29ba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a6a44597fb65/models/items/rikimaru/riki_grandfathers_blades_offhand/riki_grandfathers_blades_offhand_color_tga_41e133d1.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5268:bladearmoroffhand",
+      "itemId": 5268,
+      "name": "Bladebreaker Dagger  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e17f80e0d86e/models/items/rikimaru/bladearmoroffhand/bladearmoroffhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e17f80e0d86e/models/items/rikimaru/bladearmoroffhand/bladearmoroffhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/bladearmoroffhand/bladearmoroffhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bladearmoroffhand-6fa6e16ce333.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e17f80e0d86e/models/items/rikimaru/bladearmoroffhand/bladearmoroffhand_color_tga_c491ebce.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/bladearmoroffhand/bladearmoroffhand.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/bladearmoroffhand/bladearmoroffhand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7161:haze-atrocity-offhand",
+      "itemId": 7161,
+      "name": "Blinkcutter of Monstrous Reprisal",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9bb066c83beb/models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/9bb066c83beb/models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_offhand-46347e891b25.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9bb066c83beb/models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand_color_tga_eb16b471.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6367:frozenblood-offhandweapon",
+      "itemId": 6367,
+      "name": "Dagger of the Frozen Blood OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9db5e775c525/models/items/rikimaru/frozenblood_offhandweapon/frozenblood_offhandweapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/9db5e775c525/models/items/rikimaru/frozenblood_offhandweapon/frozenblood_offhandweapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frozenblood_offhandweapon/frozenblood_offhandweapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozenblood_offhandweapon-229dfd62e6bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9db5e775c525/models/items/rikimaru/frozenblood_offhandweapon/frozenblood_offhandweapon_color_tga_97540366.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6548:rightful-heir-offhand",
+      "itemId": 6548,
+      "name": "Golden Siblings Offhand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8d51f89fbb31/models/items/rikimaru/rightful_heir_offhand/rightful_heir_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/8d51f89fbb31/models/items/rikimaru/rightful_heir_offhand/rightful_heir_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/rightful_heir_offhand/rightful_heir_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rightful_heir_offhand-da4c9cb8d915.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8d51f89fbb31/models/items/rikimaru/rightful_heir_offhand/rightful_heir_offhand_color_tga_aba65b8a.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9438:riki-cunning-corsair-ti-2017-off-hand",
+      "itemId": 9438,
+      "name": "Hook of the Cunning Corsair",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/00391681aacb/models/items/rikimaru/riki_cunning_corsair_ti_2017_off_hand/riki_cunning_corsair_ti_2017_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/00391681aacb/models/items/rikimaru/riki_cunning_corsair_ti_2017_off_hand/riki_cunning_corsair_ti_2017_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_cunning_corsair_ti_2017_off_hand/riki_cunning_corsair_ti_2017_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_cunning_corsair_ti_2017_off_hand-f28b862f35a0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/00391681aacb/models/items/rikimaru/riki_cunning_corsair_ti_2017_off_hand/riki_cunning_corsair_ti_2017_off_hand_color_png_d519e34c.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14774:riki-killer-of-purple-smoke-off-hand",
+      "itemId": 14774,
+      "name": "Hunger of the Howling Wilds OffHand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/d8ffed4a65bd/models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/d8ffed4a65bd/models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_killer_of_purple_smoke_off_hand-a71d86d4e098.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/d8ffed4a65bd/models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand_color_tga_17e2ed16.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_killer_of_purple_smoke_off_hand/riki_killer_of_purple_smoke_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_offhand.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14851:riki-junk-rat-off-hand",
+      "itemId": 14851,
+      "name": "Junktown Avenger  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/365ee0f03718/models/items/rikimaru/riki_junk_rat_off_hand/riki_junk_rat_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/365ee0f03718/models/items/rikimaru/riki_junk_rat_off_hand/riki_junk_rat_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_junk_rat_off_hand/riki_junk_rat_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_junk_rat_off_hand-01dc70c003cd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/365ee0f03718/models/items/rikimaru/riki_junk_rat_off_hand/riki_junk_rat_off_hand_color_tga_b9966f1d.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7329:frosty-blow-offhand",
+      "itemId": 7329,
+      "name": "Katar of the Gelid Touch",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/eea4fe95c7a9/models/items/rikimaru/frosty_blow_offhand/frosty_blow_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/eea4fe95c7a9/models/items/rikimaru/frosty_blow_offhand/frosty_blow_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frosty_blow_offhand/frosty_blow_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frosty_blow_offhand-a5e21ea673f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/eea4fe95c7a9/models/items/rikimaru/frosty_blow_offhand/frosty_blow_offhand_color_tga_7c4bd5e7.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:8441:riki-golden-saboteur-weapon-offhand",
+      "itemId": 8441,
+      "name": "OffHand Blade of the Covert Saboteur",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/eedd63a8d658/models/items/rikimaru/riki_golden_saboteur_weapon_offhand/riki_golden_saboteur_weapon_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/eedd63a8d658/models/items/rikimaru/riki_golden_saboteur_weapon_offhand/riki_golden_saboteur_weapon_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_golden_saboteur_weapon_offhand/riki_golden_saboteur_weapon_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_golden_saboteur_weapon_offhand-925ee835b286.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/eedd63a8d658/models/items/rikimaru/riki_golden_saboteur_weapon_offhand/riki_golden_saboteur_weapon_offhand_color_tga_93701033.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5564:umbrage-offhand",
+      "itemId": 5564,
+      "name": "Piercing Umbrage  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b3138decb47b/models/items/rikimaru/umbrage__offhand/umbrage__offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/b3138decb47b/models/items/rikimaru/umbrage__offhand/umbrage__offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/umbrage__offhand/umbrage__offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/umbrage__offhand-07d6beaefd38.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b3138decb47b/models/items/rikimaru/umbrage__offhand/umbrage__offhand_color_tga_7ec05997.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:322:rikimaru-offhand-weapon",
+      "itemId": 322,
+      "name": "Rikis Offhand Dagger",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/731397d9db89/models/heroes/rikimaru/rikimaru__offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/731397d9db89/models/heroes/rikimaru/rikimaru__offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru__offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rikimaru__offhand_weapon-12fc564b909c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/731397d9db89/models/heroes/rikimaru/rikimaru_weapon_color_psd_4f51946b.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4740:masquerade-dagger-off",
+      "itemId": 4740,
+      "name": "Royal Dagger of the Tahlin Watch  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/19fdc40e8e72/models/items/rikimaru/masquerade_dagger_off/masquerade_dagger_off.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/19fdc40e8e72/models/items/rikimaru/masquerade_dagger_off/masquerade_dagger_off.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/masquerade_dagger_off/masquerade_dagger_off.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/masquerade_dagger_off-d16dacd0e52d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/19fdc40e8e72/models/items/rikimaru/masquerade_dagger_off/masquerade_dagger_off_color_tga_599c6475.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4824:offhand-sange",
+      "itemId": 4824,
+      "name": "Sange the Backseeker",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/13aa2331fb12/models/items/rikimaru/offhand_sange/offhand_sange.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/13aa2331fb12/models/items/rikimaru/offhand_sange/offhand_sange.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/offhand_sange/offhand_sange.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/offhand_sange-03f2e764b2c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/13aa2331fb12/models/items/rikimaru/offhand_sange/offhand_sange_color_tga_c08f4346.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:26808:riki-scarlet-fox-offhand-weapon",
+      "itemId": 26808,
+      "name": "Scarlet Subversion  Offhand Weapon",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/7ea738cc445b/models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/7ea738cc445b/models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_scarlet_fox_offhand_weapon-dde7503e74e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/7ea738cc445b/models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon_color_tga_d9bd6a11.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_scarlet_fox_offhand_weapon/riki_scarlet_fox_offhand_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_2022_fox_offhand/riki_2022_fox_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5164:shadowfang-offhand",
+      "itemId": 5164,
+      "name": "Shadowshard  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/2b39c2584847/models/items/rikimaru/shadowfang_offhand/shadowfang_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/2b39c2584847/models/items/rikimaru/shadowfang_offhand/shadowfang_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/shadowfang_offhand/shadowfang_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/shadowfang_offhand-e17752bba1f3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/2b39c2584847/models/items/rikimaru/shadowfang_offhand/shadowfang_offhand_color_tga_a286175a.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:23243:haze-atrocity-offhand",
+      "itemId": 23243,
+      "name": "Summer Lineage Blinkcutter of Monstrous Reprisal",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e7c23121e287/models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e7c23121e287/models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_offhand1-d4020d77c6d9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e7c23121e287/models/items/rikimaru/haze_atrocity_offhand/haze_atrocity_offhand_color_tga_eb16b471.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6798:tahlinhookblade-offhand",
+      "itemId": 6798,
+      "name": "Tahlin Hookblade OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/6455795efeae/models/items/rikimaru/tahlinhookblade_offhand/tahlinhookblade_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/6455795efeae/models/items/rikimaru/tahlinhookblade_offhand/tahlinhookblade_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/tahlinhookblade_offhand/tahlinhookblade_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tahlinhookblade_offhand-8840fd667a7d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/6455795efeae/models/items/rikimaru/tahlinhookblade_offhand/tahlinhookblade_offhand_color_tga_ea4b1595.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5275:tahlin-occult-dagger-offhand",
+      "itemId": 5275,
+      "name": "Tahlin Occult Dagger  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/2427715d3466/models/items/rikimaru/tahlin_occult_dagger__offhand/tahlin_occult_dagger__offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/2427715d3466/models/items/rikimaru/tahlin_occult_dagger__offhand/tahlin_occult_dagger__offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/tahlin_occult_dagger__offhand/tahlin_occult_dagger__offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tahlin_occult_dagger__offhand-f0059fb9d17d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/2427715d3466/models/items/rikimaru/tahlin_occult_dagger__offhand/tahlin_occult_dagger__offhand_color_tga_b43e8534.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5525:wrath-of-the-highborn-offhand",
+      "itemId": 5525,
+      "name": "Temper of the Highborn  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/cb8e6466a0cf/models/items/rikimaru/wrath_of_the_highborn__offhand/wrath_of_the_highborn__offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/cb8e6466a0cf/models/items/rikimaru/wrath_of_the_highborn__offhand/wrath_of_the_highborn__offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/wrath_of_the_highborn__offhand/wrath_of_the_highborn__offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/wrath_of_the_highborn__offhand-93a6385e0c03.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/cb8e6466a0cf/models/items/rikimaru/wrath_of_the_highborn__offhand/wrath_of_the_highborn__offhand_color_tga_be39bdb6.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:18280:whirling-claws-offhand",
+      "itemId": 18280,
+      "name": "Whirling Talons OffHand Dagger",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/564a40908fc1/models/items/rikimaru/whirling_claws_offhand/whirling_claws_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/564a40908fc1/models/items/rikimaru/whirling_claws_offhand/whirling_claws_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/whirling_claws_offhand/whirling_claws_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whirling_claws_offhand-8e5913f13166.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/564a40908fc1/models/items/rikimaru/whirling_claws_offhand/whirling_claws_offhand_color_tga_24c56b1.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6369:frozenblood-shoulder",
+      "itemId": 6369,
+      "name": "Armor of the Frozen Blood",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a8998a8a416a/models/items/rikimaru/frozenblood_shoulder/frozenblood_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a8998a8a416a/models/items/rikimaru/frozenblood_shoulder/frozenblood_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frozenblood_shoulder/frozenblood_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozenblood_shoulder-aaf6c4a0955a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a8998a8a416a/models/items/rikimaru/frozenblood_shoulder/frozenblood_shoulder_color_tga_5533d1f5.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5269:bladearmorshoulder",
+      "itemId": 5269,
+      "name": "Bladebreaker Spaulders",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f02426af26d2/models/items/rikimaru/bladearmorshoulder/bladearmorshoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/f02426af26d2/models/items/rikimaru/bladearmorshoulder/bladearmorshoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/bladearmorshoulder/bladearmorshoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bladearmorshoulder-1c8fbd3e2ce0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f02426af26d2/models/items/rikimaru/bladearmorshoulder/bladearmorshoulder_color_tga_69c61358.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/bladearmorshoulder/bladearmorshoulder.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/bladearmorshoulder/bladearmorshoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5526:burden-of-the-highborn",
+      "itemId": 5526,
+      "name": "Burden of the Highborn",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ec75a5834079/models/items/rikimaru/burden_of_the_highborn/burden_of_the_highborn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/ec75a5834079/models/items/rikimaru/burden_of_the_highborn/burden_of_the_highborn.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/burden_of_the_highborn/burden_of_the_highborn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/burden_of_the_highborn-65d1b4339858.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ec75a5834079/models/items/rikimaru/burden_of_the_highborn/burden_of_the_highborn_color_tga_bd5493cc.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7153:haze-atrocity-shoulder",
+      "itemId": 7153,
+      "name": "Cape of Monstrous Reprisal",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8b74e64e3499/models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/8b74e64e3499/models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_shoulder-03624d086dc4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8b74e64e3499/models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder_color_tga_25f80edc.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7333:frosty-blow-shoulder",
+      "itemId": 7333,
+      "name": "Colar of the Gelid Touch",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1b24f9826f13/models/items/rikimaru/frosty_blow_shoulder/frosty_blow_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/1b24f9826f13/models/items/rikimaru/frosty_blow_shoulder/frosty_blow_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frosty_blow_shoulder/frosty_blow_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frosty_blow_shoulder-e8e26fe022a3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1b24f9826f13/models/items/rikimaru/frosty_blow_shoulder/frosty_blow_shoulder_color_tga_c5f71880.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7990:riki-ti6-blink-strike",
+      "itemId": 7990,
+      "name": "Golden Shadow Masquerade",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "golden",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f5d9173c22fa/models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/f5d9173c22fa/models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_ti6_blink_strike1-6657934f9d25.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f5d9173c22fa/models/items/rikimaru/ti6_blink_strike/ti6_blink_strike_color_psd_d46abbc4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_ambient_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_blinkstrike_gold.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_blink_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6550:rightful-heir-shoulder",
+      "itemId": 6550,
+      "name": "Heirs Cover",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/158878244bca/models/items/rikimaru/rightful_heir_shoulder/rightful_heir_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/158878244bca/models/items/rikimaru/rightful_heir_shoulder/rightful_heir_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/rightful_heir_shoulder/rightful_heir_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rightful_heir_shoulder-7bbc262b3598.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/158878244bca/models/items/rikimaru/rightful_heir_shoulder/rightful_heir_shoulder_color_tga_64530fcc.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14773:riki-killer-of-purple-smoke-shoulder",
+      "itemId": 14773,
+      "name": "Hunger of the Howling Wilds Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/58cab52392f4/models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/58cab52392f4/models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_killer_of_purple_smoke_shoulder-74a9ede256dd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/58cab52392f4/models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder_color_tga_be6fc98e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_killer_of_purple_smoke_shoulder/riki_killer_of_purple_smoke_shoulder.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_shoulder.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14850:riki-junk-rat-shoulder",
+      "itemId": 14850,
+      "name": "Junktown Avenger  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/49e86832a050/models/items/rikimaru/riki_junk_rat_shoulder/riki_junk_rat_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/49e86832a050/models/items/rikimaru/riki_junk_rat_shoulder/riki_junk_rat_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_junk_rat_shoulder/riki_junk_rat_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_junk_rat_shoulder-affe28e94f41.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/49e86832a050/models/items/rikimaru/riki_junk_rat_shoulder/riki_junk_rat_shoulder_color_tga_a8776e1f.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4879:riki-tengu-pauldron-of-the-last-shinobi",
+      "itemId": 4879,
+      "name": "Mark of the Subtle Demon",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/5ad52b280b2e/models/items/rikimaru/riki_tengu_pauldron_of_the_last_shinobi/riki_tengu_pauldron_of_the_last_shinobi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/5ad52b280b2e/models/items/rikimaru/riki_tengu_pauldron_of_the_last_shinobi/riki_tengu_pauldron_of_the_last_shinobi.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_tengu_pauldron_of_the_last_shinobi/riki_tengu_pauldron_of_the_last_shinobi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_tengu_pauldron_of_the_last_shinobi-3caf6998227d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/5ad52b280b2e/models/items/rikimaru/riki_tengu_pauldron_of_the_last_shinobi/riki_tengu_pauldron_of_the_last_shinobi_color_tga_c05d850e.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:164:rikimaru-shoulder",
+      "itemId": 164,
+      "name": "Rikis Shoulder Armor",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e5914a999294/models/heroes/rikimaru/rikimaru_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e5914a999294/models/heroes/rikimaru/rikimaru_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rikimaru_shoulder-2b435367be45.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e5914a999294/models/heroes/rikimaru/rikimaru_shoulder_color_psd_294abd14.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:26809:riki-scarlet-fox-shoulder",
+      "itemId": 26809,
+      "name": "Scarlet Subversion  Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/fedf7b3c7713/models/items/rikimaru/riki_scarlet_fox_shoulder/riki_scarlet_fox_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/fedf7b3c7713/models/items/rikimaru/riki_scarlet_fox_shoulder/riki_scarlet_fox_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_scarlet_fox_shoulder/riki_scarlet_fox_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_scarlet_fox_shoulder-dc1ad1e17f3c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/fedf7b3c7713/models/items/rikimaru/riki_scarlet_fox_shoulder/riki_scarlet_fox_shoulder_color_tga_353c8184.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7976:riki-ti6-blink-strike",
+      "itemId": 7976,
+      "name": "Shadow Masquerade",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e7734a9bf792/models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e7734a9bf792/models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_ti6_blink_strike-a4ba2f72f572.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e7734a9bf792/models/items/rikimaru/ti6_blink_strike/ti6_blink_strike_color_psd_d46abbc4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_blinkstrike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_blink_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:35392:riki-ti6-blink-strike",
+      "itemId": 35392,
+      "name": "Shadow Masquerade of the Crimson Witness",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/76aee5d0cf2b/models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/76aee5d0cf2b/models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_ti6_blink_strike2-cceec2d8fb32.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/76aee5d0cf2b/models/items/rikimaru/ti6_blink_strike/ti6_blink_strike_color_psd_d46abbc4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/ti6_blink_strike/riki_ti6_blink_strike.vmdl"
+        ],
+        "heroTransform": true,
+        "transformRoles": [
+          "sound"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_ambient_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_immortal_ti6/riki_immortal_ti6_blinkstrike_crimson.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_blink_strike.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9436:riki-cunning-corsair-ti-2017-shoulder",
+      "itemId": 9436,
+      "name": "Shoulder Pads of the Cunning Corsair",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e54b523b362b/models/items/rikimaru/riki_cunning_corsair_ti_2017_shoulder/riki_cunning_corsair_ti_2017_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e54b523b362b/models/items/rikimaru/riki_cunning_corsair_ti_2017_shoulder/riki_cunning_corsair_ti_2017_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_cunning_corsair_ti_2017_shoulder/riki_cunning_corsair_ti_2017_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_cunning_corsair_ti_2017_shoulder-36883e8c0750.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e54b523b362b/models/items/rikimaru/riki_cunning_corsair_ti_2017_shoulder/riki_cunning_corsair_ti_2017_shoulder_color_png_5853e627.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4714:masquerade-shoulder",
+      "itemId": 4714,
+      "name": "Sigil of the Tahlin Watch",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/584b4131589d/models/items/rikimaru/masquerade_shoulder/masquerade_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/584b4131589d/models/items/rikimaru/masquerade_shoulder/masquerade_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/masquerade_shoulder/masquerade_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/masquerade_shoulder-8a26037889db.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/584b4131589d/models/items/rikimaru/masquerade_shoulder/masquerade_shoulder_color_tga_b89d9c71.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:8445:riki-golden-saboteur-shoulder",
+      "itemId": 8445,
+      "name": "Spaulder of the Covert Saboteur",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a3f4132e8410/models/items/rikimaru/riki_golden_saboteur__shoulder/riki_golden_saboteur__shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a3f4132e8410/models/items/rikimaru/riki_golden_saboteur__shoulder/riki_golden_saboteur__shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_golden_saboteur__shoulder/riki_golden_saboteur__shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_golden_saboteur__shoulder-04e0b92c3360.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a3f4132e8410/models/items/rikimaru/riki_golden_saboteur__shoulder/riki_golden_saboteur__shoulder_color_tga_84f05509.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:23240:haze-atrocity-shoulder",
+      "itemId": 23240,
+      "name": "Summer Lineage Cape of Monstrous Reprisal",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f85f9ef9a776/models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/f85f9ef9a776/models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_shoulder1-ffd91231483e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f85f9ef9a776/models/items/rikimaru/haze_atrocity_shoulder/haze_atrocity_shoulder_color_tga_25f80edc.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5276:tahlin-occult-shoulder",
+      "itemId": 5276,
+      "name": "Tahlin Occult Shoulder Sigil",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8099b6aa6d86/models/items/rikimaru/tahlin_occult_shoulder/tahlin_occult_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/8099b6aa6d86/models/items/rikimaru/tahlin_occult_shoulder/tahlin_occult_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/tahlin_occult_shoulder/tahlin_occult_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tahlin_occult_shoulder-536ece5f9ea3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8099b6aa6d86/models/items/rikimaru/tahlin_occult_shoulder/tahlin_occult_shoulder_color_tga_67ddd232.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:18277:whirling-claws-shoulder",
+      "itemId": 18277,
+      "name": "Whirling Talons Shoulder",
+      "slot": "shoulder",
+      "slotDisplayName": "LoadoutSlot Shoulder",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/065ec1967322/models/items/rikimaru/whirling_claws_shoulder/whirling_claws_shoulder.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/065ec1967322/models/items/rikimaru/whirling_claws_shoulder/whirling_claws_shoulder.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/whirling_claws_shoulder/whirling_claws_shoulder.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whirling_claws_shoulder-cec88204b31c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/065ec1967322/models/items/rikimaru/whirling_claws_shoulder/whirling_claws_shoulder_color_tga_d6baf750.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5277:bladearmortail",
+      "itemId": 5277,
+      "name": "Bladebreaker Brush",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/061d566f5245/models/items/rikimaru/bladearmortail/bladearmortail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/061d566f5245/models/items/rikimaru/bladearmortail/bladearmortail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/bladearmortail/bladearmortail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bladearmortail-4d120eade2b8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/061d566f5245/models/items/rikimaru/bladearmortail/bladearmortail_color_tga_6d3e4ee2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/bladearmortail/bladearmortail.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/bladearmortail/bladearmortail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6551:rightful-heir-tail",
+      "itemId": 6551,
+      "name": "Heirs Steps",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/20dada8f8291/models/items/rikimaru/rightful_heir_tail/rightful_heir_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/20dada8f8291/models/items/rikimaru/rightful_heir_tail/rightful_heir_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/rightful_heir_tail/rightful_heir_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rightful_heir_tail-67616e73cf35.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/20dada8f8291/models/items/rikimaru/rightful_heir_tail/rightful_heir_tail_color_tga_5d8429d4.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14772:riki-killer-of-purple-smoke-tail",
+      "itemId": 14772,
+      "name": "Hunger of the Howling Wilds Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/61efae17e19e/models/items/rikimaru/riki_killer_of_purple_smoke_tail/riki_killer_of_purple_smoke_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/61efae17e19e/models/items/rikimaru/riki_killer_of_purple_smoke_tail/riki_killer_of_purple_smoke_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_killer_of_purple_smoke_tail/riki_killer_of_purple_smoke_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_killer_of_purple_smoke_tail-8aaa1a62d89b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/61efae17e19e/models/items/rikimaru/riki_killer_of_purple_smoke_tail/riki_killer_of_purple_smoke_tail_color_tga_7b86801f.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14849:riki-junk-rat-tail",
+      "itemId": 14849,
+      "name": "Junktown Avenger  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/76705688d3f9/models/items/rikimaru/riki_junk_rat_tail/riki_junk_rat_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/76705688d3f9/models/items/rikimaru/riki_junk_rat_tail/riki_junk_rat_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_junk_rat_tail/riki_junk_rat_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_junk_rat_tail-ff4e73c230c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/76705688d3f9/models/items/rikimaru/riki_junk_rat_tail/riki_junk_rat_tail_color_tga_c2d08f7e.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:165:rikimaru-tail",
+      "itemId": 165,
+      "name": "Rikis Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/33e41806bdfd/models/heroes/rikimaru/rikimaru_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/33e41806bdfd/models/heroes/rikimaru/rikimaru_tail.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rikimaru_tail-4c90153ecfab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/33e41806bdfd/models/heroes/rikimaru/rikimaru_tail_color_psd_701177ba.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:26810:riki-scarlet-fox-tail",
+      "itemId": 26810,
+      "name": "Scarlet Subversion  Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1351243e5702/models/items/rikimaru/riki_scarlet_fox_tail/riki_scarlet_fox_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/1351243e5702/models/items/rikimaru/riki_scarlet_fox_tail/riki_scarlet_fox_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_scarlet_fox_tail/riki_scarlet_fox_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_scarlet_fox_tail-8f03f1642688.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1351243e5702/models/items/rikimaru/riki_scarlet_fox_tail/riki_scarlet_fox_tail_color_tga_f48f3f00.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4702:masquerade-tail",
+      "itemId": 4702,
+      "name": "Slim Blade of the Tahlin Watch",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/d4bd1b7cebc4/models/items/rikimaru/masquerade_tail/masquerade_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/d4bd1b7cebc4/models/items/rikimaru/masquerade_tail/masquerade_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/masquerade_tail/masquerade_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/masquerade_tail-ebd9d51d3b63.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/d4bd1b7cebc4/models/items/rikimaru/masquerade_tail/masquerade_tail_color_tga_f2012933.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7162:haze-atrocity-tail",
+      "itemId": 7162,
+      "name": "Smoke Bomb of Monstrous Reprisal",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/c450ca4de4d8/models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/c450ca4de4d8/models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_tail-6a631984dd40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/c450ca4de4d8/models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail_color_tga_76fd8cf9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_haze_atrocity/riki_versuta_tail_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:23244:haze-atrocity-tail",
+      "itemId": 23244,
+      "name": "Summer Lineage Smoke Bomb of Monstrous Reprisal",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a29fdb0746d7/models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a29fdb0746d7/models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_tail1-5ec9907c4937.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a29fdb0746d7/models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail_color_tga_76fd8cf9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/haze_atrocity_tail/haze_atrocity_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_haze_atrocity/riki_versuta_tail_smoke.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9437:riki-cunning-corsair-ti-2017-tail",
+      "itemId": 9437,
+      "name": "Tail of the Cunning Corsair",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1d9d179321bf/models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/1d9d179321bf/models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_cunning_corsair_ti_2017_tail-44253d30a6e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/1d9d179321bf/models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail_color_png_a7448ac2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_cunning_corsair_ti_2017_tail/riki_cunning_corsair_ti_2017_tail.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_cunning_crosair/riki_cunning_crosair_tail_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6370:frozenblood-tail",
+      "itemId": 6370,
+      "name": "Tail of the Frozen Blood",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a533674381ed/models/items/rikimaru/frozenblood_tail/frozenblood_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/a533674381ed/models/items/rikimaru/frozenblood_tail/frozenblood_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frozenblood_tail/frozenblood_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozenblood_tail-af4f322d6006.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/a533674381ed/models/items/rikimaru/frozenblood_tail/frozenblood_tail_color_tga_a61bdfcc.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7331:frosty-blow-tail",
+      "itemId": 7331,
+      "name": "Tail of the Gelid Touch",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/7affd3219bc1/models/items/rikimaru/frosty_blow_tail/frosty_blow_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/7affd3219bc1/models/items/rikimaru/frosty_blow_tail/frosty_blow_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frosty_blow_tail/frosty_blow_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frosty_blow_tail-be33aa399431.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/7affd3219bc1/models/items/rikimaru/frosty_blow_tail/frosty_blow_tail_color_tga_ad8b3b72.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:8442:riki-golden-saboteur-tail",
+      "itemId": 8442,
+      "name": "Whip of the Covert Saboteur",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/91fee8a55775/models/items/rikimaru/riki_golden_saboteur_tail/riki_golden_saboteur_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/91fee8a55775/models/items/rikimaru/riki_golden_saboteur_tail/riki_golden_saboteur_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_golden_saboteur_tail/riki_golden_saboteur_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_golden_saboteur_tail-3add23d6e43b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/91fee8a55775/models/items/rikimaru/riki_golden_saboteur_tail/riki_golden_saboteur_tail_color_tga_2900826f.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4878:riki-spiked-tail-of-the-last-shinobi",
+      "itemId": 4878,
+      "name": "Whip of the Subtle Demon",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b1d00e7716b3/models/items/rikimaru/riki_spiked_tail_of_the_last_shinobi/riki_spiked_tail_of_the_last_shinobi.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/b1d00e7716b3/models/items/rikimaru/riki_spiked_tail_of_the_last_shinobi/riki_spiked_tail_of_the_last_shinobi.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_spiked_tail_of_the_last_shinobi/riki_spiked_tail_of_the_last_shinobi.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_spiked_tail_of_the_last_shinobi-3a491646a272.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/b1d00e7716b3/models/items/rikimaru/riki_spiked_tail_of_the_last_shinobi/riki_spiked_tail_of_the_last_shinobi_color_tga_4debb951.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:18278:whirling-claws-tail",
+      "itemId": 18278,
+      "name": "Whirling Talons Tail",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e4befb9cdf67/models/items/rikimaru/whirling_claws_tail/whirling_claws_tail.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e4befb9cdf67/models/items/rikimaru/whirling_claws_tail/whirling_claws_tail.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/whirling_claws_tail/whirling_claws_tail.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whirling_claws_tail-d22f744f2d4c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e4befb9cdf67/models/items/rikimaru/whirling_claws_tail/whirling_claws_tail_color_tga_af7fc078.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5527:tail-of-the-highborn",
+      "itemId": 5527,
+      "name": "Whisk of the Highborn",
+      "slot": "tail",
+      "slotDisplayName": "LoadoutSlot Tail",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9d17e6568421/models/items/rikimaru/tail_of_the_highborn/tail_of_the_highborn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/9d17e6568421/models/items/rikimaru/tail_of_the_highborn/tail_of_the_highborn.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/tail_of_the_highborn/tail_of_the_highborn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tail_of_the_highborn-647bf51abf24.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/9d17e6568421/models/items/rikimaru/tail_of_the_highborn/tail_of_the_highborn_color_tga_fca82144.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7165:haze-atrocity-weapon",
+      "itemId": 7165,
+      "name": "Backslicer of Monstrous Reprisal",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/288e3215dcd4/models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/288e3215dcd4/models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_weapon-c0554fbb9e59.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/288e3215dcd4/models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon_color_tga_72493043.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:8443:riki-golden-saboteur-weapon",
+      "itemId": 8443,
+      "name": "Blade of the Covert Saboteur",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/0d2007722cf4/models/items/rikimaru/riki_golden_saboteur_weapon/riki_golden_saboteur_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/0d2007722cf4/models/items/rikimaru/riki_golden_saboteur_weapon/riki_golden_saboteur_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_golden_saboteur_weapon/riki_golden_saboteur_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_golden_saboteur_weapon-f9dd133398b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/0d2007722cf4/models/items/rikimaru/riki_golden_saboteur_weapon/riki_golden_saboteur_weapon_color_tga_fea33e87.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4874:riki-grand-fathers-blade-shinobi-main",
+      "itemId": 4874,
+      "name": "Blade of the Subtle Demon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/16a67751336c/models/items/rikimaru/riki_grand_fathers_blade_shinobi_main/riki_grand_fathers_blade_shinobi_main.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/16a67751336c/models/items/rikimaru/riki_grand_fathers_blade_shinobi_main/riki_grand_fathers_blade_shinobi_main.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_grand_fathers_blade_shinobi_main/riki_grand_fathers_blade_shinobi_main.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_grand_fathers_blade_shinobi_main-4117f9813dcd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/16a67751336c/models/items/rikimaru/riki_grand_fathers_blade_shinobi_main/riki_grand_fathers_blade_shinobi_main_color_tga_d7c8af66.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:5290:bladearmorweapon",
+      "itemId": 5290,
+      "name": "Bladebreaker Dagger",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/2e0a404cca25/models/items/rikimaru/bladearmorweapon/bladearmorweapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/2e0a404cca25/models/items/rikimaru/bladearmorweapon/bladearmorweapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/bladearmorweapon/bladearmorweapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bladearmorweapon-37b885b1f6ad.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/2e0a404cca25/models/items/rikimaru/bladearmorweapon/bladearmorweapon_color_tga_41defac4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/bladearmorweapon/bladearmorweapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/bladearmorweapon/bladearmorweapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_riki/riki_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:9439:riki-cunning-corsair-ti-2017-weapon",
+      "itemId": 9439,
+      "name": "Dagger of the Cunning Corsair",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/626e965b8a23/models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/626e965b8a23/models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_cunning_corsair_ti_2017_weapon-9193546fadb9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/626e965b8a23/models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon_color_png_7dd91830.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_cunning_corsair_ti_2017_weapon/riki_cunning_corsair_ti_2017_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_cunning_crosair/riki_cunning_crosair_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6366:frozenblood-weapon",
+      "itemId": 6366,
+      "name": "Dagger of the Frozen Blood",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/5b9e494312c8/models/items/rikimaru/frozenblood_weapon/frozenblood_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/5b9e494312c8/models/items/rikimaru/frozenblood_weapon/frozenblood_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frozenblood_weapon/frozenblood_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frozenblood_weapon-c9db1572ccab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/5b9e494312c8/models/items/rikimaru/frozenblood_weapon/frozenblood_weapon_color_tga_b5360f6f.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:7330:frosty-blow-weapon",
+      "itemId": 7330,
+      "name": "Dagger of the Gelid Touch",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e76c8b92e4be/models/items/rikimaru/frosty_blow_weapon/frosty_blow_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e76c8b92e4be/models/items/rikimaru/frosty_blow_weapon/frosty_blow_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/frosty_blow_weapon/frosty_blow_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frosty_blow_weapon-9e6b5ec23e3a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e76c8b92e4be/models/items/rikimaru/frosty_blow_weapon/frosty_blow_weapon_color_tga_ddb6e904.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6547:rightful-heir-weapon",
+      "itemId": 6547,
+      "name": "Golden Siblings Dagger",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f0295e23d27c/models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/f0295e23d27c/models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rightful_heir_weapon-0ce25b95a65b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f0295e23d27c/models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon_color_tga_89916fc1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Golden Siblings Dagger Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon",
+            "modelPaths": [
+              "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+            ],
+            "tags": [
+              "golden",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Golden Siblings Dagger Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/rikimaru/rightful_heir_weapon_alt/rightful_heir_weapon_alt",
+            "modelPaths": [
+              "models/items/rikimaru/rightful_heir_weapon_alt/rightful_heir_weapon_alt.vmdl"
+            ],
+            "tags": [
+              "golden",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6547:rightful-heir-weapon:style-1",
+      "itemId": 6547,
+      "name": "Golden Siblings Dagger - Golden",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "golden",
+        "hero",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f0295e23d27c/models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/f0295e23d27c/models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rightful_heir_weapon_alt-df90c53fe5fc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f0295e23d27c/models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon_color_tga_89916fc1.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "Golden Siblings Dagger Style0",
+            "alternateIcon": "0",
+            "icon": "econ/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon",
+            "modelPaths": [
+              "models/items/rikimaru/rightful_heir_weapon/rightful_heir_weapon.vmdl"
+            ],
+            "tags": [
+              "golden",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "Golden Siblings Dagger Style1",
+            "alternateIcon": "1",
+            "icon": "econ/items/rikimaru/rightful_heir_weapon_alt/rightful_heir_weapon_alt",
+            "modelPaths": [
+              "models/items/rikimaru/rightful_heir_weapon_alt/rightful_heir_weapon_alt.vmdl"
+            ],
+            "tags": [
+              "golden",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14771:riki-killer-of-purple-smoke-weapon",
+      "itemId": 14771,
+      "name": "Hunger of the Howling Wilds Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/4da0b08c32e3/models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/4da0b08c32e3/models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_killer_of_purple_smoke_weapon-40f81a5bc805.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/4da0b08c32e3/models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon_color_tga_1daa17c0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_killer_of_purple_smoke_weapon/riki_killer_of_purple_smoke_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_fall20_killer_of_purple_smoke/riki_fall20_killer_of_purple_smoke_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:14848:riki-junk-rat-weapon",
+      "itemId": 14848,
+      "name": "Junktown Avenger  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/219a057d1bb8/models/items/rikimaru/riki_junk_rat_weapon/riki_junk_rat_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/219a057d1bb8/models/items/rikimaru/riki_junk_rat_weapon/riki_junk_rat_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_junk_rat_weapon/riki_junk_rat_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_junk_rat_weapon-de403cd192a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/219a057d1bb8/models/items/rikimaru/riki_junk_rat_weapon/riki_junk_rat_weapon_color_tga_3a7e3f7c.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:561:rikimaru-weapon",
+      "itemId": 561,
+      "name": "Rikis Dagger",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/6a1c16e9615e/models/heroes/rikimaru/rikimaru_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/6a1c16e9615e/models/heroes/rikimaru/rikimaru_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/rikimaru/rikimaru_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/rikimaru_weapon-bf8ad5f08806.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/6a1c16e9615e/models/heroes/rikimaru/rikimaru_weapon_color_psd_4f51946b.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4354:weapon-yasha",
+      "itemId": 4354,
+      "name": "Sange and Yasha",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e5dad525acde/models/items/rikimaru/weapon_yasha/weapon_yasha.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/e5dad525acde/models/items/rikimaru/weapon_yasha/weapon_yasha.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/weapon_yasha/weapon_yasha.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_yasha-55aa1262b48a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/e5dad525acde/models/items/rikimaru/weapon_yasha/weapon_yasha_color_tga_c47e4008.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:26811:riki-scarlet-fox-weapon",
+      "itemId": 26811,
+      "name": "Scarlet Subversion  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ce4efd01f933/models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/ce4efd01f933/models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_scarlet_fox_weapon-f1165f6dbb15.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/ce4efd01f933/models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon_color_tga_b16b3261.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_scarlet_fox_weapon/riki_scarlet_fox_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_2022_fox_weapon/riki_2022_fox_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:29465:riki-crownfall-immortal-weapon",
+      "itemId": 29465,
+      "name": "Shiftys Shortblade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/abbdaf2acbb5/models/items/rikimaru/riki_crownfall_immortal/riki_crownfall_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/abbdaf2acbb5/models/items/rikimaru/riki_crownfall_immortal/riki_crownfall_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/riki_crownfall_immortal/riki_crownfall_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/riki_crownfall_immortal_weapon-3333c3187eca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/abbdaf2acbb5/models/items/rikimaru/riki_crownfall_immortal/riki_crownfall_immortal_color_psd_950d43dd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/rikimaru/riki_crownfall_immortal/riki_crownfall_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/rikimaru/riki_crownfall_immortal/riki_crownfall_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/riki/riki_crownfall_immortal_weapon/riki_crownfall_immortal_tricks.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_crownfall_immortal_weapon/riki_crownfall_immortal_tricks_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_crownfall_immortal_weapon/riki_crownfall_immortal_tricks_end.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/riki/riki_crownfall_immortal_weapon/riki_crownfall_immortal_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_tricks.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_tricks_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_riki/riki_tricks_end.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:23245:haze-atrocity-weapon",
+      "itemId": 23245,
+      "name": "Summer Lineage Backslicer of Monstrous Reprisal",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/aaddad1fb2b5/models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/aaddad1fb2b5/models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/haze_atrocity_weapon1-85242f828559.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/aaddad1fb2b5/models/items/rikimaru/haze_atrocity_weapon/haze_atrocity_weapon_color_tga_72493043.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:6797:tahlinhookblade-weapon",
+      "itemId": 6797,
+      "name": "Tahlin Hookblade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/dd6f70a80454/models/items/rikimaru/tahlinhookblade_weapon/tahlinhookblade_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/dd6f70a80454/models/items/rikimaru/tahlinhookblade_weapon/tahlinhookblade_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/tahlinhookblade_weapon/tahlinhookblade_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/tahlinhookblade_weapon-32d11c36537e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/dd6f70a80454/models/items/rikimaru/tahlinhookblade_weapon/tahlinhookblade_weapon_color_tga_80f3aa07.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:18279:whirling-claws-weapon",
+      "itemId": 18279,
+      "name": "Whirling Talons Dagger",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f02c2af0200b/models/items/rikimaru/whirling_claws_weapon/whirling_claws_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/f02c2af0200b/models/items/rikimaru/whirling_claws_weapon/whirling_claws_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/whirling_claws_weapon/whirling_claws_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/whirling_claws_weapon-fe749eccf24e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/f02c2af0200b/models/items/rikimaru/whirling_claws_weapon/whirling_claws_weapon_color_tga_c127883c.png"
+    },
+    {
+      "id": "npc_dota_hero_riki:item-model:4823:weapon-yasha",
+      "itemId": 4823,
+      "name": "Yasha the Quickblade",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8e94dae21a48/models/items/rikimaru/weapon_yasha/weapon_yasha.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_riki/8e94dae21a48/models/items/rikimaru/weapon_yasha/weapon_yasha.glb"
+      ],
+      "modelPaths": [
+        "models/items/rikimaru/weapon_yasha/weapon_yasha.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/weapon_yasha-55aa1262b48a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_riki/8e94dae21a48/models/items/rikimaru/weapon_yasha/weapon_yasha_color_tga_c47e4008.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_riki:core-set:20243:arms-of-the-bladebreaker-dagger-pack",
+      "name": "Arms of the Bladebreaker Dagger Pack",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        5268,
+        5290
+      ],
+      "slots": [
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/bladearmorweapon-37b885b1f6ad.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20237:arms-of-the-bladebreaker-order-set",
+      "name": "Arms of the Bladebreaker Order Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        5266,
+        5267,
+        5268,
+        5269,
+        5277,
+        5290
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/bladearmorgloves-ab181a2aecc5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20801:covert-saboteur",
+      "name": "Covert Saboteur",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        8441,
+        8442,
+        8443,
+        8444,
+        8445,
+        8446
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/riki_golden_saboteur_loading_screen-9a2e910f8057.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:21133:cunning-corsair",
+      "name": "Cunning Corsair",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        9434,
+        9435,
+        9436,
+        9437,
+        9438,
+        9439
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/riki_cunning_corsair_ti_2017_riki_cunning_corsair_loading_screen_ti_2017-7dfda29e501f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20479:frozen-blood",
+      "name": "Frozen Blood",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        6365,
+        6366,
+        6367,
+        6368,
+        6369,
+        6370
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/frozenblood_arms-bb52c2c0996c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20983:gelid-touch",
+      "name": "Gelid Touch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        7328,
+        7329,
+        7330,
+        7331,
+        7332,
+        7333
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/frosty_blow_loading_screen-8740a046944d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20279:highborn-reckoning-set",
+      "name": "Highborn Reckoning Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322
+      ],
+      "sourceItemIds": [
+        5499,
+        5523,
+        5525,
+        5526,
+        5527
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/curse_of_the_highborn-df76f2c55a6c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:21589:hunger-of-the-howling-wilds",
+      "name": "Hunger of the Howling Wilds",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        14771,
+        14772,
+        14773,
+        14774,
+        14775,
+        14776
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/riki_killer_of_purple_smoke_weapon-40f81a5bc805.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20127:implements-of-the-tahlin-watch-set",
+      "name": "Implements of the Tahlin Watch Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322
+      ],
+      "sourceItemIds": [
+        4702,
+        4703,
+        4714,
+        4715,
+        4740
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/masquerade_tail-ebd9d51d3b63.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:21606:junktown-avenger",
+      "name": "Junktown Avenger",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        14848,
+        14849,
+        14850,
+        14851,
+        14852,
+        14853
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/riki_junk_rat_weapon-de403cd192a1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20647:monstrous-reprisal",
+      "name": "Monstrous Reprisal",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        7153,
+        7154,
+        7159,
+        7161,
+        7162,
+        7165
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_haze_atrocity-179db7448db2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20294:piercing-umbrage-pack",
+      "name": "Piercing Umbrage Pack",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322
+      ],
+      "sourceItemIds": [
+        5564
+      ],
+      "slots": [
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 2,
+      "previewUrl": "/larimods-data/v1/icons/umbrage-533a48467ed6.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20524:rightful-heir",
+      "name": "Rightful Heir",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        6546,
+        6547,
+        6548,
+        6549,
+        6550,
+        6551
+      ],
+      "styleSelections": {
+        "6547": "0"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/dota_item_rightful_heir-e818052060b0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20524:rightful-heir:style-1",
+      "name": "Rightful Heir - Golden",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        6546,
+        6547,
+        6548,
+        6549,
+        6550,
+        6551
+      ],
+      "styleSelections": {
+        "6547": "1"
+      },
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/rightful_heir_weapon_alt-df90c53fe5fc.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20139:rikis-sange-and-yasha",
+      "name": "Rikis Sange and Yasha",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        4823,
+        4824
+      ],
+      "slots": [
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 3,
+      "previewUrl": "/larimods-data/v1/icons/weapon_yasha-55aa1262b48a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20126:royal-daggers-of-the-tahlin-watch",
+      "name": "Royal Daggers of the Tahlin Watch",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322
+      ],
+      "sourceItemIds": [
+        4740
+      ],
+      "slots": [
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 2,
+      "previewUrl": "/larimods-data/v1/icons/masquerade_dagger_main-a9e606c3ad38.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:26812:scarlet-subversion",
+      "name": "Scarlet Subversion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        26806,
+        26807,
+        26808,
+        26809,
+        26810,
+        26811
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/riki_scarlet_fox_arms-d3805a0d7e84.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20210:shadowshards",
+      "name": "Shadowshards",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322
+      ],
+      "sourceItemIds": [
+        5164
+      ],
+      "slots": [
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 2,
+      "previewUrl": "/larimods-data/v1/icons/shadowfang_main-98a492065639.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:23239:summer-lineage-monstrous-reprisal",
+      "name": "Summer Lineage Monstrous Reprisal",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        23240,
+        23241,
+        23242,
+        23243,
+        23244,
+        23245
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/haze_atrocity_shoulder1-ffd91231483e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20223:tahlin-occult-daggers",
+      "name": "Tahlin Occult Daggers",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322
+      ],
+      "sourceItemIds": [
+        5275
+      ],
+      "slots": [
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 2,
+      "previewUrl": "/larimods-data/v1/icons/tahlin_occult_dagger-b29e511366cb.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20222:tahlin-occult-set",
+      "name": "Tahlin Occult Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        322
+      ],
+      "sourceItemIds": [
+        5275,
+        5276,
+        5327
+      ],
+      "slots": [
+        "head",
+        "offhand_weapon",
+        "shoulder"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/tahlin_occult_dagger__offhand-f0059fb9d17d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20152:the-subtle-demon-set",
+      "name": "The Subtle Demon Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        4874,
+        4875,
+        4876,
+        4877,
+        4878,
+        4879
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/riki_grand_fathers_blade_shinobi_main-4117f9813dcd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20156:the-subtle-demons-blades",
+      "name": "The Subtle Demons Blades",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        4874,
+        4875
+      ],
+      "slots": [
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 3,
+      "previewUrl": "/larimods-data/v1/icons/riki_grand_fathers_blade_shinobi_main-4117f9813dcd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:21784:whirling-talons",
+      "name": "Whirling Talons",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        163,
+        164,
+        165,
+        166,
+        322,
+        561
+      ],
+      "sourceItemIds": [
+        18275,
+        18276,
+        18277,
+        18278,
+        18279,
+        18280
+      ],
+      "slots": [
+        "arms",
+        "head",
+        "offhand_weapon",
+        "shoulder",
+        "tail",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 6,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/whirling_claws_head-b95bfaca5a03.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_riki:core-set:20285:wrath-of-the-highborn-pack",
+      "name": "Wrath of the Highborn Pack",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        322
+      ],
+      "sourceItemIds": [
+        5525
+      ],
+      "slots": [
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 1,
+      "assetFiles": 2,
+      "previewUrl": "/larimods-data/v1/icons/wrath_of_the_highborn-c9541697b455.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 40726304,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 661
+  }
+}

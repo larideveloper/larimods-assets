@@ -1,0 +1,3264 @@
+{
+  "heroId": "npc_dota_hero_broodmother",
+  "sourceHeroId": "npc_dota_hero_broodmother",
+  "variantId": "default",
+  "heroName": "Broodmother",
+  "heroSlug": "broodmother",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/broodmother.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_broodmother/0e5bf9e299cb/models/heroes/broodmother/broodmother.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 103,
+      "name": "Broodmothers Abdomen",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/afeb08fd8c36/models/heroes/broodmother/broodmother_abdomen.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/afeb08fd8c36/models/heroes/broodmother/broodmother_abdomen.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/broodmother/broodmother_abdomen.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/afeb08fd8c36/models/heroes/broodmother/broodmother_abdomen_color_psd_62f4a150.png"
+    },
+    {
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "itemId": 101,
+      "name": "Broodmothers Hair",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9fb48ab6bd63/models/heroes/broodmother/broodmother_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/9fb48ab6bd63/models/heroes/broodmother/broodmother_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/broodmother/broodmother_hair.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9fb48ab6bd63/models/heroes/broodmother/broodmother_hair_color_psd_de091540.png"
+    },
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 102,
+      "name": "Broodmothers Legs",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/00972f800efe/models/heroes/broodmother/broodmother_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/00972f800efe/models/heroes/broodmother/broodmother_legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/broodmother/broodmother_legs.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/00972f800efe/models/heroes/broodmother/broodmother_legs_color_psd_759df604.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5854:abdomen-of-perception",
+      "itemId": 5854,
+      "name": "Abdomen of Perception",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ad2cc154fe8e/models/items/broodmother/abdomen_of_perception/abdomen_of_perception.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/ad2cc154fe8e/models/items/broodmother/abdomen_of_perception/abdomen_of_perception.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/abdomen_of_perception/abdomen_of_perception.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/abdomen_of_perception-f01d2563a03f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ad2cc154fe8e/models/items/broodmother/abdomen_of_perception/abdomen_of_perception_color_tga_6835844c.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9426:the-glacial-creeper-back",
+      "itemId": 9426,
+      "name": "Abdomen of the Abysm",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9b0135759938/models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/9b0135759938/models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_back-74ff5a7e822d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9b0135759938/models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back_color_tga_446cfd0a.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8857:amber-queen-back-2",
+      "itemId": 8857,
+      "name": "Abdomen of the Amber Queen",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/cf2ea17428b2/models/items/broodmother/amber_queen_back_2/amber_queen_back_2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/cf2ea17428b2/models/items/broodmother/amber_queen_back_2/amber_queen_back_2.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/amber_queen_back_2/amber_queen_back_2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/amber_queen_back_2-623d6b6d46e2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/cf2ea17428b2/models/items/broodmother/amber_queen_back_2/amber_queen_back_2_color_tga_f7549e51.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8298:araknarok-broodmother-back",
+      "itemId": 8298,
+      "name": "Abdomen of the Arachnarok",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/1090f75098f0/models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/1090f75098f0/models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_back-e9d68f091c18.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/1090f75098f0/models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back_color_tga_9f947a74.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8565:elder-blood-back",
+      "itemId": 8565,
+      "name": "Abdomen of the Gluttons Larder",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e443646c8947/models/items/broodmother/elder_blood_back/elder_blood_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/e443646c8947/models/items/broodmother/elder_blood_back/elder_blood_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/elder_blood_back/elder_blood_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/elder_blood_back-64e414d5aacf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e443646c8947/models/items/broodmother/elder_blood_back/elder_blood_back_color_tga_af2bdc26.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8392:araknarok-broodmother-back",
+      "itemId": 8392,
+      "name": "Ancient Abdomen of the Arachnarok",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7336a65dbdfc/models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/7336a65dbdfc/models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_back1-656d1dea1c57.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7336a65dbdfc/models/items/broodmother/araknarok_broodmother_back/araknarok_broodmother_back_color_tga_9f947a74.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:17918:witchs-grasp-back",
+      "itemId": 17918,
+      "name": "Arcane Infestation Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4467cb574cff/models/items/broodmother/witchs_grasp_back/witchs_grasp_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/4467cb574cff/models/items/broodmother/witchs_grasp_back/witchs_grasp_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/witchs_grasp_back/witchs_grasp_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/witchs_grasp_back-2a2f608d431b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4467cb574cff/models/items/broodmother/witchs_grasp_back/witchs_grasp_back_color_tga_5b09a8ad.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/witchs_grasp_back/witchs_grasp_back.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/witchs_grasp_back/witchs_grasp_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/bm_fall20_witches_grasp/bm_fall20_witches_grasp_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9797:ti8-brood-the-great-arachne-back",
+      "itemId": 9797,
+      "name": "Armor of the Silken Queen",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e0f3e759fc7a/models/items/broodmother/ti8_brood_the_great_arachne_back/ti8_brood_the_great_arachne_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/e0f3e759fc7a/models/items/broodmother/ti8_brood_the_great_arachne_back/ti8_brood_the_great_arachne_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti8_brood_the_great_arachne_back/ti8_brood_the_great_arachne_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brood_the_great_arachne_back-22686d09d0fa.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e0f3e759fc7a/models/items/broodmother/ti8_brood_the_great_arachne_back/ti8_brood_the_great_arachne_back_color_tga_e7c43a4a.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13273:ti9-cache-brood-mother-of-thousands-back",
+      "itemId": 13273,
+      "name": "Automaton Antiquity Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/b5a61e778f82/models/items/broodmother/ti9_cache_brood_mother_of_thousands_back/ti9_cache_brood_mother_of_thousands_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/b5a61e778f82/models/items/broodmother/ti9_cache_brood_mother_of_thousands_back/ti9_cache_brood_mother_of_thousands_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_mother_of_thousands_back/ti9_cache_brood_mother_of_thousands_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_mother_of_thousands_back-aa95adeb4ca2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/b5a61e778f82/models/items/broodmother/ti9_cache_brood_mother_of_thousands_back/ti9_cache_brood_mother_of_thousands_back_color_tga_9536f34f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/ti9_cache_brood_mother_of_thousands_back/ti9_cache_brood_mother_of_thousands_back.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/ti9_cache_brood_mother_of_thousands_back/ti9_cache_brood_mother_of_thousands_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/brood_ti9/brood_ti9_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:4752:broodqueen-back-01",
+      "itemId": 4752,
+      "name": "Bladed Abdomen of the Brood Queen",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6894e4d47437/models/items/broodmother/broodqueen_back_01/broodqueen_back_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/6894e4d47437/models/items/broodmother/broodqueen_back_01/broodqueen_back_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/broodqueen_back_01/broodqueen_back_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodqueen_back_01-ebac8246840d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6894e4d47437/models/items/broodmother/broodqueen_back_01/broodqueen_back_01_color_tga_8e664356.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/broodqueen_back_01/broodqueen_back_01.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/broodqueen_back_01/broodqueen_back_01.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:103:broodmother-abdomen",
+      "itemId": 103,
+      "name": "Broodmothers Abdomen",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/afeb08fd8c36/models/heroes/broodmother/broodmother_abdomen.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/afeb08fd8c36/models/heroes/broodmother/broodmother_abdomen.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/broodmother/broodmother_abdomen.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodmother_abdomen-627a7c3b2744.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/afeb08fd8c36/models/heroes/broodmother/broodmother_abdomen_color_psd_62f4a150.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9090:lycosidae-back",
+      "itemId": 9090,
+      "name": "Lycosidaes Brood",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/720f7566ae35/models/items/broodmother/lycosidae_back/lycosidae_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/720f7566ae35/models/items/broodmother/lycosidae_back/lycosidae_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/lycosidae_back/lycosidae_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/lycosidae_back-e30f6d39f5d0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/720f7566ae35/models/items/broodmother/lycosidae_back/lycosidae_back_color_psd_5597b821.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/lycosidae_back/lycosidae_back.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/lycosidae_back/lycosidae_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/bm_lycosidaes/bm_lycosidaes_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/broodmother/bm_lycosidaes/bm_lycosidaes_spiderlings_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/broodmother/bm_lycosidaes/bm_lycosidaes_web_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_broodmother/broodmother_spiderlings_debuff.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_broodmother/broodmother_web_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13692:dplus-malevolent-mother-back",
+      "itemId": 13692,
+      "name": "Malevolent Mother Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/d8404858baa4/models/items/broodmother/dplus_malevolent_mother_back/dplus_malevolent_mother_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/d8404858baa4/models/items/broodmother/dplus_malevolent_mother_back/dplus_malevolent_mother_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/dplus_malevolent_mother_back/dplus_malevolent_mother_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_malevolent_mother_back-b6dc6d12525d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/d8404858baa4/models/items/broodmother/dplus_malevolent_mother_back/dplus_malevolent_mother_back_color_tga_a32fb881.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:27517:petrified-terror-back",
+      "itemId": 27517,
+      "name": "Rubyridged Recluse  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/2fe553415c2a/models/items/broodmother/petrified_terror_back/petrified_terror_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/2fe553415c2a/models/items/broodmother/petrified_terror_back/petrified_terror_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/petrified_terror_back/petrified_terror_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/petrified_terror_back-6adbc75bae55.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/2fe553415c2a/models/items/broodmother/petrified_terror_back/petrified_terror_back_color_tga_fa3aac9d.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5513:nephropid-abdominal-plate",
+      "itemId": 5513,
+      "name": "Steelweb Shell",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/a546a0e10ae2/models/items/broodmother/nephropid_abdominal_plate/nephropid_abdominal_plate.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/a546a0e10ae2/models/items/broodmother/nephropid_abdominal_plate/nephropid_abdominal_plate.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/nephropid_abdominal_plate/nephropid_abdominal_plate.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nephropid_abdominal_plate-7c8e9d70a81e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/a546a0e10ae2/models/items/broodmother/nephropid_abdominal_plate/nephropid_abdominal_plate_color_tga_9ed76850.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:36239:brood-purgatory-queen-back",
+      "itemId": 36239,
+      "name": "The Living Ingot",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8edcc0f8c1ab/models/items/broodmother/purgatory_queen/brood_purgatory_queen_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/8edcc0f8c1ab/models/items/broodmother/purgatory_queen/brood_purgatory_queen_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/purgatory_queen/brood_purgatory_queen_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodmother_abdomen_02-045429b27da2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8edcc0f8c1ab/models/items/broodmother/purgatory_queen/broodmother_abdomen_02_color_tga_fd1d5ad9.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/purgatory_queen/brood_purgatory_queen_back.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/purgatory_queen/brood_purgatory_queen_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/broodmother_purgatory_queen/brood_mother_purgatory_queen_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:33377:bride-of-the-web-back",
+      "itemId": 33377,
+      "name": "The White Widow  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8d34469608ec/models/items/broodmother/bride_of_the_web_back/bride_of_the_web_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/8d34469608ec/models/items/broodmother/bride_of_the_web_back/bride_of_the_web_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/bride_of_the_web_back/bride_of_the_web_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bride_of_the_web_back-d34bbcc50d2c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8d34469608ec/models/items/broodmother/bride_of_the_web_back/bride_of_the_web_back_color_png_b5680003.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5545:thorned-abdomen-of-malice",
+      "itemId": 5545,
+      "name": "Thorned Abdomen of Malice",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/df771de2da81/models/items/broodmother/thorned_abdomen_of_malice/thorned_abdomen_of_malice.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/df771de2da81/models/items/broodmother/thorned_abdomen_of_malice/thorned_abdomen_of_malice.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/thorned_abdomen_of_malice/thorned_abdomen_of_malice.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thorned_abdomen_of_malice-95b695157329.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/df771de2da81/models/items/broodmother/thorned_abdomen_of_malice/thorned_abdomen_of_malice_color_tga_2cf81d00.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:7615:virulent-matriarchs-back",
+      "itemId": 7615,
+      "name": "Virulent Matriarchs Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/11c1ad7cd6b0/models/items/broodmother/virulent_matriarchs_back/virulent_matriarchs_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/11c1ad7cd6b0/models/items/broodmother/virulent_matriarchs_back/virulent_matriarchs_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/virulent_matriarchs_back/virulent_matriarchs_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/virulent_matriarchs_back-19eb6a84b1df.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/11c1ad7cd6b0/models/items/broodmother/virulent_matriarchs_back/virulent_matriarchs_back_color_tga_6b0e4176.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:23455:firemother-back",
+      "itemId": 23455,
+      "name": "Volcanic Sanctuary  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3c85b776244a/models/items/broodmother/firemother_back/firemother_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/3c85b776244a/models/items/broodmother/firemother_back/firemother_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/firemother_back/firemother_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firemother_back-69d4bdf643e7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3c85b776244a/models/items/broodmother/firemother_back/firemother_back_color_tga_d9359c8b.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13384:ti9-cache-brood-venomous-caressin-back",
+      "itemId": 13384,
+      "name": "Vote Only TI9 Cache Brood Venomous Caressin Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/0b849411bb9f/models/items/broodmother/ti9_cache_brood_venomous_caressin_back/ti9_cache_brood_venomous_caressin_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/0b849411bb9f/models/items/broodmother/ti9_cache_brood_venomous_caressin_back/ti9_cache_brood_venomous_caressin_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_venomous_caressin_back/ti9_cache_brood_venomous_caressin_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_venomous_caressin_back-f1a9bbd03460.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/0b849411bb9f/models/items/broodmother/ti9_cache_brood_venomous_caressin_back/ti9_cache_brood_venomous_caressin_back_color_psd_5dc5a995.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:19780:strangling-gloom-back",
+      "itemId": 19780,
+      "name": "Widow of the Undermount Gloom  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6045dee5c9a1/models/items/broodmother/strangling_gloom_back/strangling_gloom_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/6045dee5c9a1/models/items/broodmother/strangling_gloom_back/strangling_gloom_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/strangling_gloom_back/strangling_gloom_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/strangling_gloom_back-5fd305dc8177.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6045dee5c9a1/models/items/broodmother/strangling_gloom_back/strangling_gloom_back_color_png_573c8fe0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/strangling_gloom_back/strangling_gloom_back.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/strangling_gloom_back/strangling_gloom_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/bm_cc_2022_back/bm_cc_2022_back.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:22805:the-glacial-creeper-back",
+      "itemId": 22805,
+      "name": "Winter Lineage Abdomen of the Abysm",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ff13cdda4715/models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/ff13cdda4715/models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_back1-6a51b0bbdca9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ff13cdda4715/models/items/broodmother/the_glacial_creeper_back/the_glacial_creeper_back_color_tga_446cfd0a.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8395:araknarok-broodmother-head",
+      "itemId": 8395,
+      "name": "Ancient Crown of the Arachnarok",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/27e06d65839a/models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/27e06d65839a/models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_head1-69cc2b83c86f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/27e06d65839a/models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head_color_tga_fe755af2.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:17915:witchs-grasp-head",
+      "itemId": 17915,
+      "name": "Arcane Infestation Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/926a2655e36c/models/items/broodmother/witchs_grasp_head/witchs_grasp_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/926a2655e36c/models/items/broodmother/witchs_grasp_head/witchs_grasp_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/witchs_grasp_head/witchs_grasp_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/witchs_grasp_head-e3c977749282.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/926a2655e36c/models/items/broodmother/witchs_grasp_head/witchs_grasp_head_color_tga_379d45fd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/witchs_grasp_head/witchs_grasp_head.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/witchs_grasp_head/witchs_grasp_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/bm_fall20_witches_grasp/bm_fall20_witches_grasp_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13272:ti9-cache-brood-mother-of-thousands-head",
+      "itemId": 13272,
+      "name": "Automaton Antiquity Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/48a3fa875783/models/items/broodmother/ti9_cache_brood_mother_of_thousands_head/ti9_cache_brood_mother_of_thousands_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/48a3fa875783/models/items/broodmother/ti9_cache_brood_mother_of_thousands_head/ti9_cache_brood_mother_of_thousands_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_mother_of_thousands_head/ti9_cache_brood_mother_of_thousands_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_mother_of_thousands_head-bf7c651bb405.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/48a3fa875783/models/items/broodmother/ti9_cache_brood_mother_of_thousands_head/ti9_cache_brood_mother_of_thousands_head_color_tga_3fe96622.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/ti9_cache_brood_mother_of_thousands_head/ti9_cache_brood_mother_of_thousands_head.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/ti9_cache_brood_mother_of_thousands_head/ti9_cache_brood_mother_of_thousands_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/brood_ti9/brood_ti9_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:101:broodmother-hair",
+      "itemId": 101,
+      "name": "Broodmothers Hair",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9fb48ab6bd63/models/heroes/broodmother/broodmother_hair.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/9fb48ab6bd63/models/heroes/broodmother/broodmother_hair.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/broodmother/broodmother_hair.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodmother_hair-694f233f30f0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9fb48ab6bd63/models/heroes/broodmother/broodmother_hair_color_psd_de091540.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5891:crown-of-perception",
+      "itemId": 5891,
+      "name": "Crown of Perception",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/2557d4ad2850/models/items/broodmother/crown_of_perception/crown_of_perception.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/2557d4ad2850/models/items/broodmother/crown_of_perception/crown_of_perception.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/crown_of_perception/crown_of_perception.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/crown_of_perception-3de301e4e855.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/2557d4ad2850/models/items/broodmother/crown_of_perception/crown_of_perception_color_tga_de313b1d.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8295:araknarok-broodmother-head",
+      "itemId": 8295,
+      "name": "Crown of the Arachnarok",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3862597f78fd/models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/3862597f78fd/models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_head-522d71b5c5b5.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3862597f78fd/models/items/broodmother/araknarok_broodmother_head/araknarok_broodmother_head_color_tga_fe755af2.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:4751:broodqueen-head-01",
+      "itemId": 4751,
+      "name": "Crown of the Brood Queen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/17355ac29161/models/items/broodmother/broodqueen_head_01/broodqueen_head_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/17355ac29161/models/items/broodmother/broodqueen_head_01/broodqueen_head_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/broodqueen_head_01/broodqueen_head_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodqueen_head_01-a7bc9c5812ba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/17355ac29161/models/items/broodmother/broodqueen_head_01/broodqueen_head_01_color_tga_3d35612e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/broodqueen_head_01/broodqueen_head_01.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/broodqueen_head_01/broodqueen_head_01.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8564:elder-blood-head",
+      "itemId": 8564,
+      "name": "Crown of the Gluttons Larder",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dfac903a1c00/models/items/broodmother/elder_blood_head/elder_blood_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/dfac903a1c00/models/items/broodmother/elder_blood_head/elder_blood_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/elder_blood_head/elder_blood_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/elder_blood_head-1dd69aba7bda.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dfac903a1c00/models/items/broodmother/elder_blood_head/elder_blood_head_color_tga_5ed8977c.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9562:ti8-brood-the-great-arachne-head",
+      "itemId": 9562,
+      "name": "Crown of the Silken Queen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/c98b2a83c372/models/items/broodmother/ti8_brood_the_great_arachne_head/ti8_brood_the_great_arachne_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/c98b2a83c372/models/items/broodmother/ti8_brood_the_great_arachne_head/ti8_brood_the_great_arachne_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti8_brood_the_great_arachne_head/ti8_brood_the_great_arachne_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brood_the_great_arachne_head-1ef7a9084ae7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/c98b2a83c372/models/items/broodmother/ti8_brood_the_great_arachne_head/ti8_brood_the_great_arachne_head_color_tga_5fc89b96.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9427:the-glacial-creeper-head",
+      "itemId": 9427,
+      "name": "Eyes of the Abysm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8a9ebfae0590/models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/8a9ebfae0590/models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_head-d98f7e964b00.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8a9ebfae0590/models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head_color_tga_f79c9c24.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8859:amber-queen-head-2",
+      "itemId": 8859,
+      "name": "Fangs of the Amber Queen",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7c65801be14d/models/items/broodmother/amber_queen_head_2/amber_queen_head_2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/7c65801be14d/models/items/broodmother/amber_queen_head_2/amber_queen_head_2.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/amber_queen_head_2/amber_queen_head_2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/amber_queen_head_2-ccfa5237421d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7c65801be14d/models/items/broodmother/amber_queen_head_2/amber_queen_head_2_color_tga_601123a1.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13693:dplus-malevolent-mother-head",
+      "itemId": 13693,
+      "name": "Malevolent Mother Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/c2bd68bcfa72/models/items/broodmother/dplus_malevolent_mother_head/dplus_malevolent_mother_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/c2bd68bcfa72/models/items/broodmother/dplus_malevolent_mother_head/dplus_malevolent_mother_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/dplus_malevolent_mother_head/dplus_malevolent_mother_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_malevolent_mother_head-abca747d2c8a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/c2bd68bcfa72/models/items/broodmother/dplus_malevolent_mother_head/dplus_malevolent_mother_head_color_tga_3544aece.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:27516:petrified-terror-head",
+      "itemId": 27516,
+      "name": "Rubyridged Recluse  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/f7028262d152/models/items/broodmother/petrified_terror_head/petrified_terror_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/f7028262d152/models/items/broodmother/petrified_terror_head/petrified_terror_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/petrified_terror_head/petrified_terror_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/petrified_terror_head-973e8ced6fe4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/f7028262d152/models/items/broodmother/petrified_terror_head/petrified_terror_head_color_tga_44cd5cb0.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5515:nephropid-kalkriese",
+      "itemId": 5515,
+      "name": "Steelweb Countenance",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e36007b30ccd/models/items/broodmother/nephropid_kalkriese/nephropid_kalkriese.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/e36007b30ccd/models/items/broodmother/nephropid_kalkriese/nephropid_kalkriese.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/nephropid_kalkriese/nephropid_kalkriese.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nephropid_kalkriese-65f28b137eec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e36007b30ccd/models/items/broodmother/nephropid_kalkriese/nephropid_kalkriese_color_tga_a25a8f83.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:34307:brood-purgatory-queen-head",
+      "itemId": 34307,
+      "name": "The Mournless Mask",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e7c65e916526/models/items/broodmother/purgatory_queen/brood_purgatory_queen_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/e7c65e916526/models/items/broodmother/purgatory_queen/brood_purgatory_queen_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/purgatory_queen/brood_purgatory_queen_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodmother_head_01-1f5d6f8df235.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/e7c65e916526/models/items/broodmother/purgatory_queen/broodmother_head_01_color_tga_f0c86a5c.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:33378:bride-of-the-web-head",
+      "itemId": 33378,
+      "name": "The White Widow  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6629a7236498/models/items/broodmother/bride_of_the_web_head/bride_of_the_web_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/6629a7236498/models/items/broodmother/bride_of_the_web_head/bride_of_the_web_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/bride_of_the_web_head/bride_of_the_web_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bride_of_the_web_head-202ee13571e9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6629a7236498/models/items/broodmother/bride_of_the_web_head/bride_of_the_web_head_color_png_745ddb7.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/bride_of_the_web_head/bride_of_the_web_head.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/bride_of_the_web_head/bride_of_the_web_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_broodmother/broodmother_portrait.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:7616:virulent-matriarchs-head",
+      "itemId": 7616,
+      "name": "Virulent Matriarchs Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3331839b8fba/models/items/broodmother/virulent_matriarchs_head/virulent_matriarchs_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/3331839b8fba/models/items/broodmother/virulent_matriarchs_head/virulent_matriarchs_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/virulent_matriarchs_head/virulent_matriarchs_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/virulent_matriarchs_head-e7102ee1b2d2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3331839b8fba/models/items/broodmother/virulent_matriarchs_head/virulent_matriarchs_head_color_tga_90a1b0b9.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:23456:firemother-head",
+      "itemId": 23456,
+      "name": "Volcanic Sanctuary  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/53707cdcb5e1/models/items/broodmother/firemother_head/firemother_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/53707cdcb5e1/models/items/broodmother/firemother_head/firemother_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/firemother_head/firemother_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firemother_head-e00472bc8f5d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/53707cdcb5e1/models/items/broodmother/firemother_head/firemother_head_color_tga_d6a03002.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/firemother_head/firemother_head.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/firemother_head/firemother_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/broodmother_2022_themed/broodmother_2022_themed_ambient_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13386:ti9-cache-brood-venomous-caressin-head",
+      "itemId": 13386,
+      "name": "Vote Only TI9 Cache Brood Venomous Caressin Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4443f6d8167f/models/items/broodmother/ti9_cache_brood_venomous_caressin_head/ti9_cache_brood_venomous_caressin_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/4443f6d8167f/models/items/broodmother/ti9_cache_brood_venomous_caressin_head/ti9_cache_brood_venomous_caressin_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_venomous_caressin_head/ti9_cache_brood_venomous_caressin_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_venomous_caressin_head-fa643566d20f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4443f6d8167f/models/items/broodmother/ti9_cache_brood_venomous_caressin_head/ti9_cache_brood_venomous_caressin_head_color_psd_ab917fad.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:19779:strangling-gloom-head",
+      "itemId": 19779,
+      "name": "Widow of the Undermount Gloom  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/f36ce4712906/models/items/broodmother/strangling_gloom_head/strangling_gloom_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/f36ce4712906/models/items/broodmother/strangling_gloom_head/strangling_gloom_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/strangling_gloom_head/strangling_gloom_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/strangling_gloom_head-0d8e24a9153a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/f36ce4712906/models/items/broodmother/strangling_gloom_head/strangling_gloom_head_color_png_6b5c8c0a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/strangling_gloom_head/strangling_gloom_head.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/strangling_gloom_head/strangling_gloom_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/bm_cc_2022_head/bm_cc_2022_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:22827:the-glacial-creeper-head",
+      "itemId": 22827,
+      "name": "Winter Lineage Eyes of the Abysm",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head Accessory",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7d5b79b53ccf/models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/7d5b79b53ccf/models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_head1-d5150abc9577.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7d5b79b53ccf/models/items/broodmother/the_glacial_creeper_head/the_glacial_creeper_head_color_tga_f79c9c24.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8399:araknarok-broodmother-legs",
+      "itemId": 8399,
+      "name": "Ancient Legs of the Arachnarok",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ae2efd1ab15b/models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/ae2efd1ab15b/models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_legs1-5349a6cc34ea.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ae2efd1ab15b/models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs_color_tga_b975b9b.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:17916:witchs-grasp-legs",
+      "itemId": 17916,
+      "name": "Arcane Infestation Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7820964cef0b/models/items/broodmother/witchs_grasp_legs/witchs_grasp_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/7820964cef0b/models/items/broodmother/witchs_grasp_legs/witchs_grasp_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/witchs_grasp_legs/witchs_grasp_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/witchs_grasp_legs-4317c27936ba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/7820964cef0b/models/items/broodmother/witchs_grasp_legs/witchs_grasp_legs_color_tga_ec43f134.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13271:ti9-cache-brood-mother-of-thousands-legs",
+      "itemId": 13271,
+      "name": "Automaton Antiquity Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/1d2558499fb3/models/items/broodmother/ti9_cache_brood_mother_of_thousands_legs/ti9_cache_brood_mother_of_thousands_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/1d2558499fb3/models/items/broodmother/ti9_cache_brood_mother_of_thousands_legs/ti9_cache_brood_mother_of_thousands_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_mother_of_thousands_legs/ti9_cache_brood_mother_of_thousands_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_mother_of_thousands_legs-832e9582358a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/1d2558499fb3/models/items/broodmother/ti9_cache_brood_mother_of_thousands_legs/ti9_cache_brood_mother_of_thousands_legs_color_tga_3e3ed66b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/ti9_cache_brood_mother_of_thousands_legs/ti9_cache_brood_mother_of_thousands_legs.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/ti9_cache_brood_mother_of_thousands_legs/ti9_cache_brood_mother_of_thousands_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/brood_ti9/brood_ti9_legs_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:102:broodmother-legs",
+      "itemId": 102,
+      "name": "Broodmothers Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/00972f800efe/models/heroes/broodmother/broodmother_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/00972f800efe/models/heroes/broodmother/broodmother_legs.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/broodmother/broodmother_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodmother_legs-b3c35d7adf24.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/00972f800efe/models/heroes/broodmother/broodmother_legs_color_psd_759df604.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5892:legs-of-perception",
+      "itemId": 5892,
+      "name": "Legs of Perception",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dd7ea4450412/models/items/broodmother/legs_of_perception/legs_of_perception.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/dd7ea4450412/models/items/broodmother/legs_of_perception/legs_of_perception.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/legs_of_perception/legs_of_perception.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/legs_of_perception-20565f7583c3.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dd7ea4450412/models/items/broodmother/legs_of_perception/legs_of_perception_color_tga_681d4f7d.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9424:the-glacial-creeper-legs",
+      "itemId": 9424,
+      "name": "Legs of the Abysm",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3be9cddfdef8/models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/3be9cddfdef8/models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_legs-188c76f4a0c4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/3be9cddfdef8/models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs_color_tga_eb1eb97c.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8858:amber-queen-legs-2",
+      "itemId": 8858,
+      "name": "Legs of the Amber Queen",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/0589ab01600d/models/items/broodmother/amber_queen_legs_2/amber_queen_legs_2.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/0589ab01600d/models/items/broodmother/amber_queen_legs_2/amber_queen_legs_2.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/amber_queen_legs_2/amber_queen_legs_2.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/amber_queen_legs_2-877de1073415.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/0589ab01600d/models/items/broodmother/amber_queen_legs_2/amber_queen_legs_2_color_tga_ceddf07b.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8303:araknarok-broodmother-legs",
+      "itemId": 8303,
+      "name": "Legs of the Arachnarok",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/706ff6ce98c1/models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/706ff6ce98c1/models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_legs-347d9db3399d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/706ff6ce98c1/models/items/broodmother/araknarok_broodmother_legs/araknarok_broodmother_legs_color_tga_b975b9b.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:4750:broodqueen-legs-01",
+      "itemId": 4750,
+      "name": "Legs of the Brood Queen",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4a70d9b9cc11/models/items/broodmother/broodqueen_legs_01/broodqueen_legs_01.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/4a70d9b9cc11/models/items/broodmother/broodqueen_legs_01/broodqueen_legs_01.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/broodqueen_legs_01/broodqueen_legs_01.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodqueen_legs_01-5cc299c0e2fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4a70d9b9cc11/models/items/broodmother/broodqueen_legs_01/broodqueen_legs_01_color_tga_3f84fe75.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/broodqueen_legs_01/broodqueen_legs_01.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/broodqueen_legs_01/broodqueen_legs_01.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_lina/portrait_lina.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8563:elder-blood-legs",
+      "itemId": 8563,
+      "name": "Legs of the Gluttons Larder",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ed33fb1d22c2/models/items/broodmother/elder_blood_legs/elder_blood_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/ed33fb1d22c2/models/items/broodmother/elder_blood_legs/elder_blood_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/elder_blood_legs/elder_blood_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/elder_blood_legs-103350bbacfd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/ed33fb1d22c2/models/items/broodmother/elder_blood_legs/elder_blood_legs_color_tga_dd4ea2e0.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9807:ti8-brood-the-great-arachne-legs",
+      "itemId": 9807,
+      "name": "Legs of the Silken Queen",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/40655660ee0a/models/items/broodmother/ti8_brood_the_great_arachne_legs/ti8_brood_the_great_arachne_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/40655660ee0a/models/items/broodmother/ti8_brood_the_great_arachne_legs/ti8_brood_the_great_arachne_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti8_brood_the_great_arachne_legs/ti8_brood_the_great_arachne_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brood_the_great_arachne_legs-11e8bdd06642.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/40655660ee0a/models/items/broodmother/ti8_brood_the_great_arachne_legs/ti8_brood_the_great_arachne_legs_color_tga_ddc22df3.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:23344:bm-2022-immortal-legs",
+      "itemId": 23344,
+      "name": "Limbs of Lycosidae",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/788231bf606a/models/items/broodmother/bm_2022_immortal_legs/bm_2022_immortal_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/788231bf606a/models/items/broodmother/bm_2022_immortal_legs/bm_2022_immortal_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/bm_2022_immortal_legs/bm_2022_immortal_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bm_2022_immortal_legs-9d53b1527e40.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/788231bf606a/models/items/broodmother/bm_2022_immortal_legs/bm_2022_immortal_legs_color_png_9e2afe6b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/bm_2022_immortal_legs/bm_2022_immortal_legs.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/bm_2022_immortal_legs/bm_2022_immortal_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/broodmother_2022_immortal/broodmother_2022_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/broodmother/broodmother_2022_immortal/broodmother_2022_immortal_web.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/broodmother/broodmother_2022_immortal/broodmother_2022_immortal_web_spin_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_broodmother/broodmother_spin_web_cast.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_broodmother/broodmother_web.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13220:dplus-malevolent-mother-legs",
+      "itemId": 13220,
+      "name": "Malevolent Mother Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dd7ea81ab418/models/items/broodmother/dplus_malevolent_mother_legs/dplus_malevolent_mother_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/dd7ea81ab418/models/items/broodmother/dplus_malevolent_mother_legs/dplus_malevolent_mother_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/dplus_malevolent_mother_legs/dplus_malevolent_mother_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_malevolent_mother_legs-f2c9a0d1086e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dd7ea81ab418/models/items/broodmother/dplus_malevolent_mother_legs/dplus_malevolent_mother_legs_color_tga_24e2b990.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:27518:petrified-terror-legs",
+      "itemId": 27518,
+      "name": "Rubyridged Recluse  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/a2e0a1003650/models/items/broodmother/petrified_terror_legs/petrified_terror_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/a2e0a1003650/models/items/broodmother/petrified_terror_legs/petrified_terror_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/petrified_terror_legs/petrified_terror_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/petrified_terror_legs-4f974b8f0136.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/a2e0a1003650/models/items/broodmother/petrified_terror_legs/petrified_terror_legs_color_tga_57d9cc82.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5516:nephropid-ocrea",
+      "itemId": 5516,
+      "name": "Steelweb Sheaths",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/0b9a38ade1ef/models/items/broodmother/nephropid_ocrea/nephropid_ocrea.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/0b9a38ade1ef/models/items/broodmother/nephropid_ocrea/nephropid_ocrea.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/nephropid_ocrea/nephropid_ocrea.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nephropid_ocrea-e13e36b2669b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/0b9a38ade1ef/models/items/broodmother/nephropid_ocrea/nephropid_ocrea_color_tga_b80b892d.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:36242:brood-purgatory-queen-legs",
+      "itemId": 36242,
+      "name": "The Gilded Tarsi",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8664563d90fa/models/items/broodmother/purgatory_queen/brood_purgatory_queen_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/8664563d90fa/models/items/broodmother/purgatory_queen/brood_purgatory_queen_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/purgatory_queen/brood_purgatory_queen_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodmother_legs_01-6ca8fa3c5d53.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8664563d90fa/models/items/broodmother/purgatory_queen/broodmother_legs_01_color_tga_e84e315.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:33379:bride-of-the-web-legs",
+      "itemId": 33379,
+      "name": "The White Widow  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dc905ec3d1d5/models/items/broodmother/bride_of_the_web_legs/bride_of_the_web_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/dc905ec3d1d5/models/items/broodmother/bride_of_the_web_legs/bride_of_the_web_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/bride_of_the_web_legs/bride_of_the_web_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bride_of_the_web_legs-8bc5bc0987dc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/dc905ec3d1d5/models/items/broodmother/bride_of_the_web_legs/bride_of_the_web_legs_color_png_7276935a.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5546:thorned-trochanter-of-despite",
+      "itemId": 5546,
+      "name": "Thorned Skitterers of Despite",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4184b44ce44e/models/items/broodmother/thorned_trochanter_of_despite/thorned_trochanter_of_despite.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/4184b44ce44e/models/items/broodmother/thorned_trochanter_of_despite/thorned_trochanter_of_despite.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/thorned_trochanter_of_despite/thorned_trochanter_of_despite.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/thorned_trochanter_of_despite-40ff8b0883ec.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4184b44ce44e/models/items/broodmother/thorned_trochanter_of_despite/thorned_trochanter_of_despite_color_tga_339d459d.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:7617:virulent-matriarchs-legs",
+      "itemId": 7617,
+      "name": "Virulent Matriarchs Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/93cb55086c01/models/items/broodmother/virulent_matriarchs_legs/virulent_matriarchs_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/93cb55086c01/models/items/broodmother/virulent_matriarchs_legs/virulent_matriarchs_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/virulent_matriarchs_legs/virulent_matriarchs_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/virulent_matriarchs_legs-ab721e45babd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/93cb55086c01/models/items/broodmother/virulent_matriarchs_legs/virulent_matriarchs_legs_color_tga_160d87a5.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:23457:firemother-legs",
+      "itemId": 23457,
+      "name": "Volcanic Sanctuary  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/b1a9ac67f4e7/models/items/broodmother/firemother_legs/firemother_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/b1a9ac67f4e7/models/items/broodmother/firemother_legs/firemother_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/firemother_legs/firemother_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firemother_legs-dedfc3e521a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/b1a9ac67f4e7/models/items/broodmother/firemother_legs/firemother_legs_color_tga_897fd603.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/firemother_legs/firemother_legs.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/firemother_legs/firemother_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/broodmother_2022_themed/broodmother_2022_themed_ambient_legs.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13387:ti9-cache-brood-venomous-caressin-legs",
+      "itemId": 13387,
+      "name": "Vote Only TI9 Cache Brood Venomous Caressin Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/335d6aab62fe/models/items/broodmother/ti9_cache_brood_venomous_caressin_legs/ti9_cache_brood_venomous_caressin_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/335d6aab62fe/models/items/broodmother/ti9_cache_brood_venomous_caressin_legs/ti9_cache_brood_venomous_caressin_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_venomous_caressin_legs/ti9_cache_brood_venomous_caressin_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_venomous_caressin_legs-323e9d053791.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/335d6aab62fe/models/items/broodmother/ti9_cache_brood_venomous_caressin_legs/ti9_cache_brood_venomous_caressin_legs_color_psd_4c411f69.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:19777:strangling-gloom-legs",
+      "itemId": 19777,
+      "name": "Widow of the Undermount Gloom  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/97847fd358ba/models/items/broodmother/strangling_gloom_legs/strangling_gloom_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/97847fd358ba/models/items/broodmother/strangling_gloom_legs/strangling_gloom_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/strangling_gloom_legs/strangling_gloom_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/strangling_gloom_legs-53699633486f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/97847fd358ba/models/items/broodmother/strangling_gloom_legs/strangling_gloom_legs_color_png_aff2a173.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:22803:the-glacial-creeper-legs",
+      "itemId": 22803,
+      "name": "Winter Lineage Legs of the Abysm",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/cf5516cffca1/models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/cf5516cffca1/models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_legs1-e24850dce7fd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/cf5516cffca1/models/items/broodmother/the_glacial_creeper_legs/the_glacial_creeper_legs_color_tga_eb1eb97c.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8397:araknarok-broodmother-misc",
+      "itemId": 8397,
+      "name": "Ancient Pedipalps of the Arachnarok",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:genuine",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/613aa5663959/models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/613aa5663959/models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_misc1-002d1872a232.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/613aa5663959/models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc_color_tga_4c06469a.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9425:the-glacial-creeper-misc",
+      "itemId": 9425,
+      "name": "Anterior of the Abysm",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9e3582bc6cd6/models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/9e3582bc6cd6/models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_misc-0e7cc33d05ae.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9e3582bc6cd6/models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc_color_tga_c2ef53f.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:17919:witchs-grasp-misc",
+      "itemId": 17919,
+      "name": "Arcane Infestation Candles",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/14ce999fee57/models/items/broodmother/witchs_grasp_misc/witchs_grasp_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/14ce999fee57/models/items/broodmother/witchs_grasp_misc/witchs_grasp_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/witchs_grasp_misc/witchs_grasp_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/witchs_grasp_misc-e6aa42067403.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/14ce999fee57/models/items/broodmother/witchs_grasp_misc/witchs_grasp_misc_color_tga_1220b6fd.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/broodmother/witchs_grasp_misc/witchs_grasp_misc.vmdl",
+        "modelPaths": [
+          "models/items/broodmother/witchs_grasp_misc/witchs_grasp_misc.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/broodmother/bm_fall20_witches_grasp/bm_fall20_witches_grasp_misc_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13270:ti9-cache-brood-mother-of-thousands-misc",
+      "itemId": 13270,
+      "name": "Automaton Antiquity Overgrowth",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/bf97e55b04b0/models/items/broodmother/ti9_cache_brood_mother_of_thousands_misc/ti9_cache_brood_mother_of_thousands_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/bf97e55b04b0/models/items/broodmother/ti9_cache_brood_mother_of_thousands_misc/ti9_cache_brood_mother_of_thousands_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_mother_of_thousands_misc/ti9_cache_brood_mother_of_thousands_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_mother_of_thousands_misc-2b80bb4aa67a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/bf97e55b04b0/models/items/broodmother/ti9_cache_brood_mother_of_thousands_misc/ti9_cache_brood_mother_of_thousands_misc_color_tga_2a08b6c8.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8860:amber-queen-misc-1",
+      "itemId": 8860,
+      "name": "Carapace of the Amber Queen",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/680141b2ec72/models/items/broodmother/amber_queen_misc_1/amber_queen_misc_1.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/680141b2ec72/models/items/broodmother/amber_queen_misc_1/amber_queen_misc_1.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/amber_queen_misc_1/amber_queen_misc_1.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/amber_queen_misc_1-b1339e557d60.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/680141b2ec72/models/items/broodmother/amber_queen_misc_1/amber_queen_misc_1_color_tga_de821231.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8562:elder-blood-misc",
+      "itemId": 8562,
+      "name": "Cowl of the Gluttons Larder",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6a75ea84db87/models/items/broodmother/elder_blood_misc/elder_blood_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/6a75ea84db87/models/items/broodmother/elder_blood_misc/elder_blood_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/elder_blood_misc/elder_blood_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/elder_blood_misc-ea8cacbf0557.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6a75ea84db87/models/items/broodmother/elder_blood_misc/elder_blood_misc_color_tga_1ce643bd.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13219:dplus-malevolent-mother-misc",
+      "itemId": 13219,
+      "name": "Malevolent Mother Armor",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/841d579ecee5/models/items/broodmother/dplus_malevolent_mother_misc/dplus_malevolent_mother_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/841d579ecee5/models/items/broodmother/dplus_malevolent_mother_misc/dplus_malevolent_mother_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/dplus_malevolent_mother_misc/dplus_malevolent_mother_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dplus_malevolent_mother_misc-a1ad0ddb453a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/841d579ecee5/models/items/broodmother/dplus_malevolent_mother_misc/dplus_malevolent_mother_misc_color_tga_c2b85fc3.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:9804:ti8-brood-the-great-arachne-misc",
+      "itemId": 9804,
+      "name": "Mandibles of the Silken Queen",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8665d6a9e097/models/items/broodmother/ti8_brood_the_great_arachne_misc/ti8_brood_the_great_arachne_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/8665d6a9e097/models/items/broodmother/ti8_brood_the_great_arachne_misc/ti8_brood_the_great_arachne_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti8_brood_the_great_arachne_misc/ti8_brood_the_great_arachne_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti8_brood_the_great_arachne_misc-8a517f2ffca9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/8665d6a9e097/models/items/broodmother/ti8_brood_the_great_arachne_misc/ti8_brood_the_great_arachne_misc_color_tga_207de88.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:8296:araknarok-broodmother-misc",
+      "itemId": 8296,
+      "name": "Pedipalps of the Arachnarok",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:uncommon"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6306105ddfeb/models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/6306105ddfeb/models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/araknarok_broodmother_misc-635ecccfe256.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/6306105ddfeb/models/items/broodmother/araknarok_broodmother_misc/araknarok_broodmother_misc_color_tga_4c06469a.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:27521:petrified-terror-misc",
+      "itemId": 27521,
+      "name": "Rubyridged Recluse  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/73f3cb189724/models/items/broodmother/petrified_terror_misc/petrified_terror_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/73f3cb189724/models/items/broodmother/petrified_terror_misc/petrified_terror_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/petrified_terror_misc/petrified_terror_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/petrified_terror_misc-3faef878272a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/73f3cb189724/models/items/broodmother/petrified_terror_misc/petrified_terror_misc_color_tga_9a51f99.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:5514:nephropid-cuirass",
+      "itemId": 5514,
+      "name": "Steelweb Cuirass",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/bfffb9857391/models/items/broodmother/nephropid_cuirass/nephropid_cuirass.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/bfffb9857391/models/items/broodmother/nephropid_cuirass/nephropid_cuirass.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/nephropid_cuirass/nephropid_cuirass.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/nephropid_cuirass-f4769d3b66e4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/bfffb9857391/models/items/broodmother/nephropid_cuirass/nephropid_cuirass_color_tga_62b694c7.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:36241:brood-purgatory-queen-misc",
+      "itemId": 36241,
+      "name": "The Captives Crown",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/d2e1992054f4/models/items/broodmother/purgatory_queen/brood_purgatory_queen_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/d2e1992054f4/models/items/broodmother/purgatory_queen/brood_purgatory_queen_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/purgatory_queen/brood_purgatory_queen_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/broodmother_misc_01-d8da6c48cbce.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/d2e1992054f4/models/items/broodmother/purgatory_queen/broodmother_misc_01_color_tga_d6f72f1a.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:33380:bride-of-the-web-misc",
+      "itemId": 33380,
+      "name": "The White Widow  Body",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9e1d4d568a97/models/items/broodmother/bride_of_the_web_misc/bride_of_the_web_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/9e1d4d568a97/models/items/broodmother/bride_of_the_web_misc/bride_of_the_web_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/bride_of_the_web_misc/bride_of_the_web_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/bride_of_the_web_misc-568831225045.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/9e1d4d568a97/models/items/broodmother/bride_of_the_web_misc/bride_of_the_web_misc_color_png_eca5ec62.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:7618:virulent-matriarchs-boils",
+      "itemId": 7618,
+      "name": "Virulent Matriarchs Boils",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/470c7ed0444a/models/items/broodmother/virulent_matriarchs_boils/virulent_matriarchs_boils.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/470c7ed0444a/models/items/broodmother/virulent_matriarchs_boils/virulent_matriarchs_boils.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/virulent_matriarchs_boils/virulent_matriarchs_boils.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/virulent_matriarchs_boils-565b798a3521.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/470c7ed0444a/models/items/broodmother/virulent_matriarchs_boils/virulent_matriarchs_boils_color_tga_be6254bd.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:23458:firemother-misc",
+      "itemId": 23458,
+      "name": "Volcanic Sanctuary  Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4cf2a87fb87e/models/items/broodmother/firemother_misc/firemother_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/4cf2a87fb87e/models/items/broodmother/firemother_misc/firemother_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/firemother_misc/firemother_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/firemother_misc-9c0bc0e1ece0.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/4cf2a87fb87e/models/items/broodmother/firemother_misc/firemother_misc_color_tga_6273866f.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:13388:ti9-cache-brood-venomous-caressin-misc",
+      "itemId": 13388,
+      "name": "Vote Only TI9 Cache Brood Venomous Caressin Misc",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/a6428112daea/models/items/broodmother/ti9_cache_brood_venomous_caressin_misc/ti9_cache_brood_venomous_caressin_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/a6428112daea/models/items/broodmother/ti9_cache_brood_venomous_caressin_misc/ti9_cache_brood_venomous_caressin_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/ti9_cache_brood_venomous_caressin_misc/ti9_cache_brood_venomous_caressin_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/ti9_cache_brood_venomous_caressin_misc-c04ec12f9b4f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/a6428112daea/models/items/broodmother/ti9_cache_brood_venomous_caressin_misc/ti9_cache_brood_venomous_caressin_misc_color_psd_dd256eab.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:19776:strangling-gloom-misc",
+      "itemId": 19776,
+      "name": "Widow of the Undermount Gloom  Anterior",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/220d8d236b7e/models/items/broodmother/strangling_gloom_misc/strangling_gloom_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/220d8d236b7e/models/items/broodmother/strangling_gloom_misc/strangling_gloom_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/strangling_gloom_misc/strangling_gloom_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/strangling_gloom_misc-ec6c4bfea647.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/220d8d236b7e/models/items/broodmother/strangling_gloom_misc/strangling_gloom_misc_color_png_9a3c7974.png"
+    },
+    {
+      "id": "npc_dota_hero_broodmother:item-model:22804:the-glacial-creeper-misc",
+      "itemId": 22804,
+      "name": "Winter Lineage Anterior of the Abysm",
+      "slot": "misc",
+      "slotDisplayName": "LoadoutSlot Misc",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/2d0285737e64/models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_broodmother/2d0285737e64/models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc.glb"
+      ],
+      "modelPaths": [
+        "models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_glacial_creeper_misc1-8fd13d65c229.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_broodmother/2d0285737e64/models/items/broodmother/the_glacial_creeper_misc/the_glacial_creeper_misc_color_tga_c2ef53f.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_broodmother:core-set:20999:amber-queen",
+      "name": "Amber Queen",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        8857,
+        8858,
+        8859,
+        8860,
+        8862
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/amber_queen_loading-ee511c1c9539.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21025:ancient-arachnarok",
+      "name": "Ancient Arachnarok",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        8392,
+        8394,
+        8395,
+        8397,
+        8399
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "quality:genuine",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/araknarok_broodmother_araknarok_broodmother_loading_screen-323edaada71a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:20962:arachnarok",
+      "name": "Arachnarok",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        8288,
+        8295,
+        8296,
+        8298,
+        8303
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/araknarok_broodmother_araknarok_broodmother_loading_screen-323edaada71a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21720:arcane-infestation",
+      "name": "Arcane Infestation",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        17915,
+        17916,
+        17918,
+        17919,
+        17920
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 14,
+      "previewUrl": "/larimods-data/v1/icons/witchs_grasp_head-e3c977749282.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21377:automaton-antiquity",
+      "name": "Automaton Antiquity",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        13269,
+        13270,
+        13271,
+        13272,
+        13273
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 12,
+      "previewUrl": "/larimods-data/v1/icons/ti9_cache_brood_mother_of_thousands_misc-2b80bb4aa67a.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21158:epoch-of-the-abysm",
+      "name": "Epoch of the Abysm",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        9423,
+        9424,
+        9425,
+        9426,
+        9427
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/the_glacial_creeper_legs-188c76f4a0c4.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21041:feast-of-the-gluttons-larder",
+      "name": "Feast of the Gluttons Larder",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        7939,
+        8562,
+        8563,
+        8564,
+        8565
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/elder_blood_elder_blood_loading_screen-9ac10bc8428d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:36240:golden-orbweaver",
+      "name": "Golden Orbweaver",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        34296,
+        34307,
+        36239,
+        36241,
+        36242
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "golden",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/broodmother_head_01-1f5d6f8df235.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21104:lycosidaes-favor",
+      "name": "Lycosidaes Favor",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        103,
+        8631
+      ],
+      "sourceItemIds": [
+        9090,
+        9091
+      ],
+      "slots": [
+        "ability1",
+        "back"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/lycosidae_back-e30f6d39f5d0.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21439:malevolent-mother",
+      "name": "Malevolent Mother",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        13182,
+        13219,
+        13220,
+        13692,
+        13693
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/dplus_malevolent_mother_ls-e41276c81725.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21191:pattern-of-the-silken-queen",
+      "name": "Pattern of the Silken Queen",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        9562,
+        9797,
+        9804,
+        9807,
+        9808
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/the_great_arachne_loadingscreen_the_great_arachne-d9fe2d5fc944.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:27522:rubyridged-recluse",
+      "name": "Rubyridged Recluse",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        27516,
+        27517,
+        27518,
+        27519,
+        27521
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/petrified_terror_loading_screen-9c89a959403f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:20277:steelweb-of-pytheos-set",
+      "name": "Steelweb of Pytheos Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565
+      ],
+      "sourceItemIds": [
+        5513,
+        5514,
+        5515,
+        5516
+      ],
+      "slots": [
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/nephropid_abdominal_plate-7c8e9d70a81e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:20105:the-brood-queen-set",
+      "name": "The Brood Queen Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103
+      ],
+      "sourceItemIds": [
+        4750,
+        4751,
+        4752
+      ],
+      "slots": [
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/broodqueen_legs_01-5cc299c0e2fd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:33382:the-white-widow",
+      "name": "The White Widow",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        33377,
+        33378,
+        33379,
+        33380,
+        33381
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/bride_of_the_web_back-d34bbcc50d2c.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:20721:virulent-matriach",
+      "name": "Virulent Matriach",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        7615,
+        7616,
+        7617,
+        7618,
+        7619
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/virulent_matriach_set-fe2c063364b2.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:23654:volcanic-sanctuary",
+      "name": "Volcanic Sanctuary",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        23455,
+        23456,
+        23457,
+        23458,
+        23459
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/firemother_back-69d4bdf643e7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21398:vote-only-ti9-cache-brood-venomous-caressin",
+      "name": "Vote Only TI9 Cache Brood Venomous Caressin",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        13384,
+        13385,
+        13386,
+        13387,
+        13388
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:20278:web-of-thorns-set",
+      "name": "Web of Thorns Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        102,
+        103
+      ],
+      "sourceItemIds": [
+        5545,
+        5546
+      ],
+      "slots": [
+        "back",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 2,
+      "assetFiles": 3,
+      "previewUrl": "/larimods-data/v1/icons/thorned_abdomen_of_malice-95b695157329.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:20347:webs-of-perception-set",
+      "name": "Webs of Perception Set",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        8631
+      ],
+      "sourceItemIds": [
+        5854,
+        5891,
+        5892,
+        5900
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "rarity:uncommon",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 6,
+      "previewUrl": "/larimods-data/v1/icons/abdomen_of_perception-f01d2563a03f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:21951:widow-of-the-undermount-gloom",
+      "name": "Widow of the Undermount Gloom",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        19775,
+        19776,
+        19777,
+        19779,
+        19780
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 11,
+      "previewUrl": "/larimods-data/v1/icons/strangling_gloom_misc-ec6c4bfea647.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_broodmother:core-set:22828:winter-lineage-epoch-of-the-abysm",
+      "name": "Winter Lineage Epoch of the Abysm",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        101,
+        102,
+        103,
+        565,
+        8631
+      ],
+      "sourceItemIds": [
+        22802,
+        22803,
+        22804,
+        22805,
+        22827
+      ],
+      "slots": [
+        "ability1",
+        "back",
+        "head",
+        "legs",
+        "misc"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 5,
+      "assetFiles": 10,
+      "previewUrl": "/larimods-data/v1/icons/the_glacial_creeper_legs1-e24850dce7fd.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 12894637,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 106
+  }
+}

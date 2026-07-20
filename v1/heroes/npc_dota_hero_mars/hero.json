@@ -1,0 +1,1982 @@
+{
+  "heroId": "npc_dota_hero_mars",
+  "sourceHeroId": "npc_dota_hero_mars",
+  "variantId": "default",
+  "heroName": "Mars",
+  "heroSlug": "mars",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mars.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_mars/2cd54bed4f5b/models/heroes/mars/mars.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "itemId": 670,
+      "name": "Mars Upper Body",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/79dc6a0d7e9a/models/heroes/mars/mars_upper.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/79dc6a0d7e9a/models/heroes/mars/mars_upper.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_upper.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/79dc6a0d7e9a/models/heroes/mars/mars_smoke_color_psd_f75e5a01.png"
+    },
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 671,
+      "name": "Mars Lower Body",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/99cf55449731/models/heroes/mars/mars_lower.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/99cf55449731/models/heroes/mars/mars_lower.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_lower.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/99cf55449731/models/heroes/mars/mars_lower_color_psd_4e655644.png"
+    },
+    {
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "itemId": 672,
+      "name": "Mars Shield",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1dad77152ca7/models/heroes/mars/mars_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/1dad77152ca7/models/heroes/mars/mars_shield.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_shield.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1dad77152ca7/models/heroes/mars/mars_shield_color_psd_a1e365a3.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_mars:item-model:14916:mars-arena-champion-armor",
+      "itemId": 14916,
+      "name": "Arena Champion Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/9e1f871b98b8/models/items/mars/mars_arena_champion_armor/mars_arena_champion_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/9e1f871b98b8/models/items/mars/mars_arena_champion_armor/mars_arena_champion_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_arena_champion_armor/mars_arena_champion_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_arena_champion_armor-358b2188c078.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/9e1f871b98b8/models/items/mars/mars_arena_champion_armor/mars_arena_champion_armor_color_png_e661297e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_arena_champion_armor/mars_arena_champion_armor.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_arena_champion_armor/mars_arena_champion_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_fall20_arena_champion/mars_fall20_arena_champion_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14763:mars-fury-of-war-god-armor",
+      "itemId": 14763,
+      "name": "Forgotten Fate  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/a7bf239262f6/models/items/mars/mars_fury_of_war_god_armor/mars_fury_of_war_god_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/a7bf239262f6/models/items/mars/mars_fury_of_war_god_armor/mars_fury_of_war_god_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_fury_of_war_god_armor/mars_fury_of_war_god_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_fury_of_war_god_armor-35e4968bc97e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/a7bf239262f6/models/items/mars/mars_fury_of_war_god_armor/mars_fury_of_war_god_armor_color_tga_eaefb81e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_fury_of_war_god_armor/mars_fury_of_war_god_armor.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_fury_of_war_god_armor/mars_fury_of_war_god_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_war_god/mars_war_god_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14881:mars-blackstone-ares-armor",
+      "itemId": 14881,
+      "name": "Forsworn Legacy  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/09533a3bc296/models/items/mars/mars_blackstone_ares_armor/mars_blackstone_ares_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/09533a3bc296/models/items/mars/mars_blackstone_ares_armor/mars_blackstone_ares_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_blackstone_ares_armor/mars_blackstone_ares_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_blackstone_ares_armor-35d3f11f5c1f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/09533a3bc296/models/items/mars/mars_blackstone_ares_armor/mars_blackstone_ares_armor_color_tga_ddfdb607.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_blackstone_ares_armor/mars_blackstone_ares_armor.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_blackstone_ares_armor/mars_blackstone_ares_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_blackstone_ares/mars_blackstone_ares_armor.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:17676:mars-upper",
+      "itemId": 17676,
+      "name": "Mars Diretide Shimmer Upper Body",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/2615eb9d6723/models/heroes/mars/mars_upper.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/2615eb9d6723/models/heroes/mars/mars_upper.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_upper.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_upper1-160cb7095f06.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/2615eb9d6723/models/heroes/mars/mars_smoke_color_psd_f75e5a01.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:29335:war-eagle-armor",
+      "itemId": 29335,
+      "name": "Mars Gallus  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/a559f0e82572/models/items/mars/war_eagle_armor/war_eagle_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/a559f0e82572/models/items/mars/war_eagle_armor/war_eagle_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/war_eagle_armor/war_eagle_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/war_eagle_armor-a118d5c06f5d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/a559f0e82572/models/items/mars/war_eagle_armor/war_eagle_armor_color_tga_eb0335dd.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:670:mars-upper",
+      "itemId": 670,
+      "name": "Mars Upper Body",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/79dc6a0d7e9a/models/heroes/mars/mars_upper.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/79dc6a0d7e9a/models/heroes/mars/mars_upper.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_upper.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_upper-10bd08b60b0f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/79dc6a0d7e9a/models/heroes/mars/mars_smoke_color_psd_f75e5a01.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:675:mars-upper-debut",
+      "itemId": 675,
+      "name": "Mars Upper Body Debut",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/cd355961080f/models/heroes/mars/mars_upper_debut.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/cd355961080f/models/heroes/mars/mars_upper_debut.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_upper_debut.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/cd355961080f/models/heroes/mars/mars_smoke_color_psd_f75e5a01.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14429:mars-divine-soldier-armor",
+      "itemId": 14429,
+      "name": "Molten Bore  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/22e8bb4a20ca/models/items/mars/mars_divine_soldier_armor/mars_divine_soldier_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/22e8bb4a20ca/models/items/mars/mars_divine_soldier_armor/mars_divine_soldier_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_divine_soldier_armor/mars_divine_soldier_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_divine_soldier_armor-7dbc4f64866d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/22e8bb4a20ca/models/items/mars/mars_divine_soldier_armor/mars_divine_soldier_armor_color_tga_a2e10c7c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_divine_soldier_armor/mars_divine_soldier_armor.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_divine_soldier_armor/mars_divine_soldier_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_divine_soldier/mars_divine_soldier_head.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:28840:mars-ragnarok-armor",
+      "itemId": 28840,
+      "name": "The Berserkers Bloodplate",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/ce92d2276605/models/items/mars/mars_ragnarok_armor/mars_ragnarok_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/ce92d2276605/models/items/mars/mars_ragnarok_armor/mars_ragnarok_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_armor/mars_ragnarok_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_armor-ced62af2340d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/ce92d2276605/models/items/mars/mars_ragnarok_armor/mars_ragnarok_armor_color_psd_258150a7.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:28168:dragonborn",
+      "itemId": 28168,
+      "name": "Vile Behemoth  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1cd283ac5870/models/items/mars/dragonborn/dragonborn.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/1cd283ac5870/models/items/mars/dragonborn/dragonborn.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/dragonborn/dragonborn.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragonborn-6113265736a2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1cd283ac5870/models/items/mars/dragonborn/dragonborn_color_tga_77cdd61.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:23703:imperial-envoy-armor",
+      "itemId": 23703,
+      "name": "Wings of Imperium  Armor",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/c0800de0d4eb/models/items/mars/imperial_envoy_armor/imperial_envoy_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/c0800de0d4eb/models/items/mars/imperial_envoy_armor/imperial_envoy_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/imperial_envoy_armor/imperial_envoy_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperial_envoy_armor-6c6c97428945.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/c0800de0d4eb/models/items/mars/imperial_envoy_armor/imperial_envoy_armor_color_tga_4b448231.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/imperial_envoy_armor/imperial_envoy_armor.vmdl",
+        "modelPaths": [
+          "models/items/mars/imperial_envoy_armor/imperial_envoy_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_wings_of_imperium/mars_wings_of_imperium_armor_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:36243:mars-ragnarok-armor-alt",
+      "itemId": 36243,
+      "name": "WyrmsBane",
+      "slot": "armor",
+      "slotDisplayName": "LoadoutSlot Armor",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/cdab4af7597f/models/items/mars/mars_ragnarok_armor_alt/mars_ragnarok_armor_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/cdab4af7597f/models/items/mars/mars_ragnarok_armor_alt/mars_ragnarok_armor_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_armor_alt/mars_ragnarok_armor_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_armor_alt-c5996a6ede36.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/cdab4af7597f/models/items/mars/mars_ragnarok_armor_alt/mars_ragnarok_armor_alt_color_psd_57dc8de5.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_ragnarok_armor_alt/mars_ragnarok_armor_alt.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_ragnarok_armor_alt/mars_ragnarok_armor_alt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_ragnarok/mars_ragnarok_armor_alt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14915:mars-arena-champion-legs",
+      "itemId": 14915,
+      "name": "Arena Champion Belt",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/115f3dbaf6e6/models/items/mars/mars_arena_champion_legs/mars_arena_champion_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/115f3dbaf6e6/models/items/mars/mars_arena_champion_legs/mars_arena_champion_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_arena_champion_legs/mars_arena_champion_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_arena_champion_legs-5fa6ba57e59d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/115f3dbaf6e6/models/items/mars/mars_arena_champion_legs/mars_arena_champion_legs_color_png_60da2365.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14761:mars-fury-of-war-god-legs",
+      "itemId": 14761,
+      "name": "Forgotten Fate  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/442dfdd43c07/models/items/mars/mars_fury_of_war_god_legs/mars_fury_of_war_god_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/442dfdd43c07/models/items/mars/mars_fury_of_war_god_legs/mars_fury_of_war_god_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_fury_of_war_god_legs/mars_fury_of_war_god_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_fury_of_war_god_legs-08c3fadf0392.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/442dfdd43c07/models/items/mars/mars_fury_of_war_god_legs/mars_fury_of_war_god_legs_color_tga_ac53f072.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_fury_of_war_god_legs/mars_fury_of_war_god_legs.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_fury_of_war_god_legs/mars_fury_of_war_god_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_war_god/mars_war_god_legs_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14878:mars-blackstone-ares-legs",
+      "itemId": 14878,
+      "name": "Forsworn Legacy  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/08b33057c0bc/models/items/mars/mars_blackstone_ares_legs/mars_blackstone_ares_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/08b33057c0bc/models/items/mars/mars_blackstone_ares_legs/mars_blackstone_ares_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_blackstone_ares_legs/mars_blackstone_ares_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_blackstone_ares_legs-d85ee1543cd8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/08b33057c0bc/models/items/mars/mars_blackstone_ares_legs/mars_blackstone_ares_legs_color_tga_1efc0e94.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:17678:mars-lower",
+      "itemId": 17678,
+      "name": "Mars Diretide Shimmer Lower Body",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/642c53b88ee1/models/heroes/mars/mars_lower.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/642c53b88ee1/models/heroes/mars/mars_lower.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_lower.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_lower1-bd9a12fd041c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/642c53b88ee1/models/heroes/mars/mars_lower_color_psd_4e655644.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:29336:war-eagle-legs",
+      "itemId": 29336,
+      "name": "Mars Gallus  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/425466ad3e62/models/items/mars/war_eagle_legs/war_eagle_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/425466ad3e62/models/items/mars/war_eagle_legs/war_eagle_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/war_eagle_legs/war_eagle_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/war_eagle_legs-3c84070592a4.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/425466ad3e62/models/items/mars/war_eagle_legs/war_eagle_legs_color_tga_87d7a5fd.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:671:mars-lower",
+      "itemId": 671,
+      "name": "Mars Lower Body",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/99cf55449731/models/heroes/mars/mars_lower.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/99cf55449731/models/heroes/mars/mars_lower.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_lower.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_lower-4e551057f410.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/99cf55449731/models/heroes/mars/mars_lower_color_psd_4e655644.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:676:mars-lower-debut",
+      "itemId": 676,
+      "name": "Mars Lower Body Debut",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/305cf9fce8f3/models/heroes/mars/mars_lower_debut.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/305cf9fce8f3/models/heroes/mars/mars_lower_debut.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_lower_debut.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/testitem_slot_empty-94b728dde2bd.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/305cf9fce8f3/models/heroes/mars/mars_lower_color_psd_4e655644.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14428:mars-divine-soldier-legs",
+      "itemId": 14428,
+      "name": "Molten Bore  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/d774c8964889/models/items/mars/mars_divine_soldier_legs/mars_divine_soldier_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/d774c8964889/models/items/mars/mars_divine_soldier_legs/mars_divine_soldier_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_divine_soldier_legs/mars_divine_soldier_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_divine_soldier_legs-879fa06eae05.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/d774c8964889/models/items/mars/mars_divine_soldier_legs/mars_divine_soldier_legs_color_tga_8a73fa78.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:36245:mars-ragnarok-legs-alt",
+      "itemId": 36245,
+      "name": "SurpentKoil",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b4c052cb7c7e/models/items/mars/mars_ragnarok_legs_alt/mars_ragnarok_legs_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/b4c052cb7c7e/models/items/mars/mars_ragnarok_legs_alt/mars_ragnarok_legs_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_legs_alt/mars_ragnarok_legs_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_legs_alt-ff0d738f2c9d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b4c052cb7c7e/models/items/mars/mars_ragnarok_legs_alt/mars_ragnarok_legs_alt_color_psd_bf29dacb.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:28841:mars-ragnarok-legs",
+      "itemId": 28841,
+      "name": "The Berserkers GoreGreaves",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/58a14a584330/models/items/mars/mars_ragnarok_legs/mars_ragnarok_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/58a14a584330/models/items/mars/mars_ragnarok_legs/mars_ragnarok_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_legs/mars_ragnarok_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_legs-46f1265e4a1a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/58a14a584330/models/items/mars/mars_ragnarok_legs/mars_ragnarok_legs_color_png_eab1b42a.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:28167:dragonborn-wings",
+      "itemId": 28167,
+      "name": "Vile Behemoth  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b12304aa0798/models/items/mars/dragonborn_wings/dragonborn_wings.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/b12304aa0798/models/items/mars/dragonborn_wings/dragonborn_wings.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/dragonborn_wings/dragonborn_wings.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragonborn_wings-400088744b2b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b12304aa0798/models/items/mars/dragonborn_wings/dragonborn_wings_color_tga_69f05976.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:23708:imperial-envoy-legs",
+      "itemId": 23708,
+      "name": "Wings of Imperium  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/3eee94bca26b/models/items/mars/imperial_envoy_legs/imperial_envoy_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/3eee94bca26b/models/items/mars/imperial_envoy_legs/imperial_envoy_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/imperial_envoy_legs/imperial_envoy_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperial_envoy_legs-96d9858d3c42.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/3eee94bca26b/models/items/mars/imperial_envoy_legs/imperial_envoy_legs_color_tga_a534f8df.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14918:mars-arena-champion-off-hand",
+      "itemId": 14918,
+      "name": "Arena Champion Shield",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/f584aae9f371/models/items/mars/mars_arena_champion_off_hand/mars_arena_champion_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/f584aae9f371/models/items/mars/mars_arena_champion_off_hand/mars_arena_champion_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_arena_champion_off_hand/mars_arena_champion_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_arena_champion_off_hand-c5e2ec5ccfc8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/f584aae9f371/models/items/mars/mars_arena_champion_off_hand/mars_arena_champion_off_hand_color_png_a3b28683.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_arena_champion_off_hand/mars_arena_champion_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_arena_champion_off_hand/mars_arena_champion_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_fall20_arena_champion/mars_fall20_arena_champion_shield_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14760:mars-fury-of-war-god-off-hand",
+      "itemId": 14760,
+      "name": "Forgotten Fate  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/fd3c85538157/models/items/mars/mars_fury_of_war_god_off_hand/mars_fury_of_war_god_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/fd3c85538157/models/items/mars/mars_fury_of_war_god_off_hand/mars_fury_of_war_god_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_fury_of_war_god_off_hand/mars_fury_of_war_god_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_fury_of_war_god_off_hand-3e2777b90242.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/fd3c85538157/models/items/mars/mars_fury_of_war_god_off_hand/mars_fury_of_war_god_off_hand_color_tga_68de903c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_fury_of_war_god_off_hand/mars_fury_of_war_god_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_fury_of_war_god_off_hand/mars_fury_of_war_god_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_war_god/mars_war_god_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14879:mars-blackstone-ares-off-hand",
+      "itemId": 14879,
+      "name": "Forsworn Legacy  Shield",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/89648b912078/models/items/mars/mars_blackstone_ares_off_hand/mars_blackstone_ares_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/89648b912078/models/items/mars/mars_blackstone_ares_off_hand/mars_blackstone_ares_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_blackstone_ares_off_hand/mars_blackstone_ares_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_blackstone_ares_off_hand-3707b069258d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/89648b912078/models/items/mars/mars_blackstone_ares_off_hand/mars_blackstone_ares_off_hand_color_tga_e5ab0b78.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_blackstone_ares_off_hand/mars_blackstone_ares_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_blackstone_ares_off_hand/mars_blackstone_ares_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_blackstone_ares/mars_blackstone_ares_shield.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:18370:mars-fall20-immortal-shield",
+      "itemId": 18370,
+      "name": "Gods Mercy",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "diretide",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/ab4a734fbbe9/models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/ab4a734fbbe9/models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_fall20_immortal_shield-3198955b497d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/ab4a734fbbe9/models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield_color_psd_812e15d4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield_bash.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mars/mars_shield_bash.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:22264:mars-fall20-immortal-shield",
+      "itemId": 22264,
+      "name": "Gods Mercy of the Crimson Witness",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b16ffc410085/models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/b16ffc410085/models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_fall20_immortal_shield1-a4cd558128f2.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b16ffc410085/models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield_color_psd_812e15d4.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_fall20_immortal_shield/mars_fall20_immortal_shield.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_crimson_witness_2021/mars_crimson_witness_fall20_immortal_shield_bash.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mars/mars_crimson_witness_2021/mars_crimson_witness_shield_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mars/mars_shield_bash.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:17675:mars-shield",
+      "itemId": 17675,
+      "name": "Mars Diretide Shimmer Shield",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:seasonal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/0a4da424bd81/models/heroes/mars/mars_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/0a4da424bd81/models/heroes/mars/mars_shield.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_shield1-726a37584988.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/0a4da424bd81/models/heroes/mars/mars_shield_color_psd_a1e365a3.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:29337:war-eagle-offhand",
+      "itemId": 29337,
+      "name": "Mars Gallus  Shield",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b84dbac4b673/models/items/mars/war_eagle_offhand/war_eagle_offhand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/b84dbac4b673/models/items/mars/war_eagle_offhand/war_eagle_offhand.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/war_eagle_offhand/war_eagle_offhand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/war_eagle_offhand-c9751c8aa078.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/b84dbac4b673/models/items/mars/war_eagle_offhand/war_eagle_offhand_color_tga_28a5b8c8.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:672:mars-shield",
+      "itemId": 672,
+      "name": "Mars Shield",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1dad77152ca7/models/heroes/mars/mars_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/1dad77152ca7/models/heroes/mars/mars_shield.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/mars/mars_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_shield-f7b7ea66e86a.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1dad77152ca7/models/heroes/mars/mars_shield_color_psd_a1e365a3.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14427:mars-divine-soldier-off-hand",
+      "itemId": 14427,
+      "name": "Molten Bore  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1e738c094526/models/items/mars/mars_divine_soldier_off_hand/mars_divine_soldier_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/1e738c094526/models/items/mars/mars_divine_soldier_off_hand/mars_divine_soldier_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_divine_soldier_off_hand/mars_divine_soldier_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_divine_soldier_off_hand-389bf6ca054d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1e738c094526/models/items/mars/mars_divine_soldier_off_hand/mars_divine_soldier_off_hand_color_tga_31a33f2a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_divine_soldier_off_hand/mars_divine_soldier_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_divine_soldier_off_hand/mars_divine_soldier_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_2022_themed/mars_2022_themed_off_hand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:28843:mars-ragnarok-offhand-weapon",
+      "itemId": 28843,
+      "name": "The Berserkers Clot",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1c789966c8b7/models/items/mars/mars_ragnarok_offhand_weapon/mars_ragnarok_offhand_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/1c789966c8b7/models/items/mars/mars_ragnarok_offhand_weapon/mars_ragnarok_offhand_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_offhand_weapon/mars_ragnarok_offhand_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_offhand_weapon-2147f0284f18.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/1c789966c8b7/models/items/mars/mars_ragnarok_offhand_weapon/mars_ragnarok_offhand_weapon_color_psd_32a36a88.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:28165:dragonborn-shield",
+      "itemId": 28165,
+      "name": "Vile Behemoth  Shield",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/ade77864d7ed/models/items/mars/dragonborn_shield/dragonborn_shield.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/ade77864d7ed/models/items/mars/dragonborn_shield/dragonborn_shield.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/dragonborn_shield/dragonborn_shield.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/dragonborn_shield-c9f16dfbdfed.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/ade77864d7ed/models/items/mars/dragonborn_shield/dragonborn_shield_color_tga_602e0539.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:23710:imperial-envoy-off-hand",
+      "itemId": 23710,
+      "name": "Wings of Imperium  OffHand",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/bda77220d992/models/items/mars/imperial_envoy_off_hand/imperial_envoy_off_hand.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/bda77220d992/models/items/mars/imperial_envoy_off_hand/imperial_envoy_off_hand.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/imperial_envoy_off_hand/imperial_envoy_off_hand.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperial_envoy_off_hand-7612cd8e4006.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/bda77220d992/models/items/mars/imperial_envoy_off_hand/imperial_envoy_off_hand_color_tga_156f313a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/imperial_envoy_off_hand/imperial_envoy_off_hand.vmdl",
+        "modelPaths": [
+          "models/items/mars/imperial_envoy_off_hand/imperial_envoy_off_hand.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_wings_of_imperium/mars_wings_of_imperium_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:36246:mars-ragnarok-offhand-weapon-alt",
+      "itemId": 36246,
+      "name": "WulfWard",
+      "slot": "offhand_weapon",
+      "slotDisplayName": "LoadoutSlot Offhand Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/d4102a56a46d/models/items/mars/mars_ragnarok_offhand_weapon_alt/mars_ragnarok_offhand_weapon_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/d4102a56a46d/models/items/mars/mars_ragnarok_offhand_weapon_alt/mars_ragnarok_offhand_weapon_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_offhand_weapon_alt/mars_ragnarok_offhand_weapon_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_offhand_weapon_alt-40ca555d3291.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/d4102a56a46d/models/items/mars/mars_ragnarok_offhand_weapon_alt/mars_ragnarok_offhand_weapon_alt_color_psd_48e217.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_ragnarok_offhand_weapon_alt/mars_ragnarok_offhand_weapon_alt.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_ragnarok_offhand_weapon_alt/mars_ragnarok_offhand_weapon_alt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_ragnarok/mars_ragnarok_offhand_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14917:mars-arena-champion-weapon",
+      "itemId": 14917,
+      "name": "Arena Champion Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "diretide",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/44fe7bfb40d8/models/items/mars/mars_arena_champion_weapon/mars_arena_champion_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/44fe7bfb40d8/models/items/mars/mars_arena_champion_weapon/mars_arena_champion_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_arena_champion_weapon/mars_arena_champion_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_arena_champion_weapon-14a04798243b.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/44fe7bfb40d8/models/items/mars/mars_arena_champion_weapon/mars_arena_champion_weapon_color_png_9f795ccf.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_arena_champion_weapon/mars_arena_champion_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_arena_champion_weapon/mars_arena_champion_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_fall20_arena_champion/mars_fall20_arena_champion_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:13572:mars-ti9-immortal-weapon",
+      "itemId": 13572,
+      "name": "Crimson Progenitors Bane",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "crimson",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/22f501f11986/models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/22f501f11986/models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ti9_immortal_weapon1-0ade9db8673f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/22f501f11986/models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon_color_psd_36c712dc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_crimson_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_crimson_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_crimson_spear_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mars/mars_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mars/mars_spear_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14762:mars-fury-of-war-god-weapon",
+      "itemId": 14762,
+      "name": "Forgotten Fate  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/54ff268683c0/models/items/mars/mars_fury_of_war_god_weapon/mars_fury_of_war_god_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/54ff268683c0/models/items/mars/mars_fury_of_war_god_weapon/mars_fury_of_war_god_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_fury_of_war_god_weapon/mars_fury_of_war_god_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_fury_of_war_god_weapon-5e163e9c2d61.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/54ff268683c0/models/items/mars/mars_fury_of_war_god_weapon/mars_fury_of_war_god_weapon_color_tga_2dacf5bb.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_fury_of_war_god_weapon/mars_fury_of_war_god_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_fury_of_war_god_weapon/mars_fury_of_war_god_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_war_god/mars_war_god_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14880:mars-blackstone-ares-weapon",
+      "itemId": 14880,
+      "name": "Forsworn Legacy  Spear",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/3a15b612c627/models/items/mars/mars_blackstone_ares_weapon/mars_blackstone_ares_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/3a15b612c627/models/items/mars/mars_blackstone_ares_weapon/mars_blackstone_ares_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_blackstone_ares_weapon/mars_blackstone_ares_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_blackstone_ares_weapon-8e2aad869419.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/3a15b612c627/models/items/mars/mars_blackstone_ares_weapon/mars_blackstone_ares_weapon_color_tga_37a0767d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_blackstone_ares_weapon/mars_blackstone_ares_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_blackstone_ares_weapon/mars_blackstone_ares_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_blackstone_ares/mars_blackstone_ares_weapon.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:29348:war-eagle-weapon",
+      "itemId": 29348,
+      "name": "Mars Gallus  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/15edd10f7732/models/items/mars/war_eagle_weapon/war_eagle_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/15edd10f7732/models/items/mars/war_eagle_weapon/war_eagle_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/war_eagle_weapon/war_eagle_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/war_eagle_weapon-4e033b2b46a1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/15edd10f7732/models/items/mars/war_eagle_weapon/war_eagle_weapon_color_tga_73bc3304.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:14426:mars-divine-soldier-weapon",
+      "itemId": 14426,
+      "name": "Molten Bore  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/75d841db54c7/models/items/mars/mars_divine_soldier_weapon/mars_divine_soldier_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/75d841db54c7/models/items/mars/mars_divine_soldier_weapon/mars_divine_soldier_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_divine_soldier_weapon/mars_divine_soldier_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_divine_soldier_weapon-9011ceee0bb8.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/75d841db54c7/models/items/mars/mars_divine_soldier_weapon/mars_divine_soldier_weapon_color_tga_5e851d85.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_divine_soldier_weapon/mars_divine_soldier_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_divine_soldier_weapon/mars_divine_soldier_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_2022_themed/mars_2022_themed_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:13538:mars-ti9-immortal-weapon",
+      "itemId": 13538,
+      "name": "Progenitors Bane",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/2ee6d8bf7445/models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/2ee6d8bf7445/models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ti9_immortal_weapon-1113ce6a4b97.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/2ee6d8bf7445/models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon_color_psd_36c712dc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_ti9_immortal_weapon/mars_ti9_immortal_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/mars/mars_ti9_immortal/mars_ti9_immortal_spear_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mars/mars_spear.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_mars/mars_spear_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:36247:mars-ragnarok-weapon-alt",
+      "itemId": 36247,
+      "name": "Reckoner",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/52aa1399a554/models/items/mars/mars_ragnarok_weapon_alt/mars_ragnarok_weapon_alt.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/52aa1399a554/models/items/mars/mars_ragnarok_weapon_alt/mars_ragnarok_weapon_alt.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_weapon_alt/mars_ragnarok_weapon_alt.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_weapon_alt-db6c759669f1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/52aa1399a554/models/items/mars/mars_ragnarok_weapon_alt/mars_ragnarok_weapon_alt_color_psd_afab782.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/mars_ragnarok_weapon_alt/mars_ragnarok_weapon_alt.vmdl",
+        "modelPaths": [
+          "models/items/mars/mars_ragnarok_weapon_alt/mars_ragnarok_weapon_alt.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_ragnarok/mars_ragnarok_weapon_alt_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:28844:mars-ragnarok-weapon",
+      "itemId": 28844,
+      "name": "The Berserkers Cut",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:rare",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/49ba46247f6c/models/items/mars/mars_ragnarok_weapon/mars_ragnarok_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/49ba46247f6c/models/items/mars/mars_ragnarok_weapon/mars_ragnarok_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/mars_ragnarok_weapon/mars_ragnarok_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/mars_ragnarok_weapon-49851e8eb94f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/49ba46247f6c/models/items/mars/mars_ragnarok_weapon/mars_ragnarok_weapon_color_png_34cebb34.png"
+    },
+    {
+      "id": "npc_dota_hero_mars:item-model:23709:imperial-envoy-weapon",
+      "itemId": 23709,
+      "name": "Wings of Imperium  Weapon",
+      "slot": "weapon",
+      "slotDisplayName": "LoadoutSlot Weapon",
+      "previewMode": "isolated",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_mars/67b6c12f5488/models/items/mars/imperial_envoy_weapon/imperial_envoy_weapon.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_mars/67b6c12f5488/models/items/mars/imperial_envoy_weapon/imperial_envoy_weapon.glb"
+      ],
+      "modelPaths": [
+        "models/items/mars/imperial_envoy_weapon/imperial_envoy_weapon.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/imperial_envoy_weapon-fa523cf319c1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_mars/67b6c12f5488/models/items/mars/imperial_envoy_weapon/imperial_envoy_weapon_color_tga_6f0e0c64.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/mars/imperial_envoy_weapon/imperial_envoy_weapon.vmdl",
+        "modelPaths": [
+          "models/items/mars/imperial_envoy_weapon/imperial_envoy_weapon.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/mars/mars_wings_of_imperium/mars_wings_of_imperium_weapon_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_mars:core-set:21645:arena-champion",
+      "name": "Arena Champion",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        14915,
+        14916,
+        14917,
+        14918
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/mars_arena_champion_legs-5fa6ba57e59d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:21587:forgotten-fate",
+      "name": "Forgotten Fate",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        14760,
+        14761,
+        14762,
+        14763
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/mars_fury_of_war_god_off_hand-3e2777b90242.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:21612:forsworn-legacy",
+      "name": "Forsworn Legacy",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        14878,
+        14879,
+        14880,
+        14881
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "collector_cache",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/mars_blackstone_ares_legs-d85ee1543cd8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:21674:mars-diretide-shimmer-bundle",
+      "name": "Mars Diretide Shimmer Bundle",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672,
+        717
+      ],
+      "sourceItemIds": [
+        17662,
+        17675,
+        17676,
+        17678
+      ],
+      "slots": [
+        "armor",
+        "costume",
+        "legs",
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "diretide",
+        "hero",
+        "rarity:seasonal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/mars_shield1-726a37584988.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:30393:mars-gallus",
+      "name": "Mars Gallus",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        29335,
+        29336,
+        29337,
+        29348
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/war_eagle_armor-a118d5c06f5d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:21557:molten-bore",
+      "name": "Molten Bore",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        14426,
+        14427,
+        14428,
+        14429
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/mars_divine_soldier_weapon-9011ceee0bb8.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:29180:the-red-berserker",
+      "name": "The Red Berserker",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        28840,
+        28841,
+        28843,
+        28844
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 5,
+      "previewUrl": "/larimods-data/v1/icons/mars_ragnarok_armor-ced62af2340d.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:28164:vile-behemoth",
+      "name": "Vile Behemoth",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        28165,
+        28167,
+        28168
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:rare",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 3,
+      "assetFiles": 4,
+      "previewUrl": "/larimods-data/v1/icons/dragonborn_shield-c9f16dfbdfed.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:23711:wings-of-imperium",
+      "name": "Wings of Imperium",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        23703,
+        23708,
+        23709,
+        23710
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/imperial_envoy_armor-6c6c97428945.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_mars:core-set:36244:worldsend",
+      "name": "WorldsEnd",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        670,
+        671,
+        672
+      ],
+      "sourceItemIds": [
+        36243,
+        36245,
+        36246,
+        36247
+      ],
+      "slots": [
+        "armor",
+        "legs",
+        "offhand_weapon",
+        "weapon"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "style",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 8,
+      "previewUrl": "/larimods-data/v1/icons/mars_ragnarok_armor_alt-c5996a6ede36.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 77831712,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 278
+  }
+}

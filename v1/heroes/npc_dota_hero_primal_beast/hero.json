@@ -1,0 +1,2002 @@
+{
+  "heroId": "npc_dota_hero_primal_beast",
+  "sourceHeroId": "npc_dota_hero_primal_beast",
+  "variantId": "default",
+  "heroName": "Primal Beast",
+  "heroSlug": "primal_beast",
+  "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/primal_beast.png",
+  "defaultModelUrls": [
+    "/larimods-data/v1/models/npc_dota_hero_primal_beast/c3e3412c3ba1/models/heroes/primal_beast/primal_beast_base.glb"
+  ],
+  "defaultSlots": [
+    {
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "itemId": 769,
+      "name": "Primal Beast Shoulder",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/736275bfd9cb/models/heroes/primal_beast/primal_beast_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/736275bfd9cb/models/heroes/primal_beast/primal_beast_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/primal_beast/primal_beast_armor.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/736275bfd9cb/models/heroes/primal_beast/primal_beast_armor_color_psd_174d336a.png"
+    },
+    {
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "itemId": 770,
+      "name": "Primal Beast Back",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/059a5d826120/models/heroes/primal_beast/primal_beast_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/059a5d826120/models/heroes/primal_beast/primal_beast_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/primal_beast/primal_beast_back.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/059a5d826120/models/heroes/primal_beast/primal_beast_spine_color_psd_34f492d3.png"
+    },
+    {
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "itemId": 771,
+      "name": "Primal Beast Legs",
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/5840d2aa6d10/models/heroes/primal_beast/primal_beast_leg.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/5840d2aa6d10/models/heroes/primal_beast/primal_beast_leg.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/primal_beast/primal_beast_leg.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/5840d2aa6d10/models/heroes/primal_beast/primal_beast_manacle_color_psd_c816dbc2.png"
+    }
+  ],
+  "itemModels": [
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:23766:pb-2022-armor-arms",
+      "itemId": 23766,
+      "name": "Age of Attrition  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/35ad87280a4d/models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/35ad87280a4d/models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_2022_armor_arms-a4d2e152bc3d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/35ad87280a4d/models/items/primal_beast/pb_2022_armor/arm_color_psd_ec1c4935.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/primal_beast_2022_prestige/primal_beast_2022_prestige_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26795:pb-dark-behemoth-arms",
+      "itemId": 26795,
+      "name": "Dark Behemoth  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/f14f1ff53ae3/models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/f14f1ff53ae3/models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_dark_behemoth_arms-a2dc0a6e17ba.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/f14f1ff53ae3/models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms_color_tga_85541c9b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_dark_behemoth_arms/pb_dark_behemoth_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_dark_behemoth/pb_behemoth_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:36206:primal-beast-carnival-arms",
+      "itemId": 36206,
+      "name": "Mane Attraction  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/722348abefbb/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/722348abefbb/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primeval_arms-91a30b3cab1e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/722348abefbb/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_dark_carnival_arms_color_tga_1d0f8b67.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:33466:primeval-arms",
+      "itemId": 33466,
+      "name": "Prehistoric Predator  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/827518d22ac9/models/items/primal_beast/primeval_arms/primeval_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/827518d22ac9/models/items/primal_beast/primeval_arms/primeval_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primeval_arms/primeval_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primeval_arms-91a30b3cab1e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/827518d22ac9/models/items/primal_beast/primeval_arms/primeval_arms_color_png_b07d37d3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primeval_arms/primeval_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primeval_arms/primeval_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:769:primal-beast-armor",
+      "itemId": 769,
+      "name": "Primal Beast Shoulder",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/736275bfd9cb/models/heroes/primal_beast/primal_beast_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/736275bfd9cb/models/heroes/primal_beast/primal_beast_armor.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/primal_beast/primal_beast_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primal_beast_armor-56a3ca22daab.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/736275bfd9cb/models/heroes/primal_beast/primal_beast_armor_color_psd_174d336a.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/primal_beast/primal_beast_armor.vmdl",
+        "modelPaths": [
+          "models/heroes/primal_beast/primal_beast_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26780:pb-unchained-calamity-arms",
+      "itemId": 26780,
+      "name": "Primeval Abomination Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d315fab0c3ce/models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/d315fab0c3ce/models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_unchained_calamity_arms-0bd90abdda2e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d315fab0c3ce/models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms_color_tga_c231c965.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_unchained_calamity_arms/pb_unchained_calamity_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_unchained_calamity/pb_unchained_calamity_arms_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26765:pb-primal-feast-arms",
+      "itemId": 26765,
+      "name": "Svarog the Infernal  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/4b24662dc055/models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/4b24662dc055/models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_primal_feast_arms-54e66cd96597.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/4b24662dc055/models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms_color_tga_e5d850e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_primal_feast_arms/pb_primal_feast_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:28135:the-dragon-tortoise-arms",
+      "itemId": 28135,
+      "name": "Temple Guardian  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/078575b40493/models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/078575b40493/models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_tortoise_arms-f2944112cc5f.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/078575b40493/models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms_color_psd_f94b0575.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/the_dragon_tortoise_arms/the_dragon_tortoise_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:24759:frostivus-pb-arms",
+      "itemId": 24759,
+      "name": "The Abominable Snowbeast  Arms",
+      "slot": "arms",
+      "slotDisplayName": "LoadoutSlot Arms",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/916e34d53269/models/items/primal_beast/frostivus_pb/frostivus_pb_arms.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/916e34d53269/models/items/primal_beast/frostivus_pb/frostivus_pb_arms.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/frostivus_pb/frostivus_pb_arms.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_pb_arms-b0c08bbf5e11.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/916e34d53269/models/items/primal_beast/frostivus_pb/frostivus_pb_arms_color_1_psd_9493e600.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/frostivus_pb/frostivus_pb_arms.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/frostivus_pb/frostivus_pb_arms.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:23770:pb-2022-armor-armor",
+      "itemId": 23770,
+      "name": "Age of Attrition  Body",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/cf291d451eee/models/items/primal_beast/pb_2022_armor/pb_2022_armor_armor.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/cf291d451eee/models/items/primal_beast/pb_2022_armor/pb_2022_armor_armor.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_2022_armor/pb_2022_armor_armor.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_2022_armor_armor-6f706b98681c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/cf291d451eee/models/items/primal_beast/pb_2022_armor/back_color_psd_5fb7d167.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_armor.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_2022_armor/pb_2022_armor_armor.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/primal_beast_2022_prestige/primal_beast_2022_prestige_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26770:pb-dark-behemoth-back",
+      "itemId": 26770,
+      "name": "Dark Behemoth  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/9cc6a7181003/models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/9cc6a7181003/models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_dark_behemoth_back-c3a0768b02ca.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/9cc6a7181003/models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back_color_tga_5c8070db.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_dark_behemoth_back/pb_dark_behemoth_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_dark_behemoth/pb_behemoth_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:36207:primal-beast-carnival-back",
+      "itemId": 36207,
+      "name": "Mane Attraction  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/2399d0abf448/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/2399d0abf448/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primal_beast_carnival_back-af67004b0e70.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/2399d0abf448/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_dark_carnival_back_color_tga_6abcc09.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_back.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:33467:primeval-back",
+      "itemId": 33467,
+      "name": "Prehistoric Predator  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/58effed413b2/models/items/primal_beast/primeval_back/primeval_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/58effed413b2/models/items/primal_beast/primeval_back/primeval_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primeval_back/primeval_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primeval_back-81e553b7d764.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/58effed413b2/models/items/primal_beast/primeval_back/primeval_back_color_png_2106c07b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primeval_back/primeval_back.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primeval_back/primeval_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:770:primal-beast-back",
+      "itemId": 770,
+      "name": "Primal Beast Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/059a5d826120/models/heroes/primal_beast/primal_beast_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/059a5d826120/models/heroes/primal_beast/primal_beast_back.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/primal_beast/primal_beast_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primal_beast_back-130df492bc1d.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/059a5d826120/models/heroes/primal_beast/primal_beast_spine_color_psd_34f492d3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/primal_beast/primal_beast_back.vmdl",
+        "modelPaths": [
+          "models/heroes/primal_beast/primal_beast_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26777:pb-unchained-calamity-back",
+      "itemId": 26777,
+      "name": "Primeval Abomination Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/1f88e6450e5d/models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/1f88e6450e5d/models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_unchained_calamity_back-be5211531309.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/1f88e6450e5d/models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back_color_tga_492357d0.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_unchained_calamity_back/pb_unchained_calamity_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_unchained_calamity/pb_unchained_calamity_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26764:pb-primal-feast-back",
+      "itemId": 26764,
+      "name": "Svarog the Infernal  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/dd243f1d2be0/models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/dd243f1d2be0/models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_primal_feast_back-7e0527065323.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/dd243f1d2be0/models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back_color_tga_c397c144.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_primal_feast_back/pb_primal_feast_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_feast/feast_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:28134:the-dragon-tortoise-back",
+      "itemId": 28134,
+      "name": "Temple Guardian  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/98688d4b4516/models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/98688d4b4516/models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_tortoise_back-e8ec0485a5b9.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/98688d4b4516/models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back_color_psd_2319dcfc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/the_dragon_tortoise_back/the_dragon_tortoise_back.vmdl"
+        ],
+        "refitModels": [
+          {
+            "targetModelPath": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms.vmdl",
+            "modifierModelPath": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms_new_bloom_2024_refit.vmdl",
+            "modifierModelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/fc7fa4aeffb3/models/items/primal_beast/pb_2022_armor/pb_2022_armor_arms_new_bloom_2024_refit.glb"
+          }
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/primal_beast_dragon_tortoise/primal_beast_dragon_tortoise_back_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:24693:frostivus-pb-back",
+      "itemId": 24693,
+      "name": "The Abominable Snowbeast  Back",
+      "slot": "back",
+      "slotDisplayName": "LoadoutSlot Back",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/f915dc56f72c/models/items/primal_beast/frostivus_pb/frostivus_pb_back.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/f915dc56f72c/models/items/primal_beast/frostivus_pb/frostivus_pb_back.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/frostivus_pb/frostivus_pb_back.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_pb_back-69bafa04f763.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/f915dc56f72c/models/items/primal_beast/frostivus_pb/frostivus_pb_back_color_psd_44acf19b.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/frostivus_pb/frostivus_pb_back.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/frostivus_pb/frostivus_pb_back.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:23785:pb-2022-armor-head",
+      "itemId": 23785,
+      "name": "Age of Attrition  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/4bf1a961ff96/models/items/primal_beast/pb_2022_armor/pb_2022_armor_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/4bf1a961ff96/models/items/primal_beast/pb_2022_armor/pb_2022_armor_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_2022_armor/pb_2022_armor_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_2022_armor_head-27c058e4273e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/4bf1a961ff96/models/items/primal_beast/pb_2022_armor/head_color_psd_88b90c7c.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_2022_armor/pb_2022_armor_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/primal_beast_2022_prestige/primal_beast_2022_prestige_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/primal_beast/primal_beast_2022_prestige/primal_beast_2022_prestige_onslaught_charge_active.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/primal_beast/primal_beast_2022_prestige/primal_beast_2022_prestige_onslaught_chargeup.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/econ/items/primal_beast/primal_beast_2022_prestige/primal_beast_2022_prestige_onslaught_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/error/null.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_primal_beast/primal_beast_dust_impact_medium_no_flek.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_primal_beast/primal_beast_onslaught_charge_active.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_primal_beast/primal_beast_onslaught_chargeup.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_primal_beast/primal_beast_onslaught_impact.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26771:pb-dark-behemoth-head",
+      "itemId": 26771,
+      "name": "Dark Behemoth  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/9de21450e5a6/models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/9de21450e5a6/models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_dark_behemoth_head-f6d34dcf6713.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/9de21450e5a6/models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head_color_tga_de7a9fe3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_dark_behemoth_head/pb_dark_behemoth_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_dark_behemoth/pb_behemoth_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:36208:primal-beast-carnival-head",
+      "itemId": 36208,
+      "name": "Mane Attraction  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/74e880d342d8/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/74e880d342d8/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primal_beast_carnival_head-bd9af94d2339.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/74e880d342d8/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_dark_carnival_head_color_tga_e2627fff.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:33468:primeval-head",
+      "itemId": 33468,
+      "name": "Prehistoric Predator  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/92c752a972f8/models/items/primal_beast/primeval_head/primeval_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/92c752a972f8/models/items/primal_beast/primeval_head/primeval_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primeval_head/primeval_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primeval_head-68c1376e6e84.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/92c752a972f8/models/items/primal_beast/primeval_head/primeval_head_color_png_1ce7a0e3.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primeval_head/primeval_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primeval_head/primeval_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/primeval/primeval_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26778:pb-unchained-calamity-head",
+      "itemId": 26778,
+      "name": "Primeval Abomination Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d7a23b7e13d8/models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/d7a23b7e13d8/models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_unchained_calamity_head-3c65550504cc.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d7a23b7e13d8/models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head_color_tga_aaa79595.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_unchained_calamity_head/pb_unchained_calamity_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_unchained_calamity/pb_unchained_calamity_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26763:pb-primal-feast-head",
+      "itemId": 26763,
+      "name": "Svarog the Infernal  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d8a30c3b626f/models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/d8a30c3b626f/models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_primal_feast_head-0ec4249408a7.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d8a30c3b626f/models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head_color_tga_ec34bcc.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_primal_feast_head/pb_primal_feast_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_feast/feast_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:28136:the-dragon-tortoise-head",
+      "itemId": 28136,
+      "name": "Temple Guardian  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/ed17f1a08e1f/models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/ed17f1a08e1f/models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_tortoise_head-d01d799fc82c.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/ed17f1a08e1f/models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head_color_psd_209b1a8d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/the_dragon_tortoise_head/the_dragon_tortoise_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:24736:frostivus-pb-head",
+      "itemId": 24736,
+      "name": "The Abominable Snowbeast  Head",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary",
+        "style"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/708e61abf14f/models/items/primal_beast/frostivus_pb/frostivus_pb_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/708e61abf14f/models/items/primal_beast/frostivus_pb/frostivus_pb_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_pb_head-7016162d7968.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/708e61abf14f/models/items/primal_beast/frostivus_pb/frostivus_pb_head_color_psd_d45fa9be.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/items/primal_beast/frostivus_pb/frostivus_pb_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "The Abominable Snowbeast  Head 0",
+            "skin": "0",
+            "icon": "econ/items/primal_beast/frostivus_pb/frostivus_pb_head",
+            "assets": [
+              {
+                "path": "particles/models/items/primal_beast/frostivus_pb/frostivus_pb_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:model_skin",
+              "skin:1",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "The Abominable Snowbeast  Head 1",
+            "skin": "1",
+            "icon": "econ/items/primal_beast/frostivus_pb/frostivus_pb_head_style1",
+            "assets": [
+              {
+                "path": "particles/models/items/primal_beast/frostivus_pb/frostivus_pb_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:model_skin",
+              "skin:2",
+              "style"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:24736:frostivus-pb-head:style-1",
+      "itemId": 24736,
+      "name": "The Abominable Snowbeast  Head - Style 2",
+      "slot": "head",
+      "slotDisplayName": "LoadoutSlot Head",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "modifier:model_skin",
+        "rarity:legendary",
+        "skin:2",
+        "style",
+        "variant"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/708e61abf14f/models/items/primal_beast/frostivus_pb/frostivus_pb_head.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/708e61abf14f/models/items/primal_beast/frostivus_pb/frostivus_pb_head.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl"
+      ],
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/708e61abf14f/models/items/primal_beast/frostivus_pb/frostivus_pb_head_color_psd_d45fa9be.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/frostivus_pb/frostivus_pb_head.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/models/items/primal_beast/frostivus_pb/frostivus_pb_head_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ],
+        "styles": [
+          {
+            "styleId": "0",
+            "name": "The Abominable Snowbeast  Head 0",
+            "skin": "0",
+            "icon": "econ/items/primal_beast/frostivus_pb/frostivus_pb_head",
+            "assets": [
+              {
+                "path": "particles/models/items/primal_beast/frostivus_pb/frostivus_pb_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:model_skin",
+              "skin:1",
+              "style"
+            ]
+          },
+          {
+            "styleId": "1",
+            "name": "The Abominable Snowbeast  Head 1",
+            "skin": "1",
+            "icon": "econ/items/primal_beast/frostivus_pb/frostivus_pb_head_style1",
+            "assets": [
+              {
+                "path": "particles/models/items/primal_beast/frostivus_pb/frostivus_pb_head_ambient.vpcf",
+                "type": "vpcf",
+                "role": "particle"
+              }
+            ],
+            "tags": [
+              "ambient",
+              "modifier:model_skin",
+              "skin:2",
+              "style"
+            ]
+          }
+        ]
+      },
+      "activeStyleId": "1"
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:23765:pb-2022-armor-legs",
+      "itemId": 23765,
+      "name": "Age of Attrition  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "immortal",
+        "rarity:immortal"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/e95aa9155297/models/items/primal_beast/pb_2022_armor/pb_2022_armor_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/e95aa9155297/models/items/primal_beast/pb_2022_armor/pb_2022_armor_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_2022_armor/pb_2022_armor_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_2022_armor_legs-f3d42716ccaf.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/e95aa9155297/models/items/primal_beast/pb_2022_armor/leg_color_psd_16e64905.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_2022_armor/pb_2022_armor_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_2022_armor/pb_2022_armor_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26772:pb-dark-behemoth-legs",
+      "itemId": 26772,
+      "name": "Dark Behemoth  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/ae3457244ba2/models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/ae3457244ba2/models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_dark_behemoth_legs-658550151779.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/ae3457244ba2/models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs_color_tga_1c511945.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_dark_behemoth_legs/pb_dark_behemoth_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:36209:primal-beast-carnival-legs",
+      "itemId": 36209,
+      "name": "Mane Attraction  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/b071ca07f14d/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/b071ca07f14d/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primal_beast_carnival_legs-a5737a6421da.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/b071ca07f14d/models/items/primal_beast/primal_beast_dark_carnival/primal_beast_dark_carnival_legs_color_tga_8cd41f4d.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primal_beast_dark_carnival/primal_beast_carnival_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:33469:primeval-legs",
+      "itemId": 33469,
+      "name": "Prehistoric Predator  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/396a6b512a6e/models/items/primal_beast/primeval_legs/primeval_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/396a6b512a6e/models/items/primal_beast/primeval_legs/primeval_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/primeval_legs/primeval_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primeval_legs-470a14fb6beb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/396a6b512a6e/models/items/primal_beast/primeval_legs/primeval_legs_color_png_ba806f36.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/primeval_legs/primeval_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/primeval_legs/primeval_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:771:primal-beast-leg",
+      "itemId": 771,
+      "name": "Primal Beast Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "quality:unique"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/5840d2aa6d10/models/heroes/primal_beast/primal_beast_leg.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/5840d2aa6d10/models/heroes/primal_beast/primal_beast_leg.glb"
+      ],
+      "modelPaths": [
+        "models/heroes/primal_beast/primal_beast_leg.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/primal_beast_leg-abbe342b0abb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/5840d2aa6d10/models/heroes/primal_beast/primal_beast_manacle_color_psd_c816dbc2.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/heroes/primal_beast/primal_beast_leg.vmdl",
+        "modelPaths": [
+          "models/heroes/primal_beast/primal_beast_leg.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26779:pb-unchained-calamity-legs",
+      "itemId": 26779,
+      "name": "Primeval Abomination Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/e68f03e984b5/models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/e68f03e984b5/models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_unchained_calamity_legs-077c1e1785cb.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/e68f03e984b5/models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs_color_tga_ca7c82f.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_unchained_calamity_legs/pb_unchained_calamity_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:26762:pb-primal-feast-legs",
+      "itemId": 26762,
+      "name": "Svarog the Infernal  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d0f6b6e45cab/models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/d0f6b6e45cab/models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/pb_primal_feast_legs-47fa750001f1.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/d0f6b6e45cab/models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs_color_tga_fb09dc27.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/pb_primal_feast_legs/pb_primal_feast_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/econ/items/primal_beast/pb_feast/feast_legs_ambient.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          },
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:28133:the-dragon-tortoise-legs",
+      "itemId": 28133,
+      "name": "Temple Guardian  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:mythical"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/b933fe5fa0a0/models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/b933fe5fa0a0/models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/the_dragon_tortoise_legs-fe48572bbe38.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/b933fe5fa0a0/models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs_color_tga_954788e6.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/the_dragon_tortoise_legs/the_dragon_tortoise_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:item-model:24747:frostivus-pb-legs",
+      "itemId": 24747,
+      "name": "The Abominable Snowbeast  Legs",
+      "slot": "legs",
+      "slotDisplayName": "LoadoutSlot Legs",
+      "previewMode": "stage",
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "hero",
+        "rarity:legendary",
+        "unusual"
+      ],
+      "modelUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/4a9fdbea0998/models/items/primal_beast/frostivus_pb/frostivus_pb_legs.glb",
+      "modelUrls": [
+        "/larimods-data/v1/models/npc_dota_hero_primal_beast/4a9fdbea0998/models/items/primal_beast/frostivus_pb/frostivus_pb_legs.glb"
+      ],
+      "modelPaths": [
+        "models/items/primal_beast/frostivus_pb/frostivus_pb_legs.vmdl"
+      ],
+      "iconUrl": "/larimods-data/v1/icons/frostivus_pb_legs-3554d913168e.png",
+      "textureUrl": "/larimods-data/v1/models/npc_dota_hero_primal_beast/4a9fdbea0998/models/items/primal_beast/frostivus_pb/frostivus_pb_legs_color_psd_51c9985e.png",
+      "previewRecipe": {
+        "version": 1,
+        "modelPath": "models/items/primal_beast/frostivus_pb/frostivus_pb_legs.vmdl",
+        "modelPaths": [
+          "models/items/primal_beast/frostivus_pb/frostivus_pb_legs.vmdl"
+        ],
+        "particles": [
+          {
+            "path": "particles/units/heroes/hero_bounty_hunter/portrait_bounty_hunter.vpcf",
+            "type": "vpcf",
+            "role": "particle"
+          }
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:23767:age-of-attrition",
+      "name": "Age of Attrition",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        23765,
+        23766,
+        23770,
+        23785
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ability_effect",
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "immortal",
+        "rarity:immortal",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 17,
+      "previewUrl": "/larimods-data/v1/icons/pb_2022_armor_legs-f3d42716ccaf.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:26805:dark-behemoth",
+      "name": "Dark Behemoth",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        26770,
+        26771,
+        26772,
+        26795
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/pb_dark_behemoth_loading_screen-bcc35c0b33d7.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:36205:mane-attraction",
+      "name": "Mane Attraction",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        36206,
+        36207,
+        36208,
+        36209
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/primeval_arms-91a30b3cab1e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:33465:prehistoric-predator",
+      "name": "Prehistoric Predator",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        33466,
+        33467,
+        33468,
+        33469
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/primeval_arms-91a30b3cab1e.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:26802:primeval-abomination",
+      "name": "Primeval Abomination",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        26777,
+        26778,
+        26779,
+        26780
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/pb_unchained_calamity_loading_screen-5185ffcbf756.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:26799:svarog-the-infernal",
+      "name": "Svarog the Infernal",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        26762,
+        26763,
+        26764,
+        26765
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 9,
+      "previewUrl": "/larimods-data/v1/icons/pb_primal_feast_legs-47fa750001f1.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:26942:temple-guardian",
+      "name": "Temple Guardian",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        28133,
+        28134,
+        28135,
+        28136
+      ],
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:mythical",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 13,
+      "previewUrl": "/larimods-data/v1/icons/newbloom_2024_primalbeast-e93b581847c5.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:24761:the-abominable-snowbeast",
+      "name": "The Abominable Snowbeast",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        24693,
+        24736,
+        24747,
+        24759
+      ],
+      "styleSelections": {
+        "24736": "0"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "rarity:legendary",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2023_pb-41e8be8dd53f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    },
+    {
+      "id": "npc_dota_hero_primal_beast:core-set:24761:the-abominable-snowbeast:style-1",
+      "name": "The Abominable Snowbeast - Style 2",
+      "kind": "bundle",
+      "sourceName": "Dota Core Catalog",
+      "itemIds": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "sourceItemIds": [
+        24693,
+        24736,
+        24747,
+        24759
+      ],
+      "styleSelections": {
+        "24736": "1"
+      },
+      "slots": [
+        "arms",
+        "back",
+        "head",
+        "legs"
+      ],
+      "variantId": "default",
+      "tags": [
+        "ambient",
+        "bundle",
+        "catalog",
+        "hero",
+        "modifier:model_skin",
+        "rarity:legendary",
+        "skin:2",
+        "style",
+        "unusual",
+        "virtual-set"
+      ],
+      "status": "catalog",
+      "blocks": 4,
+      "assetFiles": 7,
+      "previewUrl": "/larimods-data/v1/icons/frostivus2023_pb-41e8be8dd53f.png",
+      "packageUrl": "",
+      "packageBytes": 0,
+      "previewBytes": 0,
+      "sha256": ""
+    }
+  ],
+  "stats": {
+    "modelBytes": 175600033,
+    "packageBytes": 0,
+    "previewBytes": 0,
+    "modelFiles": 207
+  }
+}
