@@ -1,0 +1,77 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				children = [  ]
+				bone_cull_type = "None"
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "griffin_knight_set_offhand"
+						filename = "models/items/dragon_knight/griffin_knight_set_offhand/griffin_knight_set_offhand_griffin_knight_set_offhand.dmx"
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "griffin_knight_set_offhand_lod1"
+						filename = "models/items/dragon_knight/griffin_knight_set_offhand/griffin_knight_set_offhand_griffin_knight_set_offhand_lod11.dmx"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_shield_gem_1"
+						ignore_rotation = false
+						parent_bone = "shield_2"
+						relative_origin = [ -3.791591, -12.982193, 34.866241 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "attach_shield_gem_2"
+						ignore_rotation = false
+						parent_bone = "shield_2"
+						relative_origin = [ 5.593367, -12.982178, 35.093765 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+					{
+						_class = "Attachment"
+						name = "attach_shield_edge_start"
+						ignore_rotation = false
+						parent_bone = "shield_2"
+						relative_origin = [ 5.593903, -17.293175, -55.537285 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "shield_2"
+						origin = [ 13.270926, 91.486748, 102.60553 ]
+						angles = [ 0.000335, -0.0001, 0.000152 ]
+						do_not_discard = true
+					},
+				]
+			},
+		]
+	}
+}
